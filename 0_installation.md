@@ -60,6 +60,8 @@ Download XZ compressed source tarball
 ```javascript
 // option 1: right click to the tar or zip and choose to 'extract here'
 
-//option 2;
+//option 2:
 tar - xf; // xf is to extract the tar  file
+// ls to the folder it was dowloaded an then use it like so:
+tar -xf Python-3.12.0.tar.xz // presuming this is the version you downloaded
 ```
