@@ -213,5 +213,15 @@ python3.12 --version
 nadiamard@yepyep:~/Downloads/Python-3.12.0$ python3.12 --version
 // result
 Python 3.12.0
-
+// 🌈 this means you have successfully installed python
 ```
+
+<br>
+<br>
+
+---
+
+<br>
+<br>
+
+# 🍭 Extensions
