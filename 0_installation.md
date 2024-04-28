@@ -123,3 +123,7 @@ nproc;
 ```javascript
 sudo apt install neofetch
 ```
+
+- 🔴 it didnt work for me, and before you start installing it, keep in mind you can break your ubuntu if you dont know what you are doing:
+
+https://askubuntu.com/questions/1350036/i-broke-ubuntu-while-installing-neofetch-error-code-keeps-appearing-in-terminal
