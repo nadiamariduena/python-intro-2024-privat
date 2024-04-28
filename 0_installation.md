@@ -84,8 +84,18 @@ cd Python-3.12.0/
 nproc;
 ```
 
+#### result:
+
+- i got 6
+
 <br>
 
 - The **nproc** command displays the number of processing units available to the current process. If it returns 4, it means your system has 4 processing units (usually CPU cores or threads) available.
 
-#### is 4 cores good?
+<br>
+
+### 🍊 is 4 or 6 cores good?
+
+- Consider what you intend to do with Python.
+
+- 4to 6 cores are usually sufficient. However, if you're planning to run computationally intensive tasks or large-scale data processing, more cores could be beneficial.
