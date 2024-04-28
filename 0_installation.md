@@ -156,6 +156,8 @@ VIRT:               Virtual memory being consumed by the process
 COMMAND:   The name of the command that started the process.
 ```
 
-#### another program to see the
+<br>
+
+#### another program to see the quantity of cores
 
 In a nutshell, htop is a useful command-line tool in the Linux environment to determine the cause of load by each process. It is similar to Task Manager in the Windows OS environment. It can be used to troubleshoot and kill a process that is utilizing excessive server resources.
