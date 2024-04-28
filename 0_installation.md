@@ -130,7 +130,19 @@ https://askubuntu.com/questions/1350036/i-broke-ubuntu-while-installing-neofetch
 
 <br>
 
-## HTOP
+## 🍊 HTOP
+
+https://support.cloudways.com/en/articles/5120765-how-to-monitor-system-processes-using-htop-command
+
+```javascript
+// descript
+PID:                 Unique Process ID.
+USER:             Process Owner.
+VIRT:               Virtual memory being consumed by the process
+%CPU:            The percentage of the processor time used by the process.
+%MEM:           The percentage of physical RAM used by the process.
+COMMAND:   The name of the command that started the process.
+```
 
 #### another program to see the
 
