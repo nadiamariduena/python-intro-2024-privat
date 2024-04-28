@@ -132,6 +132,10 @@ https://askubuntu.com/questions/1350036/i-broke-ubuntu-while-installing-neofetch
 
 ## 🍊 HTOP
 
+```javascript
+sudo apt install htop
+```
+
 https://support.cloudways.com/en/articles/5120765-how-to-monitor-system-processes-using-htop-command
 
 ```javascript
