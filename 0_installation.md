@@ -186,3 +186,30 @@ make -j $(nproc)
 ## 🔴 CONCERN:
 
 - i have 6 cores and a lot of data on my comp, and i am installing python, so i dont want my computer gets to slow, i already added 20 of memory ✋ [more memory](MORE-memory.md) because the updated ubuntu version is messy, so what should i do, should i use `make -j $(nproc)`, or if i limit it to 3 cores `make -j3`?
+
+<br>
+<br>
+
+```javascript
+sudo make altinstall
+```
+
+So, "sudo make altinstall" is used to build and install software from source code, ensuring that it's installed with the appropriate permissions and without conflicting with other versions already installed on the system.
+
+<br>
+
+### type this in your terminal
+
+```javascript
+python3.12 --version
+```
+
+### like so
+
+```javascript
+
+nadiamard@yepyep:~/Downloads/Python-3.12.0$ python3.12 --version
+// result
+Python 3.12.0
+
+```
