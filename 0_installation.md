@@ -108,4 +108,18 @@ nproc;
 
 <br>
 
-### Neofetch
+### NEOFETCH
+
+- Neofetch is a command-line system information tool written in bash 3.2+. Neofetch displays information about your operating system, software and hardware in an aesthetic and visually pleasing way.
+
+##### 👍 example: https://github.com/dylanaraps/neofetch
+
+<br>
+
+🍊
+
+#### install neofetch
+
+```javascript
+sudo apt install neofetch
+```
