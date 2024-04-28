@@ -228,4 +228,4 @@ Python 3.12.0
 
 <br>
 
-- GO to the extentsion in your visual studio code, look for **Python intelliSense** (it s the first on the list)
+- GO to the extensions in your visual studio code, look for **Python Microsoft** (it s the first on the list)
