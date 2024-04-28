@@ -49,13 +49,13 @@ https://www.python.org/downloads/source/
 Python 3.12.0 - Oct. 2, 2023
 Download Gzipped source tarball
 
-// pick this one
+// 🍊 pick this one
 Download XZ compressed source tarball
 
 
 ```
 
-### Once the zip has been saved in your downloads(depending on your settings), extrait it there
+### 🍊 Once the zip has been saved in your downloads(depending on your settings), extrait it there
 
 ```javascript
 // option 1: right click to the tar or zip and choose to 'extract here'
@@ -82,7 +82,7 @@ https://www.geeksforgeeks.org/nproc-command-in-linux-with-examples/
 
 <br>
 
-- after **CD** on the Python folder, use the following command
+- 🍊 after **CD** on the Python folder, use the following command
 
 ```javascript
 nproc;
@@ -98,10 +98,14 @@ nproc;
 
 <br>
 
-### 🍊 is 4 or 6 cores good?
+### is 4 or 6 cores good?
 
 - Consider what you intend to do with Python.
 
 - 4 to 6 cores are usually sufficient. However, if you're planning to run computationally intensive tasks or large-scale data processing, more cores could be beneficial.
 
 #### 🔴 If your system's primary purpose is Python development or data processing, having more cores might offer performance benefits. However, for general usage, 4 cores are typically adequate.
+
+<br>
+
+### Neofetch
