@@ -178,3 +178,9 @@ make -j $(nproc)
 **-j:** This option tells make to execute multiple build jobs simultaneously, which can significantly speed up the build process, especially on multi-core processors. The argument following -j specifies the maximum number of concurrent jobs that make should run.
 
 **$(nproc):** This part of the command uses the nproc command to determine the number of available processing units (CPU cores) on the system dynamically. The output of nproc is substituted into the command, so make will run as many jobs concurrently as there are available **CPU cores**.
+
+### ✋ In summary, make -j $(nproc) optimizes the build process by running multiple build jobs in parallel, with the number of jobs being equal to the number of CPU cores on the system. This can lead to faster compilation times, especially for large projects.
+
+<br>
+
+## CONCERN:
