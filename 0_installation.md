@@ -132,6 +132,12 @@ https://askubuntu.com/questions/1350036/i-broke-ubuntu-while-installing-neofetch
 
 ## 🍊 HTOP
 
+<br>
+
+- if you are on ubuntu its probable that its already installed, to see if its already installed type this in your terminal `htop -v`, if you get a version it means you have it, so type this in your terminal to launch it `htop`
+
+<br>
+
 ```javascript
 sudo apt install htop
 ```
