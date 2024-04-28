@@ -236,3 +236,5 @@ https://www.datasource.ai/es/data-science-articles/las-10-mejores-extensiones-de
 <br>
 
 ## 🍭 terminal shells
+
+https://code.visualstudio.com/docs/terminal/basics
