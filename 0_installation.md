@@ -183,4 +183,6 @@ make -j $(nproc)
 
 <br>
 
-## CONCERN:
+## 🔴 CONCERN:
+
+- i have 6 cores and a lot of data on my comp, and i am installing python, so i dont want my computer gets to slow, i already added 20 of memory because the updated ubuntu version is messy, so what should i do, should i use `make -j $(nproc)`?
