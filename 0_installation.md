@@ -64,4 +64,8 @@ Download XZ compressed source tarball
 tar - xf; // xf is to extract the tar  file
 // ls to the folder it was dowloaded an then use it like so:
 tar -xf Python-3.12.0.tar.xz // presuming this is the version you downloaded
+//
+ls
+//😀 once you check where the version of Python is , enter it ith CD
+cd Python-3.12.0/
 ```
