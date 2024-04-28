@@ -78,6 +78,10 @@ cd Python-3.12.0/
 
 ## 🍭 NPROC
 
+https://www.geeksforgeeks.org/nproc-command-in-linux-with-examples/
+
+<br>
+
 - after **CD** on the Python folder, use the following command
 
 ```javascript
