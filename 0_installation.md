@@ -127,3 +127,11 @@ sudo apt install neofetch
 - 🔴 it didnt work for me, and before you start installing it, keep in mind you can break your ubuntu if you dont know what you are doing:
 
 https://askubuntu.com/questions/1350036/i-broke-ubuntu-while-installing-neofetch-error-code-keeps-appearing-in-terminal
+
+<br>
+
+## HTOP
+
+#### another program to see the
+
+In a nutshell, htop is a useful command-line tool in the Linux environment to determine the cause of load by each process. It is similar to Task Manager in the Windows OS environment. It can be used to troubleshoot and kill a process that is utilizing excessive server resources.
