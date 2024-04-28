@@ -1,5 +1,7 @@
 ## 🟡 INSTALLATION
 
+https://www.youtube.com/watch?v=s8njoafRxCM
+
 #### Open your terminal
 
 <br>
@@ -207,7 +209,7 @@ python3.12 --version
 ### like so
 
 ```javascript
-
+// Downloads is where my python folder is
 nadiamard@yepyep:~/Downloads/Python-3.12.0$ python3.12 --version
 // result
 Python 3.12.0
