@@ -78,4 +78,14 @@ cd Python-3.12.0/
 
 ## 🍭 NPROC
 
-- The nproc command displays the number of processing units available to the current process. If it returns 4, it means your system has 4 processing units (usually CPU cores or threads) available.
+- after **CD** on the Python folder, use the following command
+
+```javascript
+nproc;
+```
+
+<br>
+
+- The **nproc** command displays the number of processing units available to the current process. If it returns 4, it means your system has 4 processing units (usually CPU cores or threads) available.
+
+#### is 4 cores good?
