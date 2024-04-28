@@ -225,3 +225,7 @@ Python 3.12.0
 <br>
 
 # 🍭 Extensions
+
+<br>
+
+- GO to the extentsion in your visual studio code, look for **Python intelliSense** (it s the first on the list)
