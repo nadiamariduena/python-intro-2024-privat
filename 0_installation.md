@@ -228,4 +228,11 @@ Python 3.12.0
 
 <br>
 
+https://www.datasource.ai/es/data-science-articles/las-10-mejores-extensiones-de-python-para-visual-studio-code
+
 - GO to the extensions in your visual studio code, look for **Python Microsoft** (it s the first on the list)
+
+<br>
+<br>
+
+## 🍭 terminal shells
