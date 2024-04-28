@@ -165,6 +165,16 @@ In a nutshell, htop is a useful command-line tool in the Linux environment to de
 <br>
 <br>
 
+## 🍊 REad about this command `make -j $(nproc)` before typing it on the terminal
+
+### The command make -j $(nproc) is used in software development, particularly when compiling code with the make build automation tool. Here's what each part of the command does:
+
 ```javascript
 make -j $(nproc)
 ```
+
+**make:** This command invokes the make tool, which is commonly used to automate the build process for software projects. It reads a file called Makefile and executes the commands listed in it to build the project.
+
+**-j:** This option tells make to execute multiple build jobs simultaneously, which can significantly speed up the build process, especially on multi-core processors. The argument following -j specifies the maximum number of concurrent jobs that make should run.
+
+**$(nproc):** This part of the command uses the nproc command to determine the number of available processing units (CPU cores) on the system dynamically. The output of nproc is substituted into the command, so make will run as many jobs concurrently as there are available **CPU cores**.
