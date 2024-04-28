@@ -185,4 +185,4 @@ make -j $(nproc)
 
 ## 🔴 CONCERN:
 
-- i have 6 cores and a lot of data on my comp, and i am installing python, so i dont want my computer gets to slow, i already added 20 of memory because the updated ubuntu version is messy, so what should i do, should i use `make -j $(nproc)`?
+- i have 6 cores and a lot of data on my comp, and i am installing python, so i dont want my computer gets to slow, i already added 20 of memory ✋ [more memory](MORE-memory.md) because the updated ubuntu version is messy, so what should i do, should i use `make -j $(nproc)`, or if i limit it to 3 cores `make -j3`?
