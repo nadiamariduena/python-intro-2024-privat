@@ -69,3 +69,13 @@ ls
 //😀 once you check where the version of Python is , enter it ith CD
 cd Python-3.12.0/
 ```
+
+<br>
+
+---
+
+<br>
+
+## 🍭 NPROC
+
+- The nproc command displays the number of processing units available to the current process. If it returns 4, it means your system has 4 processing units (usually CPU cores or threads) available.
