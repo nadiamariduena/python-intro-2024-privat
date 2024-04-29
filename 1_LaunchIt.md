@@ -94,3 +94,5 @@ print(greeting);
 ### to run the code
 
 - check at the top right of the `someFile.py` you will see am arrow, click to unfold and select **run python file**
+
+> **IF YOU NOTICE** within your VS terminal you have now a python terminal
