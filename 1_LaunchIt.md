@@ -35,6 +35,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
+> 🌈 So everytime you want to use this, type `python` on your VS terminal
+
 <br>
 
 https://askubuntu.com/questions/1144446/python-installed-in-ubuntu-but-python-command-not-found
@@ -47,4 +49,17 @@ Python 3.8.10 (default, Nov 22 2023, 10:22:35)
 Type "help", "copyright", "credits" or "license" for more information.
 >>> 2 + 2
 4
+```
+
+<br>
+
+#### to get out, type `quit()`
+
+<br>
+
+```javascript
+Python 3.8.10 (default, Nov 22 2023, 10:22:35)
+[GCC 9.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> quit()
 ```
