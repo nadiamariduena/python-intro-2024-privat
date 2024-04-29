@@ -106,9 +106,11 @@ print(greeting);
 - Type in your terminal
 
 ```javascript
+// on the video tutorial
 py someFile.py // (or whatever you python file name is)
 //
 // In my case my file is named hello.py and in my comp i use python and not the py, like so
 python hello.py
 // result
+Hello world!
 ```
