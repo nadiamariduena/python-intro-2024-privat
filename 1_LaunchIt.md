@@ -90,3 +90,7 @@ someFile.py;
 greeting = "Hello world!";
 print(greeting);
 ```
+
+### to run the code
+
+- check at the top right of the `someFile.py` you will see am arrow, click to unfold and select **run python file**
