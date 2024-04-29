@@ -26,4 +26,11 @@ Type "help", "copyright", "credits" or "license" for more information.
 sudo apt-get install python-is-python3
 ```
 
-### Now if i type `python`
+### Now if i type `python` within my VS terminal i get this
+
+```javascript
+Python 3.8.10 (default, Nov 22 2023, 10:22:35)
+[GCC 9.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
