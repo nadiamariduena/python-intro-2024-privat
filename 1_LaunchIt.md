@@ -34,3 +34,7 @@ Python 3.8.10 (default, Nov 22 2023, 10:22:35)
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
+
+<br>
+
+https://askubuntu.com/questions/1144446/python-installed-in-ubuntu-but-python-command-not-found
