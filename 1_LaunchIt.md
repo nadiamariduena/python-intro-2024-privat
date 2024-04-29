@@ -63,3 +63,23 @@ Python 3.8.10 (default, Nov 22 2023, 10:22:35)
 Type "help", "copyright", "credits" or "license" for more information.
 >>> quit()
 ```
+
+<br>
+
+<br>
+
+---
+
+<br>
+
+<br>
+
+## 🍭 Create a FILE
+
+format: `.py`
+
+#### like so
+
+```javascript
+someFile.py;
+```
