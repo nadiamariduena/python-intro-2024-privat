@@ -83,3 +83,10 @@ format: `.py`
 ```javascript
 someFile.py;
 ```
+
+### within the file add this
+
+```javascript
+greeting = "Hello world!";
+print(greeting);
+```
