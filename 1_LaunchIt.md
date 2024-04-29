@@ -84,7 +84,7 @@ format: `.py`
 someFile.py;
 ```
 
-### within the file add this
+#### within the file add this
 
 ```javascript
 greeting = "Hello world!";
@@ -93,6 +93,22 @@ print(greeting);
 
 ### to run the code
 
+#### option 1
+
 - check at the top right of the `someFile.py` you will see am arrow, click to unfold and select **run python file**
 
 > **IF YOU NOTICE** within your VS terminal you have now a python terminal
+
+<br>
+
+#### option 1
+
+- Type in your terminal
+
+```javascript
+py someFile.py // (or whatever you python file name is)
+//
+// In my case my file is named hello.py and in my comp i use python and not the py, like so
+python hello.py
+// result
+```
