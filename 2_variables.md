@@ -25,3 +25,16 @@ name001 = "Dave"
 <br>
 
 ### Expression vs Statements
+
+```javascript
+//  to test it, launch the server python on the VS terminal: type python
+// examples of expressions
+2 + 2;
+// result
+4;
+//
+//  if you write the below, its also an expression
+("Expression");
+//  result
+("Expression");
+```
