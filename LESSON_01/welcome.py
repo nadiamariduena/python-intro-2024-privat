@@ -5,3 +5,12 @@ line01= "********************"
 line02= "*                  *"
 #  on the line03 , do the same, leave 2 sterisks and count 12345 then write welcome, count 12345 again
 line03= "*      WELCOME     "
+
+
+
+print("")
+print(line01)
+print(line02)
+print(line03)
+print(line02)
+print(line01)
