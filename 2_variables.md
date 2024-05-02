@@ -20,3 +20,8 @@ name_one = "Dave"
 //  ✅ use numbers at the end of the variable
 name001 = "Dave"
 ```
+
+<br>
+<br>
+
+### Expression vs Statements
