@@ -29,6 +29,20 @@ name = "Dave";
 4 // no longer decimals
 ```
 
-`24 // 5`
+<br>
+
+### `24 // 5`
 
 - other options
+
+```python
+# on your terminal type python to init it
+>>> 24 / 5
+4.8
+>>> round(24/5)
+5
+>>> 24 // 5
+4
+>>>
+
+```
