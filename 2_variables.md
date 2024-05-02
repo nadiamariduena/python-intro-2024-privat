@@ -5,5 +5,6 @@
 #### 🔴 DONT
 
 ```javascript
-
+// ✋ DONT start the variables with numbers:
+0001name = "Dave";
 ```
