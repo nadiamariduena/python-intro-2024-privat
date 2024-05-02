@@ -1,6 +1,6 @@
 # Assign
 
-- Assign operator \*_=_
+- Assign operator `=`
 
 ```javascript
 name = "Dave";
