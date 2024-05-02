@@ -23,4 +23,10 @@ name = "Dave";
 //  try something different
 24 / 5;
 // 4.8 / you will get it in decimals
+// to round the result you can use 2 of the division operator //
+24 / and then / again 5
+// result
+4 // no longer decimals
 ```
+
+`24 // 5`
