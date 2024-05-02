@@ -58,3 +58,25 @@ myname;
 ### other statement
 
 - At the top right of the file you will be working, you have an arrow, once we are done with the code below, unfold the arrow and choose **"run python file"**
+
+```python
+## shift + alt d to dupli
+## 20 asterisks
+line01= "********************"
+# remove all of the arterisk from the line02, leave only 2 asterisks
+line02= "*                  *"
+#  on the line03 , do the same, leave 2 sterisks and count 12345 then write welcome, count 12345 again
+line03= "*      WELCOME     "
+
+
+
+print("")
+print(line01)
+print(line02)
+print(line03)
+print(line02)
+print(line01)
+
+```
+
+#### result
