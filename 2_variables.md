@@ -13,4 +13,6 @@
 //
 // ✋ EXCLAMATION isnt allowed either
 name! = "Dave"
+//  ✋ hyphen / minus isnt allowed either
+name-first = "Dave"
 ```
