@@ -51,3 +51,10 @@ myname;
 ("mel"); // result
 //  Type quit() to leave
 ```
+
+<br>
+<br>
+
+### other statement
+
+- At the top right of the file you will be working, you have an arrow, once we are done with the code below, unfold the arrow and choose **"run python file"**
