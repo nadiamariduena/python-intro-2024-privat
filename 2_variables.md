@@ -45,4 +45,5 @@ myname = "mel";
 myname;
 // press enter again
 ("mel"); // result
+//  Type quit() to leave
 ```
