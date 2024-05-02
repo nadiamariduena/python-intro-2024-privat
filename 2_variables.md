@@ -37,4 +37,12 @@ name001 = "Dave"
 ("Expression");
 //  result
 ("Expression");
+//
+//
+// type the below,  press enter
+myname = "mel";
+//result:
+myname;
+// press enter again
+("mel"); // result
 ```
