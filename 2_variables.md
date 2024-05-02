@@ -2,6 +2,10 @@
 
 - Its similar to javascript
 
+### Lets start, to test it, launch the server python on the VS terminal:
+
+- type python there
+
 #### 🔴 DONT
 
 ```javascript
