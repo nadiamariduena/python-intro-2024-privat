@@ -15,4 +15,8 @@
 name! = "Dave"
 //  ✋ hyphen / minus isnt allowed either
 name-first = "Dave"
+//  ✅ use underscores
+name_one = "Dave"
+//  ✅ use numbers at the end of the variable
+name001 = "Dave"
 ```
