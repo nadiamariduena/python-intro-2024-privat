@@ -1,4 +1,3 @@
 ## shift + alt d to dupli
-
-line01= "************"
-line01= "************"
+## 20 asterisks
+line01= "********************"
