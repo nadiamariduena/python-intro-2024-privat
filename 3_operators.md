@@ -89,14 +89,14 @@ True
 
 - using the **not**
 
-```javascript
-// first assign a boolean to each of the 3 variables below
+```python
+# first assign a boolean to each of the 3 variables below
 >>> x = True
 >>> y = False
 >>> z = True
 
-//
-// We will get the opposite by using the not
+#
+# We will get the opposite by using the not
 >>> not x
 False
 >>> not y
@@ -109,3 +109,17 @@ False
 ### and
 
 - Will evaluate the first value between these 2 `x and y`, and if the value is **true** then it will continue to check the second to see if its true or false, and it will show the value of the second (keep in mind that if the first value wasnt true, it would have stoped there and wouldnt have check the second value)
+
+```python
+>>> x and y
+False
+```
+
+#### based on this
+
+```python
+# first assign a boolean to each of the 3 variables below
+>>> x = True
+>>> y = False
+>>> z = True
+```
