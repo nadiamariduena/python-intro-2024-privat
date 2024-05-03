@@ -69,4 +69,15 @@ True
 >>> 42 != 42
 False
 >>>
+// is 43 not equal to 42. its true because they are not the same
+>>> 43 != 42
+True
+>>>
+//
+//
+>>> 10 < 5
+False
+>>> 10 > 5
+True
+>>>
 ```
