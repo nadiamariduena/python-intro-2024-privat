@@ -50,4 +50,5 @@ name = "Dave";
 >>> 2 ** 3
 8
 >>>
+#  concatenation also works like in javascript
 ```
