@@ -130,3 +130,17 @@ False
 ### 🍭 OR
 
 - in the example It **will only look at the second if the first is false**
+
+```python
+# first assign a boolean to each of the 3 variables below
+>>> x = True
+>>> y = False
+>>> z = True
+
+#
+#
+#
+>>> x or y
+True
+
+```
