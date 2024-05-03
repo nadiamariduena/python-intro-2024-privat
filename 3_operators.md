@@ -60,5 +60,13 @@ name = "Dave";
 -
 
 ```javascript
-
+//
+>>> 42 == 41
+False
+>>> 42 == 42
+True
+// is 42 not equal to 42, false because they are equals
+>>> 42 != 42
+False
+>>>
 ```
