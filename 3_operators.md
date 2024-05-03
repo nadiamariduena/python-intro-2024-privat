@@ -105,3 +105,7 @@ True
 False
 >>>
 ```
+
+### and
+
+- Will evaluate the first value between these 2 `x and y`, and if the value is **true** then it will continue to check the second to see if its true or false, and it will show the value of the second (keep in mind that if the first value wasnt true, it would have stoped there and wouldnt have check the second value)
