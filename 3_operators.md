@@ -52,3 +52,13 @@ name = "Dave";
 >>>
 #  concatenation also works like in javascript
 ```
+
+<br>
+
+### Comparison operator
+
+-
+
+```javascript
+
+```
