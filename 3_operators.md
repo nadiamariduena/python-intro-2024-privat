@@ -55,12 +55,12 @@ name = "Dave";
 
 <br>
 
-### Comparison operator
+### Comparison
 
--
+- comparison operator
 
 ```javascript
-//
+// Boolean : true or false
 >>> 42 == 41
 False
 >>> 42 == 42
