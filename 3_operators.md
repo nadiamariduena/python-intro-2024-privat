@@ -80,4 +80,28 @@ False
 >>> 10 > 5
 True
 >>>
+
+```
+
+<br>
+
+## not
+
+- using the **not**
+
+```javascript
+// first assign a boolean to each of the 3 variables below
+>>> x = True
+>>> y = False
+>>> z = True
+
+//
+// We will get the opposite by using the not
+>>> not x
+False
+>>> not y
+True
+>>> not z
+False
+>>>
 ```
