@@ -24,8 +24,19 @@ print(type(first))
 #### another way
 
 ```python
+first = 'Rick'
+last = "Blaz"
+
+# print(type(first))
 print(type(first)== str)
+#
+# result
+True
 ```
+
+<br>
+
+---
 
 <br>
 
