@@ -1,4 +1,4 @@
-## CONCATENATION
+## 🟡CONCATENATION
 
 ```python
 first = 'Laure'
@@ -8,5 +8,6 @@ fullname = first + " " + last
 print(fullname)
 #
 #result
+#its like in js, it concatenate the 2 variables into 1
 Laure Blaz
 ```
