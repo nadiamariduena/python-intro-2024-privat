@@ -25,13 +25,29 @@ print(type(first))
 
 ## BOOL (boolean)
 
-```javascript
+```python
 # String data type
 # literal assignment
 first = True
 last = False
 
 print(type(first))
-// result
+# result
 <class 'bool'>
+```
+
+<br>
+<br>
+
+## INT (integer)
+
+```python
+# String data type
+# literal assignment
+first = 56
+last = 23
+
+print(type(first))
+# result
+<class 'int'>
 ```

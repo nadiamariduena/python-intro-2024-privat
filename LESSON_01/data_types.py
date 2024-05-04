@@ -1,6 +1,6 @@
 # String data type
 # literal assignment
-first = True
-last = False
+first = 56
+last = 23
 
 print(type(first))
