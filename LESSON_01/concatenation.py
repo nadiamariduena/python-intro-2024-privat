@@ -12,3 +12,4 @@ print(fullname)
 
 decade = str(1982)
 print(type(decade))
+print(decade)

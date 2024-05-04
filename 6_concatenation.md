@@ -37,3 +37,17 @@ print(fullname)
 fullname += "!"
 print(fullname)
 ```
+
+<br>
+<br>
+
+## Number to String
+
+```javascript
+#🟥 number to string
+#I need to convert the number to a string to concatenate it to the fullname
+
+decade = str(1982)
+print(type(decade))
+print(decade)
+```
