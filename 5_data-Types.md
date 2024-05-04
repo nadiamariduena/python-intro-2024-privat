@@ -21,6 +21,12 @@ print(type(first))
 <class 'str'>
 ```
 
+#### another way
+
+```python
+print(type(first)== str)
+```
+
 <br>
 
 ## BOOL (boolean)

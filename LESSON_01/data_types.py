@@ -1,6 +1,7 @@
 # String data type
 # literal assignment
-first = 56
-last = 23
+first = 'Rick'
+last = "Blaz"
 
-print(type(first))
+# print(type(first))
+print(type(first)== str)
