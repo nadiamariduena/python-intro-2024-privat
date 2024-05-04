@@ -70,6 +70,7 @@ print(fullname)
 #I need to convert the number to a string to concatenate it to the fullname
 
 decade = str(1982)
+# assigning the type
 print(type(decade))
 print(decade)
 ```
