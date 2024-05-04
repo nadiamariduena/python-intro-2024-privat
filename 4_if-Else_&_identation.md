@@ -35,3 +35,19 @@ if meaning > 10:
 <br>
 
 [<img src="./img/python-indentation.png.webp"/>](https://www.askpython.com/python/python-indentation)
+
+<br>
+<br>
+
+```python
+
+meaning = 42
+print("")
+
+if meaning > 10:
+    print("Right on!")
+#if you see a yellow underline , and when hovering it tells you that you are wrongly indentating, launch the server at the top
+else:
+    print('not today')
+
+```

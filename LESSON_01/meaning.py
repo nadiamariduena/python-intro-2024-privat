@@ -2,4 +2,6 @@ meaning = 42
 print("")
 
 if meaning > 10:
-   print("Right on!")
+    print("Right on!")
+else:
+    print('not today')
