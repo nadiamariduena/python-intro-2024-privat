@@ -13,6 +13,8 @@ if meaning > 10:
 
 # 🔴 indentation
 
+https://www.askpython.com/python/python-indentation
+
 ```javascript
 // without indentation
 if meaning > 10:
@@ -26,3 +28,5 @@ if meaning > 10:
    print("Right on!")
 // here the print() starts after
 ```
+
+[<img src="./src/img/preview2.gif"/>](https://www.askpython.com/python/python-indentation)
