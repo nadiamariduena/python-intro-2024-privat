@@ -32,6 +32,27 @@ print(type(first)== str)
 #
 # result
 True
+#💛 you will also get the same result with this
+print(isinstance(first, str))
+```
+
+### before continuing , this is what i got
+
+```python
+# String data type
+# literal assignment
+first = 'Rick'
+last = "Blaz"
+
+print(type(first))
+print(type(first)== str)
+print(isinstance(first, str))
+
+#
+# result terminal
+<class 'str'>
+True
+True
 ```
 
 <br>
