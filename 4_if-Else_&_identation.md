@@ -51,3 +51,8 @@ else:
     print('not today')
 
 ```
+
+<br>
+<br>
+
+## Ternary operator

@@ -5,3 +5,6 @@ print("")
 #     print("Right on!")
 # else:
 #     print('not today')
+
+#
+print('Right on 🦄!') if meaning > 10 else print("Not today")
