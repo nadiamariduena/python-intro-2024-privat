@@ -8,4 +8,7 @@ fullname += "!"
 print(fullname)
 
 #🟥 number to string
-# we need to convert the number to a string to concatenate it to the fullname
+#I need to convert the number to a string to concatenate it to the fullname
+
+decade = str(1982)
+print(type(decade))
