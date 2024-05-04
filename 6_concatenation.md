@@ -73,3 +73,9 @@ decade = str(1982)
 print(type(decade))
 print(decade)
 ```
+
+#### result
+
+```html
+Laure Blaz Laure Blaz! <class 'str'> 1982
+```
