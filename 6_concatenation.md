@@ -1,4 +1,17 @@
-## 🟡CONCATENATION
+## 🟡 CONCATENATION
+
+- Basic concatenation
+
+- Number to string concatenation
+
+<br>
+<br>
+
+---
+
+<br>
+
+#### Basic concatenation
 
 ```python
 first = 'Laure'

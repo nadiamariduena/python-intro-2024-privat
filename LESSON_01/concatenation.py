@@ -6,3 +6,6 @@ print(fullname)
 # in addition you can also add this below, it will add the exclamation to the full name
 fullname += "!"
 print(fullname)
+
+#🟥 number to string
+# we need to convert the number to a string to concatenate it to the fullname
