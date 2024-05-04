@@ -13,3 +13,8 @@ print(fullname)
 decade = str(1982)
 print(type(decade))
 print(decade)
+
+## Another example
+# add another variable that will contain the previous information
+statement = 'I like rock music ' + decade + 's.'
+print(statement)

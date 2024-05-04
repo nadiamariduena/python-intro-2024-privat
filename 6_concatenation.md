@@ -77,6 +77,9 @@ print(decade)
 
 #### result
 
-```html
-Laure Blaz Laure Blaz! <class 'str'> 1982
+```python
+Laure Blaz
+Laure Blaz!
+<class 'str'>
+1982
 ```
