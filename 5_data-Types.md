@@ -89,3 +89,11 @@ print(type(first))
 # result
 <class 'int'>
 ```
+
+<br>
+
+---
+
+<br>
+
+## CONCATENATION
