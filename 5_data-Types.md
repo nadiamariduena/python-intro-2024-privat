@@ -1,5 +1,9 @@
 ## DATA types
 
+<br>
+
+### STR (string)
+
 ```python
 # String data type
 # literal assignment
@@ -15,4 +19,19 @@ print(type(first))
 
 ```python
 <class 'str'>
+```
+
+<br>
+
+## BOOL (boolean)
+
+```javascript
+# String data type
+# literal assignment
+first = True
+last = False
+
+print(type(first))
+// result
+<class 'bool'>
 ```

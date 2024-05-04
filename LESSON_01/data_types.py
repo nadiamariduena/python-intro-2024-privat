@@ -1,6 +1,6 @@
 # String data type
 # literal assignment
-first = 'Rick'
-last = "Blaz"
+first = True
+last = False
 
 print(type(first))
