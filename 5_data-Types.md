@@ -95,5 +95,3 @@ print(type(first))
 ---
 
 <br>
-
-## CONCATENATION
