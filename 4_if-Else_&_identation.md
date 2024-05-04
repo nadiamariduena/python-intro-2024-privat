@@ -11,6 +11,9 @@ if meaning > 10:
 
 ```
 
+<br>
+<br>
+
 # 🔴 indentation
 
 https://www.askpython.com/python/python-indentation
@@ -29,4 +32,6 @@ if meaning > 10:
 // here the print() starts after
 ```
 
-[<img src="./src/img/preview2.gif"/>](https://www.askpython.com/python/python-indentation)
+<br>
+
+[<img src="./img/python-indentation.png.webp"/>](https://www.askpython.com/python/python-indentation)
