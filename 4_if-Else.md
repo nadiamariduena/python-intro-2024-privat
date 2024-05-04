@@ -10,3 +10,18 @@ if meaning > 10:
    print("Right on!")
 
 ```
+
+# 🔴 indentation
+
+```javascript
+// without indentation
+if meaning > 10:
+print("Right on!")
+// if you add the print() from the beginning of the line, you will notice that the colons will show you an error, and the reason for that is because you are telling it, that the logic ends there and you wont continue
+//
+
+//  with identation
+//
+if meaning > 10:
+   print("Right on!")
+```
