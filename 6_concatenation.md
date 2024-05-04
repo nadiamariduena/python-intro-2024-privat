@@ -132,3 +132,31 @@ Laure Blaz!
 1982
 I like rock music 1982s.
 ```
+
+<br>
+<br>
+
+## Multiline
+
+```javascript
+#
+#
+# 🟠 Multiple lines
+
+multiline = '''
+Hey, how are you?
+
+I was just checking in.
+                         All good things
+'''
+print(multiline)
+```
+
+#### result
+
+```javascript
+Hey, how are you?
+
+I was just checking in.
+                         All good things
+```
