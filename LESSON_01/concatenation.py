@@ -18,3 +18,16 @@ print(decade)
 # add another variable that will contain the previous information
 statement = 'I like rock music ' + decade + 's.'
 print(statement)
+
+
+#
+#
+# 🟠 Multiple lines
+
+multiline = '''
+Hey, how are you?
+
+I was just checking in.
+                         All good things
+'''
+print(multiline)
