@@ -186,3 +186,36 @@ I was just checking in.
 ## 🟡 spaces
 
 #### make spaces between one paragraph and another use this: `print("")` like so
+
+<br>
+
+```javascript
+# White space
+
+print(len(multiline.strip()))
+print(len(multiline.lstrip()))
+print(len(multiline.rstrip()))
+// before text -----
+//
+//  space
+print("")
+// space
+//
+// --- another text
+anotherText =  '''
+Jelly , hello
+'''
+print(anotherText)
+//---------
+//
+//
+// result
+
+85
+83
+84
+84
+
+
+Jelly , hello
+```

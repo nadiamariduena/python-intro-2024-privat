@@ -40,3 +40,10 @@ print(len(multiline.lstrip()))
 print(len(multiline.rstrip()))
 
 print("")
+
+anotherLine =  '''
+Jelly , hello
+'''
+
+
+print(anotherLine)
