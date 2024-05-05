@@ -26,3 +26,6 @@ print(first.upper())
 print(first)
 
 
+print(multiline.title())
+print(multiline.replace("good", "ok"))
+print(multiline)

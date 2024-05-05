@@ -93,3 +93,5 @@ laure
 LAURE
 Laure
 ```
+
+### CAPITAL case
