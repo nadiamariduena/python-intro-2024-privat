@@ -24,5 +24,14 @@ print(title.center(20, "="))
 # position the coffee to the Left with ljust (justfify content left ) https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self
 #
 # Add 16 dot character
+print('Coffee'.ljust(16, '.') + '$1'.rjust(4))
+# add the 1$ to the right with (rjust), leave 4 character between the dots and the 1$
+#result
+Coffee..........  $1
+#
+# OR
 print('Coffee'.ljust(16, '.') + '$1'.rjust(1))
+#See the difference, the space between the dots and the 1$
+#result
+Coffee..........$1
 ```
