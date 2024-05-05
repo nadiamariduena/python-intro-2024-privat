@@ -79,3 +79,13 @@ print(first2.endswith("Z"))
 <br>
 
 ## Boolean type
+
+```python
+# BOOLEAN TPE
+
+myvalue = True
+x = bool(False)
+# check the type
+print(type(x))
+print(isinstance(myvalue, bool))
+```
