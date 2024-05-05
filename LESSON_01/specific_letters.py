@@ -25,3 +25,4 @@ print("")
 
 
 print(first.startswith("D"))
+# result: False
