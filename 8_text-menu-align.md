@@ -1,4 +1,4 @@
-# Build a Menu
+# 🟡 Build a Menu
 
 https://youtu.be/INGJh9DEaBM?feature=shared&t=1310
 
@@ -18,7 +18,7 @@ print(title.center(20, "="))
 <br>
 <br>
 
-# Structure Price
+# 🟡 Structure Price
 
 ```python
 # position the coffee to the Left with ljust (justfify content left ) https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self
@@ -63,4 +63,21 @@ Muffin..........$25
 
 ===EXTRA EXPENSES===
 Eclair.......... €8
+```
+
+<br>
+<br>
+
+## 🟡 REACH specific letter
+
+```python
+#--- reach specific letter from the vars below
+first = 'Laure'
+last = "Blaz"
+
+# string index values
+print(first[1])
+#
+# RESULT
+a
 ```

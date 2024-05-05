@@ -14,6 +14,13 @@ print(extraTitle.center(20, "="))
 print('Eclair'.ljust(16, '.') + '€8'.rjust(3))
 # ---- done
 #
-#--- reach specific letter
+# space
+print("")
+#
+#
+#--- reach specific letter from the vars below
 first = 'Laure'
 last = "Blaz"
+
+# string index values
+print(first[1])
