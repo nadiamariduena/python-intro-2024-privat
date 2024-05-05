@@ -1,3 +1,4 @@
+#space
 print("")
  # Build a Menu
 title = "menu".upper()
@@ -6,8 +7,13 @@ print('Coffee'.ljust(16, '.') + '$1'.rjust(3))
 #
 #
 print('Muffin'.ljust(16, '.') + '$25'.rjust(3))
+# space
 print("")
 extraTitle = "extra expenses".upper()
 print(extraTitle.center(20, "="))
 print('Eclair'.ljust(16, '.') + '€8'.rjust(3))
+# ---- done
 #
+#--- reach specific letter
+first = 'Laure'
+last = "Blaz"
