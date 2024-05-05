@@ -34,9 +34,11 @@ print(len(multiline))
 
 #
 # White space
-
+# to see the caracters
 print(len(multiline.strip()))
+# #l for left
 print(len(multiline.lstrip()))
+# r for right character
 print(len(multiline.rstrip()))
 
 print("")
