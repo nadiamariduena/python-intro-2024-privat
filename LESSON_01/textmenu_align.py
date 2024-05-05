@@ -1,7 +1,13 @@
+print("")
  # Build a Menu
 title = "menu".upper()
 print(title.center(20, "="))
-print('Coffee'.ljust(16, '.') + '$1'.rjust(1))
+print('Coffee'.ljust(16, '.') + '$1'.rjust(3))
 #
 #
+print('Muffin'.ljust(16, '.') + '$25'.rjust(3))
+print("")
+extraTitle = "extra expenses".upper()
+print(extraTitle.center(20, "="))
+print('Eclair'.ljust(16, '.') + '€8'.rjust(3))
 #
