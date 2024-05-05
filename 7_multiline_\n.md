@@ -45,3 +45,27 @@ Hey, how are you?
 I was just checking in.
                          All good things
 ```
+
+<br>
+<br>
+
+## Using
+
+```python
+#
+# Escaping special characters
+#
+sentence = 'I\'m back at work!\tHey!\n\nWhere\'s this at \\located'
+print(sentence)
+#
+#
+# RESULT
+Hey, how are you?
+
+I was just checking in.
+                         All good things
+
+I'm back at work!       Hey!
+
+Where's this at \located
+```
