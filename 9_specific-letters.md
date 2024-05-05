@@ -29,8 +29,22 @@ print(first[1])
 # RESULT
 # will grab the last letter
 e
+
 ```
 
 ## RANGE
 
 https://pynative.com/python-range-function/
+
+```python
+first2 = 'Lorraino'
+last2 = "Patsy"
+#
+#will remove the first and the last one
+print(first2[1:-1])
+# result: orrain
+#
+#
+print(first2[1:])
+# result: orraino
+```
