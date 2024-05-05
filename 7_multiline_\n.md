@@ -108,7 +108,7 @@ print(multiline)
 
 #
 #
-#
+# the title() will convert it to capital case
 print(multiline.title())
 # it will replace the word good for ok on the second paragraph
 print(multiline.replace("good", "ok"))
@@ -116,6 +116,7 @@ print(multiline)
 #
 #
 
+# has capitalcase on the "How" due to the title()
 Hey, How Are You?
 
 I Was Just Checking In.
