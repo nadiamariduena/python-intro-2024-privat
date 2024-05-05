@@ -28,3 +28,13 @@ print(first.startswith("D"))
 # result: False
 # --- check if the variable ends with Z
 print(first2.endswith("Z"))
+
+#
+#
+# BOOLEAN TPE
+
+myvalue = True
+x = bool(False)
+# check the type
+print(type(x))
+print(isinstance(myvalue, bool))
