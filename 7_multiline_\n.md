@@ -95,3 +95,41 @@ Laure
 ```
 
 ### CAPITAL case
+
+```python
+multiline = '''
+Hey, how are you?
+
+I was just checking in.
+                         All good things
+'''
+print(multiline)
+
+
+#
+#
+#
+print(multiline.title())
+# it will replace the word good for ok on the second paragraph
+print(multiline.replace("good", "ok"))
+print(multiline)
+#
+#
+
+Hey, How Are You?
+
+I Was Just Checking In.
+                         All Good Things
+
+
+Hey, how are you?
+
+I was just checking in.
+                         All ok things
+
+
+Hey, how are you?
+
+I was just checking in.
+                         All good things
+```
