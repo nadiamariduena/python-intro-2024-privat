@@ -30,7 +30,11 @@ print(multiline.title())
 print(multiline.replace("good", "ok"))
 print(multiline)
 
+print(len(multiline))
+
 #
 # White space
 
-print(multiline.strip())
+print(len(multiline.strip()))
+print(len(multiline.lstrip()))
+print(len(multiline.rstrip()))

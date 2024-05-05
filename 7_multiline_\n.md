@@ -145,8 +145,38 @@ I was just checking in.
                          All good things
 '''
 print(multiline)
+print(len(multiline)) # to see the characters
+
+#
+# White space
+
+print(len(multiline.strip()))
+print(len(multiline.lstrip()))
+print(len(multiline.rstrip()))
+
+
 #
 #
 #
-print(multiline.strip())
+Hey, How Are You?
+
+I Was Just Checking In.
+                         All Good Things
+
+
+Hey, how are you?
+
+I was just checking in.
+                         All ok things
+
+
+Hey, how are you?
+
+I was just checking in.
+                         All good things
+
+85
+83
+84
+84
 ```
