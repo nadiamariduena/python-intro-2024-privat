@@ -60,6 +60,8 @@ print(first2[1:])
 <br>
 <br>
 
+# Starts with or Ends
+
 ## BOOLEAN (find if a word contains a specific letter, if yes then TRUE )
 
 ```python
@@ -69,4 +71,6 @@ last2 = "Patsy"
 #
 print(first.startswith("D"))
 # result: False
+# --- check if the variable ends with Z
+print(first2.endswith("Z"))
 ```
