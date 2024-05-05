@@ -16,3 +16,12 @@ print(first2[1:-1])
 #
 print(first2[1:])
 # result: orraino
+
+print("")
+
+# -----
+# Some methods return BOOLEAN
+# - find if a word contains a specific letter, if yes then TRUE
+
+
+print(first.startswith("D"))

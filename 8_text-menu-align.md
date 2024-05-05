@@ -47,7 +47,9 @@ print('Coffee'.ljust(16, '.') + '$1'.rjust(3))
 #
 #
 print('Muffin'.ljust(16, '.') + '$25'.rjust(3))
+# space
 print("")
+# space
 extraTitle = "extra expenses".upper()
 print(extraTitle.center(20, "="))
 print('Eclair'.ljust(16, '.') + '€8'.rjust(3))
