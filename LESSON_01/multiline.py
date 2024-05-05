@@ -29,3 +29,8 @@ print(first)
 print(multiline.title())
 print(multiline.replace("good", "ok"))
 print(multiline)
+
+#
+# White space
+
+print(multiline.strip())
