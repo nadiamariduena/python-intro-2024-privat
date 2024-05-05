@@ -219,3 +219,20 @@ print(anotherText)
 
 Jelly , hello
 ```
+
+<br>
+<br>
+
+## Build A MENU
+
+```python
+
+
+ # Build a Menu
+title = "menu".upper()
+print(title.center(20, "="))
+#
+#  RESULT
+
+========MENU========
+```
