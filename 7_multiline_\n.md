@@ -74,3 +74,22 @@ Where's this at \located
 <br>
 
 ## LOWER & UPPER (lower and uppercase)
+
+```python
+# String Methods
+
+first = 'Laure'
+last = "Blaz"
+
+
+print(first)
+print(first.lower())
+print(first.upper())
+print(first)
+#
+# RESULT
+Laure
+laure
+LAURE
+Laure
+```
