@@ -38,3 +38,5 @@ print(len(multiline))
 print(len(multiline.strip()))
 print(len(multiline.lstrip()))
 print(len(multiline.rstrip()))
+
+print("")

@@ -180,3 +180,9 @@ I was just checking in.
 84
 84
 ```
+
+<br>
+
+## 🟡 spaces
+
+#### make spaces between one paragraph and another use this: `print("")` like so
