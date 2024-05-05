@@ -26,3 +26,5 @@ print("")
 
 print(first.startswith("D"))
 # result: False
+# --- check if the variable ends with Z
+print(first2.endswith("Z"))
