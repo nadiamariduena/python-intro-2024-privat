@@ -30,3 +30,7 @@ print(first[1])
 # will grab the last letter
 e
 ```
+
+## RANGE
+
+https://pynative.com/python-range-function/
