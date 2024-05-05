@@ -61,3 +61,12 @@ print(first2[1:])
 <br>
 
 ## BOOLEAN (find if a word contains a specific letter, if yes then TRUE )
+
+```python
+#
+first2 = 'Lorraino'
+last2 = "Patsy"
+#
+print(first.startswith("D"))
+# result: False
+```
