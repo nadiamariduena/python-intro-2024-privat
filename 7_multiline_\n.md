@@ -1,4 +1,4 @@
-# MULTILINE, lowercase, uppercase..
+# MULTILINE, lowercase, uppercase..whitespace
 
 - default
 
@@ -136,3 +136,17 @@ I was just checking in.
 ```
 
 ### White space
+
+```python
+multiline = '''
+Hey, how are you?
+
+I was just checking in.
+                         All good things
+'''
+print(multiline)
+#
+#
+#
+print(multiline.strip())
+```
