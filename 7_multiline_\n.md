@@ -1,4 +1,4 @@
-# MULTILINE
+# MULTILINE, lowercase, uppercase..
 
 - default
 
@@ -69,3 +69,8 @@ I'm back at work!       Hey!
 
 Where's this at \located
 ```
+
+<br>
+<br>
+
+## LOWER & UPPER (lower and uppercase)
