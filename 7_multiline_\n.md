@@ -14,6 +14,8 @@
 
 https://stackoverflow.com/questions/8657702/what-do-t-and-b-do
 
+https://discuss.python.org/t/python-add-or-insert-tab-t-into-list/27541/2
+
 <br>
 <br>
 
