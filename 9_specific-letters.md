@@ -128,5 +128,15 @@ print(type(gpa))
 ### Write a Python program to parse a string to float or integer.
 
 ```python
+#-----
+# 1 Define a string "n" containing a numeric value
+chiffre = "245.256"
 
+# 2 convert the string "chifree" to floating-point number and print the result.
+print(float(chiffre))
+#result: 245.256
+
+# 3 convert the floating-point to an integer, truncating any decimal part, and print the result.
+print(int(float(chiffre)))
+# result: 245
 ```
