@@ -86,3 +86,8 @@ print(comp_value.imag)
 # result: <class 'complex'>
 # result: 5.0
 # result: 3.0
+#
+#
+# abs for absolute
+print(abs(gpa))
+# result: 3.28
