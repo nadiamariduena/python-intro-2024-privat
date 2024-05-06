@@ -245,3 +245,5 @@ Math.round(4.4); // returns 4
 round(4.5) # returns 4
 round(4.4) # returns 4
 ```
+
+- The key difference you might notice is how they handle halfway cases. JavaScript's Math.round() function follows the round half away from zero rule, while Python's round() function follows the round half to even rule, also known as banker's rounding. This means that in Python, if the number is exactly halfway between two integers, it rounds to the nearest even integer.
