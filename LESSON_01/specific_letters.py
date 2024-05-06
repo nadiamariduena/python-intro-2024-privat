@@ -42,7 +42,7 @@ print(isinstance(myvalue, bool))
 
 #
 #
-#
+# ------
 # NUMERIC types
 
 price = 100
@@ -52,3 +52,20 @@ print(isinstance(best_price, int))
 # it will check i its true its a number/integer
 #result: <class 'int'>
 #result: True
+
+#
+#
+# ------
+# Float types
+# check if it a float type
+gpa = 3.28
+y = float(1.14)
+print(type(gpa))
+
+# Define a string "n" containing a numeric value
+
+chiffre = "245.256"
+
+# - convert the string "chifree" to floating-point number and print the result.
+
+print(float(chiffre))

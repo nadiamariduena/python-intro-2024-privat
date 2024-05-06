@@ -109,3 +109,24 @@ print(isinstance(best_price, int))
 #result: <class 'int'>
 #result: True
 ```
+
+<br>
+<br>
+
+### Float types
+
+https://www.w3resource.com/python-exercises/python-basic-exercise-48.php
+
+```python
+# check if it a float type
+
+gpa = 3.28
+y = float(1.14)
+print(type(gpa))
+```
+
+### Write a Python program to parse a string to float or integer.
+
+```python
+
+```
