@@ -168,4 +168,4 @@ print(comp_value.imag)
 
 In Python, abs() is a built-in function that returns the absolute value of a number. For real numbers, it's straightforward; it returns the distance of the number from zero on the number line, regardless of its sign.
 
-However, when it comes to complex numbers, the absolute value is a bit different. For a complex number a + bj (where a and b are real numbers and j is the imaginary unit), the absolute value (or modulus) is calculated as the square root of the sum of the squares of the real and imaginary parts. Mathematically, it's represented as:
+However, when it comes to complex numbers, the absolute value is a bit different. For a complex number a + bj (where a and b are real numbers and j is the imaginary unit), the absolute value (or modulus) is calculated as the square root of the sum of the squares of the real and imaginary parts.
