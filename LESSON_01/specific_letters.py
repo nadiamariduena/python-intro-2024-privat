@@ -87,7 +87,15 @@ print(comp_value.imag)
 # result: 5.0
 # result: 3.0
 #
-#
+# ----
 # abs for absolute
 print(abs(gpa))
 # result: 3.28
+
+# 🟡  rounding the value
+
+print(abs(gpa * -1))
+# result: 3.28
+print(round(gpa))
+# result: 3
+print(round(gpa, 1))
