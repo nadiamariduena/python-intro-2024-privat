@@ -27,8 +27,9 @@ print(round(gpa, 1))
 #
 #
 # ----- MATH
-
-
-
 print(math.pi)
 #result: 3.141592653589793
+#
+# ----- math.SQUARE
+print(math.sqrt(64))
+# result: 8.0
