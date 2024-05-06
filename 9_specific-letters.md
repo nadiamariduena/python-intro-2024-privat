@@ -169,3 +169,62 @@ print(comp_value.imag)
 In Python, abs() is a built-in function that returns the absolute value of a number. For real numbers, it's straightforward; it returns the distance of the number from zero on the number line, regardless of its sign.
 
 However, when it comes to complex numbers, the absolute value is a bit different. For a complex number a + bj (where a and b are real numbers and j is the imaginary unit), the absolute value (or modulus) is calculated as the square root of the sum of the squares of the real and imaginary parts.
+
+<br>
+<br>
+
+## Complex number
+
+```python
+#
+#
+#  COMPLEX number
+
+comp_value = 5+3j
+print(type(comp_value))
+print(comp_value.real)
+print(comp_value.imag)
+
+
+
+```
+
+<br>
+<br>
+
+# 🟨 ROUND
+
+```python
+#
+#
+#  COMPLEX number
+
+comp_value = 5+3j
+print(type(comp_value))
+print(comp_value.real)
+print(comp_value.imag)
+
+# result: <class 'complex'>
+# result: 5.0
+# result: 3.0
+#
+# ----
+# abs for absolute
+print(abs(gpa))
+# result: 3.28
+
+# 🟡  ROUND
+# -round a floating-point number to the nearest integer.
+#
+# #rounding the value
+# similar to js Math.round() (but they may have slight differences in behavior due to language-specific implementations), check the MD to see the differences
+
+print(abs(gpa * -1))
+# result: 3.28
+#
+print(round(gpa))
+# result: 3
+print(round(gpa, 1))
+# result: 3.3
+
+```
