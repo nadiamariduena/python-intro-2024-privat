@@ -1,3 +1,4 @@
+#TYPES
 #--- reach specific letter from the vars below
 first = 'Laure'
 last = "Blaz"
