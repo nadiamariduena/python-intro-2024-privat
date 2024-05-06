@@ -83,14 +83,22 @@ print(round(gpa))
 print(round(gpa, 1))
 # result: 3.3
 #
-#
-#
+
 # ----- MATH
-
-
-
 print(math.pi)
 #result: 3.141592653589793
+#
+# ----- math.SQUARE
+print(math.sqrt(64))
+# result: 8.0
+# ----- math.CEIL
+print(math.ceil(gpa))
+# result: 4
+# ----- math.floor
+print(math.floor(gpa))
+# result: 3
+
+#
 ```
 
 <br>
