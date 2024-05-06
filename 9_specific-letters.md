@@ -197,6 +197,8 @@ print(comp_value.imag)
 - similar to js Math.round() (but🔴 they may have slight differences in behavior due to language-specific implementations), check the differences after the code below
 
 ```python
+# ----
+gpa = 3.28
 #
 #
 #  COMPLEX number
