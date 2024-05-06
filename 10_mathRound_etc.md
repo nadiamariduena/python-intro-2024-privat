@@ -99,12 +99,12 @@ print(math.pi)
 # 🔴 Error if you attempt to cast incorrect data
 
 ```python
-#
-#
-#
-# check on the terminal what happens when you try to add the below, its a different type and you will get an error:
+#  check on the terminal what happens when you try to add the below code , its a different type and you will get an error:
 zip_value = int("New York")
+# -----
 #
+#
+
 # result
  zip_value = int("New York")
                 ^^^^^^^^^^^^^^^
