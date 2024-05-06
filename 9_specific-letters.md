@@ -234,5 +234,14 @@ print(round(gpa, 1))
 # (js) Math.round() vs round (python)
 
 ```javascript
+// javascript
+Math.round(4.5); // returns 5
+Math.round(4.4); // returns 4
+```
 
+<br>
+
+```python
+round(4.5) # returns 4
+round(4.4) # returns 4
 ```
