@@ -1,4 +1,8 @@
 # ----
+gpa = 3.28
+#
+#
+#
 # abs for absolute
 print(abs(gpa))
 # result: 3.28
@@ -16,4 +20,7 @@ print(round(gpa))
 # result: 3
 print(round(gpa, 1))
 # result: 3.3
+#
+#
+#
 # ----- MATH
