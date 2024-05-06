@@ -1,4 +1,7 @@
 # ----
+import math
+#
+#
 gpa = 3.28
 #
 #
@@ -24,3 +27,8 @@ print(round(gpa, 1))
 #
 #
 # ----- MATH
+
+
+
+print(math.pi)
+#result: 3.141592653589793
