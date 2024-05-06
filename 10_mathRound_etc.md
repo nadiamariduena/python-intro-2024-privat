@@ -92,3 +92,21 @@ print(round(gpa, 1))
 print(math.pi)
 #result: 3.141592653589793
 ```
+
+<br>
+<br>
+
+# 🔴 Error if you attempt to cast incorrect data
+
+```python
+#
+#
+#
+# check on the terminal what happens when you try to add the below, its a different type and you will get an error:
+zip_value = int("New York")
+#
+# result
+ zip_value = int("New York")
+                ^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'New York'
+```

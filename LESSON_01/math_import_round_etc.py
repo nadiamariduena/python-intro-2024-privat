@@ -49,3 +49,9 @@ zipcode = "1001"
 zip_value = int(zipcode)
 print(type(zip_value))
 # result: <class 'int'>
+
+#
+#
+# Error if you attempt to cast incorrect data
+# check on the terminal what happens when you try to add the below, its a different type and you will get an error:
+zip_value = int("New York")
