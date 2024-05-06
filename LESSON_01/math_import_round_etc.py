@@ -40,3 +40,12 @@ print(math.ceil(gpa))
 # ----- math.floor
 print(math.floor(gpa))
 # result: 3
+
+#
+#
+# -------
+# Casting a string to a number
+zipcode = "1001"
+zip_value = int(zipcode)
+print(type(zip_value))
+# result: <class 'int'>
