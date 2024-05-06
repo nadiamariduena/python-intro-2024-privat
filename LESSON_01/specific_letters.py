@@ -73,3 +73,16 @@ print(float(chiffre))
 # 3 convert the floating-point to an integer, truncating any decimal part, and print the result.
 print(int(float(chiffre)))
 # result: 245
+
+#
+#
+#  COMPLEX number
+
+comp_value = 5+3j
+print(type(comp_value))
+print(comp_value.real)
+print(comp_value.imag)
+
+# result: <class 'complex'>
+# result: 5.0
+# result: 3.0

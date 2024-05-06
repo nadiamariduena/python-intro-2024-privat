@@ -140,3 +140,32 @@ print(float(chiffre))
 print(int(float(chiffre)))
 # result: 245
 ```
+
+<br>
+<br>
+
+# Complex Number
+
+```python
+# Define a complex number and assign it to the variable comp_value
+comp_value = 5 + 3j
+
+# Print the data type of the variable comp_value
+print(type(comp_value))
+
+# Print the real part of the complex number stored in comp_value
+print(comp_value.real)
+
+# Print the imaginary part of the complex number stored in comp_value
+print(comp_value.imag)
+#
+#
+# RESULT
+<class 'complex'>
+5.0
+3.0
+```
+
+In Python, abs() is a built-in function that returns the absolute value of a number. For real numbers, it's straightforward; it returns the distance of the number from zero on the number line, regardless of its sign.
+
+However, when it comes to complex numbers, the absolute value is a bit different. For a complex number a + bj (where a and b are real numbers and j is the imaginary unit), the absolute value (or modulus) is calculated as the square root of the sum of the squares of the real and imaginary parts. Mathematically, it's represented as:
