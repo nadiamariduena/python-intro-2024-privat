@@ -194,7 +194,7 @@ print(comp_value.imag)
 
 # 🟨 ROUND
 
-- similar to js Math.round() (but🔴 they may have slight differences in behavior due to language-specific implementations), check the MD to see the differences
+- similar to js Math.round() (but🔴 they may have slight differences in behavior due to language-specific implementations), check the differences after the code below
 
 ```python
 #
@@ -228,5 +228,11 @@ print(round(gpa))
 # result: 3
 print(round(gpa, 1))
 # result: 3.3
+
+```
+
+# (js) Math.round() vs round (python)
+
+```javascript
 
 ```
