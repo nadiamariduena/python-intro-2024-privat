@@ -38,3 +38,17 @@ x = bool(False)
 # check the type
 print(type(x))
 print(isinstance(myvalue, bool))
+
+
+#
+#
+#
+# NUMERIC types
+
+price = 100
+best_price = int(80)
+print(type(price))
+print(isinstance(best_price, int))
+# it will check i its true its a number/integer
+#result: <class 'int'>
+#result: True
