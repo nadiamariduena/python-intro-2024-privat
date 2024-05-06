@@ -20,9 +20,6 @@ a
 
 ```python
 
-#
-#
-#
 #--- reach specific letter from the vars below
 first = 'Laure'
 last = "Blaz"
@@ -40,7 +37,7 @@ e
 
 ```
 
-## RANGE
+<br><br>
 
 https://pynative.com/python-range-function/
 
@@ -62,7 +59,7 @@ print(first2[1:])
 
 # Starts with or Ends
 
-## BOOLEAN (find if a word contains a specific letter, if yes then TRUE )
+## 🟡 BOOLEAN (find if a word contains a specific letter, if yes then TRUE )
 
 ```python
 #
@@ -78,7 +75,7 @@ print(first2.endswith("Z"))
 <br>
 <br>
 
-## Boolean type
+## 🟡 Boolean type
 
 ```python
 # BOOLEAN TPE
@@ -88,4 +85,27 @@ x = bool(False)
 # check the type
 print(type(x))
 print(isinstance(myvalue, bool))
+```
+
+<br>
+
+---
+
+<br>
+
+# 🟡 NUMERIC types
+
+```python
+#
+#
+#
+
+
+price = 100
+best_price = int(80)
+print(type(price))
+print(isinstance(best_price, int))
+# it will check i its true its a number/integer
+#result: <class 'int'>
+#result: True
 ```
