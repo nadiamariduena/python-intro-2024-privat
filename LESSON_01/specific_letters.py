@@ -93,9 +93,12 @@ print(abs(gpa))
 # result: 3.28
 
 # 🟡  rounding the value
+# similar to js Math.round()
 
 print(abs(gpa * -1))
 # result: 3.28
+#
 print(round(gpa))
 # result: 3
 print(round(gpa, 1))
+# result: 3.3
