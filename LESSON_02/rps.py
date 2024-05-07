@@ -33,7 +33,7 @@ print("You choose " + playerchoice + ".")
 print("Python chose " + computerchoice + ".")
 print("")
 
-#
+# MESSAGE depending of the choice
 # Define who won
 # if player choose 1 which is rock and computer choose 3 which is scissors
 if player == 1 and computer == 3:
