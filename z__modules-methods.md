@@ -84,3 +84,14 @@ print("You choose " + playerchoice + ".")
 print("Python chose " + computerchoice + ".")
 print("")
 ```
+
+<br>
+<br>
+
+---
+
+<br>
+
+## 🟡 enum
+
+- In Python, **enum** stands for "enumeration" and it's a module that provides a way to create and use enumeration types. Enumerations are sets of symbolic names (members) bound to unique, constant values. They're helpful for creating more readable and maintainable code by providing a way to represent a fixed set of constants.
