@@ -3,6 +3,10 @@
 import sys
 #  without the sys you cannot EXIT the program on line 15
 #
+# the RANDOM module
+import random
+ #
+
 print("")
 
 playerChoice = input("Enter...\n1 for Rock, \n2 for Paper, or \n3 for Scissors:\n\n")
@@ -17,3 +21,5 @@ if player < 1  | player > 3:
     #
      # TO EXIT the program
     sys.exit("You must enter 1, 2 , or 3")
+
+computerchoice = random.choice("123")

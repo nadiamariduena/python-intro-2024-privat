@@ -171,4 +171,29 @@ https://www.w3schools.com/python/module_random.asp
 
 ```python
 
+import sys
+# 🗯️ without the sys you cannot EXIT the program on line 15
+#
+# 🗯️ the RANDOM module
+import random
+ #
+
+print("")
+
+playerChoice = input("Enter...\n1 for Rock, \n2 for Paper, or \n3 for Scissors:\n\n")
+
+#\n – newline
+#  you need to convert the input from STRING to Int
+player = int(playerChoice)
+#
+# print(playerChoice)
+if player < 1  | player > 3:
+    # sys.exit("You must enter 1, 2 , or 3")
+    #
+     # TO EXIT the program
+    sys.exit("You must enter 1, 2 , or 3")
+
+# 🗯️ its going to randomly choose one of the characters from this string using random dot choice
+computerchoice = random.choice("123")
+# so after that we'll cast that to an integer as well and say computer equals int and
 ```
