@@ -109,3 +109,15 @@ if playerChoice < 1  | playerChoice > 3:
 **Memory Management:** `sys.getsizeof()` can be used to determine the size of an object in memory.
 
 **Exiting the Interpreter:** `sys.exit()` can be used to exit the Python interpreter with a specified exit status.
+
+<br>
+<br>
+
+## BACK to the code
+
+- 🔴 here we have another problem we didnt address, the **input** is a string and we have to convert it to an **INT** otherwise it will trigger an **error**
+
+```python
+playerChoice = input("Enter...\n1 for Rock, \n2 for Paper, or \n3 for Scissors:\n\n")
+
+```
