@@ -121,3 +121,18 @@ if playerChoice < 1  | playerChoice > 3:
 playerChoice = input("Enter...\n1 for Rock, \n2 for Paper, or \n3 for Scissors:\n\n")
 
 ```
+
+### converting it
+
+```python
+
+#  you need to convert the input from STRING to Int
+player = int(playerChoice)
+
+```
+
+<br>
+
+### now replace this
+
+- use the new assigned variable "player"
