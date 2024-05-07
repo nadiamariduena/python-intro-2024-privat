@@ -9,7 +9,7 @@ import random
 
 print("")
 
-playerchoice = input("Enter... \n1 for Rock,\n2 for Paper, or \n3 for Scissors:\n\n")
+playerchoice = input("Enter... \n1 for Rock🪨,\n2 for Paper🧻, or \n3 for Scissors 🌂 :\n\n")
 #\n – newline
 #  you need to convert the input from STRING to Int
 player = int(playerchoice)
@@ -35,13 +35,13 @@ print("")
 # Define who won
 # if player choose 1 which is rock and computer choose 3 which is scissors
 if player == 1 and computer == 3:
-    print("You win!")
+    print("🎉 You win!")
 elif player == 2 and computer == 1:
-    print("You win!")
+    print("🎉You win!")
 elif player == 3 and computer == 2:
-    print("You win!")
+    print("🎉You win!")
 elif player == computer:
-    print("Tie game!")
+    print("🍿Tie game!")
 else:
-    print("Python wins")
+    print("👾Python wins")
 
