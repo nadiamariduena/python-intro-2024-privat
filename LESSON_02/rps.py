@@ -22,4 +22,7 @@ if player < 1  | player > 3:
      # TO EXIT the program
     sys.exit("You must enter 1, 2 , or 3")
 
+# 🗯️ its going to randomly choose one of the characters from this string using random dot choice
 computerchoice = random.choice("123")
+# so after that we'll cast that to an integer
+computer = int(computerchoice)
