@@ -223,7 +223,7 @@ Python chose 1.
 
 <br>
 
-### its working as expect, but its not telling me who won
+### 🍊 its working as expect, but its not telling me who won
 
 - here below i will add a conditional with a message depending of each result
 
