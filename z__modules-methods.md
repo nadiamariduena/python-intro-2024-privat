@@ -96,7 +96,12 @@ print("")
 
 - In Python, if you want to enumerate a list, you typically use the built-in enumerate() function rather than the Enum class. ( if its something that requires an id or using an index , i use **enumerate()**, and for banal stuff like colors that don't require id then i use enum)
 
-### enum
+<br>
+<br>
+
+### 🍨 enum
+
+https://docs.python.org/3/library/enum.html
 
 <br>
 
@@ -148,7 +153,7 @@ class Color(Enum):
 <br>
 <br>
 
-## Enumerate()
+## 🍨 Enumerate()
 
 In Python, if you want to enumerate a list, you typically use the built-in enumerate() function rather than the Enum class.
 
