@@ -33,6 +33,8 @@ print("")
 
 #
 # Define who won
-
-if player == 1:
+# if player choose 1 which is rock and computer choose 3 which is scissors
+if player == 1 and computer == 3:
     print("You win!")
+else:
+    print("Python wins")
