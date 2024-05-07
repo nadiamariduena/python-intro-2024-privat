@@ -53,3 +53,14 @@ uniform(a, b): Returns a random floating-point number between a and b, inclusive
 **seed(seed=None)**: Initializes the random number generator with a seed value (or system time if None).
 
 #### These functions provide various ways to generate randomness or select random elements from sequences based on different requirements.
+
+<br>
+
+##### example:
+
+- check the game [rps2](./LESSON_02//rps2_clean.py)
+
+```python
+# so this is the choice of the computer
+computerchoice = random.choice("123")
+```
