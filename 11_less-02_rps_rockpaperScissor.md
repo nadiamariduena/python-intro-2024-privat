@@ -88,7 +88,24 @@ if playerChoice < 1  | playerChoice > 3:
 ```
 
 <br>
+<br>
 
 ### 🟡 SYS
 
 `sys.exit()` is a function **provided by the sys module** in Python that is used to exit the Python interpreter. It's typically called with an optional integer argument representing an exit status. If no argument is provided, it exits with a status code of zero, indicating successful termination.
+
+### Here are some common functionalities provided by the sys module:
+
+<br>
+
+**Access to Command-Line Arguments:** sys.argv allows you to access the list of command-line arguments passed to a Python script.
+
+**System-Specific Parameters and Functions:** sys.platform provides information about the platform where Python is running (e.g., 'linux', 'win32', 'darwin' for Linux, Windows, and macOS, respectively).
+
+**Access to Python Interpreter Settings:** sys.version gives information about the version of Python being used. sys.path provides a list of directories where Python searches for modules.
+
+**Interaction with the Python Interpreter:** sys.stdin, sys.stdout, and sys.stderr are file-like objects representing standard input, standard output, and standard error, respectively.
+
+**Memory Management:** `sys.getsizeof()` can be used to determine the size of an object in memory.
+
+**Exiting the Interpreter:** `sys.exit()` can be used to exit the Python interpreter with a specified exit status.
