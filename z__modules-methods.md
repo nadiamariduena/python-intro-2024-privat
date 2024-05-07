@@ -61,6 +61,14 @@ uniform(a, b): Returns a random floating-point number between a and b, inclusive
 - check the game [rps2](./LESSON_02//rps2_clean.py)
 
 ```python
-# so this is the choice of the computer
+# this is the choice of the computer
 computerchoice = random.choice("123")
+computer = int(computerchoice)
+
+#
+#
+print("")
+print("You choose " + playerchoice + ".")
+print("Python chose " + computerchoice + ".")
+print("")
 ```
