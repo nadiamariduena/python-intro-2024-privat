@@ -136,3 +136,16 @@ player = int(playerChoice)
 ### now replace this
 
 - use the new assigned variable "player"
+
+```python
+# from this
+# print(playerChoice)
+if playerChoice < 1  | playerChoice > 3:
+     # TO EXIT the program
+    sys.exit("You must enter 1, 2 , or 3")
+
+#
+#
+# TO THIS:
+
+```
