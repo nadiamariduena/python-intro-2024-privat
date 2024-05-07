@@ -60,8 +60,9 @@ print(math.pi)
 
 ### So following that example we can import something else, we will import the sys to EXIT the program
 
-```javascript
+```python
+import sys
  #
-    # TO EXIT the program
-    # sys.exit("You must enter 1, 2 , or 3")
+ # TO EXIT the program
+    sys.exit("You must enter 1, 2 , or 3")
 ```
