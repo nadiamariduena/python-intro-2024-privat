@@ -30,3 +30,9 @@ print("")
 print("You choose " + playerchoice + ".")
 print("Python chose " + computerchoice + ".")
 print("")
+
+#
+# Define who won
+
+if player == 1:
+    print("You win!")
