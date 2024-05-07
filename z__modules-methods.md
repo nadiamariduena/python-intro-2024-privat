@@ -95,3 +95,16 @@ print("")
 ## 🟡 enum
 
 - In Python, **enum** stands for "enumeration" and it's a module that provides a way to create and use enumeration types. Enumerations are sets of symbolic names (members) bound to unique, constant values. They're helpful for creating more readable and maintainable code by providing a way to represent a fixed set of constants.
+
+#### example
+
+```python
+from enum import Enum
+
+class Color(Enum):
+    RED = 1
+    GREEN = 2
+    BLUE = 3
+# In this example, Color is an enumeration type, and RED, GREEN, and BLUE are its members. Each member has an associated value (1, 2, and 3, respectively). You can access these values by using the member name, for example: Color.RED.value would return 1.
+#
+```
