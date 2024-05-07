@@ -9,17 +9,15 @@ import random
 
 print("")
 
-playerChoice = input("Enter...\n1 for Rock, \n2 for Paper, or \n3 for Scissors:\n\n")
+playerchoice = input("Enter... \n1 for Rock,\n2 for Paper, or \n3 for Scissors:\n\n")
 #\n – newline
 #  you need to convert the input from STRING to Int
-player = int(playerChoice)
+player = int(playerchoice)
 #
 # print(playerChoice)
 if player < 1  | player > 3:
-    # sys.exit("You must enter 1, 2 , or 3")
-    #
      # TO EXIT the program
-    sys.exit("You must enter 1, 2 , or 3")
+    sys.exit("You must enter 1, 2 , or 3.")
 
 # 🗯️ its going to randomly choose one of the characters from this string using random dot choice
 computerchoice = random.choice("123")
@@ -29,4 +27,6 @@ computer = int(computerchoice)
 #
 #
 print("")
-print('You choose ' + playerChoice + '.')
+print("You choose " + playerchoice + ".")
+print("Python chose " + computerchoice + ".")
+print("")
