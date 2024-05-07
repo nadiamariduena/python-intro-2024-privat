@@ -203,3 +203,19 @@ print("You choose " + playerchoice + ".")
 print("Python chose " + computerchoice + ".")
 print("")
 ```
+
+<br>
+
+### result
+
+```python
+Enter...
+1 for Rock,
+2 for Paper, or
+3 for Scissors:
+
+2 # you have to type 2 here, then you will get the result below:
+
+You choose 2.
+Python chose 1.
+```
