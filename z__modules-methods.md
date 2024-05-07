@@ -17,6 +17,13 @@ from enum import Enum
 <br>
 <br>
 
-## SYS
+### 🟡 SYS
 
 - `sys.exit()` **is a function provided by the sys module in Python that is used to exit the Python interpreter.** It's typically called with an optional integer argument representing an exit status. If no argument is provided, it exits with a status code of zero, indicating successful termination.
+
+<br>
+<br>
+
+### RANDOM
+
+- The purpose of import **random** in Python is to **provide access to functions and methods** for generating random numbers, selecting random elements from sequences, shuffling sequences randomly, and more. <br> It's part of Python's standard library and is commonly used in applications that require randomness, such as simulations, games, cryptography, and statistical sampling.
