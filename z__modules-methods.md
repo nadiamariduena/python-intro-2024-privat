@@ -10,6 +10,7 @@ import sys
 # the RANDOM module
 import random
 #
+# serves to enumerate, but doesnt have an index to iterate, for that use enumerate()
 from enum import Enum
 ```
 
