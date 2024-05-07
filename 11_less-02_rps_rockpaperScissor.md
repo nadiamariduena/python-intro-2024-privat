@@ -223,4 +223,20 @@ Python chose 1.
 
 <br>
 
-### its working as expect, but its not telling me vwho won
+### its working as expect, but its not telling me who won
+
+```python
+#
+# Define who won
+# if player choose 1 which is rock and computer choose 3 which is scissors
+if player == 1 and computer == 3:
+    print("You win!")
+elif player == 2 and computer == 1:
+    print("You win!")
+elif player == 3 and computer == 2:
+    print("You win!")
+elif player == computer:
+    print("Tie game!")
+else:
+    print("Python wins")
+```
