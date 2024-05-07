@@ -10,7 +10,6 @@ import random
 print("")
 
 playerChoice = input("Enter...\n1 for Rock, \n2 for Paper, or \n3 for Scissors:\n\n")
-
 #\n – newline
 #  you need to convert the input from STRING to Int
 player = int(playerChoice)
@@ -30,3 +29,4 @@ computer = int(computerchoice)
 #
 #
 print("")
+print('You choose ' + playerChoice + '.')
