@@ -21,6 +21,18 @@ from enum import Enum
 
 - `sys.exit()` **is a function provided by the sys module in Python that is used to exit the Python interpreter.** It's typically called with an optional integer argument representing an exit status. If no argument is provided, it exits with a status code of zero, indicating successful termination.
 
+##### example
+
+- **sys** the program if the user types less than on or more than 3
+
+```python
+
+if player < 1  | player > 3:
+    # ✋ TO EXIT the program
+    sys.exit("You must enter 1, 2 , or 3.")
+    # result: if someone types 0 or 4 or more than 4, it will exit the program with this message: You must enter 1, 2 , or 3.
+```
+
 <br>
 <br>
 
