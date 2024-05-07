@@ -36,5 +36,7 @@ print("")
 # if player choose 1 which is rock and computer choose 3 which is scissors
 if player == 1 and computer == 3:
     print("You win!")
+elif player == 2 and computer == 1:
+    print("You win!")
 else:
     print("Python wins")
