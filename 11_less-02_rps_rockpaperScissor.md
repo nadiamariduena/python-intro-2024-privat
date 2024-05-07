@@ -147,5 +147,9 @@ if playerChoice < 1  | playerChoice > 3:
 #
 #
 # TO THIS:
+# print(playerChoice)
+if player < 1  | player > 3:
+     # TO EXIT the program
+    sys.exit("You must enter 1, 2 , or 3")
 
 ```
