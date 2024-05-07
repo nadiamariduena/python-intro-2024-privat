@@ -32,13 +32,16 @@ Enter...
 
 ```python
 print("")
-
+#\n – newline
 playerChoice = input("Enter...\n1 for Rock, \n2 for Paper, or \n3 for Scissors:\n\n")
 
-#\n – newline
+
 #
-# print(playerChoice)
+#
 if playerChoice < 1  | playerChoice > 3:
+    # the problem with the below code is that its going to continue to execute, so we have to find a way to EXIT the program
     print("You ust enter 1, 2, or 3")
+    #
+    # TO EXIT the program
     # sys.exit("You must enter 1, 2 , or 3")
 ```
