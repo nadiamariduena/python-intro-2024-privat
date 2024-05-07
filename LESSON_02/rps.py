@@ -26,3 +26,7 @@ if player < 1  | player > 3:
 computerchoice = random.choice("123")
 # so after that we'll cast that to an integer
 computer = int(computerchoice)
+
+#
+#
+print("")
