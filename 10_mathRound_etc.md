@@ -58,6 +58,7 @@ round(4.4) # returns 4
 
 ```python
 # ----
+# you can import the match method like so, and use it on the examples below
 import math
 #
 #
