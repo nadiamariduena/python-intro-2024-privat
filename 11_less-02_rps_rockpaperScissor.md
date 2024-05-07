@@ -83,7 +83,7 @@ playerChoice = input("Enter...\n1 for Rock, \n2 for Paper, or \n3 for Scissors:\
 if playerChoice < 1  | playerChoice > 3:
     # print("You ust enter 1, 2, or 3")
     # sys.exit("You must enter 1, 2 , or 3")
-     # TO EXIT the program
+    # 🍧 TO EXIT the program
     sys.exit("You must enter 1, 2 , or 3")
 ```
 
