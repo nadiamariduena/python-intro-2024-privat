@@ -14,9 +14,11 @@ playerChoice = input("Enter...\n1 for Rock, \n2 for Paper, or \n3 for Scissors:\
 
 print(playerChoice)
 #https://www.codecademy.com/forum_questions/52f31477282ae3c473002317
+#
+#
 #  \n – newline
 #
-#
+# result
 Enter...
 1 for Rock,
 2 for Paper, or
