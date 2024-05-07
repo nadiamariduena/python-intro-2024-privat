@@ -170,30 +170,36 @@ https://www.w3schools.com/python/module_random.asp
 - I will import another Module, this module is called **random** and we will add also add it at the top of the component
 
 ```python
-
+  # sys.exit() is a function provided by the sys module in Python that is used to exit the Python interpreter. It's typically called with an optional integer argument representing an exit status. If no argument is provided, it exits with a status code of zero, indicating successful termination.
+# "
 import sys
-# 🗯️ without the sys you cannot EXIT the program on line 15
+#  without the sys you cannot EXIT the program on line 15
 #
-# 🗯️ the RANDOM module
+# the RANDOM module
 import random
  #
 
 print("")
 
-playerChoice = input("Enter...\n1 for Rock, \n2 for Paper, or \n3 for Scissors:\n\n")
-
+playerchoice = input("Enter... \n1 for Rock,\n2 for Paper, or \n3 for Scissors:\n\n")
 #\n – newline
 #  you need to convert the input from STRING to Int
-player = int(playerChoice)
+player = int(playerchoice)
 #
 # print(playerChoice)
 if player < 1  | player > 3:
-    # sys.exit("You must enter 1, 2 , or 3")
-    #
      # TO EXIT the program
-    sys.exit("You must enter 1, 2 , or 3")
+    sys.exit("You must enter 1, 2 , or 3.")
 
 # 🗯️ its going to randomly choose one of the characters from this string using random dot choice
 computerchoice = random.choice("123")
-# so after that we'll cast that to an integer as well and say computer equals int and
+# so after that we'll cast that to an integer
+computer = int(computerchoice)
+
+#
+#
+print("")
+print("You choose " + playerchoice + ".")
+print("Python chose " + computerchoice + ".")
+print("")
 ```
