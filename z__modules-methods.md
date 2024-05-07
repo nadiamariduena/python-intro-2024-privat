@@ -25,6 +25,10 @@ from enum import Enum
 
 - **sys** the program if the user types less than on or more than 3
 
+<br>
+
+- check the game [rps2](./LESSON_02//rps2_clean.py)
+
 ```python
 
 if player < 1  | player > 3:
