@@ -44,7 +44,19 @@ if playerChoice < 1  | playerChoice > 3:
 
 ```
 
-## YOu remember that on the previous tutorial, I imported the:
+## YOu remember that on the previous tutorial, I imported the math, so to use it on several examples:
+
+```python
+# ----
+# 1 you can import the match method like here below
+import math
+#
+# 2 and use it on the examples below
+# ----- MATH
+print(math.pi)
+#result: 3.141592653589793
+#
+```
 
 ```javascript
  #
