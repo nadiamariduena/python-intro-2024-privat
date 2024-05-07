@@ -157,9 +157,17 @@ if player < 1  | player > 3:
 <br>
 <br>
 
-## 🟨 Now we need to compare
+# 🟨 RANDOM
 
-- I will import another Module, this module is called **random** and we will add also at the top of the component
+> The random module has a set of methods:
+
+https://www.w3schools.com/python/module_random.asp
+
+<br>
+
+#### Now we need to compare between the options on the game
+
+- I will import another Module, this module is called **random** and we will add also add it at the top of the component
 
 ```python
 
