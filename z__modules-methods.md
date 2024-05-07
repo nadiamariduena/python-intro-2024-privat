@@ -92,7 +92,13 @@ print("")
 
 <br>
 
-## 🟡 enum
+# 🟡 enum & enumerate()
+
+- In Python, if you want to enumerate a list, you typically use the built-in enumerate() function rather than the Enum class. ( if its something that requires an id or using an index , i use **enumerate()**, and for banal stuff like colors that don't require id then i use enum)
+
+### enum
+
+<br>
 
 - In Python, **enum** stands for "enumeration" and it's a module that provides a way to create and use enumeration types. Enumerations are sets of symbolic names (members) bound to unique, constant values. They're helpful for creating more readable and maintainable code by providing a way to represent a fixed set of constants.
 
