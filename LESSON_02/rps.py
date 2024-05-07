@@ -5,7 +5,8 @@ import sys
 #
 # the RANDOM module
 import random
- #
+#
+from enum import Enum
 
 print("")
 
