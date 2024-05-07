@@ -24,6 +24,32 @@ from enum import Enum
 <br>
 <br>
 
-### RANDOM
+### 🟡 RANDOM
 
 - The purpose of import **random** in Python is to **provide access to functions and methods** for generating random numbers, selecting random elements from sequences, shuffling sequences randomly, and more. <br> It's part of Python's standard library and is commonly used in applications that require randomness, such as simulations, games, cryptography, and statistical sampling.
+
+<br>
+<br>
+
+## LIST of the stuff you can use with random
+
+#### Here are some common functions and methods available after importing random in Python:
+
+<br>
+
+**random()**: Returns a random floating-point number between 0 and 1.
+
+**randint(a, b)**: Returns a random integer between a and b, inclusive.
+
+**choice(seq)**: Returns a random element from a non-empty sequence.
+
+**shuffle(seq)**: Randomly shuffles the elements of a sequence in place.
+
+**sample(population, k)**: Returns a list of k unique elements chosen randomly from a population sequence without replacement.
+
+**randrange(start, stop[, step])**: Returns a randomly chosen element from the specified range.
+uniform(a, b): Returns a random floating-point number between a and b, inclusive.
+
+**seed(seed=None)**: Initializes the random number generator with a seed value (or system time if None).
+
+#### These functions provide various ways to generate randomness or select random elements from sequences based on different requirements.
