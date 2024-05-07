@@ -1,3 +1,3 @@
-value = input("PLease enter a value: \n")
+print("")
 
-print(value)
+playerChoice = input("Enter...\n1 for Rock, \n2 for Paper, or \n3 for Scissors:\n\n")
