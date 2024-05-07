@@ -1,3 +1,3 @@
-value = input("PLease eter a value")
+value = input("PLease enter a value: \n")
 
-print(values)
+print(value)
