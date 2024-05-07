@@ -1,5 +1,5 @@
+# the clean version
 import sys
-
 import random
 
 print("")
@@ -20,3 +20,17 @@ print("")
 print("You choose " + playerchoice + ".")
 print("Python chose " + computerchoice + ".")
 print("")
+
+#
+# Message
+
+if player == 1 and computer == 3:
+    print("You WIN")
+elif player == 2 and computerchoice == 1:
+    print("Ýou WIN")
+elif player == 3 and computer == 2:
+    print("Ýou WIN")
+elif player == computer:
+    print("🍿Tie game!")
+else:
+   print("👾Python wins")
