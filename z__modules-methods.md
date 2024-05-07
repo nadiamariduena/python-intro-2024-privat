@@ -155,5 +155,22 @@ In Python, if you want to enumerate a list, you typically use the built-in enume
 The **enumerate()** function generates an enumeration of elements in an iterable along with their index. Here's how you can use it:
 
 ```python
+# example 1)
+my_list = ['apple', 'banana', 'orange']
+
+for index, value in enumerate(my_list):
+    print(index, value)
+#
+#
+# 2) example
+fruits = ['apple', 'banana', 'orange']
+
+for index, fruit in enumerate(fruits, start=1):
+    print(f"Item {index}: {fruit}")
+
+# Output:
+# Item 1: apple
+# Item 2: banana
+# Item 3: orange
 
 ```
