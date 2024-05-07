@@ -45,4 +45,3 @@ elif player == computer:
 else:
     print("Python wins")
 
-# BUT WHAT IF the computer and the player choose the same
