@@ -41,7 +41,13 @@ playerChoice = input("Enter...\n1 for Rock, \n2 for Paper, or \n3 for Scissors:\
 if playerChoice < 1  | playerChoice > 3:
     # the problem with the below code is that its going to continue to execute, so we have to find a way to EXIT the program
     print("You ust enter 1, 2, or 3")
-    #
+
+```
+
+## YOu remember that on the previous tutorial, I imported the:
+
+```javascript
+ #
     # TO EXIT the program
     # sys.exit("You must enter 1, 2 , or 3")
 ```
