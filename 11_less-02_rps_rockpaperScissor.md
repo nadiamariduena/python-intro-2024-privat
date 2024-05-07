@@ -58,6 +58,8 @@ print(math.pi)
 #
 ```
 
+### So following that example we can import something else, we will import the sys to EXIT the program
+
 ```javascript
  #
     # TO EXIT the program
