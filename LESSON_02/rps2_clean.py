@@ -10,7 +10,7 @@ print("")
 
 player = int(playerchoice)
 
-if player < 1 | player > 3:
+if player < 1  or player > 3:
     sys.exit("You must enter 1,2 or 3 'not below 1 or more than 3'")
 
 computerchoice = random.choice("123")

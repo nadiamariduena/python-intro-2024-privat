@@ -33,7 +33,8 @@ playerchoice = input("Enter... \n1 for Rock🪨,\n2 for Paper🧻, or \n3 for Sc
 player = int(playerchoice)
 #
 # print(playerChoice)
-if player < 1  | player > 3:
+# if player < 1  | player > 3:
+if player < 1  or player > 3:
      # TO EXIT the program
     sys.exit("You must enter 1, 2 , or 3.")
     # result: if someone types 0 or 4 or more than 4, it will exit the program with this message: You must enter 1, 2 , or 3.
