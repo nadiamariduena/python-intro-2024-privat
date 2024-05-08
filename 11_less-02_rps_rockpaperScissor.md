@@ -415,5 +415,14 @@ class RPS(Enum):
 ### then replace this for the RPS
 
 ```python
+# before
+print("")
+print("You choose " + playerchoice + ".")
+print("Python chose " + computerchoice + ".")
+print("")
+
+#
+#
+# AFTER
 
 ```
