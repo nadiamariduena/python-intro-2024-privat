@@ -447,6 +447,16 @@ Python chose RPS.PAPER.
 
 <br>
 
-### But why?
+## 🟡 But why?
 
 <br>
+
+#### Using an Enum class like RPS to represent choices in a Rock-Paper-Scissors game can offer several advantages over simply using strings or integers:
+
+<br>
+
+**Readability and Clarity:** Enumerations provide a clear and readable way to represent a fixed set of possible values. When you use RPS(player) or RPS(computerchoice), it's immediately clear that you're dealing with choices from the Rock-Paper-Scissors set.
+
+**Type Safety:** Enumerations provide type safety, meaning that the compiler (or interpreter) can catch certain types of errors at compile time rather than at runtime.
+
+> If you try to pass an invalid value to an Enum constructor, you'll get an error immediately, rather than encountering unexpected behavior later on.
