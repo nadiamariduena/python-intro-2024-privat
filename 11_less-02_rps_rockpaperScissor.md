@@ -426,6 +426,21 @@ print("")
 # AFTER
 print("")
 print("You choose " + str(RPS(player)) + ".")
-print("Python chose " + str(RPS(computerchoice)) + ".")
+print("Python chose " + str(RPS(computer)) + ".")
 print("")
+#
+#
+# ✋ RESULT
+
+Enter...
+1 for Rock🪨,
+2 for Paper🧻, or
+3 for Scissors 🌂 :
+
+3
+
+You choose RPS.SCISSORS.
+Python chose RPS.PAPER.
+
+🎉You win!
 ```
