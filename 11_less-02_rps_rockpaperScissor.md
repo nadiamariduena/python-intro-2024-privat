@@ -320,3 +320,64 @@ Python chose 2.
 
 🍿Tie game!
 ```
+
+<br>
+
+---
+
+<br>
+
+### Another way
+
+- add the following:
+
+```python
+from enum import Enum
+
+class RPS(Enum):
+    ROCK = 1
+    PAPER = 2
+    SCISSORS = 3
+
+print(RPS(2))
+print(RPS.ROCK)
+print(RPS['ROCK'])
+print(RPS.ROCK.value)
+#exit the program
+sys.exit()
+```
+
+### Like so
+
+- you will notice that from the moment we add the code with the above **class** , the line of the **playerchoice** and all after that will be ignored
+
+```python
+import sys
+#  without the sys you cannot EXIT the program on line 15
+#
+# the RANDOM module
+import random
+#
+from enum import Enum
+
+class RPS(Enum):
+    ROCK = 1
+    PAPER = 2
+    SCISSORS = 3
+
+print(RPS(2))
+print(RPS.ROCK)
+print(RPS['ROCK'])
+print(RPS.ROCK.value)
+#exit the program
+sys.exit()
+#
+#-------
+
+
+
+
+print("")
+
+playerchoice = input("Enter... \n1 for Rock🪨,
+```
