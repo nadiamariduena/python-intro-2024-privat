@@ -474,3 +474,18 @@ Python chose RPS.PAPER.
 <br>
 
 #### Overall, using an Enum for representing choices in a Rock-Paper-Scissors game can lead to cleaner, safer, and more maintainable code compared to using raw strings or integers. It's definitely a better practice in many cases.
+
+<br>
+<br>
+
+## Remove the dot here
+
+- on the result I got, there is a dot that is not user friendly
+
+```python
+#🖐️ here
+You choose RPS.SCISSORS.
+Python chose RPS.PAPER.
+
+🎉You win!
+```
