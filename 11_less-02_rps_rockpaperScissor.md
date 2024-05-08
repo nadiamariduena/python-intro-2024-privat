@@ -460,3 +460,15 @@ Python chose RPS.PAPER.
 **Type Safety:** Enumerations provide type safety, meaning that the compiler (or interpreter) can catch certain types of errors at compile time rather than at runtime.
 
 > If you try to pass an invalid value to an Enum constructor, you'll get an error immediately, rather than encountering unexpected behavior later on.
+
+<br>
+
+**Prevents Magic Strings/Numbers:** Magic strings or numbers can be error-prone and hard to maintain. By using an Enum, you avoid the risk of mistyping a string or using an invalid number.
+
+<br>
+
+**Intuitive String Representation:** Enums often provide a default string representation that is intuitive and informative.
+
+> In your example, when you print RPS(player) or RPS(computerchoice), it automatically converts the enum value to a string that represents the choice in a clear manner.
+
+<br>
