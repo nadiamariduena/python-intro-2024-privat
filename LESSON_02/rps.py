@@ -47,8 +47,8 @@ computer = int(computerchoice)
 #
 #
 print("")
-print("You choose " + playerchoice + ".")
-print("Python chose " + computerchoice + ".")
+print("You choose " + str(RPS(player)) + ".")
+print("Python chose " + str(RPS(computerchoice)) + ".")
 print("")
 
 # MESSAGE depending of the choice

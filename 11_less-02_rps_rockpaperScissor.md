@@ -424,5 +424,8 @@ print("")
 #
 #
 # AFTER
-
+print("")
+print("You choose " + str(RPS(player)) + ".")
+print("Python chose " + str(RPS(computerchoice)) + ".")
+print("")
 ```
