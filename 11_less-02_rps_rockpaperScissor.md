@@ -381,10 +381,6 @@ print(RPS.ROCK.value)
 sys.exit()
 #
 #-------
-
-
-
-
 print("")
 
 playerchoice = input("Enter... \n1 for Rock🪨,
@@ -412,4 +408,12 @@ class RPS(Enum):
 # #exit the program
 # sys.exit()
 #
+```
+
+<br>
+
+### then replace this for the RPS
+
+```python
+
 ```
