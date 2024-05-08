@@ -389,3 +389,8 @@ print("")
 
 playerchoice = input("Enter... \n1 for Rock🪨,
 ```
+
+<br>
+<br>
+
+### 🔶 so now we are going to replace a couple of things for the setup with the enum
