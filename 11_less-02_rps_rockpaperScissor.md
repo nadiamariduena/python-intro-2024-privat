@@ -472,3 +472,5 @@ Python chose RPS.PAPER.
 > In your example, when you print RPS(player) or RPS(computerchoice), it automatically converts the enum value to a string that represents the choice in a clear manner.
 
 <br>
+
+#### Overall, using an Enum for representing choices in a Rock-Paper-Scissors game can lead to cleaner, safer, and more maintainable code compared to using raw strings or integers. It's definitely a better practice in many cases.
