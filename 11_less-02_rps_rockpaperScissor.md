@@ -391,7 +391,7 @@ playerchoice = input("Enter... \n1 for Rock🪨,
 
 ### 🔶 so now we are going to replace a couple of things for the setup with the enum
 
-- start by hidding the RPS from here
+- start by hiding the RPS from here
 
 ```python
 class RPS(Enum):
@@ -444,3 +444,9 @@ Python chose RPS.PAPER.
 
 🎉You win!
 ```
+
+<br>
+
+### But why?
+
+<br>
