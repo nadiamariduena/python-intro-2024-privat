@@ -489,3 +489,5 @@ Python chose RPS.PAPER.
 
 🎉You win!
 ```
+
+- The way i can do that is by adding this `.replace('RPS.', '')` , as you can see , i am replacing the RPS. for an empty string
