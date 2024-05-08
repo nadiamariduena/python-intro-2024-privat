@@ -494,11 +494,20 @@ Python chose RPS.PAPER.
 
 ```python
 # before
+print("")
+print("You choose " + str(RPS(player)) + ".")
+print("Python chose " + str(RPS(computer)) + ".")
+print("")
 
 
 
 #
 # after
+print("")
+print("You choose " + str(RPS(player)).replace('RPS.', '') + ".")
+print("Python chose " + str(RPS(computer)).replace('RPS.', '') + ".")
+print("")
+
 ```
 
 - the dot you see at the end belongs to the `+ '.'`
