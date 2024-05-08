@@ -394,3 +394,22 @@ playerchoice = input("Enter... \n1 for Rock🪨,
 <br>
 
 ### 🔶 so now we are going to replace a couple of things for the setup with the enum
+
+- start by hidding the RPS from here
+
+```python
+class RPS(Enum):
+    ROCK = 1
+    PAPER = 2
+    SCISSORS = 3
+
+# ✋ hide this, i will be using the RPS in another way
+#
+# print(RPS(2))
+# print(RPS.ROCK)
+# print(RPS['ROCK'])
+# print(RPS.ROCK.value)
+# #exit the program
+# sys.exit()
+#
+```
