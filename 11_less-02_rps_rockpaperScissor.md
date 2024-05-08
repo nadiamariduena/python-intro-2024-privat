@@ -349,7 +349,7 @@ sys.exit()
 # #
 # #  --
 # # result
-RPS.PAPER #print(RPS(2))
+RPS.PAPER #print(RPS(2)) check line 342 and 339
 RPS.ROCK # print(RPS.ROCK)
 RPS.ROCK # print(RPS['ROCK'])
 1 # print(RPS.ROCK.value)
