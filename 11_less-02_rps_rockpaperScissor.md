@@ -345,6 +345,14 @@ print(RPS['ROCK'])
 print(RPS.ROCK.value)
 #exit the program
 sys.exit()
+#
+# #
+# #  --
+# # result
+RPS.PAPER #print(RPS(2))
+RPS.ROCK # print(RPS.ROCK)
+RPS.ROCK # print(RPS['ROCK'])
+1 # print(RPS.ROCK.value)
 ```
 
 ### Like so
