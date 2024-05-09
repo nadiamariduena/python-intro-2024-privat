@@ -101,6 +101,17 @@ print(len(users)) # also contains 3 items
 3
 ```
 
-### Add a new item to the list
+<br>
+<br>
 
-- for that i will use **append**, this append works like **push** in javascript
+### 🟡 Add a new item to the list
+
+- for that i will use **append**, this append works like **push** in javascript https://www.w3schools.com/jsref/jsref_push.asp
+
+```python
+users.append('Elsa')
+print(users)
+#
+# result
+
+```
