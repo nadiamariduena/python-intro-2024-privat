@@ -113,5 +113,5 @@ users.append('Elsa')
 print(users)
 #
 # result
-
+# ['Dave', 'John', 'Sara', 'Elsa']
 ```

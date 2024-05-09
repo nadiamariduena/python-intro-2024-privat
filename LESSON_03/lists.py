@@ -22,3 +22,6 @@ print(len(users))
 #
 # APPEND
 # append a new item to the list (similar to push in js)
+
+users.append('Elsa')
+print(users) # result ['Dave', 'John', 'Sara', 'Elsa']
