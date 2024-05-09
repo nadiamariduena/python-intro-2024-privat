@@ -25,7 +25,7 @@ emptyList = []
 print("Dave" in data)
 # get an element from a list
 print(users[0])
-print(users[-1])
+print(users[-1]) # will get the last item
 #
 # RESULT
 True
