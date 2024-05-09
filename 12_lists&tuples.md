@@ -44,3 +44,20 @@ print(users.index('Sara'))
 #result
 2 # position 2 on the list
 ```
+
+<br>
+<br>
+
+### Now get the length
+
+- here we will get the firs 2 items of the list
+
+```python
+users = ['Dave', 'John', 'Sara']
+
+print(users[0:2])
+#
+#result
+Dave
+John
+```
