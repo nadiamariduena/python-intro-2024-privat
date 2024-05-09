@@ -115,3 +115,10 @@ print(users)
 # result
 # ['Dave', 'John', 'Sara', 'Elsa']
 ```
+
+#### another wax to do it
+
+```python
+users += ['Jason']
+print(users)
+```
