@@ -82,3 +82,19 @@ print(users[-3:-1])
 #result
 ['Dave', 'John']
 ```
+
+<br>
+<br>
+
+## Length of a list
+
+- check how many items i have
+
+```python
+users = ['Dave', 'John', 'Sara']
+#
+#
+print(len(data))
+# result
+3
+```
