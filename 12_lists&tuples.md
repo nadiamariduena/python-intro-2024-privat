@@ -126,10 +126,20 @@ print(users)
 ['Dave', 'John', 'Sara', 'Elsa', 'Jason']
 ```
 
-#### but be careful when you use this method, compare the examples
+### but be careful when you use this method, compare the examples
 
 - wrapped on array & only strings
 
 ```python
-
+# wrapped on array
+users += ['Jason']
+print(users)
+# result
+['Dave', 'John', 'Sara', 'Elsa', 'Jason']
+#
+#---
+# wrapped on strings
+users += 'Jason'
+print(users)
+# result
 ```
