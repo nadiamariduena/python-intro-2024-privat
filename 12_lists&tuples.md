@@ -75,4 +75,10 @@ print(users[1:]) # it will pick up the item at position 1 and all after that, th
 #
 # RESULT
 # John and Sara
+#
+#
+# or
+print(users[-3:-1])
+#result
+['Dave', 'John']
 ```
