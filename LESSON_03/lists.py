@@ -17,4 +17,4 @@ print(users[1:]) # it will pick up the item at position 1 and all after that, th
 #
 #
 print(users[-3:-1])
-print(len(data))
+print(len(users))

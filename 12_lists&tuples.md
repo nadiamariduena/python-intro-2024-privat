@@ -92,9 +92,11 @@ print(users[-3:-1])
 
 ```python
 users = ['Dave', 'John', 'Sara']
+data = ['Dave', 42, True]
 #
 #
 print(len(data))
+print(len(users)) # also contains 3 items
 # result
 3
 ```
