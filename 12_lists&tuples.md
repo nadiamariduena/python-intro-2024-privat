@@ -121,4 +121,7 @@ print(users)
 ```python
 users += ['Jason']
 print(users)
+#
+# result
+['Dave', 'John', 'Sara', 'Elsa', 'Jason']
 ```
