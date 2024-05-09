@@ -137,9 +137,12 @@ print(users)
 # result
 ['Dave', 'John', 'Sara', 'Elsa', 'Jason']
 #
+#
+#
 #---
 # wrapped on strings
 users += 'Jason'
 print(users)
 # result
+['Dave', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n']
 ```

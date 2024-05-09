@@ -29,4 +29,5 @@ print(users) # result ['Dave', 'John', 'Sara', 'Elsa']
 #
 #
 users += ['Jason']
+users += 'Jason'
 print(users)
