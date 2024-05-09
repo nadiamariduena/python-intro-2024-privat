@@ -50,7 +50,7 @@ print(users.index('Sara'))
 
 ### Now get the length
 
-- here we will get the firs 2 items of the list
+- here we will get the first 2 items of the list
 
 ```python
 users = ['Dave', 'John', 'Sara']
