@@ -34,3 +34,11 @@ Dave
 Sara
 John
 ```
+
+## 🍨 Now find the Position INDEX of an item within a LIST
+
+```python
+users = ['Dave', 'John', 'Sara']
+
+print(users.index('Sara'))
+```
