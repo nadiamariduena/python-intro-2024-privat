@@ -26,9 +26,11 @@ print("Dave" in data)
 # get an element from a list
 print(users[0])
 print(users[-1]) # will get the last item
+print(users[-2]) # will get the penultimo/second-last
 #
 # RESULT
 True
 Dave
 Sara
+John
 ```
