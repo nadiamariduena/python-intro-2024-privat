@@ -41,4 +41,6 @@ John
 users = ['Dave', 'John', 'Sara']
 
 print(users.index('Sara'))
+#result
+2 # position 2 on the list
 ```
