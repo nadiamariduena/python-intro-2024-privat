@@ -11,3 +11,5 @@ print("Dave" in data) #  True
 #print("Dave" in users) # True
 #print("Dave" in emptyList) #True
 ```
+
+## Get an specific item from a LIST
