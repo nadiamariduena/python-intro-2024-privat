@@ -68,5 +68,11 @@ John
 ## Pick up the item at position 1 and all after that
 
 ```python
+users = ['Dave', 'John', 'Sara']
+#
+#
 print(users[1:]) # it will pick up the item at position 1 and all after that, the reason for that is because arent specifing a second value after the:colons
+#
+# RESULT
+# John and Sara
 ```
