@@ -11,3 +11,4 @@ print("Dave" in data)
 print(users[0])
 print(users[-1]) # will get the last item
 print(users[-2]) # will get the penultimo/second-last
+print(users.index('Sara'))
