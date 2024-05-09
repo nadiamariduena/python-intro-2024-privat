@@ -100,3 +100,7 @@ print(len(users)) # also contains 3 items
 # result
 3
 ```
+
+### Add a new item to the list
+
+- for that i will use **append**, this append works like **push** in javascript
