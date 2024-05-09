@@ -5,3 +5,8 @@ data = ['Dave', 42, True]
 emptyList = []
 
 print("Dave" in data)
+
+# get an element from a list
+
+print(users[0])
+print(users[-1])
