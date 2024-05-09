@@ -125,3 +125,11 @@ print(users)
 # result
 ['Dave', 'John', 'Sara', 'Elsa', 'Jason']
 ```
+
+#### but be careful when you use this method, compare the examples
+
+- wrapped on array & only strings
+
+```python
+
+```
