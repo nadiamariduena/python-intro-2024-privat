@@ -61,3 +61,12 @@ print(users[0:2])
 Dave
 John
 ```
+
+<br>
+<br>
+
+## Pick up the item at position 1 and all after that
+
+```python
+print(users[1:]) # it will pick up the item at position 1 and all after that, the reason for that is because arent specifing a second value after the:colons
+```
