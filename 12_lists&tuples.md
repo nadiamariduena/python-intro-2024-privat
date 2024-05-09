@@ -13,3 +13,22 @@ print("Dave" in data) #  True
 ```
 
 ## Get an specific item from a LIST
+
+```python
+users = ['Dave', 'John', 'Sara']
+
+data = ['Dave', 42, True]
+
+emptyList = []
+
+#----------
+print("Dave" in data)
+# get an element from a list
+print(users[0])
+print(users[-1])
+#
+# RESULT
+True
+Dave
+Sara
+```
