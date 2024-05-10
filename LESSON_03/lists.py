@@ -64,5 +64,8 @@ print(users)
 # ['Bob', 'Dave', 'Eddie', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n', 'Robert', 'Jimmy']
 
 
+#it will replace the position 1 which is the second and then it will stop at pos 3 which is alex
 users[1:3] = ['robert', 'JPJ']
 print(users)
+#RESULT
+['Bob', 'robert', 'JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n', 'Robert', 'Jimmy']

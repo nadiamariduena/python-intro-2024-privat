@@ -220,7 +220,7 @@ print(users)
 ### replacing names at specific positions
 
 ```python
-#it will replace the position 1 which is the second and then then it will stop at pos 3
+#it will replace the position 1 which is the second and then it will stop at pos 3 which is alex
 users[1:3] = ['robert', 'JPJ']
 print(users)
 #RESULT
