@@ -315,3 +315,15 @@ print(users)
 # result
 #['Alex', 'Elsa', 'J', 'JPJ', 'Jason', 'John', 'Robert', 'Sara', 'a', 'n', 'o', 's']
 ```
+
+<br>
+<br>
+
+## Lowercase
+
+```python
+
+users.sort(key=str.lower)
+print(users)
+#result
+```
