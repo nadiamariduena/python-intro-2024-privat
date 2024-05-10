@@ -150,3 +150,11 @@ print(users)
 # like so
 ['Dave', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n']
 ```
+
+## 🟡 EXTEND
+
+- this also will push more items to the list
+
+```python
+['Dave', 'John', 'Sara', 'Elsa', 'Robert', 'Jimmy']
+```
