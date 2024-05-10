@@ -241,3 +241,10 @@ print(users)
 # result
 ['robert', 'JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n', 'Robert', 'Jimmy']
 ```
+
+<br>
+<br>
+
+## [POP ](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_pop)
+
+- just like in JS **pop** will remove the last of the list
