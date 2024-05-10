@@ -301,3 +301,10 @@ print(data)
 ['Dave', 42, True]
 []
 ```
+
+<br>
+<br>
+
+## 🟡SORT
+
+- just like in javascript The **sort()** method sorts an array alphabetically:
