@@ -274,8 +274,12 @@ print(users)
 ### deleting a list
 
 ```python
+# --- del a lst
 del data
 print(data)
-#
-#result
+# it will tell you the following because the list no longer exists
+# line 102, in <module>
+#     print(data)
+#           ^^^^
+# NameError: name 'data' is not defined
 ```
