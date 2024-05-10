@@ -361,5 +361,14 @@ print(nums)
 - hide the previous test
 
 ```python
-
+#hide this:
+# nums.sort(reverse=True)
+# print(nums)
+# result: as you can noticem the its the biggest showing first and so on [78, 42, 5, 4, 1]
+#
+nums = [4, 42, 78, 1,5]
+#
+print(sorted(nums, reverse=True))
+print(nums)
+#result
 ```
