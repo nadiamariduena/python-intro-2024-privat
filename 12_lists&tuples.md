@@ -185,5 +185,5 @@ users = ['Dave', 'John', 'Sara', 'Elsa', 'Robert', 'Jimmy']
 users.extend(data)
 print(users)
 #
-#result
+# result
 ```

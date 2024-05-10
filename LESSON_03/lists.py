@@ -32,7 +32,13 @@ print(users) # result ['Dave', 'John', 'Sara', 'Elsa']
 # users += 'Jason'
 print(users)
 
-#
-#
+# ---------
+# EXTEND 1
 users.extend(['Robert', 'Jimmy'])
+print(users)
+
+# ----------
+# EXTEND 2
+# here i m inserting the data list within the user list
+users.extend(data)
 print(users)
