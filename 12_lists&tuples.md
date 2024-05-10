@@ -221,6 +221,8 @@ print(users)
 
 ```python
 #it will replace the position 1 which is the second and then then it will stop at pos 3
-users[1:3]
+users[1:3] = ['robert', 'JPJ']
 print(users)
+#RESULT
+['Bob', 'robert', 'JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n', 'Robert', 'Jimmy']
 ```

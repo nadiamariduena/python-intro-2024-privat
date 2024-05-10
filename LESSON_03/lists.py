@@ -62,3 +62,7 @@ users[2:2] = ["Eddie", "Alex"]
 print(users)
 #result
 # ['Bob', 'Dave', 'Eddie', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n', 'Robert', 'Jimmy']
+
+
+users[1:3] = ['robert', 'JPJ']
+print(users)
