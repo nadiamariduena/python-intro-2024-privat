@@ -209,7 +209,8 @@ print(users)
 - I will add 2 new names to the second position
 
 ```python
-users[2:2]
+users[2:2] = ["Eddie", "Alex"]
 print(users)
 #result
+# ['Bob', 'Dave', 'Eddie', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n', 'Robert', 'Jimmy']
 ```
