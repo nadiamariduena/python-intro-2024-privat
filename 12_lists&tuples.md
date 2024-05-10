@@ -251,5 +251,9 @@ print(users)
 
 ```python
 print(users.pop())
+
+# result
+#['robert', 'JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n', 'Robert', 'Jimmy']
+# Jimmy # ✋ as you can see jimmy has been removed from the list and is now out
 # print(users)
 ```
