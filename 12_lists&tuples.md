@@ -237,4 +237,7 @@ print(users)
 ```python
 users.remove("Bob")
 print(users)
+#
+# result
+['robert', 'JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n', 'Robert', 'Jimmy']
 ```
