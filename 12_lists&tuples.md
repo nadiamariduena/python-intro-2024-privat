@@ -327,3 +327,17 @@ users.sort(key=str.lower)
 print(users)
 #result
 ```
+
+<br>
+<br>
+
+## 🟧 REVERSE (Numbers)
+
+```python
+
+# -- numbers
+nums = [4, 42, 78, 1, 5]
+nums.reverse()
+print(nums)
+# result: [5, 1, 78, 42, 4]
+```
