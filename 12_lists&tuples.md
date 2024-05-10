@@ -355,3 +355,11 @@ nums.sort(reverse=True)
 print(nums)
 # result: as you can noticem the its the biggest showing first and so on [78, 42, 5, 4, 1]
 ```
+
+# bring it back to the original list
+
+- hide the previous test
+
+```python
+
+```
