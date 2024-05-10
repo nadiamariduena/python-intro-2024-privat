@@ -399,3 +399,49 @@ print(mynums)
 print(mycopy)
 print(nums)
 ```
+
+# --- list copies
+
+```python
+numscopy = nums.copy()
+mynums = list(nums)
+mycopy = nums[:]
+
+print(numscopy)
+print(mynums)
+print(mycopy)
+print(nums)
+
+# result --
+#[78, 42, 5, 4, 1]
+# [4, 42, 78, 1, 5]
+# .----.
+# [4, 42, 78, 1, 5]
+# [4, 42, 78, 1, 5]
+# [4, 42, 78, 1, 5]
+# [4, 42, 78, 1, 5]
+```
+
+<br>
+<br>
+
+## Sort the nums list
+
+```python
+print(numscopy)
+print(mynums)
+mycopy.sort() ✋
+print(mycopy)
+print(nums)
+# [78, 42, 5, 4, 1]
+# [4, 42, 78, 1, 5]
+# .----.
+# [4, 42, 78, 1, 5]
+# [4, 42, 78, 1, 5]
+# [4, 42, 78, 1, 5]
+# [4, 42, 78, 1, 5]
+# [4, 42, 78, 1, 5]
+# [4, 42, 78, 1, 5]
+# [1, 4, 5, 42, 78] ✋
+# [4, 42, 78, 1, 5]
+```
