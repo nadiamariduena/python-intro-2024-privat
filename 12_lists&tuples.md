@@ -257,3 +257,16 @@ print(users.pop())
 # Jimmy # ✋ as you can see jimmy has been removed from the list and is now out
 # print(users)
 ```
+
+<br>
+<br>
+
+# DEL
+
+#### i will delete the first item of the list
+
+```python
+del users[0]
+print(users)
+#result: robert has been deleted from the list ['JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n', 'Robert']
+```
