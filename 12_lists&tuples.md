@@ -273,6 +273,8 @@ print(users)
 
 ### deleting a list
 
+- first i will show you how to delete the entire list, then i will show you to only **clear** the list without deleting it all
+
 ```python
 # --- del a lst
 del data
@@ -282,4 +284,15 @@ print(data)
 #     print(data)
 #           ^^^^
 # NameError: name 'data' is not defined
+```
+
+### deleting a list
+
+- clear the content of the list
+
+```python
+# --- del a lst
+# del data
+print(data)
+
 ```
