@@ -151,6 +151,9 @@ print(users)
 ['Dave', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n']
 ```
 
+<br>
+<br>
+
 ## 🟡 EXTEND
 
 - this also will **push** more items to the list
@@ -167,3 +170,7 @@ print(users)
 
 ['Dave', 'John', 'Sara', 'Elsa', 'Robert', 'Jimmy']
 ```
+
+<br>
+
+### insert another list within a list using EXTEND
