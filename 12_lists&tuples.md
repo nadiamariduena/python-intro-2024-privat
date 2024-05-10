@@ -270,3 +270,12 @@ del users[0]
 print(users)
 #result: robert has been deleted from the list ['JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n', 'Robert']
 ```
+
+### deleting a list
+
+```python
+del data
+print(data)
+#
+#result
+```
