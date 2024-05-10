@@ -174,3 +174,16 @@ print(users)
 <br>
 
 ### insert another list within a list using EXTEND
+
+```python
+data = ['Dave', 42, True]
+#
+users = ['Dave', 'John', 'Sara', 'Elsa', 'Robert', 'Jimmy']
+#
+#
+# here i m inserting the data list within the user list
+users.extend(data)
+print(users)
+#
+#result
+```
