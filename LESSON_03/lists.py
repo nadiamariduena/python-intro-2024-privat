@@ -98,10 +98,21 @@ print(users)
 #
 #
 # --- del a lst
-del data
+# del data
 print(data)
 # it will tell you the following because the list no longer exists
 # line 102, in <module>
 #     print(data)
 #           ^^^^
 # NameError: name 'data' is not defined
+
+#
+#
+#---
+# CLEAR the list
+#clear the content of the list
+
+# --- del a lst
+# del data
+data.clear()
+print(data)

@@ -291,8 +291,13 @@ print(data)
 - clear the content of the list
 
 ```python
+data = ['Dave', 42, True]
 # --- del a lst
 # del data
+data.clear()
 print(data)
-
+#
+# result
+['Dave', 42, True]
+[]
 ```
