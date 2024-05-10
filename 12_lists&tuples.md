@@ -341,3 +341,17 @@ nums.reverse()
 print(nums)
 # result: [5, 1, 78, 42, 4]
 ```
+
+#
+
+#
+
+#
+
+# reverse it again
+
+```python
+nums.sort(reverse=True)
+print(nums)
+# result: as you can noticem the its the biggest showing first and so on [78, 42, 5, 4, 1]
+```

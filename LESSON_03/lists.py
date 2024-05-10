@@ -145,6 +145,8 @@ nums = [4, 42, 78, 1, 5]
 nums.reverse()
 print(nums)
 # result: [5, 1, 78, 42, 4]
+#
+#------
 # reverse it again
 #
 nums.sort(reverse=True)
