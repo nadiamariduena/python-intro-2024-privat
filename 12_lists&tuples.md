@@ -312,4 +312,6 @@ print(data)
 ```python
 users.sort()
 print(users)
+# result
+#['Alex', 'Elsa', 'J', 'JPJ', 'Jason', 'John', 'Robert', 'Sara', 'a', 'n', 'o', 's']
 ```

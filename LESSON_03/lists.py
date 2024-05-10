@@ -116,3 +116,13 @@ print(data)
 # del data
 data.clear()
 print(data)
+
+
+
+#
+# --- SORT
+# just like in javascript The **sort()** method sorts an array alphabetically:
+users.sort()
+print(users)
+# result
+#['Alex', 'Elsa', 'J', 'JPJ', 'Jason', 'John', 'Robert', 'Sara', 'a', 'n', 'o', 's']
