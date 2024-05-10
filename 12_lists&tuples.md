@@ -188,3 +188,15 @@ print(users)
 # result
 ['Dave', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n', 'Robert', 'Jimmy', 'Dave', 42, True]
 ```
+
+<br>
+<br>
+
+## 🟡 insert item to a certain position, here below i want to insert "Bob" at position 0 which is the beginning
+
+```python
+
+users.insert(0, "Bob")
+print(users)
+#result
+```
