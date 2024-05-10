@@ -153,8 +153,17 @@ print(users)
 
 ## 🟡 EXTEND
 
-- this also will push more items to the list
+- this also will **push** more items to the list
 
 ```python
+# original list
+users = ['Dave', 'John', 'Sara']
+#
+#
+users.extend(['Robert', 'Jimmy'])
+print(users)
+#
+# result
+
 ['Dave', 'John', 'Sara', 'Elsa', 'Robert', 'Jimmy']
 ```
