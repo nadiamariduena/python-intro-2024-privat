@@ -52,3 +52,13 @@ print(users)
 users.insert(0, "Bob")
 print(users)
 #['Bob', 'Dave', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n', 'Robert', 'Jimmy']
+
+#
+#
+
+# I will add 2 new names to the second position
+
+users[2:2] = ["Eddie", "Alex"]
+print(users)
+#result
+# ['Bob', 'Dave', 'Eddie', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n', 'Robert', 'Jimmy']

@@ -209,5 +209,7 @@ print(users)
 - I will add 2 new names to the second position
 
 ```python
-
+users[2:2]
+print(users)
+#result
 ```
