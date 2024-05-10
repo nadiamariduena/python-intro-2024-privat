@@ -201,3 +201,13 @@ print(users)
 #result
 ['Bob', 'Dave', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n', 'Robert', 'Jimmy']
 ```
+
+<br>
+
+### Insert 2 values to an specific position
+
+- I will add 2 new names to the second position
+
+```python
+
+```
