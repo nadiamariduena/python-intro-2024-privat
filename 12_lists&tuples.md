@@ -226,3 +226,15 @@ print(users)
 #RESULT
 ['Bob', 'robert', 'JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n', 'Robert', 'Jimmy']
 ```
+
+<br>
+<br>
+
+## REMOVE
+
+- remove items from the list
+
+```python
+users.remove("Bob")
+print(users)
+```

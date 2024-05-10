@@ -69,3 +69,10 @@ users[1:3] = ['robert', 'JPJ']
 print(users)
 #RESULT
 ['Bob', 'robert', 'JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n', 'Robert', 'Jimmy']
+
+#
+#
+#--------
+# REMOVE
+users.remove("Bob")
+print(users)
