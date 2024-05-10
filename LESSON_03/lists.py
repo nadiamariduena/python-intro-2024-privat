@@ -138,3 +138,9 @@ print(users)
 #result
 # you can see the that it sorted the list alphabetically
 #['dave', 'Elsa', 'Jason', 'John', 'JPJ', 'Robert', 'Sara', 'zardoz']
+
+#
+# -- numbers
+nums = [4, 42, 78, 1, 5]
+nums.reverse()
+print(nums)
