@@ -305,6 +305,11 @@ print(data)
 <br>
 <br>
 
-## 🟡SORT
+## 🟡[SORT ](https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_sort)
 
 - just like in javascript The **sort()** method sorts an array alphabetically:
+
+```python
+users.sort()
+print(users)
+```
