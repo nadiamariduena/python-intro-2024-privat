@@ -43,7 +43,7 @@ print(users)
 # ----------
 # EXTEND 2
 # here i m inserting the data list within the user list
-users.extend(data)
-print(users)
+# users.extend(data)
+# print(users)
 # result
 # ['Dave', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n', 'Robert', 'Jimmy', 'Dave', 42, True]
