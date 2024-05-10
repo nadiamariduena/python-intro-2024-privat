@@ -94,3 +94,14 @@ print(users)
 del users[0]
 print(users)
 #result: robert has been deleted from the list ['JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n', 'Robert']
+
+#
+#
+# --- del a lst
+del data
+print(data)
+# it will tell you the following because the list no longer exists
+# line 102, in <module>
+#     print(data)
+#           ^^^^
+# NameError: name 'data' is not defined
