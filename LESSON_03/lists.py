@@ -30,7 +30,7 @@ print(users) # result ['Dave', 'John', 'Sara', 'Elsa']
 #
 users += ['Jason']
 # result: ['Dave', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n']
-users += 'Jason'
+# users += 'Jason'
 print(users)
 # result: 'J', 'a', 's', 'o', 'n'
 print(users)
@@ -122,7 +122,16 @@ print(data)
 #
 # --- SORT
 # just like in javascript The **sort()** method sorts an array alphabetically:
+users[1:2]=['dave']
 users.sort()
 print(users)
 # result
 #['Alex', 'Elsa', 'J', 'JPJ', 'Jason', 'John', 'Robert', 'Sara', 'a', 'n', 'o', 's']
+
+#
+# -----
+# LOWERCASE
+
+users.sort(key=str.lower)
+print(users)
+#result
