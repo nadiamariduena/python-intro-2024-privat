@@ -217,7 +217,7 @@ print(users)
 
 <br>
 
-### replacing names at specific positions
+### replacing names at specific positions (similar to [SLICE in javascript](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_slice_array))
 
 ```python
 #it will replace the position 1 which is the second and then it will stop at pos 3 which is alex
