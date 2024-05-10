@@ -186,4 +186,5 @@ users.extend(data)
 print(users)
 #
 # result
+['Dave', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n', 'Robert', 'Jimmy', 'Dave', 42, True]
 ```
