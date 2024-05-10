@@ -28,8 +28,11 @@ print(users) # result ['Dave', 'John', 'Sara', 'Elsa']
 
 #
 #
-# users += ['Jason']
-# users += 'Jason'
+users += ['Jason']
+# result: ['Dave', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n']
+users += 'Jason'
+print(users)
+# result: 'J', 'a', 's', 'o', 'n'
 print(users)
 
 # ---------
