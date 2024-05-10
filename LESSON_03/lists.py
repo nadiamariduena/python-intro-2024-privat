@@ -76,3 +76,13 @@ print(users)
 # REMOVE
 users.remove("Bob")
 print(users)
+
+#
+#---------
+#POP
+#just like in JS **pop** will remove the last of the list
+print(users.pop())
+# result
+#['robert', 'JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n', 'Robert', 'Jimmy']
+# Jimmy # as you can see jimmy has been removed from the list and is now out
+# print(users)

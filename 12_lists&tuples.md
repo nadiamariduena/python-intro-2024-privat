@@ -248,3 +248,8 @@ print(users)
 ## [POP ](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_pop)
 
 - just like in JS **pop** will remove the last of the list
+
+```python
+print(users.pop())
+# print(users)
+```
