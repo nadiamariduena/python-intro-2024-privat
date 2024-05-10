@@ -372,3 +372,30 @@ print(sorted(nums, reverse=True))
 print(nums)
 #result
 ```
+
+<br>
+<br>
+
+## List copies
+
+```python
+nums = [4, 42, 78, 1,5]
+#
+print(sorted(nums, reverse=True))
+print(nums)
+#result
+#[78, 42, 5, 4, 1]
+# [4, 42, 78, 1, 5]
+print(".----.")
+#
+# --- list copies
+
+numscopy = nums.copy()
+mynums = list(nums)
+mycopy = nums[:]
+
+print(numscopy)
+print(mynums)
+print(mycopy)
+print(nums)
+```
