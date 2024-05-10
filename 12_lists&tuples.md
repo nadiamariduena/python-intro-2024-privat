@@ -144,5 +144,9 @@ print(users)
 users += 'Jason'
 print(users)
 # result
+'J', 'a', 's', 'o', 'n'
+#
+#
+# like so
 ['Dave', 'John', 'Sara', 'Elsa', 'Jason', 'J', 'a', 's', 'o', 'n']
 ```
