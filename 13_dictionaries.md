@@ -79,3 +79,19 @@ for key in my_dict:
     print(key)  # This will print each key in the dictionary
 
 ```
+
+<br>
+<br>
+
+## Checking for Key Existence: You can check if a key exists in a dictionary using the in keyword:
+
+```python
+#
+ my_dict = {'apple': 5, 'banana': 3, 'orange': 7}
+#
+#
+#
+if 'apple' in my_dict:
+    print("Yes, 'apple' is a key in the dictionary.")
+
+```
