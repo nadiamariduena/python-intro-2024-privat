@@ -25,3 +25,7 @@ print(type(anothertuple))
 # # Since Tuples are unchangeable 🔴(meaning that we cannot change, add or remove items after the tuple has been created.) we can create a copy of the tuple and then insert a new ITEM
 
 newlist = list(mytuple)
+newlist.append('🤚 Neil')
+print(newlist)
+#result
+#['Dave', 42, True, '🤚 Neil']
