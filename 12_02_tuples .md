@@ -210,3 +210,11 @@ print(hey)
 # [4, 2]
 # 8
 ```
+
+### Different methods
+
+- with the **count** method you can figure out how many items of the same are inside a list or tuple
+
+```python
+print(anothertuple.count(2))
+```
