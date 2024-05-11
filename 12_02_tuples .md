@@ -175,6 +175,23 @@ print("Email:", user_email)
 - In this example, get_user_info() returns a tuple containing user information, and tuple unpacking is used to assign each piece of information to separate variables. This makes the code more readable and eliminates the need to access elements of the tuple using indexing.
 
 <br>
+
+### The concept of tuple unpacking in Python is similar to array deconstruction or destructuring in JavaScript, including its usage in React.
+
+In JavaScript, you might see something like this in React:
+
+```javascript
+const user = { name: "John", age: 30, email: "john@example.com" };
+
+// Destructuring assignment
+const { name, age, email } = user;
+
+console.log(name); // Output: John
+console.log(age); // Output: 30
+console.log(email); // Output: john@example.com
+```
+
+<br>
 <br>
 
 ```python
