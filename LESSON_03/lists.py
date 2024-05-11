@@ -205,7 +205,7 @@ print(nums)
 
 
 #
-#-----
+#----- type of the list
 
 print(type(nums))
 #result

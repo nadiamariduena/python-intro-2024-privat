@@ -464,5 +464,6 @@ print(type(nums))
 ## 🟡 Another way to create a list
 
 ```python
-
+mylist =  list([1, "Neil",  True])
+print(mylist)
 ```
