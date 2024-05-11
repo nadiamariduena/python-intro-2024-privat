@@ -172,6 +172,8 @@ print("Email:", user_email)
 
 ```
 
+- In this example, get_user_info() returns a tuple containing user information, and tuple unpacking is used to assign each piece of information to separate variables. This makes the code more readable and eliminates the need to access elements of the tuple using indexing.
+
 <br>
 <br>
 
