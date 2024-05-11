@@ -151,6 +151,27 @@ print(rest) # Output: [3, 4, 5]
 <br>
 
 ```python
+def get_user_info():
+    # Simulated data retrieval
+    name = "John"
+    age = 30
+    email = "john@example.com"
+    return name, age, email
+
+# Using tuple unpacking to extract individual pieces of information
+username, user_age, user_email = get_user_info()
+
+print("Name:", username)
+print("Age:", user_age)
+print("Email:", user_email)
+
+
+```
+
+<br>
+<br>
+
+```python
 #anothertuple = (1,4,2,8)
 # the values below are connected to the line 36, notice that when i add the asterisk, the value will be nested on an array
 (one, *two, hey) = anothertuple
