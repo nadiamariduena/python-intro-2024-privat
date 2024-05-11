@@ -150,6 +150,10 @@ print(rest) # Output: [3, 4, 5]
 <br>
 <br>
 
+### 🌈 Now, let's see how tuple unpacking can be used in a real project:
+
+Imagine you have a function that returns a tuple containing different pieces of information, and you want to use these pieces separately:
+
 ```python
 def get_user_info():
     # Simulated data retrieval
