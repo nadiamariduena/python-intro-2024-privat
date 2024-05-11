@@ -20,3 +20,8 @@ my_dict = {'apple': 5, 'banana': 3, 'orange': 7}
 <br>
 
 **Accessing Values:** You can access the value associated with a particular key by using square brackets `[]`. For example:
+
+```python
+print(my_dict['apple'])  # Output: 5
+
+```
