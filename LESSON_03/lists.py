@@ -210,3 +210,12 @@ print(nums)
 print(type(nums))
 #result
 #<class 'list'>
+
+#
+#
+# creating a new list
+
+mylist =  list([1, "Neil",  True])
+print(mylist)
+#rwsult
+#[1, 'Neil', True]

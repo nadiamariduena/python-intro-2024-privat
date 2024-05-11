@@ -466,4 +466,7 @@ print(type(nums))
 ```python
 mylist =  list([1, "Neil",  True])
 print(mylist)
+
+#result
+#[1, 'Neil', True]
 ```
