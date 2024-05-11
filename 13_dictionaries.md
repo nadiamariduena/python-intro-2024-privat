@@ -95,3 +95,9 @@ if 'apple' in my_dict:
     print("Yes, 'apple' is a key in the dictionary.")
 
 ```
+
+<br>
+
+### Dictionary Methods:
+
+- Python dictionaries have several useful **methods** such as `keys(), values(), and items()` which return views of the dictionary's keys, values, and key-value pairs respectively.
