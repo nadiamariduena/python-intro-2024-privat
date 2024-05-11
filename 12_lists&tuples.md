@@ -445,3 +445,23 @@ print(nums)
 # [1, 4, 5, 42, 78] ✋
 # [4, 42, 78, 1, 5]
 ```
+
+<br>
+<br>
+
+## 🟡 check the type of the list
+
+<br>
+
+```python
+
+```
+
+<br>
+<br>
+
+## 🟡 Another way to create a list
+
+```python
+
+```
