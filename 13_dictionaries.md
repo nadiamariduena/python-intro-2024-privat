@@ -41,7 +41,12 @@ guitar="Page"
 )
 
 print(band2)
-
+#
+#
+print(type(band))
+#result: <class 'dict'>
+print(len(band))
+#result: 2
 ```
 
 <br>
