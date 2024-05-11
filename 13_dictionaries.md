@@ -69,3 +69,13 @@ my_dict.pop('apple')   # Removing 'apple' and its value
 ### 🟡 Iterating Over a Dictionary:
 
 - You can loop through a dictionary using a for loop. By default, **looping through a dictionary will give you its keys**:
+
+```python
+#
+ my_dict = {'apple': 5, 'banana': 3, 'orange': 7}
+#
+#
+for key in my_dict:
+    print(key)  # This will print each key in the dictionary
+
+```
