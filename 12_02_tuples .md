@@ -103,3 +103,5 @@ print(type(anothertuple))
 # <class 'tuple'>
 # <class 'tuple'>
 ```
+
+### Since Tuples are unchangeable 🔴(meaning that we cannot change, add or remove items after the tuple has been created.) we can create a copy of the tuple and then insert a new ITEM
