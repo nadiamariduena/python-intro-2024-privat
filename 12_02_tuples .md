@@ -43,5 +43,6 @@ my_tuple = (1, 2, 3)
 
 ```python
 nested_tuple = ((1, 2), (3, 4))
-
 ```
+
+#### 🟨 Using double parentheses for tuples can be likened to nesting objects within an array in other programming languages. It helps to maintain clarity, especially when dealing with complex data structures where you have collections of collections.
