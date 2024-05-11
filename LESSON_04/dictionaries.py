@@ -43,3 +43,4 @@ print(band.get("guitar"))
 # ----- print all keys ---
 
 print(band.keys())
+# result: dict_keys(['vocals', 'guitar'])
