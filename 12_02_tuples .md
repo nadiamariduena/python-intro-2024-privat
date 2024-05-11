@@ -51,11 +51,22 @@ nested_tuple = ((1, 2), (3, 4))
 
 Here's a comparison:
 
-In JavaScript:
+#### JavaScript:
 
 ```javascript
 var arrayOfObjects = [
   { name: "John", age: 30 },
   { name: "Jane", age: 25, hobbies: ["reading", "painting"] },
 ];
+```
+
+#### Python
+
+```python
+list_of_tuples = [
+    (1, 2),
+    (3, 4, 5),
+    ((1, 2), (3, 4))
+]
+
 ```
