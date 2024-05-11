@@ -138,8 +138,8 @@ print(c)  # Output: 3
 #### Unpacking with a starred expression (for variable length tuples):
 
 ```python
-my_tuple = (1, 2, 3, 4, 5)
-a, b, *rest = my_tuple
+mytuple = (1, 2, 3, 4, 5)
+a, b, *rest = mytuple
 print(a)    # Output: 1
 print(b)    # Output: 2
 print(rest) # Output: [3, 4, 5]
@@ -216,5 +216,8 @@ print(hey)
 - with the **count** method you can figure out how many items of the same are inside a list or tuple
 
 ```python
+anothertuple = (1, 2, 3, 4, 5,2,2)
 print(anothertuple.count(2))
+#result
+#3 #because i have 3 times 2 within the
 ```
