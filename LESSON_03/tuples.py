@@ -5,3 +5,12 @@ print(mylist)
 #[1, 'Neil', True]
 #
 #------ TUPLE
+#
+mytuple = tuple(("Dave", 42, True))
+#
+#
+anothertuple = (1,4,2,8)
+
+print(mytuple)
+print(type(mytuple))
+print(type(anothertuple))
