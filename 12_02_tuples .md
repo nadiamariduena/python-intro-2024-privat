@@ -135,6 +135,18 @@ print(c)  # Output: 3
 
 ```
 
+#### Unpacking with a starred expression (for variable length tuples):
+
+```python
+my_tuple = (1, 2, 3, 4, 5)
+a, b, *rest = my_tuple
+print(a)    # Output: 1
+print(b)    # Output: 2
+print(rest) # Output: [3, 4, 5]
+
+
+```
+
 <br>
 <br>
 
