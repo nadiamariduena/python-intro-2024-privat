@@ -23,6 +23,7 @@ A tuple is a collection which is ordered and unchangeable 🔴(meaning that we c
 https://www.w3schools.com/python/python_tuples.asp
 
 <br>
+<br>
 
 ### Single Parentheses for Tuples:
 
@@ -30,5 +31,17 @@ https://www.w3schools.com/python/python_tuples.asp
 
 ```python
 my_tuple = (1, 2, 3)
+
+```
+
+<br>
+<br>
+
+### Double Parentheses in Certain Cases:
+
+- Double parentheses are sometimes used to explicitly define a tuple within a tuple, particularly when it's necessary for clarity or when working with tuples inside other data structures. For example:
+
+```python
+nested_tuple = ((1, 2), (3, 4))
 
 ```
