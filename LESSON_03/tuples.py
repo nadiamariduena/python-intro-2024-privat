@@ -27,5 +27,8 @@ print(type(anothertuple))
 newlist = list(mytuple)
 newlist.append('🤚 Neil')
 print(newlist)
+
 #result
 #['Dave', 42, True, '🤚 Neil']
+newtuple = tuple(newlist)
+print(newtuple)
