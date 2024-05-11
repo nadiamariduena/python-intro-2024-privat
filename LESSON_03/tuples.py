@@ -29,3 +29,14 @@ newlist.append('🤚 Neil')  # Appends an element to the list
 print(newlist)  # Prints the modified list
 newtuple = tuple(newlist)  # Converts the modified list back to a tuple
 print(newtuple)  # Prints the modified tuple
+
+#
+#
+# - UNPACKING the tuple ----
+#anothertuple = (1,4,2,8)
+
+(one, *two, hey) = anothertuple
+
+print(one)
+print(two)
+print(hey)
