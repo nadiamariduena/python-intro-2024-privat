@@ -29,6 +29,7 @@ band ={
 "guitar": "Page"
 
 }
+print(band)
 #
 #
 #2 or
@@ -36,6 +37,8 @@ band2 = dict(
 vocals="Plant",
 guitar="Page"
 )
+
+print(band2)
 
 ```
 
