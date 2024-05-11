@@ -115,8 +115,28 @@ print(newtuple)  # Prints the modified tuple
 ```
 
 <br>
+<br>
 
 # - UNPACKING the tuple ----
+
+Tuple unpacking is a Python feature that allows you to assign the elements of a tuple to individual variables in a single line. It's a concise way to extract values from a tuple.
+
+Here are some short examples of tuple unpacking:
+
+#### Basic tuple unpacking:
+
+```python
+
+my_tuple = (1, 2, 3)
+a, b, c = my_tuple
+print(a)  # Output: 1
+print(b)  # Output: 2
+print(c)  # Output: 3
+
+```
+
+<br>
+<br>
 
 ```python
 #anothertuple = (1,4,2,8)
