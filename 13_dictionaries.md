@@ -23,5 +23,4 @@ my_dict = {'apple': 5, 'banana': 3, 'orange': 7}
 
 ```python
 print(my_dict['apple'])  # Output: 5
-
 ```
