@@ -454,7 +454,8 @@ print(nums)
 <br>
 
 ```python
-
+print(type(nums))
+#result
 ```
 
 <br>
