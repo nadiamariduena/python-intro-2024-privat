@@ -62,3 +62,10 @@ del my_dict['orange']  # Deleting a specific item
 my_dict.pop('apple')   # Removing 'apple' and its value
 
 ```
+
+<br>
+<br>
+
+### 🟡 Iterating Over a Dictionary:
+
+- You can loop through a dictionary using a for loop. By default, **looping through a dictionary will give you its keys**:
