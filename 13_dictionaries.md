@@ -86,7 +86,9 @@ print(band.get("guitar"))
 <br>
 <br>
 
-### what if i want to see all the keys
+## ALL KEYS
+
+#### what if i want to see all the keys
 
 ```python
 #
@@ -98,6 +100,19 @@ print(band.keys())
 ```
 
 <br>
+
+## ALL VALUES
+
+#### what if i want to see all values
+
+```python
+#
+#
+# ----- print all keys ---
+
+print(band.values())
+# result: dict_keys(['vocals', 'guitar'])
+```
 
 <br>
 
