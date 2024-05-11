@@ -32,7 +32,10 @@ band ={
 #
 #
 #2 or
-
+band2 = dict(
+vocals="Plant",
+guitar="Page"
+)
 
 ```
 
