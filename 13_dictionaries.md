@@ -38,6 +38,10 @@ print(my_dict['apple'])  # Output: 5
 - You can add new items or modify existing ones in a dictionary by assigning a value to a **key**:
 
 ```python
+#1
+my_dict = {'apple': 5, 'banana': 3, 'orange': 7}
+#
+# 2
 my_dict['grape'] = 4  # Adding a new item
 my_dict['banana'] = 6  # Modifying an existing item
 ```
