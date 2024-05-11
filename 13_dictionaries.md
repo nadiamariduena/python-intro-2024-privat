@@ -11,3 +11,8 @@
 <br>
 
 **Creation:** You can create a dictionary using curly braces `{}` and separating each key-value pair with a colon `:`. For example:
+
+```python
+my_dict = {'apple': 5, 'banana': 3, 'orange': 7}
+
+```
