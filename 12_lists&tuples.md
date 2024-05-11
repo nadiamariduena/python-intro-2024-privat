@@ -456,6 +456,7 @@ print(nums)
 ```python
 print(type(nums))
 #result
+# <class 'list'>
 ```
 
 <br>
