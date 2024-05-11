@@ -113,3 +113,22 @@ print(newlist)  # Prints the modified list
 newtuple = tuple(newlist)  # Converts the modified list back to a tuple
 print(newtuple)  # Prints the modified tuple
 ```
+
+<br>
+
+# - UNPACKING the tuple ----
+
+```python
+#anothertuple = (1,4,2,8)
+# the values below are connected to the line 36, notice that when i add the asterisk, the value will be nested on an array
+(one, *two, hey) = anothertuple
+
+print(one)
+print(two)
+print(hey)
+
+# result
+#1
+# [4, 2]
+# 8
+```
