@@ -36,3 +36,10 @@ print(band.get("guitar"))
 # i get plant and page, because these are the values that are aligned to the dictionary in line 27
 # Plant
 # Page
+
+
+#
+#
+# ----- print all keys ---
+
+print(band.keys())
