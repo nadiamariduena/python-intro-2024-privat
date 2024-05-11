@@ -89,7 +89,7 @@ print(band.get("guitar"))
 ### what if i want to see all the keys
 
 ```python
-
+print(band.keys())
 ```
 
 <br>
