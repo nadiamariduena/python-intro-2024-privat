@@ -64,11 +64,23 @@ print(my_dict['apple'])  # Output: 5
 <br>
 <br>
 
-### other ways to access the data
+### Other ways to access the data
 
 ```python
+#
+# ----- ACCESSing the data ---
+# band ={
+
+# "vocals": "Plant",
+# "guitar": "Page"
+
+# }
 print(band["vocals"])
 print(band.get("guitar"))
+#result:
+# 🐖 i get plant and page on the terminal, because these are the values that are aligned to the dictionary in line 27
+# Plant
+# Page
 ```
 
 <br>
