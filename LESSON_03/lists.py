@@ -219,3 +219,4 @@ mylist =  list([1, "Neil",  True])
 print(mylist)
 #rwsult
 #[1, 'Neil', True]
+
