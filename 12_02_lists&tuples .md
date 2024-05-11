@@ -16,4 +16,8 @@ mytuple = ("apple", "banana", "cherry")
 
 #### Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage.
 
-A tuple is a collection which is ordered and unchangeable.
+A tuple is a collection which is ordered and unchangeable 🔴(meaning that we cannot change, add or remove items after the tuple has been created.
+
+)
+
+https://www.w3schools.com/python/python_tuples.asp
