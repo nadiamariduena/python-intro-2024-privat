@@ -72,3 +72,8 @@ list_of_tuples = [
 ```
 
 - In both cases, the double parentheses or brackets denote nested structures within the main data structure.
+
+<br>
+<br>
+
+## Exercises
