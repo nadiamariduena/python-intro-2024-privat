@@ -46,3 +46,9 @@ nested_tuple = ((1, 2), (3, 4))
 ```
 
 #### 🟨 Using double parentheses for tuples can be likened to nesting objects within an array in other programming languages. It helps to maintain clarity, especially when dealing with complex data structures where you have collections of collections.
+
+- In languages like **JavaScript**, for instance, you might have an array containing objects, and if one of those objects contains another array, you'd nest the array within the object. Similarly, in Python, you can have tuples containing other tuples, and double parentheses help signify this nesting.
+
+Here's a comparison:
+
+In JavaScript:
