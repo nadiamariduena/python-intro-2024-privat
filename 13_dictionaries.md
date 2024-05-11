@@ -62,6 +62,16 @@ print(my_dict['apple'])  # Output: 5
 ```
 
 <br>
+<br>
+
+### other ways to access the data
+
+```python
+print(band["vocals"])
+print(band.get("guitar"))
+```
+
+<br>
 
 <br>
 

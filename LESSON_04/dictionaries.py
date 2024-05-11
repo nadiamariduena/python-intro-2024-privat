@@ -21,3 +21,18 @@ print(type(band))
 #result: <class 'dict'>
 print(len(band))
 #result: 2
+
+#
+# ----- ACCESSing the data ---
+# band ={
+
+# "vocals": "Plant",
+# "guitar": "Page"
+
+# }
+print(band["vocals"])
+print(band.get("guitar"))
+#result:
+# i get plant and page, because these are the values that are aligned to the dictionary in line 27
+# Plant
+# Page
