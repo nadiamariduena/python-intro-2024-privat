@@ -24,11 +24,8 @@ print(type(anothertuple))
 # #
 # # Since Tuples are unchangeable 🔴(meaning that we cannot change, add or remove items after the tuple has been created.) we can create a copy of the tuple and then insert a new ITEM
 
-newlist = list(mytuple)
-newlist.append('🤚 Neil')
-print(newlist)
-
-#result
-#['Dave', 42, True, '🤚 Neil']
-newtuple = tuple(newlist)
-print(newtuple)
+newlist = list(mytuple)  # Converts mytuple to a list
+newlist.append('🤚 Neil')  # Appends an element to the list
+print(newlist)  # Prints the modified list
+newtuple = tuple(newlist)  # Converts the modified list back to a tuple
+print(newtuple)  # Prints the modified tuple
