@@ -52,3 +52,10 @@ nested_tuple = ((1, 2), (3, 4))
 Here's a comparison:
 
 In JavaScript:
+
+```javascript
+var arrayOfObjects = [
+  { name: "John", age: 30 },
+  { name: "Jane", age: 25, hobbies: ["reading", "painting"] },
+];
+```
