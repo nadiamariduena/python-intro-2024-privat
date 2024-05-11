@@ -2,7 +2,7 @@
 
 - Think of a dictionary in Python as a collection of key-value pairs. It's similar to how words and their meanings are organized in a real-world dictionary.
 
-### Here's a simple breakdown:
+### 🟡 Here's a simple breakdown:
 
 <br>
 
@@ -22,8 +22,22 @@ my_dict = {'apple': 5, 'banana': 3, 'orange': 7}
 **Accessing Values:** You can access the value associated with a particular key by using square brackets `[]`. For example:
 
 ```python
+#1
 my_dict = {'apple': 5, 'banana': 3, 'orange': 7}
 #
-#
+# 2
 print(my_dict['apple'])  # Output: 5
+```
+
+<br>
+
+<br>
+
+### 🟡 Adding or Modifying Items:
+
+- You can add new items or modify existing ones in a dictionary by assigning a value to a **key**:
+
+```python
+my_dict['grape'] = 4  # Adding a new item
+my_dict['banana'] = 6  # Modifying an existing item
 ```
