@@ -21,3 +21,14 @@ A tuple is a collection which is ordered and unchangeable 🔴(meaning that we c
 )
 
 https://www.w3schools.com/python/python_tuples.asp
+
+<br>
+
+### Single Parentheses for Tuples:
+
+- You can create a tuple in Python using single parentheses. For example:
+
+```python
+my_tuple = (1, 2, 3)
+
+```
