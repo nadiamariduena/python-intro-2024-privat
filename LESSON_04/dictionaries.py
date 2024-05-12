@@ -108,9 +108,15 @@ print(band)
 #
 #------ CLEAR
 
-# 1. for this example, i will use the other dictionary i have at the top
+# 1. for this example, i will create a new dic
 
-# band2 = dict(
-# vocals="Plant",
-# guitar="Page"
-# )
+animals ={
+
+"anim1": "dog",
+"anim2": "cat"
+
+}
+#result
+# {'anim1': 'dog', 'anim2': 'cat'}
+# band2.clear()
+print(animals)
