@@ -127,7 +127,7 @@ print(animals)
 del animals
 #result
 print(animals)
-#result
+#result: you will get the below once its entirely deleted
 # print(animals)
 # ^^^^^^^
 # NameError: name 'animals' is not defined
