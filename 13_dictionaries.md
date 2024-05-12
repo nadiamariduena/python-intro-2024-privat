@@ -172,7 +172,7 @@ my_dict = {'apple': 5, 'banana': 3, 'orange': 7}
 del my_dict['orange']  # Deleting a specific item
 my_dict.pop('apple')   # Removing 'apple' and its value
 #
-#
+# removes the last item added to a dictionnary
 print(my_dict.popitem())
 ```
 
