@@ -204,12 +204,19 @@ print(band.popitem())
 
 <br>
 
-## Delete and CLEAR
+## 🔴Delete and CLEAR
 
 ```python
+# ---- deleting
+# 1 create a new item
 band["drums"] = "Bonita"
+#result: {'vocals': 'Plant', 'guitar': 'Page', 'drums': 'Bonita'}
+# 2 delete the new item
 del band["drums"]
+#result after deleting
+# {'vocals': 'Plant', 'guitar': 'Page'}
 print(band)
+#
 ```
 
 <br>

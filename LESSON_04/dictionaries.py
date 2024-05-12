@@ -105,3 +105,5 @@ del band["drums"]
 #result after deleting
 # {'vocals': 'Plant', 'guitar': 'Page'}
 print(band)
+#
+#------ CLEAR
