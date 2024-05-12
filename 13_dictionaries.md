@@ -290,4 +290,16 @@ if 'apple' in my_dict:
 
 ## COPY
 
-- First I will check "how not to copy dictionaries"
+- First I will see "how not to copy dictionaries"
+
+```python
+# 1. for this example, i will create a new dic
+
+animalss ={
+"anim1": "parrot",
+"anim2": "eagle"
+}
+
+#result
+print(animals)
+```
