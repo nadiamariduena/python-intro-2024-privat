@@ -86,7 +86,7 @@ print(band.get("guitar"))
 <br>
 <br>
 
-## ALL KEYS
+## 🍒 ALL KEYS
 
 #### what if i want to see all the keys
 
@@ -98,7 +98,7 @@ print(band.keys())
 
 <br>
 
-## ALL VALUES
+## 🍒 ALL VALUES
 
 #### what if i want to see all values
 
@@ -107,6 +107,12 @@ print(band.keys())
 print(band.values())
 #result
 #dict_values(['Plant', 'Page'])
+```
+
+# list of key/value pairs as tuples
+
+```python
+
 ```
 
 <br>
