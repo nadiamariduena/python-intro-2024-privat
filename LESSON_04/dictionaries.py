@@ -56,3 +56,19 @@ print(band.values())
 #list of key/value pairs as tuples
 print(band.items())
 #dict_items([('vocals', 'Plant'), ('guitar', 'Page')])
+
+#
+# band ={
+
+# "vocals": "Plant",
+# "guitar": "Page"
+
+# }
+# --- modifying
+band["vocals"] = "Coverdale"
+band.update({"bass": "JPJ"})
+print(band)
+# result: {'vocals': 'Coverdale', 'guitar': 'Page', 'bass': 'JPJ'}
+# see all
+print(band.items())
+#result
