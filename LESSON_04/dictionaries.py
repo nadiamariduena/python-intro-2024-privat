@@ -84,7 +84,8 @@ print(band.values())
 #- add a new item
 band["glow"] = "flower"
 print(band)
-#2 result, after i added the new item:
+# 2 result, after i added the new item:
 # dict_values(['Plant', 'Page'])
 # {'vocals': 'Plant', 'guitar': 'Page', 'glow': 'flower'}
-# print(band.popitem())
+# 3 now remove the last item added
+print(band.popitem())
