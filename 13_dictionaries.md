@@ -160,7 +160,7 @@ print(band)
 <br>
 <br>
 
-## 🟡 Removing Items:
+## 🟥Removing Items:
 
 - You can remove items from a dictionary using the del keyword or the `pop()` method:
 
@@ -171,7 +171,9 @@ my_dict = {'apple': 5, 'banana': 3, 'orange': 7}
 # 2
 del my_dict['orange']  # Deleting a specific item
 my_dict.pop('apple')   # Removing 'apple' and its value
-
+#
+#
+print(my_dict.popitem())
 ```
 
 <br>
