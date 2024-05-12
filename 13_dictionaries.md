@@ -172,8 +172,34 @@ my_dict = {'apple': 5, 'banana': 3, 'orange': 7}
 del my_dict['orange']  # Deleting a specific item
 my_dict.pop('apple')   # Removing 'apple' and its value
 #
-# removes the last item added to a dictionnary
-print(my_dict.popitem())
+
+```
+
+<br>
+
+# 🧧remove the last item
+
+```python
+#---------------------------
+
+#---------------------------
+# - removes the last item added to a dictionnary
+# 1 for that i will add a new item. the below is before i add the new item:
+# dict_values(['Plant', 'Page'])
+# ('guitar', 'Page')
+#- add a new item
+band["glow"] = "flower"
+print(band)
+# 2 result, after i added the new item:
+# dict_values(['Plant', 'Page'])
+# {'vocals': 'Plant', 'guitar': 'Page', 'glow': 'flower'}
+# 3 now remove the last item added
+print(band.popitem())
+# 4 result, here you can see that the glow flower are outside the square brackets
+# {'vocals': 'Plant', 'guitar': 'Page', 'glow': 'flower'}
+# ('glow', 'flower')
+#---------------------
+
 ```
 
 <br>
