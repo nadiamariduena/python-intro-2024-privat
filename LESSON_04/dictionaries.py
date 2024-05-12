@@ -75,7 +75,8 @@ print(band.values())
 #dict_items([('vocals', 'Coverdale'), ('guitar', 'Page'), ('bass', 'JPJ')])
 
 #---------------------------
-#-- 🟡 remove the last item
+# 🟡 remove the last item
+#---------------------------
 # - removes the last item added to a dictionnary, for that i will add a new item, this is before i add the new item
 # dict_values(['Plant', 'Page'])
 # ('guitar', 'Page')
