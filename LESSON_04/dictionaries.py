@@ -73,3 +73,6 @@ print(band)
 print(band.items())
 #result
 #dict_items([('vocals', 'Coverdale'), ('guitar', 'Page'), ('bass', 'JPJ')])
+
+# removes the last item added to a dictionnary
+print(band.popitem())
