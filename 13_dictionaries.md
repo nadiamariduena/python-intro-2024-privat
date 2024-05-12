@@ -153,6 +153,8 @@ my_dict.pop('apple')   # Removing 'apple' and its value
 <br>
 <br>
 
+# Verify if a key exists
+
 ### 🟡 Iterating Over a Dictionary:
 
 - You can loop through a dictionary using a for loop. By default, **looping through a dictionary will give you its keys**:
