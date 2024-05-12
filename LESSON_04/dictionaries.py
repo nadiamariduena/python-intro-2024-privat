@@ -51,3 +51,8 @@ print(band.keys())
 print(band.values())
 #result
 #dict_values(['Plant', 'Page'])
+
+# --------
+#list of key/value pairs as tuples
+print(band.items())
+#dict_items([('vocals', 'Plant'), ('guitar', 'Page')])

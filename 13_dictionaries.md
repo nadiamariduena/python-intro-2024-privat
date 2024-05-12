@@ -109,10 +109,13 @@ print(band.values())
 #dict_values(['Plant', 'Page'])
 ```
 
-# list of key/value pairs as tuples
+# 🍒 list of key/value pairs as tuples
 
 ```python
-
+# --------
+#list of key/value pairs as tuples
+print(band.items())
+#dict_items([('vocals', 'Plant'), ('guitar', 'Page')])
 ```
 
 <br>
