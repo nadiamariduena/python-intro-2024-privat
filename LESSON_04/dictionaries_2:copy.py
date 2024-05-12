@@ -11,5 +11,5 @@ print(animalss)
 #
 #
 # ---- copy -------
-# it s not a good thing to create a copy in such way, because here we are not creating a copy but a reference
+# it s not a good thing to create a copy in such way, because here we are not creating a copy but a reference, and it means that they are both refereing to the same place in memory
 animalss = animalss # create a reference
