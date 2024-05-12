@@ -203,6 +203,16 @@ print(band.popitem())
 ```
 
 <br>
+
+## Delete and CLEAR
+
+```python
+band["drums"] = "Bonita"
+del band["drums"]
+print(band)
+```
+
+<br>
 <br>
 
 ### 🟡 Iterating Over a Dictionary:
