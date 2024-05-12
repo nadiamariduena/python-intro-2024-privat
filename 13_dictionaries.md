@@ -91,10 +91,7 @@ print(band.get("guitar"))
 #### what if i want to see all the keys
 
 ```python
-#
-#
 # ----- print all keys ---
-
 print(band.keys())
 # result: dict_keys(['vocals', 'guitar'])
 ```
@@ -106,12 +103,10 @@ print(band.keys())
 #### what if i want to see all values
 
 ```python
-#
-#
-# ----- print all keys ---
-
+# ----- print all values ---
 print(band.values())
-# result: dict_keys(['vocals', 'guitar'])
+#result
+#dict_values(['Plant', 'Page'])
 ```
 
 <br>
