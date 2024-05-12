@@ -100,5 +100,8 @@ print(band.popitem())
 # 1 create a new item
 band["drums"] = "Bonita"
 #result: {'vocals': 'Plant', 'guitar': 'Page', 'drums': 'Bonita'}
-# del band["drums"]
+# 2 delete the new item
+del band["drums"]
+#result after deleting
+# {'vocals': 'Plant', 'guitar': 'Page'}
 print(band)
