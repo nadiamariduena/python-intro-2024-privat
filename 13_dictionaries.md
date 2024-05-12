@@ -149,10 +149,18 @@ my_dict['grape'] = 4  # Adding a new item
 my_dict['banana'] = 6  # Modifying an existing item
 ```
 
+#### another way
+
+```python
+band["vocals"] = "Coverdale"
+band.update({"bass": "JPJ"})
+print(band)
+```
+
 <br>
 <br>
 
-## Removing Items:
+## 🟡 Removing Items:
 
 - You can remove items from a dictionary using the del keyword or the `pop()` method:
 
