@@ -107,3 +107,10 @@ del band["drums"]
 print(band)
 #
 #------ CLEAR
+
+# 1. for this example, i will use the other dictionary i have at the top
+
+# band2 = dict(
+# vocals="Plant",
+# guitar="Page"
+# )
