@@ -93,3 +93,10 @@ print(band.popitem())
 # {'vocals': 'Plant', 'guitar': 'Page', 'glow': 'flower'}
 # ('glow', 'flower')
 #---------------------
+
+#
+#
+# ---- deleting
+band["drums"] = "Bonita"
+del band["drums"]
+print(band)
