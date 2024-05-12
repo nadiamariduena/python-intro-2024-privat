@@ -106,17 +106,19 @@ del band["drums"]
 # {'vocals': 'Plant', 'guitar': 'Page'}
 print(band)
 #
+#
+#
 #------ CLEAR
-
 # 1. for this example, i will create a new dic
 
 animals ={
-
 "anim1": "dog",
 "anim2": "cat"
-
 }
 #result
 # {'anim1': 'dog', 'anim2': 'cat'}
-# band2.clear()
 print(animals)
+# now i will delete it
+animals.clear()
+print(animals)
+# result: {}  its
