@@ -52,9 +52,9 @@ print(band.values())
 #result
 #dict_values(['Plant', 'Page'])
 
-# --------
+# -------- ALL
 #list of key/value pairs as tuples
-print(band.items())
+# print(band.items())
 #dict_items([('vocals', 'Plant'), ('guitar', 'Page')])
 
 #
@@ -65,14 +65,15 @@ print(band.items())
 
 # }
 # --- modifying
-band["vocals"] = "Coverdale"
-band.update({"bass": "JPJ"})
-print(band)
+# band["vocals"] = "Coverdale"
+# band.update({"bass": "JPJ"})
+# print(band)
 # result: {'vocals': 'Coverdale', 'guitar': 'Page', 'bass': 'JPJ'}
 # see all
-print(band.items())
+# print(band.items())
 #result
 #dict_items([('vocals', 'Coverdale'), ('guitar', 'Page'), ('bass', 'JPJ')])
 
-# removes the last item added to a dictionnary
+#-- 🟡 remove the last item
+# - removes the last item added to a dictionnary, for that i will add a new item, this is before i add the new item
 print(band.popitem())
