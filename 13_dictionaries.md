@@ -120,6 +120,22 @@ print(band.items())
 
 <br>
 
+## 🍒 Verify if a key exists
+
+```python
+print("guitar" in band)
+# True
+print("triangle" in band)
+# False because  triangle is not on the dictionnary
+
+```
+
+<br>
+
+---
+
+<br>
+
 ### 🟡 Adding or Modifying Items:
 
 - You can add new items or modify existing ones in a dictionary by assigning a value to a **key**:
@@ -152,8 +168,6 @@ my_dict.pop('apple')   # Removing 'apple' and its value
 
 <br>
 <br>
-
-# Verify if a key exists
 
 ### 🟡 Iterating Over a Dictionary:
 
