@@ -121,4 +121,4 @@ print(animals)
 # now i will delete it
 animals.clear()
 print(animals)
-# result: {}  its
+# result: {}  its empty because its cleared of its content
