@@ -288,9 +288,13 @@ if 'apple' in my_dict:
 <br>
 <br>
 
-## COPY
+---
 
-- First I will see "how not to copy dictionaries"
+<br>
+
+## 🟡 COPY
+
+- First I will see **"how not to copy dictionaries"**
 
 ```python
 # 1. for this example, i will create a new dic
