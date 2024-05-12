@@ -98,5 +98,5 @@ print(band.popitem())
 #
 # ---- deleting
 band["drums"] = "Bonita"
-del band["drums"]
+# del band["drums"]
 print(band)
