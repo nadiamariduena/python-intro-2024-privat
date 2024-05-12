@@ -72,3 +72,4 @@ print(band)
 # see all
 print(band.items())
 #result
+#dict_items([('vocals', 'Coverdale'), ('guitar', 'Page'), ('bass', 'JPJ')])
