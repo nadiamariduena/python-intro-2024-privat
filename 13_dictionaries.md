@@ -217,6 +217,33 @@ del band["drums"]
 # {'vocals': 'Plant', 'guitar': 'Page'}
 print(band)
 #
+#
+#
+#
+#
+#------ CLEAR
+# 1. for this example, i will create a new dic
+
+animals ={
+"anim1": "dog",
+"anim2": "cat"
+}
+#result
+# {'anim1': 'dog', 'anim2': 'cat'}
+print(animals)
+# now i will delete it
+animals.clear()
+print(animals)
+# result: {}  its empty because its cleared of its content
+# DEL
+# if i want to delete it entirely use this:
+del animals
+#result
+print(animals)
+#result: you will get the below once its entirely deleted
+# print(animals)
+# ^^^^^^^
+# NameError: name 'animals' is not defined
 ```
 
 <br>
