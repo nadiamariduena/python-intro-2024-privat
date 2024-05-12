@@ -89,3 +89,6 @@ print(band)
 # {'vocals': 'Plant', 'guitar': 'Page', 'glow': 'flower'}
 # 3 now remove the last item added
 print(band.popitem())
+# 4 result, here you can see that the glow flower are outside the square brackets
+# {'vocals': 'Plant', 'guitar': 'Page', 'glow': 'flower'}
+# ('glow', 'flower')
