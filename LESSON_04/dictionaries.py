@@ -122,3 +122,12 @@ print(animals)
 animals.clear()
 print(animals)
 # result: {}  its empty because its cleared of its content
+# DEL
+# if i want to delete it entirely use this:
+del animals
+#result
+print(animals)
+#result
+# print(animals)
+# ^^^^^^^
+# NameError: name 'animals' is not defined
