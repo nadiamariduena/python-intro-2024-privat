@@ -77,10 +77,14 @@ print(band.values())
 #---------------------------
 # 🟡 remove the last item
 #---------------------------
-# - removes the last item added to a dictionnary, for that i will add a new item, this is before i add the new item
+# - removes the last item added to a dictionnary
+# 1 for that i will add a new item. the below is before i add the new item:
 # dict_values(['Plant', 'Page'])
 # ('guitar', 'Page')
 #- add a new item
 band["glow"] = "flower"
 print(band)
+#2 result, after i added the new item:
+# dict_values(['Plant', 'Page'])
+# {'vocals': 'Plant', 'guitar': 'Page', 'glow': 'flower'}
 # print(band.popitem())
