@@ -284,3 +284,10 @@ if 'apple' in my_dict:
 ### Dictionary Methods:
 
 - Python dictionaries have several useful **methods** such as `keys(), values(), and items()` which return views of the dictionary's keys, values, and key-value pairs respectively.
+
+<br>
+<br>
+
+## COPY
+
+- First I will check "how not to copy dictionaries"
