@@ -373,3 +373,9 @@ print("Original Dictionary:", original_dict)
 print("Copied Dictionary:", copied_dict)
 
 ```
+
+When you create a new variable and assign it a new value, you're essentially creating a separate instance of that value. Then, when you "merge" the original variable with the new one, you're combining the values from both variables into a single variable, typically by concatenation or some other form of combination.
+
+In Python, this concept applies not just to arrays but also to dictionaries, lists, sets, etc. For example, when you create a copy of a dictionary and modify it, you're essentially creating a new dictionary with the modified values. When you merge it with the original dictionary, you're effectively combining the key-value pairs from both dictionaries into one.
+
+So, yes, in a way, creating a new variable, modifying it, and then merging it with the original one is conceptually similar to working with arrays, especially when considering the idea of creating, modifying, and combining data structures.
