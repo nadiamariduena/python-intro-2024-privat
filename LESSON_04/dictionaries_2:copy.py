@@ -19,4 +19,5 @@ band = {
 #
 # show the content
 print(band)
-#
+# result
+# {'member1': {'name': 'Robert Plant', 'instrument': 'vocals'}, 'member2': {'name': 'Jimmy Page', 'instrument': 'guitar'}}
