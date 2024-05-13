@@ -58,3 +58,15 @@ my_set.remove(3)
 ### 🟨 Union of SETS
 
 - The union of two sets consists of all unique elements present in either set.
+
+#### In Python, you can use the `union()` method or the `|` operator to perform the union operation.
+
+<br>
+
+```python
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+union_set = set1.union(set2)  # or union_set = set1 | set2
+# Output: {1, 2, 3, 4, 5}
+
+```
