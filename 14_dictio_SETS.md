@@ -20,10 +20,14 @@
 
 <br>
 
-### chatgpt answer:
+### 🟡 chatgpt answer:
 
 <br>
 
-- A set in Python is an unordered collection of unique elements. This means that sets don't allow duplicate elements, and they are not indexed. Sets are defined by enclosing comma-separated values inside curly braces {}.
+🔴 You're absolutely right! In scenarios where you need to continuously add more data or modify existing data, sets might not be the best choice.
+
+<br>
+
+- Sets are more **suitable** for situations where you have a **fixed collection of unique elements** that you want to perform set operations on, such as finding intersections or unions.
 
 <br>
