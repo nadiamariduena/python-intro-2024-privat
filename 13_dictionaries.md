@@ -385,3 +385,21 @@ print("Copied Dictionary:", copied_dict)
 <br>
 
 - So, yes, in a way, creating a new variable, modifying it, and then merging it with the original one is conceptually similar to working with arrays, especially when considering the idea of creating, modifying, and combining data structures.
+
+<br>
+<br>
+
+## :yellow_circle: NESTED dictionaries
+
+<br>
+
+```python
+member1 = {
+    'name': 'Robert Plant',
+    'instrument': 'vocals'
+}
+member2 = {
+    'name': 'Jimmy Page',
+    'instrument': 'guitar'
+}
+```
