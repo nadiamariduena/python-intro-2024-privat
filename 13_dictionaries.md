@@ -393,7 +393,11 @@ print("Copied Dictionary:", copied_dict)
 
 <br>
 
+#### example 1) : https://youtu.be/zdVdqTLk8O0?feature=shared&t=1056
+
 ```python
+# example : https://youtu.be/zdVdqTLk8O0?feature=shared&t=1056
+#
 #dictio 1
 member1 = {
     'name': 'Robert Plant',
