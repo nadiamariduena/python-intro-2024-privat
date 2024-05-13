@@ -1,6 +1,6 @@
 # SETS
 
-- set is the final data collection I will talk about
+- set is the final data collection I will talk about. Below you will see the chatgpt documentation about the topic and some exercises and also some of my questions about ít
 
 <br>
 <br>
