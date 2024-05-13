@@ -25,6 +25,7 @@ print(band)
 #
 #
 #---------
+print('----------')
 
 ecommerce_shop = {
 # ✋ Each top-level key represents a product category (e.g., "electronics", "clothing").
