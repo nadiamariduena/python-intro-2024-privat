@@ -482,6 +482,8 @@ ecommerce_shop = {
 
     "electronics": {
         "phones": [
+           # ✋ Each category key maps to a dictionary where keys are subcategories (e.g., "phones", "laptops" under "electronics").
+           #
             {"name": "iPhone 13", "price": 999},
             {"name": "Samsung Galaxy S21", "price": 899},
             {"name": "Google Pixel 6", "price": 699}
@@ -493,7 +495,7 @@ ecommerce_shop = {
         ]
     },
     "clothing": {
-# ✋ Each category key maps to a dictionary where keys are subcategories (e.g., "phones", "laptops" under "electronics").
+
         "men": [
             {"name": "T-shirt", "price": 20},
             {"name": "Jeans", "price": 50},
@@ -502,7 +504,10 @@ ecommerce_shop = {
         "women": [
             {"name": "Dress", "price": 60},
             {"name": "Skirt", "price": 40},
-            {"name": "Blouse", "price": 30}
+            {"name": "Blouse",
+
+            # ✋ Each subcategory key maps to a list of dictionaries, each representing a product with keys "name" and "price".
+            "price": 30}
         ]
     }
 }
