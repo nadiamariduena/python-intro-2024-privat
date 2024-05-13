@@ -162,7 +162,7 @@ union_set = set1.union(set2, set3)
 
 print("Union Set:", union_set)
 #
-# output
+#
 Union Set: {'grape', 'orange', 'banana', 'apple', 'pineapple', 'pear'}
-
+#Union Set: {'pear', 'orange', 'apple', 'pineapple', 'grape', 'banana'}
 ```
