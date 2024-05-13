@@ -321,8 +321,11 @@ print(fishes)
 animalss = fishes # create a reference
 ```
 
-✅ Copy (the correct way)
+<br>
+<br>
 
-````python
-animals = fishes.copy()```
-````
+## ✅ Copy (the correct way)
+
+```python
+animals = fishes.copy()
+```
