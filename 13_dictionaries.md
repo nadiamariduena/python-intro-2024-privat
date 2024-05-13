@@ -407,6 +407,11 @@ member2 = {
 }
 #---------
 #dictio 3
-#
+# here we will nest the 2 dictios from above
+band = {
+    "member1": member1,
+    "member2": member2
+}
+
 
 ```
