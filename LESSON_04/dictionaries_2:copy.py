@@ -21,7 +21,10 @@ band = {
 print(band)
 # result
 # {'member1': {'name': 'Robert Plant', 'instrument': 'vocals'}, 'member2': {'name': 'Jimmy Page', 'instrument': 'guitar'}}
-
+# -- level down
+print(band['member1']['name'])
+#result
+#Robert Plant
 #
 #
 #---------
