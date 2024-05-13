@@ -422,6 +422,10 @@ band = {
 print(band)
 # result, the band contains the following:
 # {'member1': {'name': 'Robert Plant', 'instrument': 'vocals'}, 'member2': {'name': 'Jimmy Page', 'instrument': 'guitar'}}
+#
+# -- level down
+print(band['member1']['name'])
+
 ```
 
 <br>
