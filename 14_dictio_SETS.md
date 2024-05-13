@@ -59,6 +59,8 @@ my_set.remove(3)
 
 - The union of two sets consists of all unique elements present in either set.
 
+<br>
+
 #### In Python, you can use the `union()` method or the `|` operator to perform the union operation.
 
 <br>
@@ -68,5 +70,23 @@ set1 = {1, 2, 3}
 set2 = {3, 4, 5}
 union_set = set1.union(set2)  # or union_set = set1 | set2
 # Output: {1, 2, 3, 4, 5}
+
+```
+
+<br>
+
+### 🟨 Intersection of Sets (intersection_set):
+
+- The intersection of two sets consists of all elements that are common to both sets.
+
+<br>
+
+- In Python, you can use the `intersection()` method or the `&` operator to perform the intersection operation.
+
+```python
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+intersection_set = set1.intersection(set2)  # or intersection_set = set1 & set2
+# Output: {3}
 
 ```
