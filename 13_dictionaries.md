@@ -326,6 +326,10 @@ animalss = fishes # create a reference
 
 ## ✅ Copy (the correct way)
 
+### Example 1
+
+<br>
+
 - i corrected it (i will be addding another examples below this one)
 
 ```python
@@ -344,5 +348,28 @@ print(fishes)
 # result
 #{'anim1': 'parrot', 'anim2': 'eagle'}
 # {'anim1': 'parrot', 'anim2': 'eagle', 'anim3': 'turtle'}
+
+```
+
+<br>
+<br>
+
+## Example 2
+
+in other words create a new variable and assign to it a new value, then merge the original variable with the new one (which contains the nex value)
+
+```python
+# Original dictionary
+original_dict = {'a': 1, 'b': 2}
+
+# Making a copy using the copy() method
+copied_dict = original_dict.copy()
+
+# Modifying the copied dictionary
+copied_dict['c'] = 3
+
+# Printing both dictionaries
+print("Original Dictionary:", original_dict)
+print("Copied Dictionary:", copied_dict)
 
 ```
