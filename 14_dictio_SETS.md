@@ -147,3 +147,19 @@ union_set = set1.union(set2, set3)
 3: hammer
 something like that but correctly done in set
 ```
+
+#### chatgpt:
+
+- Let's create sets with different data representing real scenarios, and then perform the union operation:
+
+```python
+set1 = {"apple", "banana", "orange"}
+set2 = {"orange", "pear", "grape"}
+set3 = {"banana", "grape", "pineapple"}
+
+# Union of sets
+union_set = set1.union(set2, set3)
+
+print("Union Set:", union_set)
+
+```
