@@ -294,7 +294,9 @@ if 'apple' in my_dict:
 
 ## 🟡 COPY
 
-- First I will see **"how not to copy dictionaries"**
+### bad copy
+
+- ⛔ First I will see **"how not to copy dictionaries"**
 
 ```python
 # 1. for this example, i will create a new dic
@@ -315,6 +317,6 @@ print(fishes)
 #
 #
 # ---- copy -------
-# it s not a good thing to create a copy in such way, because here we are not creating a copy but a reference, and it means that they are both refereeing to the same place in memory or the same dictionary, so if i add or remove somthing to animalss , the fishes will be affected, by also adding or remove tp the fishes, SO that IS WHY i dont want to do it.
+# it s not a good thing to create a copy in such way, because here we are not creating a copy but a reference, and it means that they are both referring to the same place in memory or the same dictionary, so if i add or remove something to animalss , the fishes will be affected, by also adding or remove to the fishes, SO that IS WHY i dont want to do it.
 animalss = fishes # create a reference
 ```
