@@ -427,7 +427,9 @@ print(band)
 <br>
 <br>
 
-### Example 2)
+## Example 2)
+
+#### Chatgpt examples
 
 ```python
 
@@ -466,5 +468,40 @@ user_tastes = {
 username1_pop_tastes = user_tastes["username1"]["pop"]
 print(username1_pop_tastes)
 # Output: ['Taylor Swift', 'Ariana Grande', 'Ed Sheeran']
+
+```
+
+<br>
+<br>
+
+### Example 3
+
+```python
+ecommerce_shop = {
+    "electronics": {
+        "phones": [
+            {"name": "iPhone 13", "price": 999},
+            {"name": "Samsung Galaxy S21", "price": 899},
+            {"name": "Google Pixel 6", "price": 699}
+        ],
+        "laptops": [
+            {"name": "MacBook Pro", "price": 1499},
+            {"name": "Dell XPS 15", "price": 1299},
+            {"name": "HP Spectre x360", "price": 1199}
+        ]
+    },
+    "clothing": {
+        "men": [
+            {"name": "T-shirt", "price": 20},
+            {"name": "Jeans", "price": 50},
+            {"name": "Jacket", "price": 80}
+        ],
+        "women": [
+            {"name": "Dress", "price": 60},
+            {"name": "Skirt", "price": 40},
+            {"name": "Blouse", "price": 30}
+        ]
+    }
+}
 
 ```
