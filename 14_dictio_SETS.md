@@ -130,3 +130,5 @@ set3 = {3, 6, 7}
 union_set = set1.union(set2, set3)
 # Output: {1, 2, 3, 4, 5, 6, 7}
 ```
+
+- In this example, the union of set1, set2, and set3 results in `{1, 2, 3, 4, 5, 6, 7}.` **Notice** that the element 3 appears only once in the union set, even though it's present in both set1, set2, and set3. This is because sets only contain unique elements, and duplicates are automatically removed.
