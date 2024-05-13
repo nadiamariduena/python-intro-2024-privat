@@ -107,3 +107,9 @@ difference_set = set1.difference(set2)  # or difference_set = set1 - set2
 # Output: {1, 2}
 
 ```
+
+## 👾 my QUESTION:
+
+- but if there is an union of the 3 that is contained within the set1 and set2, isnt this action going to destroy or modify the datas contained in the 3's?
+
+#### Chatgpt Answer:
