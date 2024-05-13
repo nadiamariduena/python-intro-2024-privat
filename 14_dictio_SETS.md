@@ -108,10 +108,25 @@ difference_set = set1.difference(set2)  # or difference_set = set1 - set2
 
 ```
 
+<br>
+<br>
+
 ## 👾 my QUESTION:
 
-- but if there is an union of the 3 that is contained within the set1 and set2, isnt this action going to destroy or modify the datas contained in the 3's?
+- But if there is an union of the 3 that is contained within the set1 and set2, isnt this going to destroy or modify the datas contained in the 3's?
 
 #### Chatgpt Answer:
 
-- You're correct. Performing the union of sets will merge the elements of both sets, but duplicates will not be added. If there are elements common to both sets, they will be present only once in the resulting union set. Let's illustrate this with an example:
+- You're correct. Performing the union of sets will merge the elements of both sets, but duplicates will not be added.
+
+- If there are elements common to both sets, they will be present only once in the resulting union set. Let's illustrate this with an example:
+
+```python
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+set3 = {3, 6, 7}
+
+# Union of sets
+union_set = set1.union(set2, set3)
+# Output: {1, 2, 3, 4, 5, 6, 7}
+```
