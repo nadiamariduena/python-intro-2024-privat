@@ -458,3 +458,13 @@ user_tastes = {
 
 
 ```
+
+### You can access a user's tastes by username and then by genre. For example:
+
+```python
+# Get the tastes of username1 in pop music
+username1_pop_tastes = user_tastes["username1"]["pop"]
+print(username1_pop_tastes)
+# Output: ['Taylor Swift', 'Ariana Grande', 'Ed Sheeran']
+
+```
