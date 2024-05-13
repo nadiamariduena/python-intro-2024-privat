@@ -327,5 +327,7 @@ animalss = fishes # create a reference
 ## ✅ Copy (the correct way)
 
 ```python
-animals = fishes.copy()
+animalss = fishes.copy()
+animalss["crocodile"] = "Dave"
+print(fishes)
 ```
