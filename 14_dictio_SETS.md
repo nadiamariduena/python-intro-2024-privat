@@ -31,3 +31,16 @@
 - Sets are more **suitable** for situations where you have a **fixed collection of unique elements** that you want to perform set operations on, such as finding intersections or unions.
 
 <br>
+
+<br>
+
+## EXAMPLE 1)
+
+```python
+# Creating an empty set
+empty_set = set()
+#
+# Creating a set with elements
+
+my_set = {1, 2, 3, 4, 5}
+```
