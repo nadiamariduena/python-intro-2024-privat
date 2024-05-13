@@ -166,3 +166,15 @@ print("Union Set:", union_set)
 Union Set: {'grape', 'orange', 'banana', 'apple', 'pineapple', 'pear'}
 #Union Set: {'pear', 'orange', 'apple', 'pineapple', 'grape', 'banana'}
 ```
+
+### 👾 my question:
+
+- the input is not giving me the apple as the first value and so on, why?
+
+### chatgpt:
+
+✋You're correct; the sets themselves do not inherently preserve any specific order of elements. **Sets in Python are unordered collections**, meaning they don't maintain the order in which elements are added.
+
+If you want to maintain a specific order of elements, you should use a different data structure, such as a list or tuple. However, if you just want to print the elements in a specific order for display purposes, you can sort them before printing.
+
+Here's how you can modify the example to print the elements in sorted order:
