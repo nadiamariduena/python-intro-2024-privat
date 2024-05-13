@@ -51,3 +51,10 @@ my_set.add(6)
 #  Removing elements from a set
 my_set.remove(3)
 ```
+
+<br>
+<br>
+
+### 🟨 Union of SETS
+
+- The union of two sets consists of all unique elements present in either set.
