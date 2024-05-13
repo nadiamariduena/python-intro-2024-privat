@@ -423,3 +423,38 @@ print(band)
 # result, the band contains the following:
 # {'member1': {'name': 'Robert Plant', 'instrument': 'vocals'}, 'member2': {'name': 'Jimmy Page', 'instrument': 'guitar'}}
 ```
+
+<br>
+<br>
+
+### Example 2)
+
+```python
+
+
+user_tastes = {
+# 🤚 Each user has a username as the key.
+    "username1": {
+        "pop": ["Taylor Swift", "Ariana Grande", "Ed Sheeran"],
+        "rock": ["Foo Fighters", "Led Zeppelin", "Red Hot Chili Peppers"],
+        "hip_hop": ["Kendrick Lamar", "Drake", "Cardi B"]
+    },
+    "username2": {
+    # 🤚 Each username maps to a dictionary where keys are music genres (e.g., "pop", "rock", "hip_hop").
+
+        "pop": ["Billie Eilish", "Dua Lipa", "Justin Bieber"],
+        "rock": ["Queen", "The Beatles", "Nirvana"],
+        "hip_hop": ["Jay-Z", "Kanye West", "Nicki Minaj"]
+    },
+    "username3": {
+        "pop": [
+    # 🤚 Each genre key maps to a list of artists that the user likes in that genre.
+
+            "Shawn Mendes", "Bruno Mars", "Lady Gaga"],
+        "rock": ["AC/DC", "Metallica", "Linkin Park"],
+        "hip_hop": ["Eminem", "Post Malone", "Lil Nas X"]
+    }
+}
+
+
+```
