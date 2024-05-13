@@ -478,6 +478,8 @@ print(username1_pop_tastes)
 
 ```python
 ecommerce_shop = {
+# ✋ Each top-level key represents a product category (e.g., "electronics", "clothing").
+
     "electronics": {
         "phones": [
             {"name": "iPhone 13", "price": 999},
@@ -491,6 +493,7 @@ ecommerce_shop = {
         ]
     },
     "clothing": {
+# ✋ Each category key maps to a dictionary where keys are subcategories (e.g., "phones", "laptops" under "electronics").
         "men": [
             {"name": "T-shirt", "price": 20},
             {"name": "Jeans", "price": 50},
