@@ -412,6 +412,8 @@ band = {
     "member1": member1,
     "member2": member2
 }
-
+#
+# show the content
+print(band)
 
 ```

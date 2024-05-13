@@ -1,15 +1,22 @@
-# 1. for this example, i will create a new dic
-
-animalss = {
-    "anim1": "parrot",
-    "anim2": "eagle"
+#dictio 1
+member1 = {
+    'name': 'Robert Plant',
+    'instrument': 'vocals'
 }
-fishes = animalss.copy()  # Create a copy of animalss
-fishes["anim3"] = "turtle"
-print(animalss)
-print(fishes)
-
-
-# result
-#{'anim1': 'parrot', 'anim2': 'eagle'}
-# {'anim1': 'parrot', 'anim2': 'eagle', 'anim3': 'turtle'}
+#---------
+#dictio 2
+member2 = {
+    'name': 'Jimmy Page',
+    'instrument': 'guitar'
+}
+#---------
+#dictio 3
+# here we will nest the 2 dictios from above
+band = {
+    "member1": member1,
+    "member2": member2
+}
+#
+# show the content
+print(band)
+#
