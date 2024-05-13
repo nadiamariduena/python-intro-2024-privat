@@ -90,3 +90,20 @@ intersection_set = set1.intersection(set2)  # or intersection_set = set1 & set2
 # Output: {3}
 
 ```
+
+<br>
+<br>
+
+### 🟨 Difference of Sets (difference_set):
+
+The difference between two sets consists of all elements that are present in the first set but not in the second set.
+
+- In Python, you can use the `difference()` method or the `-` operator to perform the difference operation.
+
+```python
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+difference_set = set1.difference(set2)  # or difference_set = set1 - set2
+# Output: {1, 2}
+
+```
