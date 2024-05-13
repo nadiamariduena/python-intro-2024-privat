@@ -513,3 +513,22 @@ ecommerce_shop = {
 }
 
 ```
+
+## You can access products by navigating through categories and subcategories. For example:
+
+```python
+
+# Get the laptops available in the electronics category
+
+laptops = ecommerce_shop["electronics"]["laptops"]
+for laptop in laptops:
+print(laptop["name"], "-", laptop["price"])
+
+# Output:
+
+# MacBook Pro - 1499
+
+# Dell XPS 15 - 1299
+
+# HP Spectre x360 - 1199
+```
