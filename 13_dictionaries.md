@@ -356,7 +356,7 @@ print(fishes)
 
 ## Example 2
 
-🌟 in other words ITS IS LIKE ( an array) when creating a new variable and assigning to it a new value, then merging the original variable with the new one (which contains the nex value)
+🌟 in other words ITS IS LIKE ( an array) when creating a new variable and assigning to it a new value, then merging the original variable with the new one (which contains the new value)
 
 ```python
 # Original dictionary
