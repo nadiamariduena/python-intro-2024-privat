@@ -298,3 +298,15 @@ print(nums)
 # as you can see, we have integrated the 8 to the list
 #result: {False, 1, 2, 3, 4, 8}
 ```
+
+<br>
+<br>
+
+## 🟡 Add more elements from one SET to another
+
+```python
+# add the new value to the morenums list and then add this new list to the already existent "nums" and use the UPDATE method to pass this values to nums
+morenums = {5,6,7}
+nums.update(morenums)
+print(nums)
+```
