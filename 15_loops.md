@@ -45,4 +45,19 @@ while value < 10:
 8
 9
 # it doesnt reach the 10, because the conditions tells that "WHILE" its less than 10, if you want to show the 10 you can change the condition from < 10 to <= 10 (less or equal to 10)
+value = 1
+while value <= 10:
+    print(value)
+    value += 1
+#result
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
 ```
