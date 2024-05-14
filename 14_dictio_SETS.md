@@ -175,6 +175,30 @@ Union Set: {'grape', 'orange', 'banana', 'apple', 'pineapple', 'pear'}
 
 ✋You're correct; the sets themselves do not inherently preserve any specific order of elements. **Sets in Python are unordered collections**, meaning they don't maintain the order in which elements are added.
 
-If you want to maintain a specific order of elements, you should use a different data structure, such as a list or tuple. However, if you just want to print the elements in a specific order for display purposes, you can sort them before printing.
+<br>
+
+If you want to maintain a specific order of elements, you should use a different data structure, such as a list or tuple. However, if you just want to print the elements in a specific order for display purposes, you can **sort** them before printing.
 
 Here's how you can modify the example to print the elements in sorted order:
+
+```python
+# Define sets representing different categories of fruits
+category1 = {"apple", "banana", "orange"}
+category2 = {"orange", "pear", "grape"}
+category3 = {"banana", "grape", "pineapple"}
+
+# Union of sets
+union_set = category1.union(category2, category3)
+
+# Convert the union set to a sorted list for display
+# 🧧 sort
+sorted_fruits = sorted(union_set)
+
+
+print("Union Set (Sorted):", sorted_fruits)
+##
+##
+# output
+Union Set (Sorted): ['apple', 'banana', 'grape', 'orange', 'pear', 'pineapple']
+
+```
