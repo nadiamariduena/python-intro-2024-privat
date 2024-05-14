@@ -336,3 +336,16 @@ mynewset = one.union(two)
 print(mynewset)
 #result: {1, 2, 3, 5, 6, 7}
 ```
+
+<br>
+<br>
+
+### KEEP DUPLICATES
+
+```python
+one1 = {1, 2, 3}
+two2 = {2, 3, 4}
+#
+onex.intersection_update(two2)
+print(one1)
+```
