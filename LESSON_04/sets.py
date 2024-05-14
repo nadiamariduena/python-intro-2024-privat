@@ -44,7 +44,12 @@ print(nums)
 nums = {True, 1, 2, 0, 3,4,False}
 print(nums)
 #result:{0, True, 2, 3, 4}
-#
-# ahhh i got it ,so if i position the True in the first Value the 1 is going to be removed, and if a position the 0 istead of the False (after the 2)and then at the end i add the False, it will out put something like this:
+#so if i position the True in the first Value the 1 is going to be removed, and if a position the 0 istead of the False (after the 2)and then at the end i add the False, it will out put something like this:
 # {0, True, 2, 3, 4}
+#
+#----
+# or
+nums = {1, True, 2, False, 3,4,0}
+print(nums)
+#result: {False, 1, 2, 3, 4}
 #
