@@ -309,4 +309,30 @@ print(nums)
 morenums = {5,6,7}
 nums.update(morenums)
 print(nums)
+#
+```
+
+<br>
+<br>
+
+### union
+
+- I already have examples more at the top of this file, but i wanted to repeat it
+
+<br>
+
+```python
+# ----- UNION
+# But there is another way, ou dont have to do like in the above code, you dont have to pass the "morenums"
+# WHAT if i want to MERGE 2 different SETS and then create a new set from those 2?
+#
+#
+# MERGE 2 SETS to create a new set
+one = {1, 2, 3}
+two = {5, 6, 7}
+#
+#
+mynewset = one.union(two)
+print(mynewset)
+#result: {1, 2, 3, 5, 6, 7}
 ```

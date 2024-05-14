@@ -94,3 +94,5 @@ two = {5, 6, 7}
 #
 #
 mynewset = one.union(two)
+print(mynewset)
+#result: {1, 2, 3, 5, 6, 7}
