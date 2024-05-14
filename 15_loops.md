@@ -11,13 +11,38 @@
 
 - Just like in javascript
 
-- careful with the never ending loop that will crash your browser, so dont rpint the below
+- careful with the never ending loop that will crash your browser, so dont **print** the below
+
+```python
+value = 1
+while value < 10:
+    print(value) # :stop_sign: DONT!!!
+
+    #result
+    # infinite loop
+```
+
+<br>
+<br>
+
+### Do this:
+
+- add the `+= 1` its going to increment everytime it goes through the LOOP, until it reaches the 9 (as we are incrementing 1), which is the end point `< 10`
 
 ```python
 value = 1
 while value < 10:
     print(value)
-
-    #result
-    # infinite loop :stop_sign: DONT!!!
+    value += 1
+#result
+1
+2
+3
+4
+5
+6
+7
+8
+9
+# as you can see
 ```
