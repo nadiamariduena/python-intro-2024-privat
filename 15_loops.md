@@ -44,5 +44,5 @@ while value < 10:
 7
 8
 9
-# as you can see
+# it doesnt reach the 10, because the conditions tells that "WHILE" its less than 10, if you want to show the 10 you can change the condition from < 10 to <= 10 (less or equal to 10)
 ```
