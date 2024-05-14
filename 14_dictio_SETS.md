@@ -371,3 +371,18 @@ print(one1)
 
 
 ```
+
+<br>
+<br>
+
+## KEEP everything except the duplicates
+
+```python
+one1 = {1, 2, 3}
+two2 = {2, 3, 4}
+#
+one1.symmetric_difference_update(two2)
+print(one1)
+```
+
+<br>
