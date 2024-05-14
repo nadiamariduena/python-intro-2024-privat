@@ -202,3 +202,20 @@ print("Union Set (Sorted):", sorted_fruits)
 Union Set (Sorted): ['apple', 'banana', 'grape', 'orange', 'pear', 'pineapple']
 
 ```
+
+<br>
+<br>
+
+## Other examples
+
+```python
+nums = {1,2,3,4}
+
+nums2 = set((1,2,3,4))
+#
+#
+print(nums)
+print(nums2)
+print(type(nums))
+print(len(nums))
+```
