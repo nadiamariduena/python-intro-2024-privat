@@ -344,6 +344,16 @@ print(mynewset)
 
 - The `.intersection_update()` method in Python is used to update a set with the intersection of itself and another iterable. In simpler terms, it modifies the set on which it is called by keeping only the elements that are common to both that set and another set (or any iterable).
 
+<br>
+
+- You have two sets, one1 and two2, each containing some elements.
+
+- You call one1.intersection_update(two2).
+
+- After this operation, one1 will be modified to contain only the elements that are common between one1 and two2. Any elements present in one1 that are not in two2 will be removed from one1.
+
+<br>
+
 ```python
 one1 = {1, 2, 3}
 two2 = {2, 3, 4}
