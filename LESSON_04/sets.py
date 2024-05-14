@@ -60,3 +60,12 @@ print(nums)
 
 print(2 in nums)
 #result: TRUE
+
+#
+#---------
+#Add a new element to a SET
+
+nums.add(8)
+print(nums)
+# as you can see, we have integrated the 8 to the list
+#result: {False, 1, 2, 3, 4, 8}

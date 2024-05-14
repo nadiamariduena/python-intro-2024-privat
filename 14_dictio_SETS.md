@@ -289,7 +289,7 @@ print(2 in nums)
 
 <br>
 
-### Add a new element to a SET
+### 🟡 Add a new element to a SET
 
 ```python
 nums.add(8)
