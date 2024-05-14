@@ -292,5 +292,6 @@ print(2 in nums)
 ### Add a new element to a SET
 
 ```python
-
+nums.add(8)
+print(nums)
 ```
