@@ -79,3 +79,9 @@ print(nums)
 morenums = {5,6,7}
 nums.update(morenums)
 print(nums)
+#
+# -----
+# But there is another way, ou dont have to do like in the above code, you dont have to pass the "morenums"
+# WHAT if i want to MERGE 2 different SETS and then create a new set from those 2?
+#
+#
