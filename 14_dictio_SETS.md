@@ -231,6 +231,8 @@ print(len(nums))
 
 ## 🟡 No duplicates allowed
 
+- In Python, 🔴 **sets are collections of unique elements, and when you create a set with mixed data types, Python will automatically convert them to the appropriate data types and eliminate duplicates**. Let's break down the behavior in your example:
+
 ```python
 nums = {1,2,2,3}
 print(nums)
