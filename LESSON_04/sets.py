@@ -53,3 +53,10 @@ nums = {1, True, 2, False, 3,4,0}
 print(nums)
 #result: {False, 1, 2, 3, 4}
 #
+
+#
+#--------
+# CHECK if a value is in a SET
+
+print(2 in nums)
+#result: TRUE
