@@ -342,6 +342,8 @@ print(mynewset)
 
 ### KEEP DUPLICATES
 
+- The `.intersection_update()` method in Python is used to update a set with the intersection of itself and another iterable. In simpler terms, it modifies the set on which it is called by keeping only the elements that are common to both that set and another set (or any iterable).
+
 ```python
 one1 = {1, 2, 3}
 two2 = {2, 3, 4}
