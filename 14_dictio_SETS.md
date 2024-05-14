@@ -259,3 +259,12 @@ print(nums)
 #
 
 ```
+
+<br>
+<br>
+
+### Conversion of Boolean Values:
+
+- In Python, True and False are boolean values, with True representing 1 and False representing 0 when used in numerical operations.
+
+- When included in a set along with numerical values, Python treats True as 1 and False as 0.
