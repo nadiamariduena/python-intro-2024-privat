@@ -24,3 +24,16 @@ print(len(nums))
 # {1, 2, 3, 4}
 # <class 'set'>
 # 4
+
+#
+#--------
+#
+## No duplicates allowed
+
+
+nums = {1,2,2,3}
+print(nums)
+#
+#
+#result
+# {1,2,3}
