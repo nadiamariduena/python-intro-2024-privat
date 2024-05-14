@@ -282,3 +282,15 @@ print(nums)
 print(2 in nums)
 #result: TRUE
 ```
+
+<br>
+
+#### But you cannot refer to an element in the SET with an index position or a key
+
+<br>
+
+### Add a new element to a SET
+
+```python
+
+```
