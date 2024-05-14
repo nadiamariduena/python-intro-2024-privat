@@ -352,4 +352,12 @@ one1.intersection_update(two2)
 print(one1)
 #
 # result: {2, 3}
+##
+# In this code, after calling one1.intersection_update(two2), one1 will only contain elements that are present in both one1 and two2. So, since both sets share elements 2 and 3, one1 will be updated to {2, 3}. Any other elements in one1 that are not in two2 (like 1) will be removed.
+
+
+
+
+
+
 ```
