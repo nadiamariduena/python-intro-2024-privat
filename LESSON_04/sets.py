@@ -27,7 +27,6 @@ print(len(nums))
 
 #
 #--------
-#
 ## No duplicates allowed
 
 
@@ -38,3 +37,10 @@ print(nums)
 #result
 # as you can see, it ignored the duplicate
 # {1,2,3}
+
+#
+#--------
+## True is a dupe of 1, False is a dupe of zero
+nums = {1, True, 2, False, 3,4,0}
+print(nums)
+#result: {False, 1, 2, 3, 4}
