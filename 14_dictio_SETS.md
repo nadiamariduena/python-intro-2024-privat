@@ -225,3 +225,17 @@ print(len(nums))
 # <class 'set'>
 # 4
 ```
+
+<br>
+<br>
+
+## No duplicates allowed
+
+```python
+nums = {1,2,2,3}
+print(nums)
+#
+#
+#result
+{1,2,3}
+```
