@@ -36,4 +36,5 @@ print(nums)
 #
 #
 #result
+# as you can see, it ignored the duplicate
 # {1,2,3}
