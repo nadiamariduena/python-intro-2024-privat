@@ -346,6 +346,8 @@ print(mynewset)
 one1 = {1, 2, 3}
 two2 = {2, 3, 4}
 #
-onex.intersection_update(two2)
+one1.intersection_update(two2)
 print(one1)
+#
+# result: {2, 3}
 ```
