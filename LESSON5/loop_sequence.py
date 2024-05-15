@@ -13,3 +13,13 @@ for px in thenames:
       continue
     print(px)
 # result: Dave, John
+#
+#
+# ------ **
+print('---- example 9 ----')
+#------- **
+# --------------
+## Do something similar with the RANGE
+
+for example9 in range(2, 4):
+    print(example9)
