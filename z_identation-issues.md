@@ -25,5 +25,9 @@ for px in thenames:
     if px == 'Sara':
         continue
     print(px)
+#
+# result
+Dave
+John
 
 ```
