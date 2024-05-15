@@ -74,3 +74,14 @@ while value <= 10:
   if value == 5:
       continue
   print(value)
+#
+# NOTICE how it starts after the 1 and then stops at 5, its because it will continue after the 5
+# 2
+# 3
+# 4
+# 6
+# 7
+# 8
+# 9
+# 10
+# 11
