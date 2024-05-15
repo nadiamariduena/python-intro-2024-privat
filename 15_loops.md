@@ -251,3 +251,11 @@ for i in range(len(playlist)):
 ### chatgpt answer:
 
 Depending on the specific requirements of your program, there are alternative methods you could consider for iterating over the playlist that might offer different trade-offs in terms of readability, performance, or simplicity.
+
+<br>
+
+Using `enumerate()`: Instead of using `range(len(playlist))`, you can use the **enumerate()** function, which returns both the index and the element from the iterable:
+
+```python
+
+```
