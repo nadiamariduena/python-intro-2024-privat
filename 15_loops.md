@@ -116,4 +116,19 @@ else:
 <br>
 <br>
 
-## FOOR loop (sequence)
+---
+
+<br>
+<br>
+
+## 🟡 FOR loop (sequence)
+
+<br>
+
+- In Python, a for **loop is used to iterate over a sequence (such as a list, tuple, string, or range) or any other iterable object.**
+
+> The basic syntax of a for loop in Python is:
+
+```python
+
+```
