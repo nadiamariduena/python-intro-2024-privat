@@ -23,3 +23,7 @@ print('---- example 9 ----')
 
 for example9 in range(2, 4):
     print(example9)
+
+# result
+# 2
+# 3
