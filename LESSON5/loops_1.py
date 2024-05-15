@@ -68,3 +68,9 @@ print('---- example 3 ----')
 # Here i will re arrange the condition, the reason for that is because i will cut the loop and this loop will continue after a certain point
 #
 #
+value = 1
+while value <= 10:
+  value += 1
+  if value == 5:
+      continue
+  print(value)
