@@ -112,3 +112,8 @@ TypeError: can only concatenate str (not "int") to str
 else:
     print("Value is now equal to " + str(value))
 ```
+
+<br>
+<br>
+
+## FOOR loop (sequence)
