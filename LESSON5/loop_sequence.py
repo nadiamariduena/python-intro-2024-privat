@@ -102,3 +102,25 @@ for x in names:
 #     dace
 # sarah
 # john
+#
+#
+# ------ **
+print('---- example 6 ----')
+#------- **
+#
+
+for x in 'Mississippi':
+    print(x)
+# RESULT
+
+# M
+# i
+# s
+# s
+# i
+# s
+# s
+# i
+# p
+# p
+# i
