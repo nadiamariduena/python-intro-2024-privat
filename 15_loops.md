@@ -170,6 +170,8 @@ You can also use the `range()` function to generate a sequence of numbers:
 for i in range(5):
     print(i)
 
+    # The for loop continues iterating until it has gone through all the elements in the sequence or until a break statement is encountered, which exits the loop prematurely.
+
 # result
 # 0
 # 1
