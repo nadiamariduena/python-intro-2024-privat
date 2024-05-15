@@ -1,3 +1,9 @@
+# ------ **
+print('---- example range 1 ----')
+#------- **
+#
+#
+
 for i in range(5):
     print(i)
 
@@ -7,6 +13,14 @@ for i in range(5):
 # 2
 # 3
 # 4
+#
+#
+
+# ------ **
+print('---- example range 2 ----')
+#------- **
+#
+#
 
 playlist = ["Shape of You", "Despacito", "Uptown Funk", "See You Again", "Closer"]
 
