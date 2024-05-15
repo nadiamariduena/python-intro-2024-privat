@@ -257,5 +257,12 @@ Depending on the specific requirements of your program, there are alternative me
 Using `enumerate()`: Instead of using `range(len(playlist))`, you can use the **enumerate()** function, which returns both the index and the element from the iterable:
 
 ```python
+playlist = ["Shape of You", "Despacito", "Uptown Funk", "See You Again", "Closer"]
+
+print("My Spotify Playlist:")
+#
+#
+for i, track in enumerate(playlist, start=1):
+    print(f"{i}. {track}")
 
 ```

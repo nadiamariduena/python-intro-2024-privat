@@ -48,3 +48,22 @@ for i in range(len(playlist)):
 # 4. See You Again
 # 5. Closer
 #
+# ------ **
+print('---- example range 3 ----')
+#------- **
+#
+playlist = ["Shape of You", "Despacito", "Uptown Funk", "See You Again", "Closer"]
+
+print("My Spotify Playlist:")
+#
+#
+for i, track in enumerate(playlist, start=1):
+    print(f"{i}. {track}")
+# RESULT:
+# My Spotify Playlist:
+#1. Shape of You
+# 2. Despacito
+# 3. Uptown Funk
+# 4. See You Again
+# 5. Closer
+#
