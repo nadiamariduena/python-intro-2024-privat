@@ -5,6 +5,11 @@
 - for loops
 
 <br>
+<br>
+
+---
+
+ <br>
 
 ### You will see this more at the bottom
 
@@ -345,3 +350,8 @@ for track_with_number in tracks_with_numbers:
 <br>
 
 ### 🟠 In terms of performance, the differences between these methods are usually negligible unless you're working with very large datasets. Readability and maintainability should generally be prioritized over micro-optimizations unless performance is a critical concern.
+
+<br>
+<br>
+
+## [Basic loop examples](https://youtu.be/23vCap6iYSs?feature=shared&t=36)
