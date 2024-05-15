@@ -138,3 +138,17 @@ for xx in names2:
       break
 print(xx)
 # result: romeo
+
+# ------ **
+print('---- example 8 ----')
+#------- **
+#
+# LOOP over the list and check if there is a specific name
+
+names3 = ['romeos', 'chiaras', 'charless']
+
+for x1x in names3:
+    if x1x == 'chiaras':
+      continue
+print(x1x)
+# result: charless
