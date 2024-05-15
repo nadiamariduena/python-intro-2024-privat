@@ -125,6 +125,10 @@ else:
 
 <br>
 
+#### chatgpt basict doc about the topic:
+
+<br>
+
 - In Python, a for **loop is used to iterate over a sequence (such as a list, tuple, string, or range) or any other iterable object.**
 
 > The basic syntax of a for loop in Python is:
@@ -150,4 +154,26 @@ fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
     print(fruit)
 
+```
+
+<br>
+
+### In this example, the for loop iterates over the fruits list.
+
+✋ **During each iteration**, the variable fruit takes on the value of each element in the list ("apple", "banana", and "cherry" in sequence), and it prints each fruit.
+
+You can also use the `range()` function to generate a sequence of numbers:
+
+<br>
+
+```python
+for i in range(5):
+    print(i)
+
+# result
+# 0
+# 1
+# 2
+# 3
+# 4
 ```
