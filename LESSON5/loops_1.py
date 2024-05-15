@@ -68,11 +68,14 @@ print('---- example 3 ----')
 # Here i will re arrange the condition, the reason for that is because i will cut the loop and this loop will continue after a certain point
 #
 #
+# So, this loop starts with value set to 1, then it iterates over the values from 2 to 10. However, when value equals 5, the continue statement is executed. This means that when value is 5, the loop will skip printing that value and move on to the next iteration.
+#
+
 value = 1
 while value <= 10:
   value += 1
   if value == 5:
-  continue  # If value is 5, the loop skips the remaining code in this iteration and continues to the next iteration
+   continue  # If value is 5, the loop skips the remaining code in this iteration and continues to the next iteration
 
   print(value)
 #
@@ -86,3 +89,4 @@ while value <= 10:
 # 9
 # 10
 # 11
+
