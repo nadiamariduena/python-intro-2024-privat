@@ -90,5 +90,19 @@ while value <= 10:
 # 10
 # 11
 
-## USING the else
+
+# ------ **
+print('---- example 3 ----')
+#------- **
+#
+#
+## 🖐️ USING the else
 #You can use it once the loop is completed and the condition is no longer TRUE
+
+value = 1
+while value <= 10:
+  value += 1
+  if value == 5:
+   continue  # If value is 5, the loop skips the remaining code in this iteration and continues to the next iteration
+
+  print(value)
