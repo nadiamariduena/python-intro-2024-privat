@@ -85,3 +85,16 @@ for track_with_number in tracks_with_numbers:
 # 3. Uptown Funk
 # 4. See You Again
 # 5. Close
+
+#
+#
+# ------------
+#  basic examples
+#
+names = ['dace', 'sarah', 'john']
+for x in names:
+    print(x)
+    #result
+#     dace
+# sarah
+# john

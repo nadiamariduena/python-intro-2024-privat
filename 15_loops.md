@@ -355,3 +355,10 @@ for track_with_number in tracks_with_numbers:
 <br>
 
 ## [Basic loop examples](https://youtu.be/23vCap6iYSs?feature=shared&t=36)
+
+```python
+names = ['dace', 'sarah', 'john']
+for x in names:
+    print(x)
+    #result
+```
