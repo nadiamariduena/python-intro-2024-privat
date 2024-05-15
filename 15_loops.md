@@ -384,3 +384,5 @@ for x in 'Mississippi':
 # i
 
 ```
+
+## RANGE ( we already saw range( examples more at the top, but i want to continue with other exercises))
