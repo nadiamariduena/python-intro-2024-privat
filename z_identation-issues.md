@@ -1,6 +1,17 @@
-## indentation issues
+## 🟧 indentation issues
 
-- when learning about the loops in python [loops](./15_loops.md) i couldnt get the same result the teacher was getting.
+<br>
+<br>
+
+### Read more about identation
+
+https://www.askpython.com/python/python-indentation
+
+<br>
+
+# the issue
+
+- when learning about the loops in python [loops](./15_loops.md) i couldn't get the same result the teacher was getting.
 
 ```python
 #this code had the identation issues
