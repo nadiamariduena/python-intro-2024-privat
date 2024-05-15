@@ -131,9 +131,8 @@ else:
 
 ```python
 
-fruits = ["apple", "banana", "cherry"]
-for fruit in fruits:
-    print(fruit)
+for item in sequence:
+    # do something with item
 
 ```
 
@@ -142,3 +141,13 @@ for fruit in fruits:
 - **item** is a variable that will take on the value of each element in the sequence during each iteration of the loop.
 
 **sequence** is the collection of items over which the loop will iterate.
+
+```python
+
+fruits = ["apple", "banana", "cherry"]
+#
+# fruit will represent the content within the fruits list/ array(js)
+for fruit in fruits:
+    print(fruit)
+
+```
