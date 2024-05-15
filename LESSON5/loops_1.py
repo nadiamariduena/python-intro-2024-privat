@@ -72,7 +72,8 @@ value = 1
 while value <= 10:
   value += 1
   if value == 5:
-      continue
+  continue  # If value is 5, the loop skips the remaining code in this iteration and continues to the next iteration
+
   print(value)
 #
 # NOTICE how it starts after the 1 and then stops at 5, its because it will continue after the 5
