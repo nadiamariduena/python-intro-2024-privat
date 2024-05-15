@@ -9,8 +9,14 @@
 ### You will see this more at the bottom
 
 ```python
-  #  The f before a string literal in Python denotes an f-string, which is similar to template literals in JavaScript.
+  # 👾 The f before a string literal in Python denotes an f-string, which is similar to template literals in JavaScript.
       print(f"{i+1}. {playlist[i]}")
+#
+#
+# another example
+name = "Alice"
+age = 30
+print(f"My name is {name} and I am {age} years old.")
 
 ```
 
