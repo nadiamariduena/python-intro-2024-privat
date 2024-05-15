@@ -8,6 +8,8 @@
 
 ### You will see this more at the bottom
 
+https://www.stechies.com/string-formatting-f-stringin-python/
+
 ```python
   # 👾 The f before a string literal in Python denotes an f-string, which is similar to template literals in JavaScript.
       print(f"{i+1}. {playlist[i]}")
