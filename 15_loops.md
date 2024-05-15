@@ -317,14 +317,26 @@ for track in playlist:
 - If you need to transform or filter the elements of the playlist, you might consider using a list comprehension:
 
 ```python
+
+# ------ **
+print('---- example range 4 ----')
+#------- **
+#
 playlist = ["Shape of You", "Despacito", "Uptown Funk", "See You Again", "Closer"]
 
 print("My Spotify Playlist:")
-#
-#
 tracks_with_numbers = [f"{i+1}. {track}" for i, track in enumerate(playlist)]
 for track_with_number in tracks_with_numbers:
     print(track_with_number)
+# RESULT:
+# My Spotify Playlist:
+#1. Shape of You
+# 2. Despacito
+# 3. Uptown Funk
+# 4. See You Again
+# 5. Close
+#
+#
   #  The f before a string literal in Python denotes an f-string, which is similar to template literals in JavaScript.
 ```
 
