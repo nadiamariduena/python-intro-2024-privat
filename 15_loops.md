@@ -179,3 +179,12 @@ for i in range(5):
 # 3
 # 4
 ```
+
+#### The for loop continues iterating until it has gone through all the elements in the sequence or until a break statement is encountered, which exits the loop prematurely.
+
+<br>
+<br>
+
+### How can I use the `range()` for a real scenario?
+
+- Let's imagine you're building a program that simulates a Spotify playlist, and you want to display the track numbers along with their titles. You can use the range() function to generate track numbers dynamically, especially if your playlist can have a variable number of tracks.
