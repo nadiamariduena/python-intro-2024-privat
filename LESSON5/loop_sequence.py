@@ -25,6 +25,9 @@ print('---- example range 2 ----')
 playlist = ["Shape of You", "Despacito", "Uptown Funk", "See You Again", "Closer"]
 
 print("My Spotify Playlist:")
+##
+# len(playlist) returns the length of the playlist, which is the number of tracks.
+
 for i in range(len(playlist)):
     print(f"{i+1}. {playlist[i]}")
 # RESULT:
