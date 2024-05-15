@@ -191,4 +191,15 @@ for i in range(5):
 
 - Let's imagine you're building a program that simulates a **Spotify** playlist, and you want to display the track numbers along with their titles.
 
-- You can use the range() function to generate track numbers dynamically, especially if your playlist can have a variable number of tracks.
+- You can use the `range()` function to generate track numbers dynamically, especially if your playlist can have a variable number of tracks.
+
+<br>
+
+```python
+playlist = ["Shape of You", "Despacito", "Uptown Funk", "See You Again", "Closer"]
+
+print("My Spotify Playlist:")
+for i in range(len(playlist)):
+    print(f"{i+1}. {playlist[i]}")
+
+```
