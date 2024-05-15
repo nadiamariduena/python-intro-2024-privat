@@ -311,3 +311,7 @@ for track_with_number in tracks_with_numbers:
 ```
 
 - This approach can be more efficient if you're processing the entire playlist in one go, as list comprehensions are often faster than equivalent for loops.
+
+<br>
+
+### 🟠 In terms of performance, the differences between these methods are usually negligible unless you're working with very large datasets. Readability and maintainability should generally be prioritized over micro-optimizations unless performance is a critical concern.
