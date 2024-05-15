@@ -362,3 +362,25 @@ for x in names:
     print(x)
     #result
 ```
+
+<br>
+<br>
+
+```python
+for x in 'Mississippi':
+    print(x)
+# RESULT
+
+# M
+# i
+# s
+# s
+# i
+# s
+# s
+# i
+# p
+# p
+# i
+
+```

@@ -124,3 +124,11 @@ for x in 'Mississippi':
 # p
 # p
 # i
+
+# ------ **
+print('---- example 7 ----')
+#------- **
+#
+# LOOP over the list and check if there is a specific name
+
+for
