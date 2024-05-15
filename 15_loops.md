@@ -44,7 +44,7 @@ while value < 10:
 7
 8
 9
-# it doesnt reach the 10, because the conditions tells that "WHILE" its less than 10, if you want to show the 10 you can change the condition from < 10 to <= 10 (less or equal to 10)
+#It doesnt reach the 10, because the condition tells that "WHILE" its less than 10. if you want to show the 10, you can change the condition from < 10 to <= 10 (less or equal to 10)
 value = 1
 while value <= 10:
     print(value)
