@@ -307,5 +307,7 @@ print("My Spotify Playlist:")
 tracks_with_numbers = [f"{i+1}. {track}" for i, track in enumerate(playlist)]
 for track_with_number in tracks_with_numbers:
     print(track_with_number)
-
+  #  The f before a string literal in Python denotes an f-string, which is similar to template literals in JavaScript.
 ```
+
+- This approach can be more efficient if you're processing the entire playlist in one go, as list comprehensions are often faster than equivalent for loops.
