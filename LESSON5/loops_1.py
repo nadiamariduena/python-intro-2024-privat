@@ -90,3 +90,5 @@ while value <= 10:
 # 10
 # 11
 
+## USING the else
+#You can use it once the loop is completed and the condition is no longer TRUE
