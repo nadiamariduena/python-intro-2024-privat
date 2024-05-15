@@ -18,6 +18,8 @@ while value < 10:
 # 7
 # 8
 # 9
+#
+#
 # ------ **
 print('---- example 2 ----')
 #------- **
@@ -54,3 +56,15 @@ while value <= 10:
 # 3
 # 4
 # 5
+
+#
+#
+# ------ **
+print('---- example 3 ----')
+#------- **
+#
+#
+# 🖐️ the 'CONTINUE'
+# Here i will re arrange the condition, the reason for that is because i will cut the loop and this loop will continue after a certain point
+#
+#
