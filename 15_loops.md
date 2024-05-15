@@ -291,4 +291,21 @@ for track in playlist:
 - If you don't need the track numbers, this method is preferable as it's more straightforward.
 
 <br>
-<br>
+
+## transform or filter
+
+#### Using a list comprehension:
+
+- If you need to transform or filter the elements of the playlist, you might consider using a list comprehension:
+
+```python
+playlist = ["Shape of You", "Despacito", "Uptown Funk", "See You Again", "Closer"]
+
+print("My Spotify Playlist:")
+#
+#
+tracks_with_numbers = [f"{i+1}. {track}" for i, track in enumerate(playlist)]
+for track_with_number in tracks_with_numbers:
+    print(track_with_number)
+
+```
