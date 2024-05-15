@@ -383,7 +383,29 @@ for x in 'Mississippi':
 # p
 # i
 
+# ------ **
+print('---- example 7 ----')
+#------- **
+#
+# LOOP over the list and check if there is a specific name
+
+names2 = ['romeo', 'chiara', 'charles']
+
+for xx in names2:
+    if xx == 'romeo':
+      break
+print(xx)
+# result: romeo
+
+# ------ **
+print('---- example 8 ----')
+#------- **
+#
+# LOOP over the list and check if there is a specific name
 ```
+
+<br>
+<br>
 
 ## RANGE ( we already saw range( examples more at the top, but i want to continue with other exercises))
 
