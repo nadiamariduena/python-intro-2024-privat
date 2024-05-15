@@ -79,7 +79,7 @@ while value <= 10:
 
   print(value)
 #
-# NOTICE how it starts after the 1 and then stops at 5, its because it will continue after the 5
+
 # 2
 # 3
 # 4
