@@ -11,5 +11,5 @@ for px in thenames:
 
     if px == 'Sara':
       continue
-print(px)
-# result: charless
+    print(px)
+# result: Dave, John
