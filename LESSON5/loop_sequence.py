@@ -36,6 +36,10 @@ for i in range(len(playlist)):
     #range(len(playlist)) generates a sequence of numbers from 0 to len(playlist) - 1. This sequence corresponds to the indices of the tracks in the playlist.
     #
     print(f"{i+1}. {playlist[i]}")
+    #  playlist[i] accesses each track title using the current value of i.
+
+    #
+    #
 # RESULT:
 # My Spotify Playlist:
 #1. Shape of You

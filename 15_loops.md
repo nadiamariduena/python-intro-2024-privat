@@ -203,3 +203,8 @@ for i in range(len(playlist)):
     print(f"{i+1}. {playlist[i]}")
 
 ```
+
+<br>
+<br>
+
+### So, the loop iterates over each track in the playlist, printing the track number along with its title. The track numbers start from 1, hence the i+1 in the print statement.
