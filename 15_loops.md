@@ -5,6 +5,16 @@
 - for loops
 
 <br>
+
+### You will see this more at the bottom
+
+```python
+  #  The f before a string literal in Python denotes an f-string, which is similar to template literals in JavaScript.
+      print(f"{i+1}. {playlist[i]}")
+
+```
+
+<br>
 <br>
 
 ### WHILE loop
