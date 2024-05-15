@@ -8,7 +8,7 @@ print('---- example 8 ----')
 thenames = ["Dave", "Sara", "John"]
 
 for px in thenames:
-
+# you will notice that it will jump and continue the loop after sara
     if px == 'Sara':
       continue
     print(px)
