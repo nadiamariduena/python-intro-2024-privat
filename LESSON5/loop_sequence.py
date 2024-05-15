@@ -16,9 +16,9 @@ for px in thenames:
 #
 #
 # ------ **
-print('---- example 9 ----')
+print('---- example 9 RANGE (again) ----')
 #------- **
-# --------------
+#
 ## Do something similar with the RANGE
 
 for example9 in range(2, 4):
