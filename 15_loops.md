@@ -239,4 +239,11 @@ for i in range(len(playlist)):
 #
 ```
 
-### So, the loop iterates over each track in the playlist, printing the track number along with its title. The track numbers start from 1, hence the i+1 in the print statement.
+- So, the loop iterates over each track in the playlist, printing the track number along with its title. The track numbers start from 1, hence the i+1 in the print statement.
+
+<br>
+<br>
+
+### 👾 my question:
+
+- is the `range()` used a lot or are there other ways to implement the spotify example, by other ways i mean in terms of "performance"
