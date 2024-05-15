@@ -92,6 +92,23 @@ while value <= 10:
   # ELSE: You can use it once the loop is completed and the condition is no longer TRUE
   #
 else:
-    print("Value is now equal to " + value) #🧧 ou will get an error if you try to print this, so convert the TYPE
-    #
+    print("Value is now equal to " + value) #🧧 You will get an error if you try to print this, so convert the TYPE
+
+```
+
+## 🔴 the error
+
+```python
+    print("Value is now equal to " +  value)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "int") to str
+```
+
+<br>
+
+### 🌈 convert the TYPE to str (string)
+
+```python
+else:
+    print("Value is now equal to " + str(value))
 ```
