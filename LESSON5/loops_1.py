@@ -106,5 +106,6 @@ while value <= 10:
      continue  # If value is 5, the loop skips the remaining code in this iteration and continues to the next iteration
   print(value)
 else:
-    print("Value is now equal to " + value) #🧧 ou will get an error if you try to print this, so convert the TYPE
-    #
+    # print("Value is now equal to " + value) #🧧 ou will get an error if you try to print this, so convert the TYPE
+    print("Value is now equal to " +  str(value))
+    # result: Value is now equal to 11
