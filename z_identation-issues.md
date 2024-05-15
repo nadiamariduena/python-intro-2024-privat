@@ -31,3 +31,7 @@ Dave
 John
 
 ```
+
+# 🌈 reason
+
+The issue you're encountering is due to indentation. Currently, **print(px) is outside of the loop**, so it only executes after the loop has finished iterating through all the elements in thenames. To print both the first and last elements, you need to adjust the indentation of the print(px) statement so it's inside the loop.
