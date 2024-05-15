@@ -131,4 +131,10 @@ print('---- example 7 ----')
 #
 # LOOP over the list and check if there is a specific name
 
-for
+names2 = ['romeo', 'chiara', 'charles']
+
+for xx in names2:
+    if xx == 'romeo':
+      break
+print(xx)
+# result: romeo
