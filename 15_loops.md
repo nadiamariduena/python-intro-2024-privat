@@ -72,3 +72,26 @@ while value <= 10:
         break #if the condition is met, it will stop the loop at 5
     value += 1
 ```
+
+<br>
+<br>
+
+# ELSE
+
+### 🖐️ USING the else
+
+- You can use it once the loop is completed and the condition is no longer TRUE
+
+```python
+while value <= 10:
+  value += 1
+  if value == 5:
+     continue  # If value is 5, the loop skips the remaining code in this iteration and continues to the next iteration
+  print(value)
+  #
+  # ELSE: You can use it once the loop is completed and the condition is no longer TRUE
+  #
+else:
+    print("Value is now equal to " + value) #🧧 ou will get an error if you try to print this, so convert the TYPE
+    #
+```
