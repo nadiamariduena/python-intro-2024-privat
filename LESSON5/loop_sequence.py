@@ -49,7 +49,7 @@ for i in range(len(playlist)):
 # 5. Closer
 #
 # ------ **
-print('---- example range 3 ----')
+print('---- example enumerate 3 ----')
 #------- **
 #
 playlist = ["Shape of You", "Despacito", "Uptown Funk", "See You Again", "Closer"]
@@ -69,7 +69,7 @@ for i, track in enumerate(playlist, start=1):
 #
 
 # ------ **
-print('---- example range 4 ----')
+print('---- example 4 ----')
 #------- **
 #
 playlist = ["Shape of You", "Despacito", "Uptown Funk", "See You Again", "Closer"]
@@ -87,6 +87,10 @@ for track_with_number in tracks_with_numbers:
 # 5. Close
 
 #
+#
+# ------ **
+print('---- example range 5 ----')
+#------- **
 #
 # ------------
 #  basic examples
