@@ -519,3 +519,22 @@ for x in range(0, 100, 5):
 ```
 
 ### A real scenario
+
+```python
+# Assuming you have a list of songs and their durations in seconds
+songs = [("Song 1", 180),  # Song name and duration in seconds
+         ("Song 2", 240),
+         ("Song 3", 200)]
+
+# Iterate over each song
+for song_name, duration in songs:
+    print(f"Song: {song_name}")
+    print("Timestamps:")
+    # Generate timestamps at 5-second intervals for the duration of the song
+    for timestamp in range(0, duration, 5):
+        print(f"{timestamp} seconds")
+    print()
+
+```
+
+-
