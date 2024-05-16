@@ -534,7 +534,141 @@ for song_name, duration in songs:
     for timestamp in range(0, duration, 5):
         print(f"{timestamp} seconds")
     print()
+#
+# result
+#
+Song: Song 1
+Timestamps:
+0 seconds
+5 seconds
+10 seconds
+15 seconds
+20 seconds
+25 seconds
+30 seconds
+35 seconds
+40 seconds
+45 seconds
+50 seconds
+55 seconds
+60 seconds
+65 seconds
+70 seconds
+75 seconds
+80 seconds
+85 seconds
+90 seconds
+95 seconds
+100 seconds
+105 seconds
+110 seconds
+115 seconds
+120 seconds
+125 seconds
+130 seconds
+135 seconds
+140 seconds
+145 seconds
+150 seconds
+155 seconds
+160 seconds
+165 seconds
+170 seconds
+175 seconds
 
+Song: Song 2
+Timestamps:
+0 seconds
+5 seconds
+10 seconds
+15 seconds
+20 seconds
+25 seconds
+30 seconds
+35 seconds
+40 seconds
+45 seconds
+50 seconds
+55 seconds
+60 seconds
+65 seconds
+70 seconds
+75 seconds
+80 seconds
+85 seconds
+90 seconds
+95 seconds
+100 seconds
+105 seconds
+110 seconds
+115 seconds
+120 seconds
+125 seconds
+130 seconds
+135 seconds
+140 seconds
+145 seconds
+150 seconds
+155 seconds
+160 seconds
+165 seconds
+170 seconds
+175 seconds
+180 seconds
+185 seconds
+190 seconds
+195 seconds
+200 seconds
+205 seconds
+210 seconds
+215 seconds
+220 seconds
+225 seconds
+230 seconds
+235 seconds
+
+Song: Song 3
+Timestamps:
+0 seconds
+5 seconds
+10 seconds
+15 seconds
+20 seconds
+25 seconds
+30 seconds
+35 seconds
+40 seconds
+45 seconds
+50 seconds
+55 seconds
+60 seconds
+65 seconds
+70 seconds
+75 seconds
+80 seconds
+85 seconds
+90 seconds
+95 seconds
+100 seconds
+105 seconds
+110 seconds
+115 seconds
+120 seconds
+125 seconds
+130 seconds
+135 seconds
+140 seconds
+145 seconds
+150 seconds
+155 seconds
+160 seconds
+165 seconds
+170 seconds
+175 seconds
+180 seconds
+185 seconds
+190 seconds
+195 seconds
 ```
 
-- This code will generate timestamps at 5-second intervals for each song and print them out. It's a simple example, but it demonstrates how you can use range() with a step size of 5 to iterate over time intervals in a song's duration.
+- 🔴This code will generate timestamps at 5-second intervals for each song and print them out. It's a simple example, but it demonstrates how you can use range() with a step size of 5 to iterate over time intervals in a song's duration.
