@@ -174,4 +174,6 @@ for i, (start, duration) in enumerate(segments, 1):
 # Segment 6: Start Time = 70 seconds, Duration = 20 seconds
 # Segment 7: Start Time = 90 seconds, Duration = 20 seconds
 # Segment 8: Start Time = 110 seconds, Duration = 10 seconds
+#
+#---
 # Segment 9: Start Time = 120 seconds, Duration = 20 seconds
