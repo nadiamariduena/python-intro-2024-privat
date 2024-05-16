@@ -797,6 +797,10 @@ in a chronological sense, **it appears** that the "play" action with a timestamp
 
 - The timestamp for the "play" action (20 seconds) indicates that the user then resumed playback from that rewound position at 20 seconds.
 
+So, even though the timestamp for the "rewind" action is higher (25) than the timestamp for the "play" action (20), it indicates the point in the video where the user rewound to, not the order in which the actions occurred in real-time.
+
+This discrepancy in timestamps might occur due to various factors, such as the user's interaction with the interface or the way timestamps are recorded and processed in the application.
+
 <br>
 
 ---
