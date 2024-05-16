@@ -486,5 +486,34 @@ The print(x) statement prints the current value of x.
 The loop continues until it reaches a value that is equal to or greater than 100, but since the stop value in the range() function is exclusive, it stops before reaching 100.
 
 ```python
+# ------ **
+print('---- example 11 RANGE   ----')
+#------- **
+# IN the following example
+# we will start at 0, the second value means that we will go until 100 but since the condition states 100 we will go until 95, and the third value will determine how we want to reach the 100, in this case it will be 5 by 5
 
+for x in range(0, 100, 5):
+    print(x)
+    #result:
+#0
+# 5
+# 10
+# 15
+# 20
+# 25
+# 30
+# 35
+# 40
+# 45
+# 50
+# 55
+# 60
+# 65
+# 70
+# 75
+# 80
+# 85
+# 90
+# 95
+#
 ```
