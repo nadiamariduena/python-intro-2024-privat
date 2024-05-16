@@ -537,4 +537,4 @@ for song_name, duration in songs:
 
 ```
 
--
+- This code will generate timestamps at 5-second intervals for each song and print them out. It's a simple example, but it demonstrates how you can use range() with a step size of 5 to iterate over time intervals in a song's duration.
