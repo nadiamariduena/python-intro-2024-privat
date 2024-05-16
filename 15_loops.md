@@ -778,6 +778,13 @@ print("Fast Forwards:", fast_forwards)
 
 ```
 
+### i am a bit confused about the values 25 an 20, why arent these 2 in order
+
+```python
+  {"action": "rewind", "timestamp": 25},
+    {"action": "play", "timestamp": 20},
+```
+
 <br>
 
 ---
