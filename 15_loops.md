@@ -754,3 +754,11 @@ for i, (start, duration) in enumerate(segments, 1):
     print(f"Segment {i}: Start Time = {start} seconds, Duration = {duration} seconds")
 
 ```
+
+- We print the retention rate with two decimal places and a percentage sign.
+
+- We print a new line and a heading for segment analysis.
+
+- We use a for loop to go through each segment in the list, and we use **enumerate()** to get both the index and the segment tuple.
+
+#### For each segment, we print its number, start time, and duration in seconds.
