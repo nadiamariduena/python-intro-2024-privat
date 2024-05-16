@@ -4,7 +4,7 @@
 
 - for loops
 
-- else statement on the for loop
+- else statement on the for loops
 
 <br>
 <br>
@@ -873,3 +873,20 @@ for i, (start, duration) in enumerate(segments, 1):
 - We use a for loop to go through each segment in the list, and we use **enumerate()** to get both the index and the segment tuple.
 
 #### For each segment, we print its number, start time, and duration in seconds.
+
+<br>
+<br>
+
+---
+
+<br>
+<br>
+
+## Else statement on a for loop
+
+```python
+for xmore in range(5, 101, 5)
+print(xmore)
+else:
+    print('Glad that')
+```
