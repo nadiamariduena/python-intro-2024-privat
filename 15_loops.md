@@ -679,3 +679,11 @@ Timestamps:
 <br>
 
 ### 👾 But why do i need timestamps? maybe adding an ad at certain time stamp?
+
+### chatgpt answer:
+
+- 🌈Exactly! Timestamps can be useful for various purposes, such as:
+
+```python
+
+```
