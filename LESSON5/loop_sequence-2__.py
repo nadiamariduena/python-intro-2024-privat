@@ -150,5 +150,24 @@ print(f"Total Watch Time: {total_watch_time} seconds")
 print(f"Average Watch Time: {average_watch_time} seconds")
 print(f"Retention Rate: {retention_rate:.2f}%")
 print("\nSegment Analysis:")
+#
+#
 for i, (start, duration) in enumerate(segments, 1):
     print(f"Segment {i}: Start Time = {start} seconds, Duration = {duration} seconds")
+    #
+    # RESULT:
+#Engagement Metrics:
+# Total Watch Time: 140 seconds
+# Average Watch Time: 15.555555555555555 seconds
+# Retention Rate: 6.43%
+
+# Segment Analysis:
+# Segment 1: Start Time = 0 seconds, Duration = 10 seconds
+# Segment 2: Start Time = 10 seconds, Duration = 15 seconds
+# Segment 3: Start Time = 25 seconds, Duration = 20 seconds
+# Segment 4: Start Time = 45 seconds, Duration = 15 seconds
+# Segment 5: Start Time = 60 seconds, Duration = 10 seconds
+# Segment 6: Start Time = 70 seconds, Duration = 20 seconds
+# Segment 7: Start Time = 90 seconds, Duration = 20 seconds
+# Segment 8: Start Time = 110 seconds, Duration = 10 seconds
+# Segment 9: Start Time = 120 seconds, Duration = 20 seconds
