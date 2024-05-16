@@ -66,4 +66,15 @@ for item1, item2 in zip(list1, list2):
 #1 a
 # 2 b
 # 3 c
+#
+#
+# ✋ ZIP
+# Lists of songs and corresponding artists
+songs = ['Song 1', 'Song 2', 'Song 3']
+artists = ['Artist A', 'Artist B', 'Artist C']
+
+# Using zip to iterate over both lists simultaneously
+for song, artist in zip(songs, artists):
+    print(f"{song} by {artist}")
+# result
 ```
