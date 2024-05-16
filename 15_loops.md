@@ -787,9 +787,9 @@ print("Fast Forwards:", fast_forwards)
     {"action": "play", "timestamp": 20},
 ```
 
-in a chronological sense, it appears that the "play" action with a timestamp of 20 occurs before the "rewind" action with a timestamp of 25. This might seem confusing at first glance.
+in a chronological sense, **it appears** that the "play" action with a timestamp of 20 occurs before the "rewind" action with a timestamp of 25. This might seem confusing at first glance.
 
-However, it's essential to understand that the timestamps in this context represent moments within the video playback, not necessarily the absolute chronological order of user actions.
+**However**, it's essential to understand that the **timestamps** in this context **represent moments within the video playback, not necessarily\*** the absolute chronological order of user actions.
 
 <br>
 
