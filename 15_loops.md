@@ -671,4 +671,11 @@ Timestamps:
 195 seconds
 ```
 
+<br>
+
 - 🔴This code will generate timestamps at 5-second intervals for each song and print them out. It's a simple example, but it demonstrates how you can use range() with a step size of 5 to iterate over time intervals in a song's duration.
+
+<br>
+<br>
+
+### 👾 But why do i need timestamps? maybe adding an ad at certain time stamp?
