@@ -740,7 +740,41 @@ Overall, timestamp analysis in a YouTube app provides valuable insights into use
 
 ## 👾 SHOW me real scenario on a youtube app , where the timestamp is used for tracking
 
+### ✋ chatgpt
+
+Let's create a simplified scenario where we track user actions **(pausing, rewinding, fast forwarding)** during video playback in a YouTube-like application. We'll use Python to simulate this tracking:
+
 ```python
+# Define a list of timestamps representing user actions during video playback
+user_actions = [
+    {"action": "play", "timestamp": 0},
+    {"action": "pause", "timestamp": 10},
+    {"action": "play", "timestamp": 15},
+    {"action": "rewind", "timestamp": 25},
+    {"action": "play", "timestamp": 20},
+    {"action": "fast_forward", "timestamp": 35},
+    {"action": "pause", "timestamp": 50},
+    {"action": "play", "timestamp": 55}
+]
+
+# Initialize variables to track timestamps for different actions
+pauses = []
+rewinds = []
+fast_forwards = []
+
+# Iterate over user_actions and track timestamps for different actions
+for action in user_actions:
+    if action["action"] == "pause":
+        pauses.append(action["timestamp"])
+    elif action["action"] == "rewind":
+        rewinds.append(action["timestamp"])
+    elif action["action"] == "fast_forward":
+        fast_forwards.append(action["timestamp"])
+
+# Print timestamps for different actions
+print("Pauses:", pauses)
+print("Rewinds:", rewinds)
+print("Fast Forwards:", fast_forwards)
 
 ```
 
