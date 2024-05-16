@@ -177,3 +177,12 @@ for i, (start, duration) in enumerate(segments, 1):
 #
 #---
 # Segment 9: Start Time = 120 seconds, Duration = 20 seconds
+# -------------
+# ------ **
+print('---- example 14 for loop & else statement   ----')
+#------- **
+
+for xmore in range(5, 101, 5):
+    print(xmore)
+else:
+    print('Glad that\'s over!')
