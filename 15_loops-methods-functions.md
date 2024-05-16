@@ -1,6 +1,6 @@
 ## 🟡 LOOPS methods and functions
 
-- Iterating over a list directly:
+### Iterating over a list directly:
 
 ```python
 my_list = [1, 2, 3, 4, 5]
@@ -8,4 +8,26 @@ for item in my_list:
     print(item)
     #result
     # 1, 2, 3, 4, 5
+```
+
+<br>
+<br>
+
+### Iterating over a tuple:
+
+```python
+my_tuple = (1, 2, 3, 4, 5)
+for item in my_tuple:
+    print(item)
+#result
+# 1, 2, 3, 4, 5
+```
+
+### Iterating over a dictionary (keys):
+
+```python
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+for key in my_dict:
+    print(key)
+#result:  a b c
 ```
