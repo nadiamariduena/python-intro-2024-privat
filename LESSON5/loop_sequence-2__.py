@@ -29,7 +29,7 @@ for example9 in range(2, 4):
 # 2
 # 3
 #
-# ------------
+#
 # ------ **
 print('---- example 10 RANGE (again) ----')
 #------- **
@@ -54,8 +54,9 @@ for index in range(1, 4):  # Analyze songs from index 1 to 3 (excluding 4)
 # Analyzing song: Song 3
 # Analyzing song: Song 4
 
-#----------------
-list1 = [1, 2, 3]
-list2 = ['a', 'b', 'c']
-for item1, item2 in zip(list1, list2):
-    print(item1, item2)
+#
+#
+#
+# ------ **
+print('---- example 11 RANGE   ----')
+#------- **
