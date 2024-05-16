@@ -40,3 +40,17 @@ for key in my_dict:
     print(key)
 #result:  a b c
 ```
+
+### Using enumerate() to iterate over a sequence with indices:
+
+```python
+my_list = ['a', 'b', 'c', 'd', 'e']
+for index, item in enumerate(my_list):
+    print(index, item)
+#result
+0 a
+1 b
+2 c
+3 d
+4 e
+```

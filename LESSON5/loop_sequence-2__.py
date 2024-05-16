@@ -55,3 +55,6 @@ for index in range(1, 4):  # Analyze songs from index 1 to 3 (excluding 4)
 # Analyzing song: Song 4
 
 #----------------
+my_list = ['a', 'b', 'c', 'd', 'e']
+for index, item in enumerate(my_list):
+    print(index, item)
