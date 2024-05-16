@@ -694,7 +694,7 @@ Timestamps:
 
 <br>
 
-- **Analytics and Insights:** Timestamp data can provide valuable insights into user behavior and preferences. By analyzing when users skip or repeat certain parts of a song, you can gain insights into which parts of a song are most engaging or which parts may need improvement.
+- 🔴**Analytics and Insights:** Timestamp data can provide valuable insights into user behavior and preferences. By analyzing when users skip or repeat certain parts of a song, you can gain insights into which parts of a song are most engaging or which parts may need improvement.
 
 ```python
 
