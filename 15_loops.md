@@ -736,6 +736,14 @@ If users consistently skip certain sections, you could adjust recommendations or
 
 Overall, timestamp analysis in a YouTube app provides valuable insights into user preferences, content effectiveness, and opportunities for improvement, leading to a more engaging and personalized user experience.
 
+#### Overall, timestamp analysis in a YouTube app provides valuable insights into user preferences, content effectiveness, and opportunities for improvement, leading to a more engaging and personalized user experience.
+
+## 👾 SHOW me real scenario on a youtube app , where the timestamp is used for tracking
+
+```python
+
+```
+
 <br>
 
 ---
