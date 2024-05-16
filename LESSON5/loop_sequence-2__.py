@@ -148,11 +148,15 @@ for timestamp in timestamps:
 print("Engagement Metrics:")
 print(f"Total Watch Time: {total_watch_time} seconds")
 print(f"Average Watch Time: {average_watch_time} seconds")
+# Print the retention rate with 2 decimal places and a percentage sign
 print(f"Retention Rate: {retention_rate:.2f}%")
+
+# Print a new line followed by a heading for segment analysis
 print("\nSegment Analysis:")
-#
-#
+
+# Iterate over the segments list using enumerate to get both the index and the segment tuple
 for i, (start, duration) in enumerate(segments, 1):
+    # Print the segment number (index + 1), start time, and duration of each segment
     print(f"Segment {i}: Start Time = {start} seconds, Duration = {duration} seconds")
     #
     # RESULT:
