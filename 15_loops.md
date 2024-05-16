@@ -720,10 +720,23 @@ segments = []
 #
 #
 current_segment_start = 0
+# for timestamp in timestamps:
+#     segment_duration = timestamp - current_segment_start
+#     segments.append((current_segment_start, segment_duration))
+#     current_segment_start = timestamp
+
 for timestamp in timestamps:
+    # Calculate the duration of the current segment by subtracting the start time of the current segment
+    # from the timestamp of the next segment
     segment_duration = timestamp - current_segment_start
+
+    # Append a tuple containing the start time of the current segment and its duration to the list of segments
     segments.append((current_segment_start, segment_duration))
+
+    # Update the start time of the next segment to be the current timestamp for the next iteration
     current_segment_start = timestamp
+
+
 
 # Display results
 print("Engagement Metrics:")
