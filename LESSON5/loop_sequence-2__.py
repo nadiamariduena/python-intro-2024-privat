@@ -104,3 +104,51 @@ for song_name, duration in songs:
     for timestamp in range(0, duration, 5):
         print(f"{timestamp} seconds")
     print()
+
+
+#
+#
+# -------------
+# ------ **
+print('---- example 13 RANGE   ----')
+#------- **
+
+# Sample timestamps representing user actions (in seconds)
+timestamps = [10, 25, 45, 60, 70, 90, 110, 120, 140]
+
+# Calculate engagement metrics
+total_watch_time = timestamps[-1]  # Last timestamp represents total watch time
+average_watch_time = total_watch_time / len(timestamps)
+retention_rate = (len(timestamps) / total_watch_time) * 100  # Percentage of total watch time covered by timestamps
+
+# Analyze engagement by segmenting timestamps
+segments = []
+#
+#
+current_segment_start = 0
+# for timestamp in timestamps:
+#     segment_duration = timestamp - current_segment_start
+#     segments.append((current_segment_start, segment_duration))
+#     current_segment_start = timestamp
+
+for timestamp in timestamps:
+    # Calculate the duration of the current segment by subtracting the start time of the current segment
+    # from the timestamp of the next segment
+    segment_duration = timestamp - current_segment_start
+
+    # Append a tuple containing the start time of the current segment and its duration to the list of segments
+    segments.append((current_segment_start, segment_duration))
+
+    # Update the start time of the next segment to be the current timestamp for the next iteration
+    current_segment_start = timestamp
+
+
+
+# Display results
+print("Engagement Metrics:")
+print(f"Total Watch Time: {total_watch_time} seconds")
+print(f"Average Watch Time: {average_watch_time} seconds")
+print(f"Retention Rate: {retention_rate:.2f}%")
+print("\nSegment Analysis:")
+for i, (start, duration) in enumerate(segments, 1):
+    print(f"Segment {i}: Start Time = {start} seconds, Duration = {duration} seconds")
