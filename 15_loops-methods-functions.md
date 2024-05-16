@@ -54,3 +54,13 @@ for index, item in enumerate(my_list):
 3 d
 4 e
 ```
+
+### Using zip() to iterate over multiple sequences simultaneously:
+
+```python
+list1 = [1, 2, 3]
+list2 = ['a', 'b', 'c']
+for item1, item2 in zip(list1, list2):
+    print(item1, item2)
+
+```
