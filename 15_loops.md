@@ -517,3 +517,5 @@ for x in range(0, 100, 5):
 # 95
 #
 ```
+
+### A real scenario
