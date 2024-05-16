@@ -791,6 +791,12 @@ in a chronological sense, **it appears** that the "play" action with a timestamp
 
 **However**, it's essential to understand that the **timestamps** in this context **represent moments within the video playback, not necessarily\*** the absolute chronological order of user actions.
 
+#### in this example:
+
+- The timestamp for the "rewind" action (25 seconds) indicates that the user decided to rewind the video playback to a previous point at 25 seconds.
+
+- The timestamp for the "play" action (20 seconds) indicates that the user then resumed playback from that rewound position at 20 seconds.
+
 <br>
 
 ---
