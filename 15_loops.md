@@ -684,6 +684,10 @@ Timestamps:
 
 - 🌈Exactly! Timestamps can be useful for various purposes, such as:
 
+<br>
+
+**Ad Placement:** As you suggested, you could use timestamps to determine when to insert advertisements or promotional content between songs. For example, you might decide to play an ad every 30 seconds or every minute during a user's listening session.
+
 ```python
 
 ```
