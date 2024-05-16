@@ -61,7 +61,7 @@ for index in range(1, 4):  # Analyze songs from index 1 to 3 (excluding 4)
 print('---- example 11 RANGE   ----')
 #------- **
 # IN the following example
-# we will start at 0, the second value means that we will go until 100, and the third value will determine how we want to reach the 100, in this case it will be 5 by 5
+# we will start at 0, the second value means that we will go until 100 but since the condition states 100 we will go until 95, and the third value will determine how we want to reach the 100, in this case it will be 5 by 5
 
 for x in range(0, 100, 5):
     print(x)
