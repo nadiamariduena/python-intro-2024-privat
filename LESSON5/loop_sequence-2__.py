@@ -235,3 +235,6 @@ for name in names2:
 # Somal codes.
 # Somal eats.
 # Somal sleeps.
+#
+# --------- **
+## Now get the opposite
