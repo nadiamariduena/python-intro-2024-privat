@@ -1,8 +1,6 @@
 
 import sys
-
 import random
-
 from enum import Enum
 
 class RPS(Enum):
@@ -11,7 +9,8 @@ class RPS(Enum):
     SCISSORS = 3
 
 
-
+#✋ 1
+playagain = True
 
 
 
