@@ -263,6 +263,7 @@ for action3 in actions3:
 
 # --------- **
 print('------ nested loop 3')
+print('------ nested loop 3')
 ## more loops, in this one i will have 4 lists to include in 4 loops
 
 names4 = ["Alice", "Bob", "Charlie"]
@@ -274,4 +275,4 @@ for name4 in names4:
     for activity in activities:
         for food in foods:
             for city in cities:
-                print()
+                print(f"{name4} likes {activity}, enjoys eating {food}, and lives in {city}")

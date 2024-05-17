@@ -956,3 +956,26 @@ for action3 in actions3:
 ```
 
 ## 🟡 NESTED LOOPS 3)
+
+<br>
+<br>
+
+#### with only 4 loop
+
+```python
+## more loops, in this one i will have 4 lists to include in 4 loops
+
+names4 = ["Alice", "Bob", "Charlie"]
+activities = ["running", "swimming", "cycling"]
+foods = ["pizza", "sushi", "burgers"]
+cities = ["New York", "Los Angeles", "Chicago"]
+
+for name4 in names4:
+        print(f"{name4} likes {activities}, enjoys eating {foods}, and lives in {cities}")
+#
+##
+# OUTPUT
+Alice likes ['running', 'swimming', 'cycling'], enjoys eating ['pizza', 'sushi', 'burgers'], and lives in ['New York', 'Los Angeles', 'Chicago']
+Bob likes ['running', 'swimming', 'cycling'], enjoys eating ['pizza', 'sushi', 'burgers'], and lives in ['New York', 'Los Angeles', 'Chicago']
+Charlie likes ['running', 'swimming', 'cycling'], enjoys eating ['pizza', 'sushi', 'burgers'], and lives in ['New York', 'Los Angeles', 'Chicago']
+```
