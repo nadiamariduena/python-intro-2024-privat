@@ -890,3 +890,37 @@ print(xmore)
 else:
     print('Glad that\'s over!')
 ```
+
+<br>
+<br>
+
+## 🟡 NESTED LOOPS 1)
+
+<br>
+
+```python
+# ------ **
+print('---- example 15  NESTED loops----')
+#------- **
+
+#looping through 2 different lists
+
+names2 = ['Daria', 'Esze', 'Somal']
+actions = ['codes',  'eats', 'sleeps']
+
+#
+#for each name we are going to do something
+for name in names2:
+    for action in actions:
+        print(name + ' ' + action + '.')
+#result
+# Daria codes.
+# Daria eats.
+# Daria sleeps.
+# Esze codes.
+# Esze eats.
+# Esze sleeps.
+# Somal codes.
+# Somal eats.
+# Somal sleeps.
+```
