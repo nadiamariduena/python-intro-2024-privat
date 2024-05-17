@@ -954,3 +954,5 @@ for action3 in actions3:
 # Somal sleeps.
 #🖐️ its also possible to add more for loops within, but check first how this can affect the performance
 ```
+
+## 🟡 NESTED LOOPS 3)

@@ -260,3 +260,7 @@ for action3 in actions3:
 # Esze sleeps.
 # Somal sleeps.
 #🖐️ its also possible to add more for loops within, but check first how this can affect the performance
+
+# --------- **
+print('------ nested loop 3')
+## more loops, in this one i will have 4 lists to include in 4 loops
