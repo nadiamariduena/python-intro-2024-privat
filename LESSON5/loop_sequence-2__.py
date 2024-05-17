@@ -216,3 +216,6 @@ print('---- example 15  NESTED loops----')
 #------- **
 
 #looping through 2 different lists
+
+names2 = ['Daria', 'Esze', 'Somal']
+actions = ['codes',  'eats', 'sleeps']
