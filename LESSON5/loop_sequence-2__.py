@@ -212,5 +212,7 @@ else:
 # Glad that's over!
 
 # ------ **
-print('---- example 15  ----')
+print('---- example 15  NESTED loops----')
 #------- **
+
+#looping through 2 different lists
