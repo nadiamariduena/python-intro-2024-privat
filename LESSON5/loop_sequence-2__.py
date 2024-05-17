@@ -225,3 +225,13 @@ actions = ['codes',  'eats', 'sleeps']
 for name in names2:
     for action in actions:
         print(name + ' ' + action + '.')
+#result
+# Daria codes.
+# Daria eats.
+# Daria sleeps.
+# Esze codes.
+# Esze eats.
+# Esze sleeps.
+# Somal codes.
+# Somal eats.
+# Somal sleeps.
