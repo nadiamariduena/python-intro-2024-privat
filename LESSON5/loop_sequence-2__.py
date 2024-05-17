@@ -259,3 +259,4 @@ for action3 in actions3:
 # Daria sleeps.
 # Esze sleeps.
 # Somal sleeps.
+#🖐️ its also possible to add more for loops within, but check first how this can affect the performance
