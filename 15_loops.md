@@ -957,6 +957,112 @@ for action3 in actions3:
 
 ## 🟡 NESTED LOOPS 3)
 
+```python
+## more loops, in this one i will have 4 lists to include in 4 loops
+
+names4 = ["Alice", "Bob", "Charlie"]
+activities = ["running", "swimming", "cycling"]
+foods = ["pizza", "sushi", "burgers"]
+cities = ["New York", "Los Angeles", "Chicago"]
+
+for name4 in names4:
+    for activity in activities:
+        for food in foods:
+            for city in cities:
+                print(f"{name4} likes {activity}, enjoys eating {food}, and lives in {city}")
+
+```
+
+<br>
+
+#### output
+
+```python
+
+Alice likes running, enjoys eating pizza, and lives in New York
+Alice likes running, enjoys eating pizza, and lives in Los Angeles
+Alice likes running, enjoys eating pizza, and lives in Chicago
+Alice likes running, enjoys eating sushi, and lives in New York
+Alice likes running, enjoys eating sushi, and lives in Los Angeles
+Alice likes running, enjoys eating sushi, and lives in Chicago
+Alice likes running, enjoys eating burgers, and lives in New York
+Alice likes running, enjoys eating burgers, and lives in Los Angeles
+Alice likes running, enjoys eating burgers, and lives in Chicago
+Alice likes swimming, enjoys eating pizza, and lives in New York
+Alice likes swimming, enjoys eating pizza, and lives in Los Angeles
+Alice likes swimming, enjoys eating pizza, and lives in Chicago
+Alice likes swimming, enjoys eating sushi, and lives in New York
+Alice likes swimming, enjoys eating sushi, and lives in Los Angeles
+Alice likes swimming, enjoys eating sushi, and lives in Chicago
+Alice likes swimming, enjoys eating burgers, and lives in New York
+Alice likes swimming, enjoys eating burgers, and lives in Los Angeles
+Alice likes swimming, enjoys eating burgers, and lives in Chicago
+Alice likes cycling, enjoys eating pizza, and lives in New York
+Alice likes cycling, enjoys eating pizza, and lives in Los Angeles
+Alice likes cycling, enjoys eating pizza, and lives in Chicago
+Alice likes cycling, enjoys eating sushi, and lives in New York
+Alice likes cycling, enjoys eating sushi, and lives in Los Angeles
+Alice likes cycling, enjoys eating sushi, and lives in Chicago
+Alice likes cycling, enjoys eating burgers, and lives in New York
+Alice likes cycling, enjoys eating burgers, and lives in Los Angeles
+Alice likes cycling, enjoys eating burgers, and lives in Chicago
+Bob likes running, enjoys eating pizza, and lives in New York
+Bob likes running, enjoys eating pizza, and lives in Los Angeles
+Bob likes running, enjoys eating pizza, and lives in Chicago
+Bob likes running, enjoys eating sushi, and lives in New York
+Bob likes running, enjoys eating sushi, and lives in Los Angeles
+Bob likes running, enjoys eating sushi, and lives in Chicago
+Bob likes running, enjoys eating burgers, and lives in New York
+Bob likes running, enjoys eating burgers, and lives in Los Angeles
+Bob likes running, enjoys eating burgers, and lives in Chicago
+Bob likes swimming, enjoys eating pizza, and lives in New York
+Bob likes swimming, enjoys eating pizza, and lives in Los Angeles
+Bob likes swimming, enjoys eating pizza, and lives in Chicago
+Bob likes swimming, enjoys eating sushi, and lives in New York
+Bob likes swimming, enjoys eating sushi, and lives in Los Angeles
+Bob likes swimming, enjoys eating sushi, and lives in Chicago
+Bob likes swimming, enjoys eating burgers, and lives in New York
+Bob likes swimming, enjoys eating burgers, and lives in Los Angeles
+Bob likes swimming, enjoys eating burgers, and lives in Chicago
+Bob likes cycling, enjoys eating pizza, and lives in New York
+Bob likes cycling, enjoys eating pizza, and lives in Los Angeles
+Bob likes cycling, enjoys eating pizza, and lives in Chicago
+Bob likes cycling, enjoys eating sushi, and lives in New York
+Bob likes cycling, enjoys eating sushi, and lives in Los Angeles
+Bob likes cycling, enjoys eating sushi, and lives in Chicago
+Bob likes cycling, enjoys eating burgers, and lives in New York
+Bob likes cycling, enjoys eating burgers, and lives in Los Angeles
+Bob likes cycling, enjoys eating burgers, and lives in Chicago
+Charlie likes running, enjoys eating pizza, and lives in New York
+Charlie likes running, enjoys eating pizza, and lives in Los Angeles
+Charlie likes running, enjoys eating pizza, and lives in Chicago
+Charlie likes running, enjoys eating sushi, and lives in New York
+Charlie likes running, enjoys eating sushi, and lives in Los Angeles
+Charlie likes running, enjoys eating sushi, and lives in Chicago
+Charlie likes running, enjoys eating burgers, and lives in New York
+Charlie likes running, enjoys eating burgers, and lives in Los Angeles
+Charlie likes running, enjoys eating burgers, and lives in Chicago
+Charlie likes swimming, enjoys eating pizza, and lives in New York
+Charlie likes swimming, enjoys eating pizza, and lives in Los Angeles
+Charlie likes swimming, enjoys eating pizza, and lives in Chicago
+Charlie likes swimming, enjoys eating sushi, and lives in New York
+Charlie likes swimming, enjoys eating sushi, and lives in Los Angeles
+Charlie likes swimming, enjoys eating sushi, and lives in Chicago
+Charlie likes swimming, enjoys eating burgers, and lives in New York
+Charlie likes swimming, enjoys eating burgers, and lives in Los Angeles
+Charlie likes swimming, enjoys eating burgers, and lives in Chicago
+Charlie likes cycling, enjoys eating pizza, and lives in New York
+Charlie likes cycling, enjoys eating pizza, and lives in Los Angeles
+Charlie likes cycling, enjoys eating pizza, and lives in Chicago
+Charlie likes cycling, enjoys eating sushi, and lives in New York
+Charlie likes cycling, enjoys eating sushi, and lives in Los Angeles
+Charlie likes cycling, enjoys eating sushi, and lives in Chicago
+Charlie likes cycling, enjoys eating burgers, and lives in New York
+Charlie likes cycling, enjoys eating burgers, and lives in Los Angeles
+Charlie likes cycling, enjoys eating burgers, and lives in Chicago
+
+```
+
 <br>
 <br>
 
