@@ -1085,3 +1085,35 @@ Alice likes ['running', 'swimming', 'cycling'], enjoys eating ['pizza', 'sushi',
 Bob likes ['running', 'swimming', 'cycling'], enjoys eating ['pizza', 'sushi', 'burgers'], and lives in ['New York', 'Los Angeles', 'Chicago']
 Charlie likes ['running', 'swimming', 'cycling'], enjoys eating ['pizza', 'sushi', 'burgers'], and lives in ['New York', 'Los Angeles', 'Chicago']
 ```
+
+<br>
+<br>
+
+### Another example
+
+```python
+users = ["Alice", "Bob", "Charlie"]
+playlists = ["Top Hits", "Chill Vibes", "Workout Mix"]
+songs = ["Song A", "Song B", "Song C"]
+genres = ["Pop", "Rock", "Hip-hop"]
+
+for user in users:
+    for playlist in playlists:
+        for song in songs:
+            for genre in genres:
+                print(f"User: {user}, Playlist: {playlist}, Song: {song}, Genre: {genre}")
+#
+#
+# OUTPUT
+User: Alice, Playlist: Top Hits, Song: Song A, Genre: Pop
+User: Alice, Playlist: Top Hits, Song: Song A, Genre: Rock
+User: Alice, Playlist: Top Hits, Song: Song A, Genre: Hip-hop
+User: Alice, Playlist: Top Hits, Song: Song B, Genre: Pop
+User: Alice, Playlist: Top Hits, Song: Song B, Genre: Rock
+User: Alice, Playlist: Top Hits, Song: Song B, Genre: Hip-hop
+...
+User: Charlie, Playlist: Workout Mix, Song: Song C, Genre: Pop
+User: Charlie, Playlist: Workout Mix, Song: Song C, Genre: Rock
+User: Charlie, Playlist: Workout Mix, Song: Song C, Genre: Hip-hop
+
+```
