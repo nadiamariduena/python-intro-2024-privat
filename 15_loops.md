@@ -1117,3 +1117,7 @@ User: Charlie, Playlist: Workout Mix, Song: Song C, Genre: Rock
 User: Charlie, Playlist: Workout Mix, Song: Song C, Genre: Hip-hop
 
 ```
+
+<br>
+
+## 🟡 UPDATE the rock, paper, scissors game
