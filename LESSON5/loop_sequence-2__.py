@@ -264,3 +264,8 @@ for action3 in actions3:
 # --------- **
 print('------ nested loop 3')
 ## more loops, in this one i will have 4 lists to include in 4 loops
+
+names = ["Alice", "Bob", "Charlie"]
+activities = ["running", "swimming", "cycling"]
+foods = ["pizza", "sushi", "burgers"]
+cities = ["New York", "Los Angeles", "Chicago"]
