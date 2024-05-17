@@ -219,3 +219,9 @@ print('---- example 15  NESTED loops----')
 
 names2 = ['Daria', 'Esze', 'Somal']
 actions = ['codes',  'eats', 'sleeps']
+
+#
+#for each name we are going to do something
+for name in names2:
+    for action in actions:
+        print(name + ' ' + action + '.')
