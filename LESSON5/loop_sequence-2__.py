@@ -237,4 +237,25 @@ for name in names2:
 # Somal sleeps.
 #
 # --------- **
+print('------ nested loop 2')
 ## Now get the opposite
+#
+names3 = ['Daria', 'Esze', 'Somal']
+actions3 = ['codes',  'eats', 'sleeps']
+#
+#
+for action3 in actions3:
+    for name3 in names3:
+        print(name3 + ' ' + action3 + '.')
+# result:
+#🖐️ notice the difference, here we inserted the name inside the loop 1, compare the result with the result of the 1 nested loop
+#
+#Daria codes.
+# Esze codes.
+# Somal codes.
+# Daria eats.
+# Esze eats.
+# Somal eats.
+# Daria sleeps.
+# Esze sleeps.
+# Somal sleeps.
