@@ -11,10 +11,6 @@ class RPS(Enum):
     SCISSORS = 3
 
 
-
-
-
-
 print("")
 
 playerchoice = input("Enter... \n1 for Rock🪨,\n2 for Paper🧻, or \n3 for Scissors 🌂 :\n\n")
