@@ -1119,5 +1119,12 @@ User: Charlie, Playlist: Workout Mix, Song: Song C, Genre: Hip-hop
 ```
 
 <br>
+<br>
+
+---
+
+<br>
 
 ## 🟡 UPDATE the rock, paper, scissors game
+
+- Cop and paste the last code, here I will update the game with the while LOOP
