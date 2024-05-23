@@ -1187,3 +1187,5 @@ else:
 
 
 ```
+
+### In the follwing step I will add the WHILE loop and 🔴 importantly, i will wrap a part of the code in the indentation
