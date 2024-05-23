@@ -13,6 +13,15 @@ class RPS(Enum):
 
 print("")
 
+# -- while loop
+
+# playagain = True
+
+# while playagain:
+
+
+#---
+
 playerchoice = input("Enter... \n1 for Rock🪨,\n2 for Paper🧻, or \n3 for Scissors 🌂 :\n\n")
 
 player = int(playerchoice)
