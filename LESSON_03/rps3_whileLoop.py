@@ -55,3 +55,6 @@ while playagain:
     playagain = input ('\nPlay again? \nY for (yes) or \nQ to Quit \n\n')
 
 #4 now add an if statement to handle the step 3
+
+# but before we will check if the user will enter a lower case and if the USER enter an uppercase it will convert to lower
+    if playagain.lower()
