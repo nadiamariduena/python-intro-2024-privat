@@ -6,3 +6,13 @@
 #  print("")
    print("\nYou choose " + str(RPS(player)).
 ```
+
+<br>
+
+## DEF
+
+- to start with a function you will use the **def** that stands for **defining**
+
+```python
+
+```
