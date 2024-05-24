@@ -14,9 +14,9 @@ class RPS(Enum):
 print("")
 
 #-- while loop ----
-
+#1
 playagain = True
-
+#2
 while playagain:
     # respect the indentation here (otherwise the content of the loop will be placed out of the scoope and you will get errors)
     playerchoice = input("Enter... \n1 for Rock🪨,\n2 for Paper🧻, or \n3 for Scissors 🌂 :\n\n")
@@ -50,5 +50,8 @@ while playagain:
     else:
         print("👾Python wins")
 
+#3 ask the user if they want to continue or to quit
 # use the \n to make a new line
-    playagain = input ('\nPlay again? \nY for (yes) or \nQ to Quit')
+    playagain = input ('\nPlay again? \nY for (yes) or \nQ to Quit \n\n')
+
+#4 now add an if statement to handle the step 3
