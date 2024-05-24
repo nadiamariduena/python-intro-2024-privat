@@ -3,5 +3,6 @@
 - If you remove them add this `\n`
 
 ```python
-
+#  print("")
+   print("\nYou choose " + str(RPS(player)).
 ```
