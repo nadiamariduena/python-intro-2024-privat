@@ -1201,9 +1201,14 @@ while playagain:
 
 ```
 
+<br>
+<br>
+
 ### now wrap it
 
 - so if i start a while loop here, i need to select everything below it and add the indentation
+
+- select all and press the **tab** key
 
 ```python
 
