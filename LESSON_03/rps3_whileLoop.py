@@ -71,3 +71,4 @@ while playagain:
         playagain = False
 #  or you can also use break
         # break
+sys.exit('Bye! 🤙')
