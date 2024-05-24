@@ -72,3 +72,5 @@ while playagain:
 #  or you can also use break
         # break
 sys.exit('Bye! 🤙')
+#
+# At this point we finish and the game is on a LOOP
