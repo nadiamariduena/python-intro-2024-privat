@@ -74,3 +74,5 @@ while playagain:
 sys.exit('Bye! 🤙')
 #
 # At this point we finish and the game is on a LOOP, so that you can play it over and over again
+
+# check the result on the MD
