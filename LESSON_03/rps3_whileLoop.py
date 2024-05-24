@@ -62,3 +62,5 @@ while playagain:
     if playagain.lower() == 'y':
         continue
     else:
+        print('\n🥳✨')
+        print("Thank you for playing")
