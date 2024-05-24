@@ -64,3 +64,10 @@ while playagain:
     else:
         print('\n🥳✨')
         print("Thank you for playing")
+#
+#
+#
+#  5 END THE loop
+        playagain = False
+#  or you can also use break
+        # break
