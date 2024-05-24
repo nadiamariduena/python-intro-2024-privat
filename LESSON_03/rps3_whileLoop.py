@@ -51,4 +51,4 @@ while playagain:
         print("👾Python wins")
 
 # use the \n to make a new line
-    playagain = input ('\n nn')
+    playagain = input ('\nPlay again? \n')
