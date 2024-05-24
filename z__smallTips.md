@@ -14,5 +14,7 @@
 - to start with a function you will use the **def** that stands for **defining**
 
 ```python
+def hello():
+   print('Hello World')
 
 ```
