@@ -18,7 +18,7 @@ print("")
 playagain = True
 
 while playagain:
-
+    # respect the indentation here (otherwise the content of the loop will be placed out of the scoope and you will get errors)
     playerchoice = input("Enter... \n1 for Rock🪨,\n2 for Paper🧻, or \n3 for Scissors 🌂 :\n\n")
 
     player = int(playerchoice)
