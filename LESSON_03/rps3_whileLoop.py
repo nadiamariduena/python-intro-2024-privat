@@ -51,4 +51,4 @@ while playagain:
         print("👾Python wins")
 
 # use the \n to make a new line
-    playagain = input ('\nPlay again? \n')
+    playagain = input ('\nPlay again? \nY for (yes) or \nQ to Quit')
