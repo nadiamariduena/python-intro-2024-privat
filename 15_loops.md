@@ -1336,6 +1336,8 @@ while playagain:
 
 <br>
 
+- `q` 🔴 i typed q TO QUIT and end the game, but it will anyway quit if i type anything else than a `Y`
+
 ### the game
 
 ```python
@@ -1439,6 +1441,7 @@ Y for (yes) or
 Q to Quit
 
 q
+# 🔴 i typed q, but it will anyway quit if i type anything else than a Y
 
 🥳✨
 Thank you for playing
