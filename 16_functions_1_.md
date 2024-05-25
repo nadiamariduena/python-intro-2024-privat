@@ -141,5 +141,7 @@ def multiple_items(*args):
         print(args)
         print(type(args))
 
+# tuble list
 multiple_items("Dave", "John", "Noaln")
+# tuples can't be changed after they're created, but lists can be modified
 ```
