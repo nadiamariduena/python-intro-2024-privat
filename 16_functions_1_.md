@@ -20,7 +20,18 @@ hello()
 - just like in javascript, you add your parameter within the parenthesis
 
 ```python
-def sum(num1, num2)
+# num1 and num2 are the paremeters
+def sum(num1, num2):
     print(num1 + num2)
+#
+#
+#4. 5 are the arguments
+sum(4, 5)
+sum(1,7)
+sum(100,3)
+#
+# 9
+# 8
+# 103
 
 ```
