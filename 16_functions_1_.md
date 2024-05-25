@@ -124,9 +124,17 @@ print(totalParam)
 <br>
 <br>
 
-## 🍭 \*args in Python
+## 🍭 `*args` in Python
 
-- The \*args parameter allows you to write a function that can accept a varying number of individual positional arguments in each call
+[source/ geeksforgeeks.org/](https://www.geeksforgeeks.org/args-kwargs-python/)
+
+In this article, we will cover what \*_ (double star/asterisk) and _ (star/asterisk) do for parameters in Python, Here, we will also cover args and kwargs examples in Python. We can pass a variable number of arguments to a function using special symbols.
+
+There are two special symbols:
+
+<br>
+
+- The `*args` parameter allows you to write a function that can accept a varying number of individual positional arguments in each call
 
 <br>
 
