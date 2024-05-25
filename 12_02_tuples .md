@@ -38,6 +38,8 @@ my_tuple = 1, 2, 3    # Without parentheses
 my_list = [1, 2, 3]  # Using square brackets
 ```
 
+https://www.simplilearn.com/difference-between-list-and-tuple-in-python-article#:~:text=tuples%20in%20python.-,Key%20Difference%20Between%20List%20and%20Tuple,re%20just%20looking%20up%20values.
+
 <br>
 
 ---
