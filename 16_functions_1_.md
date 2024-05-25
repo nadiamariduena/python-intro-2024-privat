@@ -128,9 +128,20 @@ print(totalParam)
 
 [source/ geeksforgeeks.org/](https://www.geeksforgeeks.org/args-kwargs-python/)
 
-In this article, we will cover what \*_ (double star/asterisk) and _ (star/asterisk) do for parameters in Python, Here, we will also cover args and kwargs examples in Python. We can pass a variable number of arguments to a function using special symbols.
+In this article, we will cover what `**` (double star/asterisk) and **(star/asterisk)** do for parameters in Python, Here, we will also cover args and **kwargs** examples in Python.
 
-There are two special symbols:
+- We can pass a variable number of arguments to a function using special symbols.
+
+<br>
+
+### Special Symbols Used for passing arguments in Python:
+
+`*args` (Non-Keyword Arguments)
+`**kwargs` (Keyword Arguments)
+
+<br>
+
+### There are two special symbols:
 
 <br>
 
