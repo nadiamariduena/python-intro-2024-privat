@@ -103,4 +103,20 @@ def suma(numm1, numm2):
 def suma(numm1, numm2 = 3):
 ```
 
-###
+<br>
+<br>
+
+```python
+##  -------
+# Another way to pass the arguments on the parameter
+# ----------
+#
+def sumas(param1, param2 = 3):
+    if (type(param1) is not int or type(param2) is not int):
+        return
+    return param1 + param2
+
+totalParam = sumas(1)
+print(totalParam)
+#result: 4
+```
