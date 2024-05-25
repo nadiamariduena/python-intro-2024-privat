@@ -124,7 +124,7 @@ print(totalParam)
 <br>
 <br>
 
-## 🍭 ARGS
+## 🍭 \*args in Python
 
 - The \*args parameter allows you to write a function that can accept a varying number of individual positional arguments in each call
 
@@ -153,3 +153,8 @@ multiple_items("Dave", "John", "Noaln")
 # Use square brackets [].
 #my_list = [1, 2, 3]  # Using square brackets
 ```
+
+<br>
+<br>
+
+## \*args and \*\*kwargs in Python
