@@ -60,14 +60,17 @@ def sumas(param1, param2 = 3):
 totalParam = sumas(1)
 print(totalParam)
 #result: 4
-
+#
+#
+#
 ##  -------
-# ARGS
+# ** ARGS
 # ----------
 # args will work like in javascript
 # ** The *args parameter allows you to write a function that can accept a varying number of individual positional arguments in each call
 
 def multiple_items(*args):
+    # as you can see i am not adding names like in the num1 & num2, instead i grab the various values within the multiple_items("Dave"...
         print(args)
         print(type(args))
 
