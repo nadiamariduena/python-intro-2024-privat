@@ -75,3 +75,6 @@ def multiple_items(*args):
         print(type(args))
 
 multiple_items("Dave", "John", "Noaln")
+#result
+#('Dave', 'John', 'Noaln')
+# <class 'tuple'>
