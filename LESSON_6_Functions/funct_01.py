@@ -51,3 +51,9 @@ print(total2)
 
 def sumas(param1, param2 = 3):
     if (type(param1) is not int or type(param2) is not int):
+        return
+    return param1 + param2
+
+totalParam = sumas(1)
+print(totalParam)
+#result: 4
