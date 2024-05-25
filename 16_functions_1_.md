@@ -53,3 +53,8 @@ total = sumFunction(2, 3)
 print(total)
 # result: 5
 ```
+
+<br>
+<br>
+
+## NONE (nor true or false)

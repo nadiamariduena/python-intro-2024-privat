@@ -29,3 +29,13 @@ def sumFunction(num3, num4):
 total = sumFunction(2, 3)
 print(total)
 # result: 5
+#
+#
+
+##  -------
+# NONE (nor true or false)
+# ----------
+#
+#
+def suma(numm1, numm2):
+#the below is called an earlier return, it will ignore the second return
