@@ -5,6 +5,37 @@
 <br>
 <br>
 
+## ✋ TUPLES -----
+
+#### tuples can't be changed after they're created, but lists can be modified
+
+<br>
+
+- Typically use parentheses `()`, but can also be created without them by simply separating items with commas.
+
+```python
+my_tuple = (1, 2, 3)  # Using parentheses
+my_tuple = 1, 2, 3    # Without parentheses
+```
+
+<br>
+
+## ✋ LISTS
+
+- Use square brackets `[]`.
+
+```python
+
+#
+my_list = [1, 2, 3]  # Using square brackets
+```
+
+<br>
+
+---
+
+<br>
+
 ### 🌈 Python Tuples
 
 Tuples are used to store multiple items in a single variable.
