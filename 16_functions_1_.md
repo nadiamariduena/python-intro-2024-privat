@@ -90,4 +90,15 @@ TypeError: suma() missing 2 required positional arguments: 'numm1' and 'numm2'
 
 <br>
 
-## 🍭A way to prevent this errror, is by adding some **default values**
+## 🍭A way to prevent this error, is by adding some **default values**
+
+<br>
+
+```python
+# before
+def suma(numm1, numm2):
+#
+#
+# after
+def suma(numm1, numm2):
+```
