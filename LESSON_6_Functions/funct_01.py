@@ -41,7 +41,7 @@ def suma(numm1, numm2):
 #the first return from below is called an earlier return. it will ignore the second return
     if (type(numm1) is not int or type(numm2) is not int):
         return
-
+# this if is checking if each of the parameters (numm1 and numm2) are integers, but as you can see i purposely added a letter to get an error
     return numm1 + numm2
 
 total2 = suma("e", 4)
