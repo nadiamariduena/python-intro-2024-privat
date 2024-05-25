@@ -64,7 +64,7 @@ print(totalParam)
 ##  -------
 # ARGS
 # ----------
-#
+# args will work like in javascript
 
 def multiple_items(*args):
         print(args)
