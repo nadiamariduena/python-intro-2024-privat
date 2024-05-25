@@ -65,6 +65,7 @@ print(totalParam)
 # ARGS
 # ----------
 # args will work like in javascript
+# ** The *args parameter allows you to write a function that can accept a varying number of individual positional arguments in each call
 
 def multiple_items(*args):
         print(args)
