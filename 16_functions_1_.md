@@ -87,3 +87,7 @@ in <module>
              ^^^^^^^
 TypeError: suma() missing 2 required positional arguments: 'numm1' and 'numm2'
 ```
+
+<br>
+
+## 🍭A way to prevent this errror, is by adding some **default values**
