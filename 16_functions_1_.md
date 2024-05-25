@@ -78,3 +78,5 @@ total2 = suma("e", 4)
 print(total2)
 # result: None (because i have a letter which is not an integer but a string)
 ```
+
+#### if you didnt add anything within here `total = sum() instead of total = sum(4. 5)` you will get this error
