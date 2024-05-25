@@ -144,4 +144,7 @@ def multiple_items(*args):
 # tuble list
 multiple_items("Dave", "John", "Noaln")
 # tuples can't be changed after they're created, but lists can be modified
+# REMEMBER: Typically use parentheses (), but can also be created without them by simply separating items with commas.
+#my_tuple = (1, 2, 3)  # Using parentheses
+#my_tuple = 1, 2, 3    # Without parentheses (still a tuple)
 ```
