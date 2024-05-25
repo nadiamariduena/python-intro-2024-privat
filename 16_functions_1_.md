@@ -36,4 +36,20 @@ sum(100,3)
 
 ```
 
+<br>
+<br>
+
 ### another way
+
+```python
+##  -------
+# Another way
+# ----------
+#
+#
+def sumFunction(num3, num4):
+    return num3 + num4
+total = sumFunction(2, 3)
+print(total)
+# result: 5
+```
