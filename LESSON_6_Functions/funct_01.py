@@ -65,3 +65,9 @@ print(totalParam)
 # ARGS
 # ----------
 #
+
+def multiple_items(*args):
+        print(args)
+        print(type(args))
+
+multiple_items("Dave", "John", "Noaln")
