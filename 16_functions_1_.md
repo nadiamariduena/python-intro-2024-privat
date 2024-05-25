@@ -150,5 +150,5 @@ multiple_items("Dave", "John", "Noaln")
 #my_tuple = 1, 2, 3    # Without parentheses (still a tuple)
 # ✋ LISTS
 # Use square brackets [].
-
+#my_list = [1, 2, 3]  # Using square brackets
 ```
