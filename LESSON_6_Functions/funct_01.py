@@ -60,3 +60,8 @@ def sumas(param1, param2 = 3):
 totalParam = sumas(1)
 print(totalParam)
 #result: 4
+
+##  -------
+# ARGS
+# ----------
+#
