@@ -46,3 +46,4 @@ def suma(numm1, numm2):
 
 total2 = suma("e", 4)
 print(total2)
+# result: None (because i have a letter which is not an integer but a string)
