@@ -5,7 +5,7 @@
 <br>
 <br>
 
-## ✋ TUPLES -----
+## ✋ TUPLES
 
 #### tuples can't be changed after they're created, but lists can be modified
 
