@@ -38,11 +38,10 @@ print(total)
 #
 #
 def suma(numm1, numm2):
-#the below
-#
+#the first return from below is called an earlier return. it will ignore the second return
     if (type(numm1) is not int or type(numm2) is not int):
         return
-# is called an earlier return, it will ignore the second return
+
     return numm1 + numm2
 
 total2 = suma("e", 4)
