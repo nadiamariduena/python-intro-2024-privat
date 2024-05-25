@@ -40,10 +40,10 @@ print(total)
 def suma(numm1, numm2):
 #the below
 #
-if (type(numm1) is not int or type(numm2) is not int):
-    return
+    if (type(numm1) is not int or type(numm2) is not int):
+        return
 # is called an earlier return, it will ignore the second return
-return numm1 + numm2
+    return numm1 + numm2
 
-total2 = suma(4, 4)
+total2 = suma("e", 4)
 print(total2)
