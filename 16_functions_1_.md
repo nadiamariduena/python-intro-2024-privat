@@ -80,3 +80,10 @@ print(total2)
 ```
 
 #### if you didnt add anything within here `total = sum() instead of total = sum(4. 5)` you will get this error
+
+```python
+in <module>
+    total2 = suma( )
+             ^^^^^^^
+TypeError: suma() missing 2 required positional arguments: 'numm1' and 'numm2'
+```
