@@ -121,8 +121,25 @@ print(totalParam)
 #result: 4
 ```
 
-## ARGS
+<br>
+<br>
+
+## 🍭 ARGS
+
+- The \*args parameter allows you to write a function that can accept a varying number of individual positional arguments in each call
+
+<br>
 
 ```python
+##  -------
+# ARGS
+# ----------
+# args will work like in javascript
+# **
 
+def multiple_items(*args):
+        print(args)
+        print(type(args))
+
+multiple_items("Dave", "John", "Noaln")
 ```
