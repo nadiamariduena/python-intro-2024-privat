@@ -48,7 +48,10 @@ total2 = suma("e", 4)
 print(total2)
 # result: None (because i have a letter which is not an integer but a string)
 
-
+##  -------
+# Another way to pass the arguments on the parameter
+# ----------
+#
 def sumas(param1, param2 = 3):
     if (type(param1) is not int or type(param2) is not int):
         return
