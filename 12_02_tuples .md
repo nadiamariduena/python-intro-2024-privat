@@ -20,9 +20,17 @@ my_tuple = 1, 2, 3    # Without parentheses
 
 <br>
 
+- **Immutability:** Tuples are immutable, meaning once a tuple is created, its contents cannot be changed.
+
+<br>
+
+<br>
+
 ## ✋ LISTS
 
 - Use square brackets `[]`.
+
+- **Mutability:** Lists are mutable, meaning their contents can be changed after creation.
 
 ```python
 
@@ -34,6 +42,7 @@ my_list = [1, 2, 3]  # Using square brackets
 
 ---
 
+<br>
 <br>
 
 ### 🌈 Python Tuples
