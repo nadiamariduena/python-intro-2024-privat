@@ -102,3 +102,19 @@ print(total)
 return add_one(total)
 
 ```
+
+- This is called "recursion." It means the function keeps calling itself with the new number until it meets the condition to stop.
+
+### 🟥 So, the function only goes up to 9 because once it reaches 9, it stops and returns 10. It doesn't print 10 because it returns the value and doesn't continue to the print statement.
+
+<br>
+<br>
+
+---
+
+<br>
+
+## 🟡 But what if i want to reach the 10?
+
+<br>
+<br>
