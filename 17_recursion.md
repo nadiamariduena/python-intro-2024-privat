@@ -148,3 +148,33 @@ print(mynewtotal)
 # 9
 # 10
 ```
+
+<br>
+<br>
+
+## Explanation
+
+### The Original Function
+
+#### 1) Start with the number 0:
+
+##### You call the machine with the number 0 using adds_one(0).
+
+### 2) Check if the number is 9 or more:
+
+##### The machine first checks if the number is 9 or more:
+
+```python
+if (num >= 9):
+    return num + 1
+
+```
+
+<br>
+
+> If the number is 9 or more, the machine stops and gives you the number plus 1.
+
+<br>
+
+Add 1 to the number and print it:
+If the number is less than 9, the machine adds 1 to the number and prints it:
