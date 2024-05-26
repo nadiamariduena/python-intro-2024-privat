@@ -49,3 +49,23 @@ if (num >= 9):
     return num + 1
 
 ```
+
+#### 👾 If the number is 9 or more, the function stops and returns that number plus 1. But since we start with 0, this check is false and we move to the next part.👾
+
+- Let's see what happens step by step:
+
+Step 1: **add_one(0)** adds 1 to 0 (total = 1) and calls add_one(1).
+
+ <br>
+
+Step 2: add_one(1) adds 1 to 1 (total = 2) and calls add_one(2).
+Step 3: add_one(2) adds 1 to 2 (total = 3) and calls add_one(3).
+Step 4: add_one(3) adds 1 to 3 (total = 4) and calls add_one(4).
+Step 5: add_one(4) adds 1 to 4 (total = 5) and calls add_one(5).
+Step 6: add_one(5) adds 1 to 5 (total = 6) and calls add_one(6).
+Step 7: add_one(6) adds 1 to 6 (total = 7) and calls add_one(7).
+Step 8: add_one(7) adds 1 to 7 (total = 8) and calls add_one(8).
+
+<br>
+
+Step 9: **add_one(8)** adds 1 to 8 (total = 9) and calls add_one(9).
