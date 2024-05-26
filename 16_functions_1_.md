@@ -368,3 +368,10 @@ formatted_string = f"Name: {name}, Age: {age}"
 print(formatted_string)
 
 ```
+
+## Both methods will produce the same output:
+
+```python
+Name: Alice, Age: 30
+
+```
