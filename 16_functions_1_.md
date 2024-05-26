@@ -459,6 +459,17 @@ update_playlist(
 
 ```
 
+#### output
+
+```python
+Updating playlist with ID: 12345
+Name: My Favorite Songs
+Description: A collection of my favorite songs from various genres.
+Tracks: ['Track1', 'Track2', 'Track3']
+Public: True
+
+```
+
 <br>
 
 - `update_playlist(playlist_id, **kwargs)`: The function takes a playlist_id and any number of additional keyword arguments (\*\*kwargs).
