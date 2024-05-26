@@ -149,6 +149,8 @@ In this article, we will cover what `**` (double star/asterisk) and **(star/aste
 
 <br>
 
+#### example 1:
+
 ```python
 ##  -------
 # ** ARGS
@@ -174,6 +176,24 @@ multiple_items("Dave", "John", "Noaln")
 ```
 
 <br>
+
+### Example 2:
+
+- Python program to illustrate \*args with a first extra argument
+
+```python
+def myFun(arg1, *argv):
+    print('First argument :', arg1)
+    for arg in argv:
+        print('Next argument through *argv :', arg)
+
+myFun('Hello', 'Welcome', 'to', 'Paradisse')
+
+
+
+```
+
+<br>
 <br>
 
-## \*args and \*\*kwargs in Python
+## `**kwargs` in Python
