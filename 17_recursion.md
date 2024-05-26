@@ -28,7 +28,7 @@ add_one(0)
 
 <br>
 
-## 🟡 Explanation
+# 🟡 Explanation
 
 #### Imagine you have a number and you want to keep adding **1** to it until you reach a certain point. In this case, that point is **9**. Let's look at the code step by step:
 
@@ -118,3 +118,33 @@ return add_one(total)
 
 <br>
 <br>
+
+```python
+# check the explanation on 17 recursion
+def add_one(num):
+    if (num >= 9):
+        return num + 1
+
+    total = num + 1
+    print(total)
+
+
+    return add_one(total)
+
+#add_one(0) // before the changes
+
+# 1 here i will do some changes
+mynewtotal = add_one(0)
+print(mynewtotal)
+
+#1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
+# 10
+```
