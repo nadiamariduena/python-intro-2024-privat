@@ -103,6 +103,10 @@ return add_one(total)
 
 ```
 
+- 🔴 🔴 This means it keeps going, adding 1 each time, until it reaches the point where the number is 9 or more.
+
+<br>
+
 - This is called "recursion." It means the function keeps calling itself with the new number until it meets the condition to stop.
 
 ### 🟥 So, the function only goes up to 9 because once it reaches 9, it stops and returns 10. It doesn't print 10 because it returns the value and doesn't continue to the print statement.
@@ -192,4 +196,8 @@ print(total)
 
 ### 4) Call the machine again with the new number:
 
-The machine then calls itself with the new number:
+👾 The machine then calls itself with the new number:
+
+```python
+return adds_one(total)
+```
