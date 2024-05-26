@@ -56,6 +56,8 @@ if (num >= 9):
 
 #### 👾 If the number is 9 or more, the function stops and returns that number plus 1. But since we start with 0, this check is false and we move to the next part.👾
 
+### 🍰 This is called "recursion." It means the function keeps calling itself with the new number until it meets a condition to stop.
+
 - Let's see what happens step by step:
 
 Step 1: **add_one(0)** adds 1 to 0 (total = 1) and calls add_one(1).
