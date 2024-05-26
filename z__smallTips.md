@@ -21,3 +21,7 @@ def hello():
 # just like in js, you call the function like here below: name + parentheses
 hello()
 ```
+
+## NONE
+
+- IN python **none** is neither true or false
