@@ -32,6 +32,8 @@ add_one(0)
 
 #### Imagine you have a number and you want to keep adding **1** to it until you reach a certain point. In this case, that point is **9**. Let's look at the code step by step:
 
+<br><br>
+
 ### 1) Start with the number 0:
 
 - You call the function add_one(0).
@@ -39,6 +41,8 @@ add_one(0)
 ```python
 add_one(0)
 ```
+
+<br><br>
 
 ### 2) Check if the number is 9 or more:
 
@@ -84,3 +88,10 @@ print(total)
 ```
 
 - So, for **add_one(0)**, it adds **1** to **0**, making **total 1**, and prints 1.
+
+<br>
+<br>
+
+### 4) Call the function again with the new number:
+
+- The function then calls itself with the new number:
