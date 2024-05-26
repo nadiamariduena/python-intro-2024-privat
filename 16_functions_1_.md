@@ -227,6 +227,10 @@ last == Geeks
 
 ```
 
+<br>
+
+# 🔴 the old way
+
 ### 👾The syntax `"%s == %s"` %
 
 The syntax "%s == %s" % (key, value) in Python uses the old-style string formatting (also known as printf-style string formatting). Here, the % operator is used to format a string. Let's break down the components:
@@ -335,3 +339,10 @@ myFune(first="Geeks", mid="for", last="Geeks")
 # mid == for
 # last == Geeks
 ```
+
+<br>
+<br>
+
+## 🌈 THE new way
+
+- This approach using %s and the % operator is a classic way of string formatting in Python. However, for modern Python code, you might prefer using str.format or f-strings for better readability and flexibility:
