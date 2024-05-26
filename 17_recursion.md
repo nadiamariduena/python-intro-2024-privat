@@ -28,4 +28,14 @@ add_one(0)
 
 <br>
 
-## Explanation
+## 🟡 Explanation
+
+#### Imagine you have a number and you want to keep adding **1** to it until you reach a certain point. In this case, that point is **9**. Let's look at the code step by step:
+
+### Start with the number 0:
+
+- You call the function add_one(0).
+
+```python
+add_one(0)
+```
