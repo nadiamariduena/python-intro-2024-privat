@@ -160,9 +160,9 @@ print(mynewtotal)
 
 ### The Original Function
 
-#### 1) Start with the number 0:
+### 1) Start with the number 0:
 
-##### You call the machine with the number 0 using adds_one(0).
+- You call the machine with the number 0 using adds_one(0).
 
 ### 2) Check if the number is 9 or more:
 
@@ -200,4 +200,49 @@ print(total)
 
 ```python
 return adds_one(total)
+```
+
+<br>
+
+### 🟠 The New Part: Using the Machine and Getting the Result
+
+Now, let’s look at the new lines you added:
+
+```python
+mynewtotal = adds_one(0)
+print(mynewtotal)
+
+```
+
+<br>
+
+### Start the process:
+
+- You start the machine with the number 0 by calling adds_one(0).
+
+### Run through the machine:
+
+- The machine will add 1 to 0, print 1, and call itself with 1. It will keep doing this, printing each new number, until it gets to 9.
+
+### Reaching 9:
+
+- When the machine gets to 9, it will add 1 to 9, making it 10, and stop:
+
+```python
+if (num >= 9):
+    return num + 1
+
+```
+
+<br>
+
+-🔴 So, adds_one(9) will return 10.
+
+### Store the result:
+
+The returned number 10 is stored in **mynewtotal:**
+
+```python
+mynewtotal = adds_one(0)
+
 ```
