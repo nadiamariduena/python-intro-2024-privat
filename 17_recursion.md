@@ -255,3 +255,27 @@ Finally, you print the value stored in mynewtotal:
 print(mynewtotal)
 
 ```
+
+#### This will print 10.
+
+<br>
+
+## Summary
+
+Here’s what happens step by step:
+
+- The machine starts with 0 and prints 1.
+
+- Then it calls itself with 1, prints 2, and so on.
+
+- This continues until it prints 9.
+
+- When it reaches 9, it adds 1 to get 10 and stops.
+
+- The number 10 is saved in mynewtotal.
+
+- Finally, mynewtotal (which is 10) is printed.
+
+<br>
+
+#### So, by adding those two new lines, you start the machine and then print the final result, which is 10. This way, you can see the final number the machine reaches after adding 1 repeatedly until it gets to 10.
