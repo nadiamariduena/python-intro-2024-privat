@@ -324,8 +324,14 @@ def myFune(**kwargs):
     format_string = "%s == %s"
     #Using % operator to provide values that replace the placeholders
     print(format_string % (key, value))
+#The % operator takes a tuple (key, value) and substitutes each %s with the respective elements of the tuple.
+
+
+
 
 myFune(first="Geeks", mid="for", last="Geeks")
 
-#
+#first == Geeks
+# mid == for
+# last == Geeks
 ```
