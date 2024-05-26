@@ -244,7 +244,7 @@ name = "Alice"
 age = 30
 
 # Using %s as a placeholder for strings
-# alice will be raplaced by the %s which is at the end alice
+# alice will be raplaced by the %s which is at the end alice, because alice is within the string and that is the purpose of the %s, to replace the string
 print("Name: %s, Age: %s" % (name, age))
 
 ```
