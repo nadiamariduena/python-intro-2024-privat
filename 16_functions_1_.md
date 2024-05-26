@@ -239,6 +239,8 @@ The syntax "%s == %s" % (key, value) in Python uses the old-style string formatt
 
 `%s`: This is a placeholder for a string. When the string is formatted, %s will be replaced by the corresponding value.
 
+#### example 1
+
 ```python
 name = "Alice"
 age = 30
@@ -246,5 +248,22 @@ age = 30
 # Using %s as a placeholder for strings
 # alice will be raplaced by the %s which is at the end alice, because alice is within the string and that is the purpose of the %s, to replace the string
 print("Name: %s, Age: %s" % (name, age))
+#
+#Here, the %s in "Name: %s, Age: %s" is replaced by the
+# values of name and age.
+
+
+```
+
+<br>
+<br>
+
+## 2. String with Placeholders
+
+#### example 2
+
+- A string with placeholders (%s) can be designed to include multiple placeholders which will be replaced by corresponding values provided later.
+
+```python
 
 ```
