@@ -176,5 +176,20 @@ if (num >= 9):
 
 <br>
 
-Add 1 to the number and print it:
-If the number is less than 9, the machine adds 1 to the number and prints it:
+### 3) 🔴 Add 1 to the number and print it:
+
+> If the number is less than 9, the machine adds 1 to the number and prints it:
+
+```python
+total = num + 1
+print(total)
+
+```
+
+- 🔴 So, if you start with 0, it becomes 1 and prints 1.
+
+<br>
+
+### 4) Call the machine again with the new number:
+
+The machine then calls itself with the new number:
