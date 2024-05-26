@@ -461,4 +461,6 @@ update_playlist(
 
 <br>
 
-### `update_playlist(playlist_id, **kwargs)`: The function takes a playlist_id and any number of additional keyword arguments (\*\*kwargs).
+- `update_playlist(playlist_id, **kwargs)`: The function takes a playlist_id and any number of additional keyword arguments (\*\*kwargs).
+
+- The playlist_id is a required argument, while `**kwargs` allows passing optional details like **name, description, tracks, and public**.
