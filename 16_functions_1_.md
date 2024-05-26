@@ -265,5 +265,13 @@ print("Name: %s, Age: %s" % (name, age))
 - A string with placeholders (%s) can be designed to include multiple placeholders which will be replaced by corresponding values provided later.
 
 ```python
+# ✋ as you can see below, Bon IS REPLACED BY THE string which is the %s
+template = "Hello, %s! You have %s new messages."
+
+# Placeholder string with two %s placeholders
+name = "Bob"
+messages = 5
+
+print(template % (name, messages))
 
 ```
