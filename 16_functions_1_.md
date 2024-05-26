@@ -204,4 +204,14 @@ myFun('Hello', 'Welcome', 'to', 'Paradisse')
 
 ## `**kwargs` in Python
 
-- Using \*\*kwargs in Python allows you to pass a variable number of keyword arguments to a function. Here's a breakdown of how it works along with additional examples to help you understand its usage better.
+<br>
+
+- Using `**kwargs` in Python **allows you to pass a variable number of keyword arguments to a function**. Here's a breakdown of how it works along with additional examples to help you understand its usage better.
+
+```python
+def myFunny(**kwargs):
+    for key, value in kwargs.items():
+        print('%s == %s' % (key,value))
+
+myFunny(first='Geeks', mid='for', last='Geeks')
+```
