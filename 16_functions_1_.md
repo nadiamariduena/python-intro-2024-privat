@@ -376,7 +376,9 @@ Name: Alice, Age: 30
 
 ```
 
-## Question: its more or less like in react?
+## My Question:
+
+- its more or less like in react?
 
 ````javascript
 <Prop contentOfThevariable="hello"
@@ -385,3 +387,9 @@ Name: Alice, Age: 30
 
 output: hello```
 ````
+
+### Chatgpt:
+
+- Yes, it's a similar concept! In both Python and React (JavaScript/JSX), you are inserting or interpolating variable values into strings. Let's compare the two approaches directly to highlight the similarities and differences.
+
+#### In React (JavaScript/JSX)
