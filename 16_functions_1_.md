@@ -346,3 +346,14 @@ myFune(first="Geeks", mid="for", last="Geeks")
 ## 🌈 THE new way
 
 - This approach using %s and the % operator is a classic way of string formatting in Python. However, for modern Python code, you might prefer using str.format or f-strings for better readability and flexibility:
+
+#### Using str.format
+
+```python
+name = "Alice"
+age = 30
+# ✋ as you can see the string goes before the .format
+formatted_string = "Name: {}, Age: {}".format(name, age)
+print(formatted_string)
+
+```
