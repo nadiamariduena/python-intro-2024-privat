@@ -300,3 +300,12 @@ def myFunny(**kwargs):
 #
 myFun(first="Geeks", mid="for", last="Geeks")
 ```
+
+#### output
+
+```python
+first == Geeks
+mid == for
+last == Geeks
+
+```
