@@ -82,3 +82,5 @@ Next, the function adds 1 to the number and prints the new total:
 total = num + 1
 print(total)
 ```
+
+- So, for **add_one(0)**, it adds **1** to **0**, making **total 1**, and prints 1.
