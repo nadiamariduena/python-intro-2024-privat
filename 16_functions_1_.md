@@ -226,3 +226,25 @@ mid == for
 last == Geeks
 
 ```
+
+### 👾The syntax `"%s == %s"` %
+
+The syntax "%s == %s" % (key, value) in Python uses the old-style string formatting (also known as printf-style string formatting). Here, the % operator is used to format a string. Let's break down the components:
+
+<br>
+
+# Explanation
+
+### Format Specifiers:
+
+`%s`: This is a placeholder for a string. When the string is formatted, %s will be replaced by the corresponding value.
+
+```python
+name = "Alice"
+age = 30
+
+# Using %s as a placeholder for strings
+# alice will be raplaced by the %s which is at the end alice
+print("Name: %s, Age: %s" % (name, age))
+
+```
