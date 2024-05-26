@@ -39,3 +39,13 @@ add_one(0)
 ```python
 add_one(0)
 ```
+
+### Check if the number is 9 or more:
+
+- The first thing the function does is check if the number is 9 or more:
+
+```python
+if (num >= 9):
+    return num + 1
+
+```
