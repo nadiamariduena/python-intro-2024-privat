@@ -357,3 +357,14 @@ formatted_string = "Name: {}, Age: {}".format(name, age)
 print(formatted_string)
 
 ```
+
+### Using f-strings (Python 3.6+)
+
+```python
+name = "Alice"
+age = 30
+# here i use the f
+formatted_string = f"Name: {name}, Age: {age}"
+print(formatted_string)
+
+```
