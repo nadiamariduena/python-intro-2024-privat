@@ -279,3 +279,8 @@ print(template % (name, messages))
 Hello, Bob! You have 5 new messages.
 
 ```
+
+<br>
+<br>
+
+In this example, the template "Hello, `%s!` You have %s new messages." contains two `%s` placeholders. When formatted, the first %s is replaced by name and the second `%s` is replaced by messages.
