@@ -375,3 +375,13 @@ print(formatted_string)
 Name: Alice, Age: 30
 
 ```
+
+## Question: its more or less like in react?
+
+````javascript
+<Prop contentOfThevariable="hello"
+
+`${contentOfTheVariable}`
+
+output: hello```
+````
