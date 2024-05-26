@@ -393,3 +393,5 @@ output: hello```
 - Yes, it's a similar concept! In both Python and React (JavaScript/JSX), you are inserting or interpolating variable values into strings. Let's compare the two approaches directly to highlight the similarities and differences.
 
 #### In React (JavaScript/JSX)
+
+In React (or JavaScript in general), you often use template literals (also known as template strings) to interpolate variables within strings. Template literals are enclosed by backticks (`) and use the ${}` syntax to include variables.
