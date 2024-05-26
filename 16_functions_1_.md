@@ -395,3 +395,26 @@ output: hello```
 #### In React (JavaScript/JSX)
 
 In React (or JavaScript in general), you often use template literals (also known as template strings) to interpolate variables within strings. Template literals are enclosed by backticks (`) and use the ${}` syntax to include variables.
+
+#### React example
+
+```javascript
+const contentOfTheVariable = "hello";
+
+// Using template literals for string interpolation
+const output = `${contentOfTheVariable}`;
+
+console.log(output); // Output: hello
+```
+
+#### python example
+
+```python
+content_of_the_variable = "hello"
+
+# Using str.format for string interpolation
+output = "{}".format(content_of_the_variable)
+
+print(output)  # Output: hello
+
+```
