@@ -95,3 +95,8 @@ print(total)
 ### 4) Call the function again with the new number:
 
 - The function then calls itself with the new number:
+
+```python
+return add_one(total)
+
+```
