@@ -281,6 +281,12 @@ Hello, Bob! You have 5 new messages.
 ```
 
 <br>
-<br>
 
 In this example, the template "Hello, `%s!` You have %s new messages." contains two `%s` placeholders. When formatted, the first %s is replaced by name and the second `%s` is replaced by messages.
+
+<br>
+<br>
+
+## 3. % Operator
+
+The `%` operator is used to provide the actual values that replace the placeholders in the format string. The % operator takes a tuple of values, and each value corresponds to a `%s` in the format string.
