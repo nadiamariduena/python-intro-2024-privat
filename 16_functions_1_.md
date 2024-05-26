@@ -252,6 +252,8 @@ print("Name: %s, Age: %s" % (name, age))
 #Here, the %s in "Name: %s, Age: %s" is replaced by the
 # values of name and age.
 
+# OUTPUT:
+Name: Alice, Age: 30
 
 ```
 
@@ -273,5 +275,7 @@ name = "Bob"
 messages = 5
 
 print(template % (name, messages))
+# OUTPUT:
+Hello, Bob! You have 5 new messages.
 
 ```
