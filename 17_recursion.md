@@ -246,3 +246,12 @@ The returned number 10 is stored in **mynewtotal:**
 mynewtotal = adds_one(0)
 
 ```
+
+### Print the final result:
+
+Finally, you print the value stored in mynewtotal:
+
+```python
+print(mynewtotal)
+
+```
