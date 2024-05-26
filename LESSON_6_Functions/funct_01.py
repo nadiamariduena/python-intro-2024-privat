@@ -95,3 +95,25 @@ myFun('Hello', 'Welcome', 'to', 'Paradisse')
 # Next argument through *argv : to
 # Next argument through *argv : Paradisse
 
+#---------
+# ++KWARGS
+# ----------
+
+def myFune(**kwargs):
+    for key, value in kwargs.items():
+    #String with placeholders and format specifiers
+        format_string = "%s == %s"
+        #Using % operator to provide values that replace the placeholders
+        print(format_string % (key, value))
+#The % operator takes a tuple (key, value) and substitutes each %s with the respective elements of the tuple.
+
+
+
+
+myFune(first="my", mid="beautiful", last="life")
+
+
+# OUTPUT:
+#first == my
+# mid == beautiful
+# last == life
