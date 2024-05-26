@@ -425,3 +425,6 @@ output = "{}".format(content_of_the_variable)
 print(output)  # Output: hello
 
 ```
+
+<br>
+<br>
