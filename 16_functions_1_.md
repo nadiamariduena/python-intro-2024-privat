@@ -212,6 +212,17 @@ myFun('Hello', 'Welcome', 'to', 'Paradisse')
 def myFunny(**kwargs):
     for key, value in kwargs.items():
         print('%s == %s' % (key,value))
+        #The syntax "%s == %s" % (key, value) in Python uses the old-style string formatting (also known as printf-style string formatting). Here, the % operator is used to format a string. Let's break down the components:
 
 myFunny(first='Geeks', mid='for', last='Geeks')
+
+```
+
+### Output
+
+```python
+first == Geeks
+mid == for
+last == Geeks
+
 ```
