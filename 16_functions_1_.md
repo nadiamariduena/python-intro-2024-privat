@@ -319,8 +319,13 @@ Here, for each key-value pair in the kwargs dictionary, the string "%s == %s" co
 ## COMBINED
 
 ```python
-def myFun(**kwargs):
+def myFune(**kwargs):
     #String with placeholders and format specifiers
     format_string = "%s == %s"
     #Using % operator to provide values that replace the placeholders
+    print(format_string % (key, value))
+
+myFune(first="Geeks", mid="for", last="Geeks")
+
+#
 ```
