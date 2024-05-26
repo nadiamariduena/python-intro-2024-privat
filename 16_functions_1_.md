@@ -182,13 +182,19 @@ multiple_items("Dave", "John", "Noaln")
 - Python program to illustrate \*args with a first extra argument
 
 ```python
+# EXAMPLE 2
+
 def myFun(arg1, *argv):
     print('First argument :', arg1)
     for arg in argv:
         print('Next argument through *argv :', arg)
 
 myFun('Hello', 'Welcome', 'to', 'Paradisse')
-
+# RESULT:
+# First argument : Hello
+# Next argument through *argv : Welcome
+# Next argument through *argv : to
+# Next argument through *argv : Paradisse
 
 
 ```
@@ -197,3 +203,5 @@ myFun('Hello', 'Welcome', 'to', 'Paradisse')
 <br>
 
 ## `**kwargs` in Python
+
+- Using \*\*kwargs in Python allows you to pass a variable number of keyword arguments to a function. Here's a breakdown of how it works along with additional examples to help you understand its usage better.
