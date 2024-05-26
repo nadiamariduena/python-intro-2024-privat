@@ -290,3 +290,9 @@ In this example, the template "Hello, `%s!` You have %s new messages." contains 
 ## 3. % Operator
 
 The `%` operator is used to provide the actual values that replace the placeholders in the format string. The % operator takes a tuple of values, and each value corresponds to a `%s` in the format string.
+
+```python
+def python(**kwargs):
+    for key, value in kwargs.items():
+    # Using % operator
+```
