@@ -492,11 +492,20 @@ Playing Song 5: Save Your Tears
 
 ## 🍭 Update the rock paper scissors
 
-- NOw I am going to update the game with the **function** I just learnt, don't forget to apply the indentation once you create the function.
+- Now I am going to update the game with the **function** I just learnt, don't forget to apply the indentation once you create the function.
 
 <br>
 
 - start by creating the function
+
+```python
+def play_rps():
+```
+
+<br>
+<br>
+
+### Add it here:
 
 ```python
 #--------------
