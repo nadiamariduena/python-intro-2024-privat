@@ -556,3 +556,8 @@ def play_rps():
     while playagain:
 
 ```
+
+<br>
+<br>
+
+## Replace the WHILE loop for the recursion
