@@ -350,8 +350,19 @@ while value:
 - IGNORE the last 2 lines
 
 ```python
+value = True  # Start with value set to True
+count = 0     # Initialize count to 0
 
+# Begin the loop
+while value:
+    count += 1       # Increase count by 1
+    print(count)     # Print the current count
 
+#
+#
+# 🔴 FOCUS ON THE BELOW:
+    if count == 5:   # Check if count is 5
+        break        # If count is 5, stop the loop
 ```
 
 <br>
