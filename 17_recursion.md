@@ -499,5 +499,44 @@ Playing Song 5: Save Your Tears
 - start by creating the function
 
 ```python
+#--------------
+# BEFORE
+#--------------
+import sys
+import random
+from enum import Enum
+
+
+class RPS(Enum):
+    ROCK = 1
+    PAPER = 2
+    SCISSORS = 3
+
+
+playagain = True
+
+#
+#
+#--------------
+# AFTER
+#--------------
+# 🔴 respect the indentation
+#
+import sys
+import random
+from enum import Enum
+
+
+
+def play_rps():
+    class RPS(Enum):
+        ROCK = 1
+        PAPER = 2
+        SCISSORS = 3
+
+
+    playagain = True
+
+    while playagain:
 
 ```

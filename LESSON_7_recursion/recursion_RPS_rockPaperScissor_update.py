@@ -1,48 +1,51 @@
-
 import sys
 import random
 from enum import Enum
 
-class RPS(Enum):
-    ROCK = 1
-    PAPER = 2
-    SCISSORS = 3
+def play_rps():
+    class RPS(Enum):
+        ROCK = 1
+        PAPER = 2
+        SCISSORS = 3
 
 
-#✋ 1
-playagain = True
+    playagain = True
 
+    while playagain:
 
+        playerchoice = input(
+            "\nEnter... \n1 for Rock,\n2 for Paper, or \n3 for Scissors:\n\n")
 
-print("")
+        player = int(playerchoice)
 
-playerchoice = input("Enter... \n1 for Rock🪨,\n2 for Paper🧻, or \n3 for Scissors 🌂 :\n\n")
+        if player < 1 or player > 3:
+            sys.exit("You must enter 1, 2, or 3.")
 
-player = int(playerchoice)
+        computerchoice = random.choice("123")
 
-if player < 1  or player > 3:
+        computer = int(computerchoice)
 
-    sys.exit("You must enter 1, 2 , or 3.")
+        print("\nYou chose " + str(RPS(player)).replace('RPS.', '').title() + ".")
+        print("Python chose " + str(RPS(computer)).replace('RPS.', '').title() + ".\n")
 
-computerchoice = random.choice("123")
+        if player == 1 and computer == 3:
+            print("🎉 You win!")
+        elif player == 2 and computer == 1:
+            print("🎉 You win!")
+        elif player == 3 and computer == 2:
+            print("🎉 You win!")
+        elif player == computer:
+            print("😲 Tie game!")
+        else:
+            print("🐍 Python wins!")
 
-computer = int(computerchoice)
+        playagain = input("\nPlay again? \nY for Yes or \nQ to Quit \n\n")
 
-#
-#
-print("")
-print("You choose " + str(RPS(player)).replace('RPS.', '') + ".")
-print("Python chose " + str(RPS(computer)).replace('RPS.', '') + ".")
-print("")
+        if playagain.lower() == "y":
+            continue
+        else:
+            print("\n🎉🎉🎉🎉")
+            print("Thank you for playing!\n")
+            playagain = False
 
-
-if player == 1 and computer == 3:
-    print("🎉 You win!")
-elif player == 2 and computer == 1:
-    print("🎉You win!")
-elif player == 3 and computer == 2:
-    print("🎉You win!")
-elif player == computer:
-    print("🍿Tie game!")
-else:
-    print("👾Python wins")
+sys.exit("Bye! 👋")
