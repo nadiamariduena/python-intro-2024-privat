@@ -334,4 +334,8 @@ while value:
 
 - `count` is increased by 1, so `count` becomes `1`.
 
-- it prints `1`
+- it prints `1`.
+
+- it checks if `count` is `5`. its not, so it goes to the `èlse` part.
+
+- in the `else` part, `value` is set to `0`
