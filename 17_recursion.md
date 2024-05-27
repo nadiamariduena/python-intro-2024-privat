@@ -279,3 +279,32 @@ Here’s what happens step by step:
 <br>
 
 #### So, by adding those two new lines, you start the machine and then print the final result, which is 10. This way, you can see the final number the machine reaches after adding 1 repeatedly until it gets to 10.
+
+<br>
+
+---
+
+<br>
+
+```python
+# Initialize the variables
+value = True  # This means the loop should start and keep going as long as value is True
+count = 0     # This starts our count at 0
+
+# Start the loop
+while value:
+    # Inside the loop, we add 1 to count
+    count += 1
+
+    # Print the current count
+    print(count)
+
+    # Check if count is 5
+    if count == 5:
+        break  # If count is 5, we stop the loop
+
+    else:
+        value = 0  # This sets value to 0, which will stop the loop the next time it checks
+        continue   # This tells the loop to go back to the start
+
+```
