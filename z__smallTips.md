@@ -4,6 +4,12 @@
 
 - to reverse the indentation use **Shift+Tab**
 
+https://www.computerhope.com/jargon/s/shift-tab.htm#:~:text=Shift%2BTab%20is%20a%20keyboard,line%20in%20most%20text%20editors.
+
+<br>
+
+other
+
 https://defkey.com/what-means/shift-tab
 
 <br>
