@@ -339,3 +339,5 @@ while value:
 - it checks if `count` is `5`. its not, so it goes to the `èlse` part.
 
 - in the `else` part, `value` is set to `0`
+
+- `continue` tells the loop to go back to the start and check the condition again.
