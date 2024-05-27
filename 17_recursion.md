@@ -402,6 +402,41 @@ while value:
             Breaks the loop because count is 5
 
 <br>
+
+🌈 so that is why if i add this 2 lines below, to the **if** `from the moment the loop start, the value is no longer 0 and therefore is no longer true but false, so IT adds 1 like so (+= 1) and the total is 1`
+
+```python
+else:
+         value = 0
+         continue
+```
+
+### code
+
+```python
+# Initialize the variables
+value = True  # This means the loop should start and keep going as long as value is True
+count = 0     # This starts our count at 0
+
+# Start the loop
+while value:
+    # Inside the loop, we add 1 to count
+    count += 1
+
+    # Print the current count
+    print(count)
+
+    # Check if count is 5
+    if count == 5:
+        break  # If count is 5, we stop the loop
+
+    else:
+        value = 0  # This sets value to 0, which will stop the loop the next time it checks
+        continue   # This tells the loop to go back to the start
+
+```
+
+<br>
 <br>
 
 ### I asked Chatgpt to give me a different type of example where i can use this loop
