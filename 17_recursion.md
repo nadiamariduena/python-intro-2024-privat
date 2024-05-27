@@ -329,3 +329,9 @@ while value:
 ## Start the Loop:
 
 - Because `value` is set to `True`, the loop starts.
+
+## First Loop Iteration:
+
+- `count` is increased by 1, so `count` becomes `1`.
+
+- it prints `1`
