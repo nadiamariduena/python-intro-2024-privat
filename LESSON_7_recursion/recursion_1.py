@@ -1,25 +1,69 @@
-# Define a playlist with song titles
-playlist = [
-    "Song 1: Blinding Lights",
-    "Song 2: Watermelon Sugar",
-    "Song 3: Levitating",
-    "Song 4: Peaches",
-    "Song 5: Save Your Tears",
-    "Song 6: Good 4 U",
-    "Song 7: Kiss Me More"
-]
+# check the explanation on 17 recursion
+def add_one(num):
+    if (num >= 9):
+        return num + 1
 
-# Initialize variables
-value = True  # Control variable for the loop
+    total = num + 1
+    print(total)
+
+    return add_one(total)
+
+add_one(0)
+
+print("-----")
+#1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
+
+#
+# -----
+#  BUT WHAT IF i want to reach the 10?
+# ------
+def adds_one(num):
+    if (num >= 9):
+        return num + 1
+
+    total = num + 1
+    print(total)
+
+    return adds_one(total)
+
+# add_one(0)
+mynewtotal = adds_one(0)
+print(mynewtotal)
+
+# -----
+#
+print('---')
+# ------
+
+# value = "y"
+# count = 0
+
+# while value:
+#     count += 1
+#     print(count)
+#     if (count == 5):
+#        break
+#     else:
+#         value = 0
+#         continue
+# # result:1
+# SO, from the moment the loop starts, the value is no longer 0 and therefore is no longer true, but false, so iT adds 1 and the total is 1
+
+value = True  # Start with value set to True
 count = 0     # Initialize count to 0
 
-# Begin the loop to play songs
+# Begin the loop
 while value:
     count += 1       # Increase count by 1
+    print(count)     # Print the current count
 
-    # Simulate playing the song by printing the title
-    print(f"Playing {playlist[count - 1]}")
-
-    if count == 5:   # Check if 5 songs have been played
-        break        # If yes, stop the loop
-
+    if count == 5:   # Check if count is 5
+        break        # If count is 5, stop the loop
