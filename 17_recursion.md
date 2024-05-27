@@ -320,5 +320,6 @@ while value:
 
 #### Initialize Variables:
 
-value is set to True, which means our loop will start running.
-count is set to 0.
+- `value` is set to `True`, which means our loop will start running.
+
+`count` is set to `0`.
