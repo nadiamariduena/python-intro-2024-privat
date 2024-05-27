@@ -374,6 +374,33 @@ while value:
 
 ```
 
+# EXPLANATION
+
+### 🟡 Full Step-by-Step Execution
+
+            First Iteration:
+            count becomes 1
+            Prints 1
+
+
+            Second Iteration:
+
+            count becomes 2
+            Prints 2
+            Third Iteration:
+
+            count becomes 3
+            Prints 3
+            Fourth Iteration:
+
+            count becomes 4
+            Prints 4
+            Fifth Iteration:
+
+            count becomes 5
+            Prints 5
+            Breaks the loop because count is 5
+
 <br>
 <br>
 
