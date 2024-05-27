@@ -15,9 +15,10 @@ def play_rps():
 #
     # 1 if the user is not in
     if playerchoice not in [1,2,3]:
-    # if the user is not in, lets execute some code
+    # 2 if the user is not in, lets execute some code
        print("You must enter 1, 2, or 3.")
-
+       # 3 use recursive function
+       return play_rps() # once i add this, it will go again back to the top, and it will ask again the input of 1,2or3
 #
 #
 
