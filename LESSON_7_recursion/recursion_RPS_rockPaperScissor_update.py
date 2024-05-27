@@ -43,9 +43,8 @@ def play_rps():
 
         if playagain.lower() == "y":
             continue
-        else:
-            print("\n🎉🎉🎉🎉")
-            print("Thank you for playing!\n")
-            playagain = False
+        print("\n🎉🎉🎉🎉")
+        print("Thank you for playing!\n")
+        playagain = False
 
 sys.exit("Bye! 👋")
