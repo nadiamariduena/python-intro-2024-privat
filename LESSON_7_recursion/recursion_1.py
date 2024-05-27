@@ -54,3 +54,4 @@ while value:
     else:
         value = 0
         continue
+# result:1
