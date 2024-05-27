@@ -485,6 +485,9 @@ Playing Song 5: Save Your Tears
 ```
 
 <br>
+
+---
+
 <br>
 
 ## 🍭 Update the rock paper scissors
