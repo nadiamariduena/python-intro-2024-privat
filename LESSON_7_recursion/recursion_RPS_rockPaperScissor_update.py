@@ -44,11 +44,17 @@ def play_rps():
         print("😲 Tie game!")
     else:
         print("🐍 Python wins!")
+
+        print('\nPlay again?')
+
+        while True:
+
+
 # since we are no longer evaluating playagain on the loop at the top
-    playagain = input("\nPlay again? \nY for Yes or \nQ to Quit \n\n")
+              playagain = input("\nPlay again? \nY for Yes or \nQ to Quit \n\n")
 
 
-    if playagain.lower() == "y":
+         if playagain.lower() == "y":
         continue
     print("\n🎉🎉🎉🎉")
     print("Thank you for playing!\n")
