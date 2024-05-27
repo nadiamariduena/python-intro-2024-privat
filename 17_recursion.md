@@ -560,7 +560,7 @@ def play_rps():
 <br>
 <br>
 
-## Replace the WHILE loop for the recursion
+## ✋ Replace the WHILE loop for the recursion
 
 - first i will remove this
 
@@ -585,7 +585,7 @@ def play_rps():
         PAPER = 2
         SCISSORS = 3
 
-
+# the 2 lines removed where here
 
 
     playerchoice = input(
