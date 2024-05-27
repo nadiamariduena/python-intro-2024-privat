@@ -360,9 +360,18 @@ while value:
 
 #
 #
-# 🔴 FOCUS ON THE BELOW:
+# 🔴 FOCUS ON THE BELOW: --------
     if count == 5:   # Check if count is 5
         break        # If count is 5, stop the loop
+    # -------------------------
+    #
+    # OUTPUT:
+    1
+    2
+    3
+    4
+    5
+
 ```
 
 <br>
