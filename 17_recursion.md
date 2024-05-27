@@ -323,3 +323,9 @@ while value:
 - `value` is set to `True`, which means our loop will start running.
 
 `count` is set to `0`.
+
+<br>
+
+## Start the Loop:
+
+- Because `value` is set to `True`, the loop starts.
