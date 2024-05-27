@@ -630,3 +630,12 @@ sys.exit("Bye! 👋")
 
 play_rps()
 ```
+
+<br>
+<br>
+
+### Now add the following:
+
+```python
+
+```

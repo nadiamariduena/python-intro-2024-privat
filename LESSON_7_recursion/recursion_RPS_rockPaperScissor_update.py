@@ -11,6 +11,15 @@ def play_rps():
 
     playerchoice = input(
         "\nEnter... \n1 for Rock,\n2 for Paper, or \n3 for Scissors:\n\n")
+#
+#
+    # 1 if the user is not in
+    if playerchoice not in [1,2,3]:
+    # if the user is not in, lets execute some code
+       print("You must enter 1, 2, or 3.")
+
+#
+#
 
     player = int(playerchoice)
 
