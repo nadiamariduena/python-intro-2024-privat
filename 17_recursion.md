@@ -502,6 +502,13 @@ Playing Song 5: Save Your Tears
 def play_rps():
 ```
 
+- dont forget to call it at the bottom
+
+```python
+sys.exit("Bye! 👋")
+play_rps()
+```
+
 <br>
 <br>
 

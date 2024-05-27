@@ -48,3 +48,5 @@ def play_rps():
         playagain = False
 
 sys.exit("Bye! 👋")
+
+play_rps()
