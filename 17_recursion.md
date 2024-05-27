@@ -345,6 +345,18 @@ while value:
 <br>
 <br>
 
+## 👾👾 Lets Dissect it a bit more
+
+- IGNORE the last 2 lines
+
+```python
+
+
+```
+
+<br>
+<br>
+
 ### I asked Chatgpt to give me a different type of example where i can use this loop
 
 - Suppose you are building a simple script to simulate a music player that plays songs from a playlist. You want to simulate playing the first 5 songs in the playlist and print the title of each song as it plays.
@@ -389,3 +401,8 @@ Playing Song 3: Levitating
 Playing Song 4: Peaches
 Playing Song 5: Save Your Tears
 ```
+
+<br>
+<br>
+
+## 🍭 Update the rock paper scissors
