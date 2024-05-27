@@ -572,7 +572,9 @@ def play_rps():
 
 <br>
 
-- once removed, i will reverse the indentation with **SHIFT + TAB key**, if you notice after i removed the 2 lines i had an error, and even after the removal of 2 level of indentation i still have an error, but that is because the **continue** at the bottom
+### Once removed,
+
+- i will reverse the indentation with **SHIFT + TAB key**, if you notice after i removed the 2 lines i had an error, and even after the removal of 2 level of indentation i still have an error, but that is because the **continue** at the bottom
 
 ```python
 import sys
