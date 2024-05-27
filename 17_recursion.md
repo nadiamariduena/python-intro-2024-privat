@@ -308,3 +308,17 @@ while value:
         continue   # This tells the loop to go back to the start
 
 ```
+
+<br>
+<br>
+
+## Explanation
+
+### What Happens Step by Step
+
+<br>
+
+#### Initialize Variables:
+
+value is set to True, which means our loop will start running.
+count is set to 0.
