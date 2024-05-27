@@ -491,3 +491,5 @@ Playing Song 5: Save Your Tears
 <br>
 
 ## 🍭 Update the rock paper scissors
+
+- NOw I am going to update the game with the function I just learnt, dont forget to apply the indentation once you create the function
