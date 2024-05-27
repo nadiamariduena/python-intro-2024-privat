@@ -492,4 +492,4 @@ Playing Song 5: Save Your Tears
 
 ## 🍭 Update the rock paper scissors
 
-- NOw I am going to update the game with the function I just learnt, dont forget to apply the indentation once you create the function
+- NOw I am going to update the game with the **function** I just learnt, don't forget to apply the indentation once you create the function.
