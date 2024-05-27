@@ -1,3 +1,14 @@
+## INdentation
+
+- to move a piece of code use the **tab key** to indent the code
+
+- to reverse the indentation use **Shift+Tab**
+
+https://defkey.com/what-means/shift-tab
+
+<br>
+<br>
+
 ### If you have many of this `print("")` on your code, you can remove all of them depending on the situation
 
 - If you remove them add this `\n`
