@@ -41,3 +41,10 @@ print(mynewtotal)
 # -----
 #
 # ------
+
+value = "y"
+count = 0
+
+while value:
+    count += 1
+    print(count)
