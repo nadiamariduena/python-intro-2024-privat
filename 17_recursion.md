@@ -564,6 +564,12 @@ def play_rps():
 
 - first i will remove this
 
+```python
+ playagain = True
+
+    while playagain:
+```
+
 <br>
 
 - once removed, i will reverse the indentation with **tab key + shift**, if you notice after i removed the 2 lines i had an error, and even after the removal of 1 level of indentation i still have an error, but that is because the **continue** at the bottom
