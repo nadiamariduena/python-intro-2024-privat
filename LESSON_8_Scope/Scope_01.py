@@ -66,3 +66,5 @@ another()
 #
 #-------------
 # what if i wanted to modify the content of a variable inside of a function, that was initially defined on the global scope (outside)
+# EXAMPLE
+# in this example you will notice rhat the 1 is  going to be modified in the  new count = 2
