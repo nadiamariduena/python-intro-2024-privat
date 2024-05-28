@@ -214,14 +214,16 @@ another_b()
 
 ### 🍰 SOLUTION
 
+- 🟠 to REASSIGN it we need to add the **global** key to tell python what we want to do
+
 ```python
 name_b = 'Sully'
-# 1 we cannot re assign this
+# step a: we cannot re assign this
 count = 1
 
 def another_b():
     color_b = 'orande'
-    #2 to reasign i will need a global key
+    # step b: to reasign i will need a global key
     global count
     count += 1
     # global count = 2 / dont do this
