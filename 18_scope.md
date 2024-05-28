@@ -245,3 +245,16 @@ another_b()
 # orande
 # Darius
 ```
+
+### Lets review the steps
+
+- The `global count` statement inside another_b()
+
+```python
+def another_b():
+    color_b = 'orande'
+# ✋ step b: to reassign it, i will need a global key
+    global count
+```
+
+indicates that count refers to the global variable declared outside the function.
