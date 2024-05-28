@@ -76,11 +76,14 @@ print('----')
 #
 #-------------
 name_b = 'Sully'
+# 1 we cannot re assign this
 count = 1
 
 def another_b():
     color_b = 'orande'
-    count = 2
+    #2 to reasign i will need a global key
+    global count = 2
+    # count = 2
     print(count)
 
 
