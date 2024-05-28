@@ -178,19 +178,13 @@ print(len([1, 2, 3]))  # Outputs: 3 (len is a built-in function)
 
 #### what if i wanted to modify the content of a variable inside of a function, that was initially defined on the global scope (outside)
 
-- in this example you will notice rhat the 1 is going to be modified in the new count = 2
+- in this example you will notice that the **1** is going to be modified in the new count = **2**
 
 # EXAMPLE
 
 ```python
-#-------------
 
-#
-#
-#
-# -----------
-print('----')
-#
+
 #-------------
 name_b = 'Sully'
 # 1 we cannot re assign this
@@ -219,4 +213,10 @@ another_b()
 # 2
 # orande
 # Darius
+```
+
+###
+
+```python
+
 ```
