@@ -38,6 +38,10 @@ print(x)  # Error: x is not defined outside the function
 
 <br>
 
+---
+
+<br>
+
 ## Enclosing Scope (Nonlocal):
 
 **Definition:** Variables in the local scope of enclosing functions. Useful in nested functions.
@@ -55,3 +59,9 @@ def outer_function():
 outer_function()
 
 ```
+
+<br>
+
+---
+
+<br>
