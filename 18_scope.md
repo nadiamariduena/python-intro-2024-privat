@@ -170,3 +170,6 @@ anotherscope()
 print(len([1, 2, 3]))  # Outputs: 3 (len is a built-in function)
 
 ```
+
+<br>
+<br>
