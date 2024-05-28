@@ -230,7 +230,7 @@ def another_b():
 # count += 1 increments the global variable count by 1.
     print(count)
 
-
+    # NESTED
     def greeting_b(name_b):
         print(color_b)
         print(name_b)
@@ -248,7 +248,7 @@ another_b()
 
 ### Lets review the steps
 
-- The `global count` statement inside another_b()
+- 1 The `global count` statement inside another_b()
 
 ```python
 def another_b():
@@ -261,4 +261,8 @@ indicates that **count** refers to the global variable declared outside the func
 
 <br>
 
-- `count += 1` increments the global variable count by 1.
+- 2 `count += 1` increments the global variable count by 1.
+
+#### 3 Nested Function and Scope:
+
+`def greeting_b(name_b)`: defines a **nested** function within another_b().
