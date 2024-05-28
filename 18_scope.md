@@ -101,6 +101,11 @@ greeting("John")
 # output
 # blue
 # John
+#
+# ------- another example
+#
+# create another function that will contain the greeting function within this new scope
+
 ```
 
 <br>
