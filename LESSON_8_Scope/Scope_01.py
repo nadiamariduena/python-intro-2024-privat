@@ -27,4 +27,10 @@ def anotherscope():
 
 anotherscope()
 
-#
+# output:
+
+# blue
+# John
+# ----
+# blue
+# Dave
