@@ -227,7 +227,7 @@ def another_b():
     global count
 # step c: now i need to add the += with 1 , so step a + step b will give me the 2
     count += 1
-
+# count += 1 increments the global variable count by 1.
     print(count)
 
 
@@ -253,8 +253,12 @@ another_b()
 ```python
 def another_b():
     color_b = 'orande'
-# ✋ step b: to reassign it, i will need a global key
+# step b: to reassign it, i will need a global key
     global count
 ```
 
-indicates that count refers to the global variable declared outside the function.
+indicates that **count** refers to the global variable declared outside the function.
+
+<br>
+
+- `count += 1` increments the global variable count by 1.
