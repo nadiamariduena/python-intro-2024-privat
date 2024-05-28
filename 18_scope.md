@@ -42,6 +42,8 @@ print(x)  # ✋Error: x is not defined outside the function
 
 <br>
 
+# nested functions
+
 ## Enclosing Scope (Nonlocal):
 
 **Definition:** Variables in the local scope of enclosing functions. Useful in nested functions.
@@ -58,6 +60,29 @@ def outer_function():
     print(x)  # Outputs: 10 (modified by inner_function)✋
 
 outer_function()
+#
+#
+#
+#-------- another example ---------
+#
+#
+name = 'Sopgia'
+
+
+z_greeting('john')
+
+
+# parent
+def another():
+    # local scope
+    color:'pink'
+
+    # child function, belongs to the parent local scope
+    def z_greeting(name):
+        print(color)
+        print(name)
+
+    greeting('David')
 
 ```
 
