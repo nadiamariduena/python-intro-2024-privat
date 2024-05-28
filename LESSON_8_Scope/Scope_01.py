@@ -91,3 +91,9 @@ def another_b():
     greeting_b('Darius')
 
 another_b()
+
+#
+# output
+# 2
+# orande
+# Darius
