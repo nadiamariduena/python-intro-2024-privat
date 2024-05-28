@@ -342,5 +342,13 @@ print("Final Favorite Song:", favorite_song)
 ### output
 
 ```python
+Added Song D to playlist. Playlist now has 4 songs.
+Removed Song A from playlist. Playlist now has 3 songs.
+Favorite song changed to Song C.
+Playlist length is 3 at the start of function.
+Current Playlist: ['Song B', 'Song C', 'Song D']
+Favorite Song: Song C
+Final Playlist: ['Song B', 'Song C', 'Song D']
+Final Favorite Song: Song C
 
 ```
