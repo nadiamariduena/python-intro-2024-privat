@@ -35,3 +35,23 @@ my_function()  # Outputs: 10
 print(x)  # Error: x is not defined outside the function
 
 ```
+
+<br>
+
+## Enclosing Scope (Nonlocal):
+
+**Definition:** Variables in the local scope of enclosing functions. Useful in nested functions.
+
+```python
+def outer_function():
+    x = 5
+    def inner_function():
+        nonlocal x
+        x = 10
+        print(x)
+    inner_function()  # Outputs: 10
+    print(x)  # Outputs: 10 (modified by inner_function)
+
+outer_function()
+
+```
