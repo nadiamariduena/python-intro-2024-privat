@@ -74,5 +74,14 @@ outer_function()
 **Definition:** Variables defined at the top level of a script or module, outside of any function or class. They can be accessed throughout the module.
 
 ```python
+x = 20  # Global variable
+
+def my_function():
+    global x
+    x = 30
+    print(x)  # Outputs: 30
+
+my_function()
+print(x)  # Outputs: 30 (modified by my_function)
 
 ```
