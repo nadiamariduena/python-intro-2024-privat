@@ -65,4 +65,4 @@ another()
 #
 #
 #-------------
-# what if i wanted to modify the content of a variable inside of a function, that was initially assigned on the
+# what if i wanted to modify the content of a variable inside of a function, that was initially defined on the global scope (outside)
