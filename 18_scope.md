@@ -276,6 +276,63 @@ Calling `another_b()` will print the incremented value of count, which is **2**.
 <br>
 <br>
 
-### I Asked chatgpt to give me a real scenario example based on spotify
+### 🍭 I Asked chatgpt to give me a real scenario example based on spotify
 
 - in this examples you will the see the global, local scopes
+
+```python
+# Global scope
+user_playlist = ["Song A", "Song B", "Song C"]
+favorite_song = "Song B"
+
+def manage_playlist():
+    # Local scope of manage_playlist
+    playlist_length = len(user_playlist)
+
+    def add_song(song):
+        # Local scope of add_song, can access user_playlist from enclosing scope
+        user_playlist.append(song)
+        print(f"Added {song} to playlist. Playlist now has {len(user_playlist)} songs.")
+
+    def remove_song(song):
+        # Local scope of remove_song, can access user_playlist from enclosing scope
+        if song in user_playlist:
+            user_playlist.remove(song)
+            print(f"Removed {song} from playlist. Playlist now has {len(user_playlist)} songs.")
+        else:
+            print(f"{song} is not in the playlist.")
+
+    def change_favorite(new_favorite):
+        # Local scope of change_favorite, uses global keyword to modify the global variable favorite_song
+        global favorite_song
+        favorite_song = new_favorite
+        print(f"Favorite song changed to {favorite_song}.")
+
+    # Adding a song
+    add_song("Song D")
+
+    # Removing a song
+    remove_song("Song A")
+
+    # Changing the favorite song
+    change_favorite("Song C")
+
+    # Accessing variables from the local scope of manage_playlist
+    print(f"Playlist length is {playlist_length} at the start of function.")
+
+    def show_playlist_details():
+        # Local scope of show_playlist_details, can access variables from enclosing scope (manage_playlist) and global scope
+        print("Current Playlist:", user_playlist)
+        print("Favorite Song:", favorite_song)
+
+    # Display playlist details
+    show_playlist_details()
+
+# Call the manage_playlist function
+manage_playlist()
+
+# Global scope: Printing final playlist and favorite song to verify changes
+print("Final Playlist:", user_playlist)
+print("Final Favorite Song:", favorite_song)
+
+```
