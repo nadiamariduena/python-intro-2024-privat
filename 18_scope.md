@@ -66,7 +66,7 @@ outer_function()
 #-------- another example ---------
 #
 #
-name = 'Sopgia'
+z_name = 'Sopgia'
 
 
 z_greeting('john')
@@ -75,14 +75,14 @@ z_greeting('john')
 # parent
 def another():
     # local scope
-    color:'pink'
+    z_color:'pink'
 
     # child function, belongs to the parent local scope
-    def z_greeting(name):
-        print(color)
-        print(name)
+    def z_greeting(z_name):
+        print(z_color)
+        print(z_name)
 
-    greeting('David')
+    z_greeting('David')
 
 ```
 

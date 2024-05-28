@@ -34,3 +34,27 @@ anotherscope()
 # ----
 # blue
 # Dave
+#
+#
+# -----------
+print('----')
+#
+#-------------
+z_name = 'Sopgia'
+
+
+# parent
+def another():
+    # local scope
+    z_color = 'pink'
+
+    # child function, belongs to the parent local scope
+    def z_greeting(z_name):
+        print(z_color)
+        print(z_name)
+
+    z_greeting('David')#z_greeting('john')
+
+another()
+
+#
