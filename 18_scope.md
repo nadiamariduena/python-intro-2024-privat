@@ -187,6 +187,35 @@ print(len([1, 2, 3]))  # Outputs: 3 (len is a built-in function)
 
 #-------------
 name_b = 'Sully'
+# step a: we cannot re assign this
+count = 1
+
+def another_b():
+    color_b = 'orande'
+ # step b: If we do this below (count = 2), it will ignore the count variable containing the 1 that is in step a
+      count = 2
+    print(count)
+
+
+    def greeting_b(name_b):
+        print(color_b)
+        print(name_b)
+
+    greeting_b('Darius')
+
+another_b()
+
+#
+# output
+# 2
+# orande
+# Darius
+```
+
+###
+
+```python
+name_b = 'Sully'
 # 1 we cannot re assign this
 count = 1
 
@@ -213,10 +242,4 @@ another_b()
 # 2
 # orande
 # Darius
-```
-
-###
-
-```python
-
 ```
