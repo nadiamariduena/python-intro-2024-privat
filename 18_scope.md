@@ -31,8 +31,8 @@ def my_function():
     x = 10  # x is local to my_function
     print(x)
 
-my_function()  # Outputs: 10
-print(x)  # Error: x is not defined outside the function
+my_function()  #  Outputs: 10
+print(x)  # ✋Error: x is not defined outside the function
 
 ```
 
@@ -54,11 +54,13 @@ def outer_function():
         x = 10
         print(x)
     inner_function()  # Outputs: 10
-    print(x)  # Outputs: 10 (modified by inner_function)
+    print(x)  # Outputs: 10 (modified by inner_function)✋
 
 outer_function()
 
 ```
+
+- 🔴 🔴 **nonlocal** `nonlocal x` tells Python that inner_function intends to modify the x variable defined in outer_function's scope. Without nonlocal, inner_function would create a new local variable x within its own scope.
 
 <br>
 
