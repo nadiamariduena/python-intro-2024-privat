@@ -83,7 +83,24 @@ def my_function():
 
 my_function()
 print(x)  # Outputs: 30 (modified by my_function)
+#
+#
+#
+# ------- another example
+#
+#
+name = "Dave"
 
+def greeting(name):
+    color = "blue"
+    print(color)
+    print(name)
+
+greeting("John")
+
+# output
+# blue
+# John
 ```
 
 <br>
@@ -95,3 +112,8 @@ print(x)  # Outputs: 30 (modified by my_function)
 ## Built-in Scope:
 
 **Definition:** Names that are preassigned in Python. These include functions like **len()**, **range()**, etc.
+
+```python
+print(len([1, 2, 3]))  # Outputs: 3 (len is a built-in function)
+
+```
