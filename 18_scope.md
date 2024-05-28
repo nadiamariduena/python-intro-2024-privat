@@ -85,3 +85,13 @@ my_function()
 print(x)  # Outputs: 30 (modified by my_function)
 
 ```
+
+<br>
+
+---
+
+<br>
+
+## Built-in Scope:
+
+**Definition:** Names that are preassigned in Python. These include functions like **len()**, **range()**, etc.
