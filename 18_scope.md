@@ -265,4 +265,4 @@ indicates that **count** refers to the global variable declared outside the func
 
 #### 3 Nested Function and Scope:
 
-`def greeting_b(name_b)`: defines a **nested** function within another_b().
+`def greeting_b(name_b)`: defines a **nested** function within `another_b()`.
