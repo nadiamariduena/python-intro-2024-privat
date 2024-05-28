@@ -82,7 +82,9 @@ count = 1
 def another_b():
     color_b = 'orande'
     #2 to reasign i will need a global key
-    global count = 2
+    global count
+    count += 1
+    # global count = 2 / dont do this
     # count = 2
     print(count)
 
