@@ -192,7 +192,7 @@ count = 1
 
 def another_b():
     color_b = 'orande'
- # step b: If we do this below (count = 2), it will ignore the count variable containing the 1 that is in step a
+ # step b: If we do this below (count = 2), it will ignore the count variable containing the 1 that is in step a, that is why that as a result we obtain 2, but that IS NOT THE POINT, we want to reassign a value to the already existent count that is in step a
       count = 2
     print(count)
 
