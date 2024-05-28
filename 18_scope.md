@@ -68,3 +68,11 @@ outer_function()
 ---
 
 <br>
+
+## Global Scope:
+
+**Definition:** Variables defined at the top level of a script or module, outside of any function or class. They can be accessed throughout the module.
+
+```python
+
+```
