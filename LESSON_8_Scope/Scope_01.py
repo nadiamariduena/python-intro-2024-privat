@@ -57,4 +57,7 @@ def another():
 
 another()
 
-#
+# output
+
+# pink
+# David
