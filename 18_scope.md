@@ -223,11 +223,11 @@ count = 1
 
 def another_b():
     color_b = 'orande'
-    # step b: to reasign i will need a global key
+# ✋ step b: to reassign it, i will need a global key
     global count
+# step c: now i need to add the += with 1 , so step a + step b will give me the 2
     count += 1
-    # global count = 2 / dont do this
-    # count = 2
+
     print(count)
 
 
