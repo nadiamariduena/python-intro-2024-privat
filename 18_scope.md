@@ -272,3 +272,10 @@ indicates that **count** refers to the global variable declared outside the func
 #### 🌈 Output of the Function:
 
 Calling `another_b()` will print the incremented value of count, which is **2**.
+
+<br>
+<br>
+
+### I Asked chatgpt to give me a real scenario example based on spotify
+
+- in this examples you will the see the global, local scopes
