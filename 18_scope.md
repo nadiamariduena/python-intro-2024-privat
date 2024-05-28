@@ -303,8 +303,10 @@ def manage_playlist():
             print(f"{song} is not in the playlist.")
 
     def change_favorite(new_favorite):
-        # Local scope of change_favorite, uses global keyword to modify the global variable favorite_song
+        # 🔴  Local scope of change_favorite, uses global keyword to modify the global variable favorite_song
+        #--------------
         global favorite_song
+        #--------------
         favorite_song = new_favorite
         print(f"Favorite song changed to {favorite_song}.")
 
@@ -334,5 +336,11 @@ manage_playlist()
 # Global scope: Printing final playlist and favorite song to verify changes
 print("Final Playlist:", user_playlist)
 print("Final Favorite Song:", favorite_song)
+
+```
+
+### output
+
+```python
 
 ```
