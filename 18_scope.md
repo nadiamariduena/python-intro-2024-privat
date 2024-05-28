@@ -174,7 +174,7 @@ print(len([1, 2, 3]))  # Outputs: 3 (len is a built-in function)
 <br>
 <br>
 
-## Global
+## Global 🐖
 
 #### what if i wanted to modify the content of a variable inside of a function, that was initially defined on the global scope (outside)
 
@@ -207,7 +207,7 @@ another_b()
 
 #
 # output
-# 2
+# 2 ✋ we obtain 2 but its not because we assigned it to the one in step a, so lets find the solution in the next code here below
 # orande
 # Darius
 ```
