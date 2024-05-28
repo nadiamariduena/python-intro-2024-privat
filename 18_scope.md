@@ -50,6 +50,7 @@ print(x)  # ✋Error: x is not defined outside the function
 def outer_function():
     x = 5
     def inner_function():
+#nonlocal  tells Python that inner_function intends to modify the x variable defined in outer_function's scope. Without nonlocal, inner_function would create a new local variable x within its own scope
         nonlocal x
         x = 10
         print(x)
