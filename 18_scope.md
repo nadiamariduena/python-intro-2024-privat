@@ -105,6 +105,19 @@ greeting("John")
 # ------- another example
 #
 # create another function that will contain the greeting function within this new scope
+name = "Dave"
+
+def greeting(name):
+    color = "blue"
+    print(color)
+    print(name)
+
+greeting("John")
+## creating the new scope
+def anotherscope():
+    greeting('Dave')
+
+ another()
 
 ```
 
