@@ -1,4 +1,17 @@
-name = "Dave"
+# name = "Dave"
+
+# def greeting(name):
+#     color = "blue"
+#     print(color)
+#     print(name)
+
+# greeting("John")
+
+# # output
+# # blue
+# # John
+
+name = 'Davee'
 
 def greeting(name):
     color = "blue"
@@ -6,7 +19,12 @@ def greeting(name):
     print(name)
 
 greeting("John")
+## creating the new scope
+print('----')
 
-# output
-# blue
-# John
+def anotherscope():
+    greeting('Dave')
+
+anotherscope()
+
+#
