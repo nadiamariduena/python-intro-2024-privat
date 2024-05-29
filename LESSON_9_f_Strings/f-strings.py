@@ -71,11 +71,15 @@ print(message_d)
 # nataly has 9 coins left.
 #
 #
-# example with dictionary 2)
-#
+#-------------
+# Example with dictionary 2)
 # check that person2 has colons: as the person2 is the key
 player2 = {'person2': 'Nuria', 'savings': 500}
 #
 
 message_e = f"\n{player2['person2']} has {2 + 5} coins left."
 print(message_e)
+
+#
+#----------------
+# PASSING OPTIONS
