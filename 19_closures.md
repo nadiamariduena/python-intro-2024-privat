@@ -123,7 +123,7 @@ tommy()
 <br>
 <br>
 
-## duplicate the names
+## Duplicate the names
 
 ```python
 
