@@ -36,11 +36,14 @@ def parent_function(person):
 
 #7 here TOMMY = is a new function, this tommy function  is going to handle the "parent_function" , within it i will add the value as "Tommy"
 tommy = parent_function("Tommy")
-tommy = parent_function("Tommy")
 jenny = parent_function("Jenny")
 
 # 8 calling tommy function which is holdinf the data of the parent_function and all the nested functions etc
 tommy()
+tommy()
+jenny()
 #
 # RESULT
-# #Tommy has 2 coins left.
+# Tommy has 2 coins left.
+# Tommy has 1 coin left.
+# Jenny has 2 coins left.
