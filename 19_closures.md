@@ -205,7 +205,9 @@ def create_playlist(user_id):
     def add_song(playlist_name, song):
         # Inner function to add a song to a playlist
         if playlist_name not in playlists:
+            # Create the playlist if it doesn't exist:
             playlists[playlist_name] = []
+            # add/append the song to the list
         playlists[playlist_name].append(song)
         print(f"Added song '{song}' to {user_id}'s playlist '{playlist_name}'.")
   # ✋
