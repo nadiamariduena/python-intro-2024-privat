@@ -12,3 +12,7 @@ print(message)
 # RESULT
 # Dave hass 3 coins left.
 #
+#
+# Modern way of doing it
+messageTwo = "\n{} has {} coinss left.".format(person, coins)
+print(messageTwo)
