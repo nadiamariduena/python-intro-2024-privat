@@ -36,3 +36,29 @@ def outerFunction(text):
 if __name__ == '__main__':
 	outerFunction('Hey!')
 ```
+
+<br>
+<br>
+
+## Closure example:
+
+```python
+def outer_function(x):
+    # This is the outer function
+
+    def inner_function(y):
+        # This is the inner function
+        # It accesses the variable 'x' from the outer function
+        return x + y
+
+    # The outer function returns the inner function
+    return inner_function
+
+# Create a closure
+closure = outer_function(10)
+
+# Call the closure with an argument
+result = closure(5)
+print(result)  # Output: 15
+
+```
