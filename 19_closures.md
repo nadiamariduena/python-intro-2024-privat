@@ -180,3 +180,15 @@ jenny()
 # Jenny has 2 coins left.
 
 ```
+
+<br>
+
+---
+
+<br>
+
+## 🍭 Spotify example
+
+chatgpt
+
+- **Imagine each user can have multiple playlists**, and we want to create a system where users can **add** songs to their playlists, **remove** songs, and view their playlists. We can use closures to manage each playlist's data and operations.
