@@ -14,7 +14,9 @@ def parent_function(person):
     #2
     def play_game():
         # 3 🟥 --- important!
+        # we need the nonlocal key to tell python we will be reassigning a value
         nonlocal coins
+        #The nonlocal keyword is used to work with variables inside nested functions, where the variable should not belong to the inner function.Use the keyword nonlocal to declare that the variable is not local.
         #-------------
         #
         # 4 defining how many coins the user has now, he has
