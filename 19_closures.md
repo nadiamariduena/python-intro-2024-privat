@@ -299,3 +299,17 @@ print(playlists["Rock Classics"])  # Output: ['Bohemian Rhapsody', 'Stairway to 
 - In JavaScript, you use objects to store related data and arrays within objects to manage collections of items associated with keys.
 
 Example:
+
+```javascript
+// JavaScript example
+const playlists = {
+  "Rock Classics": ["Bohemian Rhapsody", "Stairway to Heaven"],
+  "Jazz Vibes": ["So What", "Take Five"],
+};
+
+// Add a new song to a playlist
+playlists["Rock Classics"].push("Hotel California");
+
+// Access a playlist
+console.log(playlists["Rock Classics"]); // Output: ["Bohemian Rhapsody", "Stairway to Heaven", "Hotel California"]
+```
