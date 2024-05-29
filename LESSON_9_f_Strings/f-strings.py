@@ -27,3 +27,6 @@ print(messageFourth)
 # result
 #Dave has 3 coinss left.
 #-----------
+# another example
+messageFifth = "\n{person} has {coins} coinss left.".format(coins=coins, person=person)
+print(messageFifth)
