@@ -313,3 +313,14 @@ playlists["Rock Classics"].push("Hotel California");
 // Access a playlist
 console.log(playlists["Rock Classics"]); // Output: ["Bohemian Rhapsody", "Stairway to Heaven", "Hotel California"]
 ```
+
+<br>
+<br>
+
+## Why Use Lists within Dictionaries?
+
+<br>
+
+**Organized Data:** Storing lists within dictionaries allows you to organize related collections of data under specific keys. In the Spotify example, each playlist is a list of songs, and the dictionary key is the playlist name.
+
+Easy Access and Modification: You can easily add, remove, and access items within a specific list by referring to its key in the dictionary.
