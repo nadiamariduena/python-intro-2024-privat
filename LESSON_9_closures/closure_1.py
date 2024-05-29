@@ -29,5 +29,5 @@ def parent_function(person):
         else:
             print("\n" + person + " is out of coins")
 
-    #  🟥 --- important!  here below we are not calling() the func
+    #  🟥 --- important!  here below we are not calling() the function, WE ARE ONLY "returning" it
     return play_game
