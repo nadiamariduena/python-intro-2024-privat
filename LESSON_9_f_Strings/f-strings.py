@@ -35,3 +35,12 @@ print(messageFifth)
 #
 #
 # example with dictionary
+#
+# check that person has colons
+playerr = {'personn': 'Dave', 'coinss': 8}
+
+
+message_a = "\n{personn} has {coinss} coins left.".format(**playerr)
+print(message_a)
+# result
+#Dave has 8 coins left.
