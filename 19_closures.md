@@ -115,7 +115,16 @@ tommy = parent_function("Tommy")
 # 8 calling tommy function which is holdinf the data of the parent_function and all the nested functions etc
 tommy()
 #
-# RESULT
+# 🌟 RESULT
 # #Tommy has 2 coins left.
+
+```
+
+<br>
+<br>
+
+## duplicate the names
+
+```python
 
 ```
