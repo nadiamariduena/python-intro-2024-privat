@@ -290,3 +290,12 @@ playlists["Rock Classics"].append("Hotel California")
 print(playlists["Rock Classics"])  # Output: ['Bohemian Rhapsody', 'Stairway to Heaven', 'Hotel California']
 
 ```
+
+<br>
+<br>
+
+### JavaScript
+
+- In JavaScript, you use objects to store related data and arrays within objects to manage collections of items associated with keys.
+
+Example:
