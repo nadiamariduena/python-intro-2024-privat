@@ -277,5 +277,16 @@ In Python, you often use dictionaries to store related data. A list within a dic
 Example:
 
 ```python
+# Python example
+playlists = {
+    "Rock Classics": ["Bohemian Rhapsody", "Stairway to Heaven"],
+    "Jazz Vibes": ["So What", "Take Five"]
+}
+
+# Add a new song to a playlist
+playlists["Rock Classics"].append("Hotel California")
+
+# Access a playlist
+print(playlists["Rock Classics"])  # Output: ['Bohemian Rhapsody', 'Stairway to Heaven', 'Hotel California']
 
 ```
