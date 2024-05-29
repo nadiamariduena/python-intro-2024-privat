@@ -61,3 +61,9 @@ message_c = f"\n{user} has {2 + 7} coins left."
 print(message_c)
 # result
 #Nataly has 9 coins left.
+#
+#
+# with methods
+# with the lower method, the user Nathaly, should be lower
+message_d = f"\n{user.lower} has {2 + 7} coins left."
+print(message_d)
