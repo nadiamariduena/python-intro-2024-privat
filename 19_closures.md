@@ -62,3 +62,8 @@ result = closure(5)
 print(result)  # Output: 15
 
 ```
+
+<br>
+<br>
+
+## 🪙 Small game
