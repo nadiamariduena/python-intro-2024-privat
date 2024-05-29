@@ -123,7 +123,9 @@ tommy()
 <br>
 <br>
 
-## Duplicate the names
+## 🍭 Duplicate the names
+
+### here i call tommy a sencond time, and because of it tommy will have 1 coin lef
 
 ```python
 # Closure is a function having accesss to the scope of its parent.
