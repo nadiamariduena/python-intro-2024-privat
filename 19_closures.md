@@ -192,3 +192,63 @@ jenny()
 chatgpt
 
 - **Imagine each user can have multiple playlists**, and we want to create a system where users can **add** songs to their playlists, **remove** songs, and view their playlists. We can use closures to manage each playlist's data and operations.
+
+<br>
+
+```python
+def create_playlist(user_id):
+    # This dictionary stores the user's playlist
+    playlists = {}
+
+
+    # ✋
+    def add_song(playlist_name, song):
+        # Inner function to add a song to a playlist
+        if playlist_name not in playlists:
+            playlists[playlist_name] = []
+        playlists[playlist_name].append(song)
+        print(f"Added song '{song}' to {user_id}'s playlist '{playlist_name}'.")
+  # ✋
+    def remove_song(playlist_name, song):
+        # Inner function to remove a song from a playlist
+        if playlist_name in playlists and song in playlists[playlist_name]:
+            playlists[playlist_name].remove(song)
+            print(f"Removed song '{song}' from {user_id}'s playlist '{playlist_name}'.")
+        else:
+            print(f"Song '{song}' not found in {user_id}'s playlist '{playlist_name}'.")
+      # ✋
+    def view_playlist(playlist_name):
+        # Inner function to view a playlist
+        if playlist_name in playlists:
+            print(f"{user_id}'s playlist '{playlist_name}': {playlists[playlist_name]}")
+        else:
+            print(f"Playlist '{playlist_name}' does not exist for user {user_id}.")
+
+    # Return the inner functions as a dictionary of operations
+    return {
+          # ✋
+        'add_song': add_song,
+          # ✋
+        'remove_song': remove_song,
+          # ✋
+        'view_playlist': view_playlist
+    }
+
+# Create playlist managers for different users
+user1_playlists = create_playlist("user1")
+user2_playlists = create_playlist("user2")
+
+# User 1 operations
+user1_playlists['add_song']("Rock Classics", "Bohemian Rhapsody")
+user1_playlists['add_song']("Rock Classics", "Stairway to Heaven")
+user1_playlists['view_playlist']("Rock Classics")
+user1_playlists['remove_song']("Rock Classics", "Stairway to Heaven")
+user1_playlists['view_playlist']("Rock Classics")
+
+# User 2 operations
+user2_playlists['add_song']("Jazz Vibes", "So What")
+user2_playlists['view_playlist']("Jazz Vibes")
+user2_playlists['add_song']("Jazz Vibes", "Take Five")
+user2_playlists['view_playlist']("Jazz Vibes")
+
+```
