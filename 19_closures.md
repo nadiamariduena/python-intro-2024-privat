@@ -67,3 +67,9 @@ print(result)  # Output: 15
 <br>
 
 ## 🪙 Small game
+
+<br>
+
+```python
+
+```
