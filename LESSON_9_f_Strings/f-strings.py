@@ -83,3 +83,16 @@ print(message_e)
 #
 #----------------
 # PASSING OPTIONS
+# you can pass formatting options
+
+# Define variables
+name = "Alice"
+age = 30
+height = 165.5
+
+# Format the string using f-string with formatting options
+message = f"Name: {name}, Age: {age}, Height: {height:.2f} cm"
+# 🔴 {height:.2f} is replaced by the value of the height variable formatted as a floating-point number with two decimal places.
+
+# Print the formatted message
+print(message)
