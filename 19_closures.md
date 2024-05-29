@@ -264,7 +264,18 @@ user2_playlists['view_playlist']("Jazz Vibes")
  playlists = {}
 
             playlists[playlist_name] = []
-
 ```
 
-- In both Python and JavaScript, you can store arrays (lists) within objects (dictionaries) to manage collections of data. Here's a comparison:
+<br>
+
+### In both Python and JavaScript, you can store arrays (lists) within objects (dictionaries) to manage collections of data. Here's a comparison:
+
+## Python
+
+In Python, you often use dictionaries to store related data. A list within a dictionary is a common way to manage collections of items associated with keys.
+
+Example:
+
+```python
+
+```
