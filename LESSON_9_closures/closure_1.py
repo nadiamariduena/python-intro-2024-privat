@@ -40,6 +40,7 @@ jenny = parent_function("Jenny")
 
 # 8 calling tommy function which is holdinf the data of the parent_function and all the nested functions etc
 tommy()
+#🟥 here i call tommy a sencond time, and because of it tommy will have 1 coin left
 tommy()
 jenny()
 #
