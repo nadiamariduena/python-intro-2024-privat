@@ -16,3 +16,4 @@ print(message)
 # Modern way of doing it
 messageTwo = "\n{} has {} coinss left.".format(person, coins)
 print(messageTwo)
+# Dave has 3 coinss left.
