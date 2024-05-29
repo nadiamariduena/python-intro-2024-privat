@@ -54,3 +54,10 @@ message_b = f"\n{user} has {amount} coins left."
 print(message_b)
 # result
 # Nataly has 5 coins left.
+
+#
+#
+message_c = f"\n{user} has {2 + 7} coins left."
+print(message_c)
+# result
+#Nataly has 9 coins left.
