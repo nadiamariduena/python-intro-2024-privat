@@ -17,3 +17,8 @@ print(message)
 messageTwo = "\n{} has {} coinss left.".format(person, coins)
 print(messageTwo)
 # Dave has 3 coinss left.
+#
+#
+messageThree = "\n{} has {} coinss left.".format(person, coins)
+print(messageThree)
+# Dave has 3 coinss left.
