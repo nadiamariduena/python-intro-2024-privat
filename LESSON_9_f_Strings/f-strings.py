@@ -52,3 +52,5 @@ amount = "5"
 
 message_b = f"\n{user} has {amount} coins left."
 print(message_b)
+# result
+# Nataly has 5 coins left.
