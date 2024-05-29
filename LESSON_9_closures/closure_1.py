@@ -13,14 +13,14 @@ def parent_function(person):
     coins = 3
     #2
     def play_game():
-        # 🟥 --- important!
+        # 3 🟥 --- important!
         nonlocal coins
         #-------------
         #
-        # defining how many coins the user has now, he has
+        # 4 defining how many coins the user has now, he has
         coins -= 1
 
-        # conditional
+        # 5 conditional
         # if the user has more than 1 show the first image, then if the user has equal to 1 show that he has 1 coin left, at last the user is OUT of coins
         if coins > 1:
             print("\n" + person + " has " + str(coins) + " coins left.")
@@ -29,5 +29,7 @@ def parent_function(person):
         else:
             print("\n" + person + " is out of coins")
 
-    #  🟥 --- important!  here below we are not calling() the function, WE ARE ONLY "returning" it
+    # 6 🟥 --- important!  here below we are not calling() the function, WE ARE ONLY "returning" it
     return play_game
+
+# here TOMMY = is a new function that is going to handle the "parent_function"
