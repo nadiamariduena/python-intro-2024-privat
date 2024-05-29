@@ -44,3 +44,11 @@ message_a = "\n{personn} has {coinss} coins left.".format(**playerr)
 print(message_a)
 # result
 #Dave has 8 coins left.
+#
+#
+# F-STRINGS
+user = "Nataly"
+amount = "5"
+
+message_b = f"\n{user} has {amount} coins left."
+print(message_b)
