@@ -32,4 +32,5 @@ def parent_function(person):
     # 6 🟥 --- important!  here below we are not calling() the function, WE ARE ONLY "returning" it
     return play_game
 
-# here TOMMY = is a new function that is going to handle the "parent_function"
+# here TOMMY = is a new function, this tommy function  is going to handle the "parent_function" , within it i will add the value as "Tommy"
+tommy = parent_function("Tommy")
