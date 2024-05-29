@@ -254,3 +254,10 @@ user2_playlists['add_song']("Jazz Vibes", "Take Five")
 user2_playlists['view_playlist']("Jazz Vibes")
 
 ```
+
+<br>
+<br>
+
+## Python vs. JavaScript: Lists within Objects
+
+- In both Python and JavaScript, you can store arrays (lists) within objects (dictionaries) to manage collections of data. Here's a comparison:
