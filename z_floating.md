@@ -38,6 +38,9 @@ print(formatted_number)  # Output: 45.68%
 - **.2g**: Format using the shorter of .f or .e notation, with two significant digits.
 
 ```python
+number = 123.45678
+formatted_number = f"{number:.2g}"
+print(formatted_number)  # Output: 1.2e+02
 
 ```
 
