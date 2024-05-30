@@ -96,3 +96,12 @@ message = f"Name: {name}, Age: {age}, Height: {height:.2f} cm"
 
 # Print the formatted message
 print(message)
+
+#
+#
+#----------
+# LOOP
+#----------
+#
+#
+# list of "people" with their name, age, and height
