@@ -49,6 +49,11 @@ print(formatted_number)  # Output: 1.2e+02
 - **.2n**: Format as a floating-point number with two decimal places, but use locale-specific number formatting.
 
 ```python
+import locale
+locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')  # Set locale to English (United States)
+number = 123456.789
+formatted_number = f"{number:.2n}"
+print(formatted_number)  # Output: 123,456.79
 
 ```
 
