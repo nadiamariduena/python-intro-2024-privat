@@ -27,6 +27,9 @@ print(formatted_number)  # Output: 1.23e+02
 - **.2%**: Format as a percentage with two decimal places.
 
 ```python
+number = 0.45678
+formatted_number = f"{number:.2%}"
+print(formatted_number)  # Output: 45.68%
 
 ```
 
