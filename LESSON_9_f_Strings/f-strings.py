@@ -126,3 +126,5 @@ for person in people:
 
 #
 # 3) Format the string using f-string with formatting options
+#
+message_e = f"Name: {name}, Age:{age}, Height: {height:.2f}cm"
