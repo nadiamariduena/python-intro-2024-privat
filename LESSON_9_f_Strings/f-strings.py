@@ -105,7 +105,7 @@ print(message)
 #
 #
 # list of "people" with their name, age, and height
-#
+# 1)
 people = [
     # the 165.5 will be rounded
     {"name": "Alice", "age": "30", "height": "165.5"},
@@ -114,10 +114,15 @@ people = [
 ]
 
 #
-# LOOP
+# 2) LOOP
 # Loop through each person in the list
 for person in people:
     # extract variables from the dictionary
     name = person["name"]
     age = person["age"]
     height = person["height"]
+
+
+
+#
+# 3) Format the string using f-string with formatting options
