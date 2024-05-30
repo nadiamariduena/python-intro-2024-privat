@@ -120,6 +120,8 @@ print(message)
 
 - ⚠️ Wrong
 
+- 🌈 **REASON** the print statement is outside the loop. Thus, it only prints the last person's information because the variables name, age, and height are being overwritten in each iteration of the loop. To print all the people's information, you need to include the print statement inside the loop, like this:
+
 ```python
 # list of "people" with their name, age, and height
 # 1)
