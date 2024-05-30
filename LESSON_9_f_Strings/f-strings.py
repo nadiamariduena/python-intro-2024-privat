@@ -108,9 +108,9 @@ print(message)
 # 1)
 people = [
     # the 165.5 will be rounded
-    {"name": "Alice", "age": "30", "height": "165.5"},
-    {"name": "Bob", "age": "75", "height": "180.0"},
-    {"name": "Auri", "age": "25", "height": "175.2"},
+   {"name": "Alice", "age": 30, "height": 165.5},
+    {"name": "Bob", "age": 25, "height": 180.0},
+    {"name": "Charlie", "age": 35, "height": 175.2}
 ]
 
 #
@@ -127,4 +127,6 @@ for person in people:
 #
 # 3) Format the string using f-string with formatting options
 #
-message_e = f"Name: {name}, Age:{age}, Height: {height:.2f}cm"
+message_e = f"Name: {name}, Age:{age}, Height: {height:.2f} cm"
+
+print(message_e)
