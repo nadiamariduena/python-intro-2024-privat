@@ -118,3 +118,6 @@ people = [
 # Loop through each person in the list
 for person in people:
     # extract variables from the dictionary
+    name = person["name"]
+    age = person["age"]
+    height = person["height"]
