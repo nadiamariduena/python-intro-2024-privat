@@ -105,3 +105,9 @@ print(message)
 #
 #
 # list of "people" with their name, age, and height
+#
+people = [
+    # the 165.5 will be rounded
+    {"name": "Alice", "age": "30", "height": "165.5"}
+
+]
