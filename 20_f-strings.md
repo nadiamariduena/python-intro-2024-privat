@@ -110,3 +110,17 @@ message = f"Name: {name}, Age: {age}, Height: {height:.2f} cm"
 print(message)
 
 ```
+
+<br>
+<br>
+
+# LOOP
+
+## 🔴 Careful with the indentation
+
+-
+
+```python
+# result
+# Name: Charlie, Age:35, Height: 175.20 cm
+```
