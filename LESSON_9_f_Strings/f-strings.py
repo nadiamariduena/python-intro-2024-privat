@@ -128,5 +128,6 @@ for person in people:
 # 3) Format the string using f-string with formatting options
 #
 message_e = f"Name: {name}, Age:{age}, Height: {height:.2f} cm"
+#🔴 In the context of the format specifier {:.2f}, the f indicates that the variable should be formatted as a floating-point number.
 
 print(message_e)
