@@ -156,3 +156,14 @@ print(message_e)
 # result
 # Name: Charlie, Age:35, Height: 175.20 cm
 ```
+
+# Corrected
+
+```python
+
+#
+# RESULT
+# Name: Alice, Age:30, Height: 165.50 cm
+# Name: Bob, Age:25, Height: 180.00 cm
+# Name: Charlie, Age:35, Height: 175.20 cm
+```
