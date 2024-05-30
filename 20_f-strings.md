@@ -1,5 +1,7 @@
 # 🐖 F-strings
 
+https://www.w3schools.com/python/ref_string_format.asp
+
 ```python
 person = "Dave"
 coins = 3
