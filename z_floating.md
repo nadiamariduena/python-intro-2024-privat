@@ -58,3 +58,9 @@ print(formatted_number)  # Output: 123,456.79
 ```
 
 <br>
+
+**locale.LC_ALL** specifies that the locale settings should be applied to all categories, including numbers, dates, times, and currency.
+
+So, when you use `"{number:.2n}"` to format a number with .2n, it will format the number with two decimal places and use locale-specific number formatting, adhering to the conventions of the English (United States) locale set by locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
+
+<br>
