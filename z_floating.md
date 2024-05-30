@@ -16,6 +16,9 @@ print(formatted_number)  # Output: 123.46
 - **.2e**: Format in scientific notation (exponential format) with two decimal places.
 
 ```python
+number = 123.45678
+formatted_number = f"{number:.2e}"
+print(formatted_number)  # Output: 1.23e+02
 
 ```
 
