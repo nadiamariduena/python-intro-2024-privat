@@ -5,3 +5,5 @@ The **.2f** format specifier in Python is used to format floating-point numbers 
 - **.2f**: Format as a floating-point number with two decimal places.
 
 - **.2e**: Format in scientific notation (exponential format) with two decimal places.
+
+- **.2%**: Format as a percentage with two decimal places.
