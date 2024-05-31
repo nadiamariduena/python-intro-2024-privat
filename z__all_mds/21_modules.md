@@ -131,7 +131,7 @@ if __name__ == "__main__":
 <br>
 <br>
 
-### `__name__ == "__main__"`
+### 🍭 `__name__ == "__main__"`
 
 - in other words this code, will check if i am importing it in another component, or if i am running the code from the same component, in this case will be the **modules_3_kansas.py**
 
@@ -139,6 +139,8 @@ if __name__ == "__main__":
 
 if __name__ == "__main__":
     randomfunfact3()
-
-
 ```
+
+### chapgpt
+
+- The if `__name__ == "__main__"`: block at the end of a Python script is a common idiom used to control whether the script should be executed when it's run directly or when it's imported as a module into another script.
