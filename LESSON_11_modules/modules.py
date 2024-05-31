@@ -15,3 +15,7 @@ print(math.pi)
 from math import pi
 print(pi)
 # result:   3.141592653589793
+
+#
+#--------
+# another way
