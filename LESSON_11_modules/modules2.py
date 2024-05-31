@@ -17,6 +17,13 @@ def randomfunfact():
         "Most Kansans are annoyed by Wisard of Oz references from people outside of Kansas"
     ]
 
-    index = choice('0123')
+
+# this is the choice function that will be imported at the top
+    index = choice("0123")
 
     print(funfacts[int(index)])
+# after this, import this module on the first modules1
+
+.py
+    # print(kansas.capital)
+    # kansas.randomfunfact()
