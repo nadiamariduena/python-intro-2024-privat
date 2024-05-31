@@ -1,9 +1,9 @@
 
 # -----🤚 import the module kansas from the modules2.py
-import kansas
+import modules_2_kansas
 
 
 
-print(kansas.capitalize())
-kansas.randomfunfact()
+print(modules_2_kansas.capital)
+modules_2_kansas.randomfunfact()
 #
