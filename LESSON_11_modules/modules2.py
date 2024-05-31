@@ -22,8 +22,6 @@ def randomfunfact():
     index = choice("0123")
 
     print(funfacts[int(index)])
-# after this, import this module on the first modules1
-
-.py
+# after this, import this module on the first modules1.py
     # print(kansas.capital)
     # kansas.randomfunfact()
