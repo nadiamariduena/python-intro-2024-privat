@@ -5,6 +5,8 @@ https://youtu.be/8ArHkS70QsQ?feature=shared
 
 ## 🍭 RANDOM
 
+<br>
+
 - The `choice()` method returns a randomly selected element from the specified sequence.
 
 ```python
@@ -22,6 +24,8 @@ print(to_buy)
 ### 🍭 Example 1
 
 ```python
+# CHOICE
+# ✋
 from random import choice
 
 capital = "Topeka"
@@ -39,7 +43,8 @@ def randomfunfact():
     ]
 
 
-# this is the choice function that will be imported at the top
+# CHOICE
+# ✋ this is the choice function that will be imported at the top
     index = choice("0123")
 
     print(funfacts[int(index)])
