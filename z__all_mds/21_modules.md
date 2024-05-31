@@ -141,6 +141,11 @@ if __name__ == "__main__":
     randomfunfact3()
 ```
 
-### chapgpt
+#### chatgpt
 
 - The if `__name__ == "__main__"`: block at the end of a Python script is a common idiom used to control whether the script should be executed when it's run directly or when it's imported as a module into another script.
+
+#### 🔴 Here's what it does:
+
+`__name__` is a special variable in Python that holds the name of the current module. If the script is being run directly (i.e., it's the main program), Python sets `__name__` to "`__main__`".
+When the script is imported as a module into another script, `__name__` is set to the name of the script.
