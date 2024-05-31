@@ -4,6 +4,6 @@ import kansas
 
 
 
-print(kansas.capital)
+print(kansas.capitalize())
 kansas.randomfunfact()
 #
