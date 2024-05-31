@@ -54,7 +54,7 @@ def randomfunfact():
 
 ```
 
-### Importing it within another component
+### 🍊 Importing it within another component
 
 - there you will import it like here below:
 
@@ -80,6 +80,8 @@ modules_2_kansas.randomfunfact()
 <br>
 
 ```python
+# CHOICE
+# ✋
 from random import choice
 
 capital = "Topeka"
@@ -95,11 +97,23 @@ def randomfunfact3():
         "3": "Most Kansans are annoyed by Wizard of Oz references from people outside of Kansas."
     }
 
+#
+#
+# CHOICE
+# ✋
     index = choice(list(funfacts.keys()))
     print(funfacts[index])
+
+#
+#
 
 # Testing the module
 if __name__ == "__main__":
     randomfunfact3()
 
 ```
+
+<br>
+<br>
+
+### `__name__ == "__main__"`
