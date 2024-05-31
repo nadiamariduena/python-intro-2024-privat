@@ -132,3 +132,13 @@ if __name__ == "__main__":
 <br>
 
 ### `__name__ == "__main__"`
+
+- in other words this code, will check if i am importing it in another component, or if i am running the code from the same component, in this case will be the **modules_3_kansas.py**
+
+```python
+
+if __name__ == "__main__":
+    randomfunfact3()
+
+
+```

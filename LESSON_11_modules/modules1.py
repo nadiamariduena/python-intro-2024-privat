@@ -18,10 +18,10 @@ print('-------------')
 #--------
 # example with ID instead of index
 
-import modules_3_kansas
+# import modules_3_kansas
 
-print(modules_3_kansas.capital)
-modules_3_kansas.randomfunfact3()
+# print(modules_3_kansas.capital)
+# modules_3_kansas.randomfunfact3()
 #
 #
 # the RESULT will be random, as within the 'modules_3_kansas', we are using the method RANDOM:
