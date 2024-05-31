@@ -16,3 +16,8 @@ modules_2_kansas.randomfunfact()
 #
 #--------
 # example with ID instead of index
+
+import modules_3_kansas
+
+print(modules_3_kansas.capital)
+modules_3_kansas.randomfunfact3()

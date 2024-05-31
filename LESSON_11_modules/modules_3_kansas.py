@@ -5,7 +5,7 @@ bird = "Western Meadowlark"
 flower = "Sunflower"
 song = "Home on the Range"
 
-def randomfunfact():
+def randomfunfact3():
     funfacts = {
         "0": "Kansas is considered flat, but it does have a mount.",
         "1": "Wichita is the largest city in the state, but many would guess that it is Kansas City.",
@@ -18,4 +18,4 @@ def randomfunfact():
 
 # Testing the module
 if __name__ == "__main__":
-    randomfunfact()
+    randomfunfact3()
