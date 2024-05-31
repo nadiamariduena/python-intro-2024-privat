@@ -1,11 +1,19 @@
 https://youtu.be/8ArHkS70QsQ?feature=shared
 
-## RANDOM
+<br>
+<br>
+
+## 🍭 RANDOM
 
 - The `choice()` method returns a randomly selected element from the specified sequence.
 
 ```python
+import random
 
+shopping_list = ["milk", "eggs", "bread", "apples"]
+to_buy = random.choice(shopping_list)
+
+print(to_buy)
 ```
 
 <br>
