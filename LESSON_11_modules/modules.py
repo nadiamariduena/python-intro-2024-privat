@@ -105,3 +105,6 @@ for item in dir(rdm):
 # uniform
 # vonmisesvariate
 # weibullvariate
+
+# check the purpose of the  modules
+#https://docs.python.org/3/py-modindex.html
