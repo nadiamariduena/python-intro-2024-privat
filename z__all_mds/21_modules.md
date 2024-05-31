@@ -10,12 +10,27 @@ https://youtu.be/8ArHkS70QsQ?feature=shared
 - The `choice()` method returns a randomly selected element from the specified sequence.
 
 ```python
+#  example a)
 import random
 
 shopping_list = ["milk", "eggs", "bread", "apples"]
 to_buy = random.choice(shopping_list)
 
 print(to_buy)
+#
+#
+# example b)
+import random
+
+to_learn = ("Python",
+            "Matplotlib",
+            "NumPy",
+            "Pandas",
+            "Beautiful Soup",
+            "SQL")
+
+print(random.choice(to_learn))
+
 ```
 
 <br>
