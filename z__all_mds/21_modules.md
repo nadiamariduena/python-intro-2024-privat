@@ -2,17 +2,23 @@ https://youtu.be/8ArHkS70QsQ?feature=shared
 
 ## RANDOM
 
+- The `choice()` method returns a randomly selected element from the specified sequence.
+
+```python
+
+```
+
+<br>
+<br>
+
 ### 🍭 Example 1
 
 ```python
 from random import choice
 
 capital = "Topeka"
-
 bird = "Western Meadowlark"
-
 flower = "Sunflower"
-
 song = "Home on the Range"
 
 
@@ -35,6 +41,22 @@ def randomfunfact():
 
 ```
 
+### Importing it within another component
+
+- there you will import it like here below:
+
+```python
+# -----🤚 import the module kansas from the modules_2_kansas.py
+# if the name of the file is modules_2_kansas and you import it here below as only kansas or modules2 etc, it will not work.
+# the name of the file is the one you will be using to import it here, like sere below
+import modules_2_kansas
+#
+#
+print(modules_2_kansas.capital)
+modules_2_kansas.randomfunfact()
+```
+
+<br>
 <br>
 
 ### 🍭 Example 2
