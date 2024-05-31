@@ -13,6 +13,7 @@ modules_2_kansas.randomfunfact()
 # Topeka
 # Kansas is a considered flat, but it does have a mount.
 #
+print('-------------')
 #
 #--------
 # example with ID instead of index
@@ -21,3 +22,8 @@ import modules_3_kansas
 
 print(modules_3_kansas.capital)
 modules_3_kansas.randomfunfact3()
+#
+#
+# the RESULT will be random, as within the 'modules_3_kansas', we are using the method RANDOM:
+# Topeka
+# Kansas is considered flat, but it does have a mount.
