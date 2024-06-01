@@ -52,7 +52,9 @@ for item in dir(rdm):
 # SystemRandom
 # TWOPI
 # _ONE
-# _Sequence
+# _Sequence ✋ _Sequence: This isn't a module but a placeholder for any sequence type like lists, tuples, or strings.
+#
+#
 # __all__
 # __builtins__
 # __cached__
