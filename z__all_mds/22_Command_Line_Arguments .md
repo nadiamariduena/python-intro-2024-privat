@@ -1,4 +1,9 @@
+## CommandLineArgs
+
+- To test this I will not run the code with the **run** arrow at the top, this time i will have to open the visual studio terminal
+
 ```python
+# LESSON_12_CommandLineArgs/argsParse1.py
 # import argparse
 
 # error version ---
