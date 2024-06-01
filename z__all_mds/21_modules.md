@@ -149,3 +149,7 @@ if __name__ == "__main__":
 
 `__name__` is a special variable in Python that holds the name of the current module. If the script is being run directly (i.e., it's the main program), Python sets `__name__` to "`__main__`".
 When the script is imported as a module into another script, `__name__` is set to the name of the script.
+
+<br>
+
+In the example you provided, the randomfunfact3() function is defined, and then the script checks if it's being run directly (**name** == "**main**"). If so, it calls the randomfunfact3() function, printing a random fun fact about Kansas. If the script were imported into another Python script, the randomfunfact3() function would still be available for use, but the code inside the if **name** == "**main**": block would not be executed unless explicitly called.
