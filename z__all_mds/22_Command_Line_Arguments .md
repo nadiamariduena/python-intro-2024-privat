@@ -1,6 +1,26 @@
 ## CommandLineArgs
 
-- To test this I will not run the code with the **run** arrow at the top, this time i will have to open the visual studio terminal
+- To test this I will not run the code with the **run** arrow at the top, this time i will have to open the visual studio terminal:
+
+<br>
+
+- check if you are at the root
+
+- if you are on the root type **ls** to visualize all the folders in this project, you will see something like this:
+
+```javascript
+ argsParse.py          LESSON_12_CommandLineArgs   z__all_mds
+ img                   LESSON_5_loops             'z_args_&_kwargs.md'
+ LESSON_01             LESSON_6_Functions          z_floating.md
+ LESSON_02             LESSON_7_recursion          z_identation-issues.md
+ LESSON_03_tuples      LESSON_8_Scope              z__modules-methods.md
+ LESSON_04_dictio      LESSON_9_closures           z__smallTips.md
+ LESSON_10_f_Strings   MORE-memory.md
+ LESSON_11_modules     README.md
+
+```
+
+<br>
 
 ```python
 # LESSON_12_CommandLineArgs/argsParse1.py
