@@ -23,6 +23,15 @@
 
 ```
 
+#### once you cd on the LESSON_12_CommandLineArgs
+
+- type on the visual studio terminal: `python3 argsParse1.py`
+
+```javascript
+// this is how it should look like,
+/python-intro-2024-privat/LESSON_12_CommandLineArgs$ python3 argsParse1.py ✋
+```
+
 <br>
 
 ```python
