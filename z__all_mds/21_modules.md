@@ -1,5 +1,9 @@
 https://youtu.be/8ArHkS70QsQ?feature=shared
 
+### check about the modules here
+
+- [READ MORE: python.org/3/py-modindex.html](https://docs.python.org/3/py-modindex.html)
+
 <br>
 <br>
 
