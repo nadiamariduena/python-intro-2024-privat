@@ -42,3 +42,32 @@ hello()
 ## NONE
 
 - IN python **none** is neither true or false
+
+<br>
+
+---
+
+<br>
+
+### 🍭 `__name__ == "__main__"`
+
+- in other words this code, will check if i am importing it in another component, or if i am running the code from the same component, in this case will be the **modules_3_kansas.py**
+
+```python
+
+if __name__ == "__main__":
+    randomfunfact3()
+```
+
+#### chatgpt
+
+- The if `__name__ == "__main__"`: block at the end of a Python script is a common idiom used to control whether the script should be executed when it's run directly or when it's imported as a module into another script.
+
+#### 🔴 Here's what it does:
+
+`__name__` is a special variable in Python that holds the name of the current module. If the script is being run directly (i.e., it's the main program), Python sets `__name__` to "`__main__`".
+When the script is imported as a module into another script, `__name__` is set to the name of the script.
+
+<br>
+
+In the example you provided, the randomfunfact3() function is defined, and then the script checks if it's being run directly (**name** == "**main**"). If so, it calls the randomfunfact3() function, printing a random fun fact about Kansas. If the script were imported into another Python script, the randomfunfact3() function would still be available for use, but the code inside the if **name** == "**main**": block would not be executed unless explicitly called.
