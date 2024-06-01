@@ -9,6 +9,9 @@
 - if you are on the root type **ls** to visualize all the folders in this project, you will see something like this:
 
 ```javascript
+// - this is the content of my folder to learn python
+// - i need to enter the folder LESSON_12_CommandLineArgs", for that i need to type on the visual studio terminal "cd LESSON_12_CommandLineArgs" (presuming i am on the root)
+// ⚠️ careful with spaces, the folder containing the file argsParse1.py , shouldnt have spaces otherwise it wont work. by spaces i mean it should look like this here below: "LESSON_12_CommandLineArgs" and not "LESSON_12_CommandLineArgs "
  argsParse.py          LESSON_12_CommandLineArgs   z__all_mds
  img                   LESSON_5_loops             'z_args_&_kwargs.md'
  LESSON_01             LESSON_6_Functions          z_floating.md
