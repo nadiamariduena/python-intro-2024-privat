@@ -33,7 +33,7 @@ import argparse
 parser = argparse.ArgumentParser(description='Provides a personal greeting.')
 
 parser.add_argument(
-    '-name', "--name", metavar="name",
+    '-n', "--name", metavar="name",
     required=True, help="The name of the person to greet."
 )
 
@@ -43,7 +43,6 @@ msg = f"Hello {args.name}!"
 print(msg)
 
 # --- result
-# I added the file on the root to see if it worked, then i pasted this on the VS terminal: python3 argsParse.py
 # python3 argsParse.py
-# usage: argsParse.py [-h] --name name
-# argsParse.py: error: the following arguments are required: --name
+# usage: argsParse.py [-h] -n name
+# argsParse.py: error: the following arguments are required: -n/--name
