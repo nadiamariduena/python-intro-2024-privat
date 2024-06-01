@@ -133,6 +133,12 @@ if __name__ == "__main__":
 
 ### 🍭 `__name__ == "__main__"`
 
+<br>
+
+- [READ MORE: python.org/3/py-modindex.html](https://docs.python.org/3/py-modindex.html)
+
+<br>
+
 - in other words this code, will check if i am importing it in another component, or if i am running the code from the same component, in this case will be the **modules_3_kansas.py**
 
 ```python
