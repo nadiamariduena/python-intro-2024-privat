@@ -124,6 +124,47 @@ for item in dir(rdm):
 
 <br>
 
+#### example of what you will see in each package
+
+```python
+# _Sequence
+my_sequence = [1, 2, 3, 4, 5]
+
+# __all__
+__all__ = ['module1', 'module2']
+
+# __builtins__
+print(__builtins__.str(10))  # Output: '10'
+
+# __cached__
+print(__cached__)  # Output: <path_to_cached_bytecode_file>
+
+# __doc__
+print(__doc__)  # Output: Docstring of the module, if any
+
+# __file__
+print(__file__)  # Output: <path_to_current_module_file>
+
+# __loader__
+print(__loader__)  # Output: Loader object for the module
+
+# __name__
+print(__name__)  # Output: __main__ or name of the current module
+
+# __package__
+print(__package__)  # Output: Name of the package of the current module
+
+# __spec__
+print(__spec__)  # Output: Module spec, including information about loader and location
+
+# _accumulate
+import itertools
+print(list(itertools.accumulate([1, 2, 3, 4, 5])))  # Output: [1, 3, 6, 10, 15]
+
+```
+
+<br>
+
 ### MORE modules here:
 
 - [READ MORE: python.org/3/py-modindex.html](https://docs.python.org/3/py-modindex.html)
