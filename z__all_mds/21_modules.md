@@ -38,6 +38,7 @@ print('---------')
 #--------
 # another way
 # make it more readable
+# dir: directory
 
 for item in dir(rdm):
     print(item)
@@ -78,7 +79,7 @@ for item in dir(rdm):
 # _log2
 # _os
 # _pi
-# _random ✋
+# _random ✋ you will see the examples with the RANDOM more at the bottom
 # _repeat
 # _sha512
 # _sin
