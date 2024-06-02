@@ -17,3 +17,8 @@ def send_money(amount, currency, recipient):
 
     # Calculate the converted amount based on the exchange rates
     converted_amount = amount * exchange_rates[currency][recipient['currency']]
+
+    # Print a message indicationg the amount sent and the recipient's details
+
+
+    print(f"Sending {converted_amount:.2f} {recipient['currency']} to {recipient['name']}")
