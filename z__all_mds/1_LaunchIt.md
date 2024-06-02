@@ -114,3 +114,35 @@ python hello.py
 // result
 Hello world!
 ```
+
+<br>
+
+### if you have a file within a folder
+
+- check if you are at the root
+
+- if you are on the root type **ls** to visualize all the folders in this project, you will see something like this:
+
+```javascript
+// - this is the content of my folder to learn python
+// - i need to enter the folder LESSON_12_CommandLineArgs", for that i need to type on the visual studio terminal "cd LESSON_12_CommandLineArgs" (presuming i am on the root)
+// ⚠️ careful with spaces, the folder containing the file argsParse1.py , shouldnt have spaces otherwise it wont work. by spaces i mean it should look like this here below: "LESSON_12_CommandLineArgs" and not "LESSON_12_CommandLineArgs "
+ argsParse.py          LESSON_12_CommandLineArgs   z__all_mds
+ img                   LESSON_5_loops             'z_args_&_kwargs.md'
+ LESSON_01             LESSON_6_Functions          z_floating.md
+ LESSON_02             LESSON_7_recursion          z_identation-issues.md
+ LESSON_03_tuples      LESSON_8_Scope              z__modules-methods.md
+ LESSON_04_dictio      LESSON_9_closures           z__smallTips.md
+ LESSON_10_f_Strings   MORE-memory.md
+ LESSON_11_modules     README.md
+
+```
+
+#### once you cd on the LESSON_12_CommandLineArgs
+
+- type on the visual studio terminal: `python3 argsParse1.py`
+
+```javascript
+// this is how it should look like,
+/python-intro-2024-privat/LESSON_12_CommandLineArgs$ python3 argsParse1.py ✋
+```
