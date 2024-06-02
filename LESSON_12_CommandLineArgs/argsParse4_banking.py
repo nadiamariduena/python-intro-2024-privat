@@ -44,9 +44,16 @@ if __name__ == "__main__":
         help="The amount of money to send."
     )
  # PARSER CURRENCY ----
+ # 8
     parser.add_argument(
         "-c", "--currency", metavar="currency",
         required=True, choices=["USD", "EUR", "GBP" ],
         help="The currency of the amount to send."
-
     )
+
+# PARSER RECIPIENT ----
+# 9
+parser.add_argument(
+    "-r", "--recipient", metavar="recipient",
+
+)
