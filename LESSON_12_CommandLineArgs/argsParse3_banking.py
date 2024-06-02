@@ -1,3 +1,4 @@
+# 1
 def send_money(amount, currency, recipient):
     #define exchange rates between currencies using a nested dictionary
     exchange_rates = {
@@ -8,7 +9,11 @@ def send_money(amount, currency, recipient):
 
     }
 
-    # Check if the specified currency or the recipient's currency is not supported
+    # 2 Check if the specified currency or the recipient's currency is not supported
     if currency not in exchange_rates or recipient["currency"] not in exchange_rates[currency]:
         print("Sorry, we dont support this currency exchange.")
+        # cut the process if not
         return
+
+    # Calculate the converted amount based on the exchange rates
+    converted_amount = amount * exchange_rates[currency][recipient['currency']]
