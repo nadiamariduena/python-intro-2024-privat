@@ -33,6 +33,7 @@ import argparse
 parser = argparse.ArgumentParser(description='Provides a personal greeting.')
 
 parser.add_argument(
+    # -n stands for name
     '-n', "--name", metavar="name",
     required=True, help="The name of the person to greet."
 )
@@ -49,7 +50,7 @@ print(msg)
 # usage: argsParse.py [-h] -n name
 # argsParse.py: error: the following arguments are required: -n/--name
 
-# ----- add the value / name into the console/type the below:
+#  ----- add the value / name into the console/type the below:
 #python3  argsParse1.py -n "I am typing the value name which is Nathaly"
 #
 #result
