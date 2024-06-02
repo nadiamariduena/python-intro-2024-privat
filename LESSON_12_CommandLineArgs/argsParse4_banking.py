@@ -36,10 +36,11 @@ if __name__ == "__main__":
 
     )
     #
-    #
+    # PARSER AMOUNT ----
     # 7 Add arguments for the amount to send, currency, and recipient's details
     parser.add_argument(
         "-a", "--amount", metavar="amount",
         type=float, required=True,
         help="The amount of money to send."
     )
+ # PARSER CURRENCY ----
