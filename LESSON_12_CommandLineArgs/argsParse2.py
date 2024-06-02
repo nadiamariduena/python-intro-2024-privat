@@ -27,5 +27,6 @@ if __name__ == "__main__":
 # LANGUAGE parser
     parser.add_argument(
         "-l", "lang", metavar="language",
-        required=True, choices=["English"]
+        required=True, choices=["English", "Spanish", "German"],
+        help="The language of the greeting."
     )
