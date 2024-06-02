@@ -39,7 +39,7 @@ if __name__ == "__main__":
     # 🟠 PARSER AMOUNT ----
     # 7 Add arguments for the amount to send, currency, and recipient's details
     parser.add_argument(
-        "-a", "--amount", metavar="amount",
+      "-a", "--amount", metavar="amount",
         type=float, required=True,
         help="The amount of money to send."
     )
@@ -47,7 +47,7 @@ if __name__ == "__main__":
     # 8
     parser.add_argument(
         "-c", "--currency", metavar="currency",
-        required=True, choices=["USD", "EUR", "GBP" ],
+        required=True, choices=["USD", "EUR", "GBP"],
         help="The currency of the amount to send."
     )
 
@@ -56,14 +56,16 @@ if __name__ == "__main__":
     parser.add_argument(
         "-r", "--recipient", metavar="recipient",
         required=True, nargs=2,
-        help="The recipient's name and currency (e.g., 'John EUR)."
+        help="The recipient's name and currency (e.g., 'John EUR')."
+
 # nargs=2: It means that the "recipient" option expects two arguments from the command line.
 #These two arguments will be stored as a list in the args.recipient attribute after parsing.
 # python3 banking_transfer.py -a 100 -c USD -r "Alice EUR"
 #The "Alice EUR" part will be split into two separate arguments: "Alice" and "EUR". These two arguments will be stored as a list ["Alice", "EUR"] in args.recipient.
     )
 
-#
+#python3 argsParse4_banking.py -a 100 -c USD -r "Alice EUR"
+
 #
     #10 parse the command line arguments
     args = parser.parse_args(
@@ -73,3 +75,5 @@ if __name__ == "__main__":
     # 11 EXtract the recipients name and currency from the arguments
     recipient_name, recipient_currency = args.recipient
     recipient = {"name": recipient_name, "currency": recipient_currency}
+
+    send_money(args.amount, args.currency, recipient)
