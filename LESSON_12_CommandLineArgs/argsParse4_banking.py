@@ -57,7 +57,7 @@ if __name__ == "__main__":
         "-r", "--recipient", metavar="recipient",
         required=True, nargs=2,
         help="The recipient's name and currency (e.g., 'John EUR)."
-
+# nargs=2: It means that the "recipient" option expects two arguments from the command line.
     )
 
 #
@@ -66,3 +66,7 @@ if __name__ == "__main__":
     args = parser.parse_args(
 
     )
+    #
+    # 11 EXtract the recipients name and currency from the arguments
+    recipient_name, recipient_currency = args.recipient
+    recipient = {"name": recipient_name, "currency": recipient_currency}
