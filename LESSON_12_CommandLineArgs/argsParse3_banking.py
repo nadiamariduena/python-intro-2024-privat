@@ -7,3 +7,5 @@ def send_money(amount, currency, recipient):
         "GBP": {"USD": 1.39, "EUR": 1.14} # Exchange rates from GBP to USD and EUR
 
     }
+
+    # Check if the specified currency or the recipient's currency is not supported
