@@ -339,3 +339,18 @@ parser.add_argument(
     required=True, choices=["pop", "rock", "hip hop", "electronic", "indie"], help="The genre you prefer"
 )
 ```
+
+#### final
+
+```python
+ args = parser.parse_args()
+
+    recommend_song(args.mood, args.genre)
+```
+
+### You can test this script by running it in your command line, providing a mood with -m and a genre with -g. For example:
+
+```javascript
+python3 spotify_recommendations.py -m "happy" -g "pop"
+
+```
