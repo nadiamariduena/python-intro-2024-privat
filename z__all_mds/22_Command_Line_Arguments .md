@@ -298,7 +298,7 @@ def recommend_song(mood, genre):
 
 ### the conditional
 
-- if the mood & genre are found in recommendation
+- if the mood & genre are found in recommendations, show the song accordingly
 
 ```python
     if mood in recommendations and genre in recommendations[mood]:
