@@ -38,3 +38,10 @@ args = parser.parse_args()
 
 # 6
 hello(args.name, args.lang)
+
+#
+#----- to test it
+# type this on your VS console
+# python3 argsParse2.py -n "Ludovico" -l "German"
+#
+# RESULT:
