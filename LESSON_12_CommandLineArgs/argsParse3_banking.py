@@ -9,3 +9,6 @@ def send_money(amount, currency, recipient):
     }
 
     # Check if the specified currency or the recipient's currency is not supported
+    if currency not in exchange_rates or recipient["currency"] not in exchange_rates[currency]:
+        print("Sorry, we dont support this currency exchange.")
+        return
