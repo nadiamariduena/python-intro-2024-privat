@@ -11,5 +11,12 @@ def spotify_greeting(username, lang):
             "German": "Rocke weiter, {}"
 
             },
-        "jazz": {}
+        "jazz": {
+            "English": "Smooth vibes coming your way, {}",
+            "Spanish": "!Vibra suave, {}",
+            "German": "Sanfte Vibes für dich, {}"
+        }
     }
+
+    # Simulating fetching user's music preferences from Spotify API
+    # Let's assume we have a function called fetch_music_preferences(username) that returns user's music preferences
