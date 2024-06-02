@@ -11,3 +11,7 @@ def recommend_song(mood, genre):
             "indie": "Holocene by Bon Iver"
         }
     }
+
+    if mood in recommendations and genre in recommendations[mood]:
+        song = recommendations[mood][genre]
+        print(f"If you're feeling {mood}, I recommend \"{song}\".")
