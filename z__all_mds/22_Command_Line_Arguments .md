@@ -250,3 +250,14 @@ hello(args.name, args.lang)
 # RESULT:
 #Hallo Ludovico
 ```
+
+<br>
+<br>
+
+## Spotify example
+
+<br>
+
+```python
+
+```
