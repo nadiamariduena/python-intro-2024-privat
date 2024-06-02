@@ -13,3 +13,11 @@ def hello(name, lang):
     # 2) import
 if __name__ == "__main__":
     import argparse
+
+    parser = argparse.ArgumentParser(
+        description="Provide a personal greeting."
+    )
+
+    parser.add_argument(
+
+    )
