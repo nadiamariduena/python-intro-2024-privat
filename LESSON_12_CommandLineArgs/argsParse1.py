@@ -43,6 +43,8 @@ msg = f"Hello {args.name}!"
 print(msg)
 
 # --- result
-# python3 argsParse.py
+#🖐️ you will get the below error when typing this on your VS terminal:python3 argsParse.py , the r
+#
+# result
 # usage: argsParse.py [-h] -n name
 # argsParse.py: error: the following arguments are required: -n/--name
