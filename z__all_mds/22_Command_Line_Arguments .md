@@ -254,16 +254,20 @@ hello(args.name, args.lang)
 <br>
 <br>
 
-## Spotify example
+## 🍭 Spotify example
 
 <br>
 
-- The first part of this code will focus on handling the **mood** and the **genre** within the **recommendations**
+- ✋ The first part of this code will focus on handling the **mood** and the **genre** within the **recommendations**
 
 <br>
 
 ```python
-
+  recommendations ={
+    # mood
+        "happy": {
+            # genre
+            "pop"
 ```
 
 <br>
