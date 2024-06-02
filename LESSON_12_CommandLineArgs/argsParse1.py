@@ -39,12 +39,18 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-msg = f"Hello {args.name}!"
+msg = f"Hello, {args.name}!"
 print(msg)
 
 # --- result
-#🖐️ you will get the below error when typing this on your VS terminal:python3 argsParse.py , the r
+#🖐️ you will get the below error when typing this on your VS terminal:python3 argsParse.py , the reason for that is because you are missing to add a value/name
 #
 # result
 # usage: argsParse.py [-h] -n name
 # argsParse.py: error: the following arguments are required: -n/--name
+
+# ----- add the value / name into the console/type the below:
+#python3  argsParse1.py -n "I am typing the value name which is Nathaly"
+#
+#result
+#Hello I am typing the value name which is Nathaly!
