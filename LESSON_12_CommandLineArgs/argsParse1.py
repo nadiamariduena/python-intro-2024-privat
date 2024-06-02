@@ -50,8 +50,11 @@ print(msg)
 # usage: argsParse.py [-h] -n name
 # argsParse.py: error: the following arguments are required: -n/--name
 
-#  ----- add the value / name into the console/type the below:
+# 🖐️ ----- add the value / name into the console/type the below:
 #python3  argsParse1.py -n "I am typing the value name which is Nathaly"
 #
 #result
 #Hello I am typing the value name which is Nathaly!
+
+#
+#🔴 now lets create a function that will show the greeting in an specific language with the above data, go to argsParse2.py
