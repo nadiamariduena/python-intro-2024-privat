@@ -16,10 +16,12 @@ def send_money(amount, currency, recipient):
         return
 
     # 3 Calculate the converted amount based on the exchange rates
-    converted_amount = amount * exchange_rates[currency][recipient['currency']]
+    converted_amount = amount * exchange_rates[currency][recipient["currency"]]
+
 
     # 4 Print a message indicationg the amount sent and the recipient's details
     print(f"Sending {converted_amount:.2f} {recipient['currency']} to {recipient['name']}")
+
     #
     #
     #----
@@ -64,7 +66,7 @@ if __name__ == "__main__":
 #The "Alice EUR" part will be split into two separate arguments: "Alice" and "EUR". These two arguments will be stored as a list ["Alice", "EUR"] in args.recipient.
     )
 
-#python3 argsParse4_banking.py -a 100 -c USD -r "Alice EUR"
+
 
 #
     #10 parse the command line arguments
@@ -77,3 +79,10 @@ if __name__ == "__main__":
     recipient = {"name": recipient_name, "currency": recipient_currency}
 
     send_money(args.amount, args.currency, recipient)
+
+
+    # TEST IT
+    #python3 argsParse4_banking.py -a 100 -c USD -r "Alice EUR"
+
+    # result
+    # Sending 82.00 EUR to Alice
