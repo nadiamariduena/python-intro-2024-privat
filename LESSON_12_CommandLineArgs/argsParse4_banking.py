@@ -57,8 +57,8 @@ if __name__ == "__main__":
     # 9
     parser.add_argument(
         "-r", "--recipient", metavar="recipient",
-        # required=True, nargs=2, // nargs='+', you can provide one or more arguments separated by space when running the script. For example, python script.py --option value1 value2 value3.
-        required=True, nargs='+',
+        # required=True, nargs=2,
+        required=True, nargs='+', #   nargs='+', you can provide one or more arguments separated by space when running the script. For example, python script.py --option value1 value2 value3.
         help="The recipient's name and currency (e.g., 'John EUR')."
 
 # nargs=2: It means that the "recipient" option expects two arguments from the command line.
