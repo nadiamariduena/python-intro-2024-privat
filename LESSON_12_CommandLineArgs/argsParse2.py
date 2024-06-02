@@ -18,15 +18,20 @@ if __name__ == "__main__":
         description="Provide a personal greeting."
     )
 
-# NAME parser
+# 3 NAME parser
     parser.add_argument(
         "-n", "--name", metavar="name",
         required=True, help="The name of the person to greet."
     )
 
-# LANGUAGE parser
+# 4 LANGUAGE parser
     parser.add_argument(
         "-l", "lang", metavar="language",
         required=True, choices=["English", "Spanish", "German"],
         help="The language of the greeting."
     )
+
+##
+#
+# 5 merging the parsers no.3 & no.4
+args = parser.parse_args()
