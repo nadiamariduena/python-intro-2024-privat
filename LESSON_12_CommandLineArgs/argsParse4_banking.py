@@ -36,26 +36,33 @@ if __name__ == "__main__":
 
     )
     #
-    # PARSER AMOUNT ----
+    # 🟠 PARSER AMOUNT ----
     # 7 Add arguments for the amount to send, currency, and recipient's details
     parser.add_argument(
         "-a", "--amount", metavar="amount",
         type=float, required=True,
         help="The amount of money to send."
     )
- # PARSER CURRENCY ----
- # 8
+    # 🟠 PARSER CURRENCY ----
+    # 8
     parser.add_argument(
         "-c", "--currency", metavar="currency",
         required=True, choices=["USD", "EUR", "GBP" ],
         help="The currency of the amount to send."
     )
 
-# PARSER RECIPIENT ----
-# 9
-parser.add_argument(
-    "-r", "--recipient", metavar="recipient",
-    required=True, nargs=2,
-    help="The recipient's name and currency (e.g., 'John EUR)."
+    # 🟠 PARSER RECIPIENT ----
+    # 9
+    parser.add_argument(
+        "-r", "--recipient", metavar="recipient",
+        required=True, nargs=2,
+        help="The recipient's name and currency (e.g., 'John EUR)."
 
-)
+    )
+
+#
+#
+    #10 parse the command line arguments
+    args = parser.parse_args(
+
+    )
