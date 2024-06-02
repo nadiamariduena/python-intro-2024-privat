@@ -293,3 +293,17 @@ def recommend_song(mood, genre):
     else:
         print("Sorry, we don't have a recommendation for that combination")
 ```
+
+<br>
+
+### the conditional
+
+- if the mood & genre are found in recommendation
+
+```python
+    if mood in recommendations and genre in recommendations[mood]:
+        song = recommendations[mood][genre]
+        print(f"If you're feeling {mood}, I recommend \"{song}\".")
+    else:
+        print("Sorry, we don't have a recommendation for that combination")
+```
