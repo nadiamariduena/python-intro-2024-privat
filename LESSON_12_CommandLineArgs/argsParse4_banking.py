@@ -58,6 +58,9 @@ if __name__ == "__main__":
         required=True, nargs=2,
         help="The recipient's name and currency (e.g., 'John EUR)."
 # nargs=2: It means that the "recipient" option expects two arguments from the command line.
+#These two arguments will be stored as a list in the args.recipient attribute after parsing.
+# python3 banking_transfer.py -a 100 -c USD -r "Alice EUR"
+#The "Alice EUR" part will be split into two separate arguments: "Alice" and "EUR". These two arguments will be stored as a list ["Alice", "EUR"] in args.recipient.
     )
 
 #
