@@ -326,9 +326,16 @@ if __name__ == "__main__":
 ### the 2 parsers related to MOOD and GENRE
 
 ```python
+# MOOD
 parser.add_argument(
     "-m", "--mood", metavar="mood",
     required=True, choices=["happy", "chill"],
     help="The mood you're in."
+)
+#
+# GENRE
+parser.add_argument(
+    "-g", "--genre", metavar="genre",
+    required=True, choices=["pop", "rock", "hip hop", "electronic", "indie"], help="The genre you prefer"
 )
 ```
