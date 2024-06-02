@@ -55,5 +55,7 @@ if __name__ == "__main__":
 # 9
 parser.add_argument(
     "-r", "--recipient", metavar="recipient",
+    required=True, nargs=2,
+    help="The recipient's name and currency (e.g., 'John EUR)."
 
 )
