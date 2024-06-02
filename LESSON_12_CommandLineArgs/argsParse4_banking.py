@@ -15,10 +15,14 @@ def send_money(amount, currency, recipient):
         # cut the process if not
         return
 
-    # Calculate the converted amount based on the exchange rates
+    # 3 Calculate the converted amount based on the exchange rates
     converted_amount = amount * exchange_rates[currency][recipient['currency']]
 
-    # Print a message indicationg the amount sent and the recipient's details
-
-
+    # 4 Print a message indicationg the amount sent and the recipient's details
     print(f"Sending {converted_amount:.2f} {recipient['currency']} to {recipient['name']}")
+    #
+    #
+    #----
+# ENtry point of the program
+if __name__ == "__main__":
+    import argparse # Import the argparse module for commans-line argument parsing
