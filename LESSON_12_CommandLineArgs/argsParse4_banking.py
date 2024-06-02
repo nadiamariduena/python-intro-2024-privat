@@ -76,9 +76,9 @@ if __name__ == "__main__":
     )
     #
     # 11 EXtract the recipients name and currency from the arguments
-    recipient_name, recipient_currency = args.recipient
-#   recipient_name = args.recipient[0]
-    # recipient_currency = args.recipient[1]
+    # recipient_name, recipient_currency = args.recipient
+    recipient_name = args.recipient[0]
+    recipient_currency = args.recipient[1]
 
     ###
     recipient = {"name": recipient_name, "currency": recipient_currency}
