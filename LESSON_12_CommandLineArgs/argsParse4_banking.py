@@ -47,5 +47,6 @@ if __name__ == "__main__":
     parser.add_argument(
         "-c", "--currency", metavar="currency",
         required=True, choices=["USD", "EUR", "GBP" ],
+        help="The currency of the amount to send."
 
     )
