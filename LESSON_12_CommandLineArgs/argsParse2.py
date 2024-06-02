@@ -43,5 +43,7 @@ hello(args.name, args.lang)
 #----- to test it
 # type this on your VS console
 # python3 argsParse2.py -n "Ludovico" -l "German"
+# As you can see above, i type -l for the language i desire the message to be shown
 #
 # RESULT:
+#Hallo Ludovico
