@@ -34,6 +34,8 @@
 
 <br>
 
+## then you can run this code
+
 ```python
 # LESSON_12_CommandLineArgs/argsParse1.py
 # import argparse
