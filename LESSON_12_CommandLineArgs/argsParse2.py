@@ -26,7 +26,7 @@ if __name__ == "__main__":
 
 # 4 LANGUAGE parser
     parser.add_argument(
-        "-l", "lang", metavar="language",
+        "-l", "--lang", metavar="language",
         required=True, choices=["English", "Spanish", "German"],
         help="The language of the greeting."
     )
@@ -35,3 +35,6 @@ if __name__ == "__main__":
 #
 # 5 merging the parsers no.3 & no.4
 args = parser.parse_args()
+
+# 6
+hello(args.name, args.lang)
