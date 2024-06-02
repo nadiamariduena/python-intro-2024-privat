@@ -326,5 +326,9 @@ if __name__ == "__main__":
 ### the 2 parsers related to MOOD and GENRE
 
 ```python
-
+parser.add_argument(
+    "-m", "--mood", metavar="mood",
+    required=True, choices=["happy", "chill"],
+    help="The mood you're in."
+)
 ```
