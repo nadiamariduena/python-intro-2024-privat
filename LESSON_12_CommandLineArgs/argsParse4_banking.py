@@ -30,8 +30,16 @@ if __name__ == "__main__":
     import argparse # Import the argparse module for commans-line argument parsing
     #
     #
-    # Create an argumentParser object with a description
+    # 6 Create an argumentParser object with a description
     parser = argparse.ArgumentParser(
         description="Send money to another user."
 
+    )
+    #
+    #
+    # 7 Add arguments for the amount to send, currency, and recipient's details
+    parser.add_argument(
+        "-a", "--amount", metavar="amount",
+        type=float, required=True,
+        help="The amount of money to send."
     )
