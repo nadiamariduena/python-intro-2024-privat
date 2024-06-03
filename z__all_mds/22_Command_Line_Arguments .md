@@ -457,7 +457,9 @@ if __name__ == "__main__":
 ### 🔴 Possible errors
 
 ```python
+# when i type this on the console:
 python3 argsParse4_banking.py -a 100 -c USD -r "Alice EUR"
+# I GET THIS:
 usage: argsParse4_banking.py [-h] -a amount -c
                              currency -r recipient
                              recipient
@@ -465,3 +467,6 @@ argsParse4_banking.py: error: argument -r/--recipient: expected 2 arguments
 ```
 
 #### solution
+
+- ChatGPT
+  The error you're encountering indicates that the -r or --recipient argument expects two separate arguments, but it seems like it's receiving them as one.
