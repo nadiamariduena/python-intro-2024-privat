@@ -23,12 +23,21 @@ print(add(3, 5))  # Output: 8
 
 ### 🍭 In Python, a lambda function is a way to create small, anonymous functions. They are similar to regular functions defined using the def keyword, but with a few key differences:
 
+<br>
+
 - **Anonymous:** Lambda functions are anonymous, meaning they don't have a name like regular functions do. They are defined using the lambda keyword followed by parameters and an expression.
 
 ```python
 # Anonymous lambda function to calculate the square of a number
 square = lambda x: x**2
 print(square(5))  # Output: 25
+#
+#
+# another example
+def squared(num): return num + num
+print(squared(2))
+#result
+#4 // num + num or 2 + 2 = 4
 
 ```
 
@@ -81,10 +90,3 @@ They are a convenient way to define simple functions inline without the need for
 <br>
 
 ## examples 1
-
-```python
-def squared(num): return num + num
-print(squared(2))
-#result
-#4 // num + num or 2 + 2 = 4
-```
