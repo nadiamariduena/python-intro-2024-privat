@@ -25,6 +25,8 @@ print(add(3, 5))  # Output: 8
 
 - **Anonymous:** Lambda functions are anonymous, meaning they don't have a name like regular functions do. They are defined using the lambda keyword followed by parameters and an expression.
 
+**Small:** Lambda functions are typically used for small tasks and simple operations. They are often used where a function is needed for a short period of time and creating a named function would be overkill.
+
 <br>
 <br>
 
