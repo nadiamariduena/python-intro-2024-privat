@@ -3,6 +3,14 @@
 https://youtu.be/YIOYJgLQYiY?feature=shared
 
 <br>
+
+- to test any example, **CD** into the folder you have stored the **py** file , for example, i have my py file within a folder called **LESSON_13_lambda_map_etc**, so if i want to test my examples, i need to cd on that folder and then type this:
+
+```javascript
+python3 lambda_and_other_functions.py
+```
+
+<br>
 <br>
 
 ### 🍭 Lambda
