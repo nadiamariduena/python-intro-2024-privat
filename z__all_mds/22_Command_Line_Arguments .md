@@ -458,10 +458,10 @@ if __name__ == "__main__":
 
 ```python
 python3 argsParse4_banking.py -a 100 -c USD -r "Alice EUR"
-Traceback (most recent call last):
-  File "argsParse4_banking.py", line 81, in <module>
-    recipient_currency = args.recipient[1]
-IndexError: list index out of range
+usage: argsParse4_banking.py [-h] -a amount -c
+                             currency -r recipient
+                             recipient
+argsParse4_banking.py: error: argument -r/--recipient: expected 2 arguments
 ```
 
 #### solution
