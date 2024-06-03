@@ -1,0 +1,1 @@
+Lambda typically refers to the lambda function in Python, which is a small anonymous function defined using the lambda keyword. Lambda functions can take any number of arguments, but can only have one expression.
