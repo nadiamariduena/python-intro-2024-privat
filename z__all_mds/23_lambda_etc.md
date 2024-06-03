@@ -68,6 +68,14 @@ print(squared(2))
 ```
 
 <br>
+
+#### another example
+
+```python
+
+```
+
+<br>
 <br>
 
 **Small:** Lambda functions are typically used for small tasks and simple operations. They are often used where a function is needed for a short period of time and creating a named function would be overkill.
