@@ -69,10 +69,15 @@ print(squared(2))
 
 <br>
 
-#### another example
+#### another anonym function
 
 ```python
+# ------- another example
+def addTwo(num): return num + 2
 
+print(addTwo(12))
+#result
+# 14
 ```
 
 <br>
