@@ -7,3 +7,4 @@ print(squared(2))
 squared = (lambda num1 : num1 * num1)
 print(squared(2))
 # the reformat happens in line 8, when typing (squared(2))
+

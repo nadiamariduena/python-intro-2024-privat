@@ -42,13 +42,30 @@ squared = (lambda num : num * num)
 #
 #
 #
+
+
+```
+
+## 🔴 Reformating issue
+
+```python
+#🖐️ here you have to be careful, if you dont add parenthesis to the lambda like here (lambda num : num * num), it will reformat it, and you wont get the result 4
+squared = (lambda num1 : num1 * num1)
+print(squared(2))
+#result: 4 // num + num or 2 + 2 = 4
+# the reformat happens in line 8, when typing (squared(2))
+```
+
+### this is what you get if ou dont add the parenthesis
+
+```python
 def squared(num): return num + num
 print(squared(2))
 #result
 #4 // num + num or 2 + 2 = 4
-
 ```
 
+<br>
 <br>
 
 **Small:** Lambda functions are typically used for small tasks and simple operations. They are often used where a function is needed for a short period of time and creating a named function would be overkill.
