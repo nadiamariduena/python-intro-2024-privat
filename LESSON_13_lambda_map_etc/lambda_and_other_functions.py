@@ -15,3 +15,12 @@ def addTwo(num): return num + 2
 print(addTwo(12))
 #result
 # 14
+
+#
+#---------
+# another function expression
+
+
+def sum(a, b): return a + b
+print(sum(2, 2))
+# result : 4

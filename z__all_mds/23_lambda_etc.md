@@ -104,6 +104,19 @@ print(is_even(4))  # Output: True
 # Examples of even numbers are 2, 4, 6, 8, 10, 12, 14,…
 ```
 
+#### another function expression
+
+```python
+def sum(a, b): return a + b
+print(sum(2, 2))
+```
+
+<br>
+
+---
+
+<br>
+
 #### Lambda functions are often used in Python in situations where a function is required as an argument to higher-order functions (functions that take other functions as arguments), such as `map()`, `filter()`, and `sorted()`.
 
 They are a convenient way to define simple functions inline without the need for a full function definition.
