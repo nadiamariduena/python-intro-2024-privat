@@ -466,7 +466,6 @@ usage: argsParse4_banking.py [-h] -a amount -c
 argsParse4_banking.py: error: argument -r/--recipient: expected 2 arguments
 ```
 
-#### solution
+#### REASON
 
-- ChatGPT
-  The error you're encountering indicates that the -r or --recipient argument expects two separate arguments, but it seems like it's receiving them as one.
+- The error you're encountering indicates that the `-r` or `--recipient` argument expects two separate arguments, but it seems like it's receiving them as one.
