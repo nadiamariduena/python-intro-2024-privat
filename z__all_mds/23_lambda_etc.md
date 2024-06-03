@@ -21,7 +21,9 @@ print(add(3, 5))  # Output: 8
 
 <br>
 
-- In Python, a lambda function is a way to create small, anonymous functions. They are similar to regular functions defined using the def keyword, but with a few key differences:
+### 🍭 In Python, a lambda function is a way to create small, anonymous functions. They are similar to regular functions defined using the def keyword, but with a few key differences:
+
+- **Anonymous:** Lambda functions are anonymous, meaning they don't have a name like regular functions do. They are defined using the lambda keyword followed by parameters and an expression.
 
 <br>
 <br>
