@@ -16,4 +16,4 @@
 
 ### 🍭 Scenario: Processing User Preferences
 
-**Spotify** collects a vast amount of data about users' music preferences, including their likes, dislikes, playlists, and listening history. This data needs to be processed efficiently to provide personalized recommendations and features to millions of users.
+**Spotify** collects a vast amount of data about users' music preferences, including their **likes, dislikes, playlists, and listening history**. This data needs to be processed efficiently to provide personalized recommendations and features to millions of users.
