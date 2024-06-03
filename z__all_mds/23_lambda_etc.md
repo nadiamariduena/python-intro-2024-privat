@@ -19,6 +19,15 @@ print(add(3, 5))  # Output: 8
 # 3 +5 = 8
 ```
 
+<br>
+
+- In Python, a lambda function is a way to create small, anonymous functions. They are similar to regular functions defined using the def keyword, but with a few key differences:
+
+<br>
+<br>
+
+## ALSO:
+
 -In mathematics, lambda (λ) often denotes a parameter or variable in functions or calculus.
 
 - ✋ In computer science and distributed systems, ["Lambda"](https://aws.amazon.com/pm/lambda/?gclid=Cj0KCQjwsPCyBhD4ARIsAPaaRf3S1nW6pAbjQs9UkM1QB0OQYXuuzn5CBnmUqHWFRJDXD2KDAMC5msYaAvVVEALw_wcB&trk=c8019b8a-d2f2-4ec8-ac50-7bdc0dbe1996&sc_channel=ps&ef_id=Cj0KCQjwsPCyBhD4ARIsAPaaRf3S1nW6pAbjQs9UkM1QB0OQYXuuzn5CBnmUqHWFRJDXD2KDAMC5msYaAvVVEALw_wcB:G:s&s_kwcid=AL!4422!3!651612391322!e!!g!!lambda%20aws!19828205892!147081379877) can refer to AWS Lambda, which is a serverless computing service provided by Amazon Web Services.
