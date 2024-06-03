@@ -36,7 +36,24 @@ print(square(5))  # Output: 25
 
 **Small:** Lambda functions are typically used for small tasks and simple operations. They are often used where a function is needed for a short period of time and creating a named function would be overkill.
 
+```python
+# Using lambda function to add two numbers
+add = lambda x, y: x + y
+print(add(3, 5))  # Output: 8
+
+```
+
+<br>
+
 **Expression-based:** Lambda functions can only contain a single expression. This means they are limited in what they can do compared to regular functions, which can contain multiple statements and have more complex logic.
+
+```python
+# Using lambda function to check if a number is even
+is_even = lambda x: x % 2 == 0
+print(is_even(4))  # Output: True
+# Examples of odd numbers are 3, 5, 7, 9, 11, 13, 15,…
+# Examples of even numbers are 2, 4, 6, 8, 10, 12, 14,…
+```
 
 #### Lambda functions are often used in Python in situations where a function is required as an argument to higher-order functions (functions that take other functions as arguments), such as `map()`, `filter()`, and `sorted()`.
 
