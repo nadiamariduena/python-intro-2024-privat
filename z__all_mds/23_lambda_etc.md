@@ -27,6 +27,8 @@ print(add(3, 5))  # Output: 8
 
 **Small:** Lambda functions are typically used for small tasks and simple operations. They are often used where a function is needed for a short period of time and creating a named function would be overkill.
 
+**Expression-based:** Lambda functions can only contain a single expression. This means they are limited in what they can do compared to regular functions, which can contain multiple statements and have more complex logic.
+
 <br>
 <br>
 
