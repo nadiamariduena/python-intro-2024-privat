@@ -468,4 +468,13 @@ argsParse4_banking.py: error: argument -r/--recipient: expected 2 arguments
 
 #### REASON
 
-- The error you're encountering indicates that the `-r` or `--recipient` argument expects two separate arguments, but it seems like it's receiving them as one.
+- The error you're encountering indicates that the `-r` or `--recipient` argument expects **two separate** arguments, but it seems like it's receiving them as one.
+
+- When passing multiple arguments as one, make sure to separate them by a space.
+
+#### solution
+
+```javascript
+// type: Alice EUR instead of 'Alice EUR'
+python3 argsParse4_banking.py -a 100 -c USD -r Alice EUR
+```
