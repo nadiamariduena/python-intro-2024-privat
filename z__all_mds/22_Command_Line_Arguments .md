@@ -356,6 +356,9 @@ python3 spotify_recommendations.py -m "happy" -g "pop"
 ```
 
 <br>
+
+---
+
 <br>
 
 ### Banking example
@@ -450,3 +453,15 @@ if __name__ == "__main__":
     # result
     # Sending 82.00 EUR to Alice
 ```
+
+### 🔴 Possible errors
+
+```python
+python3 argsParse4_banking.py -a 100 -c USD -r "Alice EUR"
+Traceback (most recent call last):
+  File "argsParse4_banking.py", line 81, in <module>
+    recipient_currency = args.recipient[1]
+IndexError: list index out of range
+```
+
+#### solution
