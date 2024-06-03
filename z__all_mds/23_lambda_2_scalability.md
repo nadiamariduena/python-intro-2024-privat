@@ -83,3 +83,15 @@ trigger_update(user_id, song_id)
 ## 🍭 is S3 Bucket like mongo?
 
 - Amazon S3 (Simple Storage Service) and MongoDB are both storage solutions, but they serve different purposes and have different characteristics:
+
+### Amazon S3 (S3 Bucket):
+
+Amazon S3 is an object storage service provided by Amazon Web Services (AWS).
+
+It is designed for storing and retrieving any amount of data from anywhere on the web.
+
+S3 is highly scalable, durable, and reliable, making it suitable for a wide range of use cases, including static website hosting, data backup and archival, content distribution, and application data storage.
+
+S3 organizes data as objects within buckets. Each object consists of data, metadata, and a unique key (i.e., the object's identifier).
+
+S3 is accessed via HTTP(S) requests and offers a simple RESTful API for managing objects and buckets.
