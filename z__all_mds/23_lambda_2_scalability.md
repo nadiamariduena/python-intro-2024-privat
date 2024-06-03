@@ -68,8 +68,11 @@ trigger_update(user_id, song_id)
 
 ```
 
+<br>
+<br>
+
 ### tutorials
 
 [Mastering Amazon S3: The Complete Guide to AWS Simple Storage Service (S3)](https://www.youtube.com/watch?v=-7kIajo0zBA)
 
-[]()
+[Amazon S3 Object storage built to retrieve any amount of data from anywhere](https://aws.amazon.com/s3/)
