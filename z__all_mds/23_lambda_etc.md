@@ -33,17 +33,11 @@ square = lambda x: x**2
 print(square(5))  # Output: 25
 #
 #
-# another example
+# ✋ another example
 # a) we cannot do this
 lambda num : num * num
 # b) we can assign the lambda anony function to a variable, in this case will be 'squared'
 squared = (lambda num : num * num)
-
-#
-#
-#
-
-
 ```
 
 ## 🔴 Reformating issue
