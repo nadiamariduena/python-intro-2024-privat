@@ -76,3 +76,15 @@ They are a convenient way to define simple functions inline without the need for
 <br>
 
 - In functional programming languages like Lisp, lambda denotes an anonymous function.
+
+<br>
+<br>
+
+## examples 1
+
+```python
+def squared(num): return num + num
+print(squared(2))
+#result
+#4 // num + num or 2 + 2 = 4
+```
