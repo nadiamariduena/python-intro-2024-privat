@@ -29,6 +29,8 @@ print(add(3, 5))  # Output: 8
 
 **Expression-based:** Lambda functions can only contain a single expression. This means they are limited in what they can do compared to regular functions, which can contain multiple statements and have more complex logic.
 
+#### Lambda functions are often used in Python in situations where a function is required as an argument to higher-order functions (functions that take other functions as arguments), such as map(), filter(), and sorted(). They are a convenient way to define simple functions inline without the need for a full function definition.
+
 <br>
 <br>
 
