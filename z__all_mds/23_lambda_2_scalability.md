@@ -95,3 +95,20 @@ S3 is highly scalable, durable, and reliable, making it suitable for a wide rang
 S3 organizes data as objects within buckets. Each object consists of data, metadata, and a unique key (i.e., the object's identifier).
 
 S3 is accessed via HTTP(S) requests and offers a simple RESTful API for managing objects and buckets.
+
+<br>
+
+---
+
+<br>
+
+### MongoDB:
+
+MongoDB is a NoSQL database that provides a flexible, scalable, and document-oriented data model.
+
+It is designed for storing, retrieving, and managing structured and unstructured data.
+
+MongoDB stores data in flexible, JSON-like documents, making it suitable for a wide range of data types and schemas.
+MongoDB supports complex queries, indexing, and aggregation operations, allowing for powerful data manipulation and analysis.
+
+MongoDB is typically used as a database backend for applications, providing features such as high availability, horizontal scalability, and flexible data modeling.
