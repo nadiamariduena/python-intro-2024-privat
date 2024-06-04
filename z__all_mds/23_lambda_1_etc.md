@@ -177,7 +177,7 @@ So, the type of function being created here is a closure, specifically a closure
 <br>
 <br>
 
-# Concatenation
+# 🍭 Concatenation
 
 - Regarding concatenation instead of addition, if you want the function to concatenate instead of adding numbers, you would need to modify the lambda function returned by funcBuilder to perform string concatenation instead of addition. Here's how you can do it:
 
@@ -195,3 +195,7 @@ print(addTen(7))      # Output: '710'
 print(addTwenty(7))   # Output: '720'
 
 ```
+
+#### my question:
+
+- Is it similar to JavaScript, where errors can sometimes occur due to omitting the quotation marks `""`, in the way that mixing data types in Python without specifying the appropriate conversions may lead to errors?"
