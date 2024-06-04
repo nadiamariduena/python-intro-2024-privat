@@ -142,4 +142,4 @@ They are a convenient way to define simple functions inline without the need for
 <br>
 <br>
 
-## examples 1
+## Concatenation
