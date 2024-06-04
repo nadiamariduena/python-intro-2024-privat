@@ -205,3 +205,11 @@ print(addTwenty(7))   # Output: '720'
 - 🔴 Yes, in a way, it's similar to JavaScript in that context. In JavaScript, if you try to add a number to a string without explicitly converting one of them, it will perform type coercion, resulting in concatenation. Similarly, in Python, if you try to add a string and a number, it will raise a TypeError.
 
 #### javascript error example
+
+```javascript
+// WITH ERROR
+for (let i = 1; i <= 5; i++) {
+  console.log("Number " + i); // Error: Implicit conversion of number to string
+}
+// #Explanation: In this example, the number i is implicitly converted into a string when concatenated with the string "Number ", which may lead to unexpected behavior if arithmetic addition was intended.
+```
