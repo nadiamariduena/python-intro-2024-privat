@@ -143,3 +143,22 @@ They are a convenient way to define simple functions inline without the need for
 <br>
 
 ## Concatenation
+
+- first check this example, then in the second example you will see another way of doing it and why you have to add **str**
+
+```python
+# notice what is happening here
+def funcBuilder(x):
+    return lambda num: num + x
+
+addTen = funcBuilder(10)
+addTwenty = funcBuilder(20)
+
+print(addTen(7))
+print(addTwenty(7))
+
+# result
+#17
+# 27
+
+```
