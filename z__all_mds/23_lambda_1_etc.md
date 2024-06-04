@@ -184,5 +184,14 @@ So, the type of function being created here is a closure, specifically a closure
 ## ✋ example 2
 
 ```python
+def funcBuilder(x):
+    # specify the str
+    return lambda num: str(num) + str(x)
+
+addTen = funcBuilder(10)
+addTwenty = funcBuilder(20)
+
+print(addTen(7))      # Output: '710'
+print(addTwenty(7))   # Output: '720'
 
 ```
