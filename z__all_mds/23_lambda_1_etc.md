@@ -306,3 +306,7 @@ print(addSummerHitsSongs("Summer Hits"))
 #### chatgpt:
 
 - Yes, you've got it. The creation and modification of the chill_vibes_songs and summer_hits_songs lists are indeed outside the scope of the playlistBuilder function.
+
+The **playlistBuilder** function itself doesn't interact with these lists directly. It simply takes a list of **songs** (`def playlistBuilder(songs):`) as an argument and returns a lambda function that generates a message indicating the songs being added to a playlist.
+
+So, you can use playlistBuilder to create functions like addChillVibesSongs and addSummerHitsSongs and then manipulate the lists independently. In your example, chill_vibes_songs.append("Song 4") is entirely separate from the playlistBuilder function and has no impact on the function addChillVibesSongs.
