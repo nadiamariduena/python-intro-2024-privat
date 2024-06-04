@@ -12,6 +12,8 @@ print(addTwenty(7))
 #17
 # 27
 def playlistBuilder(songs):
+    #
+    #
     return lambda playlist_name: f"Adding songs to {playlist_name} playlist: {', '.join(songs)}"
 
 # List of songs for the "Chill Vibes" playlist
@@ -20,7 +22,8 @@ chill_vibes_songs = ["Song 1", "Song 2", "Song 3"]
 summer_hits_songs = ["Song A", "Song B", "Song C"]
 
 
-# here you are assigning the value of chill_vibes_songs to addChillVibesSongs, then the addChillVibesSongs will be appending a new song "Song 4"
+# Here you are assigning the value of chill_vibes_songs to addChillVibesSongs, then the addChillVibesSongs will be appending a new song "Song 4"
+# Look ath the scope of the playlistBuilder
 addChillVibesSongs = playlistBuilder(chill_vibes_songs)
 addSummerHitsSongs = playlistBuilder(summer_hits_songs)
 
