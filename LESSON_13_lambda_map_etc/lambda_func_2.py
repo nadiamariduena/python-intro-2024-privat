@@ -11,6 +11,10 @@ print(addTwenty(7))
 # result
 #17
 # 27
+#
+#
+# ---------- read the '23_lambda_1_etc.md'
+
 def playlistBuilder(songs):
     #
     #
