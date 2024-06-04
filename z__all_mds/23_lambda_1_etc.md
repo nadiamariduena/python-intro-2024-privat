@@ -175,6 +175,11 @@ In this case, **addTen** and addTwenty are both functions created by calling fun
 So, the type of function being created here is a closure, specifically a closure that adds a specified **number** `(x)` to another number **(num)**.
 
 <br>
+<br>
+
+# Concatenation
+
+- Regarding concatenation instead of addition, if you want the function to concatenate instead of adding numbers, you would need to modify the lambda function returned by funcBuilder to perform string concatenation instead of addition. Here's how you can do it:
 
 ## ✋ example 2
 
