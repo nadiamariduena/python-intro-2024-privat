@@ -151,6 +151,7 @@ They are a convenient way to define simple functions inline without the need for
 - first check this example, then in the second example you will see another way of doing it and why you have to add **str**
 
 ```python
+# ✋ example 1)
 # notice what is happening here
 def funcBuilder(x):
     return lambda num: num + x
@@ -166,3 +167,5 @@ print(addTwenty(7))
 # 27
 
 ```
+
+The **funcBuilder** function returns a lambda function that takes a parameter num and adds it to x, which is provided when calling funcBuilder. This pattern is known as closure, where the returned function retains access to the variables in the scope where it was defined.
