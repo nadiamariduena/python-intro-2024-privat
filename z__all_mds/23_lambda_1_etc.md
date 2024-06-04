@@ -221,3 +221,18 @@ for (let i = 1; i <= 5; i++) {
 }
 // Explanation: To avoid the error, explicitly convert the number i to a string using the toString() method before concatenation.
 ```
+
+#### python error example
+
+```python
+for i in range(1, 6):
+    print("Number " + i)  # Error: TypeError: can only concatenate str (not "int") to str
+    #
+#Explanation: In this example, the integer i is attempted to be concatenated with the string "Number ", causing a TypeError due to the attempt to concatenate incompatible types.
+#
+#
+# --------
+# without error
+#
+
+```
