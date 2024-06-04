@@ -142,7 +142,11 @@ They are a convenient way to define simple functions inline without the need for
 <br>
 <br>
 
-## Concatenation
+---
+
+<br>
+
+# Concatenation
 
 - first check this example, then in the second example you will see another way of doing it and why you have to add **str**
 
