@@ -199,3 +199,9 @@ print(addTwenty(7))   # Output: '720'
 #### my question:
 
 - Is it similar to JavaScript, where errors can sometimes occur due to omitting the quotation marks `""`, in the way that mixing data types in Python without specifying the appropriate conversions may lead to errors?"
+
+#### chatgpt answer:
+
+- 🔴 Yes, in a way, it's similar to JavaScript in that context. In JavaScript, if you try to add a number to a string without explicitly converting one of them, it will perform type coercion, resulting in concatenation. Similarly, in Python, if you try to add a string and a number, it will raise a TypeError.
+
+#### javascript error example
