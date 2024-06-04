@@ -300,3 +300,9 @@ chill_vibes_songs.append("Song 4")
 print(addChillVibesSongs("Chill Vibes"))
 print(addSummerHitsSongs("Summer Hits"))
 ```
+
+<br>
+
+#### chatgpt:
+
+- Yes, you've got it. The creation and modification of the chill_vibes_songs and summer_hits_songs lists are indeed outside the scope of the playlistBuilder function.
