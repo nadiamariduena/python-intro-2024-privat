@@ -234,5 +234,9 @@ for i in range(1, 6):
 # --------
 # without error
 #
-
+for i in range(1, 6):
+    print("Number " + str(i))  # Outputs: "Number 1", "Number 2", ..., "Number 5"
+    #
+    #
+# Explanation: To avoid the error, explicitly convert the integer i to a string using the str() function before concatenation.
 ```
