@@ -146,9 +146,9 @@ They are a convenient way to define simple functions inline without the need for
 
 <br>
 
-# Concatenation
+# ADDITION > Concatenation
 
-- first check this example, then in the second example you will see another way of doing it and why you have to add **str**
+- First check this example below, then in the second example you will see another way of doing it (with concatenation) and why you have to add **str**
 
 ```python
 # ✋ example 1)
@@ -173,3 +173,11 @@ The **funcBuilder** function returns a lambda function that takes a parameter nu
 In this case, **addTen** and addTwenty are both functions created by calling funcBuilder with different values for `x`. They are essentially functions that add **10 and 20** respectively to whatever number is passed to them.
 
 So, the type of function being created here is a closure, specifically a closure that adds a specified **number** `(x)` to another number **(num)**.
+
+<br>
+
+## ✋ example 2
+
+```python
+
+```
