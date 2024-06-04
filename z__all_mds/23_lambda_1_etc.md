@@ -212,4 +212,12 @@ for (let i = 1; i <= 5; i++) {
   console.log("Number " + i); // Error: Implicit conversion of number to string
 }
 // #Explanation: In this example, the number i is implicitly converted into a string when concatenated with the string "Number ", which may lead to unexpected behavior if arithmetic addition was intended.
+//
+//  ----------
+//
+// WITHOUT err
+for (let i = 1; i <= 5; i++) {
+  console.log("Number " + i.toString()); // Outputs: "Number 1", "Number 2", ..., "Number 5"
+}
+// Explanation: To avoid the error, explicitly convert the number i to a string using the toString() method before concatenation.
 ```
