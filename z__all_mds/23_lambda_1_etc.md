@@ -171,3 +171,5 @@ print(addTwenty(7))
 The **funcBuilder** function returns a lambda function that takes a parameter num and adds it to x, which is provided when calling funcBuilder. This pattern is known as closure, where the returned function retains access to the variables in the scope where it was defined.
 
 In this case, **addTen** and addTwenty are both functions created by calling funcBuilder with different values for `x`. They are essentially functions that add **10 and 20** respectively to whatever number is passed to them.
+
+So, the type of function being created here is a closure, specifically a closure that adds a specified **number** `(x)` to another number **(num)**.
