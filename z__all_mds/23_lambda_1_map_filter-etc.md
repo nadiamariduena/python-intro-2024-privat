@@ -365,3 +365,7 @@ print(reversed_strings)
 - The second colon `:` indicates the **end** of the slicing operation. If not specified, it defaults to the beginning or end of the sequence.
 
 - The `-1` indicates the step size, which in this case is `-1`, meaning it reverses the sequence.
+
+#### 🌈 So, `[::-1]` essentially means
+
+- **"start from the end, go to the beginning, stepping backwards by one element,"** resulting in the reversal of the sequence.
