@@ -75,10 +75,16 @@ In the example you provided, the randomfunfact3() function is defined, and then 
 <br>
 <br>
 
-% is the modulo operator, not a percentage calculation. The % operator returns the remainder of the division operation. So, x % 2 returns 0 if x is even (because it's divisible by 2 with no remainder), and it returns a non-zero value if x is odd.
+## `%` is the modulo operator
 
-For example:
+`%` is the modulo operator, not a percentage calculation.
 
+- The % operator returns the remainder of the division operation. So, x % 2 returns 0 if x is even (because it's divisible by 2 with no remainder), and it returns a non-zero value if x is odd.
+
+#### For example:
+
+```javascript
 4 % 2 equals 0 because 4 is evenly divisible by 2.
 5 % 2 equals 1 because 5 divided by 2 leaves a remainder of 1.
 So, x % 2 == 0 checks if x is divisible by 2 with no remainder, which is true for even numbers.
+```
