@@ -358,6 +358,8 @@ print(reversed_strings)
 
 ### explanation:
 
-`[::-1]` is a slicing notation used to reverse a sequence (string, list, tuple, etc.).
+- `[::-1]` is a slicing notation used to reverse a sequence (string, list, tuple, etc.).
 
-The first colon `:` **indicates the start** of the slicing operation.
+- The first colon `:` indicates the **start** of the slicing operation.
+
+- The second colon `:` indicates the **end** of the slicing operation. If not specified, it defaults to the beginning or end of the sequence.
