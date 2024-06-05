@@ -41,3 +41,14 @@ playlist = [("Song 1", 180), ("Song 2", 240), ("Song 3", 200), ("Song 4", 300), 
 
 # We want to filter out songs that are shorter than 200 seconds
 filtered_playlist = list(filter(lambda song: song[1] >= 200, playlist))
+
+
+print("Filtered Playlist:")
+print(filtered_playlist)
+
+# Now, let's say we want to convert the duration of the remaining songs from seconds to minutes
+# We can use map and a lambda function to achieve this
+converted_playlist = list(map(lambda song: (song[0], song[1] // 60), filtered_playlist))
+
+print("\nConverted Playlist (in minutes):")
+print(converted_playlist)
