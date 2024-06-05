@@ -16,3 +16,5 @@ print(list(squared_nums))
 #
 # ** FILTER
 numbers_2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Using filter with lambda to FILTER out even numbers
