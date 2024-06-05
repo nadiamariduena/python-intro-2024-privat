@@ -357,3 +357,5 @@ print(reversed_strings)
 <br>
 
 ### explanation:
+
+`[::-1]` is a slicing notation used to reverse a sequence (string, list, tuple, etc.).
