@@ -29,3 +29,11 @@ even_numbers = list(filter(lambda x: x % 2 == 0, numbers_2))
 print(list(even_numbers))
 # result
 #[2, 4, 6, 8, 10]
+
+#
+#
+# SPOTIFY map example
+
+# We want to filter out songs that are shorter than 200 seconds
+# Let's assume we have a list of tuples where each tuple represents a song in the format (song_name, duration_in_seconds)
+playlist = [("Song 1", 180), ("Song 2", 240), ("Song 3", 200), ("Song 4", 300), ("Song 5", 150)]
