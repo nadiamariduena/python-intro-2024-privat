@@ -1,5 +1,7 @@
 # Higher level functions
 # its A function that takes one or more functions
+#
+# ** MAP
 # 3 x 3= 9 etc
 numbers = [3, 7, 12, 18, 20, 21]
 
@@ -9,3 +11,8 @@ print(list(squared_nums))
 
 # result
 # [9, 49, 144, 324, 400, 441]
+
+#
+#
+# ** FILTER
+numbers_2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
