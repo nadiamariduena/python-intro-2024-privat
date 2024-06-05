@@ -37,3 +37,7 @@ print(list(even_numbers))
 # We want to filter out songs that are shorter than 200 seconds
 # Let's assume we have a list of tuples where each tuple represents a song in the format (song_name, duration_in_seconds)
 playlist = [("Song 1", 180), ("Song 2", 240), ("Song 3", 200), ("Song 4", 300), ("Song 5", 150)]
+
+
+# We want to filter out songs that are shorter than 200 seconds
+filtered_playlist = list(filter(lambda song: song[1] >= 200, playlist))
