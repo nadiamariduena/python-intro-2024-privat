@@ -387,7 +387,9 @@ negative_step = sequence[::-1]
 print(negative_step)
 # result:
 #[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-
+# -- With a negative step size (-1), the sequence is traversed from right to left, selecting every element in reverse order.
+#
+# - - So, sequence[::-1] returns the reversed sequence, selecting each element from the end to the beginning.
 ```
 
 <br>
