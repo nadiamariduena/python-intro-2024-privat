@@ -22,5 +22,6 @@ numbers_2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 even_numbers = list(filter(lambda x: x % 2 == 0, numbers_2))
 
 ## remember
+# The % operator returns the remainder of the division operation
 # 4 % 2 equals 0 because 4 is evenly divisible by 2.
 # 5 % 2 equals 1 because 5 divided by 2 leaves a remainder of 1.
