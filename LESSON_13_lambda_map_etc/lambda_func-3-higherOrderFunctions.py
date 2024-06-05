@@ -12,6 +12,7 @@ print(list(squared_nums))
 # result
 # [9, 49, 144, 324, 400, 441]
 
+print("--------")
 #
 #
 # ** FILTER
@@ -25,3 +26,6 @@ even_numbers = list(filter(lambda x: x % 2 == 0, numbers_2))
 # The % operator returns the remainder of the division operation
 # 4 % 2 equals 0 because 4 is evenly divisible by 2.
 # 5 % 2 equals 1 because 5 divided by 2 leaves a remainder of 1.
+print(list(even_numbers))
+# result
+#[2, 4, 6, 8, 10]
