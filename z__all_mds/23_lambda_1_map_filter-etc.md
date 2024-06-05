@@ -366,6 +366,30 @@ print(reversed_strings)
 
 - The `-1` indicates the step size, which in this case is `-1`, meaning it reverses the sequence.
 
+### more:
+
+```python
+# ✋ Positive step size ([::1]):
+sequence = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+positive_step = sequence[::1]
+print(positive_step)
+#result
+#[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# - - With a positive step size (1), the sequence is traversed from left to right, selecting every element.
+# - - So, sequence[::1] returns the original sequence as it selects every element in the original order.
+#--------
+
+```
+
+<br>
+<br>
+
 #### 🌈 So, `[::-1]` essentially means
 
 - **"start from the end, go to the beginning, stepping backwards by one element,"** resulting in the reversal of the sequence.
+
+### result
+
+```python
+ ['elppa', 'ananab', 'yrrehc', 'etad', 'yrrebredle']
+```
