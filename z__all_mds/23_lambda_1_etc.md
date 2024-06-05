@@ -277,15 +277,13 @@ print(addSummerHitsSongs("Summer Hits"))
 <br>
 <br>
 
-### Understanding
+### explanation
 
 **QUESTION:**
 
 - so all the below is out of the **scope** of the playlistBuilder, that is why i can use the playlistBuilder when assigning the value to the addChillVibesSongs and eventually appending a new song ?
 
 ```python
-
-
 # List of songs for the "Chill Vibes" playlist
 chill_vibes_songs = ["Song 1", "Song 2", "Song 3"]
 # List of songs for the "Summer Hits" playlist
@@ -310,3 +308,34 @@ print(addSummerHitsSongs("Summer Hits"))
 The **playlistBuilder** function itself doesn't interact with these lists directly. It simply takes a list of **songs** (`def playlistBuilder(songs):`) as an argument and returns a lambda function that generates a message indicating the songs being added to a playlist.
 
 So, you can use playlistBuilder to create functions like addChillVibesSongs and addSummerHitsSongs and then manipulate the lists independently. In your example, chill_vibes_songs.append("Song 4") is entirely separate from the playlistBuilder function and has no impact on the function addChillVibesSongs.
+
+<br>
+<br>
+
+# 🍭 FILTER & MAP
+
+```python
+# SPOTIFY map example
+
+# We want to filter out songs that are shorter than 200 seconds
+# Let's assume we have a list of tuples where each tuple represents a song in the format (song_name, duration_in_seconds)
+playlist = [("Song 1", 180), ("Song 2", 240), ("Song 3", 200), ("Song 4", 300), ("Song 5", 150)]
+
+
+# 🖐️ We want to filter out songs that are shorter than 200 seconds
+filtered_playlist = list(filter(lambda song: song[1] >= 200, playlist))
+
+
+print("Filtered Playlist:")
+print(filtered_playlist)
+
+# 🤚 Now, let's say we want to convert the duration of the remaining songs from seconds to minutes
+# We can use map and a lambda function to achieve this
+converted_playlist = list(map(lambda song: (song[0], song[1] // 60), filtered_playlist))
+
+print("\nConverted Playlist (in minutes):")
+print(converted_playlist)
+```
+
+<br>
+<br>
