@@ -378,6 +378,15 @@ print(positive_step)
 # - - With a positive step size (1), the sequence is traversed from left to right, selecting every element.
 # - - So, sequence[::1] returns the original sequence as it selects every element in the original order.
 #--------
+#
+#
+# ✋ Negative step size ([::-1]):
+
+sequence = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+negative_step = sequence[::-1]
+print(negative_step)
+# result:
+#[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 
 ```
 
