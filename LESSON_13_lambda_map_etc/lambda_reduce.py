@@ -18,3 +18,12 @@ def sum_total(a,b): return  a + b
 print(sum_total(10,19))
 #result
 #29
+#
+#
+numbers_0 = [2, 4,6, 6]
+
+# Using lambda function to sum up the values of the list
+
+sum_0 = reduce(lambda x, y: x + y, numbers_0)
+
+print("Sum of numbers", sum_0)
