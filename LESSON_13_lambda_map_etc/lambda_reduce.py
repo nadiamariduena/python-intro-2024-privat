@@ -161,3 +161,4 @@ order__s = [
 
 total__revenue = reduce(lambda acc, order: acc + order[2], order__s, 0 )
 
+# going down on the branch to reach the order[2]
