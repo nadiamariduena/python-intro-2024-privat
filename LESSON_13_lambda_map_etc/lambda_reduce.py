@@ -86,3 +86,4 @@ shoe_prices = [50, 70, 90, 60] # prices of shoes in dollars
 #
 total_revenue = reduce(lambda x, y: x + y, shoe_prices)
 
+print("Total revenue from selling shoes", total_revenue, "dollars")
