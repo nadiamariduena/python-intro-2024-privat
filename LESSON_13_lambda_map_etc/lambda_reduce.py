@@ -96,3 +96,7 @@ print("Total revenue from selling shoes", total_revenue, "dollars")
 # ------------
 # Suppose we have a list of tuples where each tuple represents a shoe sale. Each tuple contains the shoe size and its corresponding price. We want to find the total revenue generated from selling these shoes across all sizes.
 # ------------
+
+from functools import reduce
+
+shoe_sales = [(8, 50), (9, 70), (7, 90), (8, 60), (10, 80)]  # (size, price) tuples
