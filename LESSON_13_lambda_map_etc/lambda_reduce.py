@@ -35,3 +35,9 @@ print("Sum of numbers", sum_0)
 #
 #
 # ** 2)--- Finding the maximum number in a list using reduce and a lambda function:
+
+numbers_2 = [10, 20, 5]
+
+# Using lambda function to find the maximum number
+
+max_number = reduce(lambda x, y: x if x > y else y, numbers_2)
