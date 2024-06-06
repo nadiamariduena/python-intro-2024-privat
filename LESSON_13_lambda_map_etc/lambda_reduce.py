@@ -41,3 +41,8 @@ numbers_2 = [10, 20, 5]
 # Using lambda function to find the maximum number
 
 max_number = reduce(lambda x, y: x if x > y else y, numbers_2)
+
+print("Maximum number:", max_number)
+
+# result
+#Maximum number: 20
