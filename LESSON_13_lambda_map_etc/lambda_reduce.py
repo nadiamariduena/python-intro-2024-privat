@@ -1,6 +1,6 @@
 
 # ** REDUCE
-# sum up the list
+# ** 1)--- sum up the list
 from functools import reduce
 # accumulator
 # current
@@ -30,3 +30,6 @@ print("Sum of numbers", sum_0)
 
 # result
 #Sum of numbers 18
+#
+#
+# ** 2)--- Finding the maximum number in a list using reduce and a lambda function:
