@@ -100,3 +100,5 @@ print("Total revenue from selling shoes", total_revenue, "dollars")
 from functools import reduce
 
 shoe_sales = [(8, 50), (9, 70), (7, 90), (8, 60), (10, 80)]  # (size, price) tuples
+
+# Now we want to calculate the total revenue. We can still use `reduce` along with a lambda function, but this time, we need to extract the price from each tuple and accumulate it to find the total revenue
