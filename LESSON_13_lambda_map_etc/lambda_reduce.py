@@ -104,3 +104,5 @@ shoe_sales = [(8, 50), (9, 70), (7, 90), (8, 60), (10, 80)]  # (size, price) tup
 # Now we want to calculate the total revenue. We can still use `reduce` along with a lambda function, but this time, we need to extract the price from each tuple and accumulate it to find the total revenue
 
 total_revenue = reduce(lambda acc, sale: acc + sale[1], shoe_sales, 0)
+
+# In this example, the lambda function lambda acc, sale: acc + sale[1] takes two arguments: acc (the accumulated revenue so far) and sale (the current sale tuple). It extracts the price (the second element) from each sale tuple and adds it to the accumulated revenue. The reduce function applies this lambda function cumulatively to the list shoe_sales, starting with an initial value of 0 for the accumulated revenue, resulting in the total revenue generated from selling shoes.
