@@ -147,6 +147,9 @@ print("total revenue from pizza orders:", total_revenue, "dollars")
 # 25 total of pizza & salad
 #
 orders = [
-    ("Alice", ["Pizza", "Salad", 25])
+    ("Alice", ["Pizza", "Salad", 25]),
+    ("Bob", ["Burguer", "Fries", "Soda"], 20),
+    ("Charlie", ["Pizza", "Wings", "Soda", 30]),
+    ("David", ["Salad", "Soup"], 15)
 
 ]
