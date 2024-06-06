@@ -117,5 +117,6 @@ print("Total revenue from selling shoes:", total_revenue, "dollars")
 #
 # ** pizza resto
 # ------------
-#
+# pizza restaurant where we have a list of orders. Each order is represented by a tuple containing the pizza size and its corresponding price. We want to find the total revenue generated from these orders.
+
 #
