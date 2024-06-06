@@ -53,3 +53,10 @@ print("Maximum number:", max_number)
 
 # result
 #Maximum number: 20
+
+#
+# SPOTIFY
+# ------------
+# FIND THE DURATION OF A List
+# ------------
+
