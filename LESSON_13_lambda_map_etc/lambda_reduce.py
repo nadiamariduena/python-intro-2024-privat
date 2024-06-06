@@ -124,6 +124,10 @@ print("Total revenue from selling shoes:", total_revenue, "dollars")
 #
 pizza_orders = [("medium", 12), ("large", 15), ("small",10), ("largeXl", 18), ("mediumXl", 14 )]
 
-# Now we want to calculate the total revenue. We can use `reduce` along with a lambda function, similar to the previous example.
+# - Now we want to calculate the total revenue.
+# - We can use `reduce` along with a lambda function, similar to the previous example.
 #
 # - This time, we need to extract the price from each order TUPLE and accumulate it to find the total revenue.
+
+total_revenue = reduce(lambda acc, order: acc + order[1], pizza_orders, 0)
+# in this example, the lambda function 'lambda acc, order: acc + order[1]' takes 2 arguments 'acc' (the accumulated revenue so far) and 'order (the current tuple). It extracts the price
