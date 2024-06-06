@@ -153,3 +153,8 @@ orders = [
     ("David", ["Salad", "Soup"], 15)
 
 ]
+
+# Now we want to calculate the total revenue
+# We can use 'reduce' along with a LAMBDA function to achieve this.
+
+# This time, we need to EXTRACT the TOTAL price from each order TUPLE and accumulate it to find the TOTAL revenue.
