@@ -1,7 +1,9 @@
 
 # ** REDUCE
 # ** 1)--- sum up the list
+#---------------------------
 from functools import reduce
+#----------------------------
 # accumulator
 # current
 numbers = [1,2,3,4,5,1]
