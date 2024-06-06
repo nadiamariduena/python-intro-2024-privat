@@ -120,3 +120,7 @@ print("Total revenue from selling shoes:", total_revenue, "dollars")
 # pizza restaurant where we have a list of orders. Each order is represented by a tuple containing the pizza size and its corresponding price. We want to find the total revenue generated from these orders.
 
 #
+# from functools import reduce
+#
+pizza_orders = [("medium", 12), ("large", 15), ("small",10), ("largeXl", 18), ("mediumXl", 14 )]
+
