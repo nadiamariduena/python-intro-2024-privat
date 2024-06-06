@@ -139,3 +139,8 @@ print("total revenue from pizza orders:", total_revenue, "dollars")
 #
 # result
 # total revenue from pizza orders: 69 dollars
+
+#
+# ** pizza resto 2
+# ------------
+# from functools import reduce
