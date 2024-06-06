@@ -44,7 +44,7 @@ print("Sum of numbers", sum_0)
 numbers_2 = [10, 20, 5]
 
 # Using lambda function to find the maximum number
-
+#lambda x, y: x if x > y else y: This is a lambda function that takes two arguments, x and y, representing two elements from the list numbers. It compares these two elements and returns the greater one.
 max_number = reduce(lambda x, y: x if x > y else y, numbers_2)
 
 print("Maximum number:", max_number)
