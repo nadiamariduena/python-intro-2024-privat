@@ -162,3 +162,7 @@ order__s = [
 total__revenue = reduce(lambda acc, order: acc + order[2], order__s, 0 )
 
 # going down on the branch to reach the order[2]
+# ** BY going down the branch i mean this: david is pos 0, pizza etc is pos 1, and 25 is position 2
+# order[0]: Customer's name
+# order[1]: Items ordered (a list of strings)
+# order[2]: Total price of the order
