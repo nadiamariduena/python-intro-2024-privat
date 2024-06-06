@@ -84,3 +84,5 @@ shoe_prices = [50, 70, 90, 60] # prices of shoes in dollars
 # we want to find the total revenue generated from selling these shoes. We can use "reduce" and a lambda function like this:
 #
 #
+total_revenue = reduce(lambda x, y: x + y, shoe_prices)
+
