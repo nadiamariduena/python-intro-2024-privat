@@ -66,3 +66,6 @@ playlist_durations = [180, 240, 200, 300, 210] # duration of songs in seconds
 total_duration = reduce(lambda x, y: x + y, playlist_durations)
 
 print("Total duration of the playlist:", total_duration, "seconds")
+
+# result
+#Total duration of the playlist: 1130 seconds
