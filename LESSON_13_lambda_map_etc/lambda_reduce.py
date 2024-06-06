@@ -166,3 +166,6 @@ total__revenue = reduce(lambda acc, order: acc + order[2], order__s, 0 )
 # order[0]: Customer's name
 # order[1]: Items ordered (a list of strings)
 # order[2]: Total price of the order
+print("Total revenue from orders:", total_revenue, "dollars")
+
+# Total revenue from orders: 125 dollars
