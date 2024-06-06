@@ -136,3 +136,6 @@ total_revenue = reduce(lambda acc, order: acc + order[1], pizza_orders, 0)
 
 # - The 'reduce function applies this lambda function cumulatively to the list 'pizza_orders', starting with an initial value of 0 for the accumulated revenue, resulting in the total revenue generated from pizza orders.
 print("total revenue from pizza orders:", total_revenue, "dollars")
+#
+# result
+# total revenue from pizza orders: 69 dollars
