@@ -89,3 +89,10 @@ total_revenue = reduce(lambda x, y: x + y, shoe_prices)
 print("Total revenue from selling shoes", total_revenue, "dollars")
 # result
 # Total revenue from selling shoes 270 dollars
+#
+#
+#
+# ** Shoes ESHOP
+# ------------
+# Suppose we have a list of tuples where each tuple represents a shoe sale. Each tuple contains the shoe size and its corresponding price. We want to find the total revenue generated from selling these shoes across all sizes.
+# ------------
