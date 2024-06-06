@@ -133,3 +133,5 @@ total_revenue = reduce(lambda acc, order: acc + order[1], pizza_orders, 0)
 # ** in this example, the lambda function 'lambda acc, order: acc + order[1]' takes 2 arguments 'acc' (the accumulated revenue so far) and 'order (the current tuple).
 #
 # - It extracts the price (the second element) from each order tuple and adds it to the accumulated revenue.
+
+# - The 'reduce function applies this lambda function cumulatively to the list 'pizza_orders', starting with an initial value of 0 for the accumulated revenue, resulting in the total revenue generated from pizza orders.
