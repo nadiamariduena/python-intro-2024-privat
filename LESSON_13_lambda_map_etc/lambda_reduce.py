@@ -146,7 +146,7 @@ print("total revenue from pizza orders:", total_revenue, "dollars")
 # from functools import reduce
 # 25 total of pizza & salad
 #
-orders = [
+order__s = [
     ("Alice", ["Pizza", "Salad", 25]),
     ("Bob", ["Burguer", "Fries", "Soda"], 20),
     ("Charlie", ["Pizza", "Wings", "Soda", 30]),
@@ -158,3 +158,6 @@ orders = [
 # We can use 'reduce' along with a LAMBDA function to achieve this.
 
 # This time, we need to EXTRACT the TOTAL price from each order TUPLE and accumulate it to find the TOTAL revenue.
+
+total__revenue = reduce(lambda acc, order: acc + order[2], order__s, 0 )
+
