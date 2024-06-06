@@ -1,5 +1,10 @@
 
 # ** REDUCE
+#reduce: reduce() is a function from the functools module in Python. It applies a function of two arguments cumulatively to the items of an iterable (such as a list), from left to right, so as to reduce the iterable to a single value.
+#
+#
+#
+
 # ** 1)--- sum up the list
 #---------------------------
 from functools import reduce
