@@ -61,3 +61,6 @@ print("Maximum number:", max_number)
 # ------------
 
 playlist_durations = [180, 240, 200, 300, 210] # duration of songs in seconds
+
+# find the total duration
+total_duration = reduce(lambda x, y: x + y, playlist_durations)
