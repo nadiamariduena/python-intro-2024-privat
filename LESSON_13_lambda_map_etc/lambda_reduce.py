@@ -60,3 +60,4 @@ print("Maximum number:", max_number)
 # FIND THE DURATION OF A List
 # ------------
 
+playlist_durations = [180, 240, 200, 300, 210] # duration of songs in seconds
