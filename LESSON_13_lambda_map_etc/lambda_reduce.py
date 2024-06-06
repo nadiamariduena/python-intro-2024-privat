@@ -27,3 +27,6 @@ numbers_0 = [2, 4,6, 6]
 sum_0 = reduce(lambda x, y: x + y, numbers_0)
 
 print("Sum of numbers", sum_0)
+
+# result
+#Sum of numbers 18
