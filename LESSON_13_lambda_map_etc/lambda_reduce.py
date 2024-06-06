@@ -55,7 +55,7 @@ print("Maximum number:", max_number)
 #Maximum number: 20
 
 #
-# SPOTIFY
+# ** SPOTIFY
 # ------------
 # FIND THE DURATION OF A List
 # ------------
@@ -69,3 +69,11 @@ print("Total duration of the playlist:", total_duration, "seconds")
 
 # result
 #Total duration of the playlist: 1130 seconds
+#
+#
+#
+
+# ** Shoes ESHOP
+# ------------
+#  find the total revenue generated from selling these shoes
+# ------------
