@@ -111,3 +111,11 @@ print("Total revenue from selling shoes:", total_revenue, "dollars")
 
 # result
 # Total revenue from selling shoes: 350 dollars
+
+
+#
+#
+# ** pizza resto
+# ------------
+#
+#
