@@ -1,6 +1,6 @@
 
 # ** REDUCE
-
+# sum up the list
 from functools import reduce
 # accumulator
 # current
