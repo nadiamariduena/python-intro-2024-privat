@@ -18,6 +18,9 @@ def calculate_total_revenue_2(orders__3):
         # Extract the total price of the current order and add it to
         # the revenue
         return orders__3[0][2] + calculate_total_revenue_2(orders__3[1:])
+    #- calculate_total_revenue(orders[1:]): This part is a recursive call to the calculate_total_revenue function with a slice of the orders list, starting from the second order onwards. Here's what happens:
+    #- orders[1:] creates a new list containing all orders except the first one.
+
 
 orders__3 = [
      ("Alice", ["Pizza", "Salad"], 25),
