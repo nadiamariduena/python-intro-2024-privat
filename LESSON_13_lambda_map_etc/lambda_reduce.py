@@ -211,3 +211,5 @@ def process_payment(total_amount, card_type):
 
     # Deduct the processig fee from the total amount
     total_after_fee = total_amount - processing_fee
+
+    return total_after_fee
