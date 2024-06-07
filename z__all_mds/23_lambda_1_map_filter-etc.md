@@ -506,3 +506,25 @@ print("Total duration of the playlist:", total_duration, "seconds")
 
 <br>
 <br>
+
+```python
+
+# ** Shoes ESHOP
+# ------------
+#  find the total revenue generated from selling these shoes.add()
+# -We can use reduce along with a lambda function to calculate the total revenue.
+# ------------
+
+shoe_prices = [50, 70, 90, 60] # prices of shoes in dollars
+
+# we want to find the total revenue generated from selling these shoes. We can use "reduce" and a lambda function like this:
+#
+#
+total_revenue = reduce(lambda x, y: x + y, shoe_prices)
+
+print("Total revenue from selling shoes", total_revenue, "dollars")
+# result
+# Total revenue from selling shoes 270 dollars
+#
+#
+```
