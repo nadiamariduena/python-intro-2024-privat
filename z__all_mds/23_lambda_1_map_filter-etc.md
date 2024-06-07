@@ -528,3 +528,31 @@ print("Total revenue from selling shoes", total_revenue, "dollars")
 #
 #
 ```
+
+<br>
+<br>
+
+```python
+
+# ** Shoes ESHOP
+# ------------
+# Suppose we have a list of tuples where each tuple represents a shoe sale. Each tuple contains the shoe size and its corresponding price. We want to find the total revenue generated from selling these shoes across all sizes.
+# ------------
+
+from functools import reduce
+
+shoe_sales = [(8, 50), (9, 70), (7, 90), (8, 60), (10, 80)]  # (size, price) tuples
+
+# Now we want to calculate the total revenue. We can still use `reduce` along with a lambda function, but this time, we need to extract the price from each tuple and accumulate it to find the total revenue
+
+total_revenue = reduce(lambda acc, sale: acc + sale[1], shoe_sales, 0)
+
+# In this example, the lambda function lambda acc, sale: acc + sale[1] takes two arguments: acc (the accumulated revenue so far) and sale (the current sale tuple). It extracts the price (the second element) from each sale tuple and adds it to the accumulated revenue. The reduce function applies this lambda function cumulatively to the list shoe_sales, starting with an initial value of 0 for the accumulated revenue, resulting in the total revenue generated from selling shoes.
+
+print("Total revenue from selling shoes:", total_revenue, "dollars")
+
+# result
+# Total revenue from selling shoes: 350 dollars
+
+
+```
