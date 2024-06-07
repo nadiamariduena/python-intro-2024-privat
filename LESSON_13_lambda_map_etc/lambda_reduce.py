@@ -178,6 +178,7 @@ print("Total revenue from orders:", total_revenue, "dollars")
 
 
 #
-def calculate_total_revenue_2(orders_3):
+def calculate_total_revenue_2(orders__3):
 
-if not orders_3: #Base case: If there are no order, return 0
+    if not orders__3: #Base case: If there are no order, return 0
+        return 0
