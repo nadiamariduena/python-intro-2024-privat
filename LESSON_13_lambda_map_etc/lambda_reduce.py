@@ -186,3 +186,7 @@ def calculate_total_revenue_2(orders__3):
         # Extract the total price of the current order and add it to
         # the revenue
         return orders__3[0][2] + calculate_total_revenue_2(orders__3[1:])
+
+orders__3 = [
+    ("Alice", ["Pizza", "Salad"], 25)
+]
