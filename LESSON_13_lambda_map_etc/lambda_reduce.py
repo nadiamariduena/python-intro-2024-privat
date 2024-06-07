@@ -204,3 +204,7 @@ def process_payment(total_amount, card_type):
         "debit": 0.02, #2%
         "gift": 0.01,  # 1%
     }
+
+    # Calculate the processing fee
+
+    processing_fee = total_amount  * processing_fees.get(card_type, 0)
