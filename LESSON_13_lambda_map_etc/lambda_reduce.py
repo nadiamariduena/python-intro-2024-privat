@@ -188,5 +188,14 @@ def calculate_total_revenue_2(orders__3):
         return orders__3[0][2] + calculate_total_revenue_2(orders__3[1:])
 
 orders__3 = [
-    ("Alice", ["Pizza", "Salad"], 25)
+     ("Alice", ["Pizza", "Salad"], 25),
+    ("Bob", ["Burger", "Fries", "Soda"], 20),
+    ("Charlie", ["Pizza", "Wings", "Soda"], 30),
+    ("David", ["Salad", "Soup"], 15),
+    ("Eve", ["Pizza", "Burger", "Wings"], 35)
 ]
+
+# Payment service
+
+def process_payment(total_amount, card_type):
+    #Define
