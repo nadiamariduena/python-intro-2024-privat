@@ -217,3 +217,6 @@ def process_payment(total_amount, card_type):
 
 total__revenue = calculate_total_revenue_2(orders__3)
 print("Total revenue from orders (before processing fees):", total__revenue, "dollars")
+
+# Process payment using a credit card
+total__after_processing = process_payment(total__revenue, "credit")
