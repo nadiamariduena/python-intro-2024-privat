@@ -208,3 +208,5 @@ def process_payment(total_amount, card_type):
     # Calculate the processing fee
 
     processing_fee = total_amount  * processing_fees.get(card_type, 0)
+
+    # Deduct the processig fee from the total amount
