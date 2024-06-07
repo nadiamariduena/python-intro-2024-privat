@@ -220,3 +220,4 @@ print("Total revenue from orders (before processing fees):", total__revenue, "do
 
 # Process payment using a credit card
 total__after_processing = process_payment(total__revenue, "credit")
+print("Total revenue after processing fees (credit card):", total__after_processing, "dollars")
