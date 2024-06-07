@@ -556,3 +556,83 @@ print("Total revenue from selling shoes:", total_revenue, "dollars")
 
 
 ```
+
+<br>
+<br>
+
+---
+
+<br>
+
+```python
+
+#
+#
+# ** pizza resto
+# ------------
+# pizza restaurant where we have a list of orders. Each order is represented by a tuple containing the pizza size and its corresponding price. We want to find the total revenue generated from these orders.
+
+#
+# from functools import reduce
+#
+pizza_orders = [("medium", 12), ("large", 15), ("small",10), ("largeXl", 18), ("mediumXl", 14 )]
+
+# - Now we want to calculate the total revenue.
+# - We can use `reduce` along with a lambda function, similar to the previous example.
+#
+# - This time, we need to extract the price from each order TUPLE and accumulate it to find the total revenue.
+
+total_revenue = reduce(lambda acc, order: acc + order[1], pizza_orders, 0)
+# ** in this example, the lambda function 'lambda acc, order: acc + order[1]' takes 2 arguments 'acc' (the accumulated revenue so far) and 'order (the current tuple).
+#
+# - It extracts the price (the second element) from each order tuple and adds it to the accumulated revenue.
+
+# - The 'reduce function applies this lambda function cumulatively to the list 'pizza_orders', starting with an initial value of 0 for the accumulated revenue, resulting in the total revenue generated from pizza orders.
+print("total revenue from pizza orders:", total_revenue, "dollars")
+#
+# result
+# total revenue from pizza orders: 69 dollars
+
+```
+
+<br>
+<br>
+
+```python
+
+#
+# ** pizza resto 2
+# ------------
+# from functools import reduce
+# 25 total of pizza & salad
+#
+order__s = [
+    ("Alice", ["Pizza", "Salad", 25]),
+    ("Bob", ["Burguer", "Fries", "Soda"], 20),
+    ("Charlie", ["Pizza", "Wings", "Soda", 30]),
+    ("David", ["Salad", "Soup"], 15)
+
+]
+
+# Now we want to calculate the total revenue
+# We can use 'reduce' along with a LAMBDA function to achieve this.
+
+# This time, we need to EXTRACT the TOTAL price from each order TUPLE and accumulate it to find the TOTAL revenue.
+
+total__revenue = reduce(lambda acc, order: acc + order[2], order__s, 0 )
+
+# going down on the branch to reach the order[2]
+# ** BY going down the branch i mean this: david is pos 0, pizza etc is pos 1, and 25 is position 2
+# order[0]: Customer's name
+# order[1]: Items ordered (a list of strings)
+# order[2]: Total price of the order
+print("Total revenue from orders:", total_revenue, "dollars")
+
+# Total revenue from orders: 125 dollars
+
+```
+
+<br>
+<br>
+
+## 💳 payment service that accepts different types of cards to handle the total of the order.
