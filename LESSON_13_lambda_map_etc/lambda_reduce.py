@@ -225,9 +225,16 @@ print("Total revenue after processing fees (credit card):", total__after_process
 #
 
 # Process payment using a debit card
-total_after_processing = process_payment(total_revenue, "debit")
-print("Total revenue after processing fees (debit card):", total_after_processing, "dollars")
+total__after_processing = process_payment(total__revenue, "debit")
+print("Total revenue after processing fees (debit card):", total__after_processing, "dollars")
 
 # Process payment using a gift card
-total_after_processing = process_payment(total_revenue, "gift")
-print("Total revenue after processing fees (gift card):", total_after_processing, "dollars")
+total__after_processing = process_payment(total__revenue, "gift")
+print("Total revenue after processing fees (gift card):", total__after_processing, "dollars")
+
+# result
+
+# Total revenue from orders (before processing fees): 125 dollars
+# Total revenue after processing fees (credit card): 121.25 dollars
+# Total revenue after processing fees (debit card): 122.5 dollars
+# Total revenue after processing fees (gift card): 123.75 dollars
