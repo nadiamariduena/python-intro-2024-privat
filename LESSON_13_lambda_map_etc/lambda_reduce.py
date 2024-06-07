@@ -198,4 +198,9 @@ orders__3 = [
 # Payment service
 
 def process_payment(total_amount, card_type):
-    #Define
+    #Define processing fees for different card types
+    processing_fees = {
+        "credit": 0.03, #3%
+        "debit": 0.02, #2%
+        "gift": 0.01,  # 1%
+    }
