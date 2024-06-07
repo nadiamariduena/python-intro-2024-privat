@@ -213,3 +213,6 @@ def process_payment(total_amount, card_type):
     total_after_fee = total_amount - processing_fee
 
     return total_after_fee
+
+
+total__revenue = calculate_total_revenue_2(orders__3)
