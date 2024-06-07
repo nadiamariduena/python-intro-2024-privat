@@ -169,3 +169,10 @@ total__revenue = reduce(lambda acc, order: acc + order[2], order__s, 0 )
 print("Total revenue from orders:", total_revenue, "dollars")
 
 # Total revenue from orders: 125 dollars
+
+#
+#
+# ** pizza resto 2
+# ------------
+# include a payment service that accepts different types of cards to handle the total of the order. We'll define a dictionary mapping card types to their respective processing fees, and then we'll calculate the total revenue after deducting the processing fees.
+#
