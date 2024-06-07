@@ -636,3 +636,11 @@ print("Total revenue from orders:", total_revenue, "dollars")
 <br>
 
 ## 💳 payment service that accepts different types of cards to handle the total of the order.
+
+- We'll define a dictionary mapping card types to their respective processing fees, and then we'll calculate the total revenue after deducting the processing fees.
+
+<br>
+
+```python
+
+```
