@@ -182,3 +182,7 @@ def calculate_total_revenue_2(orders__3):
 
     if not orders__3: #Base case: If there are no order, return 0
         return 0
+    else:
+        # Extract the total price of the current order and add it to
+        # the revenue
+        return orders__3[0][2] + calculate_total_revenue_2(orders__3[1:])
