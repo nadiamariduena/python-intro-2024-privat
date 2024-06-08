@@ -77,3 +77,5 @@ function_to_be_used()
 **Timing:** You can use decorators to measure the execution time of functions, helping you identify performance bottlenecks in your code.
 
 **Retry Logic:** Decorators can be used to automatically retry a function if it fails due to certain exceptions, with customizable retry strategies (e.g., exponential backoff).
+
+**Rate Limiting:** Decorators can enforce rate limits on function calls, ensuring that they are not called too frequently within a certain time period.
