@@ -126,3 +126,15 @@ myFune(first="my", mid="beautiful", last="life")
 #
 def shout(text):
     return text.upper()
+
+def whisper(text):
+    return text.lower()
+
+def greet(func_new):
+# STORING the function in a variable
+    greeting = func_new("Hi, I am created by a \ passed as an argument")
+
+    print(greeting)
+
+greet(shout)
+greet(whisper)
