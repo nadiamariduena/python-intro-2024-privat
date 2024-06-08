@@ -147,9 +147,9 @@ function_to_be_used()
 
 <u>Callbacks</u>, on the other hand, are functions that are passed as arguments to other functions. They are meant to be called by the receiving function at certain predetermined points or in response to certain events.
 
-### m question to the below text
+### ✋ MY question to the below text
 
-when you said:
+:checkered_flag: when you said:
 
 > Callbacks, on the other hand, are functions that are passed as arguments to other functions. They are meant to be called by the receiving function at certain predetermined points or in response to certain events.
 
@@ -159,6 +159,10 @@ when you said:
 #passing function_to_be_used inside the decorator to control its behavior
 function_to_be_used = hello_deco(function_to_be_used)
 ```
+
+#### chatgpt
+
+✅ You're absolutely correct. In the example with `hello_decorator`, the function_to_be_used is indeed being passed as an argument to `hello_decorator`. So, in that sense, it does resemble a form of callback.
 
 <br>
 
