@@ -85,8 +85,8 @@ greet(whisper)
 
 
 #--------------------------
-##
-# NONE (nor true or false)
+#
+# ** NONE (nor true or false)
 # ----------
 #
 #
