@@ -14,6 +14,9 @@
 
 - They help in keeping the code clean, modular, and readable by separating concerns. So, if you're working in Python, decorators are definitely a tool worth knowing and using when appropriate.
 
+<br>
+<br>
+
 ### 1) step
 
 ```python
@@ -56,4 +59,11 @@ function_to_be_used()
 # This is AFTER 🔓 function execution
 ```
 
-### in what kind of scenarios you can use a similar logic?
+<br>
+<br>
+
+### in what kind of scenarios can ou use a similar logic?
+
+#### chatgpt
+
+- This pattern of using decorators to wrap functions with additional behavior can be useful in various scenarios:
