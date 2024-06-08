@@ -20,7 +20,7 @@ sum(100,3)
 # 103
 
 ##  -------
-# Another way
+# 🖐️ Another way
 # ----------
 #
 #
@@ -31,7 +31,22 @@ print(total)
 # result: 5
 #
 #
+#-----------
+# 🖐️ FUNCTION can return aother function
+# -----------
+def create_adder(x):
+    def adder(y):
+        return  x + y
 
+    return adder
+
+
+# add 15
+add_15 = create_adder(15)
+
+print(add_15(10))
+# result
+# 25
 
 #
 #-----------
