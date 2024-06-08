@@ -67,3 +67,5 @@ function_to_be_used()
 #### chatgpt
 
 - This pattern of using decorators to wrap functions with additional behavior can be useful in various scenarios:
+
+**Logging:** You can use a decorator to log information before and after a function is called. This can help in debugging or tracking the flow of execution in your code.
