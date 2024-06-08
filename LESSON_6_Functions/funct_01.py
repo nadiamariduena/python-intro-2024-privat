@@ -34,6 +34,8 @@ print(total)
 #-----------
 # 🖐️ FUNCTION can return aother function
 # -----------
+# You can find the examples here: https://www.geeksforgeeks.org/higher-order-functions-in-python/
+#
 def create_adder(x):
     def adder(y):
         return  x + y
