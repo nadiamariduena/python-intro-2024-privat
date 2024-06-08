@@ -193,6 +193,9 @@ authentication_attempts = [
 ]
 
 # Authenticate each user
+#
+# We simulate authentication attempts by "iterating" over a list of dictionaries containing usernames and passwords, calling the authenticate_user function for each attempt, and logging the authentication result.
+#
 for attempt in authentication_attempts:
     username = attempt["username"]
     password = attempt["password"]
