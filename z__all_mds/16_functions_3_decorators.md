@@ -71,3 +71,5 @@ function_to_be_used()
 **Logging:** You can use a decorator to log information before and after a function is called. This can help in debugging or tracking the flow of execution in your code.
 
 **Authentication/Authorization:** Similar to the example you provided, you can use decorators to ensure that a user is authenticated before allowing them to access certain functions or endpoints.
+
+**Caching/Memoization:** Decorators can be used to cache the results of expensive function calls, so that if the same inputs are provided again, the function can return the cached result instead of recalculating it.
