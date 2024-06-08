@@ -1,4 +1,4 @@
-#1
+#🔴 1
 # OUT (on global scope)
 def hello_deco(func):
 
@@ -9,13 +9,14 @@ def hello_deco(func):
 
         # calling the actual function now, inside the wrapper function.
         func()
+        #🌈 here the step 2 will show the print of the 'function_to_be_called', then it will show the final print 'after', check the result at the bottom
 
         print("This is AFTER 🔓 function execution")
 
     return inner1
 
 
-# 2
+#🔴 2
 # OUT (on global scope)
 # DEFINING a function, to be called inside WRAPPER
 def function_to_be_used():
