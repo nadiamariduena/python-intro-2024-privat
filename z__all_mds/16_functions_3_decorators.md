@@ -161,6 +161,9 @@ def log_authentication(func):
             if user["username"] == username and user["password"] == password:
                 authenticated = True
                 break
+            #
+            # After the authentication check, it logs a message indicating whether the authentication was successful or failed.
+            #
         if authenticated:
             print(f"User '{username}' authenticated successfully")
         else:
