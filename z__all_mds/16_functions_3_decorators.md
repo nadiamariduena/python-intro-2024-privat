@@ -62,7 +62,11 @@ function_to_be_used()
 <br>
 <br>
 
-### in what kind of scenarios can ou use a similar logic?
+---
+
+<br>
+
+### 🍭 in what kind of scenarios can ou use a similar logic?
 
 #### chatgpt
 
@@ -79,3 +83,12 @@ function_to_be_used()
 **Retry Logic:** Decorators can be used to automatically retry a function if it fails due to certain exceptions, with customizable retry strategies (e.g., exponential backoff).
 
 **Rate Limiting:** Decorators can enforce rate limits on function calls, ensuring that they are not called too frequently within a certain time period.
+
+<br>
+<br>
+
+---
+
+<br>
+
+## 🍭 are decorators similar to callback?
