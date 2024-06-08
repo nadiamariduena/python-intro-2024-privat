@@ -60,3 +60,41 @@ myFune(first="my", mid="beautiful", last="life")
 # last == life
 
 #
+
+#
+#
+#------------
+## **  Real scenario (SPOTFY)
+# -----------
+#
+
+def update_playlist(playlist_id, **kwargs):
+    """
+    Update a Spotify-like playlist with provided details.
+
+    :param playlist_id: ID of the playlist to update.
+    :param kwargs: Dictionary of playlist details to update.
+    """
+    print(f"Updating playlist with ID: {playlist_id}")
+    for key, value in kwargs.items():
+        print(f"{key.replace('_', ' ').capitalize()}: {value}")
+
+    # Simulate sending updated data to a Spotify-like service
+    # For example, sending a request to an API endpoint
+    # response = requests.post(f"https://api.spotify.com/playlists/{playlist_id}", json=kwargs)
+    # print(f"Response: {response.status_code}")
+
+# Driver code
+update_playlist(
+    playlist_id="12345",
+    name="My Favorite Songs",
+    description="A collection of my favorite songs from various genres.",
+    tracks=["Track1", "Track2", "Track3"],
+    public=True
+)
+
+
+
+# - `update_playlist(playlist_id, **kwargs)`: The function takes a playlist_id and any number of additional keyword arguments (\*\*kwargs).
+
+# - The playlist_id is a required argument, while `**kwargs` allows passing optional details like **name, description, tracks, and public**.

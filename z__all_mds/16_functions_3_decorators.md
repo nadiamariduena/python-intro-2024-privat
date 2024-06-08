@@ -2,7 +2,9 @@
 
 ### Are decorators in python still used?
 
-##### chapgpt
+<br>
+
+#### chapgpt
 
 - Yes, decorators are still widely used in Python.
 
