@@ -117,3 +117,8 @@ myFune(first="my", mid="beautiful", last="life")
 #first == my
 # mid == beautiful
 # last == life
+
+#
+#
+#-----------
+# pass arguments to other functions
