@@ -98,3 +98,11 @@ update_playlist(
 # - `update_playlist(playlist_id, **kwargs)`: The function takes a playlist_id and any number of additional keyword arguments (\*\*kwargs).
 
 # - The playlist_id is a required argument, while `**kwargs` allows passing optional details like **name, description, tracks, and public**.
+
+## * result
+
+# Updating playlist with ID: 12345
+# Name: My Favorite Songs
+# Description: A collection of my favorite songs from various genres.
+# Tracks: ['Track1', 'Track2', 'Track3']
+# Public: True
