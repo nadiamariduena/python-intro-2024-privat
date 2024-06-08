@@ -135,7 +135,7 @@ function_to_be_used()
 
 <br>
 
-## 🍭 are decorators similar to callback?
+# 🍭 are decorators similar to callback?
 
 ##### ChatGPT
 
@@ -164,6 +164,17 @@ function_to_be_used = hello_deco(function_to_be_used)
 
 ✅ You're absolutely correct. In the example with `hello_decorator`, the function_to_be_used is indeed being passed as an argument to `hello_decorator`. So, in that sense, it does resemble a form of callback.
 
+#### In the context of the hello_decorator example:
+
+`function_to_be_used` is a callback function.
+
+`hello_decorator` is the higher-order function that takes the callback function as an argument.
+
+`inner1` is the function within `hello_decorator` that wraps around the callback function and is responsible for invoking it.
+
+So, `function_to_be_used` serves as a callback in this scenario because it's being passed to another function `(hello_decorator)` to be executed at a certain point within that function's execution.
+
+<br>
 <br>
 
 **Usage:**
