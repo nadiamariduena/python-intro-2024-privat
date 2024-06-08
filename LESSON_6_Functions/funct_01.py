@@ -138,3 +138,7 @@ def greet(func_new):
 
 greet(shout)
 greet(whisper)
+
+# RESULT:
+#HI, I AM CREATED BY A \ PASSED AS AN ARGUMENT
+# hi, i am created by a \ passed as an argument
