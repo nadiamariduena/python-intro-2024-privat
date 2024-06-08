@@ -5,3 +5,7 @@ def hello_deco(func):
 
         # calling the actual function now, inside the wrapper function.
         func()
+
+        print("This is AFTER function execution")
+
+    return inner1
