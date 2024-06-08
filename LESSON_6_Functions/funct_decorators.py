@@ -1,13 +1,16 @@
 #1
+# OUT (on global scope)
 def hello_deco(func):
 
+
+    # INSIDE (local sc) of the hello_deco()
     def inner1():
         print("Hello, this is before function execution")
 
         # calling the actual function now, inside the wrapper function.
         func()
 
-        print("This is AFTER function execution")
+        print("This is AFTER 🔓 function execution")
 
     return inner1
 
@@ -16,7 +19,7 @@ def hello_deco(func):
 # OUT (on global scope)
 # DEFINING a function, to be called inside WRAPPER
 def function_to_be_used():
-    print("This is inside the function !!!")
+    print("This is INSIDE 🍯 the function !!!")
 
 # INSIDE (local sc) of the function_to_be_used
 #
