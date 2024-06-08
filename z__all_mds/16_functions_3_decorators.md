@@ -207,6 +207,11 @@ for attempt in authentication_attempts:
 <br>
 <br>
 
+## Caching/Memoization:
+
+<br>
+<br>
+
 ---
 
 <br>
