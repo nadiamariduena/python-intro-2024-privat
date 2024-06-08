@@ -137,6 +137,9 @@ function_to_be_used()
 
 ```python
 # Mock user database
+# We have a mock user database (users) containing dictionaries with usernames and passwords.
+
+#
 users = [
     {"username": "alice", "password": "password123"},
     {"username": "bob", "password": "securepassword"},
