@@ -131,6 +131,64 @@ function_to_be_used()
 <br>
 <br>
 
+### Logging
+
+-
+
+```python
+# Mock user database
+users = [
+    {"username": "alice", "password": "password123"},
+    {"username": "bob", "password": "securepassword"},
+    {"username": "charlie", "password": "strongpassword"},
+]
+
+def log_authentication(func):
+    def wrapper(username, password):
+        print(f"Authenticating user: {username}")
+        # Simulate authentication by checking the username and password against the mock user database
+        authenticated = False
+        for user in users:
+            if user["username"] == username and user["password"] == password:
+                authenticated = True
+                break
+        if authenticated:
+            print(f"User '{username}' authenticated successfully")
+        else:
+            print(f"Authentication failed for user '{username}'")
+        return func(username, password)
+    return wrapper
+
+# Applying the decorator to a function
+@log_authentication
+def authenticate_user(username, password):
+    # This function could contain more complex authentication logic, but for simplicity, we'll just return True or False
+    authenticated = False
+    for user in users:
+        if user["username"] == username and user["password"] == password:
+            authenticated = True
+            break
+    return authenticated
+
+# Simulate authentication attempts
+authentication_attempts = [
+    {"username": "alice", "password": "password123"},
+    {"username": "bob", "password": "wrongpassword"},
+    {"username": "charlie", "password": "strongpassword"},
+]
+
+# Authenticate each user
+for attempt in authentication_attempts:
+    username = attempt["username"]
+    password = attempt["password"]
+    result = authenticate_user(username, password)
+    print(f"Authentication result for '{username}': {result}")
+
+```
+
+<br>
+<br>
+
 ---
 
 <br>
