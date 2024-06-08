@@ -150,6 +150,9 @@ users = [
 # The log_authentication decorator takes a function func as input and returns a wrapper function wrapper.
 #
 def log_authentication(func):
+    #
+    # Inside the wrapper function wrapper, it logs a message indicating the username being authenticated before performing the authentication check against the mock user database.
+    #
     def wrapper(username, password):
         print(f"Authenticating user: {username}")
         # Simulate authentication by checking the username and password against the mock user database
