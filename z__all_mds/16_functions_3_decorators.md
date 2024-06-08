@@ -133,7 +133,7 @@ function_to_be_used()
 
 ### Logging
 
--
+- consider a scenario where we have a list of user objects with both usernames and passwords, and we want to log each authentication attempt. We'll simulate this scenario by using a list of dictionaries as a mock user database:
 
 ```python
 # Mock user database
