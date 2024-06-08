@@ -122,3 +122,7 @@ myFune(first="my", mid="beautiful", last="life")
 #
 #-----------
 # pass arguments to other functions
+# -----------
+#
+def shout(text):
+    return text.upper()
