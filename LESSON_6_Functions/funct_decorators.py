@@ -1,3 +1,4 @@
+#1
 def hello_deco(func):
 
     def inner1():
@@ -9,3 +10,6 @@ def hello_deco(func):
         print("This is AFTER function execution")
 
     return inner1
+
+
+# 2
