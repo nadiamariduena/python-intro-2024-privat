@@ -140,3 +140,20 @@ function_to_be_used()
 ##### ChatGPT
 
 - Decorators and callbacks serve somewhat different purposes, but they share some similarities, especially in terms of their usage patterns.
+
+**Purpose:**
+
+Decorators are primarily used to add additional functionality to functions or methods without modifying their original code. They wrap the original function with another function, enabling you to execute code before and/or after the original function call.
+Callbacks, on the other hand, are functions that are passed as arguments to other functions. They are meant to be called by the receiving function at certain predetermined points or in response to certain events.
+
+**Usage:**
+
+Decorators are typically used to apply cross-cutting concerns such as logging, authentication, caching, etc., to multiple functions or methods.
+Callbacks are often used in event-driven programming or asynchronous programming to handle responses to events or asynchronous operations.
+
+**Execution Control:**
+
+With decorators, you have control over the execution flow before and after the wrapped function is called.
+Callbacks, on the other hand, give control to the called function to decide when and how to invoke the callback function(s) it receives as arguments.
+
+Despite these differences, there can be scenarios where decorators and callbacks are used together. For instance, you might have a decorator that applies some pre-processing to a function and then invokes a callback function as part of its execution flow. In this way, they can complement each other in certain design patterns.
