@@ -32,7 +32,43 @@ print(total)
 #
 #
 
-##  -------
+
+#
+#-----------
+# 🖐️ pass arguments to other functions
+# -----------
+# 1
+def shout(text):
+    return text.upper()
+#2
+def whisper(text):
+    return text.lower()
+#3
+def greet(func_new):
+# STORING the function in a variable
+    greeting = func_new("Hi, I am created by a \ passed as an argument")
+
+    #4
+    print(greeting)
+
+#5
+greet(shout)
+greet(whisper)
+
+# RESULT:
+#HI, I AM CREATED BY A \ PASSED AS AN ARGUMENT
+# hi, i am created by a \ passed as an argument
+
+
+#-----------
+#
+# -----------
+
+
+
+
+#--------------------------
+##
 # NONE (nor true or false)
 # ----------
 #
@@ -119,26 +155,3 @@ myFune(first="my", mid="beautiful", last="life")
 # last == life
 
 #
-#
-#-----------
-# pass arguments to other functions
-# -----------
-#
-def shout(text):
-    return text.upper()
-
-def whisper(text):
-    return text.lower()
-
-def greet(func_new):
-# STORING the function in a variable
-    greeting = func_new("Hi, I am created by a \ passed as an argument")
-
-    print(greeting)
-
-greet(shout)
-greet(whisper)
-
-# RESULT:
-#HI, I AM CREATED BY A \ PASSED AS AN ARGUMENT
-# hi, i am created by a \ passed as an argument
