@@ -136,3 +136,7 @@ function_to_be_used()
 <br>
 
 ## 🍭 are decorators similar to callback?
+
+##### ChatGPT
+
+- Decorators and callbacks serve somewhat different purposes, but they share some similarities, especially in terms of their usage patterns.
