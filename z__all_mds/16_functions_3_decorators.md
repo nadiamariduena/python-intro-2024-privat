@@ -175,6 +175,9 @@ def log_authentication(func):
 @log_authentication
 def authenticate_user(username, password):
     # This function could contain more complex authentication logic, but for simplicity, we'll just return True or False
+    #
+    # The authenticate_user function takes a username and password as input and returns True if the authentication is successful, and False otherwise.
+    #
     authenticated = False
     for user in users:
         if user["username"] == username and user["password"] == password:
