@@ -75,3 +75,5 @@ function_to_be_used()
 **Caching/Memoization:** Decorators can be used to cache the results of expensive function calls, so that if the same inputs are provided again, the function can return the cached result instead of recalculating it.
 
 **Timing:** You can use decorators to measure the execution time of functions, helping you identify performance bottlenecks in your code.
+
+**Retry Logic:** Decorators can be used to automatically retry a function if it fails due to certain exceptions, with customizable retry strategies (e.g., exponential backoff).
