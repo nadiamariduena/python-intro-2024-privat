@@ -146,6 +146,9 @@ users = [
     {"username": "charlie", "password": "strongpassword"},
 ]
 
+#
+# The log_authentication decorator takes a function func as input and returns a wrapper function wrapper.
+#
 def log_authentication(func):
     def wrapper(username, password):
         print(f"Authenticating user: {username}")
