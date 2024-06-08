@@ -73,3 +73,5 @@ function_to_be_used()
 **Authentication/Authorization:** Similar to the example you provided, you can use decorators to ensure that a user is authenticated before allowing them to access certain functions or endpoints.
 
 **Caching/Memoization:** Decorators can be used to cache the results of expensive function calls, so that if the same inputs are provided again, the function can return the cached result instead of recalculating it.
+
+**Timing:** You can use decorators to measure the execution time of functions, helping you identify performance bottlenecks in your code.
