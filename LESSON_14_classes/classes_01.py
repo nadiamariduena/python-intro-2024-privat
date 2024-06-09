@@ -34,7 +34,7 @@ class Pizza:
 # 5 TOPPINGS
 # Create instances of the Pizza class
 # We create two instances of the Pizza class (hawaiian_pizza and pepperoni_pizza) with different toppings and sizes.
-hawaiian_pizza = Pizza(["ham", "pineapple"], 12)
+hawaiian_pizza = Pizza(["ham", "pineapple"], 12) # 12 is the 3 argument on line 13, which is then assigned to self.size
 pepperoni_pizza = Pizza(["pepperoni", "cheese", "tomato sauce"], 16)
 
 # 6 We then use the methods of each pizza object to bake, cut, and serve the pizzas.
