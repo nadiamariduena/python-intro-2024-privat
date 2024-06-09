@@ -279,7 +279,7 @@ what you mean? @lru_cache(maxsize=None) # Using lru_cache with unlimited cache
 size what is the user going to be allowed to do with it?
 ```
 
-#### chatgpt
+#### ✅ chatgpt
 
 In the line `@lru_cache(maxsize=None)`, **lru_cache** is a decorator provided by Python's func tools module.
 
@@ -310,6 +310,10 @@ Overall, the @lru_cache decorator with an unlimited cache size (maxsize=None) pr
 ### 🏁 Questions
 
 so its not for threejs type of scenario where the model can be expensive, but more like in a social network such as facebook , where millions of people use the app?
+
+#### ✅ chatgpt
+
+Yes, you're correct. **func tools.lru_cache** is typically used for server-side computations in web applications, which can include various scenarios like handling requests in a social networking application such as Facebook.
 
 <br>
 <br>
