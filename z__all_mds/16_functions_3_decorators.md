@@ -311,9 +311,11 @@ Overall, the @lru_cache decorator with an unlimited cache size (maxsize=None) pr
 
 so its not for threejs type of scenario where the model can be expensive, but more like in a social network such as facebook , where millions of people use the app?
 
-#### ✅ chatgpt
+### ✅ chatgpt
 
 Yes, you're correct. **func tools.lru_cache** is typically used for server-side computations in web applications, which can include various scenarios like handling requests in a social networking application such as Facebook.
+
+##### In a social networking application like Facebook, where millions of users interact with the platform, there are numerous server-side computations involved, such as:
 
 <br>
 <br>
