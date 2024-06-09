@@ -116,6 +116,10 @@ class Pizza:
 
 ```
 
+- This ensures that the class definition is valid syntactically, and you can later come back and implement the methods and properties as needed.
+
+<br>
+
 <br>
 
 ### `__new__` Method
