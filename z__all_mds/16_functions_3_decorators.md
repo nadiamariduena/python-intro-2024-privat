@@ -1,4 +1,13 @@
-# Decorators
+# 🟠 Decorators
+
+<br>
+
+Decorators are a structural design pattern which wrap the original object, to add extra functionality dynamically, without modifying the original object. Decorators are usually used to run code before and/or after a function. Thus, they decorate the function with additional functionality, without changing the original function. They can also be used to alter the functionality of methods and classes.
+
+[text source: www.codecademy.com](https://www.codecademy.com/resources/docs/python/decorators)
+
+<br>
+<br>
 
 ### Are decorators in python still used?
 
