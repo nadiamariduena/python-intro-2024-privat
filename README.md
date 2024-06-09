@@ -46,7 +46,7 @@
 
 #### 🟠 TIKTOK:
 
-- [Giuseppe Canale](https://www.tiktok/@_gcanale?_t=8n3hEVKN7gn&_r=1)
+- [Giuseppe Canale](https://www.tiktok.com/@_gcanale)
 
 <br>
 
