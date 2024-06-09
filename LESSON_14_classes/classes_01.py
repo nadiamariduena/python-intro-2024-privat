@@ -3,6 +3,7 @@
 #
 #
 # Define the Pizza class
+# Capitalize the name of the class (Pizza instead of pizza)
 class Pizza:
     # Constructor method to initialize the pizza with toppings and size
     #

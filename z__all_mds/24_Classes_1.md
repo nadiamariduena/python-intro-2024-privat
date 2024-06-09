@@ -9,6 +9,16 @@ Classes are like blueprints that **define how objects should be structured and b
 > Think of them as a way to organize and describe the characteristics and actions of things you want to represent in your code.
 
 <br>
+
+## OOP (object-oriented programming)
+
+Classes are an important concept in **object-oriented programming** (OOP), a programming paradigm that focuses on modeling real-world entities as objects.
+
+- In **OOP**, you create instances of classes, which are like copies of the blueprint, and then work with those instances to perform tasks and solve problems.
+
+-🍓 Classes help organize and manage the complexity of large programs by providing a way to structure code and promote reusability through concepts like inheritance and encapsulation.
+
+<br>
 <br>
 
 ### When you create a class, you're essentially creating a template for creating objects.
