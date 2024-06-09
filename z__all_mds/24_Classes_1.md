@@ -22,3 +22,14 @@ Classes are like blueprints that **define how objects should be structured and b
 ```python
 
 ```
+
+<br>
+
+### `__new__` Method
+
+source [https://builtin.com/data-science/new-python](https://builtin.com/data-science/new-python#:~:text=In%20Python%2C%20__init__,to%20be%20passed%20to%20it.)
+
+<br>
+
+- `__new__` Method in Python Defined
+  In Python, **new** is a static method that’s responsible for creating and returning a new instance of the class. It takes the class as its first argument followed by additional arguments.
