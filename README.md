@@ -59,14 +59,19 @@
 <br>
 <br>
 
-## Content
+<br>
+<br>
+
+## 🟡 Content
 
 [installation](./z__all_mds/0_installation.md)
 
+[Lunching](./z__all_mds/1_LaunchIt.md)
+
 <br>
 <br>
 
-### Lessons
+## 🟡 Lessons
 
 [LESSON_01](./LESSON_01/)
 
