@@ -211,35 +211,44 @@ for attempt in authentication_attempts:
 
 ```python
 
-# Importing functools module to use lru_cache decorator
+
+
+
 from functools import lru_cache
+import time
 
-# Define a decorator for caching/memoization
-def memoize(func):
-    # Applying lru_cache decorator to the function to cache its results
-    @lru_cache(maxsize=None)  # Using lru_cache with unlimited cache size
-    def wrapper(*args, **kwargs):
-        # Print a message indicating the function call
-        print(f"Calling function '{func.__name__}' with args: {args}, kwargs: {kwargs}")
-        # Call the original function and return its result
-        return func(*args, **kwargs)
-    # Return the wrapper function
-    return wrapper
+# Mock user data (user_id: name)
+user_data = {
+    1: "Alice",
+    2: "Bob",
+    3: "Charlie",
+    # Additional user data...
+}
 
-# Applying the memoize decorator to a function
-@memoize
-def fibonacci(n):
-    # Base cases for Fibonacci sequence
-    if n <= 1:
-        return n
-    # Recursive calculation of Fibonacci sequence
-    else:
-        return fibonacci(n-1) + fibonacci(n-2)
+# Simulate fetching user data from a database
+def fetch_user_data(user_id):
+    print(f"Fetching user data for user_id {user_id} from the database...")
+    # Simulating database query with a delay
+    time.sleep(1)
+    return user_data.get(user_id)
 
-# Calling the Fibonacci function multiple times to observe caching behavior
-print("Fibonacci result (5):", fibonacci(5))  # Function call, result not cached
-print("Fibonacci result (4):", fibonacci(4))  # Function call, result not cached
-print("Fibonacci result (5):", fibonacci(5))  # Result retrieved from cache, no function call
+# Decorate the fetch_user_data function with @lru_cache
+#     @lru_cache(maxsize=None)  # Using lru_cache with unlimited cache size
+
+@lru_cache(maxsize=128)
+def cached_fetch_user_data(user_id):
+    return fetch_user_data(user_id)
+
+# Simulate a series of user data fetch operations
+def simulate_user_data_fetch():
+    user_ids = [1, 2, 3, 1, 2, 4, 3]  # Simulated user ID requests
+    for user_id in user_ids:
+        user_data = cached_fetch_user_data(user_id)
+        print(f"Retrieved user data: {user_data}")
+
+# Simulate fetching user data
+simulate_user_data_fetch()
+
 
 ```
 
@@ -315,9 +324,11 @@ so its not for threejs type of scenario where the model can be expensive, but mo
 
 Yes, you're correct. **func tools.lru_cache** is typically used for server-side computations in web applications, which can include various scenarios like handling requests in a social networking application such as Facebook.
 
-### social media
+ <br>
 
-##### In a social networking application like Facebook, where millions of users interact with the platform, there are numerous server-side computations involved, such as:
+#### social media
+
+### In a social networking application like Facebook, where millions of users interact with the platform, there are numerous server-side computations involved, such as:
 
 <br>
 
@@ -339,6 +350,8 @@ Yes, you're correct. **func tools.lru_cache** is typically used for server-side 
 - Caching the results of expensive computations for generating personalized content or recommendations.
 
 - Caching the results of API requests to external services to minimize latency and improve response times.
+
+By caching the results of these computations, the server can serve subsequent requests more efficiently, reducing overall response times and improving the scalability and performance of the application, especially under heavy load conditions.
 
 <br>
 <br>
