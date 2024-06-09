@@ -317,6 +317,8 @@ Yes, you're correct. **func tools.lru_cache** is typically used for server-side 
 
 ##### In a social networking application like Facebook, where millions of users interact with the platform, there are numerous server-side computations involved, such as:
 
+<br>
+
 - Fetching user profiles and posts.
 
 - Processing and rendering news feeds.
