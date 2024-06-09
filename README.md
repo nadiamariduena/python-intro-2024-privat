@@ -2,11 +2,15 @@
 
 #### After 5 years of frontend i decided it was time to learn something new, in this repository you will find all my notes
 
-### What I use to learn
+### What I use:
 
-**YOUTUBE:** [Dave Gray | Python course](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6MQri81d012LwP5jvFZ_scc)
+**YOUTUBE:**
 
-- **CHATGPT:** I use chatgpt to generate the answers to any questions i have, when learning.
+- [Dave Gray | Python course](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6MQri81d012LwP5jvFZ_scc) ,
+
+<br>
+
+**CHATGPT:** I use chatgpt to generate the answers to any questions i have, when learning.
 
 <br>
 
