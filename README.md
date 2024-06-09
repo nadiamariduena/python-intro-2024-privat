@@ -61,6 +61,13 @@
 
 ## Content
 
+[installation](./z__all_mds/0_installation.md)
+
+<br>
+<br>
+
+### Lessons
+
 [LESSON_01](./LESSON_01/)
 
 [variables](./z__all_mds/2_variables.md)
