@@ -209,6 +209,52 @@ for attempt in authentication_attempts:
 
 ## Caching/Memoization:
 
+```python
+
+# Importing functools module to use lru_cache decorator
+from functools import lru_cache
+
+# Define a decorator for caching/memoization
+def memoize(func):
+    # Applying lru_cache decorator to the function to cache its results
+    @lru_cache(maxsize=None)  # Using lru_cache with unlimited cache size
+    def wrapper(*args, **kwargs):
+        # Print a message indicating the function call
+        print(f"Calling function '{func.__name__}' with args: {args}, kwargs: {kwargs}")
+        # Call the original function and return its result
+        return func(*args, **kwargs)
+    # Return the wrapper function
+    return wrapper
+
+# Applying the memoize decorator to a function
+@memoize
+def fibonacci(n):
+    # Base cases for Fibonacci sequence
+    if n <= 1:
+        return n
+    # Recursive calculation of Fibonacci sequence
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+
+# Calling the Fibonacci function multiple times to observe caching behavior
+print("Fibonacci result (5):", fibonacci(5))  # Function call, result not cached
+print("Fibonacci result (4):", fibonacci(4))  # Function call, result not cached
+print("Fibonacci result (5):", fibonacci(5))  # Result retrieved from cache, no function call
+
+```
+
+<br>
+
+### memoize Decorator Function:
+
+- The memoize function defines a decorator for caching/memoization.
+
+- It takes a function func as input and returns a wrapper function wrapper.
+  Inside the wrapper function, it applies the lru_cache decorator with an unlimited cache size `(maxsize=None)`.
+- This decorator caches the results of function calls based on their arguments.
+
+- The wrapper function prints a message indicating the function call, then calls the original function func with the provided arguments `(*args and **kwargs)`, and returns its result.
+
 <br>
 <br>
 
