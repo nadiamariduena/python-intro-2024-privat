@@ -55,3 +55,12 @@
 #### Plagiarism
 
 - there is nothing to plagiarize ( I always add the sources of the examples, texts, videos etc )
+
+<br>
+<br>
+
+## Content
+
+[LESSON_01](./LESSON_01/)
+
+[variables](./z__all_mds/2_variables.md)
