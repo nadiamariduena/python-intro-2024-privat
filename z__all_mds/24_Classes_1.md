@@ -106,6 +106,16 @@ class Pizza:
 
 - In Python, a class definition cannot be empty. It must contain at least one statement. However, there are scenarios where you may want to define a class without immediately implementing its methods or properties. In such cases, you can use the pass statement as a placeholder to avoid syntax errors.
 
+#### Pass
+
+- The pass statement in Python is a null operation that does nothing. It's used as a placeholder where syntactically a statement is required, but no action needs to be taken. It's commonly used in situations like:
+
+```python
+class Pizza:
+    pass  # Placeholder statement to avoid syntax error
+
+```
+
 <br>
 
 ### `__new__` Method
