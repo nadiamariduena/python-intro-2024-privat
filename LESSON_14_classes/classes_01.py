@@ -30,6 +30,8 @@ def serve(self):
     print("Enjoy your delicious pizza")
 
 
-
+# Create instances of the Pizza class
+hawaiian_pizza = Pizza(["ham", "pineapple"], 12)
+pepperoni_pizza = Pizza(["pepperoni", "cheese", "tomato sauce"], 16)
 
 
