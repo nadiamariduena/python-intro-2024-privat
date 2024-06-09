@@ -92,6 +92,12 @@ pepperoni_pizza.serve()
 
 <br>
 
+In Python, **classes** are defined using the class keyword. The **first letter** of the name of the class is always **capitalized.**
+
+[code academy | classes](https://www.codecademy.com/resources/docs/python/classes)
+
+<br>
+
 ### `__new__` Method
 
 source [https://builtin.com/data-science/new-python](https://builtin.com/data-science/new-python#:~:text=In%20Python%2C%20__init__,to%20be%20passed%20to%20it.)
