@@ -256,6 +256,21 @@ print("Fibonacci result (5):", fibonacci(5))  # Result retrieved from cache, no 
 - The wrapper function prints a message indicating the function call, then calls the original function func with the provided arguments `(*args and **kwargs)`, and returns its result.
 
 <br>
+
+### fibonacci Function:
+
+- The fibonacci function calculates the nth Fibonacci number recursively.
+
+- It is decorated with @memoize, which means that its results will be cached, preventing unnecessary recalculation of Fibonacci numbers for the same inputs.
+  Function Calls:
+
+- We call the fibonacci function multiple times with different inputs to observe the caching behavior.
+
+- The first two calls `(fibonacci(5)` and `fibonacci(4))` result in function calls, as their results are not cached yet.
+
+- The third call `fibonacci(5)` retrieves the result from the cache, as it has been computed and cached during the first call, so no function call is made, demonstrating **caching/memoization** in action.
+
+<br>
 <br>
 
 ---
