@@ -31,7 +31,8 @@ class Pizza:
         print("Enjoy your delicious pizza")
 
 
-# 5 Create instances of the Pizza class
+# 5 TOPPINGS
+# Create instances of the Pizza class
 # We create two instances of the Pizza class (hawaiian_pizza and pepperoni_pizza) with different toppings and sizes.
 hawaiian_pizza = Pizza(["ham", "pineapple"], 12)
 pepperoni_pizza = Pizza(["pepperoni", "cheese", "tomato sauce"], 16)
@@ -44,5 +45,14 @@ hawaiian_pizza.serve()
 
 # OUTPUT
 # Baking a 12-inch pizza with ham, pineapple toppings!
+# Cutting the pizza into slices
+# Enjoy your delicious pizza
+
+pepperoni_pizza.bake()
+pepperoni_pizza.cut()
+pepperoni_pizza.serve()
+
+# output
+#Baking a 16-inch pizza with pepperoni, cheese, tomato sauce toppings!
 # Cutting the pizza into slices
 # Enjoy your delicious pizza
