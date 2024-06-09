@@ -41,3 +41,8 @@ pepperoni_pizza = Pizza(["pepperoni", "cheese", "tomato sauce"], 16)
 hawaiian_pizza.bake()
 hawaiian_pizza.cut()
 hawaiian_pizza.serve()
+
+# OUTPUT
+# Baking a 12-inch pizza with ham, pineapple toppings!
+# Cutting the pizza into slices
+# Enjoy your delicious pizza
