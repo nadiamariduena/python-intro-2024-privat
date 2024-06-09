@@ -271,6 +271,21 @@ print("Fibonacci result (5):", fibonacci(5))  # Result retrieved from cache, no 
 - The third call `fibonacci(5)` retrieves the result from the cache, as it has been computed and cached during the first call, so no function call is made, demonstrating **caching/memoization** in action.
 
 <br>
+
+#### Questions
+
+```css
+what you mean? @lru_cache(maxsize=None) # Using lru_cache with unlimited cache
+size what is the user going to be allowed to do with it?
+```
+
+#### chatgpt
+
+In the line `@lru_cache(maxsize=None)`, **lru_cache** is a decorator provided by Python's func tools module.
+
+- It's used for caching/memoization, meaning it stores the results of expensive function calls so that if the same inputs are provided again, the function can return the cached result instead of recalculating it.
+
+<br>
 <br>
 
 ---
