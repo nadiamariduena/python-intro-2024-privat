@@ -268,18 +268,25 @@ We simulate a series of user data fetch operations by calling the `cached_fetch_
 
 <br>
 
-### fibonacci Function:
+### 🏁 Questions
 
-- The fibonacci function calculates the nth Fibonacci number recursively.
+what type of requests? logging, times of the users failed to add the correct pass?
 
-- It is decorated with @memoize, which means that its results will be cached, preventing unnecessary recalculation of Fibonacci numbers for the same inputs.
-  Function Calls:
+#### ✅ chatgpt
 
-- We call the fibonacci function multiple times with different inputs to observe the caching behavior.
+I see, my apologies for the confusion. In the provided example, the term "user ID requests" refers to requests to fetch user data from the backend system based on the user's ID. These requests could be related to various operations within a social networking application like Facebook. Here's a breakdown of potential scenarios:
 
-- The first two calls `(fibonacci(5)` and `fibonacci(4))` result in function calls, as their results are not cached yet.
+**User Profile Retrieval:** These requests could be to fetch basic user profile information such as name, profile picture, bio, etc. This information might be needed for displaying user profiles, posts, comments, or other user-related content on the platform.
 
-- The third call `fibonacci(5)` retrieves the result from the cache, as it has been computed and cached during the first call, so no function call is made, demonstrating **caching/memoization** in action.
+**Friendship Network:** In a social networking app, users often have connections with other users, such as friends or followers. These requests could be related to fetching the list of friends/followers for a particular user or checking the relationship status between two users.
+
+**Content Authorization:** Social networking platforms often have privacy settings that determine who can access a user's content. These requests might involve checking whether a particular user has permission to view or interact with certain content, such as posts or photos.
+
+**Activity Logs:** Some requests might involve fetching activity logs or user engagement metrics, such as the number of likes, comments, shares, or views on a user's posts.
+
+Authentication and Authorization: While not directly related to fetching user data, requests for logging or tracking failed login attempts could also be part of the backend operations. These requests could involve checking login credentials against a database and logging unsuccessful login attempts for security purposes.
+
+In the provided example, we're focusing on a simplified scenario of fetching basic user data (e.g., user name) based on user IDs. However, in a real-world application like Facebook, user ID requests could encompass a broader range of operations depending on the specific features and functionalities of the platform.
 
 <br>
 
