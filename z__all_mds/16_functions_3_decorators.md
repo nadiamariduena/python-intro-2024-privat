@@ -283,7 +283,15 @@ size what is the user going to be allowed to do with it?
 
 In the line `@lru_cache(maxsize=None)`, **lru_cache** is a decorator provided by Python's func tools module.
 
-- It's used for caching/memoization, meaning it stores the results of expensive function calls so that if the same inputs are provided again, the function can return the cached result instead of recalculating it.
+```python
+
+# Importing functools module to use lru_cache decorator
+from functools import lru_cache
+```
+
+- It's used for **caching/memoization**, meaning it stores the results of expensive function calls so that if the same inputs are provided again, the function can return the cached result instead of recalculating it.
+
+#### The `maxsize=None` argument specifies that the cache can grow indefinitely, meaning there is no limit to the number of results that can be cached. This is suitable when you want to cache all function results without imposing a limit on the cache size.
 
 <br>
 <br>
