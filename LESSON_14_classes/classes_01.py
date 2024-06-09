@@ -19,6 +19,13 @@ class Pizza:
 def bake(self):
     print(f"Baking a {self.size}-inch pizza with {', '.join(self.toppings)} toppings!")
 
+# 🔪 Method to cut the pizza
+def cut(self):
+    print("Cutting the pizza into slices")
+
+# 🍽️ Method to serve the pizza
+def serve(self):
+    print("Enjoy your delicious pizza")
 
 
 
