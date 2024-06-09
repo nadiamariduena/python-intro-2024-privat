@@ -2,15 +2,25 @@
 
 #### After 5 years of frontend i decided it was time to learn something new, in this repository you will find all my notes
 
-### What I use:
+<br>
+<br>
 
-**YOUTUBE:**
-
-- [Dave Gray | Python course](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6MQri81d012LwP5jvFZ_scc) ,
+## What I use:
 
 <br>
 
-**CHATGPT:** I use chatgpt to generate the answers to any questions i have, when learning.
+**YOUTUBE:**
+
+- [Dave Gray | Python Basic course](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6MQri81d012LwP5jvFZ_scc)
+
+- [10 Must Install Visual Studio Code Extensions](https://youtu.be/bJN1P07_lLo?feature=shared)
+
+<br>
+
+**CHATGPT:**
+
+- [chatgpt](https://chatgpt.com/)
+  I use chatgpt to generate answers to any question i have when learning something.
 
 <br>
 
