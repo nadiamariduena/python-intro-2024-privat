@@ -294,6 +294,18 @@ from functools import lru_cache
 #### The `maxsize=None` argument specifies that the cache can grow indefinitely, meaning there is no limit to the number of results that can be cached. This is suitable when you want to cache all function results without imposing a limit on the cache size.
 
 <br>
+
+## What the user can do with this caching decorator:
+
+**Improve Performance:** By using caching, the user can significantly improve the performance of functions that are called frequently with the same inputs. Instead of recalculating the result every time, the function can return the cached result, which can be much faster.
+
+**Reduce Resource Usage:** Caching helps reduce resource usage by avoiding redundant calculations. This can be particularly useful for functions with expensive computations or I/O operations.
+
+**Transparent Integration:** The user can easily integrate caching into their functions by simply applying the @lru_cache decorator. The decorator takes care of caching the results transparently, without requiring changes to the function's logic.
+
+**Customize Cache Size:** Although maxsize=None specifies an unlimited cache size, the user can customize the cache size by providing a specific value. For example, maxsize=100 would limit the cache to store the most recent 100 results.
+
+<br>
 <br>
 
 ---
