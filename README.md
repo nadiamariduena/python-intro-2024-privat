@@ -1,8 +1,6 @@
 ## PYTHON
 
-#### After 5 years of frontend i decided it was time to learn something new.
-
-> in this repository you will find all my notes (tutorials, exercises, books, etc...)
+### in this repository you will find all my notes (tutorials, exercises, books, etc...)
 
 <br>
 <br>
