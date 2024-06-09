@@ -315,6 +315,8 @@ so its not for threejs type of scenario where the model can be expensive, but mo
 
 Yes, you're correct. **func tools.lru_cache** is typically used for server-side computations in web applications, which can include various scenarios like handling requests in a social networking application such as Facebook.
 
+### social media
+
 ##### In a social networking application like Facebook, where millions of users interact with the platform, there are numerous server-side computations involved, such as:
 
 <br>
@@ -327,6 +329,16 @@ Yes, you're correct. **func tools.lru_cache** is typically used for server-side 
 
 - Executing database queries to retrieve and store data.
   Performing computations for analytics, recommendations, and personalized content delivery.
+
+  <br>
+
+### Using `functools.lru_cache` in such scenarios can help optimize server performance by caching the results of frequently executed functions. For example:
+
+- Caching the results of database queries for user profiles or posts to reduce database load.
+
+- Caching the results of expensive computations for generating personalized content or recommendations.
+
+- Caching the results of API requests to external services to minimize latency and improve response times.
 
 <br>
 <br>
