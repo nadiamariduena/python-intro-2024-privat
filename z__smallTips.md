@@ -88,3 +88,15 @@ In the example you provided, the randomfunfact3() function is defined, and then 
 5 % 2 equals 1 because 5 divided by 2 leaves a remainder of 1.
 So, x % 2 == 0 checks if x is divisible by 2 with no remainder, which is true for even numbers.
 ```
+
+<br>
+<br>
+
+### 🍭 `__new__` Method
+
+source [https://builtin.com/data-science/new-python](https://builtin.com/data-science/new-python#:~:text=In%20Python%2C%20__init__,to%20be%20passed%20to%20it.)
+
+<br>
+
+- `__new__` Method in Python Defined
+  In Python, **new** is a static method that’s responsible for creating and returning a new instance of the class. It takes the class as its first argument followed by additional arguments.
