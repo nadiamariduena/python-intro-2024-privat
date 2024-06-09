@@ -272,7 +272,7 @@ print("Fibonacci result (5):", fibonacci(5))  # Result retrieved from cache, no 
 
 <br>
 
-#### Questions
+### 🏁 Questions
 
 ```css
 what you mean? @lru_cache(maxsize=None) # Using lru_cache with unlimited cache
@@ -304,6 +304,12 @@ from functools import lru_cache
 **Transparent Integration:** The user can easily integrate caching into their functions by simply applying the @lru_cache decorator. The decorator takes care of caching the results transparently, without requiring changes to the function's logic.
 
 **Customize Cache Size:** Although maxsize=None specifies an unlimited cache size, the user can customize the cache size by providing a specific value. For example, maxsize=100 would limit the cache to store the most recent 100 results.
+
+Overall, the @lru_cache decorator with an unlimited cache size (maxsize=None) provides a convenient and efficient way for users to implement caching in their Python functions, improving performance and reducing resource usage.
+
+### 🏁 Questions
+
+so its not for threejs type of scenario where the model can be expensive, but more like in a social network such as facebook , where millions of people use the app?
 
 <br>
 <br>
