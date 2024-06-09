@@ -234,6 +234,8 @@ def fetch_user_data(user_id):
 
 # Decorate the fetch_user_data function with @lru_cache
 #     @lru_cache(maxsize=None)  # Using lru_cache with unlimited cache size
+# It takes a function func as input and returns a wrapper function wrapper.
+#   Inside the wrapper function, it applies the lru_cache decorator with an unlimited cache size `(maxsize=None)`.
 
 @lru_cache(maxsize=128)
 def cached_fetch_user_data(user_id):
@@ -256,13 +258,13 @@ simulate_user_data_fetch()
 
 ### memoize Decorator Function:
 
-- The memoize function defines a decorator for caching/memoization.
+We have a fetch_user_data function that simulates fetching user data from a database based on a given user_id. This function includes a delay to simulate the time taken for a database query.
 
-- It takes a function func as input and returns a wrapper function wrapper.
-  Inside the wrapper function, it applies the lru_cache decorator with an unlimited cache size `(maxsize=None)`.
-- This decorator caches the results of function calls based on their arguments.
+We decorate the fetch_user_data function with @lru_cache(maxsize=128), creating a cached version of the function called cached_fetch_user_data. The cache size is limited to 128 entries.
 
-- The wrapper function prints a message indicating the function call, then calls the original function func with the provided arguments `(*args and **kwargs)`, and returns its result.
+We simulate a series of user data fetch operations by calling the cached_fetch_user_data function with different user IDs. Since the function is cached, subsequent calls with the same user ID will retrieve the data from the cache instead of performing a database query.
+
+In a real-world scenario for Facebook, similar caching mechanisms could be applied to optimize performance for operations such as fetching user profiles, retrieving posts, or accessing frequently accessed data, helping to reduce latency and improve scalability.
 
 <br>
 
