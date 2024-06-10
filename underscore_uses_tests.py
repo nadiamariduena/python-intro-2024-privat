@@ -28,4 +28,9 @@ class Pizza:
 
     def add_toppings(self, topping):
         self.toppings.append(topping) # self.toppings = toppings
-        print(f"Added {topping} to the toppings")
+        print(f"Added {topping} to the toppings!!")
+
+    def display_toppings(self):
+        print("Toppings on the pizza:")
+        for topping in self.toppings:
+            print("-", topping)
