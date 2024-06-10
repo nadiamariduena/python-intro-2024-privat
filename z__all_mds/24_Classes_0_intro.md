@@ -80,6 +80,10 @@ my_car.moves()
 
 A getter method, also known as an accessor method, is a method used to retrieve the value of a private attribute **( a variable that is not directly accessible from outside the class)**. It allows you to access the value of an attribute in a controlled manner.
 
+#### Setter Method:
+
+A setter method, also known as a mutator method, is a method used to modify the value of a private attribute. It provides a way to update the value of an attribute while enforcing certain conditions or validations.
+
 <br>
 <br>
 
