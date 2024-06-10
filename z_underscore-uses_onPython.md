@@ -177,4 +177,23 @@ print(a, b)
 # 7 1
 ```
 
-Here, **(7, 6, 5, 4, 3, 2, 1)** is a tuple. With the unpacking syntax, a will get the first value, b will get the last value, and `*_` (denoted by the asterisk followed by an underscore) will hold any values in between. In this case, `*_` collects all values except the first and last, which are **6, 5, 4, 3, 2.**
+<br>
+
+Here, **(7, 6, 5, 4, 3, 2, 1)** is a tuple. With the unpacking syntax, a will get the first value, b will get the last value, and `*_` (denoted by the asterisk followed by an underscore) will hold any values in between.
+
+- In this case, `*_` collects all values except the first and last, which are **6, 5, 4, 3, 2.**
+
+#### another example
+
+```python
+pizza = ["crust", "tomato sauce", "cheese", "pepperoni", "mushrooms", "olives", "bell peppers"]
+
+crust, *toppings, last_topping = pizza
+
+print("Pizza with", crust, "and toppings:", toppings)
+print("Last topping is:", last_topping)
+
+# output
+# Pizza with crust and toppings: ['tomato sauce', 'cheese', 'pepperoni', 'mushrooms', 'olives']
+# Last topping is: bell peppers
+```
