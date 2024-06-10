@@ -6,11 +6,12 @@ class Pizza:
         #
         #
         self.slices = 8
-        self.slices_eaten = 0
+        self.slices_eaten = 0 # default, you havent eat anything
         #-----------------
+        #
+        #
+
     def eat_slice(self):
-        #
-        #
         if self.slices_eaten < self.slices:
             self.slices_eaten += 1
             self.slices == 1
@@ -23,6 +24,8 @@ class Pizza:
     #
     # ---------
     @property
+    #
+    #
     def remaining_slices(self):
         return self.slices # look at the top: self.slices = 8
 
@@ -35,3 +38,9 @@ class Pizza:
         for topping in self.toppings:
             print("-", topping)
     # ---------
+
+#CREATE A PIZZA with some initial toppings
+my_pizza = Pizza(["cheese", "pepperoni"])
+
+
+# Time to eat some slices
