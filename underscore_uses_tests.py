@@ -1,6 +1,7 @@
+# 0
 class Pizza:
         #
-        # ---------------
+        # 1 ---------------
     def __init__(self, toppings):
         self.toppings = toppings
         #
@@ -10,7 +11,7 @@ class Pizza:
         #-----------------
         #
         #
-
+        # 2
     def eat_slice(self):
         if self.slices_eaten < self.slices:
             self.slices_eaten += 1
@@ -22,25 +23,31 @@ class Pizza:
 
     #
     #
-    # ---------
+    # 3 ---------
     @property
     #
-    #
+    # 4
     def remaining_slices(self):
         return self.slices # look at the top: self.slices = 8
-
+    # 5
     def add_toppings(self, topping):
         self.toppings.append(topping) # self.toppings = toppings
         print(f"Added {topping} to the toppings!!")
-
+    # 6
     def display_toppings(self):
         print("Toppings on the pizza:")
+        #
+        # loop on the toppings
         for topping in self.toppings:
             print("-", topping)
     # ---------
 
-#CREATE A PIZZA with some initial toppings
+# 7 CREATE A PIZZA with some initial toppings
 my_pizza = Pizza(["cheese", "pepperoni"])
 
 
-# Time to eat some slices
+# * Time to eat some slices
+# use the step #2 here below
+my_pizza.eat_slice()
+my_pizza.eat_slice()
+
