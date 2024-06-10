@@ -76,6 +76,15 @@ my_car.moves()
 
 ## 🍭 GETTER & SETTERS
 
+### What are Getters and Setters?
+
+**Getters:** These are the methods used in ✋ `Object-Oriented Programming (OOPS)` which helps to access the private attributes from a class.
+
+**Setters:** These are the methods used in OOPS feature which helps to set the value to private attributes in a class.
+
+<br>
+<br>
+
 #### Getter Method:
 
 A getter method, also known as an accessor method, is a method used to retrieve the value of a private attribute **( a variable that is not directly accessible from outside the class)**. It allows you to access the value of an attribute in a controlled manner.
