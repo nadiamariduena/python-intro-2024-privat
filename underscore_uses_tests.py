@@ -28,7 +28,7 @@ class Pizza:
     #
     # 4
     def remaining_slices(self):
-        return self.slices # look at the top: self.slices = 8
+        return self.slices # look at the STEP 1: self.slices = 8
     # 5
     def add_toppings(self, topping):
         self.toppings.append(topping) # self.toppings = toppings
@@ -51,3 +51,7 @@ my_pizza = Pizza(["cheese", "pepperoni"])
 my_pizza.eat_slice()
 my_pizza.eat_slice()
 
+# 🟡 Forgot how many slices are left? No problem, underscore to the rescue!
+# use the step #4 here below
+_ = my_pizza.remaining_slices
+print("Remaining slices:", _) # the underscore _ ,  will remembers the last result
