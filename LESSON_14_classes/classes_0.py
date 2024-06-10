@@ -9,6 +9,7 @@ class Vehicle:
 
     def moves(self):
         print("MOves along...")
+        #or  print(f"MOves along...{self.model}")
 
 
 my_car = Vehicle("Tesla", "Model 3")
