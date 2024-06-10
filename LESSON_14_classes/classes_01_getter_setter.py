@@ -43,4 +43,19 @@ class Car:
         self.model = model
         self.year = year
 
+   # Getter method for year attribute
+    def get_year(self):
+        return self._year
+
+   # SETTER method for year attribute with validation
+    def set_year(self, year):
+        # if the inst is an integer
+        if isinstance(year, int) and year > 0:
+            self._year = year
+        else:
+            print("Invalid year value. Please provide a positive integer")
+
+
+
+
 
