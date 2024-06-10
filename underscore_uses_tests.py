@@ -24,8 +24,8 @@ class Pizza:
     # ---------
     @property
     def remaining_slices(self):
-        return self.slices
+        return self.slices # look at the top: self.slices = 8
 
     def add_toppings(self, topping):
-        self.toppings.append(topping)
-
+        self.toppings.append(topping) # self.toppings = toppings
+        print(f"Added {topping} to the toppings")
