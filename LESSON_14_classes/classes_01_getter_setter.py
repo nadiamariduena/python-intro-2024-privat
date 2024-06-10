@@ -15,4 +15,15 @@ class Circle:
     def radius(self, value):
         if value > 0:
             self._radius = value
+        else:
+            print("Invalid radius, Please provide a positive value.")
 
+# Create an instance of Circle
+my_circle = Circle(5)
+
+
+# Get the radius (via property)
+print("Circle radius (via property):", my_circle.radius)
+
+my_circle.radius = 10
+print("Circle radius (after setting via property):", my_circle.radius)
