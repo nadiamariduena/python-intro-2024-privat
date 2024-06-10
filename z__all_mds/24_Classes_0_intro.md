@@ -84,6 +84,14 @@ A getter method, also known as an accessor method, is a method used to retrieve 
 
 A setter method, also known as a mutator method, is a method used to modify the value of a private attribute. It provides a way to update the value of an attribute while enforcing certain conditions or validations.
 
+#### 🔶 you need to declare the getter `@property` and setter ` @radius.setter` to use it
+
+- you need to declare both **@property** and **@radius.setter** decorators if you want to use both the getter and setter methods within a single property in Python.
+
+```python
+#
+```
+
 <br>
 <br>
 
