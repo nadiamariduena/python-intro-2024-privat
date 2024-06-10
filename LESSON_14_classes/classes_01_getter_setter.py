@@ -37,36 +37,38 @@ print("Circle radius (after setting via property):", my_circle.radius)
 #
 #
 class Car:
-
-    def __init__(self, make, model,year): #3args
+    def __init__(self, make, model, year):
         self.make = make
         self.model = model
         self.year = year
 
-   # Getter method for year attribute
+    # Getter method for year attribute
     def get_year(self):
-        return self._year
+        return self.year
 
-   # SETTER method for year attribute with validation
+    # Setter method for year attribute with validation
     def set_year(self, year):
-        # if the inst is an integer
         if isinstance(year, int) and year > 0:
-            self._year = year
+            self.year = year
         else:
-            print("Invalid year value. Please provide a positive integer")
+            print("Invalid year value. Please provide a positive integer.")
 
-
-#Create an intance of the car class
+# Create an instance of the Car class
 my_car = Car("Toyota", "Camry", 2015)
 
+# Accessing the year using the getter method
+print("Car year (via getter):", my_car.get_year())
 
-# Accessing the year using the GETTER method
-print("Car year (via GETTER):", my_car.get_year())
-
-# Tring to SET an invalid year using the SETTER method
-my_car.set_year("INVALID")
-print("Car year (after invalid SET):", my_car.get_year())
-
+# Trying to set an invalid year using the setter method
+my_car.set_year("Invalid")
+print("Car year (after invalid set):", my_car.get_year())
 
 # Setting a valid year using the setter method
-print("Car year (after valid set)", my_car.get_year())
+my_car.set_year(2020)
+print("Car year (after valid set):", my_car.get_year())
+
+# result
+# Car year (via getter): 2015
+# Invalid year value. Please provide a positive integer.
+# Car year (after invalid set): 2015
+# Car year (after valid set): 2020
