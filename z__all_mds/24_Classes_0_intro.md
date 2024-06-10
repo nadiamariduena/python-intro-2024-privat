@@ -89,7 +89,22 @@ A setter method, also known as a mutator method, is a method used to modify the 
 - you need to declare both **@property** and **@radius.setter** decorators if you want to use both the getter and setter methods within a single property in Python.
 
 ```python
-#
+
+# GETTER
+    @property
+    #
+    #
+    def radius(self):
+        return self._radius
+
+ # SETTER
+    @radius.setter
+    #
+    #
+    def radius(self, value):
+        if value > 0:
+            self._radius = value
+
 ```
 
 <br>
