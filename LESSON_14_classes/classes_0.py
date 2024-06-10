@@ -14,7 +14,7 @@ class Vehicle:
 
     def get_make_model(self):
         # print("MOves along...")
-        print(f"John drives a {self.make} '{self.model}'") # output: John drives a Tesla 'Model 3'
+        print(f"John drives a {self.make} '{self.model}' that goes to {self.place} ") # output: John drives a Tesla 'Model 3'
         #or  print(f"MOves along...{self.model}")
 
     def get_car_to_place(self):
