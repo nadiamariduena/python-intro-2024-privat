@@ -37,3 +37,7 @@ class Pizza:
 <br>
 
 #### Basic exercises
+
+## GETTER & SETTERS
+
+Differences between Python Property and Getters & Setters.
