@@ -4,6 +4,13 @@ class Circle:
         self.radius = radius # Private attribute
 
     # GETTER method for radius (property)
-    # property
+    @property
     def radius(self):
         return self._radius
+
+    # Setter method from radius property
+    @radius.setter
+    def radius(self, value):
+        if value > 0:
+            self._radius = value
+
