@@ -1,4 +1,4 @@
-## GETTER & SETTER
+## GETTER & SETTER (the first example will be boring asf, next one will be interesting)
 class Circle:
     def __init__(self, radius):
         self.radius = radius # Private attribute
@@ -27,3 +27,20 @@ print("Circle radius (via property):", my_circle.radius)
 
 my_circle.radius = 10
 print("Circle radius (after setting via property):", my_circle.radius)
+
+
+#
+#
+#-----------
+# CAR example
+# -----------
+#
+#
+class Car:
+
+    def __init__(self, make, model,year): #3args
+        self.make = make
+        self.model = model
+        self.year = year
+
+
