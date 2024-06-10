@@ -55,3 +55,7 @@ my_pizza.eat_slice()
 # use the step #4 here below
 _ = my_pizza.remaining_slices
 print("Remaining slices:", _) # the underscore _ ,  will remembers the last result
+
+# Add some extra toppings
+my_pizza.add_toppings("mushrrom")
+my_pizza.add_toppings("olives")
