@@ -78,6 +78,8 @@ my_car.moves()
 
 ### What are Getters and Setters?
 
+[source: datacamp.com ](https://www.datacamp.com/tutorial/property-getters-setters?utm_source=google&utm_medium=paid_search&utm_campaignid=21057859163&utm_adgroupid=157296744137&utm_device=c&utm_keyword=&utm_matchtype=&utm_network=g&utm_adpostion=&utm_creative=692112538027&utm_targetid=dsa-2218886984580&utm_loc_interest_ms=&utm_loc_physical_ms=9069516&utm_content=&utm_campaign=230119_1-sea~dsa~tofu_2-b2c_3-es-lang-en_4-prc_5-na_6-na_7-le_8-pdsh-go_9-nb-e_10-na_11-na&gad_source=1&gclid=Cj0KCQjwpZWzBhC0ARIsACvjWROhmuhx2Eg660jD0DS5PNlLRR-oya1jYobQWrwvzGS5as_CcgSKuMMaAtKJEALw_wcB)
+
 **Getters:** These are the methods used in ✋ `Object-Oriented Programming (OOPS)` which helps to access the private attributes from a class.
 
 **Setters:** These are the methods used in OOPS feature which helps to set the value to private attributes in a class.
