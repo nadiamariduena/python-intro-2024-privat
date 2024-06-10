@@ -71,6 +71,16 @@ my_car.moves()
 
 ```
 
-## GETTER & SETTERS
+<br>
+<br>
 
-Differences between Python Property and Getters & Setters.
+## 🍭 GETTER & SETTERS
+
+#### Getter Method:
+
+A getter method, also known as an accessor method, is a method used to retrieve the value of a private attribute **( a variable that is not directly accessible from outside the class)**. It allows you to access the value of an attribute in a controlled manner.
+
+<br>
+<br>
+
+## 🍭 Differences between Python Property and Getters & Setters.
