@@ -24,7 +24,7 @@
 
 #### 1. Use in Interpreter
 
-> Python automatically stores the value of the last expression in the interpreter to a particular variable called "\_." You can also assign these value to another variable if you want.
+> Python automatically stores the value of the last expression in the interpreter to a particular variable called `_.` You can also assign these value to another variable if you want.
 
 You can use it as a normal variable. See the **example:**
 
@@ -168,6 +168,7 @@ print("-----------")
 ## it's called "Extended Unpacking", only available in Python 3.x
 a, *_, b = (7, 6, 5, 4, 3, 2, 1)
 print(a, b)
+# Here, (7, 6, 5, 4, 3, 2, 1) is a tuple. With the unpacking syntax, a will get the first value, b will get the last value, and *_ (denoted by the asterisk followed by an underscore) will hold any values in between. In this case, *_ collects all values except the first and last, which are 6, 5, 4, 3, 2.
 
 # ✋ OUTPUT
 # -----------
@@ -175,3 +176,5 @@ print(a, b)
 # -----------
 # 7 1
 ```
+
+Here, **(7, 6, 5, 4, 3, 2, 1)** is a tuple. With the unpacking syntax, a will get the first value, b will get the last value, and `*_` (denoted by the asterisk followed by an underscore) will hold any values in between. In this case, `*_` collects all values except the first and last, which are **6, 5, 4, 3, 2.**
