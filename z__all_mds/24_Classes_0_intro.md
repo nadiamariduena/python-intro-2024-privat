@@ -107,6 +107,14 @@ A setter method, also known as a mutator method, is a method used to modify the 
 
 ```
 
+#### @property decorator:
+
+> This decorator is used to define a getter method for a property. When you decorate a method with @property, it becomes a property getter, and you can access it as if it were an attribute rather than a method.
+
+#### @radius.setter decorator:
+
+> This decorator is used to define a setter method for a property. When you decorate a method with @radius.setter, it becomes a property setter, and you can use it to set the value of the property as if it were an attribute assignment.
+
 <br>
 <br>
 
