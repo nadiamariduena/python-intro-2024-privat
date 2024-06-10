@@ -1,3 +1,15 @@
+# based on the example below:
+#
+# 1 the a is the argument i will be using
+# 2  i assign the a to the __a
+#
+#
+# 3 then  on the GETTER, I will get the __a  and its value, and prepare it to be changed(ONLY prepare it)
+# 4 then on the SETTER, I take the __a, and actually change the value
+# **  so similar to the const [ state, setState] = useState() , read the example on the MD
+
+
+
 class SampleClass:
 
     def __init__(self, a):
