@@ -60,6 +60,6 @@ class Car:
 my_car = Car("Toyota", "Camry", 2015)
 
 # Accessing the year using the GETTER method
-
+print("Car year (via GETTER):", my_car.get_year())
 
 
