@@ -15,6 +15,7 @@ class Pizza:
     def eat_slice(self):
         if self.slices_eaten < self.slices:
             self.slices_eaten += 1
+            # self.slices -= 1
             self.slices == 1
             print("Once slice down")
         else:
@@ -45,7 +46,23 @@ class Pizza:
 # 7 CREATE A PIZZA with some initial toppings
 my_pizza = Pizza(["cheese", "pepperoni"])
 
+# Define a loop to eat slices until the pizza is all gone
+# while my_pizza.remaining_slices > 0:
+#     my_pizza.eat_slice()
+# Define a loop to eat slices until 8 slices are eaten
+for _ in range(8):
+    my_pizza.eat_slice()
 
+    # Check if the pizza is all gone
+    if my_pizza.remaining_slices == 0:
+        print("All slices eaten!")
+        break
+
+
+    #
+    #
+    #
+    #
 # 8 Time to eat some slices
 # use the step #2 here below
 my_pizza.eat_slice()
@@ -62,3 +79,16 @@ my_pizza.add_toppings("olives")
 
 # 11 Display toppings
 my_pizza.display_toppings()
+
+
+# result
+# Once slice down
+# Once slice down
+# Remaining slices: 8
+# Added mushrrom to the toppings!!
+# Added olives to the toppings!!
+# Toppings on the pizza:
+# - cheese
+# - pepperoni
+# - mushrrom
+# - olives
