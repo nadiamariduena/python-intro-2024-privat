@@ -102,6 +102,9 @@ a, _, b = (1, 2, 3) # a = 1, b = 3
 print(a, b)
 
 #----------
+print("-----------")
+#----------
+#
 ## ignoring multiple values
 ## *(variable) used to assign multiple value to a variable as list while unpacking
 ## it's called "Extended Unpacking", only available in Python 3.x
