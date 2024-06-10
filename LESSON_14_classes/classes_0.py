@@ -9,7 +9,8 @@ class Vehicle:
         self.model = model
 
     def moves(self):
-        print("MOves along...")
+        # print("MOves along...")
+        print(f"John drives a {self.make} '{self.model}'") # output: John drives a Tesla 'Model 3'
         #or  print(f"MOves along...{self.model}")
 
 
