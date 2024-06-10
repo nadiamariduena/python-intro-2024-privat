@@ -148,3 +148,9 @@ my_pizza.display_toppings()
 ```
 
 <br>
+
+## Ignoring Values
+
+```python
+
+```
