@@ -59,7 +59,14 @@ class Car:
 #Create an intance of the car class
 my_car = Car("Toyota", "Camry", 2015)
 
+
 # Accessing the year using the GETTER method
 print("Car year (via GETTER):", my_car.get_year())
 
+# Tring to SET an invalid year using the SETTER method
+my_car.set_year("INVALID")
+print("Car year (after invalid SET):", my_car.get_year())
 
+
+# Setting a valid year using the setter method
+print("Car year (after valid set)", my_car.get_year())
