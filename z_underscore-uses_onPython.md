@@ -44,4 +44,9 @@ You can use it as a normal variable. See the **example:**
 
 ```
 
-### Use the `_` in a Pizza management example
+<br>
+<br>
+
+### 🟠 Use the `_` in a Pizza management example
+
+<br>
