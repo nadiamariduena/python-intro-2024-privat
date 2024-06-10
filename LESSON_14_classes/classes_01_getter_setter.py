@@ -56,6 +56,10 @@ class Car:
             print("Invalid year value. Please provide a positive integer")
 
 
+#Create an intance of the car class
+my_car = Car("Toyota", "Camry", 2015)
+
+# Accessing the year using the GETTER method
 
 
 
