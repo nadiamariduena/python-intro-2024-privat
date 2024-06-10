@@ -46,16 +46,19 @@ class Pizza:
 my_pizza = Pizza(["cheese", "pepperoni"])
 
 
-# * Time to eat some slices
+# 8 Time to eat some slices
 # use the step #2 here below
 my_pizza.eat_slice()
 my_pizza.eat_slice()
 
-# 🟡 Forgot how many slices are left? No problem, underscore to the rescue!
-# use the step #4 here below
+# 9 🟡 Forgot how many slices are left? No problem, underscore to the rescue!
+#  use the step #4 here below
 _ = my_pizza.remaining_slices
 print("Remaining slices:", _) # the underscore _ ,  will remembers the last result
 
-# Add some extra toppings
+# 10 Add some extra toppings
 my_pizza.add_toppings("mushrrom")
 my_pizza.add_toppings("olives")
+
+# 11 Display toppings
+my_pizza.display_toppings()
