@@ -460,6 +460,48 @@ dir(obj1)
 
 <br>
 
+The above code returns all the attributes of the class object. Let's see our variables in the attributes list.
+
+self.a variable appears in the list without any change.
+
+self.\_b Variable also appears in the list without any change. As we discussed above, it's just for the internal use.
+
+Is there self.\_\_c variable in the list?
+
+If you carefully look at the attributes list, you will find an attribute called \_Sample\_\_c. This is the name mangling. It is to avoid the overriding of the variable in subclasses.
+Let's create another class by inheriting Sample class to see how overriding works.
+
 ```python
+class SecondClass(Sample):
+
+    def __init__(self):
+        super().__init__()
+        self.a = "overridden"
+        self._b = "overridden"
+        self.__c = "overridden"
+obj2 = SecondClass()
+print(obj2.a)
+print(obj2._b)
+print(obj2.__c)
+
+```
+
+```python
+overridden
+overridden
+
+
+
+---------------------------------------------------------------------------
+
+AttributeError                            Traceback (most recent call last)
+
+<ipython-input-2-4bf6884fbd34> in <module>()
+      9 print(obj2.a)
+     10 print(obj2._b)
+---> 11 print(obj2.__c)
+
+
+AttributeError: 'SecondClass' object has no attribute '__c'
 
 ```
