@@ -148,4 +148,4 @@ A setter method, also known as a mutator method, is a method used to modify the 
 
 <br>
 
-- **@property** is a Python decorator that allows defining a method that can be accessed like an attribute.
+- **@property** is a Python <u>decorator</u> that **allows defining a method** that can be accessed like an attribute.
