@@ -336,3 +336,14 @@ export default Counter;
 - `useState(0)` initializes the count state variable with an initial value of `0`.
 
 - When the **"Increment"** button is clicked, the increment function is called, which uses <u>setCount</u> to update the <u>count</u> state variable by **incrementing its value**.
+
+<br>
+<br>
+
+### 🟠 In javascript it would look like this:
+
+In JavaScript, you can achieve similar functionality using object destructuring and function expressions.
+
+- 🔴 While **JavaScript doesn't have** <u>built-in language</u> features like **Python's decorators** or React's hooks, you can create functions that act as **getters and setters** for object properties.
+
+Here's an example of how you can create a simple Counter object with a private `_count` property and getter and setter methods for accessing and updating the count:
