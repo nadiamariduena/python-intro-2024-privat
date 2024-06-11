@@ -356,3 +356,16 @@ NameError: name '_private_func' is not defined
 7
 
 ```
+
+<br>
+<br>
+
+## single_postunderscore
+
+`name_`
+
+Sometimes if you want to use Python Keywords as a variable, function or class names, you can use this convention for that.
+
+You can avoid conflicts with the Python Keywords by adding an underscore at the end of the name which you want to use.
+
+Let's see the example.
