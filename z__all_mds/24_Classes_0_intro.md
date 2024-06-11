@@ -142,7 +142,7 @@ print("---------")
 <br>
 <br>
 
-# CLASSES: objects
+# 🟠CLASSES: objects
 
 - based on the above code, I will be creating the **object**
 
@@ -160,6 +160,102 @@ your_car.moves()
 ```
 
 <br>
+
+### updated code
+
+```python
+
+# 1) example
+# https://youtu.be/RpBBzci_cBk?feature=shared
+#
+#
+# -----  CLASSES  -----
+# - here below i will create the first class.
+# - More at the bottom you will find objects , inheritance
+class Vehicle:
+
+    #In Python, __init__ is an instance method that initializes a newly created object. It takes the object as its first argument followed by additional arguments.
+    def __init__(self, make, model, place):
+        self.make = make
+        self.model = model
+        self.place = place
+
+    def moves(self):
+         print("MOves along...")
+
+    def get_make_model(self):
+        # print("MOves along...")
+        print(f"John drives a {self.make} '{self.model}' that goes to {self.place} ") # output: John drives a Tesla 'Model 3'
+        #or  print(f"MOves along...{self.model}")
+
+    def get_car_to_place(self):
+        # print("MOves along...")
+        print(f"on direction to {self.place}")
+
+
+
+
+my_car = Vehicle("Tesla", "Model 3", "Oregon")
+
+#
+print(my_car.make)
+print(my_car.model)
+print(my_car.place)
+
+#
+my_car.moves()
+
+# OUTPUT
+# Tesla
+# Model 3
+# MOves along...
+
+
+# 2) example
+# lets create more cars from the same class from above
+
+my_car.get_make_model()
+my_car.moves()
+my_car.get_car_to_place()
+###
+#
+print("---------")
+#
+# ----- OBJECTS  -----
+#
+
+# with the below we will be creating another Object based on the same VEHICLE class
+#
+your_car = Vehicle("Cadillac", "Escalada", "Paris")
+your_car.get_make_model()
+your_car.moves()
+
+
+#
+# ----- INHERITANCE  -----
+# Now I will create classes that depends on the ABOVE class ( the VEHICLE)
+
+#
+#
+#
+## ... CONTINUE below
+```
+
+<br>
 <br>
 
-# CLASSES: INheritance
+# 🟠CLASSES: INheritance
+
+#### question:
+
+so inheritance classes in python, works like the 🍰 **gremlins** react when pured water?
+
+##### chatgpt:
+
+Haha, that's an interesting comparison!
+
+- In Python, inheritance allows a class to inherit attributes and methods from another class, which can be a bit like multiplying the functionality, much like the gremlins multiplying when they come in contact with water 🌧️.
+
+But unlike the **gremlins...** inheritance in Python is usually a good thing!
+
+- It helps in creating hierarchical relationships between classes, promoting code reusability, and making your code more organized and easier to maintain. Plus, you won't have to worry about your code causing chaos if it encounters water!
