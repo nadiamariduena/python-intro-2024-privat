@@ -63,3 +63,4 @@ your_car.moves()
 
 #
 # ----- INHERITANCE  -----
+# Now I will create classes that depends on the ABOVE class ( the VEHICLE)
