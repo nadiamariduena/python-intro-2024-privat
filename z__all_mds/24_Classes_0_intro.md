@@ -333,6 +333,6 @@ export default Counter;
 🔵 `setCount` //is the setter function used to update the count state variable.
 ```
 
-- `useState(0)` initializes the count state variable with an initial value of 0.
+- `useState(0)` initializes the count state variable with an initial value of `0`.
 
-- When the "Increment" button is clicked, the increment function is called, which uses setCount to update the count state variable by incrementing its value.
+- When the **"Increment"** button is clicked, the increment function is called, which uses <u>setCount</u> to update the <u>count</u> state variable by **incrementing its value**.
