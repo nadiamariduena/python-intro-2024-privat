@@ -1,6 +1,6 @@
 # 🟠 underscore(`_`) in python.
 
-- Most of the below info has been taken from the link below (not with the intention to steal it, but to save it in case they take down their page)
+- Most of the below info, has been taken from the link below (not with the intention to steal it, but to save it in case they take down their page)
 
 <br>
 

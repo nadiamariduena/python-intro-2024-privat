@@ -135,4 +135,8 @@ A setter method, also known as a mutator method, is a method used to modify the 
 <br>
 <br>
 
-## 🍭 Differences between Python `@Property` and Getters & Setters.
+# `@Property`
+
+### Differences between Python `@Property` and Getters & Setters.
+
+- 🔴 `@property` is used to get the value of a private attribute without using any getter methods. We have to put a line @property in front of the method where we return the private variable.
