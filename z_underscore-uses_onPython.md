@@ -412,3 +412,54 @@ Double Pre Underscores are used for the name mangling.
 Double Pre Underscores tells the Python interpreter to rewrite the attribute name of subclasses to avoid naming conflicts.
 
 **Name Mangling:-** interpreter of the Python alters the variable name in a way that it is challenging to clash when the class is inherited.
+
+```python
+class Sample():
+
+    def __init__(self):
+        self.a = 1
+        self._b = 2
+        self.__c = 3
+obj1 = Sample()
+dir(obj1)
+
+```
+
+```python
+['_Sample__c',
+ '__class__',
+ '__delattr__',
+ '__dict__',
+ '__dir__',
+ '__doc__',
+ '__eq__',
+ '__format__',
+ '__ge__',
+ '__getattribute__',
+ '__gt__',
+ '__hash__',
+ '__init__',
+ '__init_subclass__',
+ '__le__',
+ '__lt__',
+ '__module__',
+ '__ne__',
+ '__new__',
+ '__reduce__',
+ '__reduce_ex__',
+ '__repr__',
+ '__setattr__',
+ '__sizeof__',
+ '__str__',
+ '__subclasshook__',
+ '__weakref__',
+ '_b',
+ 'a']
+
+```
+
+<br>
+
+```python
+
+```
