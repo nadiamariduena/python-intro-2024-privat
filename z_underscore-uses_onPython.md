@@ -282,3 +282,13 @@ print(hexa)
 - Double **Pre** Underscores:- `**variable`
 
 - Double **Pre and Post** Underscores:- `**variable__`
+
+<br>
+
+### `_single_pre_underscore`
+
+`_name`
+
+Single Pre Underscore is used for internal use. Most of us don't use it because of that reason.
+
+See the following example.
