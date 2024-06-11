@@ -226,3 +226,9 @@ print("Area:", my_circle.area)
 
 
 ```
+
+#### me:
+
+- so its cleaner to use `@properyty`, but confusing for beginners, as there is no way to know whcih is the `getter` and the `setter`
+
+#### chatgpt:
