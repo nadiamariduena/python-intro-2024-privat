@@ -320,3 +320,14 @@ single pre underscore doesn't stop you from accessing the single pre underscore 
 But, single pre underscore effects the names that are imported from the module.
 
 Let's write the following code in the my_funtions file
+
+```python
+## filename:- my_functions.py
+
+def func():
+    return "datacamp"
+
+def _private_func():
+    return 7
+
+```
