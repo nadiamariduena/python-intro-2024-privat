@@ -221,4 +221,18 @@ while _ < 10:
     print(_, end = ' ') # default value of 'end' id '\n' in python. we're changing it to space
     _ += 1
 
+#
+#
+# ✋ output
+# 0
+# 1
+# 2
+# 3
+# 4
+# Python
+# JS
+# PHP
+# Java
+# 5 6 7 8 9
+
 ```
