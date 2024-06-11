@@ -291,4 +291,33 @@ In simpler terms, it allows you to use `my_circle.radius =` value syntax to set 
 
 > Yes, in React's functional components, `useState()` **hook** is used to create state variables.
 
-- 🟡 It returns an **array containing** the **current state** value as the **first element**, and a function to update the state as the **second element**.
+🟡 It returns an **array containing** the **current state** value as the **first element**, and a function to update the state as the **second element**.
+
+The first element of the array serves as a getter to retrieve the current state value.
+
+The second element of the array is a setter function used to update the state value.
+
+##### Here's an example of how you would use useState():
+
+```javascript
+import React, { useState } from "react";
+
+function Counter() {
+  // Declare a state variable named 'count' with an initial value of 0
+  const [count, setCount] = useState(0);
+
+  // Event handler to increment the count
+  const increment = () => {
+    setCount(count + 1); // Updating the state using the setter function
+  };
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={increment}>Increment</button>
+    </div>
+  );
+}
+
+export default Counter;
+```
