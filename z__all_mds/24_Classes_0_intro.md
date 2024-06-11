@@ -347,3 +347,34 @@ In JavaScript, you can achieve similar functionality using object destructuring 
 - 🔴 While **JavaScript doesn't have** <u>built-in language</u> features like **Python's decorators** or React's hooks, you can create functions that act as **getters and setters** for object properties.
 
 Here's an example of how you can create a simple Counter object with a private `_count` property and getter and setter methods for accessing and updating the count:
+
+```javascript
+const Counter = (() => {
+  let _count = 0; // Private variable
+
+  const getCount = () => _count; // Getter method
+  // Setter method
+  const setCount = (value) => {
+    //
+    if (typeof value === "number") {
+      _count = value;
+    } else {
+      console.error("Invalid count value. Please provide a number.");
+    }
+  };
+
+  return {
+    getCount,
+    setCount,
+  };
+})();
+
+// Get the initial count
+console.log("Initial count:", Counter.getCount());
+
+// Set a new count
+Counter.setCount(5);
+
+// Get the updated count
+console.log("Updated count:", Counter.getCount());
+```
