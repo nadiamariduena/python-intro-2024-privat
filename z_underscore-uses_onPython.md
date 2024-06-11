@@ -279,6 +279,6 @@ print(hexa)
 
 - Single **Post** Underscore:- `variable_`
 
-- Double Pre Underscores:- `**variable`
+- Double **Pre** Underscores:- `**variable`
 
-- Double Pre and Post Underscores:- `**variable__`
+- Double **Pre and Post** Underscores:- `**variable__`
