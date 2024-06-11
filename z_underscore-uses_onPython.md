@@ -369,3 +369,16 @@ Sometimes if you want to use Python Keywords as a variable, function or class na
 You can avoid conflicts with the Python Keywords by adding an underscore at the end of the name which you want to use.
 
 Let's see the example.
+
+```python
+>>> def function(class):
+  File "<stdin>", line 1
+    def function(class):
+                 ^
+SyntaxError: invalid syntax
+>>> def function(class_):
+...     pass
+...
+>>>
+
+```
