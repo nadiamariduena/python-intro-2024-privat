@@ -345,3 +345,14 @@ Traceback (most recent call last):
 NameError: name '_private_func' is not defined
 
 ```
+
+### You avoid the above error by importing the module normally.
+
+```python
+>>> import my_functions
+>>> my_functions.func()
+'datacamp'
+>>> my_functions._private_func()
+7
+
+```
