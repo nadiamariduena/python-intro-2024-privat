@@ -232,3 +232,46 @@ print("Area:", my_circle.area)
 - so its cleaner to use `@properyty`, but confusing for beginners, as there is no way to know whcih is the `getter` and the `setter`
 
 #### chatgpt:
+
+**That's a valid point.** While `@property` simplifies syntax and enhances readability, especially for those familiar with Python, it might indeed be a bit confusing for beginners who are not aware of the getter and setter methods implicitly defined by the decorator.
+
+Here's the same example with added comments for clarity:
+
+```python
+class Circle:
+    def __init__(self, radius):
+        self._radius = radius
+
+    @property
+    # getter
+    def radius(self):
+        """Getter method for the radius attribute."""
+        return self._radius
+
+    @radius.setter
+    # @radius.setter is a decorator used in Python to define a setter method for a property.
+    def radius(self, radius):
+        """Setter method for the radius attribute."""
+        if radius < 0:
+            raise ValueError("Radius must be non-negative")
+        self._radius = radius
+
+    @property
+    def diameter(self):
+        """Getter method for the diameter attribute."""
+        return 2 * self._radius
+
+    @property
+    def area(self):
+        """Getter method for the area attribute."""
+        return 3.14159 * self._radius ** 2
+
+# Creating an instance of Circle
+my_circle = Circle(5)
+
+# Accessing radius, diameter, and area like attributes
+print("Radius:", my_circle.radius)
+print("Diameter:", my_circle.diameter)
+print("Area:", my_circle.area)
+
+```
