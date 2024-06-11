@@ -1,5 +1,6 @@
 
 # 1) example
+# https://youtu.be/RpBBzci_cBk?feature=shared
 #
 class Vehicle:
 
@@ -49,6 +50,8 @@ my_car.get_car_to_place()
 ###
 #
 print("---------")
+# OBJECTS
+# with the below we will be creating another Object based on the same VEHICLE class
 #
 your_car = Vehicle("Cadillac", "Escalada", "Paris")
 your_car.get_make_model()
