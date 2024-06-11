@@ -244,6 +244,14 @@ while _ < 10:
 
 If you have a long digits number, you can separate the group of digits as you like for better understanding.
 
+**Ex:-** `million = 1_000_000`
+
+**Next**, you can also use `underscore(_)` to separate the binary, octal or hex parts of numbers.
+
+**Ex:-** `binary = 0b_0010, octa = 0o_64, hexa = 0x_23_ab`
+
+Execute all the above examples to see the results.
+
 ```python
 
 ```
