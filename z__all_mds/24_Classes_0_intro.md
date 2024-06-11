@@ -135,4 +135,4 @@ A setter method, also known as a mutator method, is a method used to modify the 
 <br>
 <br>
 
-## 🍭 Differences between Python Property and Getters & Setters.
+## 🍭 Differences between Python `@Property` and Getters & Setters.

@@ -382,3 +382,33 @@ SyntaxError: invalid syntax
 >>>
 
 ```
+
+## Single Post Underscore
+
+- is used for naming your variables as Python Keywords and to avoid the clashes by adding an underscore at last of your variable name.
+
+```python
+>>> def function(class):
+  File "<stdin>", line 1
+    def function(class):
+                 ^
+SyntaxError: invalid syntax
+>>> def function(class_):
+...     pass
+...
+>>>
+
+```
+
+<br>
+<br>
+
+## Double Pre Underscore
+
+`__name`
+
+Double Pre Underscores are used for the name mangling.
+
+Double Pre Underscores tells the Python interpreter to rewrite the attribute name of subclasses to avoid naming conflicts.
+
+**Name Mangling:-** interpreter of the Python alters the variable name in a way that it is challenging to clash when the class is inherited.
