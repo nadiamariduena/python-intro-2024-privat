@@ -331,3 +331,5 @@ def _private_func():
     return 7
 
 ```
+
+### Now, if you import all the methods and names from my_functions.py, Python doesn't import the names which starts with a single pre underscore.
