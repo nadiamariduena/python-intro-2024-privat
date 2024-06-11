@@ -333,3 +333,15 @@ def _private_func():
 ```
 
 ### Now, if you import all the methods and names from my_functions.py, Python doesn't import the names which starts with a single pre underscore.
+
+```python
+
+>>> from my_functions import *
+>>> func()
+'datacamp'
+>>> _private_func()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name '_private_func' is not defined
+
+```
