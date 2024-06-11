@@ -321,3 +321,18 @@ function Counter() {
 
 export default Counter;
 ```
+
+<br>
+
+```javascript
+//  getter
+🟢 `count` //serves as the state variable.
+//
+//
+//  setter
+🔵 `setCount` //is the setter function used to update the count state variable.
+```
+
+- `useState(0)` initializes the count state variable with an initial value of 0.
+
+- When the "Increment" button is clicked, the increment function is called, which uses setCount to update the count state variable by incrementing its value.
