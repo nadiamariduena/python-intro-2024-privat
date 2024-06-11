@@ -1,5 +1,9 @@
 # 🟠 underscore(`_`) in python.
 
+- Most of the below info has been taken from the link below (not with the intention to steal it, but to save it in case they take down their page)
+
+<br>
+
 [SOURCE: www.datacamp.com](https://www.datacamp.com/tutorial/role-underscore-python)
 
 <br>
@@ -292,3 +296,16 @@ print(hexa)
 Single Pre Underscore is used for internal use. Most of us don't use it because of that reason.
 
 See the following example.
+
+```python
+class Test:
+
+    def __init__(self):
+        self.name = "datacamp"
+        self._num = 7
+
+obj = Test()
+print(obj.name)
+print(obj._num)
+
+```
