@@ -267,3 +267,10 @@ print(octa)
 print(hexa)
 
 ```
+
+<br>
+<br>
+
+## 🟠 Naming Using `Underscore(_)`
+
+`Underscore(_)` can be used to name variables, functions and classes, etc..,
