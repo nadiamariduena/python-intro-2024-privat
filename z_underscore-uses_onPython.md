@@ -253,5 +253,17 @@ If you have a long digits number, you can separate the group of digits as you li
 Execute all the above examples to see the results.
 
 ```python
+# OUTPUT
+## different number systems
+## you can also check whether they are correct or not by coverting them into integer using "int" method
+million = 1_000_000
+binary = 0b_0010
+octa = 0o_64
+hexa = 0x_23_ab
+
+print(million)
+print(binary)
+print(octa)
+print(hexa)
 
 ```
