@@ -2,6 +2,10 @@
 # 1) example
 # https://youtu.be/RpBBzci_cBk?feature=shared
 #
+#
+# -----  CLASSES  -----
+# - here below i will create the first class.
+# - More at the bottom you will find objects , inheritance
 class Vehicle:
 
     #In Python, __init__ is an instance method that initializes a newly created object. It takes the object as its first argument followed by additional arguments.
