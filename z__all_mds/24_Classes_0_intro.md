@@ -286,3 +286,9 @@ In simpler terms, it allows you to use `my_circle.radius =` value syntax to set 
 <br>
 
 ### 🔴 In other words, similar to the useState `const [ state, setState] = useState()`?
+
+#### chatgpt:
+
+> Yes, in React's functional components, `useState()` **hook** is used to create state variables.
+
+- 🟡 It returns an **array containing** the **current state** value as the **first element**, and a function to update the state as the **second element**.
