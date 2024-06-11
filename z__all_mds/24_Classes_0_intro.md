@@ -275,3 +275,9 @@ print("Diameter:", my_circle.diameter)
 print("Area:", my_circle.area)
 
 ```
+
+### @radius.setter decorates the setter method immediately following it (def radius(self, radius)), indicating that this method should be associated with setting the radius property.
+
+- So, when you try to assign a value to **my_circle.radius**, Python automatically calls the setter method **radius(self, radius)** with the assigned value, enabling you to perform any necessary validation or computations before setting the attribute `_radius`.
+
+In simpler terms, it allows you to use `my_circle.radius =` value syntax to set the radius property, and the associated setter method radius(self, radius) will be invoked with the provided value.
