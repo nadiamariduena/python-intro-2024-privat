@@ -197,3 +197,10 @@ print("Last topping is:", last_topping)
 # Pizza with crust and toppings: ['tomato sauce', 'cheese', 'pepperoni', 'mushrooms', 'olives']
 # Last topping is: bell peppers
 ```
+
+<br>
+<br>
+
+## 🟠 Use in Looping
+
+You can use `underscore(_)` as a variable in looping. See the examples below to get an idea.
