@@ -155,3 +155,74 @@ A setter method, also known as a mutator method, is a method used to modify the 
 - When the decorated method is called, it behaves like a read-only attribute, providing computed values or ensuring controlled access.
 
 - It simplifies the syntax by allowing you to access the method like an attribute rather than a method call.
+
+##### example:
+
+```python
+#  🟢  with PROPERT
+class Circle:
+    def __init__(self, radius):
+        self._radius = radius
+
+    @property
+    def radius(self):
+        return self._radius
+
+    @property
+    def diameter(self):
+        return 2 * self._radius
+
+    @property
+    def area(self):
+        return 3.14159 * self._radius ** 2
+
+# Creating an instance of Circle
+my_circle = Circle(5)
+
+# Accessing radius, diameter, and area like attributes
+print("Radius:", my_circle.radius)
+print("Diameter:", my_circle.diameter)
+print("Area:", my_circle.area)
+
+
+#
+# ------------------
+# 🟦 with GETTER & SETTER
+# ------------------
+
+class Circle:
+    def __init__(self, radius):
+        self._radius = radius
+
+
+    # GETTER
+    def get_radius(self):
+        return self._radius
+    # SETTER
+    def set_radius(self, radius):
+        if radius < 0:
+            raise ValueError("Radius must be non-negative")
+        self._radius = radius
+
+    # GETTER
+    def get_diameter(self):
+        return 2 * self._radius
+    # SETTER
+    def get_area(self):
+        return 3.14159 * self._radius ** 2
+
+    # defining properties
+    radius = property(get_radius, set_radius)
+    diameter = property(get_diameter)
+    area = property(get_area)
+
+# Creating an instance of Circle
+my_circle = Circle(5)
+
+# Accessing radius, diameter, and area like attributes
+print("Radius:", my_circle.radius)
+print("Diameter:", my_circle.diameter)
+print("Area:", my_circle.area)
+
+
+```
