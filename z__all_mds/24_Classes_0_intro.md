@@ -390,3 +390,15 @@ We demonstrate getting the initial count, **setting a new count**, and **getting
 #### While this approach in JavaScript is more verbose compared to Python's decorators or React's hooks,
 
 it achieves similar functionality by encapsulating private state and providing controlled access to it through getter and setter methods.
+
+<br>
+<br>
+
+---
+
+<br>
+<br>
+
+# CLASSES: objects
+
+# CLASSES: INheritance
