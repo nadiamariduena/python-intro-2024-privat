@@ -236,3 +236,14 @@ while _ < 10:
 # 5 6 7 8 9
 
 ```
+
+<br>
+<br>
+
+## 🟠 Separating Digits of Numbers
+
+If you have a long digits number, you can separate the group of digits as you like for better understanding.
+
+```python
+
+```
