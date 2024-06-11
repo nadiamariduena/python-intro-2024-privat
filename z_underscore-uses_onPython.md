@@ -274,3 +274,11 @@ print(hexa)
 ## 🟠 Naming Using `Underscore(_)`
 
 `Underscore(_)` can be used to name variables, functions and classes, etc..,
+
+- Single **Pre** Underscore:- `_variable`
+
+- Single **Post** Underscore:- `variable_`
+
+- Double Pre Underscores:- `**variable`
+
+- Double Pre and Post Underscores:- `**variable__`
