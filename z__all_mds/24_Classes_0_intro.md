@@ -285,7 +285,7 @@ In simpler terms, it allows you to use `my_circle.radius =` value syntax to set 
 <br>
 <br>
 
-### 🔴 In other words, similar to the useState `const [ state, setState] = useState()`?
+# 🔴 In other words, similar to the useState `const [ state, setState] = useState()`?
 
 #### chatgpt:
 
