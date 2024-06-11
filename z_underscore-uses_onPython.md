@@ -308,4 +308,15 @@ obj = Test()
 print(obj.name)
 print(obj._num)
 
+# output
+datacamp
+7
+
+
 ```
+
+single pre underscore doesn't stop you from accessing the single pre underscore variable.
+
+But, single pre underscore effects the names that are imported from the module.
+
+Let's write the following code in the my_funtions file
