@@ -378,3 +378,15 @@ Counter.setCount(5);
 // Get the updated count
 console.log("Updated count:", Counter.getCount());
 ```
+
+We use an **immediately-invoked function expression (IIFE)** to create a closure for the Counter object, providing private scope for the \_count variable.
+
+Inside the closure, we define getter and setter methods (getCount and setCount) for accessing and updating the count.
+
+🟡 The Counter object returned from the **IIFE** contains the getter and setter methods, allowing external code to interact with the count property indirectly.
+
+We demonstrate getting the initial count, **setting a new count**, and **getting the updated count** using the getter and setter methods.
+
+#### While this approach in JavaScript is more verbose compared to Python's decorators or React's hooks,
+
+it achieves similar functionality by encapsulating private state and providing controlled access to it through getter and setter methods.
