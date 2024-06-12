@@ -71,6 +71,4 @@ class IceCreamStore:
 
 class IceCreamStoreInherited(IceCreamStore):
     def __init__(self):
-        """
-        Initialize the IceCreamStoreInherited
-        """
+          """Initialize the IceCreamStoreInherited, calling the parent class's __init__ method."""
