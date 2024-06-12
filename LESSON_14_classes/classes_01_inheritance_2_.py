@@ -72,3 +72,5 @@ class IceCreamStore:
 class IceCreamStoreInherited(IceCreamStore):
     def __init__(self):
           """Initialize the IceCreamStoreInherited, calling the parent class's __init__ method."""
+          super().__init__() # Call the __init__ method of the parent class
+          self.special_topping = "Magic Sprinkles" # The special topping that adds a touch of magic
