@@ -47,3 +47,7 @@ class IceCreamStore:
     # ** 5 ---- LIST of Toppings
     #
     def list_toppings(self):
+        """
+       🗒️ List all available toppings, indicating if they are extra or not."""
+
+        print("Available toppings:")
