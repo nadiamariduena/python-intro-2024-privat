@@ -51,3 +51,12 @@ class IceCreamStore:
        🗒️ List all available toppings, indicating if they are extra or not."""
 
         print("Available toppings:")
+
+        #
+        # iterate on topping
+        #
+        for topping, cost in self.toppings:
+            if cost == 0:
+                print("- ", + topping)
+            else:
+                print("- " + topping + " (Extra $" + str(cost) +  ")")
