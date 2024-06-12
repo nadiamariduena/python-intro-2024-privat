@@ -1,7 +1,8 @@
 class IceCreamStore:
 
 
-    # 1
+    # ** 1 INIT ---------------
+    #
     def __init__(self):
         """Initialize the
         IceCreamSTore with an empty list of toppings and a default
@@ -10,7 +11,13 @@ class IceCreamStore:
         # ** 2
         self.toppings = []
         self.extra_topping_cost = 0.80 # The cost for extra toppings, because who doesn't love some extra toppings?
-    # 3
+    # -------------------------
+    #
+    #
+    #
+    #
+    # ** 3 ---- ADD TOPPING
+    #
     def add_topping(self, topping, extra=False):
 
         """
@@ -24,10 +31,14 @@ class IceCreamStore:
         - extra (bool, optional): Whether the topping is extra. Defaults to FALSE
 
         """
-        # 4
+        # ** 4 ---- EXTRA
+        # conditional for extra topping
+        #
         if extra:
             self.toppings.append((topping, self.extra_topping_cost))  # If extra, append with extra cost
         else:
 
             self.toppings.append((topping, 0)) # Otherwise, no extra cost
-
+        #
+        #
+        # ---------
