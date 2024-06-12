@@ -63,11 +63,14 @@ class IceCreamStore:
                 print("- " + topping + " (Extra $" + str(cost) +  ")")
 
 
+#
+#
+
+# ** --------- inherited class ------------
 # STEP 2: Define the Special Ice Store class, inheriting from
 
-normal_store = IceCreamStore()
-# Adding some toppings
-normal_store.add_topping("Mint")  # Add some mint flavor because it's cool and refreshing
-normal_store.add_topping("Rhubarb")  # Add rhubarb for that tangy twist
-normal_store.add_topping("Cookies and Cream", extra=True)  # Add extra topping, because why not?
-normal_store.list_toppings()
+class IceCreamStoreInherited(IceCreamStore):
+    def __init__(self):
+        """
+        Initialize the IceCreamStoreInherited
+        """
