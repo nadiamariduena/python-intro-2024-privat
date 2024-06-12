@@ -1,3 +1,4 @@
+ # ** 0
 class IceCreamStore:
 
 
@@ -60,3 +61,5 @@ class IceCreamStore:
                 print("- ", + topping)
             else:
                 print("- " + topping + " (Extra $" + str(cost) +  ")")
+
+# STEP 2: Define the Special Ice Store class, inheriting from
