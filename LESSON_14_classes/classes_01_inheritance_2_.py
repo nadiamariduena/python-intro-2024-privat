@@ -88,6 +88,8 @@ class IceCreamStoreInherited(IceCreamStore):
 
     def add_special_topping(self):
         """ADD the special topping 🌶️ to the ice cream"""
+        #
+        #So, in summary, this line is adding the special topping "Magic Sprinkles" to an ice cream instance (self) using the add_topping method, and it's explicitly specifying that this topping is extra.
         self.add_topping(self.special_topping, extra=True)
         #
-        # the .add() method is primarily associated with set objects. Sets are unordered collections of unique elements. The .add() method is used to add a single element to a set. If the element is already present in the set, the set remains unchanged.
+        # the .add() method is primarily associated with set objects. Sets are unordered collections of unique elements. The .add() method is used to add a single element to a set. If the element is already present in the set, the set remains unchanged. ( check the example on the md)
