@@ -91,7 +91,7 @@ class IceCreamStoreInherited(IceCreamStore):
         #So, in summary, this line is adding the special topping "Magic Sprinkles" to an ice cream instance (self) using the add_topping method, and it's explicitly specifying that this topping is extra.
         self.add_topping(self.special_topping, extra=True)
         #
-        # the .add() method is primarily associated with set objects. Sets are unordered collections of unique elements. The .add() method is used to add a single element to a set. If the element is already present in the set, the set remains unchanged. ( check the example on the md)
+        # the .add() method is primarily associated with set objects. Sets are unordered collections of unique elements. The .add() method is used to add a single element to a set. If the element is already present in the set, the set remains unchanged. ( check the example on the md) 🖐️ BUT IN THIS CASE, we are not making use of the add() method but to another function in STEP 3
 
 # ---------------------------
 # Test the parent class
@@ -120,3 +120,10 @@ special_store =  IceCreamStoreInherited()
 special_store.add_topping("banana 🍌")
 special_store.add_special_topping()
 special_store.list_toppings()
+
+# result
+# this second result will show you the outcome of the CHILD class
+#
+# Available toppings:
+# - banana 🍌
+# - Magic Sprinkles (Extra $0.8)
