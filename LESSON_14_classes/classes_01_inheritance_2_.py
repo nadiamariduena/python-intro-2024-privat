@@ -67,8 +67,7 @@ class IceCreamStore:
 #
 
 # ** --------- inherited class ------------
-# STEP 2: Define the Special Ice Store class, inheriting from
-
+# STEP 6: Define the Special Ice Store class, inheriting from
 class IceCreamStoreInherited(IceCreamStore):
     def __init__(self):
           """🍦Initialize the IceCreamStoreInherited, calling the parent class's __init__ method. 🍦"""
@@ -93,3 +92,12 @@ class IceCreamStoreInherited(IceCreamStore):
         self.add_topping(self.special_topping, extra=True)
         #
         # the .add() method is primarily associated with set objects. Sets are unordered collections of unique elements. The .add() method is used to add a single element to a set. If the element is already present in the set, the set remains unchanged. ( check the example on the md)
+
+# ---------------------------
+# Test the classes
+# ---------------------------
+
+regular_store = IceCreamStore()
+regular_store.add_topping(" chocolate 🍫")
+regular_store.add_topping("Nuts 🌰", extra=True)
+regular_store.list_toppings()
