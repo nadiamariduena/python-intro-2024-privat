@@ -146,3 +146,13 @@ class childClass(ParentClass):
     def __init__(self):
         super().__init__() # CALL the __init__ method of the parent class
         self.child_property = "I am a property from the CHILD class"
+
+    def child_method(self):
+        print("This is a method from the  CHILD class")
+
+
+
+
+# example usage
+child_obj = childClass()
+child_obj.parent_method() # ACCESSING method from parent class
