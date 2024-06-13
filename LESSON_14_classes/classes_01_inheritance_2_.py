@@ -137,3 +137,6 @@ special_store.list_toppings()
 class ParentClass:
     def __init__(self):
         self.parent_property = "I am a property from the parent class"
+
+    def parent_method(self):
+        print("This is a method from the parent class")
