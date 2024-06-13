@@ -76,6 +76,9 @@ class IceCreamStoreInherited(IceCreamStore):
           #🤚
           super().__init__() # Call the __init__ method of the parent class
           self.special_topping = "Magic Sprinkles" # The special topping that adds a touch of magic
+          #
+          # ** - super() is a built-in function used to access methods and properties from a parent class.
+          # - It returns a proxy object that allows you to call methods of the superclass (parent class) in a subclass (child class).
 
 #
 #
