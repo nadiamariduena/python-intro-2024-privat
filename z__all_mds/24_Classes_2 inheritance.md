@@ -179,3 +179,5 @@ special_store.list_toppings()
 - 🟢 This is **particularly useful in inheritance when you want to extend the functionality of a parent class in a subclass(child)** while still retaining the behavior of the parent class.
 
 <br>
+
+##### Here's how super() is typically used:

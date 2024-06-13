@@ -127,3 +127,13 @@ special_store.list_toppings()
 # Available toppings:
 # - banana 🍌
 # - Magic Sprinkles (Extra $0.8)
+
+
+
+#
+#
+# ---------
+
+class ParentClass:
+    def __init__(self):
+        self.parent_property = "I am a property from the parent class"
