@@ -156,3 +156,6 @@ class childClass(ParentClass):
 # example usage
 child_obj = childClass()
 child_obj.parent_method() # ACCESSING method from parent class
+print(child_obj.parent_property) # Accessing property from parent class
+#
+#
