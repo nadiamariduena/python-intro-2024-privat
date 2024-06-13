@@ -82,7 +82,7 @@ class IceCreamStoreInherited(IceCreamStore):
 #
 #
 # -----------
-# ADD special TOPPING
+# ADD special TOPPING 🎊
 # -----------
 
     def add_special_topping(self):
@@ -101,3 +101,12 @@ regular_store = IceCreamStore()
 regular_store.add_topping(" chocolate 🍫")
 regular_store.add_topping("Nuts 🌰", extra=True)
 regular_store.list_toppings()
+
+print("-----/------")
+
+# ** result
+# this first result will show you the outcome of the PARENT class
+# Available toppings:
+# -  chocolate 🍫
+# - Nuts 🌰 (Extra $0.8)
+# -----/------
