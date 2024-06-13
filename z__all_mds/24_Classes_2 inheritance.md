@@ -170,4 +170,10 @@ special_store.list_toppings()
 
 # ` super().`
 
-### what is the `super()` method in python?
+## what is the `super()` method in python?
+
+- In Python, super() os a build-in function used to access methods and properties from a parent class.
+
+- It return a proxy object that **allows you** to **call methods of** the **superclass** (parent CLASS) in a subclass (child CLASS).
+
+<br>
