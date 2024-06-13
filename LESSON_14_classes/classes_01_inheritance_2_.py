@@ -94,7 +94,7 @@ class IceCreamStoreInherited(IceCreamStore):
         # the .add() method is primarily associated with set objects. Sets are unordered collections of unique elements. The .add() method is used to add a single element to a set. If the element is already present in the set, the set remains unchanged. ( check the example on the md)
 
 # ---------------------------
-# Test the classes
+# Test the parent class
 # ---------------------------
 
 regular_store = IceCreamStore()
@@ -110,3 +110,13 @@ print("-----/------")
 # -  chocolate 🍫
 # - Nuts 🌰 (Extra $0.8)
 # -----/------
+
+
+# ---------------------------
+# Test the child class
+# ---------------------------
+
+special_store =  IceCreamStoreInherited()
+special_store.add_topping("banana 🍌")
+special_store.add_special_topping()
+special_store.list_toppings()
