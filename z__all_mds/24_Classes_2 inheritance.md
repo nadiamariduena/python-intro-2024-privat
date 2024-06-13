@@ -181,3 +181,19 @@ special_store.list_toppings()
 <br>
 
 ##### Here's how super() is typically used:
+
+```python
+# ** --------- inherited class ------------
+# STEP 6: Define the Special Ice Store class, inheriting from
+class IceCreamStoreInherited(IceCreamStore):
+    def __init__(self):
+          """🍦Initialize the IceCreamStoreInherited, calling the parent class's __init__ method. 🍦"""
+          #
+          #🤚
+          super().__init__() # Call the __init__ method of the parent class
+          self.special_topping = "Magic Sprinkles" # The special topping that adds a touch of magic
+          #
+          # ** - super() is a built-in function used to access methods and properties from a parent class.
+          # - It returns a proxy object that allows you to call methods of the superclass (parent class) in a subclass (child class).
+
+```
