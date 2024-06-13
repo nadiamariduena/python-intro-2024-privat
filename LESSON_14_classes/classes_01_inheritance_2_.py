@@ -159,3 +159,12 @@ child_obj.parent_method() # ACCESSING method from parent class
 print(child_obj.parent_property) # Accessing property from parent class
 #
 #
+child_obj.child_method() # Accessing method from child class
+print("child_obj.child_property")
+
+# RESULT
+
+# This is a method from the parent class
+# I am a property from the parent class
+# This is a method from the  CHILD class
+# child_obj.child_property
