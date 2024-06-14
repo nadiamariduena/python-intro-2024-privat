@@ -71,12 +71,24 @@ class BBQChickenPizza(PizzaBoss):
 #
 #
 #
-#
+## Our pizza party lineup with different types of pizzas
+
 pizzas  = [
     PepperoniPizza(["cheese", "pepperoni 🐖"]),
     VeggiePizza(["cheese", "peppers🫑", "mushrooms 🍄"]),
     BBQChickenPizza(["cheese", "chicken 🐔", "BBQ sauce"])
 ]
+
+#
+#
+#
+
+# ------------------------------
+## LOOP in the "pizzas options"
+# ------------------------------
+#
+#
+#
 
 for pizza in pizzas:
     print("------")
