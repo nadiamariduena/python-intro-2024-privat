@@ -73,3 +73,5 @@ pizzas  = [
 
 for pizza in pizzas:
 
+    # check what kind of pizza we are cooking
+    print(pizza)
