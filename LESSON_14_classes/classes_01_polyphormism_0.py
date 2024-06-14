@@ -37,5 +37,5 @@ class BankAccountBoss:
 #
 class CheckingAccount(BankAccountBoss):
     def __init__(self, account_number, balance):
-        super().__init__(self, account_number, balance)
+        super().__init__(account_number, balance)
 #
