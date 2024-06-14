@@ -11,6 +11,7 @@ class PizzaBoss:
     def __str__(self):
         return f"A pizza with {', '.join(self.toppings)} toppings 🌶️"
 
+#----------
 #  Pepperoni Pizza: A cool pizza with pepperoni toppings
 class PepperoniPizza(PizzaBoss):
 
@@ -24,9 +25,19 @@ class PepperoniPizza(PizzaBoss):
 # A special method only for veggie pizza
     def cook(self):
         return "Cooking veggie pizza"
+#----------
+#
+#
+#
 
+#----------
 # BBQ Chickent Pizza: A sizzling pizza topped with BBQ chicken
 class BBQChickenPizza(PizzaBoss):
     def __init__(self, toppings):
-        # Calls the constructor of the pizza
+        # Calls the constructor of the pizza boss
         super().__init__(toppings)
+
+# A special method only for BBQ Chicken Pizza
+    def cook(self):
+         return "Cooking BBQ chicken pizza"
+#----------
