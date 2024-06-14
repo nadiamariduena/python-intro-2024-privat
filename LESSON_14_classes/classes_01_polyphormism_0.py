@@ -19,3 +19,14 @@ class PepperoniPizza(PizzaBoss):
         #Calls the constructor of the pizza boss
         super().__init__(toppings)
         #In Python, **super()** is a build-in function used to access methods and properties from a parent class.
+
+
+# A special method only for veggie pizza
+    def cook(self):
+        return "Cooking veggie pizza"
+
+# BBQ Chickent Pizza: A sizzling pizza topped with BBQ chicken
+class BBQChickenPizza(PizzaBoss):
+    def __init__(self, toppings):
+        # Calls the constructor of the pizza
+        super().__init__(toppings)
