@@ -50,3 +50,7 @@ class CheckingAccount(BankAccountBoss):
 # --------------
 # 🟣 Savings Account: An account for saving money and earning interest
 # --------------
+class SavingAccount(BankAccountBoss):
+    def __init__(self, account_number, balance):
+        # Calls the constructor of the bank account
+        super().__init__(account_number, balance)
