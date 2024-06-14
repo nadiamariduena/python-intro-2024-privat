@@ -31,3 +31,10 @@ https://youtu.be/f2XVrDoF35A?feature=shared
 [4 Transformation Matrices in 4 Mins](https://youtu.be/7LP-cvulcxU?feature=shared)
 
 [Dear linear algebra students, This is what matrices (and matrix manipulation) really look like](https://youtu.be/4csuTO7UTMo?feature=shared)
+
+<br>
+<br>
+
+[🔥 Introduction to Python Django and Three.js for Web Development 🔥](https://youtu.be/MOif6TIjxtA?feature=shared)
+
+[How to connect Django with React 🔥 Django + React js integration tutorial (easy to follow)](https://youtu.be/eXrwF4LXF5c?feature=shared)
