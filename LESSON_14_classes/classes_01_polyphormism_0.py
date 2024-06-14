@@ -35,9 +35,7 @@ class CheckingAccount(BankAccountBoss):
     def __init__(self, account_number, balance):
         # Calls the constructor of the bank account
         super().__init__(account_number, balance)
-#
-    #
-    #
+
     #
     # 🔶 METHOD
     def fee_deduction(self, fee):
@@ -66,5 +64,9 @@ class SavingAccount(BankAccountBoss):
 #
 # --------------
 # 🟣  Investment Account: An account for investing money in stocks and bonds
-
 # --------------
+class InvestmentAccount(BankAccountBoss):
+    def __init__(self, account_number, balance):
+        # Calls the constructor of the bank account
+        super().__init__(account_number, balance)
+
