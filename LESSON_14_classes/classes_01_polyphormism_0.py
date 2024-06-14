@@ -4,6 +4,7 @@ class PizzaBoss:
     def __init__(self, toppings):
         # constructor of the pizza BOSS
         self.toppings = toppings
+        # REMEMBER: a constructor is a special method within a class that is automatically called when a new instance of the class is created. The constructor method is named __init__() and is used to initialize the object's attributes.
 
 
     # S SPECIAL method to represent the pizza when printed
@@ -17,3 +18,4 @@ class PepperoniPizza(PizzaBoss):
         #
         #Calls the constructor of the pizza boss
         super().__init__(toppings)
+        #In Python, **super()** is a build-in function used to access methods and properties from a parent class.
