@@ -19,9 +19,6 @@ class BankAccountBoss:
     def deposit(self, amount):
         """ write something here
         """
-
-    #
-    #
     #
     # 🔶 METHOD
     def withdraw(self, amount):
@@ -32,10 +29,24 @@ class BankAccountBoss:
 #
 #
 # --------------
-# Checking ACCOUNT: A basic account for day to day transactions
+# 🟣 Checking ACCOUNT: A basic account for day to day transactions
 # --------------
-#
 class CheckingAccount(BankAccountBoss):
     def __init__(self, account_number, balance):
+        # Calls the constructor of the bank account
         super().__init__(account_number, balance)
 #
+    #
+    #
+    #
+    # 🔶 METHOD
+    def fee_deduction(self, fee):
+        """ write something here
+        """
+        # --------------
+#
+#
+#
+# --------------
+# 🟣 Savings Account: An account for saving money and earning interest
+# --------------
