@@ -32,7 +32,10 @@ class BankAccountBoss:
 #
 #
 # --------------
-# Checkig ACCOUNT: A basic account for day to day transactions
+# Checking ACCOUNT: A basic account for day to day transactions
 # --------------
 #
+class CheckingAccount(BankAccountBoss):
+    def __init__(self, account_number, balance):
+        super().__init__(self, account_number, balance)
 #
