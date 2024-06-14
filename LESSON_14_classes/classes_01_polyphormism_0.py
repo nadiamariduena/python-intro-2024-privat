@@ -7,4 +7,7 @@ class PizzaBoss:
 
     # S SPECIAL method to represent the pizza when printed
     def __str__(self):
-        return f"A pizza with {', '.join(self.toppings)} toppings"
+        return f"A pizza with {', '.join(self.toppings)} toppings 🌶️"
+
+#  Pepperoni Pizza: A cool pizza with pepperoni toppings
+class PepperoniPizza(PizzaBoss):
