@@ -54,3 +54,17 @@ class SavingAccount(BankAccountBoss):
     def __init__(self, account_number, balance):
         # Calls the constructor of the bank account
         super().__init__(account_number, balance)
+
+         # 🔶 METHOD
+    def add_interest(self, interest_rate):
+        """ write something here
+        """
+        # --------------
+
+#
+#
+#
+# --------------
+# 🟣  Investment Account: An account for investing money in stocks and bonds
+
+# --------------
