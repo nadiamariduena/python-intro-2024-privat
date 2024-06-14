@@ -2,6 +2,7 @@
 
 class PizzaBoss:
     def __init__(self, toppings):
+        # constructor of the pizza BOSS
         self.toppings = toppings
 
 
@@ -11,3 +12,8 @@ class PizzaBoss:
 
 #  Pepperoni Pizza: A cool pizza with pepperoni toppings
 class PepperoniPizza(PizzaBoss):
+
+    def __init__(self, toppings):
+        #
+        #Calls the constructor of the pizza boss
+        super().__init__(toppings)
