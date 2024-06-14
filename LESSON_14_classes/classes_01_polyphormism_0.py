@@ -1,5 +1,5 @@
 # The 👾 BIG BOSS pizza class that all the other pizzas look up to
-#🔴
+#🌈
 class PizzaBoss:
     def __init__(self, toppings):
         # constructor of the pizza BOSS
@@ -26,7 +26,7 @@ class PepperoniPizza(PizzaBoss):
         super().__init__(toppings)
         #In Python, **super()** is a build-in function used to access methods and properties from a parent class.
 
-
+        #🍅METHOD cooking🥣
         # A special method only for veggie pizza
     def cook(self):
         return "Cooking Pepperoni Pizza"
@@ -40,7 +40,11 @@ class VeggiePizza(PizzaBoss):
     def __init__(self, toppings):
         # Calls the constructor of the pizza boss
         super().__init__(toppings)
+        #
+        #
+        #
 
+     #🍅METHOD cooking🥣
     # A special method only for Veggie Pizza
     def cook(self):
         return "Cooking veggie pizza"
@@ -56,7 +60,10 @@ class BBQChickenPizza(PizzaBoss):
     def __init__(self, toppings):
         # Calls the constructor of the pizza boss
         super().__init__(toppings)
-
+        #
+        #
+        #
+        #🍅METHOD cooking🥣
         # A special method only for BBQ Chicken Pizza
     def cook(self):
          return "Cooking BBQ chicken pizza"
@@ -72,6 +79,25 @@ pizzas  = [
 ]
 
 for pizza in pizzas:
-
-    # check what kind of pizza we are cooking
+    print("------")
+    #  check what kind of pizza🟠 we are cooking
     print(pizza)
+
+    # Now, lets use its 🍅 special METHOD cooking🥣
+    print(pizza.cook())
+    print("------")
+
+## result
+
+# ------
+# A pizza with cheese, pepperoni 🐖 toppings 🌶️
+# Cooking Pepperoni Pizza
+# ------
+# ------
+# A pizza with cheese, peppers🫑, mushrooms 🍄 toppings 🌶️
+# Cooking veggie pizza
+# ------
+# ------
+# A pizza with cheese, chicken 🐔, BBQ sauce toppings 🌶️
+# Cooking BBQ chicken pizza
+# ------
