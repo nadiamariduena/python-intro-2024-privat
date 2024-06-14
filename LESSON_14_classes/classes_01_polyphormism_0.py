@@ -71,4 +71,5 @@ pizzas  = [
     BBQChickenPizza(["cheese", "chicken 🐔", "BBQ sauce"])
 ]
 
-print(pizzas)
+for pizza in pizzas:
+
