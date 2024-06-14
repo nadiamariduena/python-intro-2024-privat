@@ -66,6 +66,9 @@ class BBQChickenPizza(PizzaBoss):
 #
 #
 pizzas  = [
-    PepperoniPizza(["cheese", "pepperoni"]),
-    VeggiePizza([""])
+    PepperoniPizza(["cheese", "pepperoni 🐖"]),
+    VeggiePizza(["cheese", "peppers🫑", "mushrooms 🍄"]),
+    BBQChickenPizza(["cheese", "chicken 🐔", "BBQ sauce"])
 ]
+
+print(pizzas)
