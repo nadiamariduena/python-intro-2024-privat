@@ -4,6 +4,7 @@ class BankAccountBoss:
     #
     #
     def __init__(self, account_number, balance):
+        #
         self.account_number = account_number
         self.balance = balance
 
@@ -12,3 +13,21 @@ class BankAccountBoss:
         return f"Account Number: {self.account_number}, Balance: ${self.balance}"
         # The dollar sign was  used as a symbol to represent the currency, not like in react `${somevariable}`
     #--------------------------------------------
+    #
+    #
+    # 🔶 METHOD
+    def deposit(self, amount):
+        """ write something here
+        """
+
+    #
+    #
+    #
+    # 🔶 METHOD
+    def withdraw(self, amount):
+        """ write something here
+        """
+    # conditional
+#
+#
+#
