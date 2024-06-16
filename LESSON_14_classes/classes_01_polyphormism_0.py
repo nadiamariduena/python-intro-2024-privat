@@ -133,7 +133,7 @@ class InvestmentAccount(BankAccountBoss):
         potential_return = investment_amount * 0.05 # Assuming a 5% return
         self.balance -= investment_amount
 
-        return f"INvested ${investment_amount}. Potential return: ${potential_return}"
+        return f"INvested ${investment_amount}. Potential return: ${potential_return} 🙋"
 
 # Our  banking   lineup with different types of accounts
 
