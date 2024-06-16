@@ -90,9 +90,21 @@ for account in accounts:
     #
     # Now, let's perform some banking weÄre dealing with
     if isinstance(account, CheckingAccount):
-        print(account.fee_deduction(10)) # DEDUCT transaction fee for checking account
+        print(account.fee_deduction(10)) # Deduct $10 as a transaction fee for checking account
     elif isinstance(account, SavingAccount):
-        print(account.add_interest(3)) # Add interest for savings account
+        print(account.add_interest(3)) # Add 3% interest for savings account
     elif isinstance(account, InvestmentAccount):
-        print(account.invest(5000)) # Invest money in stocks for investment account
+        print(account.invest(5000)) # Invest $5000 in stocks for investment account
     print()
+
+    # 🖐️ OUTPUT
+
+#     Account Number: 123456, Balance: $1000
+# None
+
+# Account Number: 789012, Balance: $5000
+# None
+
+# Account Number: 345678, Balance: $20000
+# None
+
