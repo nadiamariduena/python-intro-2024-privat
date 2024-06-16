@@ -78,6 +78,6 @@ class InvestmentAccount(BankAccountBoss):
 accounts = [
     CheckingAccount("123456", 1000), # Checking Account
     SavingAccount("789012", 5000), #Savings Account
-    InvestmentAccount("345678", 20000)
+    InvestmentAccount("345678", 20000) # Investment Account
 
 ]
