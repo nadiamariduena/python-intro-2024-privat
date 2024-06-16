@@ -510,3 +510,18 @@ for account in accounts:
 # INvested $5000. Potential return: $250.0 🙋
 
 ```
+
+<br>
+
+## Output Explanation:
+
+#### 🟣 Checking Account:
+
+- Initial State:
+  `Account Number: 123456, Balance: $1000`
+- Operations:
+  `Deducted $10 as a transaction fee.`
+- Final State:
+  `Account Number: 123456, Balance: $990`
+
+<br>
