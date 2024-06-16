@@ -40,11 +40,15 @@ class BankAccountBoss:
         - amount (float): The amount to be withdrawn.
 
         Returns:
-        - str: Amessage inidcating the withdrawal and the new balance if successful, or an "Insufficient funds!" message if the balance is insufficient.
-
+        - str: A message inidcating the withdrawal and the new balance if successful, or an "Insufficient funds!" message if the balance is insufficient.
         """
     # ✅ conditional
-#
+
+    if self.balance >= amount:
+        self.balance -= amount
+        return f"Withdrew ${amount}. New balance "
+
+
 #
 #
 # --------------
