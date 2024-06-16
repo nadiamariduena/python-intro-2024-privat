@@ -28,7 +28,7 @@ class BankAccountBoss:
         """
 
         self.balance += amount
-        return f"Deposited ${amount}. New balance: ${self.balance}"
+        return f"Deposited ${amount}. New balance: ${self.balance} 💸 "
     #
     # 🔶 METHOD
     # a method to withdraw money from the account
@@ -46,7 +46,7 @@ class BankAccountBoss:
 
         if self.balance >= amount:
             self.balance -= amount
-            return f"Withdrew ${amount}. New balance: ${self.balance}"
+            return f"Withdrew ${amount}. New balance: ${self.balance} 🍊"
         else:
             return "Insufficient funds"
 
@@ -76,7 +76,7 @@ class CheckingAccount(BankAccountBoss):
         """
 
         self.balance -= fee
-        return f"Deducted ${fee} as a transaction fee. New balance: ${self.balance} "
+        return f"Deducted ${fee} as a transaction fee. New balance: ${self.balance} 🌻"
 
         # --------------
 #
@@ -92,7 +92,14 @@ class SavingAccount(BankAccountBoss):
 
          # 🔶 METHOD
     def add_interest(self, interest_rate):
-        """ write something here
+        """
+        Adds interest to the account balance based on the given interest rate.
+
+        Parameters:
+        - interest_rate (float): The interest rate (in percentage) to be applied.
+
+        Returns:
+        - str: A message indicating the interest added and the new balance.
         """
         # --------------
 
