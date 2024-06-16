@@ -104,7 +104,7 @@ class SavingAccount(BankAccountBoss):
 
         interest = self.balance * (interest_rate / 100 )
         self.balance += interest
-        return f" Added interest of ${interest}. NEW balance: ${self.balance}  "
+        return f" Added interest of ${interest}. NEW balance: ${self.balance} 💰 "
 
         # --------------
 
@@ -145,6 +145,7 @@ for account in accounts:
         print(account.fee_deduction(10)) # Deduct $10 as a transaction fee for checking account
     elif isinstance(account, SavingAccount):
         print(account.add_interest(3)) # Add 3% interest for savings account
+        #interest_rate: This parameter represents the annual interest rate as a percentage. For example, if interest_rate is 3, it means 3% annual interest rate.
     elif isinstance(account, InvestmentAccount):
         print(account.invest(5000)) # Invest $5000 in stocks for investment account
     print()
