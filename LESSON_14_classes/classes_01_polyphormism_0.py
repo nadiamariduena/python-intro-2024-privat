@@ -17,7 +17,9 @@ class BankAccountBoss:
     #
     # 🔶 METHOD
     def deposit(self, amount):
-        """ write something here
+        """
+
+        Deposits the given amount into the acount.
         """
     #
     # 🔶 METHOD
