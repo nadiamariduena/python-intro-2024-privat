@@ -20,6 +20,10 @@ class BankAccountBoss:
         """
 
         Deposits the given amount into the acount.
+
+        Parameters:
+        - amount (float): The amount to be deposited.
+
         """
     #
     # 🔶 METHOD
