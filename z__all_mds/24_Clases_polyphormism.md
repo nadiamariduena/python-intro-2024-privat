@@ -525,3 +525,12 @@ for account in accounts:
   `Account Number: 123456, Balance: $990`
 
 <br>
+
+#### 🟣 Savings Account:
+
+- Initial State:
+  `Account Number: 789012, Balance: $5000`
+- Operations:
+  `Added interest of $150. New balance: $5150 (assuming 3% interest rate)`
+- Final State:
+  `Account Number: 789012, Balance: $5150`
