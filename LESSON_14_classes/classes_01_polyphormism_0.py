@@ -81,3 +81,6 @@ accounts = [
     InvestmentAccount("345678", 20000) # Investment Account
 
 ]
+
+# Lets manage some money matters!
+for account in accounts:
