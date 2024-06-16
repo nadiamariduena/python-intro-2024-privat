@@ -91,3 +91,5 @@ for account in accounts:
     # Now, let's perform some banking weÄre dealing with
     if isinstance(account, CheckingAccount):
         print(account.fee_deduction(10)) # DEDUCT transaction fee for checking account
+    elif isinstance(account, SavingAccount):
+        print(account.add_interest(3)) # Add interest for savings account
