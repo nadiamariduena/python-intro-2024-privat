@@ -34,7 +34,7 @@ class BankAccountBoss:
     # a method to withdraw money from the account
     def withdraw(self, amount):
         """
-
+        Withdraws the given amount from the account if sufficient balance is available.
 
         """
     # ✅ conditional
