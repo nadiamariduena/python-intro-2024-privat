@@ -103,6 +103,7 @@ class SavingAccount(BankAccountBoss):
         """
 
         interest = self.balance * (interest_rate / 100 )
+        self.balance += interest
 
         # --------------
 
