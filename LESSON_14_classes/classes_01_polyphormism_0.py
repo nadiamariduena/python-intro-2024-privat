@@ -26,8 +26,10 @@ class BankAccountBoss:
 
         Returns:
         - str: A message indicating the deposit and the new balance.
-
         """
+
+        self.balance += amount
+        return f"Deposited ${amount}. New balance: ${self.balance}"
     #
     # 🔶 METHOD
     def withdraw(self, amount):
