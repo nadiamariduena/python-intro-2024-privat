@@ -44,9 +44,9 @@ class BankAccountBoss:
         """
     # ✅ conditional
 
-    if self.balance >= amount:
-        self.balance -= amount
-        return f"Withdrew ${amount}. New balance "
+        if self.balance >= amount:
+            self.balance -= amount
+            return f"Withdrew ${amount}. New balance: ${self.balance}"
 
 
 #
