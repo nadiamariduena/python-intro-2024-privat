@@ -534,3 +534,14 @@ for account in accounts:
   `Added interest of $150. New balance: $5150 (assuming 3% interest rate)`
 - Final State:
   `Account Number: 789012, Balance: $5150`
+
+<br>
+
+#### Investment Account:
+
+- Initial State:
+  `Account Number: 345678, Balance: $20000`
+- Operations:
+  `Invested $5000. Potential return: $250 (assuming a 5% return rate)`
+- Final State:
+  `Account Number: 345678, Balance: $15000`
