@@ -105,11 +105,11 @@ class SavingAccount(BankAccountBoss):
         interest = self.balance * (interest_rate / 100 )
         self.balance += interest
         return f" Added interest of ${interest}. NEW balance: ${self.balance} 💰"
-    #(interest_rate / 100): Here, interest_rate / 100 converts the percentage rate into a decimal. For instance, if interest_rate is 3, then 3 / 100 = 0.03.
-    # ** Therefore, the division by 100 is to convert the annual percentage interest rate into a decimal form that can be directly multiplied with the balance to compute the interest amount accurately. This is a standard practice in financial calculations when dealing with percentage-based rates.
-        # --------------
+        #(interest_rate / 100): Here, interest_rate / 100 converts the percentage rate into a decimal. For instance, if interest_rate is 3, then 3 / 100 = 0.03.
+        # ** Therefore, the division by 100 is to convert the annual percentage interest rate into a decimal form that can be directly multiplied with the balance to compute the interest amount accurately. This is a standard practice in financial calculations when dealing with percentage-based rates.
+            # --------------
 
-#
+
 #
 #
 # --------------
@@ -122,9 +122,18 @@ class InvestmentAccount(BankAccountBoss):
 
     def invest(self, investment_amount):
         """
-        Invest ...
-        """
+            Invests the given amount in stocks or bonds and calculates the potential return.
 
+            Parameters:
+            - investment_amount (float): The amount to be invested.
+
+            Returns:
+            - str: A message indicating the investment made and the potential return.
+        """
+        potential_return = investment_amount * 0.05 # Assuming a 5% return
+        self.balance -= investment_amount
+
+        return f"INvested ${investment_amount}. Potential return: ${potential_return}"
 
 # Our  banking   lineup with different types of accounts
 
