@@ -76,7 +76,7 @@ class CheckingAccount(BankAccountBoss):
         """
 
         self.balance -= fee
-        return
+        return f"Deducted ${fee} as a transaction fee. New balance: ${self.balance} "
 
         # --------------
 #
