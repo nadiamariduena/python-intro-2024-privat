@@ -93,3 +93,5 @@ for account in accounts:
         print(account.fee_deduction(10)) # DEDUCT transaction fee for checking account
     elif isinstance(account, SavingAccount):
         print(account.add_interest(3)) # Add interest for savings account
+    elif isinstance(account, InvestmentAccount):
+        print(account.invest(5000)) # Invest money in stocks for investment account
