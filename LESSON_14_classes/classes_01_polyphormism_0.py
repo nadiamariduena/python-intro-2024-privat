@@ -101,6 +101,9 @@ class SavingAccount(BankAccountBoss):
         Returns:
         - str: A message indicating the interest added and the new balance.
         """
+
+        interest = self.balance * (interest_rate / 100 )
+
         # --------------
 
 #
