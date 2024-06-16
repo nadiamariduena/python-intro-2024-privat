@@ -84,3 +84,10 @@ accounts = [
 
 # Lets manage some money matters!
 for account in accounts:
+    #let's see what kind of account we're dealing with
+    print(account)
+    #
+    #
+    # Now, let's perform some banking weÄre dealing with
+    if isinstance(account, CheckingAccount):
+        print()
