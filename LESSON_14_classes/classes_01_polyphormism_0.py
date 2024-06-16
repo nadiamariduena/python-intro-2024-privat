@@ -65,8 +65,19 @@ class CheckingAccount(BankAccountBoss):
     # 🔶 METHOD
     # A special method only for Checking Account
     def fee_deduction(self, fee):
-        """ write something here
         """
+        Deducts a transaction fee from the account balance.
+
+        Parameters:
+        - fee (float): The transaction fee amount to be deducted.
+
+        Returns:
+        - str: A message indicating the deduction and the new balance.
+        """
+
+        self.balance -= fee
+        return
+
         # --------------
 #
 #
