@@ -95,3 +95,4 @@ for account in accounts:
         print(account.add_interest(3)) # Add interest for savings account
     elif isinstance(account, InvestmentAccount):
         print(account.invest(5000)) # Invest money in stocks for investment account
+    print()
