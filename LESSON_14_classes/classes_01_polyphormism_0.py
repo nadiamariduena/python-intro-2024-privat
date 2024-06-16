@@ -18,7 +18,6 @@ class BankAccountBoss:
     # 🔶 METHOD
     def deposit(self, amount):
         """
-
         Deposits the given amount into the acount.
 
         Parameters:
@@ -32,8 +31,11 @@ class BankAccountBoss:
         return f"Deposited ${amount}. New balance: ${self.balance}"
     #
     # 🔶 METHOD
+    # a method to withdraw money from the account
     def withdraw(self, amount):
-        """ write something here
+        """
+
+
         """
     # ✅ conditional
 #
