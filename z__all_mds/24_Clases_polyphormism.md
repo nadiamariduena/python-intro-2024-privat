@@ -545,3 +545,10 @@ for account in accounts:
   `Invested $5000. Potential return: $250 (assuming a 5% return rate)`
 - Final State:
   `Account Number: 345678, Balance: $15000`
+
+  <br>
+  <br>
+
+> Each account **type** performs its specific operation (**fee_deduction**, **add_interest**, **invest**) and prints out the updated account details after the operation.
+
+- This demonstrates how polymorphism allows us to treat different types of accounts uniformly while executing their specialized methods based on their specific behaviors.
