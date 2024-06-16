@@ -211,8 +211,12 @@ class CheckingAccount(BankAccountBoss):
     def fee_deduction(self, fee):
         """ write something here
         """
-        # --------------
+
 #
+#
+#
+#
+
 #
 #
 # --------------
@@ -293,3 +297,7 @@ for account in accounts:
 
 
 ```
+
+#### BANKING system (completed example)
+
+-
