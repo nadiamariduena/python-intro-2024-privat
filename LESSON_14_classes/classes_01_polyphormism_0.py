@@ -36,6 +36,12 @@ class BankAccountBoss:
         """
         Withdraws the given amount from the account if sufficient balance is available.
 
+        Parameters:
+        - amount (float): The amount to be withdrawn.
+
+        Returns:
+        - str: Amessage inidcating the withdrawal and the new balance if successful, or an "Insufficient funds!" message if the balance is insufficient.
+
         """
     # ✅ conditional
 #
