@@ -24,6 +24,9 @@ class BankAccountBoss:
         Parameters:
         - amount (float): The amount to be deposited.
 
+        Returns:
+        - str: A message indicating the deposit and the new balance.
+
         """
     #
     # 🔶 METHOD
