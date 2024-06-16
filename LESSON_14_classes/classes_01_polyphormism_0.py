@@ -47,7 +47,8 @@ class BankAccountBoss:
         if self.balance >= amount:
             self.balance -= amount
             return f"Withdrew ${amount}. New balance: ${self.balance}"
-
+        else:
+            return "Insufficient funds"
 
 #
 #
