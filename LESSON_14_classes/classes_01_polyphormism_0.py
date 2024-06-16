@@ -70,3 +70,8 @@ class InvestmentAccount(BankAccountBoss):
         # Calls the constructor of the bank account
         super().__init__(account_number, balance)
 
+    def invest(self, investment_amount):
+        """
+        Invest ...
+        """
+
