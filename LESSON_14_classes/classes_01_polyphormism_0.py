@@ -75,3 +75,9 @@ class InvestmentAccount(BankAccountBoss):
         Invest ...
         """
 
+accounts = [
+    CheckingAccount("123456", 1000), # Checking Account
+    SavingAccount("789012", 5000), #Savings Account
+    InvestmentAccount("345678", 20000)
+
+]
