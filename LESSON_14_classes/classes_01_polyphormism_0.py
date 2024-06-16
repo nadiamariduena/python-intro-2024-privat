@@ -90,4 +90,4 @@ for account in accounts:
     #
     # Now, let's perform some banking weÄre dealing with
     if isinstance(account, CheckingAccount):
-        print()
+        print(account.fee_deduction(10)) # DEDUCT transaction fee for checking account
