@@ -50,6 +50,7 @@ class BankAccountBoss:
         else:
             return "Insufficient funds"
 
+
 #
 #
 # --------------
@@ -62,6 +63,7 @@ class CheckingAccount(BankAccountBoss):
 
     #
     # 🔶 METHOD
+    # A special method only for Checking Account
     def fee_deduction(self, fee):
         """ write something here
         """
