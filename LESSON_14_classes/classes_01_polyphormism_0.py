@@ -104,7 +104,8 @@ class SavingAccount(BankAccountBoss):
 
         interest = self.balance * (interest_rate / 100 )
         self.balance += interest
-        return f" Added interest of ${interest}. NEW balance: ${self.balance} 💰 "
+        return f" Added interest of ${interest}. NEW balance: ${self.balance} 💰"
+    #(interest_rate / 100): Here, interest_rate / 100 converts the percentage rate into a decimal. For instance, if interest_rate is 3, then 3 / 100 = 0.03.
 
         # --------------
 
