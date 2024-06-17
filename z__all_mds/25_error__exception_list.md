@@ -1,6 +1,6 @@
-# \*\* Built-in Exceptions
+# Built-in Exceptions
 
-## Beginner-friendly examples of handling Python exceptions based on common exceptions from the list provided by W3Schools: https://www.w3schools.com/python/python_ref_exceptions.asp
+#### Beginner-friendly examples of handling Python exceptions based on common exceptions from the list provided by W3Schools: https://www.w3schools.com/python/python_ref_exceptions.asp
 
 <br>
 <br>
@@ -47,4 +47,13 @@ except ValueError as e:
 - The raise statement is **used to interrupt the normal flow** of the program and transfer control to an exception-handling block.
 
 <br>
+
+### 🍊 Purpose of raise:
+
 <br>
+
+**Custom Exceptions:** You can define and raise your own exceptions to handle specific error conditions that may not be covered by built-in Python exceptions.
+
+**Error Propagation:** If a function encounters an error that it cannot handle itself, it can raise an exception to signal to its caller that something unexpected has occurred.
+
+**Control Flow:** raise allows you to control the flow of your program by terminating execution in case of errors or exceptional conditions.
