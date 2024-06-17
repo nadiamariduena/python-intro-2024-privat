@@ -135,11 +135,11 @@ except Exception as e:
 #
 else:
     # Step 8: Execute if no exceptions occurred in the try block
-    print("No exceptions occurred.")
+    print(" ✅ No exceptions occurred.")
 
 finally:
     # Step 9: Always execute, regardless of whether exceptions occurred or not
-    print("Execution completed.")
+    print("  ✅ Execution completed.")
 
 ```
 
