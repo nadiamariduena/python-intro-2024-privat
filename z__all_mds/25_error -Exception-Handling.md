@@ -101,7 +101,7 @@ try {
 
 > **State Handling:** In functional components, state is managed using the useState hook, unlike class components where state is managed via this.state.
 
-> **Lifecycle Methods:** Error boundaries in functional components do not use lifecycle methods like getDerivedStateFromError. Instead, you directly handle errors within the component's function body
+> **Lifecycle Methods:** Error boundaries in functional components do not use lifecycle methods like getDerivedStateFromError. Instead, you directly handle errors within the component's function body [read more HERE / z_lifeCycles-JS_0](../z_lifeCycles-JS_0.md)
 
 ```javascript
 // CLASS example
