@@ -7,11 +7,11 @@
 <br>
 <br>
 
-### QUESTION: Explain the purpose and give me some example of Exception Handling
+### 🙋‍♀️ QUESTION: Explain the purpose and give me some example of Exception Handling
 
 <br>
 
-##### chatgpt
+##### chatgpt:
 
 > 💡 **Exception handling is a programming mechanism designed to handle and manage errors that occur during the execution of a program.**
 
@@ -37,3 +37,16 @@
 <br>
 
 > 💡 In summary, while errors are mistakes that prevent a program from running correctly due to programming faults, exceptions are events that occur during execution and are managed by exception handling mechanisms to ensure robust and predictable program behavior.
+
+<br>
+<br>
+
+### 🙋‍♀️ QUESTION: so its similar to the <u>Try & Catch</u> on react and javascript?
+
+##### chatgpt:
+
+<br>
+
+✅ **Yes**, exception handling in programming languages like Python and error handling in JavaScript (including React) serve similar purposes, although the **syntax** and specific **mechanisms** <u>differ</u> slightly.
+
+#### Here's how they compare:
