@@ -68,9 +68,9 @@
 <br>
 <br>
 
-#### Here's how they compare:
+### Here's how they compare:
 
-- **Javascript**
+#### ✋ javascript
 
 ```javascript
 try {
@@ -93,8 +93,15 @@ try {
 ```
 
 <br>
+<br>
 
-- **react**
+### ✋ react
+
+#### class & arrow function
+
+> **State Handling:** In functional components, state is managed using the useState hook, unlike class components where state is managed via this.state.
+
+> **Lifecycle Methods:** Error boundaries in functional components do not use lifecycle methods like getDerivedStateFromError. Instead, you directly handle errors within the component's function body
 
 ```javascript
 // CLASS example
@@ -138,13 +145,6 @@ If an error occurs, it renders a fallback UI (e.g., "Something went wrong.").
 
 
 The finally equivalent in React is represented by the regular rendering of this.props.children, which will be rendered regardless of whether an error occurred or not.
-
-
-
-
-
-
-
 
 */
 //
