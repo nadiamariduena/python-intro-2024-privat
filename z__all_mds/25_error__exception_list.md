@@ -57,3 +57,14 @@ except ValueError as e:
 **Error Propagation:** If a function encounters an error that it cannot handle itself, it can raise an exception to signal to its caller that something unexpected has occurred.
 
 **Control Flow:** raise allows you to control the flow of your program by terminating execution in case of errors or exceptional conditions.
+
+<br>
+<br>
+
+### 🍊 Is raise Necessary?
+
+While raise is not always necessary (especially when handling built-in exceptions like ValueError, TypeError, etc., that naturally occur), it is essential for:
+
+**Custom Exceptions:** When you need to define and raise exceptions specific to your application logic or error handling requirements.
+
+**Specific Error Messages:** When you want to provide detailed error messages or additional context to explain why an exception occurred.
