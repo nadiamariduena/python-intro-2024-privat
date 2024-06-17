@@ -73,6 +73,31 @@
 <br>
 
 ```python
+try:
+    # Step 1: Attempt to execute this code block
+    x = int(input("Enter a number: "))  # Step 2: Prompt user for input and convert to integer
+    y = 10 / x  # Step 3: Perform division, which may raise a ZeroDivisionError if x is 0
+    print("Result:", y)  # Step 4: Print the result of the division
+
+except ValueError:
+    # Step 5: Handle ValueError if user input cannot be converted to an integer
+    print("Invalid input. Please enter a valid number.") # you will get an error
+
+except ZeroDivisionError:
+    # Step 6: Handle ZeroDivisionError if division by zero occurs
+    print("Division by zero is not allowed.")
+
+except Exception as e:
+    # Step 7: Handle any other unexpected exceptions
+    print("An unexpected error occurred:", e)
+
+else:
+    # Step 8: Execute if no exceptions occurred in the try block
+    print("No exceptions occurred.")
+
+finally:
+    # Step 9: Always execute, regardless of whether exceptions occurred or not
+    print("Execution completed.")
 
 ```
 
