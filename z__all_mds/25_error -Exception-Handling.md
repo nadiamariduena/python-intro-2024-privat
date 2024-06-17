@@ -2,6 +2,8 @@
 
 ### QUESTION: Explain the purpose and give me some example of Exception Handling
 
+<br>
+
 ##### chatgpt
 
 > 💡 **Exception handling is a programming mechanism designed to handle and manage errors that occur during the execution of a program.**
@@ -14,3 +16,5 @@
 <br>
 
 ## 🟣 Difference between Error and Exception:
+
+- In programming, ✋ error and exception are related but **distinct concepts**:
