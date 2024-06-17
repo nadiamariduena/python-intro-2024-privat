@@ -66,10 +66,11 @@
 🔴 In summary, **while** Python uses try-except blocks for exception handling and JavaScript (including React) uses try-catch blocks for error handling, the core principles and purposes behind these constructs are quite similar across different programming languages and frameworks. They both aim to ensure robust and reliable program execution in the face of unforeseen errors or exceptions.
 
 <br>
+<br>
 
 #### Here's how they compare:
 
-- Javascript
+- **Javascript**
 
 ```javascript
 try {
@@ -89,4 +90,90 @@ try {
 } finally {
   console.log("Execution completed.");
 }
+```
+
+<br>
+
+- **react**
+
+```javascript
+// CLASS example
+//
+import React, { Component } from "react";
+
+class ErrorBoundary extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false };
+  }
+
+  static getDerivedStateFromError(error) {
+    return { hasError: true };
+  }
+
+  componentDidCatch(error, errorInfo) {
+    console.error("Error caught in ErrorBoundary:", error, errorInfo);
+    // You can also log the error to a service here
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return <h1>Something went wrong.</h1>;
+    }
+
+    return this.props.children;
+  }
+}
+
+// Usage example:
+<ErrorBoundary>
+  <MyComponent />
+</ErrorBoundary>;
+
+//
+//
+// --------------------
+//
+// ARROW function
+import React, { useState } from "react";
+
+const ErrorBoundary = ({ children }) => {
+  const [hasError, setHasError] = useState(false);
+
+  const componentDidCatch = (error, errorInfo) => {
+    console.error("Error caught in ErrorBoundary:", error, errorInfo);
+    // You can also log the error to a service here
+    setHasError(true);
+  };
+
+  if (hasError) {
+    return <h1>Something went wrong.</h1>;
+  }
+
+  return children;
+};
+
+// Usage example:
+const MyComponent = () => {
+  // Example of causing an error
+  const handleClick = () => {
+    throw new Error("An error occurred.");
+  };
+
+  return (
+    <div>
+      <button onClick={handleClick}>Click Me</button>
+    </div>
+  );
+};
+
+const App = () => {
+  return (
+    <ErrorBoundary>
+      <MyComponent />
+    </ErrorBoundary>
+  );
+};
+
+export default App;
 ```
