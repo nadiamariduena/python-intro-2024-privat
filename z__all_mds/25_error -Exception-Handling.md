@@ -73,12 +73,20 @@
 <br>
 
 ```python
+#
+# ---- CONDITION
+#
 try:
     # Step 1: Attempt to execute this code block
     x = int(input("Enter a number: "))  # Step 2: Prompt user for input and convert to integer
     y = 10 / x  # Step 3: Perform division, which may raise a ZeroDivisionError if x is 0
     print("Result:", y)  # Step 4: Print the result of the division
 
+
+#
+#
+#
+#  EXCEPTIONS *--------------
 except ValueError:
     # Step 5: Handle ValueError if user input cannot be converted to an integer
     print("Invalid input. Please enter a valid number.") # you will get an error if you type something other than a number
@@ -112,6 +120,19 @@ except Exception as e:
     # Step 7: Handle any other unexpected exceptions
     print("An unexpected error occurred:", e)
 
+#
+#
+# IF ALL IS OK, then show the 2 last messages
+#
+#
+# ✋ If you enter a correct value, then it will perform the logic, and if everthing is fine, it will give you the calculation and the success messages
+# OUTPUT
+# Enter a number: 5
+# Result: 2.0
+# success
+# No exceptions occurred.
+# Execution completed.
+#
 else:
     # Step 8: Execute if no exceptions occurred in the try block
     print("No exceptions occurred.")
