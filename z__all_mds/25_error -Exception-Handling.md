@@ -55,4 +55,8 @@
 
 **Purpose:** Both Python's try-except blocks and JavaScript's try-catch blocks serve the purpose of handling and managing errors or exceptions that occur during program execution.
 
+**Syntax:** While the syntax differs slightly between languages, both mechanisms allow developers to encapsulate potentially error-prone code and provide structured ways to handle different types of errors.
+
+<br>
+
 #### Here's how they compare:
