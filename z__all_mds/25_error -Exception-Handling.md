@@ -81,7 +81,7 @@ try:
 
 except ValueError:
     # Step 5: Handle ValueError if user input cannot be converted to an integer
-    print("Invalid input. Please enter a valid number.") # you will get an error
+    print("Invalid input. Please enter a valid number.") # you will get an error if you type something other than a number
 
 except ZeroDivisionError:
     # Step 6: Handle ZeroDivisionError if division by zero occurs
