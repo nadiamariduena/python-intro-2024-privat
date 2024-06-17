@@ -68,3 +68,12 @@ While raise is not always necessary (especially when handling built-in exception
 **Custom Exceptions:** When you need to define and raise exceptions specific to your application logic or error handling requirements.
 
 **Specific Error Messages:** When you want to provide detailed error messages or additional context to explain why an exception occurred.
+
+<br>
+<br>
+
+### 🍊 When Not to Use raise:
+
+**Handling Built-in Exceptions:** Python provides many built-in exceptions `(ValueError, TypeError, ZeroDivisionError, etc.)` that handle common error conditions. You typically don't need to raise these yourself unless you're adding additional context or custom error messages.
+
+**Unnecessary Complexity:** Don't introduce raise unnecessarily if your code does not have specific error conditions that need to be explicitly handled. Overuse of custom exceptions can complicate code without providing significant benefit.
