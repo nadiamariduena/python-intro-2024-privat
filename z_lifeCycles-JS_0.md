@@ -151,6 +151,7 @@ this.setState({
 ```
 
 <br>
+<br>
 
 ### Functional Component with Error Boundary (using hooks):
 
@@ -206,3 +207,21 @@ const App = () => {
 
 export default App;
 ```
+
+### Functional Component (using hooks):
+
+#### Hook `(useState)`:
+
+- In the functional component ErrorBoundary, useState hooks (**useState** for `hasError`, `error`, and `errorInfo`) are used to manage component state.
+
+<br>
+
+**Direct Error Handling:** Errors are handled directly within the function body of the component.
+
+- 🔺 There are **no lifecycle** methods like `componentDidCatch`.
+
+- **Instead**, errors are caught where they occur (e.g., in event handlers or function bodies).
+
+<br>
+
+**State Management:** State is managed using useState hooks, which provide a more concise and functional approach to managing component state compared to class components.
