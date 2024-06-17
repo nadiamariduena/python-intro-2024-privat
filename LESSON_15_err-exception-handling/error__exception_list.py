@@ -2,6 +2,18 @@
 
 ## Beginner-friendly examples of handling Python exceptions based on common exceptions from the list provided by W3Schools: https://www.w3schools.com/python/python_ref_exceptions.asp
 
+
+
+#
+# ** ----- RAISE -----
+# - With raise you can custom your error messages
+
+def calculate_age(year_of_birth):
+    current_year = 2024
+    if year_of_birth > current_year:
+        raise ValueError("Year of birth cannot be in the Future ⏰ ⬅️🚗 💨 ⚡️ ")
+
+
 #
 # ** ----- Value ERROR -----
 #
