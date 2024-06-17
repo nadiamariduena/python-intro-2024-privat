@@ -70,6 +70,14 @@
 
 ### Here's how they compare:
 
+<br>
+
+```python
+
+```
+
+<br>
+
 #### ✋ javascript
 
 ```javascript
