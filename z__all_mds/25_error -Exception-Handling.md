@@ -28,6 +28,12 @@
 
 <br>
 
-**Error:** Typically refers to a mistake made by the programmer that results in a program that cannot run. For example, syntax errors <u>(like a missing parenthesis) or logical errors (where the program does not perform as intended)</u> .
+🚩 **Error:** Typically refers to a mistake made by the programmer that results in a program that cannot run. For example, syntax errors <u>(like a missing parenthesis) or logical errors (where the program does not perform as intended)</u> .
 
-**Exception:** An exception is an event that disrupts the normal flow of the program's instructions during execution. Exceptions can occur due to factors **outside the programmer's control**, such as <u>invalid user input, network issues, file I/O errors, etc</u> . Exceptions are typically handled by the program to prevent crashes and manage unexpected situations.
+<br>
+
+🏴 **Exception:** An exception is an event that disrupts the normal flow of the program's instructions during execution. Exceptions can occur due to factors **outside the programmer's control**, such as <u>invalid user input, network issues, file I/O errors, etc</u> . Exceptions are typically handled by the program to prevent crashes and manage unexpected situations.
+
+<br>
+
+> 💡 In summary, while errors are mistakes that prevent a program from running correctly due to programming faults, exceptions are events that occur during execution and are managed by exception handling mechanisms to ensure robust and predictable program behavior.
