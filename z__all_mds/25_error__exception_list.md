@@ -32,3 +32,19 @@ except ValueError as e:
 # Enter a number: 20
 # Number entered: 20
 ```
+
+<br>
+<br>
+
+### QUESTION: what is "raise" and what is it's purpose, is it necessary?
+
+##### chatgpt:
+
+- In Python, raise is a keyword **used to explicitly raise an exception**.
+
+- It **allows you to create custom exceptions or raise built-in exceptions** when certain conditions occur in your code.
+
+- The raise statement is **used to interrupt the normal flow** of the program and transfer control to an exception-handling block.
+
+<br>
+<br>
