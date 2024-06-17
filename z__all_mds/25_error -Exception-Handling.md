@@ -85,6 +85,7 @@ except ValueError:
 
 # ✋ WHEN YOU run the code, you will be asked to type something,  typed g:
 # Enter a number: g
+# OUTPUT:
 # Invalid input. Please enter a valid number.
 # Execution completed.
 
@@ -96,6 +97,16 @@ except ValueError:
 except ZeroDivisionError:
     # Step 6: Handle ZeroDivisionError if division by zero occurs
     print("Division by zero is not allowed.")
+
+# ✋ WHEN YOU run the code, you will be asked to type something,  typed 0:
+# Enter a number: 0
+# OUTPUT:
+# Division by zero is not allowed.
+# Execution completed.
+
+#
+#
+#
 
 except Exception as e:
     # Step 7: Handle any other unexpected exceptions
