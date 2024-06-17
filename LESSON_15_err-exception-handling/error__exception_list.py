@@ -22,9 +22,9 @@ try:
 except ValueError as new:
     print("Error:", new)
 
-#
+# ---------------------------
 # ** ----- Value ERROR -----
-#
+# ---------------------------
 
 try:
     num = int(input("Enter a number: "))
