@@ -22,7 +22,7 @@
 <br>
 <br>
 
-## 🟣 Difference between Error and Exception:
+### 🟣 Difference between Error and Exception:
 
 - In programming, ✋ error and exception are related but **distinct concepts**:
 
@@ -48,5 +48,11 @@
 <br>
 
 ✅ **Yes**, exception handling in programming languages like Python and error handling in JavaScript (including React) serve similar purposes, although the **syntax** and specific **mechanisms** <u>differ</u> slightly.
+
+<br>
+
+#### 👬 Similarities:
+
+**Purpose:** Both Python's try-except blocks and JavaScript's try-catch blocks serve the purpose of handling and managing errors or exceptions that occur during program execution.
 
 #### Here's how they compare:
