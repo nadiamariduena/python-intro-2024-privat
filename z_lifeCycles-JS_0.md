@@ -99,11 +99,35 @@ export default App;
 
 #### Class Component (using lifecycle methods):
 
-✋ Lifecycle Method `(componentDidCatch)`: In the class component ErrorBoundary, componentDidCatch is used to catch any error thrown by its children components. It sets the hasError, error, and errorInfo state variables to manage and display the error information.
+✋ Lifecycle Method `(componentDidCatch)`: In the class component **ErrorBoundary**, componentDidCatch is used to catch any error thrown by its children components.
 
-State Management: The state (hasError, error, errorInfo) is managed within the class component using this.state and this.setState.
+```javascript
 
-Usage of Lifecycle Hooks: Class components utilize lifecycle hooks (componentDidCatch in this case) to handle errors and manage state changes accordingly.
+class ErrorBoundary extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      hasError: false,
+      error: null,
+      errorInfo: null,
+    };
+  }
+
+```
+
+- It sets the `hasError`, `error`, and `errorInfo` **state** variables to manage and display the error information.
+
+```javascript
+this.state = {
+  hasError: false,
+  error: null,
+  errorInfo: null,
+};
+```
+
+**State Management:** The state (hasError, error, errorInfo) is managed within the class component using this.state and this.setState.
+
+**Usage of Lifecycle Hooks:** Class components utilize lifecycle hooks (componentDidCatch in this case) to handle errors and manage state changes accordingly.
 
 <br>
 
