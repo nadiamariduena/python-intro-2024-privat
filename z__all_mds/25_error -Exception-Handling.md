@@ -129,7 +129,24 @@ class ErrorBoundary extends Component {
 <ErrorBoundary>
   <MyComponent />
 </ErrorBoundary>;
+/*
 
+
+The ErrorBoundary component uses getDerivedStateFromError and componentDidCatch to handle errors thrown in its children components.
+
+If an error occurs, it renders a fallback UI (e.g., "Something went wrong.").
+
+
+The finally equivalent in React is represented by the regular rendering of this.props.children, which will be rendered regardless of whether an error occurred or not.
+
+
+
+
+
+
+
+
+*/
 //
 //
 // --------------------
@@ -138,14 +155,22 @@ class ErrorBoundary extends Component {
 import React, { useState } from "react";
 
 const ErrorBoundary = ({ children }) => {
+  //
+  //  This functional component uses useState to manage the hasError state.
   const [hasError, setHasError] = useState(false);
 
+  //
+  //
+  // This arrow function handles errors thrown by its children components. It updates the state hasError to true when an error is caught.
   const componentDidCatch = (error, errorInfo) => {
     console.error("Error caught in ErrorBoundary:", error, errorInfo);
     // You can also log the error to a service here
     setHasError(true);
   };
 
+  //
+  //
+  //  If hasError is true, it renders a fallback UI (e.g., "Something went wrong."). Otherwise, it renders its children.
   if (hasError) {
     return <h1>Something went wrong.</h1>;
   }
@@ -176,4 +201,17 @@ const App = () => {
 };
 
 export default App;
+
+/*
+
+ErrorBoundary: This functional component uses useState to manage the hasError state.
+
+componentDidCatch: This arrow function handles errors thrown by its children components. It updates the state hasError to true when an error is caught.
+
+Render logic: If hasError is true, it renders a fallback UI (e.g., "Something went wrong."). Otherwise, it renders its children.
+
+
+
+
+*/
 ```
