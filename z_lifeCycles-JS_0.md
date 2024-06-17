@@ -95,9 +95,9 @@ export default App;
 
 <br>
 
-### 🟠 Explanation and Differences:
+## Explanation and Differences:
 
-#### Class Component (using lifecycle methods):
+## 🟠 Class Component (using lifecycle methods):
 
 ✋ Lifecycle Method `(componentDidCatch)`: In the class component **ErrorBoundary**, componentDidCatch is used to catch any error thrown by its children components.
 
@@ -153,7 +153,7 @@ this.setState({
 <br>
 <br>
 
-### Functional Component with Error Boundary (using hooks):
+## 🟠 Functional Component with Error Boundary (using hooks):
 
 ```javascript
 import React, { useState } from "react";
@@ -225,3 +225,16 @@ export default App;
 <br>
 
 **State Management:** State is managed using useState hooks, which provide a more concise and functional approach to managing component state compared to class components.
+
+<br>
+<br>
+
+## 🟡 Key Differences:
+
+#### Lifecycle Methods vs Direct Handling:
+
+- Class components with error boundaries use lifecycle methods (componentDidCatch) to catch errors, whereas functional components handle errors directly within the component's function body or via custom error handling logic.
+
+**State Management:** Class components use this.state and this.setState to manage state changes, while functional components use useState and potentially other hooks (useEffect, etc.) to manage state and side effects.
+
+**Component Syntax:** Functional components with hooks offer a more streamlined and modern approach to writing React components, avoiding the use of class syntax and lifecycle methods in favor of functional programming techniques.
