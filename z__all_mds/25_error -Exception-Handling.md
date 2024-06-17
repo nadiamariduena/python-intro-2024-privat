@@ -18,3 +18,5 @@
 ## 🟣 Difference between Error and Exception:
 
 - In programming, ✋ error and exception are related but **distinct concepts**:
+
+**Error:** Typically refers to a mistake made by the programmer that results in a program that cannot run. For example, syntax errors <u>(like a missing parenthesis) or logical errors (where the program does not perform as intended)</u> .
