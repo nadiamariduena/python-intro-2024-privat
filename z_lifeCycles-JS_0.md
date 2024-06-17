@@ -96,3 +96,56 @@ export default App;
 <br>
 
 ### Functional Component with Error Boundary (using hooks):
+
+```javascript
+import React, { useState } from "react";
+
+const ErrorBoundary = ({ children }) => {
+  const [hasError, setHasError] = useState(false);
+  const [error, setError] = useState(null);
+  const [errorInfo, setErrorInfo] = useState(null);
+
+  const componentDidCatch = (error, errorInfo) => {
+    console.error("Error caught in ErrorBoundary:", error, errorInfo);
+    setHasError(true);
+    setError(error);
+    setErrorInfo(errorInfo);
+  };
+
+  if (hasError) {
+    return (
+      <div>
+        <h1>Something went wrong.</h1>
+        <p>{error && error.toString()}</p>
+        <p>{errorInfo && errorInfo.componentStack}</p>
+      </div>
+    );
+  }
+
+  return children;
+};
+
+// Example usage:
+const MyComponent = () => {
+  // Example of causing an error
+  const handleClick = () => {
+    throw new Error("An error occurred.");
+  };
+
+  return (
+    <div>
+      <button onClick={handleClick}>Click Me</button>
+    </div>
+  );
+};
+
+const App = () => {
+  return (
+    <ErrorBoundary>
+      <MyComponent />
+    </ErrorBoundary>
+  );
+};
+
+export default App;
+```
