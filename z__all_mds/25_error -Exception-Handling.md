@@ -7,6 +7,13 @@
 <br>
 <br>
 
+### To read:
+
+[python_ref_exceptions](https://www.w3schools.com/python/python_ref_exceptions.asp)
+
+<br>
+<br>
+
 ### 🙋‍♀️ QUESTION: Explain the purpose and give me some example of Exception Handling
 
 <br>
