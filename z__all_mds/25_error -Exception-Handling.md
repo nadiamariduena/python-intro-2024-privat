@@ -78,8 +78,10 @@
 #
 try:
     # Step 1: Attempt to execute this code block
+    #Convert to Integer: Converts the user input to an integer (x = int(...)).
+
     x = int(input("Enter a number: "))  # Step 2: Prompt user for input and convert to integer
-    y = 10 / x  # Step 3: Perform division, which may raise a ZeroDivisionError if x is 0
+    y = 10 / x  # Step 3: Division: Attempts to perform division (y = 10 / x). This operation may raise a ZeroDivisionError if x is 0.
     print("Result:", y)  # Step 4: Print the result of the division
 
 
@@ -142,6 +144,18 @@ finally:
     print("  ✅ Execution completed.")
 
 ```
+
+### 🍦 Summary:
+
+- **Try Block:** Encapsulates the code that may raise exceptions.
+
+- **Except Blocks:** Provide specific handling for different types of exceptions.
+
+**Else Block:** Executes if no exceptions occurred in the try block.
+
+**Finally Block:** Executes after the try block, ensuring cleanup or final actions are performed.
+
+<br>
 
 <br>
 
