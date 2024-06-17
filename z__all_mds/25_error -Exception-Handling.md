@@ -83,6 +83,16 @@ except ValueError:
     # Step 5: Handle ValueError if user input cannot be converted to an integer
     print("Invalid input. Please enter a valid number.") # you will get an error if you type something other than a number
 
+# ✋ WHEN YOU run the code, you will be asked to type something,  typed g:
+# Enter a number: g
+# Invalid input. Please enter a valid number.
+# Execution completed.
+
+    #
+    #
+    #
+
+
 except ZeroDivisionError:
     # Step 6: Handle ZeroDivisionError if division by zero occurs
     print("Division by zero is not allowed.")
