@@ -118,6 +118,7 @@ class ErrorBoundary extends Component {
 - It sets the `hasError`, `error`, and `errorInfo` **state** variables to manage and display the error information.
 
 ```javascript
+//  STATE (before, when there is not issue)
 this.state = {
   hasError: false,
   error: null,
@@ -127,7 +128,27 @@ this.state = {
 
 **State Management:** The state (hasError, error, errorInfo) is managed within the class component using this.state and this.setState.
 
+```javascript
+// SETSTATE (when there is issue, so it s TRUE)
+this.setState({
+  hasError: true,
+  error: error,
+  errorInfo: errorInfo,
+});
+```
+
 **Usage of Lifecycle Hooks:** Class components utilize lifecycle hooks (componentDidCatch in this case) to handle errors and manage state changes accordingly.
+
+```javascript
+  componentDidCatch(error, errorInfo) {
+    console.error("Error caught in ErrorBoundary:", error, errorInfo);
+    this.setState({
+      hasError: true,
+      error: error,
+      errorInfo: errorInfo,
+    });
+  }
+```
 
 <br>
 
