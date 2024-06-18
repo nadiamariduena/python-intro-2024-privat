@@ -92,10 +92,10 @@ Sara = bank_account(2000, "Sara")
 
 #### result
 
-```
+```python
 Account 'Dave' created.
-Balance = $1000.00
+Balance = $1000.00 # :.2f}
 
 Account 'Sara' created.
-Balance = $2000.00
+Balance = $2000.00 # :.2f}
 ```
