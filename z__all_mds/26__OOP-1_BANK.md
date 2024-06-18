@@ -39,6 +39,12 @@ class bank_account:
 
 <br>
 
-> `${self.balance:.2f}` formats the **self.balance** attribute as a floating-point number with two decimal places. This is a common way to represent currency or precise numerical values in Python.
+> `${self.balance:.2f}` formats the **self.balance** attribute as a floating-point number with two decimal places.
+
+- This is a common way to represent currency or precise numerical values in Python.
 
 <br>
+
+#### Relating to JavaScript:
+
+In JavaScript, a similar concept might be achieved using template literals (backticks), especially when you want to interpolate variables or expressions into a string. Here’s how the equivalent might look in JavaScript:
