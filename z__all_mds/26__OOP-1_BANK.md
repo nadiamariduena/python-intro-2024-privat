@@ -27,6 +27,10 @@ class bank_account:
 
 <br>
 
+### After the below, create another component
+
+- there you will be adding most of the logic
+
 ```python
 class bank_account:
     def __init__(self, initialAmount, accountName):
