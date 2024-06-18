@@ -3,4 +3,5 @@ class bank_account:
 
         self.balance = initialAmount
         self.name = accountName
-        print(f"\nAccout '{self.name}' created.\nBalance = ${self.balance}")
+        print(f"\nAccout '{self.name}' created.\nBalance = ${self.balance:.2f}")
+        # remember: the :.2 will format the balance outcome to a 2 decimal points
