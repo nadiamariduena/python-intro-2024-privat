@@ -3,4 +3,4 @@ class bank_account:
 
         self.balance = initialAmount
         self.name = accountName
-        print(f"\nAccout '{self.name}")
+        print(f"\nAccout '{self.name}' created.\nBalance = ${self.balance}")
