@@ -48,3 +48,9 @@ class bank_account:
 #### Relating to JavaScript:
 
 In JavaScript, a similar concept might be achieved using template literals (backticks), especially when you want to interpolate variables or expressions into a string. Here’s how the equivalent might look in JavaScript:
+
+```javascript
+console.log(
+  `\nAccount '${this.name}' created.\nBalance = $${this.balance.toFixed(2)}`
+);
+```
