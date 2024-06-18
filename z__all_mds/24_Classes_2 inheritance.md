@@ -197,3 +197,33 @@ class IceCreamStoreInherited(IceCreamStore):
           # - It returns a proxy object that allows you to call methods of the superclass (parent class) in a subclass (child class).
 
 ```
+
+<br>
+
+#### Another example
+
+```python
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def sound(self):
+        pass
+
+class Dog(Animal):
+    def sound(self):
+        return "Woof!"
+
+class Cat(Animal):
+    def sound(self):
+        return "Meow!"
+
+# Creating objects of Dog and Cat classes
+my_dog = Dog("Buddy")
+my_cat = Cat("Whiskers")
+
+# Calling methods defined in superclass Animal
+print(f"{my_dog.name} says {my_dog.sound()}")  # Output: Buddy says Woof!
+print(f"{my_cat.name} says {my_cat.sound()}")  # Output: Whiskers says Meow!
+
+```
