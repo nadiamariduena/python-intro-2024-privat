@@ -58,3 +58,44 @@ console.log(
   `\nAccount '${this.name}' created.\nBalance = $${this.balance.toFixed(2)}`
 );
 ```
+
+<br>
+<br>
+
+#### Back to the bank example
+
+- within the file **bank_accounts_0.py** , I have the below code
+
+```python
+class bank_account:
+    def __init__(self, initialAmount, accountName):
+
+        self.balance = initialAmount
+        self.name = accountName
+        print(f"\nAccount '{self.name}' created.\nBalance = ${self.balance:.2f}")
+        # remember: the :.2 will format the balance outcome to a 2 decimal points, so it will represent the cents
+```
+
+<br>
+
+#### Now within the second file `bank_acc_1_.py`
+
+- I will add the below code to show the account name and balancem based on the above code
+
+```python
+# the *: stands for import ALL
+from bank_accounts_0 import *
+
+Dave = bank_account(1000, "Dave")
+Sara = bank_account(2000, "Sara")
+```
+
+#### result
+
+```
+Account 'Dave' created.
+Balance = $1000.00
+
+Account 'Sara' created.
+Balance = $2000.00
+```
