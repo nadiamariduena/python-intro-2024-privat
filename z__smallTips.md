@@ -151,6 +151,21 @@ print(isinstance(obj, A))  # True, obj is also considered an instance of A
 ```
 
 <br>
+
+#### another example
+
+```python
+def process_data(data):
+    if isinstance(data, str):
+        return data.upper()
+    elif isinstance(data, (list, tuple)):
+        return [str(item) for item in data]
+    else:
+        return str(data)
+
+```
+
+<br>
 <br>
 
 ---
