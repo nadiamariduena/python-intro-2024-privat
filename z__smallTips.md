@@ -118,6 +118,45 @@ In the example you provided, the randomfunfact3() function is defined, and then 
 
 <br>
 
+## isinstance()
+
+##### ChatGPT:
+
+- In Python, `isinstance()` is a built-in function used to check if an object is an instance of a particular class or if it belongs to a subclass of that class. Here's how it works and some key points to understand:
+
+```python
+
+class A:
+    pass
+
+obj = A()
+print(isinstance(obj, A))  # True, obj is an instance of class A
+
+```
+
+<br>
+
+#### subclasses
+
+```python
+class A:
+    pass
+
+class B(A):
+    pass
+
+obj = B()
+print(isinstance(obj, A))  # True, obj is also considered an instance of A
+
+```
+
+<br>
+<br>
+
+---
+
+<br>
+
 ## `%` is the modulo operator
 
 `%` is the modulo operator, not a percentage calculation.
