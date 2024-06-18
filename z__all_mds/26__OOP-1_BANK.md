@@ -38,3 +38,7 @@ class bank_account:
 ```
 
 <br>
+
+> `${self.balance:.2f}` formats the **self.balance** attribute as a floating-point number with two decimal places. This is a common way to represent currency or precise numerical values in Python.
+
+<br>
