@@ -114,6 +114,10 @@ In the example you provided, the randomfunfact3() function is defined, and then 
 <br>
 <br>
 
+---
+
+<br>
+
 ## `%` is the modulo operator
 
 `%` is the modulo operator, not a percentage calculation.
@@ -131,6 +135,10 @@ So, x % 2 == 0 checks if x is divisible by 2 with no remainder, which is true fo
 <br>
 <br>
 
+---
+
+<br>
+
 ### 🍭 `__new__` Method
 
 source [https://builtin.com/data-science/new-python](https://builtin.com/data-science/new-python#:~:text=In%20Python%2C%20__init__,to%20be%20passed%20to%20it.)
@@ -139,3 +147,49 @@ source [https://builtin.com/data-science/new-python](https://builtin.com/data-sc
 
 - `__new__` Method in Python Defined
   In Python, **new** is a static method that’s responsible for creating and returning a new instance of the class. It takes the class as its first argument followed by additional arguments.
+
+<br>
+<br>
+
+---
+
+<br>
+
+# ` super().`
+
+## what is the `super()` method in python?
+
+- In Python, **super()** is a build-in function used to access methods and properties from a parent class.
+
+- 🟢 It return a proxy object that **allows you** to **call methods of** the **superclass** (parent CLASS) in a subclass (child CLASS).
+
+- 🟢 This is **particularly useful in inheritance when you want to extend the functionality of a parent class in a subclass(child)** while still retaining the behavior of the parent class.
+
+<br>
+
+##### Here's how super() is typically used:
+
+```python
+# ** --------- inherited class ------------
+# STEP 6: Define the Special Ice Store class, inheriting from
+class IceCreamStoreInherited(IceCreamStore):
+    def __init__(self):
+          """🍦Initialize the IceCreamStoreInherited, calling the parent class's __init__ method. 🍦"""
+          #
+          #🤚
+          super().__init__() # Call the __init__ method of the parent class
+          self.special_topping = "Magic Sprinkles" # The special topping that adds a touch of magic
+          #
+          # ** - super() is a built-in function used to access methods and properties from a parent class.
+          # - It returns a proxy object that allows you to call methods of the superclass (parent class) in a subclass (child class).
+
+```
+
+## 🔴 More examples [z\_\_all_mds/24_Classes_2%20inheritance](./z__all_mds/24_Classes_2%20inheritance.md)
+
+<br>
+<br>
+
+---
+
+<br>
