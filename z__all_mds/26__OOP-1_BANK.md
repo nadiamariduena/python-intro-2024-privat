@@ -281,6 +281,24 @@ Sara.withdraw(1500)
 - Performing a transfer between two accounts
 
 ```python
+     # 🟠 step 6
+    def transfer(self, amount, account):
+         try:
+             print("\n*******\n\nBeginning Transfer.. 🚀 ")
+             #
+             # Purpose: Similar to the previous explanation, it checks if the transfer of amount is possible or allowed based on certain conditions. For instance, it might verify if the account initiating the transfer has sufficient funds.
+
+             self.viableTransaction(amount)
+             # This line calls a method named withdraw (defined on line 45 , step 4.
+             #Purpose: It deducts the amount from the balance of the account from which the transfer is being initiated. This operation simulates the withdrawal of funds from the sender's account to facilitate the transfer.
+             #
+             #
+             self.withdraw(amount)
+             #
+             # This line calls a method named deposit on the account object.add()#Purpose: It adds the amount to the balance of the account object provided as account. This operation simulates depositing funds into another account, which is the recipient of the transfer.
+             account.deposit(amount)
+             print("\nTransfer COMPLETE!! ✅")
+
 
 ```
 
