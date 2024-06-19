@@ -244,6 +244,8 @@ class BalanceException(Exception)
 
 - Check if the withdrawal is allowed (viableTransaction method).
 
+- Deduct the amount from the account balance.
+
 <br>
 <br>
 
