@@ -1,10 +1,7 @@
 #
 # 2 step
-#
 class BalanceException(Exception):
     pass
-
-
 
 #
 #
@@ -52,5 +49,6 @@ class bank_account:
             print("\nWithdraw complete.")
             self.getBalance()
             #
+            # remember: to use this exception you need to declare it first (check step 2)
         except BalanceException as error:
             print(f"\nWithdraw interrupted: {error}")
