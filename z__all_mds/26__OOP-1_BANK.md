@@ -109,9 +109,11 @@ Balance = $2000.00 # :.2f}
 
 <br>
 
-### Now I will add a METHOD
+#### ADD a METHOD
 
-- back to the `bank_acc_1_.py`, add the below method
+- back to the `bank_acc_1_.py`
+
+- Add a new method, name it `getBalance()`
 
 ```python
      def getBalance(self):
@@ -119,3 +121,33 @@ Balance = $2000.00 # :.2f}
 ```
 
 ### Call it
+
+```python
+# Call the second method
+Dave.getBalance()
+Sara.getBalance()
+
+# 🤚 result
+# Account 'Dave' balance = $1000.00
+# Account 'Sara' balance = $2000.00
+```
+
+<br>
+
+#### ADD a new METHOD
+
+- back to the `bank_acc_1_.py`
+
+- Add a new method, name it `deposit()`
+
+- SInce I am going to add the **balance + the amount** ,
+  i will need to call() the `getBalance()` method from above within the `deposit()` method
+
+<br>
+
+```python
+    def deposit(self, amount):
+        self.balance = self.balance + amount
+        print(f"\nDeposit complete.")
+        self.getBalance()
+```

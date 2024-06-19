@@ -8,3 +8,8 @@ class bank_account:
 
     def getBalance(self):
         print(f"\nAccount '{self.name}' balance = ${self.balance:.2f}")
+
+    def deposit(self, amount):
+        self.balance = self.balance + amount
+        print(f"\nDeposit complete.")
+        self.getBalance()
