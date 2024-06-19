@@ -281,7 +281,7 @@ Sara.withdraw(1500)
 - Performing a transfer between two accounts
 
 ```python
-     # 🟠 step 6
+         # 🟠 step 6
     def transfer(self, amount, account):
          try:
              print("\n*******\n\nBeginning Transfer.. 🚀 ")
@@ -298,6 +298,58 @@ Sara.withdraw(1500)
              # This line calls a method named deposit on the account object.add()#Purpose: It adds the amount to the balance of the account object provided as account. This operation simulates depositing funds into another account, which is the recipient of the transfer.
              account.deposit(amount)
              print("\nTransfer COMPLETE!! ✅")
+             #
+             #
+         except BalanceException as error:
+             print(f"\nTransfer interrupted ❌ {error}")
+
+             # 🟠step 7 go to the bank_acc_1_.py
+
+```
+
+<br>
+
+### 🔶 Call it
+
+- Go to the second file `bank_acc_1_.py` , and add the calling
+
+```python
+print("")
+print("--- TRANSFER  ----")
+# ** TRANSFER
+# transfer amount to Saras account
+Dave.transfer(25400, Sara)
+#
+# RESULT
+# Since Dave doesnt have such amount, you will get an exception
+#-----------
+#Beginning Transfer.. 🚀
+# Transfer interrupted ❌
+# Sorry, account 'Dave' only has a balance of $1000.00
+#
+print("")
+print("--- new TRANSFER  ----")
+# TRy AGAIN, this time just an small amount
+Dave.transfer(400, Sara)
+
+## result
+
+# --- new TRANSFER  ----
+
+# *******
+
+# Beginning Transfer.. 🚀
+
+# Withdraw complete.
+
+# Account 'Dave' balance = $600.00
+
+# Deposit complete.
+
+# Account 'Sara' balance = $1400.00
+
+# Transfer COMPLETE!! ✅
+
 
 
 ```
