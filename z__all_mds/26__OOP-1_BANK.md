@@ -187,12 +187,32 @@ class BalanceException(Exception)
 - now , below the `deposit()` **method.** add the **condition**
 
 ```python
-        # 3 step
+    # 3 step
+    # check if the user has sufficient funds
+    # check some examples here: https://www.smscountry.com/blog/sms-templates-for-financial-services/
+    #
+    #
     def viableTransaction(self, amount):
         if self.balance >= amount:
              return
         else:
             raise BalanceException(
-                f"\nSorry, account '{self.name}' only has a balance of ${self.balance:.2f}" # or INSUFFICIENT fonds
+                f"\nSorry, account '{self.name}' only has a balance of ${self.balance:.2f}" # or INSUFFICIENT funds
             )
+     #
+     #
+```
+
+<br>
+<br>
+
+#### 🟢 ADD a new METHOD
+
+- In this new method I will Use the **Try** to <u>catch</u> **"error or exception"**
+
+<br>
+
+```python
+ # 4 step
+
 ```
