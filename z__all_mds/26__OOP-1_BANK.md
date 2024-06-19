@@ -239,6 +239,10 @@ class BalanceException(Exception)
 ```
 
 <br>
+
+### In summary, these lines together represent a sequence of operations to perform a withdrawal from an account:
+
+<br>
 <br>
 
 ### 🔶 Call it
