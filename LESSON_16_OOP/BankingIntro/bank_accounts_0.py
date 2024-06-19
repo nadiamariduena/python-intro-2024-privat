@@ -1,11 +1,11 @@
 #
-# 2 step
+ # 🟠 2 step
 class BalanceException(Exception):
     pass
 
 #
 #
-# 1 step
+ # 🟠 1 step
 class bank_account:
     def __init__(self, initialAmount, accountName):
 
@@ -24,7 +24,7 @@ class bank_account:
     #
     #
     #
-    # 3 step
+    # 🟠 3 step
     # check if the user has sufficient funds
     # check some examples here: https://www.smscountry.com/blog/sms-templates-for-financial-services/
     #
@@ -38,7 +38,7 @@ class bank_account:
             )
      #
      #
-     # 4 step
+     # 🟠 4 step
      # Use the Try to catch "error or exception" (so if something wrong happens in step 3, the below code will catch it)
      #
 
@@ -60,4 +60,7 @@ class bank_account:
         except BalanceException as error:
             print(f"\nWithdraw interrupted: {error}")
 
-            #step 5 go to the bank_acc_1_.py
+            # 🟠step 5 go to the bank_acc_1_.py
+
+     # 🟠 step 6
+     def transfer(self, amount, account):
