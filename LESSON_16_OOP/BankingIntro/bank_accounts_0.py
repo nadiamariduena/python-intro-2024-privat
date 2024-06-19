@@ -66,6 +66,9 @@ class bank_account:
     def transfer(self, amount, account):
          try:
              print("\n*******\n\nBeginning Transfer.. 🚀 ")
+             #
+             # Purpose: Similar to the previous explanation, it checks if the transfer of amount is possible or allowed based on certain conditions. For instance, it might verify if the account initiating the transfer has sufficient funds.
+
              self.viableTransaction(amount)
              self.withdraw(amount)
              account.deposit(amount)
