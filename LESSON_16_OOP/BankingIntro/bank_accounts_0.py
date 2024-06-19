@@ -75,6 +75,8 @@ class bank_account:
              #
              #
              self.withdraw(amount)
+             #
+             # This line calls a method named deposit on the account object.add()#Purpose: It adds the amount to the balance of the account object provided as account. This operation simulates depositing funds into another account, which is the recipient of the transfer.
              account.deposit(amount)
              print("\nTransfer COMPLETE!! ✅")
 
