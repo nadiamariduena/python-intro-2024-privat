@@ -26,3 +26,6 @@ Dave.withdraw(10000)
 #
 # now with Sara (she has 2000)
 Sara.withdraw(1500)
+# result
+#Withdraw complete.
+# Account 'Sara' balance = $1000.00
