@@ -248,6 +248,8 @@ class BalanceException(Exception)
 
 - Print a message to confirm the withdrawal.
 
+- Display the updated balance after the withdrawal.
+
 <br>
 <br>
 
