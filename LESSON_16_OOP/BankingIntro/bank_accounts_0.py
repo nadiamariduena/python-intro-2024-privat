@@ -85,3 +85,6 @@ class bank_account:
              print(f"\nTransfer interrupted ❌ {error}")
 
              # 🟠step 7 go to the bank_acc_1_.py
+
+     # 🟠 step 8:  INTEREST REWARD
+    def InterestRewardsAccount(bank_account):
