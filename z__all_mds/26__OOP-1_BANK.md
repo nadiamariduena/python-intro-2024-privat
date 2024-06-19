@@ -276,7 +276,9 @@ Sara.withdraw(1500)
 <br>
 <br>
 
-### Transfer
+#### 🟢 ADD a new METHOD
+
+- Performing a transfer between two accounts
 
 ```python
 
