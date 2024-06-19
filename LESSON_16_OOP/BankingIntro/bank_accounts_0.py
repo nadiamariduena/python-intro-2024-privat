@@ -46,6 +46,8 @@ class bank_account:
         try:
             #This line calls a method named viableTransaction that is defined in line 32 (step 3)
             self.viableTransaction(amount)
+            #This line subtracts the amount from the current balance (self.balance) of the account.
+
             self.balance = self.balance - amount
             print("\nWithdraw complete.")
             self.getBalance()
