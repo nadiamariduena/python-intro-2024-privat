@@ -86,6 +86,7 @@ class bank_account:
 # the *: stands for import ALL
 from bank_accounts_0 import *
 
+# ✋Just like when you grab data from a js or json file, you have to insert the name of the class coming from the first file
 Dave = bank_account(1000, "Dave")
 Sara = bank_account(2000, "Sara")
 ```
