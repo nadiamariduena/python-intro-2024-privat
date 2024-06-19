@@ -165,5 +165,13 @@ Sara.getBalance()
 - Go to the second file `bank_acc_1_.py` , and add the calling
 
 ```python
-
+Sara.deposit(500)
+# result
+# As you can see, it added 500 to the 2000 (Sara s BALANCE)
+#Account 'Sara' balance = $2500.00
 ```
+
+<br>
+<br>
+
+### 🟢 Checking if we have enough balance to Complete the transaction
