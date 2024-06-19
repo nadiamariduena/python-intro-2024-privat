@@ -237,3 +237,12 @@ class BalanceException(Exception)
 
             #step 5 go to the bank_acc_1_.py
 ```
+
+<br>
+<br>
+
+### 🔸 Call it
+
+- Go to the second file `bank_acc_1_.py` , and add the calling
+
+- Purposely add an amount you don't have (like `10.000`) just to see what happens
