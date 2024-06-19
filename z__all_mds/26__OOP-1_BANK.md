@@ -178,10 +178,21 @@ Sara.deposit(500)
 
 - Above the first class, add a second class
 
-- name it: `BalanceEception(Exception)`
+- name it: `BalanceException(Exception)`
 
 ```python
-class BalanceEception(Exception)
+class BalanceException(Exception)
 ```
 
-- now , below the `deposit()` method. add the **condition**
+- now , below the `deposit()` **method.** add the **condition**
+
+```python
+        # 3 step
+    def viableTransaction(self, amount):
+        if self.balance >= amount:
+             return
+        else:
+            raise BalanceException(
+                f"\nSorry, account '{self.name}' only has a balance of ${self.balance:.2f}" # or INSUFFICIENT fonds
+            )
+```

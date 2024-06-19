@@ -1,7 +1,7 @@
 #
 # 2 step
 #
-class BalanceEception(Exception):
+class BalanceException(Exception):
     pass
 
 
@@ -30,6 +30,6 @@ class bank_account:
         if self.balance >= amount:
              return
         else:
-            raise BalanceEception(
+            raise BalanceException(
                 f"\nSorry, account '{self.name}' only has a balance of ${self.balance:.2f}" # or INSUFFICIENT fonds
             )
