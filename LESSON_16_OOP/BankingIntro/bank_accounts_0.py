@@ -24,3 +24,12 @@ class bank_account:
         self.balance = self.balance + amount
         print(f"\nDeposit complete.")
         self.getBalance()
+
+        # 3 step
+    def viableTransaction(self, amount):
+        if self.balance >= amount:
+             return
+        else:
+            raise BalanceEception(
+                f"\nSorry, account '{self.name}' only has a balance of ${self.balance:.2f}" # or INSUFFICIENT fonds
+            )

@@ -176,10 +176,12 @@ Sara.deposit(500)
 
 ### 🟢 Checking if we have enough balance to Complete the transaction
 
-- Above the 1 class, add a 2 class
+- Above the first class, add a second class
 
 - name it: `BalanceEception(Exception)`
 
 ```python
 class BalanceEception(Exception)
 ```
+
+- now , below the `deposit()` method. add the **condition**
