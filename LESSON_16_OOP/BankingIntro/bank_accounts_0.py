@@ -44,3 +44,13 @@ class bank_account:
      # 4 step
      # Use the Try to catch "error or exception" (so if something wrong happens in step 3, the below code will catch it)
      #
+
+    def withdraw(self, amount):
+        try:
+            self.viableTransaction(amount)
+            self.balance = self.balance - amount
+            print("\nWithdraw complete.")
+            self.getBalance()
+            #
+        except BalanceException as error:
+            print(f"\nWithdraw interrupted: {error}")
