@@ -22,3 +22,7 @@ Dave.withdraw(10000)
 # result
 #Withdraw interrupted:
 # Sorry, account 'Dave' only has a balance of $1000.00
+#
+#
+# now with Sara (she has 2000)
+Sara.withdraw(1500)
