@@ -1,3 +1,14 @@
+#
+# 2 step
+#
+class BalanceEception(Exception):
+    pass
+
+
+
+#
+#
+# 1 step
 class bank_account:
     def __init__(self, initialAmount, accountName):
 
