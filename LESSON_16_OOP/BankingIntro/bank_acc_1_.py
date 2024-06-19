@@ -53,3 +53,20 @@ print("--- new TRANSFER  ----")
 # TRy AGAIN, this time just an small amount
 Dave.transfer(400, Sara)
 
+## result
+
+# --- new TRANSFER  ----
+
+# *******
+
+# Beginning Transfer.. 🚀
+
+# Withdraw complete.
+
+# Account 'Dave' balance = $600.00
+
+# Deposit complete.
+
+# Account 'Sara' balance = $1400.00
+
+# Transfer COMPLETE!! ✅
