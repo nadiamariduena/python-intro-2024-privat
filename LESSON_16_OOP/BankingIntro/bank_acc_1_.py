@@ -10,3 +10,8 @@ Sara.getBalance()
 # 🤚 result
 # Account 'Dave' balance = $1000.00
 # Account 'Sara' balance = $2000.00
+
+Sara.deposit(500)
+# result
+# As you can see, it added 500 to the 2000 (Sara s BALANCE)
+#Account 'Sara' balance = $2500.00

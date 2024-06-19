@@ -81,7 +81,7 @@ class bank_account:
 
 <br>
 
-### Call it
+### 🔸 Call it
 
 #### Now within the second file `bank_acc_1_.py`
 
@@ -108,8 +108,9 @@ Balance = $2000.00 # :.2f}
 ```
 
 <br>
+<br>
 
-#### ADD a METHOD
+#### 🟢 ADD a METHOD
 
 - back to the `bank_acc_1_.py`
 
@@ -120,7 +121,11 @@ Balance = $2000.00 # :.2f}
             print(f"\nAccount '{self.name}' balance = ${self.balance:.2f}")
 ```
 
-### Call it
+<br>
+
+### 🔸 Call it
+
+- Go to the second file `bank_acc_1_.py` , and add the calling
 
 ```python
 # Call the second method
@@ -133,8 +138,9 @@ Sara.getBalance()
 ```
 
 <br>
+<br>
 
-#### ADD a new METHOD
+#### 🟢 ADD a new METHOD
 
 - back to the `bank_acc_1_.py`
 
@@ -150,4 +156,14 @@ Sara.getBalance()
         self.balance = self.balance + amount
         print(f"\nDeposit complete.")
         self.getBalance()
+```
+
+<br>
+
+### 🔸 Call it
+
+- Go to the second file `bank_acc_1_.py` , and add the calling
+
+```python
+
 ```
