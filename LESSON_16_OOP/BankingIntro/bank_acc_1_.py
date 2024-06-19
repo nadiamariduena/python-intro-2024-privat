@@ -33,5 +33,10 @@ Sara.withdraw(1500)
 # ** TRANSFER
 # transfer amount to Saras account
 Dave.transfer(25400, Sara)
+#
 # RESULT
 # Since Dave doesnt have such amount, you will get an exception
+#-----------
+#Beginning Transfer.. 🚀
+# Transfer interrupted ❌
+# Sorry, account 'Dave' only has a balance of $1000.00
