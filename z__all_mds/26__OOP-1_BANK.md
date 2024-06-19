@@ -246,6 +246,8 @@ class BalanceException(Exception)
 
 - Deduct the amount from the account balance.
 
+- Print a message to confirm the withdrawal.
+
 <br>
 <br>
 
