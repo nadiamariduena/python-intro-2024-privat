@@ -66,4 +66,6 @@ class bank_account:
     def transfer(self, amount, account):
          try:
              print("\n*******\n\nBeginning Transfer.. 🚀 ")
+             self.viableTransaction(amount)
+             s
 
