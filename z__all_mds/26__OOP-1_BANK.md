@@ -175,3 +175,11 @@ Sara.deposit(500)
 <br>
 
 ### 🟢 Checking if we have enough balance to Complete the transaction
+
+- Above the 1 class, add a 2 class
+
+- name it: `BalanceEception(Exception)`
+
+```python
+class BalanceEception(Exception)
+```
