@@ -6,6 +6,7 @@ class BalanceException(Exception):
 #
 # ----------
  # 🟠 1 step
+ #parent class
 class bank_account:
     def __init__(self, initialAmount, accountName):
 
@@ -91,7 +92,7 @@ class bank_account:
 
     # inherited data from the above class
     #
-    #
+    # child
      # 🟠 step 8:  INTEREST REWARD
      # class method that is responsible for adding an amount including a 5% increase to self.balance
 class InterestRewardsAccount(bank_account):
