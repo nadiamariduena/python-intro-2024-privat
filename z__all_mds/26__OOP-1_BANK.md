@@ -60,6 +60,9 @@ console.log(
 ```
 
 <br>
+
+---
+
 <br>
 
 #### Back to the bank example
@@ -89,6 +92,7 @@ from bank_accounts_0 import *
 # ✋Just like when you grab data from a js or json file, you have to insert the name of the class coming from the first file
 Dave = bank_account(1000, "Dave")
 Sara = bank_account(2000, "Sara")
+# print(f"\nAccount '{self.name}' created.\nBalance = ${self.balance:.2f}")
 ```
 
 #### result
@@ -100,3 +104,7 @@ Balance = $1000.00 # :.2f}
 Account 'Sara' created.
 Balance = $2000.00 # :.2f}
 ```
+
+<br>
+
+### Now I will add a METHOD
