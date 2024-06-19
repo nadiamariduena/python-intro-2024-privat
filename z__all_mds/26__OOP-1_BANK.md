@@ -355,3 +355,13 @@ Dave.transfer(400, Sara)
 ```
 
 #### In summary, these lines together represent a sequence of operations to perform a transfer between two accounts:
+
+- Print a message indicating the start of the transfer.
+
+- Check if the transfer is feasible (viableTransaction method).
+
+- Withdraw funds from the sender's account.
+
+- Deposit funds into the recipient's account.
+
+- Print a message confirming the successful completion of the transfer.
