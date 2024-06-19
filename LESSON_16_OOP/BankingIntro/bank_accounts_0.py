@@ -46,11 +46,15 @@ class bank_account:
         try:
             #This line calls a method named viableTransaction that is defined in line 32 (step 3)
             self.viableTransaction(amount)
+            #
+            #
             #This line subtracts the amount from the current balance (self.balance) of the account.
-
+            #Purpose: It updates the balance after a successful withdrawal. For instance, if you have $100 in your account and you withdraw $20, this operation updates the balance to $80.
             self.balance = self.balance - amount
             print("\nWithdraw complete.")
             self.getBalance()
+            # Calls the getBalance() , Display the updated balance after the withdrawal.
+            #Purpose: It updates the display of the current balance after the withdrawal operation. This helps in showing the user the updated amount of money left in their account after the withdrawal.
             #
             # remember: to use this exception you need to declare it first (check step 2)
         except BalanceException as error:
