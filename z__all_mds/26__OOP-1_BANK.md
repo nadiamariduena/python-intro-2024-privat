@@ -81,7 +81,7 @@ class bank_account:
 
 <br>
 
-### 🔸 Call it
+### 🔶 Call it
 
 #### Now within the second file `bank_acc_1_.py`
 
@@ -123,7 +123,7 @@ Balance = $2000.00 # :.2f}
 
 <br>
 
-### 🔸 Call it
+### 🔶 Call it
 
 - Go to the second file `bank_acc_1_.py` , and add the calling
 
@@ -160,7 +160,7 @@ Sara.getBalance()
 
 <br>
 
-### 🔸 Call it
+### 🔶 Call it
 
 - Go to the second file `bank_acc_1_.py` , and add the calling
 
@@ -241,8 +241,12 @@ class BalanceException(Exception)
 <br>
 <br>
 
-### 🔸 Call it
+### 🔶 Call it
 
 - Go to the second file `bank_acc_1_.py` , and add the calling
 
 - Purposely add an amount you don't have (like `10.000`) just to see what happens
+
+```python
+
+```

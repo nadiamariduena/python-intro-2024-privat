@@ -15,3 +15,10 @@ Sara.deposit(500)
 # result
 # As you can see, it added 500 to the 2000 (Sara s BALANCE)
 #Account 'Sara' balance = $2500.00
+#
+#
+
+Dave.withdraw(10000)
+# result
+#Withdraw interrupted:
+# Sorry, account 'Dave' only has a balance of $1000.00
