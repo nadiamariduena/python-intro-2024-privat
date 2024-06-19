@@ -24,12 +24,23 @@ class bank_account:
         self.balance = self.balance + amount
         print(f"\nDeposit complete.")
         self.getBalance()
-
-        # 3 step
+    #
+    #
+    #
+    # 3 step
+    # check if the user has sufficient funds
+    # check some examples here: https://www.smscountry.com/blog/sms-templates-for-financial-services/
+    #
+    #
     def viableTransaction(self, amount):
         if self.balance >= amount:
              return
         else:
             raise BalanceException(
-                f"\nSorry, account '{self.name}' only has a balance of ${self.balance:.2f}" # or INSUFFICIENT fonds
+                f"\nSorry, account '{self.name}' only has a balance of ${self.balance:.2f}" # or INSUFFICIENT funds
             )
+     #
+     #
+     # 4 step
+     # Use the Try to catch "error or exception" (so if something wrong happens in step 3, the below code will catch it)
+     #
