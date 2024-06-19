@@ -44,6 +44,7 @@ class bank_account:
 
     def withdraw(self, amount):
         try:
+            #This line calls a method named viableTransaction that is defined in line 32 (step 3)
             self.viableTransaction(amount)
             self.balance = self.balance - amount
             print("\nWithdraw complete.")
