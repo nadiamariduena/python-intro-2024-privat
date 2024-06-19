@@ -17,7 +17,7 @@ Sara.deposit(500)
 #Account 'Sara' balance = $2500.00
 #
 #
-
+# ** WITHDRAW
 Dave.withdraw(10000)
 # result
 #Withdraw interrupted:
@@ -29,3 +29,9 @@ Sara.withdraw(1500)
 # result
 #Withdraw complete.
 # Account 'Sara' balance = $1000.00
+
+# ** TRANSFER
+# transfer amount to Saras account
+Dave.transfer(25400, Sara)
+# RESULT
+# Since Dave doesnt have such amount, you will get an exception
