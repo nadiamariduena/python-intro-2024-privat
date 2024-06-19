@@ -67,5 +67,6 @@ class bank_account:
          try:
              print("\n*******\n\nBeginning Transfer.. 🚀 ")
              self.viableTransaction(amount)
-             s
+             self.withdraw(amount)
+             account.deposit(amount)
 
