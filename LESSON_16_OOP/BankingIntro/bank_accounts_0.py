@@ -4,7 +4,7 @@ class BalanceException(Exception):
     pass
 
 #
-#
+# ----------
  # 🟠 1 step
 class bank_account:
     def __init__(self, initialAmount, accountName):
@@ -86,6 +86,12 @@ class bank_account:
 
              # 🟠step 7 go to the bank_acc_1_.py
 
+
+
+
+    # inherited data from the above class
+    #
+    #
      # 🟠 step 8:  INTEREST REWARD
      # class method that is responsible for adding an amount including a 5% increase to self.balance
 class InterestRewardsAccount(bank_account):
