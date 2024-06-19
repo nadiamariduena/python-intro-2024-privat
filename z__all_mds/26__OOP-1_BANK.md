@@ -242,6 +242,8 @@ class BalanceException(Exception)
 
 ### In summary, these lines together represent a sequence of operations to perform a withdrawal from an account:
 
+- Check if the withdrawal is allowed (viableTransaction method).
+
 <br>
 <br>
 
