@@ -70,6 +70,7 @@ class bank_account:
              # Purpose: Similar to the previous explanation, it checks if the transfer of amount is possible or allowed based on certain conditions. For instance, it might verify if the account initiating the transfer has sufficient funds.
 
              self.viableTransaction(amount)
+             # This line calls a method named withdraw (defined on line 45 , step 4.
              self.withdraw(amount)
              account.deposit(amount)
              print("\nTransfer COMPLETE!! ✅")
