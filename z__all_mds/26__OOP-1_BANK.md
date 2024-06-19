@@ -248,5 +248,8 @@ class BalanceException(Exception)
 - Purposely add an amount you don't have (like `10.000`) just to see what happens
 
 ```python
-
+Dave.withdraw(10000)
+# ✋ result
+#Withdraw interrupted:
+# Sorry, account 'Dave' only has a balance of $1000.00
 ```
