@@ -71,6 +71,9 @@ class bank_account:
 
              self.viableTransaction(amount)
              # This line calls a method named withdraw (defined on line 45 , step 4.
+             #Purpose: It deducts the amount from the balance of the account from which the transfer is being initiated. This operation simulates the withdrawal of funds from the sender's account to facilitate the transfer.
+             #
+             #
              self.withdraw(amount)
              account.deposit(amount)
              print("\nTransfer COMPLETE!! ✅")
