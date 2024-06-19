@@ -102,3 +102,8 @@ class InterestRewardsAccount(bank_account):
         # So you are not just adding the amount like in line 93, but you are adding an additional 5 percent
         print("\nDeposit COMPLETE 🎁")
         self.getBalance()  # coming from line 17
+
+
+
+         # 🟠step 9 go to the bank_acc_1_.py , there create an new client with a new account
+
