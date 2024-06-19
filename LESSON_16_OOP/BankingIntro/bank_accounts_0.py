@@ -82,5 +82,5 @@ class bank_account:
              #
              #
          except BalanceException as error:
-             print(f"\nTransfer interrupted ❌")
+             print(f"\nTransfer interrupted ❌ {error}")
 
