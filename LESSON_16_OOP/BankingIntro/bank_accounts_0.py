@@ -87,6 +87,7 @@ class bank_account:
              # 🟠step 7 go to the bank_acc_1_.py
 
      # 🟠 step 8:  INTEREST REWARD
+     # class method that is responsible for adding an amount including a 5% increase to self.balance
 class InterestRewardsAccount(bank_account):
     def deposit(self, amount):
         # self.balance = self.balance + amount # if you use the "amount" positioned at the end of the line, you wont have the possibility to tell it how much you want it to be, like 5% for example
