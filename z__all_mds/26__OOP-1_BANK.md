@@ -81,9 +81,11 @@ class bank_account:
 
 <br>
 
+### Call it
+
 #### Now within the second file `bank_acc_1_.py`
 
-- I will add the below code to show the account name and balancem based on the above code
+- I will add the below code to show the account name and balance based on the above code (you will call it here:)
 
 ```python
 # the *: stands for import ALL
@@ -108,3 +110,12 @@ Balance = $2000.00 # :.2f}
 <br>
 
 ### Now I will add a METHOD
+
+- back to the `bank_acc_1_.py`, add the below method
+
+```python
+     def getBalance(self):
+            print(f"\nAccount '{self.name}' balance = ${self.balance:.2f}")
+```
+
+### Call it
