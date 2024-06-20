@@ -383,10 +383,78 @@ class bank_account:
 
 <br>
 
-#### Below you will be passing the default data and you will add to this 2 arguments a 5 percent increase
+### Below you will be passing the default data and you will add to this 2 arguments a 5 percent increase
 
 ```python
 
 class bank_account:
     def __init__(self, initialAmount, accountName):
+```
+
+#### at the end you will have the following output
+
+```python
+# 1 DEFAULT: b default Jim has 1000
+# Account 'Jim' balance = $1000.00
+# Deposit COMPLETE 🎁
+
+# ---------
+#✋ 2 the reward with the 5%
+# Account 'Jim' balance = $1105.00
+```
+
+<br>
+
+```python
+    # inherited data from the above class
+    #
+    # child of the  "bank_account" in step 1
+     # 🟠 step 8:  INTEREST REWARD
+     # class method that is responsible for adding an amount including a 5% increase to self.balance
+class InterestRewardsAccount(bank_account):
+    def deposit(self, amount):
+        # self.balance = self.balance + amount # if you use the "amount" positioned at the end of the line, you wont have the possibility to tell it how much you want it to be, like 5% for example
+        self.balance = self.balance + (amount * 1.05) # 1.05 which is the 5% | amount * 1.05 calculates 105% of amount, which is amount plus 5% of amount.
+        # So you are not just adding the amount like in line 93, but you are adding an additional 5 percent
+        print("\nDeposit COMPLETE 🎁")
+        self.getBalance()  # coming from line 17
+
+
+
+         # 🟠step 9 go to the bank_acc_1_.py , there create an new client with a new account
+  #
+```
+
+### 🔶 Call it
+
+- Go to the second file `bank_acc_1_.py` , and add the calling
+
+```python
+
+print("")
+print("--- INTEREST REWARD  ----")
+
+Jim = InterestRewardsAccount(1000, "Jim")
+
+Jim.getBalance()
+
+Jim.deposit(100)
+
+# RESULT
+
+# --- INTEREST REWARD  ----
+
+# Account 'Jim' created.
+# Balance = $1000.00
+
+# Account 'Jim' balance = $1000.00
+
+# Deposit COMPLETE 🎁
+
+# ---------
+#✋ the reward with the 5%
+# Account 'Jim' balance = $1105.00
+#
+# Transfer
+Jim.transfer(100, Dave)
 ```
