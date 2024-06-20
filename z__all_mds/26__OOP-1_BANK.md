@@ -611,6 +611,8 @@ class ChildClass(ParentClass):
 
 ### Lets continue
 
+Each line in this method serves a specific purpose related to **handling a withdrawal transaction** from an account, **including:** validation, balance adjustment, status reporting, and error handling.
+
 ```python
 
   # 🟠step 10
