@@ -483,3 +483,34 @@ Jim.transfer(100, Dave)
           # new property self.fee
           self.fee = 5 # 5 dollar fee for any withdrawal from this account
 ```
+
+<br>
+
+---
+
+<br>
+
+## 🟨 Recapitulatif:
+
+#### 🔸 Question: what is the difference between this 2 classes, they are both part of the parent class `bankingaccount` in step 1, but their structure is different, why do i need the `__init__ and super` on the 2 class?
+
+```python
+1
+class InterestRewardsAccount(bank_account):
+def deposit(self, amount):
+self.balance = self.balance + (amount * 1.05)
+
+2
+class SavingsAccount(InterestRewardsAccount):
+def init(self, initialAmount, accountName):
+super().init(initialAmount, accountName)
+```
+
+#### chatgpt: This class InterestRewardsAccount extends (inherits from) a class named `bank_account`.
+
+```python
+class InterestRewardsAccount(bank_account):
+    def deposit(self, amount):
+        self.balance = self.balance + (amount * 1.05)
+
+```
