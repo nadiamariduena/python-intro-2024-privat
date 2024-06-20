@@ -104,3 +104,9 @@ print("")
 print("--- Savings account  ----")
 
 Blaze = SavingsAccount(1000, "Blaze")
+
+Blaze.getBalance()
+
+Blaze.deposit(100)
+
+Blaze.transfer(10000, Sara)
