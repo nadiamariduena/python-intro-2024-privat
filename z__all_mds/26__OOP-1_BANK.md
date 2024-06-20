@@ -567,6 +567,8 @@ This is important because the superclass might have its own attributes or initia
 - **The superclass's** (`InterestRewardsAccount`) initialization logic is also executed, maintaining the integrity of the object's state and behavior as defined by both classes in the inheritance hierarchy.
   <br>
 
-### 🔸 QUESTION: In other words, if I add only one of the arguments of the parent class within the super(), would I have some sort of behavior?
+### 🔸 QUESTION: In other words, if I add only one of the arguments of the parent class within the super(), would I have some sort of behavior? I thought that, like in React, I could destructure and retrieve exactly what I need from an argument.
 
 ### ✅ Yes, that's correct. When you use super() to call a method from the parent class (superclass), you need to pass all the required arguments that the parent class's method expects. ✋ If you omit any required arguments, Python will raise an 🔴error indicating that the method was called with missing arguments.
+
+> 🔴 In Python, when you use super() to call a method from the parent class (superclass), you must provide all the arguments that the parent class's method expects. Unlike destructuring in languages like JavaScript, where you can selectively pick properties from an object, Python requires you to pass the exact number of arguments expected by the method being called via super(). 🔴
