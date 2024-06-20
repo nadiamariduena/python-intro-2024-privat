@@ -492,7 +492,7 @@ Jim.transfer(100, Dave)
 
 ## 🟨 Recapitulatif:
 
-#### 🔸 Question: what is the difference between this 2 classes, they are both part of the parent class `bankingaccount` in step 1, but their structure is different, why do i need the `__init__ and super` on the 2 class?
+### 🔸 Question: what is the difference between this 2 classes, they are both part of the parent class `bankingaccount` in step 1, but their structure is different, why do i need the `__init__ and super` on the 2 class?
 
 ```python
 1
@@ -506,7 +506,11 @@ def init(self, initialAmount, accountName):
 super().init(initialAmount, accountName)
 ```
 
-#### chatgpt: This class InterestRewardsAccount extends (inherits from) a class named `bank_account`.
+#### chatgpt:
+
+- This class **InterestRewardsAccount** , extends (inherits from) a class named `bank_account`.
+
+- It defines a method `deposit(self, amount)` that **increases the balance** by **5%** of the deposited amount (amount \* 1.05).
 
 ```python
 class InterestRewardsAccount(bank_account):
@@ -514,3 +518,21 @@ class InterestRewardsAccount(bank_account):
         self.balance = self.balance + (amount * 1.05)
 
 ```
+
+#### chatgpt:
+
+- This class **SavingsAccount** extends (inherits from) `InterestRewardsAccount`.
+
+- It has an `__init__` method that takes two parameters (**initialAmount** and **accountName**).
+
+- Inside `__init__`, it calls `super().__init__(initialAmount, accountName)`, which <u>✋invokes </u> the **init** method of the **superclass** `(InterestRewardsAccount)`.
+
+<br>
+
+### 🔸 QUESTION: In other words..the first class in the above code `class InterestRewardsAccount`, gets the data from the the parent class `bank_account` and the 2 class `class SavingsAccount` gets the data from the InterestRewardsAccount but since initialAmount and accountName are methods from the parent class, i need to `__init__` it and then use the `super` to clarify or invoke i really want to use them?
+
+### ✅ Yes, you're correct in understanding the relationship between the two classes and the use of **init** and super().
+
+<br>
+
+> In object-oriented programming, when you have a subclass (like SavingsAccount) that inherits from a superclass (InterestRewardsAccount), here's how it works regarding initialization and attributes:
