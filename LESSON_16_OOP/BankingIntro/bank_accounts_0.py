@@ -129,3 +129,6 @@ class InterestRewardsAccount(bank_account):
            try:
                self.viableTransaction(amount + self.fee)
                self.balance = self.balance - (amount + self.fee)
+               print("\nWithdraw completed.")
+               self.getBalance()
+
