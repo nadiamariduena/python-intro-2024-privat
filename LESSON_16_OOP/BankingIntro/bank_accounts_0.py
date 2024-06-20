@@ -120,7 +120,7 @@ class InterestRewardsAccount(bank_account):
   # Savings ACCOUNT
   # #(any withdrawal will have a 5 dollar FEE)
 
-    class SavingsAccount(InterestRewardsAccount):
+class SavingsAccount(InterestRewardsAccount):
        def __init__(self, initialAmount, accountName):
           super().__init__(initialAmount, accountName)
           # new property self.fee

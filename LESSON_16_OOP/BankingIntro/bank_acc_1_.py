@@ -97,3 +97,10 @@ Jim.deposit(100)
 #
 # Transfer
 Jim.transfer(100, Dave)
+
+#
+#
+print("")
+print("--- Savings account  ----")
+
+Blaze = SavingsAccount(1000, "Blaze")
