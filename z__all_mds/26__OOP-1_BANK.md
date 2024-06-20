@@ -585,6 +585,10 @@ class ParentClass:
 
 class ChildClass(ParentClass):
     def __init__(self, arg1):
-        super().__init__(arg1)  #  Incorrect usage
-
+        super().__init__(arg1)  # ❌ Incorrect usage
+# ISSUE
+# When ChildClass calls super().__init__(arg1), it only provides one argument (arg1). However, ParentClass expects two arguments (arg1 and arg2).
+#
+#
+# Python will raise a TypeError because you didn't provide all the arguments required by ParentClass's __init__ method.
 ```
