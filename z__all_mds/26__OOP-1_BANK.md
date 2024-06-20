@@ -574,3 +574,5 @@ This is important because the superclass might have its own attributes or initia
 > 🔴 In Python, when you use super() to call a method from the parent class (superclass), you must provide all the arguments that the parent class's method expects. **Unlike destructuring** in languages like JavaScript, where you can selectively pick properties from an object.
 
 #### ✋Python requires you to pass the exact number of arguments expected by the method being called via super(). 🔴
+
+- with the below code ou will get an error
