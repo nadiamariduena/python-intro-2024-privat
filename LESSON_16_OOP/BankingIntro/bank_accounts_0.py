@@ -92,7 +92,7 @@ class bank_account:
 
     # inherited data from the above class
     # child of the  "bank_account" in step 1
-    #
+    # this is a superclass
 
      # 🟠 step 8:  INTEREST REWARD
      # class method that is responsible for adding an amount including a 5% increase to self.balance

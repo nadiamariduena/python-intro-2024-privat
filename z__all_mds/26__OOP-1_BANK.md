@@ -371,7 +371,7 @@ Dave.transfer(400, Sara)
 
 ### 🟣 NEW class / interest Reward
 
-- this class will be responsible for adding 5% increase to the account
+- this class will be responsible for adding **5% increase** to the account
 
 - this class has the inherited data from the parent class `class bank_account`
 
@@ -403,6 +403,7 @@ class bank_account:
 # Account 'Jim' balance = $1105.00
 ```
 
+<br>
 <br>
 
 ```python
@@ -457,4 +458,28 @@ Jim.deposit(100)
 #
 # Transfer
 Jim.transfer(100, Dave)
+```
+
+<br>
+<br>
+
+### 🟣 NEW class / SavingsAccount
+
+- this class will be responsible for adding **5 dollar FEE** to the account
+
+```python
+
+  # 🟠step 10
+  # child of the superclass:   "InterestRewardsAccount" the one above
+  #
+  ##
+
+  # Savings ACCOUNT
+  # #(any withdrawal will have a 5 dollar FEE)
+
+    class SavingsAccount(InterestRewardsAccount):
+       def __init__(self, initialAmount, accountName):
+          super().__init__(initialAmount, accountName)
+          # new property self.fee
+          self.fee = 5 # 5 dollar fee for any withdrawal from this account
 ```
