@@ -576,3 +576,15 @@ This is important because the superclass might have its own attributes or initia
 #### ✋Python requires you to pass the exact number of arguments expected by the method being called via super(). 🔴
 
 - with the below code ou will get an error
+
+```python
+class ParentClass:
+    def __init__(self, arg1, arg2):
+        self.arg1 = arg1
+        self.arg2 = arg2
+
+class ChildClass(ParentClass):
+    def __init__(self, arg1):
+        super().__init__(arg1)  #  Incorrect usage
+
+```
