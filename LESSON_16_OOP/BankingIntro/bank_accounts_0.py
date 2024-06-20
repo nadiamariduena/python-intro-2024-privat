@@ -133,6 +133,9 @@ class InterestRewardsAccount(bank_account):
                #
                #
                self.balance = self.balance - (amount + self.fee)
+               #
+               # If the transaction is viable, subtracts the total amount (including fee) from the account's balance.
+               #
                print("\nWithdraw completed.")
                self.getBalance()
            except BalanceException as error:
