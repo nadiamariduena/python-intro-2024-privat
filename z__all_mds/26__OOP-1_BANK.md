@@ -615,7 +615,7 @@ Each line in this method serves a specific purpose related to **handling a withd
 
 ```python
 
-  # 🟠step 10
+ # 🟠step 10
   # child of the superclass:   "InterestRewardsAccount" the one above
   #
   ##
@@ -628,4 +628,26 @@ Each line in this method serves a specific purpose related to **handling a withd
           super().__init__(initialAmount, accountName)
           # new property self.fee
           self.fee = 5 # 5 dollar fee for any withdrawal from this account
+       def withdraw(self, amount):
+           try:
+               self.viableTransaction(amount + self.fee)
+
+               #Calls the method viableTransaction (line 33 , step 3) to check if the total transaction amount (including a fee) is viable (i.e., within limits or conditions set by the method).
+               #
+               #
+               self.balance = self.balance - (amount + self.fee)
+               #
+               # If the transaction is viable, subtracts the total amount (including fee) from the account's balance.
+               #
+               print("\nWithdraw completed.") # Prints a message confirming that the withdrawal process has been successfully completed.
+
+
+               self.getBalance()
+               #
+               # Calls getBalance() to retrieve and display the updated balance after the withdrawal.
+
+               # if a BalanceException is raised during the withdrawal attempt (e.g., insufficient funds), the program jumps to this line to handle the exception.
+           except BalanceException as error:
+               print(f"\nWithdraw interrupted: {error}")
+
 ```
