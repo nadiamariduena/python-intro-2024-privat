@@ -559,4 +559,10 @@ This is important because the superclass might have its own attributes or initia
 > ✋ It clarifies that when you create a **SavingsAccount**, you want the initialization process to also include the initialization steps defined in **InterestRewardsAccount**, ensuring a complete and consistent initialization procedure.
 
 <br>
-<br>
+
+#### 🌈 In summary, `__init__ and super()` are used in the `SavingsAccount` class to ensure that:
+
+- **The subclass** (`SavingsAccount`) can define its own initialization logic and attributes (initialAmount and accountName).
+
+- **The superclass's** (`InterestRewardsAccount`) initialization logic is also executed, maintaining the integrity of the object's state and behavior as defined by both classes in the inheritance hierarchy.
+  <br>
