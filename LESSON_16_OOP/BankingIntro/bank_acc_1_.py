@@ -70,3 +70,14 @@ Dave.transfer(400, Sara)
 # Account 'Sara' balance = $1400.00
 
 # Transfer COMPLETE!! ✅
+
+print("")
+print("--- INTEREST REWARD  ----")
+
+Jim = InterestRewardsAccount(1000, "Jim")
+
+Jim.getBalance()
+
+Jim.deposit(100)
+
+# RESULT
