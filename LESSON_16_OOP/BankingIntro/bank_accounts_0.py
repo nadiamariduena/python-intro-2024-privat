@@ -107,3 +107,13 @@ class InterestRewardsAccount(bank_account):
 
          # 🟠step 9 go to the bank_acc_1_.py , there create an new client with a new account
 
+  # 🟠step 10
+  # child
+  # Savings ACCOUNT
+  # #(any withdrawal will have a 5 dollar FEE)
+
+    class SavingsAccount(InterestRewardsAccount):
+       def __init__(self, initialAmount, accountName):
+          super().__init__(initialAmount, accountName)
+          # new property self.fee
+          self.fee = 5 # 5 dollar fee for any withdrawal from this account
