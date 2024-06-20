@@ -91,5 +91,9 @@ Jim.deposit(100)
 
 # Deposit COMPLETE 🎁
 
+# ---------
 #✋ the reward with the 5%
 # Account 'Jim' balance = $1105.00
+#
+# Transfer
+Jim.transfer(100, Dave)
