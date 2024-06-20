@@ -128,6 +128,10 @@ class InterestRewardsAccount(bank_account):
        def withdraw(self, amount):
            try:
                self.viableTransaction(amount + self.fee)
+
+               #Calls the method viableTransaction (line 33 , step 3) to check if the total transaction amount (including a fee) is viable (i.e., within limits or conditions set by the method).
+               #
+               #
                self.balance = self.balance - (amount + self.fee)
                print("\nWithdraw completed.")
                self.getBalance()
