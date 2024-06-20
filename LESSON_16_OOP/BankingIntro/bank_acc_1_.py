@@ -130,3 +130,25 @@ Blaze.transfer(10000, Sara)
 
 # Transfer interrupted ❌
 # Sorry, account 'Blaze' only has a balance of $1105.00
+
+# **------
+# But what of i only transfer 1000 to SARA
+# **------
+
+Blaze.transfer(1000, Sara)
+
+## result
+
+# *******
+
+# Beginning Transfer.. 🚀
+
+# Withdraw completed.
+
+# Account 'Blaze' balance = $100.00
+
+# Deposit complete.
+
+# Account 'Sara' balance = $2400.00
+
+# Transfer COMPLETE!! ✅
