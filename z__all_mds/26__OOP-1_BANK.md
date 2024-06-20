@@ -598,3 +598,10 @@ class ChildClass(ParentClass):
 #### Solution:
 
 To correctly call the parent class's **init** method from the child class, you need to pass both arg1 and arg2, even if ChildClass doesn't directly use arg2. This is how you should correct
+
+```python
+class ChildClass(ParentClass):
+    def __init__(self, arg1):
+        super().__init__(arg1, None)  # Pass None or some default value for arg2 if not used
+
+```
