@@ -534,5 +534,29 @@ class InterestRewardsAccount(bank_account):
 ### ✅ Yes, you're correct in understanding the relationship between the two classes and the use of **init** and super().
 
 <br>
+<br>
 
-> In object-oriented programming, when you have a subclass (like SavingsAccount) that inherits from a superclass (InterestRewardsAccount), here's how it works regarding initialization and attributes:
+> In object-oriented programming, when you have a **subclass** (like SavingsAccount) that inherits from a superclass (InterestRewardsAccount), here's how it works regarding initialization and attributes:
+
+**Inheritance:**
+
+✋ `SavingsAccount` **inherits all methods and attributes** from `InterestRewardsAccount`. This means SavingsAccount can use all methods defined in InterestRewardsAccount, including the deposit method that adds 5% interest.
+
+Inside SavingsAccount's `__init__` method, you call `super().__init__(initialAmount, accountName)`. This line does two things:
+
+- It calls the **init** method of the superclass (InterestRewardsAccount). This ensures that any initialization logic defined in InterestRewardsAccount is executed when creating an instance of SavingsAccount.
+
+- It passes initialAmount and accountName to the superclass's **init** method, allowing InterestRewardsAccount to initialize its own attributes if necessary.
+
+<br>
+
+### Why use super():
+
+By using `super().__init__(initialAmount, accountName)`, you explicitly invoke the initialization of the superclass (InterestRewardsAccount).
+
+This is important because the superclass might have its own attributes or initialization logic that should be executed when creating instances of both InterestRewardsAccount and its subclasses like SavingsAccount.
+
+> ✋ It clarifies that when you create a **SavingsAccount**, you want the initialization process to also include the initialization steps defined in **InterestRewardsAccount**, ensuring a complete and consistent initialization procedure.
+
+<br>
+<br>
