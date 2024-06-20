@@ -605,3 +605,25 @@ class ChildClass(ParentClass):
         super().__init__(arg1, None)  # Pass None or some default value for arg2 if not used
 
 ```
+
+<br>
+<br>
+
+### Lets continue
+
+```python
+
+  # 🟠step 10
+  # child of the superclass:   "InterestRewardsAccount" the one above
+  #
+  ##
+
+  # Savings ACCOUNT
+  # #(any withdrawal will have a 5 dollar FEE)
+
+    class SavingsAccount(InterestRewardsAccount):
+       def __init__(self, initialAmount, accountName):
+          super().__init__(initialAmount, accountName)
+          # new property self.fee
+          self.fee = 5 # 5 dollar fee for any withdrawal from this account
+```
