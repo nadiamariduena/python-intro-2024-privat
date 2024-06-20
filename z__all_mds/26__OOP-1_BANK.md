@@ -1,5 +1,7 @@
 ## 🟣 Banking example
 
+[Python OOP (Object-Oriented Programming) Project for Beginners](https://youtu.be/PMFd95RgIwE?si=DJrCGyhuZiXGvmfH)
+
  <br>
 
 ```python
