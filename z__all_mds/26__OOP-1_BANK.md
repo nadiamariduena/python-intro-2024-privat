@@ -365,3 +365,28 @@ Dave.transfer(400, Sara)
 - Deposit funds into the recipient's account.
 
 - Print a message confirming the successful completion of the transfer.
+
+<br>
+<br>
+
+### 🟣 NEW class / interest Reward
+
+- this class will be responsible for adding 5% increase to the account
+
+- this class has the inherited data from the parent class `class bank_account`
+
+```python
+ # 🟠 1 step
+ #parent class
+class bank_account:
+```
+
+<br>
+
+#### Below you will be passing the default data and you will add to this 2 arguments a 5 percent increase
+
+```python
+
+class bank_account:
+    def __init__(self, initialAmount, accountName):
+```
