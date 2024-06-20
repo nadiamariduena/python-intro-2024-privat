@@ -575,7 +575,9 @@ This is important because the superclass might have its own attributes or initia
 
 #### ✋Python requires you to pass the exact number of arguments expected by the method being called via super(). 🔴
 
-- with the below code ou will get an error
+<br>
+
+- **ERROR** with the below code ou will get an error
 
 ```python
 class ParentClass:
@@ -592,3 +594,7 @@ class ChildClass(ParentClass):
 #
 # Python will raise a TypeError because you didn't provide all the arguments required by ParentClass's __init__ method.
 ```
+
+#### Solution:
+
+To correctly call the parent class's **init** method from the child class, you need to pass both arg1 and arg2, even if ChildClass doesn't directly use arg2. This is how you should correct
