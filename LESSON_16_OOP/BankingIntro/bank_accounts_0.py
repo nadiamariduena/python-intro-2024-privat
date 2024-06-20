@@ -136,8 +136,14 @@ class InterestRewardsAccount(bank_account):
                #
                # If the transaction is viable, subtracts the total amount (including fee) from the account's balance.
                #
-               print("\nWithdraw completed.")
+               print("\nWithdraw completed.") # Prints a message confirming that the withdrawal process has been successfully completed.
+
+
                self.getBalance()
+               #
+               # Calls getBalance() to retrieve and display the updated balance after the withdrawal.
+
+               # if a BalanceException is raised during the withdrawal attempt (e.g., insufficient funds), the program jumps to this line to handle the exception.
            except BalanceException as error:
                print(f"\nWithdraw interrupted: {error}")
 
