@@ -566,3 +566,7 @@ This is important because the superclass might have its own attributes or initia
 
 - **The superclass's** (`InterestRewardsAccount`) initialization logic is also executed, maintaining the integrity of the object's state and behavior as defined by both classes in the inheritance hierarchy.
   <br>
+
+### 🔸 QUESTION: In other words, if I add only one of the arguments of the parent class within the super(), would I have some sort of behavior?
+
+### ✅ Yes, that's correct. When you use super() to call a method from the parent class (superclass), you need to pass all the required arguments that the parent class's method expects. ✋ If you omit any required arguments, Python will raise an 🔴error indicating that the method was called with missing arguments.
