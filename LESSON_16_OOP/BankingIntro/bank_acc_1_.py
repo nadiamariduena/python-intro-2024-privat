@@ -98,7 +98,7 @@ Jim.deposit(100)
 # Transfer
 Jim.transfer(100, Dave)
 
-#
+#-----------------------------
 #
 print("")
 print("--- Savings account  ----")
@@ -110,3 +110,23 @@ Blaze.getBalance()
 Blaze.deposit(100)
 
 Blaze.transfer(10000, Sara)
+
+# RESULT
+
+# --- Savings account  ----
+
+# Account 'Blaze' created.
+# Balance = $1000.00
+
+# Account 'Blaze' balance = $1000.00
+
+# Deposit COMPLETE 🎁
+
+# Account 'Blaze' balance = $1105.00
+
+# *******
+
+# Beginning Transfer.. 🚀
+
+# Transfer interrupted ❌
+# Sorry, account 'Blaze' only has a balance of $1105.00
