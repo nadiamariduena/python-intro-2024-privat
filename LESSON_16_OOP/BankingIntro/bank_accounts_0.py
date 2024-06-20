@@ -125,3 +125,7 @@ class InterestRewardsAccount(bank_account):
           super().__init__(initialAmount, accountName)
           # new property self.fee
           self.fee = 5 # 5 dollar fee for any withdrawal from this account
+       def withdraw(self, amount):
+           try:
+               self.viableTransaction(amount + self.fee)
+               self.balance = self.balance - (amount + self.fee)
