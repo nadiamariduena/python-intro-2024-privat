@@ -106,9 +106,16 @@ class InterestRewardsAccount(bank_account):
 
 
          # 🟠step 9 go to the bank_acc_1_.py , there create an new client with a new account
+  #
+  #
+  #
+  #
 
   # 🟠step 10
-  # child
+  # child of the superclass:   "InterestRewardsAccount" the one above
+  #
+  ##
+
   # Savings ACCOUNT
   # #(any withdrawal will have a 5 dollar FEE)
 
