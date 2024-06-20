@@ -131,4 +131,6 @@ class InterestRewardsAccount(bank_account):
                self.balance = self.balance - (amount + self.fee)
                print("\nWithdraw completed.")
                self.getBalance()
+           except BalanceException as error:
+               print(f"\nWithdraw interrupted: {error}")
 
