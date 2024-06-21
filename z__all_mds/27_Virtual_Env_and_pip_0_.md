@@ -87,3 +87,14 @@
 **Data Science:** Projects using different versions of libraries like NumPy, Pandas, or TensorFlow can be managed independently.
 
 **Testing:** Ensuring that tests run consistently across different environments by isolating dependencies.
+
+<br>
+<br>
+
+---
+
+<br>
+
+# 🟡 PIP
+
+PIP **(Python Package Installer)** is the standard package manager for Python. It is used to install and manage additional libraries and dependencies that are not part of the Python standard library. Here's a breakdown of its key aspects and its link to virtual environments:
