@@ -215,8 +215,12 @@ print(arr)
 <br>
 <br>
 
-#### 🟣 Question: Give me an example comparing the use of the matrices on python and threejs
+### 🟣 Question: Give me an example comparing the use of the matrices on python and [threejs](https://threejs.org/)
 
 #### chatgpt:
 
 Let's compare how matrices (or arrays) are used in Python (specifically with NumPy) and in Three.js (JavaScript) for creating and manipulating a grid-based game environment.
+
+### 🟢 Matrices in Python (NumPy)
+
+In Python, **NumPy** provides powerful tools for working with multi-dimensional arrays, often referred to as matrices. Here's how you might use NumPy arrays to represent and manipulate a grid-based game environment:
