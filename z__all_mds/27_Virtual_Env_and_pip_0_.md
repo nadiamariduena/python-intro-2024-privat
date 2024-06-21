@@ -393,3 +393,12 @@ function movePlayer(direction) {
 **Capabilities:** They facilitate the manipulation and positioning of 3D objects within a scene, including calculations for rendering perspectives, lighting effects, and animations.
 
 **Usage:** Essential in web-based 3D graphics applications, games, simulations, and visualizations where interactive 3D rendering is required.
+
+<br>
+<br>
+
+#### 🧁 Differences:
+
+**Context and Language:** NumPy arrays are used within Python for backend computations and data handling, while matrices in Three.js are employed within JavaScript for front-end graphics rendering and interaction.
+
+**Operations:** NumPy arrays focus on numerical computations and data operations, whereas Three.js matrices emphasize transformations and spatial positioning within a 3D environment.
