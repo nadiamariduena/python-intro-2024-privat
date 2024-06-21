@@ -368,3 +368,7 @@ function movePlayer(direction) {
   }
 }
 ```
+
+**Explanation:** In Three.js, player movement involves updating the position of the playerMesh object based on directional input ('up', 'down', 'left', 'right').
+
+- ✋ Collision detection checks if the new position (newPosition) is within the grid bounds and avoids obstacles `(!(gridX === 1 && gridZ === 1))`.
