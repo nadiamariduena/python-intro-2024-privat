@@ -130,6 +130,29 @@ datetime: #Basic date and time types.
 json: #JSON encoder and decoder.
 ```
 
+##### example SYS:
+
+- check the code here [LESSON_03_tuples/rps3_whileLoop.py](../LESSON_03_tuples/rps3_whileLoop.py)
+
+```python
+✋
+import sys
+# ------
+import random
+from enum import Enum
+
+class RPS(Enum):
+    ROCK = 1
+    PAPER = 2
+    SCISSORS = 3
+
+print("")
+
+sys.exit('Bye!')
+
+```
+
+<br>
 <br>
 
 #### Packages that Can Be Installed with PIP:
