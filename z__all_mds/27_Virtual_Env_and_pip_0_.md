@@ -258,3 +258,33 @@ Initial Game Map (5x5):
 - The grid represents a **5x5** game map initialized with zeros (0).
 
 - 🔥 Obstacles are placed at positions `(1, 1)` and `(2, 3)`, represented by `1`.
+
+<br>
+
+#### Player Movement and Collision Detection:
+
+```python
+player_position = (2, 2)  # Player starts at position (2, 2)
+
+# Example: Move the player up (subtract 1 from row index)
+new_position = (player_position[0] - 1, player_position[1])
+
+# Check if the new position is within bounds and not obstructed
+if (0 <= new_position[0] < map_size[0] and
+    0 <= new_position[1] < map_size[1] and
+    game_map[new_position] != 1):  # Check if it's not an obstacle
+    player_position = new_position
+
+#
+#
+#Explanation: NumPy arrays allow efficient indexing and slicing (game_map[new_position]) for checking boundaries and conditions (e.g., obstacle presence) before allowing player movement.
+```
+
+<br>
+<br>
+
+### 🟢 Matrices in Three.js (JavaScript)
+
+In **Three.js**, objects in a 3D scene are represented using matrices and vectors. While **not directly analogous to NumPy** arrays **( ✋ they serve different purposes and have different implementations despite both being data structures represented as matrices)**, matrices in Three.js play a crucial role in positioning and transforming objects within a 3D space:
+
+Creating a Grid Map:
