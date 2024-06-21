@@ -288,3 +288,41 @@ if (0 <= new_position[0] < map_size[0] and
 In **Three.js**, objects in a 3D scene are represented using matrices and vectors. While **not directly analogous to NumPy** arrays **( ✋ they serve different purposes and have different implementations despite both being data structures represented as matrices)**, matrices in Three.js play a crucial role in positioning and transforming objects within a 3D space:
 
 Creating a Grid Map:
+
+```javascript
+var mapSize = 5;
+var tileSize = 10;
+var gameMap = [];
+
+// Create tiles for the map
+for (var i = 0; i < mapSize; i++) {
+  gameMap[i] = [];
+  for (var j = 0; j < mapSize; j++) {
+    var tileGeometry = new THREE.BoxGeometry(tileSize, 1, tileSize);
+    var tileMaterial = new THREE.MeshBasicMaterial({ color: 0x00ff00 }); // Green color for tiles
+    var tileMesh = new THREE.Mesh(tileGeometry, tileMaterial);
+    tileMesh.position.set(i * tileSize, 0, j * tileSize);
+    scene.add(tileMesh);
+
+    // ✋ Example: Place obstacles
+    if (i === 1 && j === 1) {
+      // the box obstacle
+      var obstacleGeometry = new THREE.BoxGeometry(tileSize, 2, tileSize);
+      // the mat of the box obstacle
+      var obstacleMaterial = new THREE.MeshBasicMaterial({ color: 0xff0000 }); // Red color for obstacles
+      //
+      //
+      var obstacleMesh = new THREE.Mesh(obstacleGeometry, obstacleMaterial);
+      //
+      obstacleMesh.position.set(i * tileSize, 1, j * tileSize);
+      scene.add(obstacleMesh);
+    }
+
+    gameMap[i][j] = { type: "tile", mesh: tileMesh };
+  }
+}
+```
+
+**Explanation:** In Three.js, each object (like tiles and obstacles) is represented by a THREE.Mesh object with its own geometry (shape) and material (color).
+
+- 🔴 The position of each object is set using position.set, calculated based on the grid indices (i and j) and tile size (tileSize).
