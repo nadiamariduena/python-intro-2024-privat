@@ -42,3 +42,8 @@
 ### So, when you create a virtual environment for a program, it's like giving that program its own special box 🎪 where it can have its tools and play without disturbing other programs.
 
 > This helps keep everything organized and makes sure each program has exactly what it needs to work properly.
+
+<br>
+<br>
+
+## 🟠 Here are the key aspects of a virtual environment:
