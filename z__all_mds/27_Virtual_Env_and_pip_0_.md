@@ -211,3 +211,12 @@ print(arr)
 <br>
 
 [arrays.ndarray](https://numpy.org/doc/stable/reference/arrays.ndarray.html)
+
+<br>
+<br>
+
+#### 🟣 Question: Give me an example comparing the use of the matrices on python and threejs
+
+#### chatgpt:
+
+Let's compare how matrices (or arrays) are used in Python (specifically with NumPy) and in Three.js (JavaScript) for creating and manipulating a grid-based game environment.
