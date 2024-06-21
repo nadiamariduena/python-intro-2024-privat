@@ -241,10 +241,11 @@ game_map[2, 3] = 1  # Put another obstacle at position (2, 3)
 
 **Explanation:** Here, `np.zeros` creates a 5x5 array filled with zeros (dtype=int specifies integer type). Obstacles are represented by setting specific elements ([1, 1] and [2, 3]) to 1.
 
-> Let's visualize the grid-based game map using NumPy arrays, where obstacles are represented by 1 and empty spaces by 0. Here's a simple diagram to illustrate the game map after placing obstacles:
+> ✋ Let's visualize the grid-based game map using NumPy arrays, where obstacles are represented by 1 and empty spaces by 0. Here's a simple diagram to illustrate the game map after placing obstacles:
 
 ```python
 Initial Game Map (5x5):
+# 5 col and 5 row
 
   0 0 0 0 0
   0 1 0 0 0
@@ -253,3 +254,7 @@ Initial Game Map (5x5):
   0 0 0 0 0
 
 ```
+
+- The grid represents a **5x5** game map initialized with zeros (0).
+
+- 🔥 Obstacles are placed at positions `(1, 1)` and `(2, 3)`, represented by `1`.
