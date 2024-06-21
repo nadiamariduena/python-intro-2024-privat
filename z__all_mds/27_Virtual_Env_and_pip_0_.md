@@ -129,3 +129,22 @@ os: #Operating system interfaces.
 datetime: #Basic date and time types.
 json: #JSON encoder and decoder.
 ```
+
+<br>
+
+#### Packages that Can Be Installed with PIP:
+
+**Third-Party Packages:** These are not included with Python by default but can be easily installed using PIP from repositories like PyPI (Python Package Index). Some examples include:
+
+```python
+Requests: # HTTP library for making requests and working with APIs.
+NumPy: # Fundamental package for numerical computing with arrays.
+Pandas: # Data manipulation and analysis library.
+Matplotlib: # Plotting library for creating static, animated, and interactive visualizations.
+Django: # Web framework for building web applications.
+Flask: # Lightweight web framework for building web applications.
+TensorFlow: # Machine learning framework for building and training models.
+Pytorch: # Deep learning framework for building and training neural networks.
+SQLAlchemy: # SQL toolkit and Object-Relational Mapping (ORM) library for Python.
+Beautiful Soup: # Library for parsing HTML and XML documents.
+```
