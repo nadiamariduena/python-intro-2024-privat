@@ -102,3 +102,5 @@ PIP **(Python Package Installer)** is the standard package manager for Python. I
 - **Package Installation:** PIP is primarily used to install packages from the Python Package Index (PyPI) and other package indexes.
 
 - **Package Management:** It helps in managing Python package dependencies for your projects.
+
+- **Version Management:** PIP allows you to install specific versions of packages, ensuring compatibility with your code.
