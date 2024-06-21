@@ -174,10 +174,18 @@ Beautiful Soup: # Library for parsing HTML and XML documents.
 
 <br>
 
-### NumPy:
+### 🥧 NumPy:
 
 #### question: What is the numpy and what is the difference to not using it?
 
 ##### chatgpt:
 
-- NumPy (Numerical Python) is a fundamental package for numerical computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays efficiently. Here’s an overview of what NumPy offers and how it differs from not using it:
+- NumPy (Numerical Python) is a fundamental package for numerical computing in Python.
+
+🔸It provides support for large, multi-dimensional **arrays and matrices**, along with a collection of mathematical functions to operate on these arrays efficiently.
+
+> Here’s an overview of what NumPy offers and how it differs from not using it:
+
+### What NumPy Provides:
+
+**Multi-dimensional Arrays:** NumPy introduces the ndarray (N-dimensional array) object, which allows you to work with arrays of any dimensionality (1D, 2D, 3D, etc.).
