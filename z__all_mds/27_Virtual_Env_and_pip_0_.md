@@ -61,3 +61,20 @@
 - 🔴 **Creation:** Virtual environments can be created using tools like venv (built-in to Python 3) [check this example: min 5:57 | Python Virtual Environment and pip for Beginners](https://youtu.be/eDe-z2Qy9x4?si=9Bw0tjgyRDIGM58M&t=357), virtualenv, or conda (for Anaconda environments).
 
 - 🔴 **Activation:** To use a virtual environment, you need to activate it [check this example: min 6:31 | Python Virtual Environment and pip for Beginners](https://youtu.be/eDe-z2Qy9x4?si=6zHr3HrlvnZigJQF&t=391) . This modifies the shell's environment variables to point to the virtual environment's Python executable and libraries.
+
+<br>
+<br>
+
+## 🟠 Why Use Virtual Environments?
+
+<br>
+
+- **Dependency Isolation:** Prevents conflicts between packages required by different projects.
+
+- **Version Control:** Ensures each project uses the correct version of Python and dependencies. [check this example: min 2:46 | Python Virtual Environment and pip for Beginners](https://youtu.be/eDe-z2Qy9x4?si=0snCQ5so_seXpY9S&t=168)
+
+- **Reproducibility:** Makes it easier to replicate the development environment on different machines.
+
+- **Cleanliness:** Keeps your system-wide Python installation clean and avoids cluttering it with project-specific packages.
+
+<br>
