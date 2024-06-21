@@ -117,3 +117,15 @@ PIP **(Python Package Installer)** is the standard package manager for Python. I
 Virtual environments are isolated environments for Python projects, allowing you to install packages independently of those installed globally on your system.
 
 #### Here's a short list of Python packages (that Come Already Installed OR Packages that Can Be Installed with PIP):
+
+<br>
+
+> **Built-in Modules:** Python comes with a set of built-in modules that are available without needing to install anything extra. Some examples include:
+
+```python
+math: #Mathematical functions.
+sys: # System-specific parameters and functions.
+os: #Operating system interfaces.
+datetime: #Basic date and time types.
+json: #JSON encoder and decoder.
+```
