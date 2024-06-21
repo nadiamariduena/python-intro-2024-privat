@@ -106,3 +106,5 @@ PIP **(Python Package Installer)** is the standard package manager for Python. I
 - **Version Management:** PIP allows you to install specific versions of packages, ensuring compatibility with your code.
 
 - **Upgrading Packages:** It provides commands to upgrade packages to their latest versions.
+
+- **Uninstallation:** PIP can uninstall packages that are no longer needed.
