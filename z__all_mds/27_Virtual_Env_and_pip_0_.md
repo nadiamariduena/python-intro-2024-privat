@@ -336,6 +336,7 @@ playerMesh.position.set(tileSize * 2, 1, tileSize * 2); // Starting position
 function movePlayer(direction) {
   var newPosition = playerMesh.position.clone();
   switch (direction) {
+    // KEYBOARD
     case "up":
       newPosition.z -= tileSize;
       break;
