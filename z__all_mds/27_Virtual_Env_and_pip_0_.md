@@ -224,3 +224,32 @@ Let's compare how matrices (or arrays) are used in Python (specifically with Num
 ### 🟢 Matrices in Python (NumPy)
 
 In Python, **NumPy** provides powerful tools for working with multi-dimensional arrays, often referred to as matrices. Here's how you might use NumPy arrays to represent and manipulate a grid-based game environment:
+
+#### Creating a Grid Map:
+
+```python
+import numpy as np
+
+map_size = (5, 5)
+game_map = np.zeros(map_size, dtype=int)  # Initialize a 5x5 grid map filled with zeros
+
+# Example: Place obstacles
+game_map[1, 1] = 1  # Put an obstacle at position (1, 1)
+game_map[2, 3] = 1  # Put another obstacle at position (2, 3)
+
+```
+
+**Explanation:** Here, `np.zeros` creates a 5x5 array filled with zeros (dtype=int specifies integer type). Obstacles are represented by setting specific elements ([1, 1] and [2, 3]) to 1.
+
+> Let's visualize the grid-based game map using NumPy arrays, where obstacles are represented by 1 and empty spaces by 0. Here's a simple diagram to illustrate the game map after placing obstacles:
+
+```python
+Initial Game Map (5x5):
+
+  0 0 0 0 0
+  0 1 0 0 0
+  0 0 0 1 0
+  0 0 0 0 0
+  0 0 0 0 0
+
+```
