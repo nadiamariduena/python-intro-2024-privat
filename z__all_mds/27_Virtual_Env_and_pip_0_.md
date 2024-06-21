@@ -171,3 +171,13 @@ Pytorch: # Deep learning framework for building and training neural networks.
 SQLAlchemy: # SQL toolkit and Object-Relational Mapping (ORM) library for Python.
 Beautiful Soup: # Library for parsing HTML and XML documents.
 ```
+
+<br>
+
+### NumPy:
+
+#### question: What is the numpy and what is the difference to not using it?
+
+##### chatgpt:
+
+- NumPy (Numerical Python) is a fundamental package for numerical computing in Python
