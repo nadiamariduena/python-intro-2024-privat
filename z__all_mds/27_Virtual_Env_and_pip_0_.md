@@ -46,7 +46,7 @@
 <br>
 <br>
 
-## 🟠 Here are the key aspects of a virtual environment:
+### 🟠 Here are the key aspects of a virtual environment:
 
 <br>
 
@@ -65,7 +65,7 @@
 <br>
 <br>
 
-## 🟠 Why Use Virtual Environments?
+### 🟠 Why Use Virtual Environments?
 
 <br>
 
@@ -108,3 +108,12 @@ PIP **(Python Package Installer)** is the standard package manager for Python. I
 - **Upgrading Packages:** It provides commands to upgrade packages to their latest versions.
 
 - **Uninstallation:** PIP can uninstall packages that are no longer needed.
+
+<br>
+<br>
+
+### 🟠 Virtual Environments and PIP:
+
+Virtual environments are isolated environments for Python projects, allowing you to install packages independently of those installed globally on your system.
+
+#### Here's a short list of Python packages (that Come Already Installed OR Packages that Can Be Installed with PIP):
