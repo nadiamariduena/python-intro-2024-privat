@@ -47,3 +47,7 @@
 <br>
 
 ## 🟠 Here are the key aspects of a virtual environment:
+
+<br>
+
+- **Isolation:** Each virtual environment is independent of others and of the system-wide Python installation. This means **you can have different versions of Python** <u>and</u> **different packages installed in different virtual environments** without them conflicting.
