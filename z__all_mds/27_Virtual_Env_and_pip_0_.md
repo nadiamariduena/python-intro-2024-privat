@@ -180,7 +180,7 @@ Beautiful Soup: # Library for parsing HTML and XML documents.
 
 ##### chatgpt:
 
-- NumPy (Numerical Python) is a fundamental package for numerical computing in Python.
+🔸NumPy (Numerical Python) is a fundamental package for numerical computing in Python.
 
 🔸It provides support for large, multi-dimensional **arrays and matrices**, along with a collection of mathematical functions to operate on these arrays efficiently.
 
@@ -189,3 +189,22 @@ Beautiful Soup: # Library for parsing HTML and XML documents.
 ### What NumPy Provides:
 
 **Multi-dimensional Arrays:** NumPy introduces the ndarray (N-dimensional array) object, which allows you to work with arrays of any dimensionality (1D, 2D, 3D, etc.).
+
+[multi-dimensional-arrays-in-python/](https://www.freecodecamp.org/news/multi-dimensional-arrays-in-python/)
+
+```python
+import numpy as np
+
+# Create a 2-dimensional array with 3 rows and 4 columns
+arr = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
+
+# Print the array
+print(arr)
+#
+#
+# OUTPUT
+```
+
+<br>
+
+[arrays.ndarray](https://numpy.org/doc/stable/reference/arrays.ndarray.html)
