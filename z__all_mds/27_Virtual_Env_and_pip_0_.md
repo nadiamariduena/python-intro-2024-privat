@@ -326,3 +326,44 @@ for (var i = 0; i < mapSize; i++) {
 **Explanation:** In Three.js, each object (like tiles and obstacles) is represented by a THREE.Mesh object with its own geometry (shape) and material (color).
 
 - 🔴 The position of each object is set using position.set, calculated based on the grid indices (i and j) and tile size (tileSize).
+
+#### Player Movement and Collision Detection:
+
+```javascript
+var playerMesh = new THREE.Mesh(playerGeometry, playerMaterial);
+playerMesh.position.set(tileSize * 2, 1, tileSize * 2); // Starting position
+
+function movePlayer(direction) {
+  var newPosition = playerMesh.position.clone();
+  switch (direction) {
+    case "up":
+      newPosition.z -= tileSize;
+      break;
+    case "down":
+      newPosition.z += tileSize;
+      break;
+    case "left":
+      newPosition.x -= tileSize;
+      break;
+    case "right":
+      newPosition.x += tileSize;
+      break;
+    default:
+      return;
+  }
+
+  // Check if the new position is within bounds and not obstructed
+  var gridX = Math.floor(newPosition.x / tileSize);
+  var gridZ = Math.floor(newPosition.z / tileSize);
+  if (
+    gridX >= 0 &&
+    gridX < mapSize &&
+    gridZ >= 0 &&
+    gridZ < mapSize &&
+    !(gridX === 1 && gridZ === 1)
+  ) {
+    // Check if it's not an obstacle
+    playerMesh.position.copy(newPosition);
+  }
+}
+```
