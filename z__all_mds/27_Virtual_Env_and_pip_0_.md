@@ -71,7 +71,7 @@
 
 - **Dependency Isolation:** Prevents conflicts between packages required by different projects.
 
-- **Version Control:** Ensures each project uses the correct version of Python and dependencies. [check this example: min 2:46 | Python Virtual Environment and pip for Beginners](https://youtu.be/eDe-z2Qy9x4?si=0snCQ5so_seXpY9S&t=168)
+- **Version Control:** Ensures each project uses the correct version of Python and dependencies. [check this example: min 2:46 | Python Virtual Environment and pip for Beginners](https://youtu.be/eDe-z2Qy9x4?feature=shared&t=166)
 
 - **Reproducibility:** Makes it easier to replicate the development environment on different machines.
 
