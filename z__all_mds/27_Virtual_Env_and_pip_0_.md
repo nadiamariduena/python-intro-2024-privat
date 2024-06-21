@@ -180,4 +180,4 @@ Beautiful Soup: # Library for parsing HTML and XML documents.
 
 ##### chatgpt:
 
-- NumPy (Numerical Python) is a fundamental package for numerical computing in Python
+- NumPy (Numerical Python) is a fundamental package for numerical computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays efficiently. Here’s an overview of what NumPy offers and how it differs from not using it:
