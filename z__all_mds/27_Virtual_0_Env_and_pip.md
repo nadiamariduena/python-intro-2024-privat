@@ -266,7 +266,7 @@ ModuleNotFoundError: No module named 'distutils.cmd' // 🔴 not good
 
 ## 🟠 If that failed, then try this:
 
-- Install pip using apt (if available)
+- **1)** Install pip using apt (if available)
 
 - If **apt** is giving you trouble, you might try installing pip via the Ubuntu package manager directly, although this method may not always yield the most recent version of pip: `sudo apt install python3-pip`
 
@@ -281,4 +281,23 @@ is only available from another source
 
 E: Package 'python3-pip' has no installation candidate
 // 🔴 NOT GOOD
+```
+
+- **2)** Type this `sudo apt update` to update everything (just to be sure)
+
+```javascript
+// output
+// ...
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+21 packages can be upgraded. Run 'apt list --upgradable' to see them.
+```
+
+<br>
+
+- **3)** ✋ Since this is the module `'distutils.cmd'` that is causing the issue, i will install it:
+
+```javascript
+sudo apt install python3-distutils
 ```
