@@ -13,3 +13,7 @@ cat /etc/apt/sources.list
 ls -l /etc/apt/sources.list.d/
 
 ```
+
+- output: lots of data about the ubuntu version i have
+
+> ✋ **chatgpt**: It appears that your current sources **list** is primarily configured for Ubuntu 18.04 (Bionic Beaver) with some references to focal (Ubuntu 20.04) repositories. 🔴 **This mix might be causing issues with package availability, including python3-venv**.
