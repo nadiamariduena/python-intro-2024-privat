@@ -19,3 +19,9 @@
 nano ~/.bashrc
 
 ```
+
+#### 2. 🔶 Add the following line at the end of the file:
+
+```javascript
+export PATH="$HOME/.local/bin:$PATH"
+```
