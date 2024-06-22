@@ -27,3 +27,9 @@ export PATH="$HOME/.local/bin:$PATH"
 ```
 
 #### 3. Save and close the file ✋ (in Nano, press `Ctrl + X, then Y, then Enter`).
+
+#### 4. After saving the file, apply the changes by running:
+
+```javascript
+source ~/.bashrc
+```
