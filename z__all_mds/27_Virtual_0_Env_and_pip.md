@@ -441,5 +441,10 @@ requests               2.22.0 ✋
 // for me: python -m pip install requests==2.30.0
 py -m pip install requests==2.30.0
 // OUTPUT
-
+  WARNING: The script normalizer is installed in '/home/myComp/.local/bin' which is not on PATH. // 🔴 i will be solving this later
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  // 🌈 success!!
+Successfully installed charset-normalizer-3.3.2 requests-2.30.0
 ```
+
+### Verify the changes
