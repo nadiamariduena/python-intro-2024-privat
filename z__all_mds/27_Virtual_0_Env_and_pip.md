@@ -438,5 +438,8 @@ requests               2.22.0 ✋
 - But i could change it to something else, example:
 
 ```javascript
+// for me: python -m pip install requests==2.30.0
+py -m pip install requests==2.30.0
+// OUTPUT
 
 ```
