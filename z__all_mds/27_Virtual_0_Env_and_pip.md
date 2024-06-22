@@ -260,3 +260,8 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'distutils.cmd' // 🔴 not good
 
 ```
+
+<br>
+<br>
+
+## 🟠 If that failed, then try this:
