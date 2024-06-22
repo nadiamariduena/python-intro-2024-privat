@@ -545,6 +545,7 @@ requests               2.30.0 // ✅ it works!
 - this command below is going to update the package to the currect release
 
 ```javascript
+// -U for update
 // in my machine: python -m pip install -U requests
 py -m pip install -U requests
 ```
@@ -553,4 +554,16 @@ py -m pip install -U requests
 
 ```javascript
 requests               2.32.3 // ✋ different to what i had before, the first change
+```
+
+<br>
+
+#### Uninstall
+
+- If you want to uninstall and repeat the whole process:
+
+```javascript
+// -U for update
+// in my machine: python -m pip uninstall requests
+py -m pip uninstall requests
 ```
