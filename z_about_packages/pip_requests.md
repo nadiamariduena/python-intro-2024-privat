@@ -19,3 +19,17 @@
 **Custom Headers:** You can add custom headers to your requests, which is essential for accessing APIs that require specific headers for authentication or content negotiation.
 
 **File Uploads:** requests supports sending multipart-encoded files and forms, making it straightforward to upload files to a server.
+
+<br>
+<br>
+
+### Installing requests package:
+
+- To install requests using pip, you can run the following command in your terminal or command prompt:
+
+```python
+pip install requests
+
+```
+
+[check min 1:06 | Python Virtual Environment and pip for Beginners](https://youtu.be/eDe-z2Qy9x4?si=0ZgSXXbikNMUbvll&t=66)
