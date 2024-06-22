@@ -265,3 +265,17 @@ ModuleNotFoundError: No module named 'distutils.cmd' // 🔴 not good
 <br>
 
 ## 🟠 If that failed, then try this:
+
+- Install pip using apt (if available)
+
+- If **apt** is giving you trouble, you might try installing pip via the Ubuntu package manager directly, although this method may not always yield the most recent version of pip: `sudo apt install python3-pip`
+
+````javascript
+// OUTPUT
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+Package python3-pip is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source``` // 🔴 NOT GOOD
+````
