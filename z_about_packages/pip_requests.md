@@ -7,3 +7,5 @@
 ### 🟠 Purpose of requests package:
 
 - **Simplified HTTP Requests:** requests allows you to send HTTP requests with minimal code. It abstracts the complexities of making HTTP requests and handling responses.
+
+**HTTP Methods Support:** It supports various HTTP methods such as ✋ <u>GET, POST, PUT, DELETE, HEAD, and OPTIONS</u> , making it versatile for interacting with web services and APIs.
