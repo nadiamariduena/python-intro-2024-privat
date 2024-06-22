@@ -223,4 +223,40 @@ get-pip.py          100%[===================>]   2,17M  3,11MB/s    in 0,7s
 // ✋ this seems okay
 ```
 
-####
+<br>
+
+### 2. type this: `python3 get-pip.py`
+
+##### output
+
+```javascript
+Traceback (most recent call last):
+  File "get-pip.py", line 28541, in <module>
+    main()
+  File "get-pip.py", line 135, in main
+    bootstrap(tmpdir=tmpdir)
+  File "get-pip.py", line 111, in bootstrap
+    monkeypatch_for_cert(tmpdir)
+  File "get-pip.py", line 92, in monkeypatch_for_cert
+    from pip._internal.commands.install import InstallCommand
+  File "<frozen zipimport>", line 259, in load_module
+  File "/tmp/tmp895wfcyr/pip.zip/pip/_internal/commands/__init__.py", line 9, in <module>
+  File "<frozen zipimport>", line 259, in load_module
+  File "/tmp/tmp895wfcyr/pip.zip/pip/_internal/cli/base_command.py", line 15, in <module>
+  File "<frozen zipimport>", line 259, in load_module
+  File "/tmp/tmp895wfcyr/pip.zip/pip/_internal/cli/cmdoptions.py", line 24, in <module>
+  File "<frozen zipimport>", line 259, in load_module
+  File "/tmp/tmp895wfcyr/pip.zip/pip/_internal/cli/parser.py", line 12, in <module>
+  File "<frozen zipimport>", line 259, in load_module
+  File "/tmp/tmp895wfcyr/pip.zip/pip/_internal/configuration.py", line 26, in <module>
+  File "<frozen zipimport>", line 259, in load_module
+  File "/tmp/tmp895wfcyr/pip.zip/pip/_internal/utils/logging.py", line 29, in <module>
+  File "<frozen zipimport>", line 259, in load_module
+  File "/tmp/tmp895wfcyr/pip.zip/pip/_internal/utils/misc.py", line 43, in <module>
+  File "<frozen zipimport>", line 259, in load_module
+  File "/tmp/tmp895wfcyr/pip.zip/pip/_internal/locations/__init__.py", line 66, in <module>
+  File "<frozen zipimport>", line 259, in load_module
+  File "/tmp/tmp895wfcyr/pip.zip/pip/_internal/locations/_distutils.py", line 20, in <module>
+ModuleNotFoundError: No module named 'distutils.cmd' // 🔴 not good
+
+```
