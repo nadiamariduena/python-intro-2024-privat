@@ -314,3 +314,32 @@ Unpacking python3-distutils (3.8.10-0ubuntu1~20.04) ...
 Setting up python3-distutils (3.8.10-0ubuntu1~20.04) ...
 
 ```
+
+<br>
+<br>
+
+### TYpe this again:
+
+- 1 `wget https://bootstrap.pypa.io/get-pip.py`
+
+- 2 then this `python3 get-pip.py`
+
+```javascript
+// output of step 2
+Successfully installed pip-24.1 setuptools-70.1.0 wheel-0.43.0
+```
+
+<br>
+<br>
+
+### 🌈 Now TRY to install the `requests` again, type the following: `python -m pip install requests`
+
+```javascript
+ // OUTPUT
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: requests in /usr/lib/python3/dist-packages (2.22.0)
+```
+
+<br>
+
+### then check if you get the LIST (as that is what i want to obtain), type this to verify the whole process worked: `python -m pip list`
