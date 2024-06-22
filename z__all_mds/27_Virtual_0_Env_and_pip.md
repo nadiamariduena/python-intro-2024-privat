@@ -183,3 +183,5 @@ Beautiful Soup: # Library for parsing HTML and XML documents.
 ### 🟡 Installing packages using PIP
 
 - open the terminal, type: `pip install requests`
+
+> The **requests** package in Python is a powerful tool used for making HTTP requests from your Python code. Here’s more detail on its purpose and some key features:
