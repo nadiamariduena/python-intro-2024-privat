@@ -11,3 +11,5 @@
 ```
 
 ### So i decided to add what was missing
+
+#### 1. 🔶 Open your shell configuration file `(~/.bashrc for Bash or ~/.zshrc for Zsh)` in a text editor <u>ubuntu terminal etc...</u>. For example:
