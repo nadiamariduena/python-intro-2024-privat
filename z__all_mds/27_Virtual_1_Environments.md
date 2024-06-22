@@ -5,3 +5,11 @@
 🔸 So how can you provide 2 VERSIONS of the same module?
 
 - 🔴 Remember, when you use pip to install updates, it affects all Python programs on your computer. For example, if you update a module like requests using pip, every Python program that uses requests will now use the updated version.
+
+<br>
+
+### 🟡 Using VIRTUAL environments to prevent this
+
+##### chatgpt
+
+✋ One solution to manage different versions of Python modules for different applications is to use virtual environments. Here’s how it works:
