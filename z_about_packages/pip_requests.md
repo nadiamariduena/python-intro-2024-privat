@@ -9,3 +9,13 @@
 - **Simplified HTTP Requests:** requests allows you to send HTTP requests with minimal code. It abstracts the complexities of making HTTP requests and handling responses.
 
 **HTTP Methods Support:** It supports various HTTP methods such as ✋ <u>GET, POST, PUT, DELETE, HEAD, and OPTIONS</u> , making it versatile for interacting with web services and APIs.
+
+**Response Handling:** requests makes it easy to handle the HTTP response, including status codes, headers, cookies, and content (JSON, HTML, XML, etc.).
+
+**Session Handling:** It supports sessions, allowing you to persist certain parameters across requests ( 🔴 like cookies), which is useful for maintaining a logged-in session across multiple requests.
+
+**Authentication:** It provides built-in support for basic authentication, digest authentication, and OAuth.
+
+**Custom Headers:** You can add custom headers to your requests, which is essential for accessing APIs that require specific headers for authentication or content negotiation.
+
+**File Uploads:** requests supports sending multipart-encoded files and forms, making it straightforward to upload files to a server.
