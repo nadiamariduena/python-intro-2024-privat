@@ -301,3 +301,16 @@ Reading state information... Done
 ```javascript
 sudo apt install python3-distutils
 ```
+
+#### once installed
+
+- read the last 5 lines, if there is nothing wrong (like missing package etc...) then it worked!, i go this:
+
+```javascript
+Selecting previously unselected package python3-distutils.
+(Reading database ... 226770 files and directories currently installed.)
+Preparing to unpack .../python3-distutils_3.8.10-0ubuntu1~20.04_all.deb ...
+Unpacking python3-distutils (3.8.10-0ubuntu1~20.04) ...
+Setting up python3-distutils (3.8.10-0ubuntu1~20.04) ...
+
+```
