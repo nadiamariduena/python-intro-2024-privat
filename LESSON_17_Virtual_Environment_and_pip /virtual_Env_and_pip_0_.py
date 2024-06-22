@@ -1,1 +1,0 @@
-# Virtual Environment and pip
