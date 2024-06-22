@@ -66,6 +66,8 @@ version = 3.8.10
 
 <br>
 
+#### Description:
+
 ```javascript
 // home = /usr/bin:
 
@@ -87,3 +89,11 @@ version = 3.8.10
 ```
 
 <br>
+
+### 🟠 Purpose of `pyvenv.cfg`:
+
+<br>
+
+**Configuration:** `pyvenv.cfg` provides essential configuration details for the virtual environment, such as the Python interpreter path and version. These settings ensure that when you activate the virtual environment, it uses the correct Python interpreter and maintains isolation from the global Python environment.
+
+**Isolation:** By specifying `include-system-site-packages = false`, the virtual environment **ensures** that <u>only packages installed within the virtual environment are accessible to Python scripts executed within that environment.</u> This isolation prevents conflicts and allows different applications to use different versions of packages without interference.
