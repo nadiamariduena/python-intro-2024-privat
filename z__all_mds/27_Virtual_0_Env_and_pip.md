@@ -404,7 +404,7 @@ pytz                   2019.3
 pyxdg                  0.26
 PyYAML                 5.3.1
 reportlab              3.5.34
-requests               2.22.0
+requests               2.22.0 ✋
 requests-unixsocket    0.2.0
 SecretStorage          2.3.1
 setuptools             70.1.0
@@ -421,4 +421,22 @@ usb-creator            0.3.7
 wadllib                1.3.3
 wheel                  0.43.0
 xkit                   0.0.0
+```
+
+### You can also install a specific Version of a packet:
+
+[2:47 | Python Virtual Environment and pip for Beginners](https://youtu.be/eDe-z2Qy9x4?si=LT-ynKPd_9Yfkueb&t=167)
+
+<br>
+
+- Currently i have the: `2.22.0` version fo the **requests**
+
+```javascript
+requests               2.22.0 ✋
+```
+
+- But i could change it to something else, example:
+
+```javascript
+
 ```
