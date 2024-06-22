@@ -191,5 +191,14 @@ Beautiful Soup: # Library for parsing HTML and XML documents.
 - Normally the following command would suffice to install the package on your project but if it doesn't work, you have a couple of options
 
 ```javascript
+// option 1
 pip install requests
+// option 2
+python -m pip install requests
 ```
+
+<br>
+
+### 🔴 but if you get the following errors:
+
+`/usr/bin/python: No module named pip`
