@@ -173,3 +173,13 @@ Beautiful Soup: # Library for parsing HTML and XML documents.
 ```
 
 ### 👾 check the numpy examples here [27_Virtual_1_numpy](27_Virtual_1_numpy_.md)
+
+<br>
+
+---
+
+<br>
+
+### 🟡 Installing packages using PIP
+
+- open the terminal, type: `pip install requests`
