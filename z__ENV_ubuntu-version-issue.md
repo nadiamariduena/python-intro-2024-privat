@@ -5,3 +5,11 @@
 #### So i checked the source LIST
 
 check your `/etc/apt/sources.list` and `/etc/apt/sources.list.d/` **directory** to ensure they contain the correct repositories for your Ubuntu version. Here’s how you can examine them:
+
+```javascript
+// type first this:
+cat /etc/apt/sources.list
+// and then this:
+ls -l /etc/apt/sources.list.d/
+
+```
