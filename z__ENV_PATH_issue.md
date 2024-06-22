@@ -33,3 +33,13 @@ export PATH="$HOME/.local/bin:$PATH"
 ```javascript
 source ~/.bashrc
 ```
+
+> This command reloads the shell configuration file and updates your current PATH.
+
+#### 5.Verifying the PATH Change
+
+To verify that `~/.local/bin` has been successfully added to your PATH, you can run:
+
+```javascript
+echo $PATH
+```
