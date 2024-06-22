@@ -199,6 +199,28 @@ python -m pip install requests
 
 <br>
 
-### 🔴 but if you get the following errors:
+### 🔴 but if you get the following error:
 
 `/usr/bin/python: No module named pip`
+
+### 1. got to your terminal (ubuntu), type this:
+
+`wget https://bootstrap.pypa.io/get-pip.py`
+
+##### output
+
+```javascript
+// .... SENSITIVE DATA (your ip and other stuff)
+// .... then you will get the below
+nnected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2276232 (2,2M) [text/x-python]
+Saving to: ‘get-pip.py’
+
+get-pip.py          100%[===================>]   2,17M  3,11MB/s    in 0,7s
+
+2024-06-21 21:15:05 (3,11 MB/s) - ‘get-pip.py’ saved [2276232/2276232]
+// ✋ this seems okay
+```
+
+####
