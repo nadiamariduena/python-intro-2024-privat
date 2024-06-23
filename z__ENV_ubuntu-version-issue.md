@@ -23,9 +23,20 @@ ls -l /etc/apt/sources.list.d/
 ### So i either change the UBUNTU version or I USE something that gives me the possibility to change the python version for each project
 
  <br>
+ <br>
 
 ## 🧶 PYENV
+
+<br>
 
 **PYENV** is a great tool for managing multiple Python versions on your system, regardless of the system's default Python installation or available packages.
 
 [How to Install and Run Multiple Python Versions on Ubuntu/Debian | pyenv & virtualenv Setup Tutorial](https://youtu.be/1Zgo8M9yUtM?si=lPx1WQTX8_hQsu8D)
+
+## Here's a step-by-step guide to installing pyenv and setting it up to manage Python versions and virtual environments:
+
+### 🍨 Installing pyenv on Ubuntu
+
+#### Install Prerequisites:
+
+> ✋Before installing pyenv, make sure you have the necessary packages installed on your system:
