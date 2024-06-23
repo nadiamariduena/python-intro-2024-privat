@@ -126,7 +126,11 @@ output:
 Command: `/home/mycomputer/.local/bin/virtualenv --version`
 
 ```javascript
-// should look li this
+// should look like this:
 LESSON_17_Virtual_Environment_and_pip$ /home/mycomputer/.local/bin/virtualenv --version
+//
+// Output Interpretation:
+// If virtualenv is found and executable, it will output its version number.
 
+virtualenv 20.26.3 from /home/mycomputer/.local/lib/python3.8/site-packages/virtualenv/__init__.py
 ```
