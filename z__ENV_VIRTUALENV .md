@@ -74,10 +74,23 @@ variables or **PATH configuration** in your Visual Studio terminal, which is cau
 
 ### Here’s how you can troubleshoot and potentially resolve this issue:
 
-- First check if you have any outcome after you type this in your ubuntu terminal
+- First check if you have any output after you type this `echo $PATH` in your ubuntu terminal:
 
 ```javascript
+// type this:
 echo $PATH
 // OUTPUT
 /usr/local/bin:/usr/bin:/bin:/home/mycomputer/.local/bin:/snap/bin
 ```
+
+#### ✅ chatgpt:
+
+- Based on the output of echo $PATH, it appears that /home/dci-st119/.local/bin is already included in your PATH variable. This is where virtualenv is installed according to your previous messages.
+
+<br>
+
+#### 🔴 But if you dont get the above output
+
+[ FOLLOW THIS STEPS](./z__ENV_PATH_issue.md)
+
+#### after the above steps
