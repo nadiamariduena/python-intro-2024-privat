@@ -36,6 +36,16 @@ Preferred Tool: If you need more control over Python versions or desire a more c
 
 #### installation & common issues
 
+- **vistualenv** works on the ubuntu terminal.
+
+- **ubuntu terminal:** when i type the `~$ virtualenv --version` command, i get this:
+
 ```javascript
+// output
+virtualenv 20.26.3 from /home/mycomputer/.local/lib/python3.8/site-packages/virtualenv/__init__.py
 
 ```
+
+<br>
+
+- BUT when i try the same command in my **visual studio** , on that specific project `LESSON_17_Virtual_Environment_and_pip`, i get this:
