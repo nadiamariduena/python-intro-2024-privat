@@ -126,5 +126,21 @@ Set Python 3.8.12 as your global default Python version for your user:
 
 ```javascript
 pyenv global 3.8.12
+// This command sets the global Python version to 3.8.12, which will be used in your shell sessions by default.
+```
+
+<br>
+<br>
+
+# 🔴 Managing Virtual Environments with pyenv-virtualenv
+
+**pyenv** also integrates with ✋ **pyenv-virtualenv**, a plugin that allows you to create and manage virtual environments 👾 **based on pyenv's Python installations**.
+
+### 1 🔸 Install pyenv-virtualenv:
+
+#### 🔸 Install pyenv-virtualenv using git:
+
+```javascript
+git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
 
 ```
