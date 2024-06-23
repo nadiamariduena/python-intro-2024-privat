@@ -148,3 +148,26 @@ git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/py
 ### 2 🔸 Activate pyenv-virtualenv Plugin:
 
 - Add **pyenv-virtualenv** initialization to your shell configuration file (`~/.bashrc, ~/.bash_profile, ~/.zshrc`):
+
+```javascript
+echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
+
+```
+
+### 3 🔸 Apply changes to your current shell session:
+
+```javascript
+source ~/.bashrc
+
+```
+
+### 4 🔸Create and Use a Virtual Environment:
+
+- Now, you can create a virtual environment using a specific Python version managed by pyenv:
+
+```javascript
+pyenv virtualenv 3.8.12 myenv // you can replace myenv for whatever you LIKE, but its better if ou stick to the convention of ENV on lowercase
+// This command creates a virtual environment named myenv based on Python 3.8.12.
+
+
+```
