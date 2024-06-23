@@ -171,3 +171,16 @@ pyenv virtualenv 3.8.12 myenv // you can replace myenv for whatever you LIKE, bu
 
 
 ```
+
+<br>
+
+### 5 🔸Activate and Use the Virtual Environment:
+
+- Activate the virtual environment myenv
+
+```javascript
+pyenv activate myenv
+
+```
+
+> Once activated, your shell prompt should indicate that you are now using the myenv virtual environment. Install packages and work within this isolated environment as needed.
