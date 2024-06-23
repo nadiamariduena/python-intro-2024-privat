@@ -71,3 +71,23 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 
 ```
+
+<br>
+
+4. 🔸 Apply these changes to your current shell session:
+
+```javascript
+source ~/.bashrc
+
+```
+
+<br>
+
+#### Verify pyenv Installation:
+
+5. 🔸 Verify that pyenv is properly installed by running:
+
+```javascript
+pyenv --version
+
+```
