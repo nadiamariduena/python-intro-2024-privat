@@ -102,5 +102,11 @@ echo $PATH
 - Check which shell Visual Studio's integrated terminal is using and ensure it matches your expectations for running virtualenv commands.
 
 ```javascript
+// type this in your VS terminal
 echo $SHELL
+//
+// ✋ Output Interpretation:
+// This command will display the shell currently active in your terminal session.
+output:
+/bin/bash, /usr/bin/zsh, /usr/bin/powershell, etc.
 ```
