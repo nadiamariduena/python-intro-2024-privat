@@ -119,3 +119,12 @@ pyenv install --list
 pyenv install 3.8.12
 //This command downloads and installs Python 3.8.12 into pyenv's version management directory.
 ```
+
+### 🌈 Set Global Python Version:
+
+Set Python 3.8.12 as your global default Python version for your user:
+
+```javascript
+pyenv global 3.8.12
+
+```
