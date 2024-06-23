@@ -182,7 +182,8 @@ version = 3.8.10
 ```javascript
 virtualenv -p python3 env
 
-
+// - -p python3: This specifies that you want to use Python 3 as the interpreter for creating the virtual environment.
+//
 // - If you omit the -p option, virtualenv will use the default Python interpreter that is available on your system when creating the virtual environment.
 //
 
