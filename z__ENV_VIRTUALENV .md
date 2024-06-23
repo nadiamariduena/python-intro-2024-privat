@@ -113,13 +113,13 @@ output:
 
 <br>
 
-2. Restart Visual Studio
+2. 🔸 Restart Visual Studio
 
 - Restart Visual Studio to clear any temporary configuration issues that might be affecting virtualenv recognition.
 
 <br>
 
-3.  Directly Invoke virtualenv
+3. 🔸 Directly Invoke virtualenv
 
 - Attempt to directly execute **virtualenv** using its absolute path to confirm it's executable.
 
@@ -133,4 +133,24 @@ LESSON_17_Virtual_Environment_and_pip$ /home/mycomputer/.local/bin/virtualenv --
 // If virtualenv is found and executable, it will output its version number.
 
 virtualenv 20.26.3 from /home/mycomputer/.local/lib/python3.8/site-packages/virtualenv/__init__.py
+```
+
+<br>
+
+4. 🔸 Check Visual Studio Terminal Settings
+
+- (OPTIONAL) Review Visual Studio's terminal settings to ensure it has the correct permissions and environment settings to execute commands from `/home/dci-st119/.local/bin.`
+
+<br>
+
+5. 🔸 Update Visual Studio Terminal **PATH**
+
+🔴If Visual Studio's terminal does not recognize virtualenv, manually update its PATH setting.
+
+##### type this on VS terminal of your project
+
+- ✋ Command (temporary update):
+
+```javascript
+export PATH=$PATH:/home/dci-st119/.local/bin
 ```
