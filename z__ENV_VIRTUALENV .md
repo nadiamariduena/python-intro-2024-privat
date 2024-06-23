@@ -100,3 +100,7 @@ echo $PATH
 1. 🔸 Verify Visual Studio Terminal Shell
 
 - Check which shell Visual Studio's integrated terminal is using and ensure it matches your expectations for running virtualenv commands.
+
+```javascript
+echo $SHELL
+```
