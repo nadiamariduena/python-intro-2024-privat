@@ -27,3 +27,5 @@ ls -l /etc/apt/sources.list.d/
 ## 🧶 PYENV
 
 **PYENV** is a great tool for managing multiple Python versions on your system, regardless of the system's default Python installation or available packages.
+
+[How to Install and Run Multiple Python Versions on Ubuntu/Debian | pyenv & virtualenv Setup Tutorial](https://youtu.be/1Zgo8M9yUtM?si=lPx1WQTX8_hQsu8D)
