@@ -192,3 +192,65 @@ TYPE: `virtualenv --version`
 OUTPUT
 virtualenv 20.26.3 from /home/mycomputer/.local/lib/python3.8/site-packages/virtualenv/__init__.py
 ```
+
+<br>
+<br>
+
+## 🌈 Continue with the activation
+
+<br>
+
+#### 🍭 creating the env
+
+- creating the **env** with **virtualEnv**
+
+- choose the project where you are going to install the env folder, in my case i will choose `/LESSON_16_OOP` , once you have cd into that project, type the following:
+
+```javascript
+virtualenv -p python3 env
+
+// -  -p python3: This specifies that you want to use Python 3 as the interpreter for creating the virtual environment.
+//
+// - If you omit the -p option, virtualenv will use the default Python interpreter that is available on your system when creating the virtual environment.
+//
+
+```
+
+#### output
+
+```javascript
+created virtual environment CPython3.8.10.final.0-64 in 307ms
+  creator CPython3Posix(dest=/home/mycomputer/Documents/ALL_SITE_3D_STUFF/3D-UNITY-BLENDER-REACTVR-ALL/0_PYTHON-all/PYTHON-PRIVAT/python-intro-2024-privat/LESSON_16_OOP/env, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/mycomputer/.local/share/virtualenv)
+    added seed packages: pip==24.1, setuptools==70.1.0, wheel==0.43.0
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+```
+
+<br>
+
+## 🍭 Once the `ENV` has been created, you will see the following:
+
+- 📌 env (folder)
+  - bin (folder, it includes the **activation files** and other stuff)
+  - lib (folder)
+  - gitignore
+  - pyvenv.cfg
+
+## 🍭 Activate
+
+- type the following command (you have to be on your project root)
+
+```javascript
+source env/bin/activate
+//
+// like so:
+LESSON_16_OOP$ source env/bin/activate
+```
+
+#### output
+
+```javascript
+// the env is there, it means it works
+/LESSON_16_OOP$ source env/bin/activate
+(env) dci-st119@mycomputer:
+```
