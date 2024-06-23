@@ -181,9 +181,16 @@ version = 3.8.10
 
 ```javascript
 virtualenv -p python3 env
-//
-// ✋ OUTPUT
 
+
+// - If you omit the -p option, virtualenv will use the default Python interpreter that is available on your system when creating the virtual environment.
+//
+
+```
+
+#### output
+
+```javascript
 created virtual environment CPython3.8.10.final.0-64 in 307ms
   creator CPython3Posix(dest=/home/mycomputer/Documents/ALL_SITE_3D_STUFF/3D-UNITY-BLENDER-REACTVR-ALL/0_PYTHON-all/PYTHON-PRIVAT/python-intro-2024-privat/LESSON_16_OOP/env, clear=False, no_vcs_ignore=False, global=False)
   seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/mycomputer/.local/share/virtualenv)
