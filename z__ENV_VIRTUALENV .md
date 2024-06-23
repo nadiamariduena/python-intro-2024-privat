@@ -152,5 +152,20 @@ virtualenv 20.26.3 from /home/mycomputer/.local/lib/python3.8/site-packages/virt
 - ✋ Command (temporary update):
 
 ```javascript
-export PATH=$PATH:/home/dci-st119/.local/bin
+export PATH=$PATH:/home/mycomputer/.local/bin
+```
+
+<br>
+
+5. 🔸 option
+
+##### Command (permanent update in .bashrc for Bash):
+
+```javascript
+//1
+echo 'export PATH=$PATH:/home/mycomputer/.local/bin' >> ~/.bashrc
+
+//2
+source ~/.bashrc
+
 ```
