@@ -157,7 +157,7 @@ export PATH=$PATH:/home/mycomputer/.local/bin
 
 <br>
 
-5. 🔸 option
+6. 🔸 option
 
 ##### Command (permanent update in .bashrc for Bash):
 
@@ -172,4 +172,16 @@ source ~/.bashrc
 
 //
 // So, you would typically run these two commands consecutively in your terminal. The first command updates .bashrc to include /home/mycomputer/.local/bin in your PATH, and the second command refreshes your current shell session to apply this change.
+```
+
+<br>
+
+7.  🔸 now check it:
+
+TYPE: `virtualenv --version`
+
+```javascript
+
+OUTPUT
+virtualenv 20.26.3 from /home/mycomputer/.local/lib/python3.8/site-packages/virtualenv/__init__.py
 ```
