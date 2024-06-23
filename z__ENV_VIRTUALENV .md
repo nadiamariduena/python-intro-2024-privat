@@ -167,5 +167,9 @@ echo 'export PATH=$PATH:/home/mycomputer/.local/bin' >> ~/.bashrc
 
 //2
 source ~/.bashrc
+//
+//This command uses source to execute (or "source") the commands from the .bashrc file in the current shell session. By doing so, it updates the PATH environment variable immediately in your current terminal session without the need to start a new shell.
 
+//
+// So, you would typically run these two commands consecutively in your terminal. The first command updates .bashrc to include /home/mycomputer/.local/bin in your PATH, and the second command refreshes your current shell session to apply this change.
 ```
