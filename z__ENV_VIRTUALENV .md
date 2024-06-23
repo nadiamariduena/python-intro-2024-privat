@@ -48,4 +48,8 @@ virtualenv 20.26.3 from /home/mycomputer/.local/lib/python3.8/site-packages/virt
 
 <br>
 
-- BUT when i try the same command in my **visual studio** , on that specific project `LESSON_17_Virtual_Environment_and_pip`, i get this:
+- BUT when i try the same command `~$ virtualenv --version` in my **visual studio** , on that specific project `LESSON_17_Virtual_Environment_and_pip`, i get this:
+
+```javascript
+virtualenv: command not found
+```
