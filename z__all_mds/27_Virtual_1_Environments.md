@@ -111,7 +111,7 @@ version = 3.8.10
 <br>
 <br>
 
-#### 🍰 ACTIVATE
+#### 🍰 ACTIVATION issue
 
 - When i tried to **CREATE** the **env** folder by using this command `python -m venv .venv` , like you see in in the tutorial [6:25 | Python Virtual Environment and pip for Beginners](https://youtu.be/eDe-z2Qy9x4?si=lsQnQ4eoy07Caa1v&t=385), so to create the venv folder, **it works BUT ✋** it DOESN'T CREATE the **SCRIPTS** folder that also comes within the **`.venv` folder**, 🟥 this script folder is important because it comes with some **activation files** , the ones you will always need, check the example: [6:35 | Python Virtual Environment and pip for Beginners](https://youtu.be/eDe-z2Qy9x4?si=3Bg6wM1cXGlaqqh-&t=395)
 
@@ -132,6 +132,8 @@ version = 3.8.10
 <br>
 
 ## 🔴 POSSIBLE reasons
+
+<br>
 
 ### After reading about the TOPIC, i found the following:
 
@@ -173,7 +175,7 @@ version = 3.8.10
 
 <br>
 
-#### creating the env
+#### 🍭 creating the env
 
 - creating the **env** with **virtualEnv**
 
@@ -182,7 +184,7 @@ version = 3.8.10
 ```javascript
 virtualenv -p python3 env
 
-// - -p python3: This specifies that you want to use Python 3 as the interpreter for creating the virtual environment.
+// -  -p python3: This specifies that you want to use Python 3 as the interpreter for creating the virtual environment.
 //
 // - If you omit the -p option, virtualenv will use the default Python interpreter that is available on your system when creating the virtual environment.
 //
@@ -198,3 +200,26 @@ created virtual environment CPython3.8.10.final.0-64 in 307ms
     added seed packages: pip==24.1, setuptools==70.1.0, wheel==0.43.0
   activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
 ```
+
+<br>
+
+## 🍭 Once the `ENV` has been created, you will see the following:
+
+- 📌 env (folder)
+  - bin (folder, it includes the **activation files** and other stuff)
+  - lib (folder)
+  - gitignore
+  - pyvenv.cfg
+
+## 🍭 Activate
+
+- type the following command (you have to be on your project root)
+
+```javascript
+source env/bin/activate
+//
+// like so:
+LESSON_16_OOP$ source env/bin/activate
+```
+
+#### output
