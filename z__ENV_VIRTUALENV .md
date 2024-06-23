@@ -110,3 +110,9 @@ echo $SHELL
 output:
 /bin/bash, /usr/bin/zsh, /usr/bin/powershell, etc.
 ```
+
+<br>
+
+2. Restart Visual Studio
+
+- Restart Visual Studio to clear any temporary configuration issues that might be affecting virtualenv recognition.
