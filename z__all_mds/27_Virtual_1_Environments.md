@@ -223,3 +223,9 @@ LESSON_16_OOP$ source env/bin/activate
 ```
 
 #### output
+
+```javascript
+// the env is there, it means it works
+/LESSON_16_OOP$ source env/bin/activate
+(env) dci-st119@mycomputer:
+```
