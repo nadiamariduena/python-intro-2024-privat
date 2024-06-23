@@ -9,7 +9,7 @@
 <br>
 <br>
 
-## Question: what are the differences between python -m venv & virtualenv?
+### 🟣 Question: what are the differences between python -m venv & virtualenv?
 
 <br>
 
@@ -34,7 +34,11 @@ Preferred Tool: If you need more control over Python versions or desire a more c
 <br>
 <br>
 
-#### installation & common issues
+## 🟡 installation & common issues
+
+<br>
+
+#### Works on ubuntu
 
 - **vistualenv** works on the ubuntu terminal.
 
@@ -48,8 +52,23 @@ virtualenv 20.26.3 from /home/mycomputer/.local/lib/python3.8/site-packages/virt
 
 <br>
 
+#### Don't work on VS
+
 - BUT when i try the same command `~$ virtualenv --version` in my **visual studio** , on that specific project `LESSON_17_Virtual_Environment_and_pip`, i get this:
 
 ```javascript
 virtualenv: command not found
 ```
+
+<br>
+<br>
+
+### 🟣 Question: why this command vistualenv, work on the global but not on a local project in VS ?
+
+#### ✅ chatgpt:
+
+It seems like there might be an issue with the environment variables or **PATH configuration** in your Visual Studio terminal, which is causing the **virtualenv** command not to be found.
+
+<br>
+
+### Here’s how you can troubleshoot and potentially resolve this issue:
