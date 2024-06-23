@@ -9,6 +9,13 @@
 <br>
 <br>
 
+#### 🟧 Key Differences:
+
+**Tool Used:** `python -m venv` **is part** of Python's standard library (venv module), **while** <u>virtualenv</u> is a third-party tool.
+
+<br>
+<br>
+
 #### installation & common issues
 
 ```javascript
