@@ -94,3 +94,9 @@ echo $PATH
 [ FOLLOW THIS STEPS](./z__ENV_PATH_issue.md)
 
 #### after the above steps
+
+<br>
+
+1. 🔸 Verify Visual Studio Terminal Shell
+
+- Check which shell Visual Studio's integrated terminal is using and ensure it matches your expectations for running virtualenv commands.
