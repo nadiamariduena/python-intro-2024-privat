@@ -90,5 +90,32 @@ source ~/.bashrc
 
 ```javascript
 pyenv --version
+//This command should display the pyenv version number, confirming a successful installation.
 
+
+```
+
+<br>
+<br>
+
+## 🟡 Installing Python Versions with pyenv
+
+- Now that pyenv is installed, you can use it to install and manage different versions of Python. Here's how you can install Python 3.8.12 as an example:
+
+#### 🟢 List Available Python Versions:
+
+First, list all available Python versions that can be installed using pyenv:
+
+```javascript
+pyenv install --list
+
+```
+
+#### 🟢 Install a Specific Python Version:
+
+- Choose a Python version from the list and install it with pyenv. For example, to install Python 3.8.12:
+
+```javascript
+pyenv install 3.8.12
+//This command downloads and installs Python 3.8.12 into pyenv's version management directory.
 ```
