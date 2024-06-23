@@ -15,6 +15,8 @@
 
 **Activation Scripts:** <u>virtualenv</u> typically provides more comprehensive activation scripts (activate, activate.bat) within the `bin/` directory, making it easier to activate the virtual environment.
 
+**Python Version:** virtualenv ✋ allows specifying the Python interpreter version explicitly (-p python3), whereas python -m venv uses the default Python interpreter in your system's PATH.
+
 <br>
 <br>
 
