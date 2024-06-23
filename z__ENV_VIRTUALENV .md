@@ -116,3 +116,16 @@ output:
 2. Restart Visual Studio
 
 - Restart Visual Studio to clear any temporary configuration issues that might be affecting virtualenv recognition.
+
+<br>
+
+3.  Directly Invoke virtualenv
+
+- Attempt to directly execute **virtualenv** using its absolute path to confirm it's executable.
+
+Command:
+
+```javascript
+
+/home/mycomputer/.local/bin/virtualenv --version
+```
