@@ -67,8 +67,17 @@ virtualenv: command not found
 
 #### ✅ chatgpt:
 
-It seems like there might be an issue with the environment variables or **PATH configuration** in your Visual Studio terminal, which is causing the **virtualenv** command not to be found.
+It seems like there might be an issue with the environment
+variables or **PATH configuration** in your Visual Studio terminal, which is causing the **virtualenv** command not to be found.
 
 <br>
 
 ### Here’s how you can troubleshoot and potentially resolve this issue:
+
+- First check if you have any outcome after you type this in your ubuntu terminal
+
+```javascript
+echo $PATH
+// OUTPUT
+/usr/local/bin:/usr/bin:/bin:/home/mycomputer/.local/bin:/snap/bin
+```
