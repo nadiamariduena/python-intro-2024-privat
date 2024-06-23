@@ -39,9 +39,10 @@ ls -l /etc/apt/sources.list.d/
 
 #### Install Prerequisites:
 
-1. 🔸 Before installing pyenv, make sure you have the necessary packages installed on your system:
+1. 🔸 Before installing pyenv, make sure you have the necessary packages installed on your system: [Python Pyenv: how to install Pyenv and Python in just 2 clicks on Ubuntu | Pyenv tutorial | min 1:40](https://youtu.be/p2Ojd3M7iPk?si=P_rdT3MNcOf4FUZ3&t=100)
 
 ```javascript
+// check this video: https://youtu.be/p2Ojd3M7iPk?si=P_rdT3MNcOf4FUZ3&t=100
 sudo apt update
 sudo apt install git curl wget make build-essential libssl-dev zlib1g-dev libbz2-dev \
                  libreadline-dev libsqlite3-dev llvm libncurses5-dev libncursesw5-dev \
