@@ -1,6 +1,13 @@
-## 🟡 VIRTUALENV
+# 🟡 VIRTUALENV
 
 <br>
+
+- Before installing anything related to the VIRTUALENV, check if you already have this: [z\_\_ENV_PATH_issue](./z__ENV_PATH_issue.md), if you have it, you can continue, but if not, just go the link and follow the steps.
+
+<br>
+<br>
+
+## 🟠 VirtualEnv
 
 - **virtualenv** is a third-party tool that allows more flexibility in specifying Python versions and has different default behaviors compared to `python -m venv`.
 
