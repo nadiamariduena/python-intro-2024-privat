@@ -9,9 +9,15 @@
 <br>
 <br>
 
-#### 🟧 Key Differences:
+## Question: what are the differences between python -m venv & virtualenv?
 
-**Tool Used:** `python -m venv` **is part** of Python's standard library (venv module), **while** <u>virtualenv</u> is a third-party tool.
+<br>
+
+##### chatgpt: 🟧 Key Differences:
+
+<br>
+
+`python -m venv` **is part** of Python's standard library (venv module), **while** <u>virtualenv</u> is a third-party tool.
 
 **Activation Scripts:** <u>virtualenv</u> typically provides more comprehensive activation scripts (activate, activate.bat) within the `bin/` directory, making it easier to activate the virtual environment.
 
