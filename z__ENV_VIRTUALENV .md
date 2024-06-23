@@ -123,9 +123,10 @@ output:
 
 - Attempt to directly execute **virtualenv** using its absolute path to confirm it's executable.
 
-Command:
+Command: `/home/mycomputer/.local/bin/virtualenv --version`
 
 ```javascript
+// should look li this
+LESSON_17_Virtual_Environment_and_pip$ /home/mycomputer/.local/bin/virtualenv --version
 
-/home/mycomputer/.local/bin/virtualenv --version
 ```
