@@ -54,3 +54,20 @@ sudo apt install git curl wget make build-essential libssl-dev zlib1g-dev libbz2
 #### Install pyenv via GitHub:
 
 2.  🔸 Clone the pyenv repository from GitHub into your home directory (~):
+
+```javascript
+git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+
+```
+
+<br>
+
+#### Set Up Environment Variables:
+
+3.  🔸 Add pyenv to your **shell's** environment variables by appending the following lines to your `~/.bashrc (or ~/.bash_profile, ~/.zshrc for zsh users`) file:
+
+```javascript
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+
+```
