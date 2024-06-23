@@ -138,9 +138,13 @@ pyenv global 3.8.12
 
 ### 1 🔸 Install pyenv-virtualenv:
 
-#### 🔸 Install pyenv-virtualenv using git:
+- 🔸 Install pyenv-virtualenv using git:
 
 ```javascript
 git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
 
 ```
+
+### 2 🔸 Activate pyenv-virtualenv Plugin:
+
+- Add **pyenv-virtualenv** initialization to your shell configuration file (`~/.bashrc, ~/.bash_profile, ~/.zshrc`):
