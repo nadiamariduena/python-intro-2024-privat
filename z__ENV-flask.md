@@ -51,3 +51,10 @@
 - **Language:** The primary difference is the programming language used — Flask uses Python, while Express uses JavaScript (Node.js).
 
 - **Ecosystem:** Node.js (and thus Express) has a larger ecosystem for JavaScript-based tools and libraries, whereas Flask benefits from Python's ecosystem for broader application development needs.
+
+<br>
+<br>
+
+## 🟠 Typical Use Cases:
+
+**Flask:** Often used for developing **APIs**, web applications, and **backend** services in Python, integrating with various Python libraries and tools.
