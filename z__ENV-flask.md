@@ -25,3 +25,12 @@
 
 🔸 Flask: Python
 🔸 Express: JavaScript (Node.js)
+
+<br>
+<br>
+
+### 🟠 Similarities:
+
+<br>
+
+🔸 **Routing:** Both Flask and Express provide mechanisms for defining routes that handle HTTP requests and map them to specific functions or controllers.
