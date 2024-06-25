@@ -283,3 +283,9 @@ setuptools 70.1.0
 wheel      0.43.0
 (env) dci-st119@mycomputer:~/
 ```
+
+<br>
+
+### 🟠 Installing other packets
+
+- Now that I have the env setup, i can install stuff ONLY in this env (environment)
