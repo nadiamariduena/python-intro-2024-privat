@@ -172,6 +172,14 @@ ice_creams = [
 @app.route("/api/ice-creams", methods=["GET"])
 
 #
+#
+# Serve React FRONTEND (index.html and static files)
+#defaults={"path": ""} ensures that if no additional path is provided (e.g., just "/"), the view function associated with this route will still be called with path set to an empty string.
+@app.route("/", defaults={"path": ""})
+@app.route("/<path:path>")
+# The second @app.route("/<path:path>") handles requests that match any URL pattern starting with a slash ("/").
+#
+def serve
 
 
 
