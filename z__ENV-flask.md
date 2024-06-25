@@ -1,4 +1,4 @@
-## 🟣 What is flask?
+# 🟣 What is flask?
 
 ##### ✅ chatgpt:
 
@@ -11,7 +11,7 @@
 <br>
 <br>
 
-### 🟠 Flask (Python) vs. Express (JavaScript):
+## 🟠 Flask (Python) vs. Express (JavaScript):
 
 <br>
 
@@ -29,7 +29,7 @@
 <br>
 <br>
 
-### 🟠 Similarities:
+## 🟠 Similarities:
 
 <br>
 
@@ -60,3 +60,20 @@
 **Flask:** Often used for developing 🔸**APIs**, web applications, and backend services in Python, integrating with various Python libraries and tools.
 
 **Express:** Commonly used in Node.js applications for building 🔸**RESTful APIs** and web servers, taking advantage of the JavaScript ecosystem's tools and frameworks.
+
+<br>
+<br>
+
+---
+
+<br>
+
+### 🟢 REACT & Flask
+
+- Flask and React are often used together in modern web applications: Flask serves as the backend API provider, while React consumes these APIs to render data-driven UI components.
+
+<br>
+
+# 🟣 Can react and Flask be used in an application?
+
+##### ✅ chatgpt:
