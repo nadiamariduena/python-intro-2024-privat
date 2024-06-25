@@ -56,7 +56,11 @@ def index():
     ]
 
     #
-    # RENDER the template with data
+    # ✋ RENDER the template with data
     return render_template("index.html", title="Home", user=user, posts=posts)
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
 
 ```
