@@ -286,6 +286,16 @@ wheel      0.43.0
 
 <br>
 
+---
+
+<br>
+
 ### 🟠 Installing other packets
 
-- Now that I have the env setup, i can install stuff ONLY in this env (environment)
+- Now that I have the env setup, i can install stuff but **ONLY** in this env (environment)
+
+```javascript
+pip install flask
+```
+
+### What is flask?
