@@ -18,3 +18,10 @@
 **Backend Frameworks:**
 
 - 🔸 Flask and Express are both backend web frameworks used for building server-side applications and APIs.
+
+<br>
+
+**Languages:**
+
+🔸 Flask: Python
+🔸 Express: JavaScript (Node.js)
