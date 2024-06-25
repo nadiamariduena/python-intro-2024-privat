@@ -179,7 +179,12 @@ ice_creams = [
 @app.route("/<path:path>")
 # The second @app.route("/<path:path>") handles requests that match any URL pattern starting with a slash ("/").
 #
-def serve
+def serve(path):
+
+    if path != "" and os.path.exists(app.static_folder + "/" + path):
+        return send_from_directory(app.static_folder, path)
+    else:
+        return send_from_directory
 
 
 
