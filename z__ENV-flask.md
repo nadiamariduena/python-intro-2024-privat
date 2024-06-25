@@ -81,3 +81,5 @@
 Flask and React can absolutely be used together within the same project, and it's quite common in modern web development. Here’s how they typically work together:
 
 #### Separation of Concerns:
+
+Backend (Flask): Flask serves as the backend server that provides APIs for your frontend application. It handles business logic, database operations, authentication, and other server-side tasks.
