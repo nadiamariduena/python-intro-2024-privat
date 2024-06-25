@@ -41,18 +41,6 @@
 
 > Template rendering in Python, particularly in the context of web development frameworks like Flask or Django, refers to the process of combining a template (which is usually an HTML file with placeholders) with data to produce HTML that is sent to the client's browser. This allows dynamic generation of web pages where the content can change based on variables, user input, or database queries.
 
-##### 🍰 check the examples here [here: TEMPLATE-rendering](./z__TEMPLATE-rendering.md)
+#### 🍰 check the examples here [here: TEMPLATE-rendering](./z__TEMPLATE-rendering.md)
 
 <br>
-
-🔸 **Reuse and Consistency**:
-
-- Templates promote reusability of HTML structures across different pages of a web application while maintaining consistency in design.
-
-<br>
-
-### 🟠 Example using Flask:
-
-<br>
-
-Let's consider a simple Flask application that renders a template using **Jinja2**, a popular templating engine in Python:

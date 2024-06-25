@@ -229,3 +229,54 @@ LESSON_16_OOP$ source env/bin/activate
 /LESSON_16_OOP$ source env/bin/activate
 (env) dci-st119@mycomputer:
 ```
+
+<br>
+
+---
+
+<br>
+
+#### 🔴 Now tht i am inside the virtual environment like you can see in the below code, you can check the packages, type this command:
+
+```javascript
+pip list
+```
+
+#### output
+
+```javascript
+Package    Version
+---------- -------
+pip        24.1
+setuptools 70.1.0
+wheel      0.43.0
+
+```
+
+#### like so:
+
+```javascript
+/LESSON_16_OOP$ pip list
+Package    Version
+---------- -------
+pip        24.1
+setuptools 70.1.0
+wheel      0.43.0
+(env) dci-st119@mycomputer:~/
+```
+
+<br>
+
+---
+
+<br>
+
+### 🟠 Installing other packets
+
+- Now that I have the env setup, i can install stuff but **ONLY** in this env (environment)
+
+```javascript
+pip install flask
+```
+
+### What is flask?
