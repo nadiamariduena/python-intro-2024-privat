@@ -254,3 +254,9 @@ LESSON_16_OOP$ source env/bin/activate
 /LESSON_16_OOP$ source env/bin/activate
 (env) dci-st119@mycomputer:
 ```
+
+#### Now tht i am isnide the virtual environment like you can see in the below code, you can check the packages, type this command:
+
+```javascript
+
+```
