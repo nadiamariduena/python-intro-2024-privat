@@ -41,6 +41,11 @@ app = Flask(__name__)
 
 # Route to render a TEMPLATE
 @app.route("/")
+#Flask Route (@app.route('/')): This decorator defines a route for the root URL of the application.
+
+#
+#
+#
 def index():
 
     # Sample data
