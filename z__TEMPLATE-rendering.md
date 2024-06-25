@@ -55,4 +55,8 @@ def index():
 
     ]
 
+    #
+    # RENDER the template with data
+    return render_template("index.html", title="Home", user=user, posts=posts)
+
 ```
