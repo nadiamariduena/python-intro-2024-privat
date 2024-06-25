@@ -74,7 +74,12 @@ Save the following HTML as templates/index.html in your project directory:
 <br>
 
 ```html
-<!-- templates/index.html -->
+<!-- templates/index.html
+
+Jinja2 Templating: Inside index.html, Jinja2 syntax ({{ ... }} and {% ... %}) is used to insert Python variables (title, user.username, user.email, posts) dynamically into the HTML structure. For example, {{ user.username }} inserts the value of user.username into the HTML output.
+
+
+-->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
