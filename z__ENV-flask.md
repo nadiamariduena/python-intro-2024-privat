@@ -179,12 +179,14 @@ ice_creams = [
 @app.route("/<path:path>")
 # The second @app.route("/<path:path>") handles requests that match any URL pattern starting with a slash ("/").
 #
+#
+#
 def serve(path):
-
+    #os refers to the Python standard library module named os, which stands for "operating system". This module provides a way of using operating system-dependent functionality, such as manipulating file paths, checking file existence, etc.
     if path != "" and os.path.exists(app.static_folder + "/" + path):
         return send_from_directory(app.static_folder, path)
     else:
-        return send_from_directory
+        return send_from_directory(app.static_folder, "index.html")
 
 
 
