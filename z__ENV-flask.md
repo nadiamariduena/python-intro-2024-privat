@@ -213,3 +213,7 @@ if __name__ == "__main__":
 ### 🧁 Frontend (React)
 
 Set up a React project (frontend) using create-react-app. Build the frontend components and configure it to fetch data from **Flask API endpoints**.
+
+<br>
+
+Modify the App.js and other components **(IceCreamList.js, IceCream.js, etc.)** as needed to interact with Flask API endpoints (`/api/ice-creams`).
