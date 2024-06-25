@@ -48,3 +48,11 @@
 🔸 **Reuse and Consistency**:
 
 - Templates promote reusability of HTML structures across different pages of a web application while maintaining consistency in design.
+
+<br>
+
+### 🟠 Example using Flask:
+
+<br>
+
+Let's consider a simple Flask application that renders a template using **Jinja2**, a popular templating engine in Python:
