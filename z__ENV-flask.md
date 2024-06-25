@@ -183,7 +183,16 @@ ice_creams = [
 #
 def serve(path):
     #os refers to the Python standard library module named os, which stands for "operating system". This module provides a way of using operating system-dependent functionality, such as manipulating file paths, checking file existence, etc.
+
+    # os.path.exists() is a function provided by the os.path module. It takes a path as an argument and returns True if a file or directory exists at that path; otherwise, it returns False.
+    #
     if path != "" and os.path.exists(app.static_folder + "/" + path):
+        # path != "": This checks if the variable path is not an empty string. This condition ensures that path variable has some value before proceeding.
+
+        #os.path.exists(app.static_folder + "/" + path): This checks if a file or directory exists at the given path.
+        #
+        #
+        #
         return send_from_directory(app.static_folder, path)
     else:
         return send_from_directory(app.static_folder, "index.html")
