@@ -145,3 +145,9 @@ project-directory/
     └── ...            # Other React configuration files
 
 ```
+
+<br>
+
+### BACKEND
+
+- Create a Flask application (`app.py`) that serves both API endpoints and the React frontend as static files.
