@@ -41,6 +41,11 @@
 
 > Template rendering in Python, particularly in the context of web development frameworks like Flask or Django, refers to the process of combining a template (which is usually an HTML file with placeholders) with data to produce HTML that is sent to the client's browser. This allows dynamic generation of web pages where the content can change based on variables, user input, or database queries.
 
-#### 🍰 check the examples here [here: TEMPLATE-rendering](./z__TEMPLATE-rendering.md)
+### 🍰 check the examples here [here: TEMPLATE-rendering](./z__TEMPLATE-rendering.md)
 
 <br>
+<br>
+
+## 🟠 Differences:
+
+- **Language:** The primary difference is the programming language used — Flask uses Python, while Express uses JavaScript (Node.js).
