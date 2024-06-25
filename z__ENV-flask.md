@@ -34,3 +34,5 @@
 <br>
 
 🔸 **Routing:** Both Flask and Express provide mechanisms for defining routes that handle HTTP requests and map them to specific functions or controllers.
+
+🔸 **Middleware:** They support middleware functions that can modify request and response objects, allowing for custom processing of requests.
