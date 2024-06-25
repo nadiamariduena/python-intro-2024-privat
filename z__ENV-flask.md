@@ -122,3 +122,26 @@ Flask and React can absolutely be used together within the same project, and it'
 Create a directory structure (my ice-cream store) where both Flask and React code will reside together.
 
 #### This setup allows Flask to serve the React frontend as static files while also providing ✋ API endpoints for data interaction.
+
+```javascript
+// to test it you will need:
+// 1. open 2 terminals
+// 2 . cd into backend then in the second terminal cd into the frontend
+project-directory/
+│
+├── backend/
+│   ├── app.py         # Flask backend code
+│   └── static/
+│       └── index.html # React frontend entry point
+│
+└── frontend/
+    ├── public/
+    │   └── index.html # Public index.html for React
+    ├── src/
+    │   ├── App.js     # Main React component
+    │   ├── index.js   # React entry point
+    │   └── ...        # Other React components and files
+    ├── package.json   # React dependencies and scripts
+    └── ...            # Other React configuration files
+
+```
