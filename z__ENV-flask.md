@@ -207,3 +207,9 @@ if __name__ == "__main__":
     app.run(debug=True)
 
 ```
+
+<br>
+
+### 🧁 Frontend (React)
+
+Set up a React project (frontend) using create-react-app. Build the frontend components and configure it to fetch data from **Flask API endpoints**.
