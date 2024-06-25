@@ -260,3 +260,14 @@ LESSON_16_OOP$ source env/bin/activate
 ```javascript
 pip list
 ```
+
+#### output
+
+```javascript
+Package    Version
+---------- -------
+pip        24.1
+setuptools 70.1.0
+wheel      0.43.0
+
+```
