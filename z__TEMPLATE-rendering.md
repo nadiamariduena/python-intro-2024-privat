@@ -40,6 +40,13 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 # Route to render a TEMPLATE
+@app.route("/")
+def index():
 
+    # Sample data
+    user = {"username": "John", "email": "john@example.com"}
+    posts = [
+
+    ]
 
 ```
