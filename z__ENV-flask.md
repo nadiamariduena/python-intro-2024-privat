@@ -79,3 +79,5 @@
 ##### ✅ chatgpt:
 
 Flask and React can absolutely be used together within the same project, and it's quite common in modern web development. Here’s how they typically work together:
+
+#### Separation of Concerns:
