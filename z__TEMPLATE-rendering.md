@@ -64,3 +64,21 @@ if __name__ == "__main__":
     app.run(debug=True)
 
 ```
+
+<br>
+
+### 🟠 Create a Template:
+
+Save the following HTML as templates/index.html in your project directory:
+
+<br>
+
+```html
+<!-- templates/index.html -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body></body>
+</html>
+```
