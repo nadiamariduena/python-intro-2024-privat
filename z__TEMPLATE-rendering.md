@@ -23,9 +23,13 @@
 
 Let's consider a simple Flask application that renders a template using **Jinja2**, a popular <u>templating engine</u> in Python:
 
-#### If you have already installed your virtual environment [check this: ]()
+#### 💡 If you have already installed your virtual environment [check this: z\_\_ENV_VIRTUALENV%20](./z__ENV_VIRTUALENV%20.md)
 
 ```javascript
 pip install Flask
 
 ```
+
+<br>
+
+### 🟠 Create a Flask App:
