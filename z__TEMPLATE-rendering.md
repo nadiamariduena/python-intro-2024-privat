@@ -49,6 +49,9 @@ def index():
         {
             "author": "Jane", "body": "Beautiful day in Portland"
         },
+        {
+            "author": "Susan", "body": "The Avengers movie was so cool!"
+        }
 
     ]
 
