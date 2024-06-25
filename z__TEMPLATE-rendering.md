@@ -78,7 +78,24 @@ Save the following HTML as templates/index.html in your project directory:
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <title>{{title}}</title>
   </head>
-  <body></body>
+  <!--  -->
+  <body>
+    <h1>Hello, {{ user.username}}</h1>
+    <h2>Email: {{ user.email }}</h2>
+
+    <h3>Recent Posts:</h3>
+    <ul>
+      <!--
+🔴
+In Jinja2, templating engine used with Python web frameworks like Flask and Django, you write loops using {% for %} and {% endfor %} tags to iterate over lists or other iterable objects like dictionaries.
+
+ -->
+      {% for post in posts %}
+      <li><strong>{{ post.author }}</strong>: {{ post.body }}</li>
+      {% endfor %}
+    </ul>
+  </body>
 </html>
 ```
