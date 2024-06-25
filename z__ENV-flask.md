@@ -14,3 +14,7 @@
 ### 🟠 Flask (Python) vs. Express (JavaScript):
 
 <br>
+
+**Backend Frameworks:**
+
+- 🔸 Flask and Express are both backend web frameworks used for building server-side applications and APIs.
