@@ -148,6 +148,18 @@ project-directory/
 
 <br>
 
-### BACKEND
+### 🍰 BACKEND
 
 - Create a Flask application (`app.py`) that serves both API endpoints and the React frontend as static files.
+
+```python
+from flask import Flask, jsonify, send_from_directory
+import os
+
+app = Flask(__name__, static_folder)
+
+
+
+
+
+```
