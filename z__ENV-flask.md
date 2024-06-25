@@ -160,11 +160,18 @@ app = Flask(__name__, static_folder="../frontend/build", static_url_path="/")
 
 # Sample data for ice cream products
 ice_creams = [
-    { "id": 1, "name": "Chocolate", "price": 3.5  },
-    { "id": 2, "name": "Vanilla", "price": 3.0 },
+    {"id": 1, "name": "Chocolate", "price": 3.5  },
+    {"id": 2, "name": "Vanilla", "price": 3.0 },
+    {"id": 3, "name": "Strawberry", "price": 4.0},
+    {"id": 4, "name": "Mint Chocolate Chip", "price": 4.5},
 
 ]
 
+# Endpoint to fetch all ice cream products
+#https://mglaman.dev/blog/post-or-put-patch-and-delete-urls-are-cheap-api-design-matters
+@app.route("/api/ice-creams", methods=["GET"])
+
+#
 
 
 
