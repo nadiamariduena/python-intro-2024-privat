@@ -156,7 +156,14 @@ project-directory/
 from flask import Flask, jsonify, send_from_directory
 import os
 
-app = Flask(__name__, static_folder)
+app = Flask(__name__, static_folder="../frontend/build", static_url_path="/")
+
+# Sample data for ice cream products
+ice_creams = [
+    { "id": 1, "name": "Chocolate", "price": 3.5  },
+    { "id": 2, "name": "Vanilla", "price": 3.0 },
+
+]
 
 
 
