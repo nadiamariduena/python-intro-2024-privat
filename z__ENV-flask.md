@@ -44,3 +44,7 @@
 ##### 🍰 check the examples here [here: TEMPLATE-rendering](./z__TEMPLATE-rendering.md)
 
 <br>
+
+🔸 **Reuse and Consistency**:
+
+- Templates promote reusability of HTML structures across different pages of a web application while maintaining consistency in design.
