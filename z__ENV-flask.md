@@ -97,3 +97,7 @@ Flask and React can absolutely be used together within the same project, and it'
 **Performance:**
 
 🔸 React's virtual DOM and single-page application **(SPA) capabilities** provide a responsive and efficient user experience, while Flask handles backend operations and APIs efficiently.
+
+**Scalability:**
+
+🔸 Flask and React allow your application to scale as needed. You can deploy the frontend and backend separately, utilize microservices, or integrate with other services and frameworks as your application grows.
