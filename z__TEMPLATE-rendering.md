@@ -46,6 +46,9 @@ def index():
     # Sample data
     user = {"username": "John", "email": "john@example.com"}
     posts = [
+        {
+            "author": "Jane", "body": "Beautiful day in Portland"
+        },
 
     ]
 
