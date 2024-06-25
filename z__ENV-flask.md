@@ -192,7 +192,7 @@ def serve(path):
         #os.path.exists(app.static_folder + "/" + path): This checks if a file or directory exists at the given path.
         #
         #
-        #
+        #If the condition (path != "" and os.path.exists(...)) is True, the code executes return send_from_directory(app.static_folder, path).
         return send_from_directory(app.static_folder, path)
 
         # send_from_directory() is a Flask function that sends a file from a given directory.
