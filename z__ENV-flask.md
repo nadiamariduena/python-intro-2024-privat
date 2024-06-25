@@ -194,6 +194,10 @@ def serve(path):
         #
         #
         return send_from_directory(app.static_folder, path)
+
+        # send_from_directory() is a Flask function that sends a file from a given directory.
+
+        #
     else:
         return send_from_directory(app.static_folder, "index.html")
 
