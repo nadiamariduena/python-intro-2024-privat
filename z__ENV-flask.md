@@ -217,3 +217,44 @@ Set up a React project (frontend) using create-react-app. Build the frontend com
 <br>
 
 Modify the App.js and other components **(IceCreamList.js, IceCream.js, etc.)** as needed to interact with Flask API endpoints (`/api/ice-creams`).
+
+```javascript
+// frontend/src/App.js
+import React, { useState, useEffect } from "react";
+import "./App.css";
+
+function App() {
+  const [iceCreams, setIceCreams] = useState([]);
+
+  useEffect(() => {
+    // the endpoint connected to the backend
+    // backend part connected to this: @app.route("/api/ice-creams", methods=["GET"])
+    fetch("/api/ice-creams")
+      .then((response) => response.json())
+      // the changing state
+      //setIceCreams(data) updates the iceCreams state with the fetched data from the API endpoint.
+      .then((data) => setIceCreams(data));
+  }, []);
+
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1>Welcome to Our Ice Cream Store</h1>
+        <div className="ice-creams">
+          <h2>Our Ice Creams:</h2>
+          <ul>
+            // ✋ the iceCreams data
+            {iceCreams.map((iceCream) => (
+              <li key={iceCream.id}>
+                <strong>{iceCream.name}</strong> - ${iceCream.price.toFixed(2)}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </header>
+    </div>
+  );
+}
+
+export default App;
+```
