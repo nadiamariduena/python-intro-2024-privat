@@ -33,3 +33,16 @@ LESSON_16_OOP$ source env/bin/activate
 //💡💡💡
 
 ```
+
+<br>
+
+### 🍊 Then EXIT
+
+- type exit to close the terminal of the project where you have your environment (optional)
+
+```javascript
+//
+(env) mycomputer:~ /LESSON_17_Virtual_Environment_and_pip$ exit //✋
+
+
+```
