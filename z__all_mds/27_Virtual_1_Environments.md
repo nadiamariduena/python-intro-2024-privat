@@ -293,6 +293,10 @@ pip install flask
 
 ### 🟡 When you install flask, it will also come with other packets
 
+- type this command to see all the packages installed (when you installed flask): `pip list`
+
+<br>
+
 ```javascript
 $ pip list
 Package            Version
