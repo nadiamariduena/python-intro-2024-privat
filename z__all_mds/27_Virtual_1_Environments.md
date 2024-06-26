@@ -447,3 +447,13 @@ python .\src\app.py
 //
 // 💡 check the console to see if it s showing the 'hello world'
 ```
+
+<br>
+<br>
+
+### 🟡 Freeze
+
+```javascript
+
+pip freeze > requirement.txt
+```

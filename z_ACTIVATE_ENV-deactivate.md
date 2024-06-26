@@ -29,7 +29,7 @@ LESSON_16_OOP$ source env/bin/activate
 
 ```javascript
 //💡💡💡
-(env) dci-st119@wunderkatz:~ /LESSON_17_Virtual_Environment_and_pip$ deactivate
+(env) mycomputer:~ /LESSON_17_Virtual_Environment_and_pip$ deactivate
 //💡💡💡
 
 ```
