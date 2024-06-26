@@ -277,7 +277,7 @@ wheel      0.43.0
 
 <br>
 
-### 🟡 Install FLASK
+## 🟡 Install FLASK
 
 #### What is flask?
 
@@ -343,6 +343,14 @@ import zipp     # A reasonable implementation of importlib.
 <br>
 <br>
 
-### 🟡 Install DJANGo
+## 🟡 Install DJANGo
 
-- Presuming you are still inside the project you installed the **virtual environment**
+<br>
+
+- 🔸 Presuming you are still inside the project you installed the **virtual environment** and you see in the terminal of that specific project this:
+
+```javascript
+(env) mycomputer:
+```
+
+- 🔸 Then you can proceed with DJANGO installation
