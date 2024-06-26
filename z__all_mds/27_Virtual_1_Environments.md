@@ -505,3 +505,5 @@ zipp==3.19.2
 **Environment Replication:**
 
 🔴 By using **requirements.txt** created by **pip freeze**, you can **recreate** the ✋ **exact Python environment on another machine** or for a different user. This is particularly useful in collaborative projects or when deploying applications to production servers.
+
+[ check the video to see MORE: 9:10min ||| Entornos Virtuales con Python (Módulo virtualenv) ✅ | Curso Python 3 🐍 # 63](https://youtu.be/TNtrAvNNxTY?si=GkseHLyA-HkqAY9U&t=550)
