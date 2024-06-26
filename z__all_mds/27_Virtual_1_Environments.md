@@ -347,13 +347,13 @@ import zipp     # A reasonable implementation of importlib.
 
 <br>
 
-- 🔸 Presuming you are still inside the project you installed the **virtual environment** and you see in the terminal of that specific project this:
+1. 🔸 Presuming you are still inside the project you installed the **virtual environment** and you see in the terminal of that specific project this:
 
 ```javascript
 (env) mycomputer$:
 ```
 
-- 🔸 Then you can proceed with DJANGO installation, type this command:
+2. 🔸 Then you can proceed with DJANGO installation, type this command:
 
 ```javascript
 pip install django
@@ -362,3 +362,35 @@ pip install django
 // Should look like this:
 (env)  mycomputer$ pip install django
 ```
+
+<br>
+
+3. - 🔸 CHECK the packages again (once Django has been installed) , type this command: `pip list`
+
+##### output
+
+```javascript
+Package            Version
+------------------ -------
+asgiref            3.8.1
+backports.zoneinfo 0.2.1
+blinker            1.8.2
+click              8.1.7
+Django             4.2.13 ✋ // it has been installed
+Flask              3.0.3
+importlib_metadata 8.0.0
+itsdangerous       2.2.0
+Jinja2             3.1.4
+MarkupSafe         2.1.5
+pip                24.1
+setuptools         70.1.0
+sqlparse           0.5.0
+typing_extensions  4.12.2
+Werkzeug           3.0.3
+wheel              0.43.0
+zipp               3.19.2
+```
+
+#### extra command to check djanfo version:
+
+`django-admin --version`
