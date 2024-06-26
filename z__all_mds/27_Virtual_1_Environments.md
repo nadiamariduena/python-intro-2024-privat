@@ -315,7 +315,13 @@ wheel              0.43.0
 zipp  3.19.2
 ```
 
-#### Purpose:
+<br>
+
+#### 🟠 Purpose:
+
+- These comments summarize the main purpose or functionality that each package typically serves in Python development, especially in the context of web frameworks like Flask.
+
+<br>
 
 ```python
 import blinker  # Implements a fast and simple object-to-object and broadcast signaling system.
@@ -324,7 +330,7 @@ from flask import Flask # Flask is a lightweight WSGI web application framework.
 import importlib_metadata # Provides metadata reading for Python packages.
 import itsdangerous  # Various helpers to pass data to untrusted environments securely.
 from jinja2 import Jinja2  # Jinja2 is a full-featured template engine for Python.
-import markupsafe  # Implements a XML/HTML/XHTML Markup safe string for Python.             # 2.1.5
+import markupsafe  # Implements a XML/HTML/XHTML Markup safe string for Python.
 import pip   # The package installer for Python.
 import setuptools  # Library for packaging Python projects.
 from werkzeug import Werkzeug  # Werkzeug is a comprehensive WSGI web application library.
