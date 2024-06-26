@@ -289,8 +289,23 @@ pip install flask
 
 #### 🟡 When you install flask, it will also come with other packets
 
+```javascript
+$ pip list
+Package            Version
+------------------ -------
+blinker            1.8.2
+click              8.1.7
+Flask              3.0.3
+importlib_metadata 8.0.0
+itsdangerous       2.2.0
+Jinja2             3.1.4 // ✋ templates, read more here: ./z__ENV-flask.md
+MarkupSafe         2.1.5
+pip                24.1
+setuptools         70.1.0
+Werkzeug           3.0.3
+wheel              0.43.0
+zipp               3.19.2
 ```
-
 
 <br>
 <br>
@@ -300,4 +315,7 @@ pip install flask
 - Click here to read about FLASK (it constains exercises) [z\_\_ENV-flask](../z__ENV-flask.md)
 
 ### Install FLASK:
+
+```
+
 ```
