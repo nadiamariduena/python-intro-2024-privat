@@ -275,10 +275,29 @@ wheel      0.43.0
 
 - Now that I have the env setup, i can install stuff but **ONLY** in this env (environment)
 
+<br>
+
+## 🟡 Install FLASK
+
 ```javascript
+
 pip install flask
 ```
+
+<br>
+<br>
+
+#### 🟡 When you install flask, it will also come with other packets
+
+```
+
+
+<br>
+<br>
 
 ### What is flask?
 
 - Click here to read about FLASK (it constains exercises) [z\_\_ENV-flask](../z__ENV-flask.md)
+
+### Install FLASK:
+```
