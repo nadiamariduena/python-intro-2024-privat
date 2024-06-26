@@ -403,7 +403,7 @@ zipp               3.19.2
 
 1. 🔸 Presuming you are still inside the project you installed the **virtual environment**
 
-- create a new folder and name it **scr** , within the scr, create a new file and name it **app.py**
+2. 🔸 create a new folder and name it **scr** , within the scr, create a new file and name it **app.py**
 
 <br>
 
@@ -413,4 +413,12 @@ project_folder/
 └── src/
     └── app.py
 
+```
+
+<br>
+
+3. 🔸 Within the app.js, type this:
+
+```python
+print("hello world 👾")
 ```
