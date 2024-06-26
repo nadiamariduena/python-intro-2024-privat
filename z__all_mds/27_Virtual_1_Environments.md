@@ -422,3 +422,14 @@ project_folder/
 ```python
 print("hello world 👾")
 ```
+
+<br>
+
+4. 🔸 TO check the output
+
+- in the tutorial you have to type the below, but i only have to click on the **arrow at the top** of the window to see the output
+
+```javascript
+//https://youtu.be/TNtrAvNNxTY?si=wyJYvcWocasOyEkR
+python .\src\app.py
+```
