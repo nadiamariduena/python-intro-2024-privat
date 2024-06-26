@@ -342,3 +342,7 @@ import zipp     # A reasonable implementation of importlib.
 
 <br>
 <br>
+
+### 🟡 Install DJANGo
+
+- Presuming you are still inside the project you installed the **virtual environment**
