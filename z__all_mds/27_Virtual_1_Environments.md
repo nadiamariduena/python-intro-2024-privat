@@ -455,9 +455,15 @@ python .\src\app.py
 
 The **pip freeze** command in Python is used to generate a **list of all installed packages** and their versions in a **specific environment**.
 
+- 🔸 once you type the command below, you will notice that within your project (the one you have created the environment), there is a new file
+
 ```javascript
 
 pip freeze > requirement.txt
 ```
 
-- When you run pip freeze, it outputs a list in the format package==version for each package installed in your current Python environment. For example:
+- When you run pip freeze, it outputs a list in the format `package==version` for each package installed in your current Python environment. For example:
+
+```javascript
+
+```
