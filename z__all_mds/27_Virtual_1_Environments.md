@@ -451,6 +451,10 @@ python .\src\app.py
 <br>
 <br>
 
+---
+
+<br>
+
 ### 🟡 Freeze
 
 The **pip freeze** command in Python is used to generate a **list of all installed packages** and their versions in a **specific environment**.
@@ -458,12 +462,26 @@ The **pip freeze** command in Python is used to generate a **list of all install
 - 🔸 once you type the command below, you will notice that within your project (the one you have created the environment), there is a new file
 
 ```javascript
-
+//Presuming you are still inside the project you installed the **virtual environment**
 pip freeze > requirement.txt
 ```
 
 - When you run pip freeze, it outputs a list in the format `package==version` for each package installed in your current Python environment. For example:
 
 ```javascript
+asgiref==3.8.1
+backports.zoneinfo==0.2.1
+blinker==1.8.2
+click==8.1.7
+Django==4.2.13
+Flask==3.0.3
+importlib_metadata==8.0.0
+itsdangerous==2.2.0
+Jinja2==3.1.4
+MarkupSafe==2.1.5
+sqlparse==0.5.0
+typing_extensions==4.12.2
+Werkzeug==3.0.3
+zipp==3.19.2
 
 ```
