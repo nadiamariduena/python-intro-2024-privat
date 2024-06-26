@@ -350,7 +350,15 @@ import zipp     # A reasonable implementation of importlib.
 - 🔸 Presuming you are still inside the project you installed the **virtual environment** and you see in the terminal of that specific project this:
 
 ```javascript
-(env) mycomputer:
+(env) mycomputer$:
 ```
 
-- 🔸 Then you can proceed with DJANGO installation
+- 🔸 Then you can proceed with DJANGO installation, type this command:
+
+```javascript
+pip install django
+
+//
+// Should look like this:
+(env)  mycomputer$ pip install django
+```
