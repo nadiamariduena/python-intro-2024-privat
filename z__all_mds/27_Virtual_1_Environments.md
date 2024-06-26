@@ -271,13 +271,17 @@ wheel      0.43.0
 
 <br>
 
-### 🟠 Installing other packets
+# 🟠 Installing other packets
 
 - Now that I have the env setup, i can install stuff but **ONLY** in this env (environment)
 
 <br>
 
-## 🟡 Install FLASK
+### 🟡 Install FLASK
+
+#### What is flask?
+
+- Click here to read about FLASK (it constains exercises) [z\_\_ENV-flask](../z__ENV-flask.md)
 
 ```javascript
 
@@ -287,7 +291,7 @@ pip install flask
 <br>
 <br>
 
-#### 🟡 When you install flask, it will also come with other packets
+### 🟡 When you install flask, it will also come with other packets
 
 ```javascript
 $ pip list
@@ -309,10 +313,6 @@ zipp               3.19.2
 
 <br>
 <br>
-
-### What is flask?
-
-- Click here to read about FLASK (it constains exercises) [z\_\_ENV-flask](../z__ENV-flask.md)
 
 ### Install FLASK:
 
