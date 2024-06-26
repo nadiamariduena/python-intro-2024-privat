@@ -347,10 +347,11 @@ import zipp     # A reasonable implementation of importlib.
 
 <br>
 
-1. 🔸 Presuming you are still inside the project you installed the **virtual environment** and you see in the terminal of that specific project this:
+1. 🔸 Presuming you are still inside the project you installed the **virtual environment**, within your terminal you see something like this (but with your own project)
 
 ```javascript
-(env) mycomputer$:
+(env) mycomputer:~/LESSON_17_Virtual_Environment_and_pip$:
+//This the name of the project where i installed the virtual environment
 ```
 
 2. 🔸 Then you can proceed with DJANGO installation, type this command:
@@ -391,6 +392,21 @@ wheel              0.43.0
 zipp               3.19.2
 ```
 
-#### extra command to check djanfo version:
+#### Extra command to check djanfo version:
 
 `django-admin --version`
+
+<br>
+<br>
+
+### 🟡 Once you have installed DJANGO
+
+1. 🔸 Presuming you are still inside the project you installed the **virtual environment**
+
+```javascript
+project_folder/
+├── env/
+└── src/
+    └── app.py
+
+```
