@@ -317,9 +317,3 @@ zipp               3.19.2
 
 <br>
 <br>
-
-### Install FLASK:
-
-```
-
-```
