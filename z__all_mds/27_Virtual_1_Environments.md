@@ -280,3 +280,5 @@ pip install flask
 ```
 
 ### What is flask?
+
+- Click here to read about FLASK (it constains exercises) [z\_\_ENV-flask](../z__ENV-flask.md)

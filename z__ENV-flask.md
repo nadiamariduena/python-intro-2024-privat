@@ -224,6 +224,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 
 function App() {
+  // ✋
   const [iceCreams, setIceCreams] = useState([]);
 
   useEffect(() => {
@@ -232,7 +233,7 @@ function App() {
     fetch("/api/ice-creams")
       .then((response) => response.json())
       // the changing state
-      //setIceCreams(data) updates the iceCreams state with the fetched data from the API endpoint.
+      // ✋setIceCreams(data) updates the iceCreams state with the fetched data from the API endpoint.
       .then((data) => setIceCreams(data));
   }, []);
 
