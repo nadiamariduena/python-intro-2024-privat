@@ -1,4 +1,4 @@
-## 🐍 PYTHON
+## 🐍 PYTHON🐍
 
 ### in this repository you will find all my notes (tutorials, exercises, books, etc...)
 
