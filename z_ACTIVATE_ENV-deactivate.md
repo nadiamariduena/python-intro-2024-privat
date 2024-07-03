@@ -8,7 +8,7 @@
 - type the following command (you have to be on your project root)
 
 ```javascript
-//💡💡💡 On macOS/Linux:
+//💡💡💡
 source env/bin/activate
 //💡💡💡
 // like so:
