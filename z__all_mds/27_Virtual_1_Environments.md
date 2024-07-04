@@ -274,6 +274,23 @@ source .env/bin/activate
 (.env) mycomputer@mycomputer:~/Documents/0_PYTHON-all/LESSON_16_OOP$
 ```
 
+<br>
+<br>
+
+## 🟣 DEACTIVATION
+
+- type `deactivate`
+
+```javascript
+// ✋  while activated you can see the (.env) present
+(.env) mycomputer@mycomputer:~/Documents/0_PYTHON-all/LESSON_16_OOP$ deactivate
+```
+#### output
+
+```javascript
+// ✋  once you have typed deactivated and press enter, you will notice that the (.env) is no longer present
+  mycomputer@mycomputer:~/Documents/0_PYTHON-all/LESSON_16_OOP$ deactivate
+```
 
 <br>
 <br>
