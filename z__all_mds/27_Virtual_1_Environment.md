@@ -106,9 +106,14 @@ lsb_release -a
 
 ```javascript
 //global
+// 1 install PIP
 sudo apt install python3-pip
+// 2 install pip.py
+wget https://bootstrap.pypa.io/get-pip.py
 ```
+### 🍊 get-pip.py
 
+- If your Ubuntu installation already comes with Python, running `wget https://bootstrap.pypa.io/get-pip.py` should not cause any clashes or conflicts with the Python installation itself. Here’s why:
 
 
 <br>
