@@ -111,10 +111,16 @@ sudo apt install python3-pip
 // 2 install pip.py
 wget https://bootstrap.pypa.io/get-pip.py
 ```
+
+<br>
+
 ### 🍊 get-pip.py
 
 - If your Ubuntu installation already comes with Python, running `wget https://bootstrap.pypa.io/get-pip.py` should not cause any clashes or conflicts with the Python installation itself. Here’s why:
 
+#### Purpose of get-pip.py:
+
+The get-pip.py script is specifically designed to install **pip for Python**. It does this by downloading the pip installer script from `PyPA` (Python Packaging Authority) and running it using the Python interpreter specified on your system.
 
 <br>
 
