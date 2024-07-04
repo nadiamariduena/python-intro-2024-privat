@@ -113,3 +113,35 @@
 
 
 - After installing the **virtualEnv** i can continue with the activation but before that, i will create the ENV folder using a different command [min: 3:23 | Entornos Virtuales con Python (Módulo virtualenv) ✅ | Curso Python 3 🐍 # 63](https://youtu.be/TNtrAvNNxTY?si=Ek5y67rtAx4DWwQP&t=203) , **as i am now using virtualenv** instead of the python env, it's different to what you can see in the tutorial i have been watching [min: 7:16 | Python Virtual Environment and pip for Beginners](https://youtu.be/eDe-z2Qy9x4?si=rLciMOjDfQO8l3sg&t=436)
+
+
+<br>
+<br>
+
+
+
+## 👾 creating the env
+
+- creating the **env** with **virtualEnv**
+
+- choose the project where you are going to install the env folder, in my case i will choose `/LESSON_16_OOP` , once you have cd into that project, type the following:
+
+```javascript
+virtualenv -p python3 env
+
+// -  -p python3: This specifies that you want to use Python 3 as the interpreter for creating the virtual environment.
+//
+// - If you omit the -p option, virtualenv will use the default Python interpreter that is available on your system when creating the virtual environment.
+//
+
+```
+
+#### output
+
+```javascript
+created virtual environment CPython3.8.10.final.0-64 in 307ms
+  creator CPython3Posix(dest=/home/mycomputer/Documents/ALL_SITE_3D_STUFF/3D-UNITY-BLENDER-REACTVR-ALL/0_PYTHON-all/PYTHON-PRIVAT/python-intro-2024-privat/LESSON_16_OOP/env, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/mycomputer/.local/share/virtualenv)
+    added seed packages: pip==24.1, setuptools==70.1.0, wheel==0.43.0
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+```
