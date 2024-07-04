@@ -1,3 +1,13 @@
+- activation issue
+
+- path issue
+
+- virtual environment setup
+
+<br>
+<br>
+<br>
+
 
 ## 🔴 ACTIVATION issue
 
