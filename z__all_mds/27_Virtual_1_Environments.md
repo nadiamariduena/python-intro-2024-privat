@@ -16,7 +16,30 @@ python3 --version
 
 <br>
 
-## WHY ?
+
+
+### 🟠  Consequences of installing PYTHON
+
+#### 🔴 WHY?:
+
+<br>
+
+ - Ubuntu ✋comes pre-installed with Python because **many system tools and applications depend on it.**
+
+ - Typically, Python 2.x or Python 3.x (depending on the Ubuntu version) is installed by default.
+
+ <br>
+
+
+<br>
+<br>
+
+---
+
+
+<br>
+
+## WHY Multiple environments ?
 
 <br>
 
