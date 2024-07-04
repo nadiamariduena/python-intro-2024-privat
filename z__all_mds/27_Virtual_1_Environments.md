@@ -284,8 +284,9 @@ source .env/bin/activate
 
 <br>
 <br>
+<br>
 
-#### 🔴 ACTIVATION issue
+## 🔴 ACTIVATION issue
 
 #### :raised_hand_with_fingers_splayed: the below happened because i had installed python on the python that already comes with some version of ubuntu
 
