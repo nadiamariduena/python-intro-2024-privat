@@ -44,7 +44,7 @@ LESSON_17_Virtual_Environment_and_pip
 
 ## the content of the `.venv` folder
 
-> within the .venv folder you will find the below folders:
+- 🟢 If it Works: within the **.venv** (or whatever name you put) folder you will find the below folders:
 
 
 ```javascript
