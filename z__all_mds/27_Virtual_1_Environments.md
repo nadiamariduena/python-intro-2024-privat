@@ -299,13 +299,6 @@ source .env/bin/activate
 
 <br>
 
-## 🍭 Once the `ENV` has been created, you will see the following:
-
-- 📌 env (folder)
-  - bin (folder, it includes the **activation files** and other stuff)
-  - lib (folder)
-  - gitignore
-  - pyvenv.cfg
 
 ## 🍭 Activate
 

@@ -156,3 +156,27 @@ created virtual environment CPython3.8.10.final.0-64 in 307ms
   - lib (folder)
   - gitignore
   - pyvenv.cfg
+
+
+<br>
+
+
+## 🍭 Activate
+
+- type the following command (you have to be on your project root)
+
+```javascript
+//
+source env/bin/activate
+//
+// like so:
+LESSON_16_OOP$ source env/bin/activate
+```
+
+#### output
+
+```javascript
+// the env is there, it means it works
+/LESSON_16_OOP$ source env/bin/activate
+(env) dci-st119@mycomputer:
+```
