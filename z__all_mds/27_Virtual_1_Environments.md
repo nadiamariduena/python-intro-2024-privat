@@ -69,20 +69,9 @@ project_folder/
 
 ```
 
+<br>
 
-🔴 If it fails, you will only have the below, but inside the bin you will only have some binary python files, not the activation & pip files
-
-- bin
-
-- include
-
-- lib
-
-- lib64
-
-- pyvenv.cfg
-
-
+#### Inspecting the `.venv` (or whatever name you used, in my case i name it `.env`) content
 
 ```python
 # You can check what the folder contains with the command below, but check that you are in the correct directory (the project you are installing the venv)
@@ -120,6 +109,24 @@ LESSON_16_OOP/.env/bin$ ls
 activate      activate.fish  pip   pip3.12  python3
 activate.csh  Activate.ps1   pip3  python   python3.12
 ```
+
+
+
+<br>
+
+
+🔴 If it fails, you will only have the below, but inside the bin you will only have some binary python files, not the activation & pip files
+
+- bin
+
+- include
+
+- lib
+
+- lib64
+
+- pyvenv.cfg
+
 
 <br>
 <br>
