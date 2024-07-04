@@ -230,6 +230,9 @@ drwxrwxr-x 3 mycomputer mycomputer 4096 Jul  3 02:45 include
 drwxrwxr-x 3 mycomputer mycomputer 4096 Jul  3 02:45 lib
 lrwxrwxrwx 1 mycomputer mycomputer    3 Jul  3 02:45 lib64 -> lib
 -rw-rw-r-- 1 mycomputer mycomputer  233 Jul  3 02:45 pyvenv.cfg
+//
+// use the below command to return back on the tree
+// cd ../
 ```
 
 ### cd `.env` , then type `ls`
