@@ -1,3 +1,6 @@
+
+
+
 # 🟡 Virtual Environment
 
 <br>
@@ -85,24 +88,6 @@ lsb_release -a
 ```javascript
 lsb_release -a
 ```
-<br>
-<br>
-
-### 🟠 Install PIP
-
-
-
-
-🔸 **Global vs. Local Scope:** When you install python3-pip, you're installing it globally on your system. This means the pip command (pip3 for Python 3) becomes available system-wide, accessible from any directory or for any user who has appropriate permissions.
-
-```javascript
-sudo apt install python3-pip
-
-```
-
----
-
-
 <br>
 
 ## WHY Multiple environments ?
