@@ -1,22 +1,37 @@
-## 🟠 Virtual Environment
-
-#### It's pretty normal to have multiple Python applications running on your computer. Sometimes, one app wants a specific version of a module, while another app wants a different version of the exact same module.
-
-🔸 So how can you provide 2 VERSIONS of the same module?
-
-- 🔴 Remember, when you use pip to install updates, it affects all Python programs on your computer. For example, if you update a module like requests using pip, every Python program that uses requests will now use the updated version.
+# 🟡 Virtual Environment
 
 <br>
 
-### 🟡 Using VIRTUAL environments to prevent this
-
-##### chatgpt
-
-✋ One solution to manage different versions of Python modules for different applications is to use virtual environments. Here’s how it works:
+## WHY ?
 
 <br>
 
-#### generate the environment
+### 🟠 It's pretty normal to have multiple Python applications running on your computer.
+
+> ✋Sometimes, one app wants a specific version of a module, while another app wants a different version of the exact same module.
+
+<br>
+
+### 🔸 How can you provide 2 VERSIONS of the same module?
+
+<br>
+
+ 🏁 Remember, when you use **pip** to install updates, it affects all Python programs on your computer.
+
+> 🔴 **For example**, if you update a module like requests using pip, every Python program that uses requests will now use the updated version.
+
+<br>
+ <br>
+
+## 🟠 Using VIRTUAL environments to prevent this
+
+##### chatgpt:
+
+### One solution to manage different versions of Python modules for different applications is to use virtual environments. Here’s how it works:
+
+<br>
+
+### 🟢 generate the environment
 
 1. check the project you are on, in my case i will **cd** into the following folder: `cd LESSON_17_Virtual_Environment_and_pip`
 
@@ -24,7 +39,9 @@
 
 3. Now type the command below:
 
-#### 🍰 CREATE
+<br>
+
+#### 🟪 CREATE
 
 ```javascript
 // venv: will help me  to create the 'virtual environment
@@ -41,8 +58,11 @@ LESSON_17_Virtual_Environment_and_pip
 ```
 
 <br>
+<br>
 
-## the content of the `.venv` folder
+## 🟧 the content of the `.venv` folder
+
+<br>
 
 - 🟢 If it Works: within the **.venv** (or whatever name you put) folder you will find the below folders:
 
@@ -71,13 +91,13 @@ project_folder/
 
 <br>
 
-#### Inspecting the `.venv` (or whatever name you used, in my case i name it `.env`) content
+### 🟧 Inspecting the `.venv` (or whatever name you used, in my case, i named it `.env`) content
 
 ```python
 # You can check what the folder contains with the command below, but check that you are in the correct directory (the project you are installing the venv)
 ls -l .venv   # Linux/macOSs
 ```
-##### output
+#### output
 
 ```javascript
 total 16
@@ -115,7 +135,7 @@ activate.csh  Activate.ps1   pip3  python   python3.12
 <br>
 
 
-🔴 If it fails, you will only have the below, but inside the bin you will only have some binary python files, not the activation & pip files
+### 🔴 If it fails, you will only have the below, but inside the bin you will only have some binary python files, not the activation & pip files
 
 - bin
 
@@ -361,7 +381,7 @@ wheel      0.43.0
 
 #### What is flask?
 
-- Click here to read about FLASK (it constains exercises) [z\_\_ENV-flask](../z__ENV-flask.md)
+- Click here to read about FLASK (it contains exercises) [z\_\_ENV-flask](../z__ENV-flask.md)
 
 ```javascript
 
