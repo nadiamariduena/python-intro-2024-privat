@@ -70,9 +70,9 @@
 <br>
 <br>
 
-### 🟪 CREATE
+## 🟪 CREATE 🌟
 
-#### 🟣 `.venv` is optional. you can type: `.env` , `.myvenv` etc etc...
+### 💅 `.venv` is optional. you can type: `.env` , `.myvenv` etc etc...
 
 
 ```javascript
@@ -96,9 +96,7 @@ LESSON_17_Virtual_Environment_and_pip
 <br>
 
 
-## 🟧 the content of the `.venv` or `.env` or `.myvenv` folder
-
-<br>
+## 🟧 the content of the `.venv`
 
 - 🟢 If it Works: within the **.venv** (or whatever name you put) folder you will find the below folders:
 
