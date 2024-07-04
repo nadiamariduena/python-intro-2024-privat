@@ -257,6 +257,10 @@ version = 3.8.10
 
 # 🌈 ACTIVATION
 
+>Once you activate the environment, you will be able to install specific modules, such as flask and more, **check this:** [27_Virtual_3_Environments_other-packages](./27_Virtual_3_Environments_other-packages.md)
+
+<br>
+
 🔸 **1.**  After you generated the environment   [Go to section](#result_of_the_generated_environment)
 
 🔸 **2.** Activate the environment
