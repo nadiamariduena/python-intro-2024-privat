@@ -96,10 +96,10 @@ lsb_release -a
 ---
 
 <br>
+<br>
 
 
-
-## 🟡 PIP global
+# 🟡 PIP global
 
 - I recently reinstalled Ubuntu, and Python came pre-installed, so I didn't have to install it separately. Now I'm wondering: does the pip I installed globally (sudo apt install python3-pip) conflict with the one invoked using python -m pip install requests, or are they separate entities?
 
