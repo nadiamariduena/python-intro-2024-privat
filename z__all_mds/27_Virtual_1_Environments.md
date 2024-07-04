@@ -31,6 +31,10 @@ python3 --version
  <br>
 
 
+ - 🛑 **If you try to install another version of Python** using **apt**, such as python3.9, it can sometimes cause conflicts with the existing Python installation.
+
+
+
 <br>
 <br>
 
