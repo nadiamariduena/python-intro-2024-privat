@@ -47,7 +47,10 @@ lsb_release -a
 
  - 🛑 **If you try to install another version of Python** using **apt**, such as python3.9, it can sometimes cause conflicts with the existing Python installation.
 
->This **can lead to errors**, especially with **dpkg** (the package manager used by apt) if dependencies are not properly managed. ✋ [check the type of errors you will get](https://askubuntu.com/questions/1329514/how-can-i-resolve-dpkg-error-after-uninstalling-python3)
+### dpkg / APT
+
+
+>This **can lead to errors**, especially with **dpkg** (the package manager used by **apt**) if dependencies are not properly managed. ✋ [check the type of errors you will get](https://askubuntu.com/questions/1329514/how-can-i-resolve-dpkg-error-after-uninstalling-python3)
 
 <br>
 <br>
@@ -118,9 +121,13 @@ wget https://bootstrap.pypa.io/get-pip.py
 
 - If your Ubuntu installation already comes with Python, running `wget https://bootstrap.pypa.io/get-pip.py` should not cause any clashes or conflicts with the Python installation itself. Here’s why:
 
-#### Purpose of get-pip.py:
+#### 🔸 Purpose of get-pip.py:
 
 The get-pip.py script is specifically designed to install **pip for Python**. It does this by downloading the pip installer script from `PyPA` (Python Packaging Authority) and running it using the Python interpreter specified on your system.
+
+#### 🔸 Ubuntu's Python Installation:
+
+Ubuntu typically comes with a system-wide installation of Python. When you run `sudo apt install python3-pip`, it installs pip specifically for the system's Python installation (Python 3 in this case).
 
 <br>
 
