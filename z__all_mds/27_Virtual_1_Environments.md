@@ -33,7 +33,7 @@ python3 --version
 
  - 🛑 **If you try to install another version of Python** using **apt**, such as python3.9, it can sometimes cause conflicts with the existing Python installation.
 
-
+>This **can lead to errors**, especially with **dpkg** (the package manager used by apt) if dependencies are not properly managed. ✋ [check the type of errors you will get](https://askubuntu.com/questions/1329514/how-can-i-resolve-dpkg-error-after-uninstalling-python3)
 
 <br>
 <br>
