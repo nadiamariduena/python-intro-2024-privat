@@ -112,7 +112,63 @@ PIP **(Python Package Installer)** is the standard package manager for Python. I
 <br>
 <br>
 
-### 🟠 Virtual Environments and PIP:
+
+
+<br>
+<br>
+
+
+
+# 🟡 PIP global
+
+<br>
+
+ I recently reinstalled Ubuntu, and Python came pre-installed, so I didn't have to install it separately. Now I'm wondering: does the pip I installed globally (sudo apt install python3-pip) conflict with the one invoked using python -m pip install requests, or are they separate entities?
+
+##### chatgpt:
+
+**Global Installation:** When you install python3-pip using apt (Advanced Package Tool), it installs pip globally on your system. This means pip will be available for use by any user and any Python project on that machine.
+
+```javascript
+//global
+// 1 install PIP
+sudo apt install python3-pip
+// 2 install pip.py
+wget https://bootstrap.pypa.io/get-pip.py
+```
+
+<br>
+
+## 🍊 get-pip.py
+
+#### If your Ubuntu installation already comes with Python, running `wget https://bootstrap.pypa.io/get-pip.py` should not cause any clashes or conflicts with the Python installation itself. Here’s why:
+
+<br>
+
+#### 🔸 Purpose of get-pip.py:
+
+The get-pip.py script is specifically designed to install **pip for Python**. It does this by downloading the pip installer script from `PyPA` (Python Packaging Authority) and running it using the Python interpreter specified on your system.
+
+#### 🔸 Ubuntu's Python Installation:
+
+Ubuntu typically comes with a system-wide installation of Python. When you run `sudo apt install python3-pip`, it installs pip specifically for the system's Python installation (Python 3 in this case).
+
+#### 🔸 Clash or Conflict:
+
+Running `wget https://bootstrap.pypa.io/get-pip.py` followed by `python3 get-pip.py` is generally **safe and should not clash with the existing Python installation** on your Ubuntu system. This process will install pip for Python 3 if it's not already installed.
+
+
+<br>
+<br>
+
+---
+
+<br>
+<br>
+
+# 🟠 Virtual Environments and PIP:
+
+ <br>
 
 Virtual environments are isolated environments for Python projects, allowing you to install packages independently of those installed globally on your system.
 
@@ -130,9 +186,14 @@ datetime: #Basic date and time types.
 json: #JSON encoder and decoder.
 ```
 
+
+## 👾 HOW to use it
+
 ##### example SYS:
 
 - check the code here [LESSON_03_tuples/rps3_whileLoop.py](../LESSON_03_tuples/rps3_whileLoop.py)
+
+<br>
 
 ```python
 ✋
@@ -155,9 +216,13 @@ sys.exit('Bye!')
 <br>
 <br>
 
-#### Packages that Can Be Installed with PIP:
+## Packages that Can Be Installed with PIP:
+
+<br>
 
 **Third-Party Packages:** These are not included with Python by default but can be easily installed using PIP from repositories like PyPI (Python Package Index). Some examples include:
+
+<br>
 
 ```python
 Requests: # HTTP library for making requests and working with APIs.
@@ -171,6 +236,7 @@ Pytorch: # Deep learning framework for building and training neural networks.
 SQLAlchemy: # SQL toolkit and Object-Relational Mapping (ORM) library for Python.
 Beautiful Soup: # Library for parsing HTML and XML documents.
 ```
+<br>
 
 ### 👾 check the numpy examples here [27_Virtual_1_numpy](27_Virtual_1_numpy_.md)
 
@@ -180,9 +246,11 @@ Beautiful Soup: # Library for parsing HTML and XML documents.
 
 <br>
 
-### 🟡 Installing packages using PIP
+## 🟡 Installing packages using PIP into specific projects
 
-- open the terminal, type: `pip install requests`
+<br>
+
+- **open** the terminal (of the project you want to install the pip request) example: `/LESSON_16_OOP$....`, **type:** `pip install requests`
 
 > The **requests** package in Python is a powerful tool used for making HTTP requests from your Python code. Here’s more detail on its purpose and some key features [ read more](../z_about_packages/pip_requests.md)
 
