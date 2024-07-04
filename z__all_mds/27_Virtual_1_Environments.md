@@ -33,6 +33,8 @@
 
 ### 🟢 generate the environment
 
+<br>
+
 1. check the project you are on, in my case i will **cd** into the following folder: `cd LESSON_17_Virtual_Environment_and_pip`
 
 2. Keep in mind that after the **step 3** here below, you will have to **ACTIVATE** the environment.
@@ -41,16 +43,22 @@
 
 <br>
 
-#### 🟪 CREATE
+### 🟪 CREATE
 
 ```javascript
 // venv: will help me  to create the 'virtual environment
 // .venv: will create a folder inside of the project
 py -m venv .venv //
 //✋ or :
-python -m venv .venv
+python -m venv .venv //()
 // once you type the above command, press ENTER, this will automatically generate a folder (check it at the left bar)
 ```
+
+### 🟣 `.venv` is optional. you can type: `.env` , `.myvenv` etc etc...
+
+<br>
+
+##### output
 
 ```python
 LESSON_17_Virtual_Environment_and_pip
