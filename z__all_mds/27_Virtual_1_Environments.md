@@ -9,6 +9,10 @@
 
 <br>
 
+
+
+
+<br>
 <br>
 
 ### 🟠 It's pretty normal to have multiple Python applications running on your computer.
@@ -34,23 +38,27 @@
  <br>
  <br>
 
-## 🟠 Using VIRTUAL environments to to manage different versions of Python modules for different applications
+### 🟠 Using VIRTUAL environments to to manage different versions of Python modules for different applications
 
 ##### chatgpt:
 
-### One solution to manage different versions of Python modules for different applications, is to use virtual environments. Here’s how it works:
+- One solution to manage different versions of Python modules for different applications, is to use virtual environments. Here’s how it works:
 
 <br>
 
-## 🌈 Generate the environment
+# 🌈 Generate
+
+### 🍰 to Generate the environment, follow the below steps:
+
 
 <br>
 
-1. check the project you are on, in my case i will **cd** into the following folder: `cd LESSON_17_Virtual_Environment_and_pip`
+🔸 1. check the project you are on, in my case i will **cd** into the following folder: `cd LESSON_17_Virtual_Environment_and_pip`
 
-2. Keep in mind that after the **step 3** here below, you will have to **ACTIVATE** the environment.
+🔸 2. Keep in mind that after the **step 3** here below, you will have to **ACTIVATE** the environment.
 
-3. Now type the command below:
+🔸 3. Now type the commands `python3 -m .env` (depending if you are using py instead of python3 or python), also the `.env` is my choice, you can use it exactly how you see in on the tutorial [6:20 | Python Virtual Environment and pip for Beginners
+](https://youtu.be/eDe-z2Qy9x4?si=WxJwgqwVc-bEeOAD&t=380):
 
 <br>
 <br>

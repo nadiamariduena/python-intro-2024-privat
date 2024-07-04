@@ -334,9 +334,11 @@ sys.exit('Bye!')
 <a name="pip_local"></a>
 
 
-## 🟡 PIP local
+# 🟡 PIP local
 
-#### Packages that Can Be Installed with PIP:
+<br>
+
+### Packages that Can Be Installed with PIP:
 
 <br>
 
