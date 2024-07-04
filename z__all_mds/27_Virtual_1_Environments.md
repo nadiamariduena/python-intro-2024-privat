@@ -1,11 +1,11 @@
 # 🟡 Virtual Environment
 
 <br>
-<br>
+
 
 ## 🟠 Check if you already have PYTHON
 
-- Before start, check if PYTHON is already installed in your machine
+#### 🔸 1. Before start, check if PYTHON is already installed in your machine
 
 ```javascript
 python --version
@@ -14,6 +14,11 @@ python3 --version
 //Remember, it's good practice to use Python 3 (python3) for most purposes as Python 2 is no longer supported.
 ```
 
+#### 🔸 2. To check your Ubuntu version, you can use:
+
+```javascript
+lsb_release -a
+```
 <br>
 
 <br>
@@ -71,11 +76,16 @@ python3 --version
 🔴 If you're using an Ubuntu version **older** than **16.04 LTS**, Python might not be included by default, or it might be an older version.
 
 
-> It's recommended to upgrade to a supported version to ensure you have access to the latest Python features and security updates.
+ > It's recommended to upgrade to a supported version to ensure you have access to the latest Python features and security updates.
 
 <br>
 
+#### 🔸 To check your Ubuntu version, you can use:
 
+```javascript
+
+lsb_release -a
+```
 <br>
 <br>
 
