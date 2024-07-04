@@ -279,7 +279,7 @@ Running `wget https://bootstrap.pypa.io/get-pip.py` followed by `python3 get-pip
 <br>
 <br>
 
-<a name="pip_local"></a>
+
 
 # 🟠 3. Virtual Environments and PIP:
 
@@ -331,7 +331,12 @@ sys.exit('Bye!')
 <br>
 <br>
 
-## Packages that Can Be Installed with PIP:
+<a name="pip_local"></a>
+
+
+## 🟡 PIP local
+
+#### Packages that Can Be Installed with PIP:
 
 <br>
 

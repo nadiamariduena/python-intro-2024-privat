@@ -5,7 +5,9 @@
 
 
 
-### Why Multiple environments ?
+## 🟢 Why Multiple environments ?
+
+<br>
 
 <br>
 
@@ -15,7 +17,7 @@
 
 <br>
 
-### 🔸 How can you provide 2 VERSIONS of the same module?
+### 🟠 How can you provide 2 VERSIONS of the same module?
 
 <br>
 
@@ -26,15 +28,21 @@
 <br>
  <br>
 
-## 🟠 Using VIRTUAL environments to prevent this
+ ---
+
+
+ <br>
+ <br>
+
+## 🟠 Using VIRTUAL environments to to manage different versions of Python modules for different applications
 
 ##### chatgpt:
 
-### One solution to manage different versions of Python modules for different applications is to use virtual environments. Here’s how it works:
+### One solution to manage different versions of Python modules for different applications, is to use virtual environments. Here’s how it works:
 
 <br>
 
-### 🟢 generate the environment
+## 🌈 Generate the environment
 
 <br>
 
@@ -45,23 +53,25 @@
 3. Now type the command below:
 
 <br>
+<br>
 
 ### 🟪 CREATE
+
+#### 🟣 `.venv` is optional. you can type: `.env` , `.myvenv` etc etc...
+
 
 ```javascript
 // venv: will help me  to create the 'virtual environment
 // .venv: will create a folder inside of the project
 py -m venv .venv //
 //✋ or :
-python -m venv .venv //()
+python -m venv .venv
+//✋ or :
+python3 -m venv .myvenv //()
 // once you type the above command, press ENTER, this will automatically generate a folder (check it at the left bar)
 ```
 
-### 🟣 `.venv` is optional. you can type: `.env` , `.myvenv` etc etc...
-
-<br>
-
-##### output
+#### output
 
 ```python
 LESSON_17_Virtual_Environment_and_pip
@@ -69,9 +79,9 @@ LESSON_17_Virtual_Environment_and_pip
 ```
 
 <br>
-<br>
 
-## 🟧 the content of the `.venv` folder
+
+## 🟧 the content of the `.venv` or `.env` or `.myvenv` folder
 
 <br>
 
