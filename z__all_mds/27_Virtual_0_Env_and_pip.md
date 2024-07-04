@@ -95,7 +95,7 @@
 
 <br>
 
-# 🟡 PIP
+# 🟡 1. PIP
 
 PIP **(Python Package Installer)** is the standard package manager for Python. It is used to install and manage additional libraries and dependencies that are not part of the Python standard library. Here's a breakdown of its key aspects and its link to virtual environments:
 
@@ -119,7 +119,7 @@ PIP **(Python Package Installer)** is the standard package manager for Python. I
 
 
 
-# 🟡 PIP global
+# 🟡 2. PIP global
 
 <br>
 
@@ -136,6 +136,11 @@ sudo apt install python3-pip
 // 2 install pip.py
 wget https://bootstrap.pypa.io/get-pip.py
 ```
+
+
+
+#### Read more about the `get pip py` [Go to section](#wget_get-pip-py)
+
 
 <br>
 
@@ -166,7 +171,7 @@ Running `wget https://bootstrap.pypa.io/get-pip.py` followed by `python3 get-pip
 <br>
 <br>
 
-# 🟠 Virtual Environments and PIP:
+# 🟠 3. Virtual Environments and PIP:
 
  <br>
 
@@ -246,13 +251,15 @@ Beautiful Soup: # Library for parsing HTML and XML documents.
 
 <br>
 
-## 🟡 Installing packages using PIP into specific projects
+## 🟡 4. Installing packages using PIP into specific projects
 
 <br>
 
 - **open** the terminal (of the project you want to install the pip request) example: `/LESSON_16_OOP$....`, **type:** `pip install requests`
 
 > The **requests** package in Python is a powerful tool used for making HTTP requests from your Python code. Here’s more detail on its purpose and some key features [ read more](../z_about_packages/pip_requests.md)
+
+<br>
 
 ### installing the request package
 
@@ -263,6 +270,8 @@ Beautiful Soup: # Library for parsing HTML and XML documents.
 pip install requests
 // option 2
 python -m pip install requests
+// option 3
+python3 -m pip install requests
 ```
 
 <br>
@@ -271,9 +280,15 @@ python -m pip install requests
 
 `/usr/bin/python: No module named pip`
 
-### 1. got to your terminal (ubuntu), type this:
+
+<a name="wget_get-pip-py"></a>
+
+## 🟣 5. wget
+
+### 01. got to your terminal (ubuntu), type this:
 
 `wget https://bootstrap.pypa.io/get-pip.py`
+
 
 ##### output
 
@@ -293,7 +308,7 @@ get-pip.py          100%[===================>]   2,17M  3,11MB/s    in 0,7s
 
 <br>
 
-### 2. type this: `python3 get-pip.py`
+### 02. type this: `python3 get-pip.py`
 
 ##### output
 
@@ -334,7 +349,7 @@ ModuleNotFoundError: No module named 'distutils.cmd' // 🔴 not good
 
 ## 🟠 If that failed, then try this:
 
-- **1)** Install pip using apt (if available)
+- **a)** Install pip using apt (if available)
 
 - If **apt** is giving you trouble, you might try installing pip via the Ubuntu package manager directly, although this method may not always yield the most recent version of pip: `sudo apt install python3-pip`
 
@@ -351,7 +366,7 @@ E: Package 'python3-pip' has no installation candidate
 // 🔴 NOT GOOD
 ```
 
-- **2)** Type this `sudo apt update` to update everything (just to be sure)
+- **b)** Type this `sudo apt update` to update everything (just to be sure)
 
 ```javascript
 // output
@@ -364,7 +379,7 @@ Reading state information... Done
 
 <br>
 
-- **3)** ✋ Since this is the module `'distutils.cmd'` that is causing the issue, i will install it:
+- **c)** ✋ Since this is the module `'distutils.cmd'` that is causing the issue, i will install it:
 
 ```javascript
 sudo apt install python3-distutils
