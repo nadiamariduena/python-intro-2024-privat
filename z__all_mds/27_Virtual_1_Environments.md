@@ -68,6 +68,10 @@ python3 --version
 <br>
 
 
+🔴 If you're using an Ubuntu version **older** than **16.04 LTS**, Python might not be included by default, or it might be an older version.
+
+
+
 <br>
 <br>
 
