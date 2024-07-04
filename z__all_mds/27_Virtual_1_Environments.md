@@ -1,6 +1,20 @@
 # 🟡 Virtual Environment
 
 <br>
+<br>
+
+## 🟠 Check if you already have PYTHON
+
+- Before start, check if PYTHON is already installed in your machine
+
+```javascript
+python --version
+// OR
+python3 --version
+//Remember, it's good practice to use Python 3 (python3) for most purposes as Python 2 is no longer supported.
+```
+
+<br>
 
 ## WHY ?
 
