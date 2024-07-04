@@ -290,66 +290,25 @@ source .env/bin/activate
 
 #### ✋ the below happened because i had installed python on the python that already comes with some version of ubuntu
 
-<br>
-
-
-<br>
+- READ MORE: [27_Virtual_2_Environments](./27_Virtual_2_Environments.md)
 
 <br>
-
 <br>
-
-
-
-
+<br>
 <br>
 
 ---
 
 <br>
 
-#### 🔴 Now tht i am inside the virtual environment like you can see in the below code, you can check the packages, type this command:
+## 🟠 Installing other packets
 
-```javascript
-pip list
-```
-
-#### output
-
-```javascript
-Package    Version
----------- -------
-pip        24.1
-setuptools 70.1.0
-wheel      0.43.0
-
-```
-
-#### like so:
-
-```javascript
-/LESSON_16_OOP$ pip list
-Package    Version
----------- -------
-pip        24.1
-setuptools 70.1.0
-wheel      0.43.0
-(env) dci-st119@mycomputer:~/
-```
+- Now that I have the env setup, i can install other stuff but **ONLY** in this env (environment) **EITHER** with the VENV or the VIRTUAL ENV, we
 
 <br>
-
----
-
 <br>
 
-# 🟠 Installing other packets
-
-- Now that I have the env setup, i can install stuff but **ONLY** in this env (environment)
-
-<br>
-
-## 🟡 Install FLASK
+### 🟡 Install FLASK
 
 #### What is flask?
 
