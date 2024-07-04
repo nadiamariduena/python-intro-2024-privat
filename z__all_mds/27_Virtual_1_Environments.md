@@ -63,6 +63,10 @@ python3 --version
 >Ubuntu `16.04 LTS` and later versions include Python by default.
 
 
+>Ubuntu `18.04 LTS` and later versions include Python 3.x by default. **Python 2.x** is not included by default in Ubuntu 18.04 LTS and later, as Python 2.x reached its end of life.
+
+<br>
+
 
 <br>
 <br>
