@@ -83,8 +83,8 @@
 - Either by using **PyEnv** so to have the possibilities to have several python versions, or by using a **library/tool** such as **VIRTUALENV**
 
 <br>
-
 <br>
+
 
 ### 🟢 PyENV
 
@@ -94,7 +94,7 @@
 
  <br>
 
-#### 🟢 VirtualENV
+### 🟢 VirtualENV
 
 - Before installing anything related to the VIRTUALENV, check if you already have this: [z\_\_ENV_PATH_issue](../z__ENV_PATH_issue.md), if you have it, you can continue" but if not, just go the link and follow the steps. ✋ to install [VIRTUALENV click here](../z__ENV_VIRTUALENV%20.md)
 
@@ -102,3 +102,8 @@
 <br>
 
 ---
+
+<br>
+
+
+## 🌈 GENERATING VIRTUAL env with virtualenv
