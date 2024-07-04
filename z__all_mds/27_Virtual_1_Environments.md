@@ -83,11 +83,19 @@ lsb_release -a
 #### 🔸 To check your Ubuntu version, you can use:
 
 ```javascript
-
 lsb_release -a
 ```
 <br>
 <br>
+
+### 🟠 INSTALL PIP
+
+- globally
+
+```javascript
+sudo apt install python3-pip
+
+```
 
 ---
 
