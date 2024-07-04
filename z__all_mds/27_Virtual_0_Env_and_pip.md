@@ -1,5 +1,9 @@
 # 🟡Virtual Environment and pip
 
+- Pip Global [Go to section](#pip_global)
+
+- Pip Local packages [Go to section](#pip_local)
+
 <br>
 <br>
 
@@ -221,7 +225,7 @@ PIP **(Python Package Installer)** is the standard package manager for Python. I
 <br>
 <br>
 
-
+<a name="pip_global"></a>
 
 # 🟡 2. PIP global
 
@@ -274,6 +278,8 @@ Running `wget https://bootstrap.pypa.io/get-pip.py` followed by `python3 get-pip
 
 <br>
 <br>
+
+<a name="pip_local"></a>
 
 # 🟠 3. Virtual Environments and PIP:
 
