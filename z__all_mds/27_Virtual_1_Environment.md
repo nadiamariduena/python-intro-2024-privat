@@ -90,6 +90,34 @@ lsb_release -a
 ```
 <br>
 
+---
+
+<br>
+
+
+
+## 🟡 PIP global
+
+- I recently reinstalled Ubuntu, and Python came pre-installed, so I didn't have to install it separately. Now I'm wondering: does the pip I installed globally (sudo apt install python3-pip) conflict with the one invoked using python -m pip install requests, or are they separate entities?
+
+##### chatgpt:
+
+**Global Installation:** When you install python3-pip using apt (Advanced Package Tool), it installs pip globally on your system. This means pip will be available for use by any user and any Python project on that machine.
+
+```javascript
+//global
+sudo apt install python3-pip
+```
+
+
+
+<br>
+
+---
+
+<br>
+<br>
+
 ## WHY Multiple environments ?
 
 <br>
