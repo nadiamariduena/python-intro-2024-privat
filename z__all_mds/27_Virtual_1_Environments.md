@@ -267,7 +267,12 @@ source .env/bin/activate
 
 
 ```
+#### output
 
+```javascript
+// ✋ here you can notice the the (env) is part present
+(.env) mycomputer@mycomputer:~/Documents/0_PYTHON-all/LESSON_16_OOP$
+```
 
 
 <br>
