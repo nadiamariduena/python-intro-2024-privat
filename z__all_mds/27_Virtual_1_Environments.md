@@ -58,6 +58,10 @@ python3 --version
 
 - ✋Python is typically included by default in most Ubuntu versions, especially in the desktop versions. However, to be specific:
 
+<br>
+
+>Ubuntu `16.04 LTS` and later versions include Python by default.
+
 
 
 <br>
