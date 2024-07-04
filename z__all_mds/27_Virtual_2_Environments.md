@@ -199,7 +199,7 @@ LESSON_16_OOP$ source env/bin/activate
 <br>
 <br>
 
-## 🟠 CHECK the list
+
 
 <br>
 
@@ -211,8 +211,12 @@ as you can see, the (env) appears here below, it means its working
 (env) dci-st119@wunderkatz:~ /LESSON_17_Virtual_Environment_and_pip$ deactivate
 ```
 
+<br>
 
-, you can check the packages, type this command:
+## 🟠 CHECK the list
+
+
+- You can check the packages, type this command:
 
 ```javascript
 pip list
@@ -238,5 +242,6 @@ Package    Version
 pip        24.1
 setuptools 70.1.0
 wheel      0.43.0
+// you will see the (env) after the output, telling you, you are still inside the virtual environment
 (env) dci-st119@mycomputer:~/
 ```
