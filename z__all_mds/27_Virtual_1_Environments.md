@@ -296,6 +296,24 @@ source .env/bin/activate
   mycomputer@mycomputer:~/Documents/0_PYTHON-all/LESSON_16_OOP$ deactivate
 ```
 
+
+<br>
+
+
+### Check the packages you have in your project
+
+```javascript
+python3 -m pip list
+```
+
+#### output
+
+```javascript
+Package Version
+------- -------
+pip     24.0
+```
+
 <br>
 <br>
 
