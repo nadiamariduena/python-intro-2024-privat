@@ -81,15 +81,13 @@
 
 <br>
 
-
-
-- Either by using PyEnv so to have the possibilities to have several python versions, or by using a library/tool such as VIRTUALENV
+- Either by using PyEnv so to have the possibilities to have several python versions, or by using a **library/tool** such as VIRTUALENV
 
 <br>
 
 <br>
 
-#### 🟢 PyENV
+### 🟢 PyENV
 
 - PyEnv for multiple python versions (one option)
 
