@@ -71,6 +71,10 @@ python3 --version
 🔴 If you're using an Ubuntu version **older** than **16.04 LTS**, Python might not be included by default, or it might be an older version.
 
 
+> It's recommended to upgrade to a supported version to ensure you have access to the latest Python features and security updates.
+
+<br>
+
 
 <br>
 <br>
