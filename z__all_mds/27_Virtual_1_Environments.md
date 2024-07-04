@@ -99,7 +99,7 @@ lrwxrwxrwx 1 mycomputer mycomputer    3 Jul  3 02:45 lib64 -> lib
 -rw-rw-r-- 1 mycomputer mycomputer  233 Jul  3 02:45 pyvenv.cfg
 ```
 
-#### cd `.env` , then type `ls`
+### cd `.env` , then type `ls`
 
 ```javascript
 // 1 cd .env
@@ -113,6 +113,12 @@ bin  include  lib  lib64  pyvenv.cfg
 // 3 cd .env
 LESSON_16_OOP/.env$ cd bin
 // output
+LESSON_16_OOP/.env/bin$
+// 4 ls to check the .bin content
+LESSON_16_OOP/.env/bin$ ls
+// output
+activate      activate.fish  pip   pip3.12  python3
+activate.csh  Activate.ps1   pip3  python   python3.12
 ```
 
 <br>
