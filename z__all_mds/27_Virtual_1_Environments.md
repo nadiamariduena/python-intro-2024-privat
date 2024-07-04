@@ -18,9 +18,9 @@
 
 #### generate the environment
 
-1. check the project ou are on, in my case i will cd into the following folder: `cd LESSON_17_Virtual_Environment_and_pip`
+1. check the project you are on, in my case i will **cd** into the following folder: `cd LESSON_17_Virtual_Environment_and_pip`
 
-2. Keep in mind that after the step 3 here below, you will have to **ACTIVATE** the environment.
+2. Keep in mind that after the **step 3** here below, you will have to **ACTIVATE** the environment.
 
 3. Now type the command below:
 
@@ -30,7 +30,8 @@
 // venv: will help me  to create the 'virtual environment
 // .venv: will create a folder inside of the project
 py -m venv .venv //
-✋ or :  python -m venv .venv
+//✋ or :
+python -m venv .venv
 // once you type the above command, press ENTER, this will automatically generate a folder (check it at the left bar)
 ```
 
@@ -45,6 +46,32 @@ LESSON_17_Virtual_Environment_and_pip
 
 > within the .venv folder you will find the below folders:
 
+
+```javascript
+project_folder/
+├── env/
+  └── bin/
+     └── activate
+     └── activate.csh
+     └── activate.fish
+     └── activate.ps1
+     └── pip
+     └── pip3
+     └── pip3.12
+     └── python
+     └── python3
+     └── python3.12
+
+  └── include/
+  └── lib/
+  └── lib64/
+  └── pyvenv.cfg
+
+```
+
+
+🔴 If it fails, you will only have the below, but inside the bin you will only have some binary python files, not the activation & pip files
+
 - bin
 
 - include
@@ -54,6 +81,8 @@ LESSON_17_Virtual_Environment_and_pip
 - lib64
 
 - pyvenv.cfg
+
+
 
 ```python
 # You can check what the folder contains with the command below, but check that you are in the correct directory (the project you are installing the venv)
