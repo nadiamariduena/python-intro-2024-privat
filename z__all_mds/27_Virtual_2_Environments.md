@@ -116,11 +116,11 @@
 
 
 <br>
-<br>
 
 
 
-## 👾 creating the env
+
+# 👾 creating the env
 
 - creating the **env** with **virtualEnv**
 
@@ -145,3 +145,14 @@ created virtual environment CPython3.8.10.final.0-64 in 307ms
     added seed packages: pip==24.1, setuptools==70.1.0, wheel==0.43.0
   activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
 ```
+
+<br>
+
+
+## 🍭 Once the `ENV` has been created, you will see the following:
+
+- 📌 env (folder)
+  - bin (folder, it includes the **activation files** and other stuff)
+  - lib (folder)
+  - gitignore
+  - pyvenv.cfg
