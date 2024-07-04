@@ -88,6 +88,32 @@ project_folder/
 # You can check what the folder contains with the command below, but check that you are in the correct directory (the project you are installing the venv)
 ls -l .venv   # Linux/macOSs
 ```
+##### output
+
+```javascript
+total 16
+drwxrwxr-x 2 mycomputer mycomputer 4096 Jul  3 02:45 bin
+drwxrwxr-x 3 mycomputer mycomputer 4096 Jul  3 02:45 include
+drwxrwxr-x 3 mycomputer mycomputer 4096 Jul  3 02:45 lib
+lrwxrwxrwx 1 mycomputer mycomputer    3 Jul  3 02:45 lib64 -> lib
+-rw-rw-r-- 1 mycomputer mycomputer  233 Jul  3 02:45 pyvenv.cfg
+```
+
+#### cd `.env` , then type `ls`
+
+```javascript
+// 1 cd .env
+LESSON_16_OOP$ cd .env
+// output
+LESSON_16_OOP/.env$
+// 2 ls to check the .env content
+LESSON_16_OOP/.env$ ls
+// output
+bin  include  lib  lib64  pyvenv.cfg
+// 3 cd .env
+LESSON_16_OOP/.env$ cd bin
+// output
+```
 
 <br>
 <br>
