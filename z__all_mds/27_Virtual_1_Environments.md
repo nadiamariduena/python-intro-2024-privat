@@ -101,7 +101,9 @@ lsb_release -a
 
 # 🟡 PIP global
 
-- I recently reinstalled Ubuntu, and Python came pre-installed, so I didn't have to install it separately. Now I'm wondering: does the pip I installed globally (sudo apt install python3-pip) conflict with the one invoked using python -m pip install requests, or are they separate entities?
+<br>
+
+ I recently reinstalled Ubuntu, and Python came pre-installed, so I didn't have to install it separately. Now I'm wondering: does the pip I installed globally (sudo apt install python3-pip) conflict with the one invoked using python -m pip install requests, or are they separate entities?
 
 ##### chatgpt:
 
@@ -117,9 +119,11 @@ wget https://bootstrap.pypa.io/get-pip.py
 
 <br>
 
-### 🍊 get-pip.py
+## 🍊 get-pip.py
 
-- If your Ubuntu installation already comes with Python, running `wget https://bootstrap.pypa.io/get-pip.py` should not cause any clashes or conflicts with the Python installation itself. Here’s why:
+#### If your Ubuntu installation already comes with Python, running `wget https://bootstrap.pypa.io/get-pip.py` should not cause any clashes or conflicts with the Python installation itself. Here’s why:
+
+<br>
 
 #### 🔸 Purpose of get-pip.py:
 
