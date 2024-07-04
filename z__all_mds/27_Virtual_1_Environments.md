@@ -16,9 +16,15 @@ python3 --version
 
 <br>
 
+<br>
+
+## 🟠  Consequences of installing PYTHON
+
+  If you install another version of Python alongside the one already on your machine, it can lead to significant issues. In some cases, resolving these issues may require a complete system wipe and reinstallation of Ubuntu. I once encountered a dpkg error and, out of curiosity, tried reinstalling Ubuntu to see if it would fix the problem. After the reinstall, Python worked without needing to be installed again.
 
 
-### 🟠  Consequences of installing PYTHON
+
+<br>
 
 #### 🔴 WHY?:
 
