@@ -129,6 +129,10 @@ The get-pip.py script is specifically designed to install **pip for Python**. It
 
 Ubuntu typically comes with a system-wide installation of Python. When you run `sudo apt install python3-pip`, it installs pip specifically for the system's Python installation (Python 3 in this case).
 
+#### 🔸 Clash or Conflict:
+
+Running `wget https://bootstrap.pypa.io/get-pip.py` followed by `python3 get-pip.py` is generally **safe and should not clash with the existing Python installation** on your Ubuntu system. This process will install pip for Python 3 if it's not already installed.
+
 <br>
 
 ---
