@@ -4,9 +4,13 @@
 # 🟡 Virtual Environment
 
 
-- Generate the environment [Go to section](#generate_the_environments)
+- GENERATE the environment [Go to section](#generate_the_environments)
+
+- ACTIVATE the environment [Go to section](#activate_the_environments)
 
 <br>
+
+
 <br>
 
 <br>
@@ -72,7 +76,7 @@
 
 ## 🟪 CREATE 🌟
 
-### 💅 `.venv` is optional. you can type: `.env` , `.myvenv` etc etc...
+
 
 
 ```javascript
@@ -86,19 +90,25 @@ python3 -m venv .myvenv //()
 // once you type the above command, press ENTER, this will automatically generate a folder (check it at the left bar)
 ```
 
-#### output
+### 💅 `.venv` is optional. you can type: `.env` , `.myvenv` etc etc...
+
+#### output:
 
 ```python
 LESSON_17_Virtual_Environment_and_pip
-   ▶️.venv # ✋ this is how it should look like
+   ▶️.venv # ✋ this is the created folfer after you typed the above commands
 ```
 
+<br>
 <br>
 
 
 ## 🟧 the content of the `.venv`
 
 - 🟢 If it Works: within the **.venv** (or whatever name you put) folder you will find the below folders:
+
+
+<a name="result_of_the_generated_environment"></a>
 
 
 ```javascript
@@ -236,7 +246,34 @@ version = 3.8.10
 <br>
 <br>
 
-#### 🍰 ACTIVATION issue
+
+---
+
+
+<br>
+<br>
+
+<a name="activate_the_environments"></a>
+
+# 🌈 ACTIVATION
+
+🔸 **1.**  After you generated the environment   [Go to section](#result_of_the_generated_environment)
+
+🔸 **2.** Activate the environment
+
+
+```javascript
+source .env/bin/activate
+
+
+```
+
+
+
+<br>
+<br>
+
+#### 🔴 ACTIVATION issue
 
 - When i tried to **CREATE** the **env** folder by using this command `python -m venv .venv` , like you see in in the tutorial [6:25 | Python Virtual Environment and pip for Beginners](https://youtu.be/eDe-z2Qy9x4?si=lsQnQ4eoy07Caa1v&t=385), so to create the venv folder, **it works BUT ✋** it DOESN'T CREATE the **SCRIPTS** folder that also comes within the **`.venv` folder**, 🟥 this script folder is important because it comes with some **activation files** , the ones you will always need, check the example: [6:35 | Python Virtual Environment and pip for Beginners](https://youtu.be/eDe-z2Qy9x4?si=3Bg6wM1cXGlaqqh-&t=395)
 
