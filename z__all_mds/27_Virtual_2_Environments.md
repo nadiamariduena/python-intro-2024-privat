@@ -61,7 +61,6 @@
 
 ## 🔴 POSSIBLE reasons
 
-<br>
 
 ### After reading about the TOPIC, i found the following:
 
@@ -77,11 +76,11 @@
 ## 🟡 Other Options:
 
 
-###  🟢 Other options you can use instead of the VIRTUAL environment offered by PYTHON
+####  🟢 Other options you can use instead of the VIRTUAL environment offered by PYTHON
 
 <br>
 
-- Either by using PyEnv so to have the possibilities to have several python versions, or by using a **library/tool** such as VIRTUALENV
+- Either by using **PyEnv** so to have the possibilities to have several python versions, or by using a **library/tool** such as **VIRTUALENV**
 
 <br>
 
