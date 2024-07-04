@@ -180,3 +180,63 @@ LESSON_16_OOP$ source env/bin/activate
 /LESSON_16_OOP$ source env/bin/activate
 (env) dci-st119@mycomputer:
 ```
+
+<br>
+<br>
+<br>
+
+## 🟠  DEACTIVATE
+
+- if you want to log out of the **environment** , type: `deactivate`
+
+```javascript
+//💡 as you can see, the (env) appears here below, it means its working
+(env) dci-st119@wunderkatz:~ /LESSON_17_Virtual_Environment_and_pip$ deactivate
+
+
+```
+
+<br>
+<br>
+
+## 🟠 CHECK the list
+
+<br>
+
+
+#### 🔴 Now tht i am inside the virtual environment like you can see it here:
+
+```javascript
+as you can see, the (env) appears here below, it means its working
+(env) dci-st119@wunderkatz:~ /LESSON_17_Virtual_Environment_and_pip$ deactivate
+```
+
+
+, you can check the packages, type this command:
+
+```javascript
+pip list
+```
+
+#### output
+
+```javascript
+Package    Version
+---------- -------
+pip        24.1
+setuptools 70.1.0
+wheel      0.43.0
+
+```
+
+#### like so:
+
+```javascript
+/LESSON_16_OOP$ pip list
+Package    Version
+---------- -------
+pip        24.1
+setuptools 70.1.0
+wheel      0.43.0
+(env) dci-st119@mycomputer:~/
+```
