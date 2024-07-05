@@ -180,6 +180,9 @@ Home-page: https://requests.readthedocs.io
 Author: Kenneth Reitz
 Author-email: me@kennethreitz.org
 License: Apache 2.0
+
+#
+# check your virtual env, folder .env then the lib, there you will find the below
 Location: /usr/lib/python3/dist-packages
 Requires:
 Required-by: yt-dlp
