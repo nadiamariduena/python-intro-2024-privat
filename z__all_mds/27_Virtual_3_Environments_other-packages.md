@@ -721,7 +721,7 @@ urllib3            2.2.2
 
 - confirm the email
 
-
+- go to the  **API keys** page:  https://home.openweathermap.org/api_keys
 
 <br>
 <br>
