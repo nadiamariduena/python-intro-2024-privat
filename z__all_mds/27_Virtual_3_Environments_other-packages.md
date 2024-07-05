@@ -21,7 +21,7 @@
 
 <br>
 
-### ABOUT:
+### 🟣 ABOUT:
 
 
 <br>
@@ -30,11 +30,16 @@
 
 <br>
 
+
+
+<br>
+<br>
+
+### 🟢 INSTALLING the request package
+
+<br>
+
 - **open** the terminal (of the project you want to install the pip request) example: `/LESSON_16_OOP$....`, **type:** `pip install requests`
-
-
-
-### installing the request package
 
 - Normally the following command would suffice to install the package on your project but if it doesn't work, you have a couple of options
 
@@ -198,7 +203,7 @@ Requirement already satisfied: requests in /usr/lib/python3/dist-packages (2.22.
 
 <br>
 
-### then check if you get the LIST (as that is what i want to obtain), type this to verify the whole process worked: `python -m pip list`
+### then check if you get the LIST with lots of packages including the requests  , type this to verify the whole process worked: `python -m pip list`
 
 ```javascript
 // ✅ GOOD!! it works. 🌈
