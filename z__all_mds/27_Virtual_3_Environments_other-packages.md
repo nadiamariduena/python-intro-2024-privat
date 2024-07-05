@@ -144,13 +144,78 @@ xkit                   0.0.0
 ```
 
 <br>
+<br>
+
+## 🟠 PIP `show requests`
+
+
+
+- The command `python3 -m pip show requests` is used to **display information** about a Python package named requests.
+
+```javascript
+/LESSON_16_OOP$ python3 -m pip show requests
+```
+
+<br>
+
+### Here’s what each part of the command does:
+
+- `python3:` Invokes the Python 3 interpreter.
+
+- `-m pip`: Uses Python's built-in module pip (Python package installer).
+
+- `show requests`: This is the argument passed to pip, where show is a command that instructs pip to display detailed information about the package named requests.
+
+
+#### output
+
+```python
+
+
+Name: requests
+Version: 2.31.0
+Summary: Python HTTP for Humans.
+Home-page: https://requests.readthedocs.io
+Author: Kenneth Reitz
+Author-email: me@kennethreitz.org
+License: Apache 2.0
+Location: /usr/lib/python3/dist-packages
+Requires:
+Required-by: yt-dlp
+```
+
+Here’s what each field in the output generally represents:
+
+ ```javascript
+Name: The name of the package (requests in this case).
+//
+Version: The current installed version of the package (2.26.0 in this example).
+//
+Summary: A brief description of what the package does.
+//
+Home-page: The URL to the package’s documentation or homepage.
+//
+Author: The author of the package.
+Author-email: The contact email of the author.
+//
+License: The licensing terms under which the package is distributed.
+//
+Location: The directory where the package is installed.
+//
+Requires: Other packages that requests depends on (urllib3, certifi, charset-normalizer, idna).
+ ```
+
+<br>
+
+<br>
+<br>
 
 ---
 
 <br>
 <br>
 
-### 🔴 but if you get the following error:
+## 🔴 But if you get the following error:
 
 `/usr/bin/python: No module named pip`
 
