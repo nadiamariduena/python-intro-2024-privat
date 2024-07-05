@@ -680,6 +680,12 @@ urllib3            2.2.2
 ```
 
 <br>
+
+### 🔴 we dont want to include the virtual env files
+
+- we dont to include the virtual env files inside of any github repository (like in react, you will have to create a file like gitignore to ignore some sensitive stuff)
+
+<br>
 <br>
 <br>
 
