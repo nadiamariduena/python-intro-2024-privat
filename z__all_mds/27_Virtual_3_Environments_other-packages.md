@@ -613,6 +613,25 @@ py -m pip uninstall requests
 
 - type the follwing command: `python3 -m pip install python-dotenv`
 
+
+
+
+```javascript
+(.env) mycomputer@mycompueruser:~/Documents/0_PYTHON-all/LESSON_16_OOP$ python3 -m pip install python-dotenv
+```
+
+
+#### output
+
+```javascript
+
+Collecting python-dotenv
+  Downloading python_dotenv-1.0.1-py3-none-any.whl.metadata (23 kB)
+Downloading python_dotenv-1.0.1-py3-none-any.whl (19 kB)
+Installing collected packages: python-dotenv
+Successfully installed python-dotenv-1.0.1
+```
+
 <br>
 <br>
 <br>
