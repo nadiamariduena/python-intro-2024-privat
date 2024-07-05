@@ -717,7 +717,16 @@ urllib3            2.2.2
 
 #### weather api
 
-- create an account
+- create an account https://home.openweathermap.org/
+
+- confirm the email
+
+
+
+<br>
+<br>
+<br>
+
 
 ---
 
