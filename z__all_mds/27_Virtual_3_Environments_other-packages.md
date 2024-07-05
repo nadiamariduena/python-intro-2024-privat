@@ -683,9 +683,19 @@ urllib3            2.2.2
 
 ### 🔴 we dont want to include the virtual env files
 
-- we dont to include the virtual env files inside of any github repository (like in react, you will have to create a file like gitignore to ignore some sensitive stuff)
+- we dont to include the virtual env files inside of any github repository (like in react, you will have to create a file like **gitignore**  to ignore some sensitive stuff)
 
-### To ignore the sensitive data continue with FREEZE here below ⤵️
+
+### 👾 IGNORE
+
+ #### WITHIN the PROJECT FOLDER  (in my case **LESSON_16_OOP**) create a `.gitignore`
+
+ - within the `.gitignore` type the following:
+
+ ```javascript
+.env
+// in your case, can be .venv or .myvenv etc ..
+ ```
 
 <br>
 <br>
@@ -719,9 +729,12 @@ pip freeze > requirement.txt
 
 #### output
 
-- you will not see anything on the console, but you will notice that a **file** called `requirements.txt` has been created inside the
+- 🔸 you will not see anything on the console, but you will notice that a **file** called `requirements.txt` has been created inside the **PROJECT FOLDER** (in my case **LESSON_16_OOP**)
+
+- 🔸 the file will contain the below:
 
 ```javascript
+//
 //- When you run **pip freeze**, it outputs a list in the format `package==version` for each package installed in your current Python environment. For example:
 asgiref==3.8.1
 backports.zoneinfo==0.2.1
