@@ -711,6 +711,8 @@ urllib3            2.2.2
 
  - once you do that, push it
 
+ 🔴 in my case it will not longer hide the `.env` because i pushed it before i created the gitignore, but here doesnt matter because i am just testing (i will remove it and generate another env or venv)
+
 <br>
 <br>
 <br>
@@ -727,7 +729,7 @@ urllib3            2.2.2
 
 - create an `.env` file (but if you already called your environment folder .env , choose something else), i will call mine `.myenv` , DONT commit/PUSH until you have added it to the gitignore file
 
-- within the myenv file , add the key
+- within the **myenv** file , add the key
 
 ```javascript
 API_KEY=6452136...more
