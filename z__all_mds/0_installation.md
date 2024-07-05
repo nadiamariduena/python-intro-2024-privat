@@ -1,5 +1,115 @@
 ## 🟡 INSTALLATION
 
+
+<br>
+
+### ⚠️  before starting with the installation of the virtual environment in your project, check a couple of things:
+
+<br>
+<br>
+
+
+### 🟠 Check if you already have PYTHON
+
+#### 🔸 1. Before start, check if PYTHON is already installed in your machine
+
+```javascript
+python --version
+// OR
+python3 --version
+//Remember, it's good practice to use Python 3 (python3) for most purposes as Python 2 is no longer supported.
+```
+
+#### 🔸 2. To check your Ubuntu version, you can use:
+
+```javascript
+lsb_release -a
+```
+<br>
+
+<br>
+
+### 🔴  Consequences of installing PYTHON
+
+  If you install another version of Python alongside the one already on your machine, it can lead to significant issues. In some cases, resolving these issues may require a complete system wipe and reinstallation of Ubuntu. I once encountered a dpkg error and, out of curiosity, tried reinstalling Ubuntu to see if it would fix the problem. After the reinstall, Python worked without needing to be installed again.
+
+
+
+<br>
+
+### 🔴 WHY?:
+
+<br>
+
+ - Ubuntu ✋comes pre-installed with Python because **many system tools and applications depend on it.**
+
+ - Typically, Python 2.x or Python 3.x (depending on the Ubuntu version) is installed by default.
+
+ <br>
+
+
+ - 🛑 **If you try to install another version of Python** using **apt**, such as python3.9, it can sometimes cause conflicts with the existing Python installation.
+
+### dpkg / APT
+
+
+>This **can lead to errors**, especially with **dpkg** (the package manager used by **apt**) if dependencies are not properly managed. ✋ [check the type of errors you will get](https://askubuntu.com/questions/1329514/how-can-i-resolve-dpkg-error-after-uninstalling-python3)
+
+<br>
+<br>
+
+
+
+
+## 🟠 When can you install PYTHON
+
+
+
+### 🟢 Ubuntu <u>Versions</u>  with Python Included by Default
+
+
+<br>
+
+- ✋Python is typically included by default in most Ubuntu versions, especially in the desktop versions. However, to be specific:
+
+<br>
+
+>Ubuntu `16.04 LTS` and later versions include Python by default.
+
+
+>Ubuntu `18.04 LTS` and later versions include Python 3.x by default. **Python 2.x** is not included by default in Ubuntu 18.04 LTS and later, as Python 2.x reached its end of life.
+
+<br>
+
+
+🔴 If you're using an Ubuntu version **older** than **16.04 LTS**, Python might not be included by default, or it might be an older version.
+
+
+ > It's recommended to upgrade to a supported version to ensure you have access to the latest Python features and security updates.
+
+<br>
+
+#### 🔸 To check your Ubuntu version, you can use:
+
+```javascript
+lsb_release -a
+```
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+---
+
+
+<br>
+
 https://www.youtube.com/watch?v=s8njoafRxCM
 
 #### Open your terminal
