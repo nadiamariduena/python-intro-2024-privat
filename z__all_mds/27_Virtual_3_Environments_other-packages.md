@@ -725,6 +725,8 @@ urllib3            2.2.2
 
 - copy the key
 
+- create an `.env` file (but if you already called your environment folder .env , choose something else), i will call mine `.myenv`
+
 <br>
 <br>
 <br>
