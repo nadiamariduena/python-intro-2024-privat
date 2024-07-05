@@ -610,8 +610,10 @@ py -m pip uninstall requests
 
 # 🟡 Install `DOTENV`
 
+ `python3 -m pip install python-dotenv` is used to install python-dotenv, which **facilitates** the management and loading of environment variables in Python applications, improving security and simplifying environment-specific configurations.
 
-- type the follwing command: `python3 -m pip install python-dotenv`
+
+#### 🟧 type the follwing command: `python3 -m pip install python-dotenv`
 
 
 
