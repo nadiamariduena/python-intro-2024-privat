@@ -9,6 +9,14 @@
 
 - FREEZE   [Go to section](#freeze)
 
+
+<br>
+<br>
+
+#### info/ and more packages
+
+https://pypi.org/
+
 <br>
 <br>
 
