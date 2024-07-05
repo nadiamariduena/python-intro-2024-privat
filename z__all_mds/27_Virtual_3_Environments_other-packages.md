@@ -693,9 +693,20 @@ urllib3            2.2.2
  - within the `.gitignore` type the following:
 
  ```javascript
+ // HIDE the .env
 .env
 // in your case, can be .venv or .myvenv etc ..
  ```
+
+ #### recapitulatif
+
+ - before pushing it remote (to your github)
+
+ - create the gitignore to hide the .venv .env etc
+
+ - add the folders or files you want to hide within the gitignore, just like in the above code
+
+ - once you do that, push it
 
 <br>
 <br>
