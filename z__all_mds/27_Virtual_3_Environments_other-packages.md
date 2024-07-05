@@ -1,13 +1,13 @@
 
 - Requests
 
-- Dotenv
+- Dotenv   [Go to section](#dot_env)
 
-- Flask
+- Flask    [Go to section](#flask)
 
-- DJANGO
+- DJANGO   [Go to section](#django)
 
-- FREEZE
+- FREEZE   [Go to section](#freeze)
 
 <br>
 <br>
@@ -606,6 +606,7 @@ py -m pip uninstall requests
 <br>
 <br>
 
+<a name="dot_env"></a>
 
 # 🟡 Install `DOTENV`
 
@@ -618,6 +619,9 @@ py -m pip uninstall requests
 <br>
 <br>
 <br>
+
+
+<a name="flask"></a>
 
 # 🟡 Install `FLASK`
 
@@ -684,6 +688,8 @@ import zipp     # A reasonable implementation of importlib.
 
 <br>
 <br>
+
+<a name="django"></a>
 
 ## 🟡 Install DJANGo
 
@@ -784,6 +790,8 @@ python .\src\app.py
 ---
 
 <br>
+
+<a name="freeze"></a>
 
 ## 🟡 Freeze
 
