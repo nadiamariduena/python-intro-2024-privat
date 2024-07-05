@@ -38,6 +38,8 @@ https://pypi.org/
 
 > The **requests** package in Python is a powerful tool used for making HTTP requests from your Python code.
 
+https://pypi.org/project/requests/
+
 
 #### Simplified HTTP Requests:
 
