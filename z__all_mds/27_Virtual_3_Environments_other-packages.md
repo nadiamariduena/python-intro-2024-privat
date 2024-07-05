@@ -633,6 +633,22 @@ Successfully installed python-dotenv-1.0.1
 ```
 
 <br>
+
+## Purpose of python-dotenv:
+
+
+### 🔸 Managing Environment Variables: In many applications, especially web applications and services:
+
+<br>
+
+- 👾 **configuration settings** and **sensitive information** like **API keys**, database **credentials**, etc., are stored in environment variables for security reasons.
+
+
+#### 🟢 it will be hidden
+
+- **python-dotenv** allows you to define these variables in a `.env` file (which is not checked into version control, keeping your secrets safe) and load them into your Python application easily.
+
+<br>
 <br>
 <br>
 
