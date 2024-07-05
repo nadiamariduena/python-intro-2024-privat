@@ -701,7 +701,7 @@ urllib3            2.2.2
 // in your case, can be .venv or .myvenv etc ..
  ```
 
- #### recapitulatif
+ ### 🌈 recapitulatif
 
  - before pushing it remote (to your github)
 
@@ -725,6 +725,12 @@ urllib3            2.2.2
 <a name="freeze"></a>
 
 # 🟡 Freeze
+
+### the requirement.txt will tell the dev (what should be installed to run the project)
+
+
+<br>
+<br>
 
 The **pip freeze** command in Python is used to generate a **list of all installed packages** and their versions in a **specific environment**.
 
