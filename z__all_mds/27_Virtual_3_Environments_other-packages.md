@@ -55,7 +55,7 @@ python3 -m pip install requests
 #### OUTCOME:
 
 
--  Check if you get the LIST with lots of packages including the requests  , type this to verify the whole process worked: `python -m pip list`
+-  Check if you get the LIST with lots of packages including the **requests**, type this to verify the whole process worked: `python -m pip list`
 
 ```javascript
 // ✅ GOOD!! it works. 🌈
