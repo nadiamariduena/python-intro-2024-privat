@@ -1,6 +1,8 @@
 
 - Requests
 
+- Dotenv
+
 - Flask
 
 - DJANGO
@@ -594,6 +596,18 @@ requests               2.32.3 // ✋ different to what i had before, the first c
 py -m pip uninstall requests
 ```
 
+<br>
+<br>
+<br>
+
+---
+
+<br>
+<br>
+<br>
+
+
+# 🟡 Install `DOTENV`
 
 <br>
 <br>
@@ -605,7 +619,7 @@ py -m pip uninstall requests
 <br>
 <br>
 
-### 🟡 Install FLASK
+# 🟡 Install `FLASK`
 
 #### What is flask?
 
