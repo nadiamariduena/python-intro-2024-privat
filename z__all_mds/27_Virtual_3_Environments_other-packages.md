@@ -685,15 +685,7 @@ urllib3            2.2.2
 
 - we dont to include the virtual env files inside of any github repository (like in react, you will have to create a file like gitignore to ignore some sensitive stuff)
 
-```javascript
-python3 -m pip freeze > requirements.txt
-```
-
-#### output
-
-```javascript
-(.env) lucizor@lucibellsan:~/Documents/0_PYTHON-all/PYTHON-PRIVAT/python-intro-2024-privat/LESSON_16_OOP$ python3 -m pip freeze > requirements.txt
-```
+### To ignore the sensitive data continue with FREEZE here below ⤵️
 
 <br>
 <br>
@@ -703,6 +695,84 @@ python3 -m pip freeze > requirements.txt
 
 <br>
 <br>
+<br>
+
+
+<a name="freeze"></a>
+
+# 🟡 Freeze
+
+The **pip freeze** command in Python is used to generate a **list of all installed packages** and their versions in a **specific environment**.
+
+- 🔸 once you type the command below, you will notice that within your project (the one you have created the environment), there is a new file
+
+```javascript
+//Presuming you are still inside the project you installed the **virtual environment**
+pip freeze > requirement.txt
+
+// 🔴 You have to be inside the (env)
+// Like so 🔴
+(.env) mycomputer@computeruser:~/0_PYTHON-all/LESSON_16_OOP$ python3 -m pip freeze > requirements.txt
+```
+
+<br>
+
+#### output
+
+- you will not see anything on the console, but you will notice that a **file** called `requirements.txt` has been created inside the
+
+```javascript
+//- When you run **pip freeze**, it outputs a list in the format `package==version` for each package installed in your current Python environment. For example:
+asgiref==3.8.1
+backports.zoneinfo==0.2.1
+blinker==1.8.2
+click==8.1.7
+Django==4.2.13
+Flask==3.0.3
+importlib_metadata==8.0.0
+itsdangerous==2.2.0
+Jinja2==3.1.4
+MarkupSafe==2.1.5
+sqlparse==0.5.0
+typing_extensions==4.12.2
+Werkzeug==3.0.3
+zipp==3.19.2
+
+```
+
+<br>
+
+### 🟠 Purpose of pip freeze
+
+<br>
+
+**Dependency Management:**
+
+🔸 It helps you keep track of the exact versions of all installed packages in your project. This is crucial for reproducibility because different versions of packages might have different behaviors or introduce breaking changes.
+
+**Creating Requirements Files:**
+
+🔸 One common use of pip freeze is to generate a **requirements.txt file**.
+
+> 💡 This file **lists all the packages and their versions that are required for your project to run correctly**. This is essential for sharing your project with others or deploying it to different environments, ensuring that everyone installs the same versions of packages.
+
+**Environment Replication:**
+
+🔴 By using **requirements.txt** created by **pip freeze**, you can **recreate** the ✋ **exact Python environment on another machine** or for a different user. This is particularly useful in collaborative projects or when deploying applications to production servers.
+
+[ check the video to see MORE: 9:10min ||| Entornos Virtuales con Python (Módulo virtualenv) ✅ | Curso Python 3 🐍 # 63](https://youtu.be/TNtrAvNNxTY?si=GkseHLyA-HkqAY9U&t=550)
+
+### or [min: 12:23 | Python Virtual Environment and pip for Beginners
+
+](https://youtu.be/eDe-z2Qy9x4?si=U1HE23ljMVVBhpAD&t=743)
+
+
+<br>
+<br>
+<br>
+
+---
+
 <br>
 
 
@@ -869,74 +939,6 @@ python .\src\app.py
 // 💡 check the console to see if it s showing the 'hello world'
 ```
 
-<br>
-<br>
-
----
-
-<br>
-
-<a name="freeze"></a>
-
-# 🟡 Freeze
-
-The **pip freeze** command in Python is used to generate a **list of all installed packages** and their versions in a **specific environment**.
-
-- 🔸 once you type the command below, you will notice that within your project (the one you have created the environment), there is a new file
-
-```javascript
-//Presuming you are still inside the project you installed the **virtual environment**
-pip freeze > requirement.txt
-```
-
-- When you run pip freeze, it outputs a list in the format `package==version` for each package installed in your current Python environment. For example:
-
-```javascript
-asgiref==3.8.1
-backports.zoneinfo==0.2.1
-blinker==1.8.2
-click==8.1.7
-Django==4.2.13
-Flask==3.0.3
-importlib_metadata==8.0.0
-itsdangerous==2.2.0
-Jinja2==3.1.4
-MarkupSafe==2.1.5
-sqlparse==0.5.0
-typing_extensions==4.12.2
-Werkzeug==3.0.3
-zipp==3.19.2
-
-```
-
-<br>
-
-### 🟠 Purpose of pip freeze
-
-<br>
-
-**Dependency Management:**
-
-🔸 It helps you keep track of the exact versions of all installed packages in your project. This is crucial for reproducibility because different versions of packages might have different behaviors or introduce breaking changes.
-
-**Creating Requirements Files:**
-
-🔸 One common use of pip freeze is to generate a **requirements.txt file**.
-
-> 💡 This file **lists all the packages and their versions that are required for your project to run correctly**. This is essential for sharing your project with others or deploying it to different environments, ensuring that everyone installs the same versions of packages.
-
-**Environment Replication:**
-
-🔴 By using **requirements.txt** created by **pip freeze**, you can **recreate** the ✋ **exact Python environment on another machine** or for a different user. This is particularly useful in collaborative projects or when deploying applications to production servers.
-
-[ check the video to see MORE: 9:10min ||| Entornos Virtuales con Python (Módulo virtualenv) ✅ | Curso Python 3 🐍 # 63](https://youtu.be/TNtrAvNNxTY?si=GkseHLyA-HkqAY9U&t=550)
-
-### or [min: 12:23 | Python Virtual Environment and pip for Beginners
-
-](https://youtu.be/eDe-z2Qy9x4?si=U1HE23ljMVVBhpAD&t=743)
-
-
-<br>
 <br>
 <br>
 
