@@ -685,6 +685,16 @@ urllib3            2.2.2
 
 - we dont to include the virtual env files inside of any github repository (like in react, you will have to create a file like gitignore to ignore some sensitive stuff)
 
+```javascript
+python3 -m pip freeze > requirements.txt
+```
+
+#### output
+
+```javascript
+(.env) lucizor@lucibellsan:~/Documents/0_PYTHON-all/PYTHON-PRIVAT/python-intro-2024-privat/LESSON_16_OOP$ python3 -m pip freeze > requirements.txt
+```
+
 <br>
 <br>
 <br>
