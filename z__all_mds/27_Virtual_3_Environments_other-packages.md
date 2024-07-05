@@ -26,7 +26,14 @@
 
 <br>
 
-> The **requests** package in Python is a powerful tool used for making HTTP requests from your Python code. Here’s more detail on its purpose and some key features [ read more](../z_about_packages/pip_requests.md)
+> The **requests** package in Python is a powerful tool used for making HTTP requests from your Python code.
+
+
+#### Simplified HTTP Requests:
+
+-  Simplified HTTP Requests: requests allows you to send HTTP requests with minimal code. It abstracts the complexities of making HTTP requests and handling responses.
+
+- 🔴 Here’s more detail on its purpose and some key features [ read more](../z_about_packages/pip_requests.md)
 
 <br>
 
@@ -35,7 +42,7 @@
 <br>
 <br>
 
-### 🟢 INSTALLING the request package
+### 🟢 INSTALLING the `request`
 
 <br>
 
