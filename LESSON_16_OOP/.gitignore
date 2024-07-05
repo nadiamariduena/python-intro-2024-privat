@@ -1,3 +1,4 @@
 .env
 # in your case, can be .venv or .myvenv etc ..
 #
+.myenv

@@ -725,7 +725,13 @@ urllib3            2.2.2
 
 - copy the key
 
-- create an `.env` file (but if you already called your environment folder .env , choose something else), i will call mine `.myenv`
+- create an `.env` file (but if you already called your environment folder .env , choose something else), i will call mine `.myenv` , DONT commit/PUSH until you have added it to the gitignore file
+
+- within the myenv file , add the key
+
+```javascript
+API_KEY=6452136...more
+```
 
 <br>
 <br>
