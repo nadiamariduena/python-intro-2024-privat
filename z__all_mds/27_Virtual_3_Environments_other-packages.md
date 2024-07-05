@@ -690,6 +690,9 @@ urllib3            2.2.2
 
  #### WITHIN the PROJECT FOLDER  (in my case **LESSON_16_OOP**) create a `.gitignore`
 
+
+ [min: 13:10](https://youtu.be/eDe-z2Qy9x4?si=AiHlDGxr98pEbwqh&t=790)
+
  - within the `.gitignore` type the following:
 
  ```javascript
