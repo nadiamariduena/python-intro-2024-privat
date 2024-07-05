@@ -610,6 +610,9 @@ py -m pip uninstall requests
 
 # 🟡 Install `DOTENV`
 
+
+- type the follwing command: `python3 -m pip install python-dotenv`
+
 <br>
 <br>
 <br>
