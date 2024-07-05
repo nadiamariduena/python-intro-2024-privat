@@ -17,7 +17,7 @@
 
 <br>
 
-## 🟡 PIP `REQUESTS`
+# 🟡 PIP `REQUESTS`
 
 
 
@@ -713,7 +713,7 @@ import zipp     # A reasonable implementation of importlib.
 
 <a name="django"></a>
 
-## 🟡 Install DJANGo
+# 🟡 Install DJANGo
 
 <br>
 
@@ -815,7 +815,7 @@ python .\src\app.py
 
 <a name="freeze"></a>
 
-## 🟡 Freeze
+# 🟡 Freeze
 
 The **pip freeze** command in Python is used to generate a **list of all installed packages** and their versions in a **specific environment**.
 
