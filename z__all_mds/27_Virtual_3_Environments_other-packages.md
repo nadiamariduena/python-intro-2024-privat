@@ -715,6 +715,10 @@ urllib3            2.2.2
 <br>
 <br>
 
+#### weather api
+
+- create an account
+
 ---
 
 <br>
