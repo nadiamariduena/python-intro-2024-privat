@@ -723,6 +723,8 @@ urllib3            2.2.2
 
 - go to the  **API keys** page:  https://home.openweathermap.org/api_keys
 
+- copy the key
+
 <br>
 <br>
 <br>
