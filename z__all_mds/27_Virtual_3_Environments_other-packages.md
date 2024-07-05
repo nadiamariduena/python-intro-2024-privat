@@ -661,6 +661,25 @@ Successfully installed python-dotenv-1.0.1
 - **python-dotenv** allows you to define these variables in a `.env` file (which is not checked into version control, keeping your secrets safe) and load them into your Python application easily.
 
 <br>
+
+#### check the list
+
+```javascript
+python3 -m pip list
+
+//
+// output
+Package            Version
+------------------ --------
+certifi            2024.7.4
+charset-normalizer 3.3.2
+idna               3.7
+pip                24.0
+python-dotenv      1.0.1 ✋
+urllib3            2.2.2
+```
+
+<br>
 <br>
 <br>
 
