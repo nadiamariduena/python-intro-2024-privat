@@ -1,4 +1,13 @@
-## Weather Api
+## 🟡 Weather Api
+
+- this is a continuation of the **DOTENV** setup: [click here to be redirected there](./z__all_mds/27_Virtual_3_Environments_other-packages.md)
+
+>Once you have clicked on the above link, click on the **"Dotenv   [Go to section]"** there you will catch up about the topic
+
+<br>
+<br>
+
+### STEPS:
 
 - create an account **here**: https://home.openweathermap.org/
 
