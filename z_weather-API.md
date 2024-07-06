@@ -49,3 +49,18 @@ project_folder/
 └── weather.py/ // create this ✋
 
 ```
+
+<br>
+<br>
+
+### Continue with the steps:
+
+<br>
+
+-  🍊 **Go back to the weather API** page, and click on the API link (top bar) or click here: [openweathermap.org/api](https://openweathermap.org/api)
+
+
+
+- Once there, scroll down and look for the **current weather data**
+
+- click on the grey button that says   [API doc](https://openweathermap.org/current)
