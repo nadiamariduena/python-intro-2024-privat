@@ -69,5 +69,8 @@ project_folder/
 
 
 ```javascript
+// - You can provide a city instead of lat (latitude) or lon (longitude)
+// read more here: https://openweathermap.org/current
+//
 https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
 ```
