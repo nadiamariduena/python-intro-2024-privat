@@ -64,3 +64,10 @@ project_folder/
 - Once there, scroll down and look for the **current weather data**
 
 - click on the grey button that says   [API doc](https://openweathermap.org/current)
+
+#### Once there you will find this url (We will be modifying this)
+
+
+```javascript
+https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
+```
