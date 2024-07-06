@@ -7,7 +7,7 @@
 
 <br>
 
-### The structure
+### 🍰 The structure
 
 - after you read about the DOTENV and followed the steps there: [DOTENV intro](./z__all_mds/27_Virtual_3_Environments_other-packages.md), you should have the following
 
