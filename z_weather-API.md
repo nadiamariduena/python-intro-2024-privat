@@ -11,7 +11,7 @@
 <br>
 <br>
 
-### STEPS:
+### 🟣 STEPS:
 
 - create an account **here**: https://home.openweathermap.org/
 
@@ -31,7 +31,7 @@ API_KEY=6452136...more
 ```
 
 
-- CREATE a new file, name it **weather.py**
+- CREATE a new file, call it **weather.py**
 
 <br>
 <br>
@@ -53,7 +53,7 @@ project_folder/
 <br>
 <br>
 
-### Continue with the steps:
+###  🟣 Continue with the steps:
 
 <br>
 
@@ -75,7 +75,7 @@ project_folder/
 ```javascript
 // - You can provide a city instead of lat (latitude) or lon (longitude)
 // read more here: https://openweathermap.org/current
-//
+// ✋
 https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
 ```
 
@@ -111,4 +111,18 @@ Temperature in Kelvin is used by default, no need to use units parameter in API 
 
 //
 # List of all API parameters with units openweathermap.org/weather-data
+```
+
+###  🟣 Continue with the steps:
+
+- Within the `weather.py` , create a new variable, call it: **request_url** like so: `request_url = "add the weather url here"`
+
+<br>
+
+```javascript
+// before mods
+request_url = "https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}"
+
+// after modification
+request_url = "https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}&units=imperial"
 ```
