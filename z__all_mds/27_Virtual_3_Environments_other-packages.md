@@ -1,7 +1,12 @@
 
 - Requests
 
+<br>
+
 - Dotenv   [Go to section](#dot_env)
+  - - weather **API** [Go to section](#weather_api)
+
+  <br>
 
 - Flask    [Go to section](#flask)
 
@@ -713,27 +718,17 @@ urllib3            2.2.2
 
  🔴 in my case it will not longer hide the `.env` because i pushed it before i created the gitignore, but here doesnt matter because i am just testing (i will remove it and generate another env or venv)
 
+
 <br>
-<br>
-<br>
 
-#### weather api
+<a name="weather_api"></a>
 
-- create an account https://home.openweathermap.org/
+## 🍊 API
 
-- confirm the email
 
-- go to the  **API keys** page:  https://home.openweathermap.org/api_keys
+- Hide the KEY from the weather API
 
-- copy the key
-
-- create an `.env` file (but if you already called your environment folder .env , choose something else), i will call mine `.myenv` , DONT commit/PUSH until you have added it to the gitignore file
-
-- within the **myenv** file , add the key
-
-```javascript
-API_KEY=6452136...more
-```
+ [WEATHER API](../z_weather-API.md)
 
 <br>
 <br>
