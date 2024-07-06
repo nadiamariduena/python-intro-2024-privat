@@ -65,12 +65,50 @@ project_folder/
 
 - click on the grey button that says   [API doc](https://openweathermap.org/current)
 
-#### Once there you will find this url (We will be modifying this)
+<br>
 
+#### Once there [API doc](https://openweathermap.org/current) ,  you will find this url BELOW (We will be modifying this)
+
+
+### 🔸 lat & lon
 
 ```javascript
 // - You can provide a city instead of lat (latitude) or lon (longitude)
 // read more here: https://openweathermap.org/current
 //
 https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
+```
+
+<br>
+
+### 🔸 units of measure
+
+- at the right side of the page  [API doc](https://openweathermap.org/current) (at the bottom) , you will find the **units of measure**, click here: [current#data](https://openweathermap.org/current#data)
+
+<br>
+
+##### there you will see something like this:
+
+**Units of measurement**
+
+`standard`, `metric`, and `imperial` units are available.  [List of all API parameters with available units](https://openweathermap.org/weather-data).
+
+**Parameters**
+
+`units`	optional	`standard`, `metric`, `imperial`. When you do not use the `units` parameter, format is `standard` by default.
+
+<br>
+
+```python
+# Temperature is available in Fahrenheit, Celsius and Kelvin units.
+
+For temperature in Fahrenheit use units=imperial
+
+For temperature in Celsius use units=metric
+
+//
+Temperature in Kelvin is used by default, no need to use units parameter in API call
+
+//
+# List of all API parameters with units openweathermap.org/weather-data
 ```
