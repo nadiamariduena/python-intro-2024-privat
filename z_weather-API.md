@@ -4,6 +4,23 @@
 
 >Once you have clicked on the above link, click on the **"Dotenv   [Go to section]"** there you will catch up about the topic
 
+
+<br>
+
+### The structure
+
+- after you read about the DOTENV and followed the steps there: [DOTENV intro](./z__all_mds/27_Virtual_3_Environments_other-packages.md), you should have the following
+
+```javascript
+project_folder/
+├── env/
+├── .gitignore/
+├── .myenv/
+├── requirements.txt/
+└── weather.py/ // create this ✋
+
+```
+
 <br>
 <br>
 
