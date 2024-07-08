@@ -219,3 +219,8 @@ File Metadata: fs.stat, fs.lstat, etc.
 - 🟢 Multer is actually not used in Python; it's a middleware for handling multipart/form-data, which is commonly used with Node.js.
 
 -  In Python, especially in web development frameworks like **Flask and Django**, there are alternative libraries and built-in functionality for handling file uploads and multipart/form-data.
+
+### For Flask
+
+🔸 a popular choice is the **Flask-Uploads** extension, which provides easy file upload capabilities. It simplifies handling file uploads and integrates well with Flask's ecosystem.
+
