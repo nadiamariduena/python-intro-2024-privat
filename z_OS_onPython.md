@@ -109,3 +109,18 @@ import os
 os.chdir('new_directory')
 
 ```
+
+<br>
+
+### 🔸 4. Checking if a Path is a Directory:
+
+- You can check if a given path points to a directory using `os.path.isdir()`.
+
+```python
+import os
+
+# Check if 'new_directory' is a directory
+is_directory = os.path.isdir('new_directory')
+print(is_directory)
+
+```
