@@ -21,4 +21,6 @@ import os
 
 ##### chatgpt
 
-- 🟢 Yes, the os module in Python provides several functions and methods that can help you work with directories (folders) and files on your computer. Here are some of the common directory-related tasks you can perform using the os module:
+- 🟢 Yes, the os module in Python provides several functions and methods that can help you work with directories (folders) and files on your computer.
+
+ **Here are some** of the common directory-related tasks you can perform using the os module:
