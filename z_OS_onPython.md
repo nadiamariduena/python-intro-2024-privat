@@ -25,9 +25,11 @@ import os
 
 - 🟢 Yes, the os module in Python provides several functions and methods that can help you work with directories (folders) and files on your computer.
 
+<br>
+
  **Here are some** of the common directory-related tasks you can perform using the os module:
 
- #### 🔸 1.Listing Files and Directories:
+ ### 🔸 1. Listing Files and Directories:
 
  - You can use `os.listdir()` to get a list of all files and directories in a given directory.
 
@@ -76,3 +78,20 @@ else:
 /bin/python3 /home/mycomputer/Documents/0_PYTHON-all/PYTHON-PRIVAT/python-intro-2024-privat/LESSON_16_OOP/weather.py
 ['.myenv', '.env', 'BankingIntro', 'OOP_0_.py', 'requirements.txt', '.gitignore', 'OOP_intro.py', 'weather.py']
  ```
+
+
+<br>
+<br>
+
+ ### 🔸 2. Creating Directories:
+
+ - You can create a new directory using `os.mkdir()`.
+
+ - when you run your code, it will automatically create a new directory(check the left bar, you will see this new directory appearing there)
+
+ ```python
+import os
+
+# Create a new directory
+os.mkdir('new_directory')
+```
