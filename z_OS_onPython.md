@@ -24,3 +24,7 @@ import os
 - 🟢 Yes, the os module in Python provides several functions and methods that can help you work with directories (folders) and files on your computer.
 
  **Here are some** of the common directory-related tasks you can perform using the os module:
+
+ #### 🔸 1.Listing Files and Directories:
+
+ - You can use os.listdir() to get a list of all files and directories in a given directory.
