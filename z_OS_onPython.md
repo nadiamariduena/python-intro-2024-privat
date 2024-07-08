@@ -212,7 +212,16 @@ File Metadata: fs.stat, fs.lstat, etc.
 
 🔴 **After multer has stored the uploaded files temporarily, you can use fs to manage these files** further—such as moving them to a permanent location, renaming them, checking their properties, etc. This is demonstrated in the previous examples where fs.rename is used to move the uploaded file to a designated directory.
 
-#### 🟣 is multer used in python or are there better options?
+
+### Why Use multer with fs?
+
+
+
+<br>
+<br>
+<br>
+
+### 🟣 is multer used in python or are there better options?
 
 ##### chatgpt
 
