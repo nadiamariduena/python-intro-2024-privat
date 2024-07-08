@@ -224,3 +224,6 @@ File Metadata: fs.stat, fs.lstat, etc.
 
 🔸 a popular choice is the **Flask-Uploads** extension, which provides easy file upload capabilities. It simplifies handling file uploads and integrates well with Flask's ecosystem.
 
+### In Django
+
+ 🔸file uploads are handled through Django's form handling capabilities, which includes built-in support for file uploads and validation.
