@@ -172,3 +172,5 @@ for root, dirs, files in os.walk('.'):
 ### 🟢 Node.js (File System Module):
 
 - When JavaScript is used in a server-side environment like Node.js, you can use the built-in fs module **(File System)** to manipulate files and directories on the server's file system.
+
+### 🟢 Browser APIs (limited):
