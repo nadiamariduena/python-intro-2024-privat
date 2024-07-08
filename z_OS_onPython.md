@@ -144,3 +144,14 @@ os.rmdir('new_directory')
 ### 🔸 6. Walking Directory Trees:
 
 - You can recursively iterate through a directory tree using `os.walk()`, which yields the path to each directory and its contents.
+
+```python
+import os
+
+# Walk through the directory tree starting from the current directory
+for root, dirs, files in os.walk('.'):
+    print(f'Current directory: {root}')
+    print(f'Subdirectories: {dirs}')
+    print(f'Files: {files}')
+
+```
