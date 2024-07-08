@@ -17,6 +17,18 @@
 
 - confirm the email
 
+-You will receive an confirmation email, then you will receive a second email that says
+
+```javascript
+// API key:
+// - Within the next couple of hours, your API key:
+// 62523871...your api will be activated and ready to use
+// - You can later create more API keys on your account page
+// - Please, always use your API key in each API call
+```
+
+<br>
+
 - go to the  **API keys** page:  https://home.openweathermap.org/api_keys
 
 - copy the key
