@@ -221,6 +221,70 @@ File Metadata: fs.stat, fs.lstat, etc.
 
 **Best Practices:** Using multer alongside fs follows best practices for handling file uploads securely and efficiently in Node.js applications.
 
+```javascript
+//  i will be adding an example from an old project
+const express = require('express');
+const multer = require('multer');
+const fs = require('fs');
+const path = require('path');
+
+const app = express();
+const port = 5000;
+
+// Multer configuration
+const storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, './uploads'); // Destination directory where uploaded files will be stored
+  },
+  filename: function (req, file, cb) {
+    cb(null, Date.now() + path.extname(file.originalname)); // Rename file with timestamp + original extension
+  }
+});
+
+const upload = multer({ storage: storage });
+
+// Serve static files (for testing purposes)
+app.use(express.static('public'));
+
+// Endpoint for user registration
+app.post('/register', upload.single('profileImage'), (req, res) => {
+  const { username, email } = req.body;
+
+  // Get uploaded file details
+  const profileImage = req.file;
+
+  // Validate and process the registration (e.g., save to database)
+  // For demonstration, we're just logging the details
+  console.log('User registered:');
+  console.log('Username:', username);
+  console.log('Email:', email);
+  console.log('Profile Image:', profileImage);
+
+  // Move uploaded file to a permanent location (if needed)
+  if (profileImage) {
+    const oldPath = profileImage.path;
+    const newPath = path.join(__dirname, 'uploads', profileImage.filename);
+
+    fs.rename(oldPath, newPath, (err) => {
+      if (err) {
+        console.error(err);
+        return res.status(500).send('Error uploading image');
+      }
+
+      console.log('Image uploaded successfully');
+    });
+  }
+
+  res.status(200).send('Registration successful');
+});
+
+app.listen(port, () => {
+  console.log(`Server running on http://localhost:${port}`);
+});
+
+
+```
+
 <br>
 <br>
 <br>
