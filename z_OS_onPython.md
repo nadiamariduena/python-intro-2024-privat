@@ -208,3 +208,6 @@ File Metadata: fs.stat, fs.lstat, etc.
 
 -  multer is used to handle incoming file uploads, storing uploaded files temporarily on the server. It abstracts away the complexities of parsing multipart/form-data and provides methods to control where and how uploaded files are stored.
 
+#### File System Operations:
+
+🔴 **After multer has stored the uploaded files temporarily, you can use fs to manage these files** further—such as moving them to a permanent location, renaming them, checking their properties, etc. This is demonstrated in the previous examples where fs.rename is used to move the uploaded file to a designated directory.
