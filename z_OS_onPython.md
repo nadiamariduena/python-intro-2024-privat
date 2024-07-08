@@ -169,11 +169,11 @@ for root, dirs, files in os.walk('.'):
 
 - JavaScript, **being primarily a language that runs in the browser**, has limited direct access to the operating system for security reasons. However, there are several ways and libraries that can help achieve similar functionality:
 
-### 🟢 Node.js (File System Module):
+### 🫐 Node.js (File System Module):
 
 - When JavaScript is used in a server-side environment like Node.js, you can use the built-in fs module **(File System)** to manipulate files and directories on the server's file system.
 
-### 🟢 Browser APIs (limited):
+### 🫐 Browser APIs (limited):
 
 - In browser-based JavaScript, access to the operating system is restricted due to security concerns. However, there are some APIs available that can interact with the user's file system in a limited way, such as the File API and FileSystem API.
 
@@ -211,3 +211,9 @@ File Metadata: fs.stat, fs.lstat, etc.
 #### File System Operations:
 
 🔴 **After multer has stored the uploaded files temporarily, you can use fs to manage these files** further—such as moving them to a permanent location, renaming them, checking their properties, etc. This is demonstrated in the previous examples where fs.rename is used to move the uploaded file to a designated directory.
+
+#### 🟣 is multer used in python or are there better options?
+
+##### chatgpt
+
+- 🟢
