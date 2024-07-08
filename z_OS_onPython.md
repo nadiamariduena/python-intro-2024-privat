@@ -155,3 +155,16 @@ for root, dirs, files in os.walk('.'):
     print(f'Files: {files}')
 
 ```
+
+<br>
+<br>
+
+<br>
+
+## 🟡 OS / FS (file system)
+
+<br>
+
+- In the context of **React and JavaScript**, managing files and directories or interacting with the operating system is typically handled differently than in Python.
+
+- JavaScript, **being primarily a language that runs in the browser**, has limited direct access to the operating system for security reasons. However, there are several ways and libraries that can help achieve similar functionality:
