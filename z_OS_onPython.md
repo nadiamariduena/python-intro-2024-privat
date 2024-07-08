@@ -215,6 +215,8 @@ File Metadata: fs.stat, fs.lstat, etc.
 
 ### Why Use multer with fs?
 
+**Efficiency:** multer handles the complexities of parsing file uploads efficiently, allowing your application to focus on business logic rather than low-level file handling.
+
 
 
 <br>
