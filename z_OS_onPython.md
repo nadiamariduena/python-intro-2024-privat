@@ -235,3 +235,4 @@ File Metadata: fs.stat, fs.lstat, etc.
 
 **Django File Uploads:** Built-in support for handling file uploads in Django.
 
+**FastAPI:** A modern web framework for building APIs in Python, with built-in support for handling file uploads.
