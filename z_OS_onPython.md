@@ -174,3 +174,5 @@ for root, dirs, files in os.walk('.'):
 - When JavaScript is used in a server-side environment like Node.js, you can use the built-in fs module **(File System)** to manipulate files and directories on the server's file system.
 
 ### 🟢 Browser APIs (limited):
+
+- In browser-based JavaScript, access to the operating system is restricted due to security concerns. However, there are some APIs available that can interact with the user's file system in a limited way, such as the File API and FileSystem API.
