@@ -231,5 +231,7 @@ File Metadata: fs.stat, fs.lstat, etc.
 
 #### Here are a few alternatives and built-in options for handling file uploads in Python:
 
-Flask-Uploads: Simplifies file uploads in Flask applications.
+**Flask-Uploads:** Simplifies file uploads in Flask applications.
+
+**Django File Uploads:** Built-in support for handling file uploads in Django.
 
