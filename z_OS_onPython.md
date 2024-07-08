@@ -216,4 +216,5 @@ File Metadata: fs.stat, fs.lstat, etc.
 
 ##### chatgpt
 
-- 🟢
+- 🟢 Multer is actually not used in Python; it's a middleware for handling multipart/form-data, which is commonly used with Node.js.
+
