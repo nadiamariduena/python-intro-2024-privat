@@ -317,7 +317,7 @@ app.listen(port, () => {
 
 
 ```javascript
-// 🔴 basic example
+// 🔴 basic example: https://github.com/nadiamariduena/fb-fake-mern-verc/blob/master/api/index.js
 //
 // The path module in Node.js provides utilities for working with file and directory paths. It offers methods to help construct, normalize, and resolve paths. Key functions of the path module include:
 import express from "express";
