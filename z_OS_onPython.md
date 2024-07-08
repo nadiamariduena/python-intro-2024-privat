@@ -219,7 +219,7 @@ File Metadata: fs.stat, fs.lstat, etc.
 
 **Flexibility:** After multer stores files temporarily, fs gives you the flexibility to perform any additional file system operations needed—such as validating file types, resizing images, or organizing files into directories.
 
-
+**Best Practices:** Using multer alongside fs follows best practices for handling file uploads securely and efficiently in Node.js applications.
 
 <br>
 <br>
