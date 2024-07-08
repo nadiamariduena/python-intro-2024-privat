@@ -6,6 +6,8 @@
 # import requests
 # from dotenv import load_dotenv
 import os
+# 🔴 Similar TO FS (file system)
+#The fs module in Node.js provides an API for interacting with the file system. It allows you to perform operations such as reading from and writing to files, creating and deleting files, modifying file permissions, and more. I WILL WRITE MORE below
 ```
 
 <br>
