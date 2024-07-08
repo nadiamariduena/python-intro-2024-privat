@@ -227,3 +227,9 @@ File Metadata: fs.stat, fs.lstat, etc.
 ### In Django
 
  🔸file uploads are handled through Django's form handling capabilities, which includes built-in support for file uploads and validation.
+
+
+#### Here are a few alternatives and built-in options for handling file uploads in Python:
+
+Flask-Uploads: Simplifies file uploads in Flask applications.
+
