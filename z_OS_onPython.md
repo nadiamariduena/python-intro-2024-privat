@@ -133,3 +133,9 @@ print(is_directory)
 - You can remove a directory using `os.rmdir()`.
 >Note that the directory must be empty for this operation to succeed.
 
+```python
+import os
+
+# Remove the directory 'new_directory'
+os.rmdir('new_directory')
+```
