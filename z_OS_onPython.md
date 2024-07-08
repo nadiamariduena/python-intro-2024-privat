@@ -198,3 +198,13 @@ Working with Streams: fs.createReadStream, fs.createWriteStream, etc.
 File Metadata: fs.stat, fs.lstat, etc.
 
 ```
+
+<br>
+<br>
+
+## 🟦 fs and multer
+
+#### File Uploads:
+
+-  multer is used to handle incoming file uploads, storing uploaded files temporarily on the server. It abstracts away the complexities of parsing multipart/form-data and provides methods to control where and how uploaded files are stored.
+
