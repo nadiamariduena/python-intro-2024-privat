@@ -128,7 +128,7 @@ print(is_directory)
 <br>
 
 
-### 🔸 4. Removing Directories:
+### 🔸 5. Removing Directories:
 
 - You can remove a directory using `os.rmdir()`.
 >Note that the directory must be empty for this operation to succeed.
@@ -139,3 +139,8 @@ import os
 # Remove the directory 'new_directory'
 os.rmdir('new_directory')
 ```
+<br>
+
+### 🔸 6. Walking Directory Trees:
+
+- You can recursively iterate through a directory tree using `os.walk()`, which yields the path to each directory and its contents.
