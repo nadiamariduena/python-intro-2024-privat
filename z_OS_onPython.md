@@ -95,3 +95,17 @@ import os
 # Create a new directory
 os.mkdir('new_directory')
 ```
+
+<br>
+
+
+
+### 🔸 3. Change the current working directory to 'new_directory' `os.chdir('new_directory')`
+
+```python
+import os
+
+# Change the current working directory to 'new_directory'
+os.chdir('new_directory')
+
+```
