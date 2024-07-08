@@ -176,3 +176,15 @@ for root, dirs, files in os.walk('.'):
 ### 🟢 Browser APIs (limited):
 
 - In browser-based JavaScript, access to the operating system is restricted due to security concerns. However, there are some APIs available that can interact with the user's file system in a limited way, such as the File API and FileSystem API.
+
+<br>
+<br>
+<br>
+
+## 🟠 fs (File System)
+
+
+ #### The fs module in Node.js provides an API for interacting with the file system. It allows you to perform operations such as reading from and writing to files, creating and deleting files, modifying file permissions, and more.
+
+  Here are some common operations you can perform with fs:
+
