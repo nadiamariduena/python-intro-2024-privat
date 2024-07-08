@@ -217,6 +217,8 @@ File Metadata: fs.stat, fs.lstat, etc.
 
 **Efficiency:** multer handles the complexities of parsing file uploads efficiently, allowing your application to focus on business logic rather than low-level file handling.
 
+**Flexibility:** After multer stores files temporarily, fs gives you the flexibility to perform any additional file system operations needed—such as validating file types, resizing images, or organizing files into directories.
+
 
 
 <br>
