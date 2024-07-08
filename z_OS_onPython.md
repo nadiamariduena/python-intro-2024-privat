@@ -168,3 +168,7 @@ for root, dirs, files in os.walk('.'):
 - In the context of **React and JavaScript**, managing files and directories or interacting with the operating system is typically handled differently than in Python.
 
 - JavaScript, **being primarily a language that runs in the browser**, has limited direct access to the operating system for security reasons. However, there are several ways and libraries that can help achieve similar functionality:
+
+### 🟢 Node.js (File System Module):
+
+- When JavaScript is used in a server-side environment like Node.js, you can use the built-in fs module **(File System)** to manipulate files and directories on the server's file system.
