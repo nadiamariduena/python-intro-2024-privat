@@ -186,5 +186,15 @@ for root, dirs, files in os.walk('.'):
 
  #### The fs module in Node.js provides an API for interacting with the file system. It allows you to perform operations such as reading from and writing to files, creating and deleting files, modifying file permissions, and more.
 
-  Here are some common operations you can perform with fs:
+Here are some common operations you can perform with fs:
 
+
+```javascript
+
+Reading Files: fs.readFile, fs.readFileSync, etc.
+Writing Files: fs.writeFile, fs.writeFileSync, etc.
+File and Directory Operations: fs.rename, fs.unlink, fs.mkdir, fs.rmdir, etc.
+Working with Streams: fs.createReadStream, fs.createWriteStream, etc.
+File Metadata: fs.stat, fs.lstat, etc.
+
+```
