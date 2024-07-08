@@ -198,15 +198,35 @@ Working with Streams: fs.createReadStream, fs.createWriteStream, etc.
 File Metadata: fs.stat, fs.lstat, etc.
 
 ```
+<br>
+<br>
+
+
+
+
+
+
+
+
+
 
 <br>
 <br>
 
 ## 🟦 fs and multer
 
+
+- In modern Node.js applications, there's a shift towards using more specialized libraries and tools for specific tasks that were traditionally handled directly by the fs (File System) module. Here are some areas where traditional file system operations are being replaced or augmented by alternative approaches:
+
+
+<br>
+
 #### File Uploads:
 
 -  multer is used to handle incoming file uploads, storing uploaded files temporarily on the server. It abstracts away the complexities of parsing multipart/form-data and provides methods to control where and how uploaded files are stored.
+
+<br>
+<br>
 
 #### File System Operations:
 
@@ -226,7 +246,7 @@ File Metadata: fs.stat, fs.lstat, etc.
 // - YOu dont do it in this way but this is a short example
 const express = require('express');
 const multer = require('multer');
-const fs = require('fs');
+const fs = require('fs'); ✋
 const path = require('path');
 
 const app = express();
@@ -266,6 +286,8 @@ app.post('/register', upload.single('profileImage'), (req, res) => {
     const oldPath = profileImage.path;
     const newPath = path.join(__dirname, 'uploads', profileImage.filename);
 
+
+//  ✋
     fs.rename(oldPath, newPath, (err) => {
       if (err) {
         console.error(err);
@@ -285,6 +307,169 @@ app.listen(port, () => {
 
 
 ```
+
+<br>
+<br>
+
+### 🟠 Another example
+
+- Handling file uploads traditionally involved using the **fs** module to write files to disk. Nowadays, developers prefer using middleware libraries like multer for handling multipart/form-data, which simplifies the process of file uploads:
+
+
+```javascript
+// 🔴 basic example
+//
+// The path module in Node.js provides utilities for working with file and directory paths. It offers methods to help construct, normalize, and resolve paths. Key functions of the path module include:
+import express from "express";
+import bodyParser from "body-parser";
+import mongoose from "mongoose";
+import cors from "cors";
+import dotenv from "dotenv";
+import multer from "multer";
+import helmet from "helmet";
+import morgan from "morgan";
+
+//
+// ** img
+import path from "path";
+import { fileURLToPath } from "url";
+
+/*
+
+
+✋ ROUTES 1
+
+*/
+import authRoutes from "./routes/auth.js";
+import userRoutes from "./routes/users.js";
+// ** 1 to post pictures
+import postRoutes from "./routes/posts.js";
+//
+import { register } from "./controllers/auth.js";
+//
+// ** 5 controller post
+import { createPost } from "./controllers/posts.js";
+// ** 4 to post pictures
+import { verifyToken } from "./middleware/auth.js";
+
+//
+//
+// -------------------
+// ** CONFIGURATIONS
+// as you can see here below, we are using the import.
+//and that is because the type:module inside the package.json
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+//
+dotenv.config();
+const app = express();
+//
+app.use(helmet());
+app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
+app.use(morgan("common"));
+//https://stackoverflow.com/questions/19917401/error-request-entity-too-large
+app.use(bodyParser.json({ limit: "30mb", extended: true }));
+app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
+//
+app.use(cors());
+// here below is where we will keep out assets
+app.use("/assets", express.static(path.join(__dirname, "public/assets")));
+
+//
+//
+// -------------------
+// *** FILE STORAGE
+const storage = multer.diskStorage({
+  // Every time will upload an img, it will be saved
+  //inside the public/assets
+  destination: function (req, file, cb) {
+    cb(null, "public/assets");
+  },
+  filename: function (req, file, cb) {
+    cb(null, file.originalname);
+  },
+});
+
+//
+//
+// ** ------img GIF------- **
+// Create a function to check image dimensions and file size
+function fileFilter(req, file, cb) {
+  const allowedTypes = ["image/jpeg", "image/png", "image/gif"];
+  //
+  //
+  /*
+
+
+In this code, file.mimetype is checked against the allowedTypes
+array to ensure that the uploaded file is an image in either
+JPEG or PNG format. If the mimetype doesn't match any of the
+allowed types, an error is returned, indicating that the file type is invalid.
+
+*/
+
+  //
+  //
+  if (!allowedTypes.includes(file.mimetype)) {
+    return cb(
+      new Error("Invalid file type. Only JPEG, PNG, and GIF are allowed.")
+    );
+  }
+  cb(null, true);
+}
+// ** ------img GIF------- **
+
+const upload = multer({
+  storage,
+  fileFilter,
+  limits: { fileSize: 1024 * 1024 * 50 },
+});
+//--------------------------------
+
+//
+//
+//
+/* ROUTES WITH FILES */
+app.post("/auth/register", upload.single("picture"), register);
+// app.post("/auth/register", upload.single("picture"), verifyToken, register); // the verify token here , causes errors
+//
+// ** 3 to post pictures
+app.post("/posts", verifyToken, upload.single("picture"), createPost);
+/*
+
+✋ ROUTES 2
+
+*/
+app.use("/auth", authRoutes);
+app.use("/users", userRoutes);
+// ** 2 to post pictures
+app.use("/posts", postRoutes);
+//-----------------------------
+//
+//
+/* MONGOOSE SETUP */
+// by origin he added 3001 in his .env
+// in case the port inside the dotenv doesn't work, the 6001 or whatever
+//PORT you add after the || , will work(its a backup server)
+const PORT = process.env.PORT || 6001;
+mongoose
+  .connect(process.env.MONGO_URL, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => {
+    app.listen(PORT, () => console.log(`API Port: ${PORT}`, "🦀"));
+
+    /* ADD DATA ONE TIME */
+    // populate DONT DO IT
+    // User.insertMany(users);
+    // Post.insertMany(posts);
+  })
+  .catch((error) => console.log(`${error} did not connect`));
+
+```
+
 
 <br>
 <br>
