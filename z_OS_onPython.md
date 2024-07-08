@@ -223,6 +223,7 @@ File Metadata: fs.stat, fs.lstat, etc.
 
 ```javascript
 //  i will be adding an example from an old project
+// - YOu dont do it in this way but this is a short example
 const express = require('express');
 const multer = require('multer');
 const fs = require('fs');
