@@ -124,3 +124,12 @@ is_directory = os.path.isdir('new_directory')
 print(is_directory)
 
 ```
+
+<br>
+
+
+### 🔸 4. Removing Directories:
+
+- You can remove a directory using `os.rmdir()`.
+>Note that the directory must be empty for this operation to succeed.
+
