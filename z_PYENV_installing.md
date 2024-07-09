@@ -535,3 +535,14 @@ Traceback (most recent call last):
  ```javascript
  pyenv versions
  ```
+
+ ### output
+
+```javascript
+pyenv versions
+  system
+  3.8.10
+* 3.8.18 (set by /home/mycomputer/.pyenv/version)
+  3.10.8
+
+```
