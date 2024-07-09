@@ -178,6 +178,8 @@ urllib3==2.2.2
 
 - Here below you can notice that i grab the API KEY, that is coming from the `.env`, there i have the long key from the weather site `{os.getenv("API_KEY")}`
 
+<br>
+
  ```python
 # before
 request_url = "https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}&units=imperial"
@@ -252,4 +254,68 @@ https://api.openweathermap.org/data/2.5/weather?appid=620..........myAPI&q=Arizo
 ```python
 {"coord":{"lon":-111.501,"lat":34.5003},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":81.91,"feels_like":79.56,"temp_min":79.14,"temp_max":85.28,"pressure":1011,"humidity":12,"sea_level":1011,"grnd_level":811},"visibility":10000,"wind":{"speed":9.6,"deg":62,"gust":18.5},"clouds":{"all":0},"dt":1720495145,"sys":{"type":1,"id":5309,"country":"US","sunrise":1720441237,"sunset":1720492879},"timezone":-25200,"id":5551752,"name":"Arizona","cod":200}
 
+```
+
+<br>
+
+### with JSON viewer
+
+```javascript
+
+{
+  "coord": {
+    "lon": -111.501,
+    "lat": 34.5003
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 81.91,
+    "feels_like": 79.56,
+    "temp_min": 79.14,
+    "temp_max": 85.28,
+    "pressure": 1011,
+    "humidity": 12,
+    "sea_level": 1011,
+    "grnd_level": 811
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 9.6,
+    "deg": 62,
+    "gust": 18.5
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1720495145,
+  "sys": {
+    "type": 1,
+    "id": 5309,
+    "country": "US",
+    "sunrise": 1720441237,
+    "sunset": 1720492879
+  },
+  "timezone": -25200,
+  "id": 5551752,
+  "name": "Arizona",
+  "cod": 200
+}
+```
+#### now lets check ARIZONA
+
+- look for **arizona longitude and latitude** in your browser
+
+```javascript
+Arizona/Coordinates
+34.0489° N, 111.0937° W
+Arizona, USA Lat Long Coordinates Info
+The latitude of Arizona, USA is 34.048927, and the longitude is -111.093735. Arizona, USA is located at United States country in the States place category with the gps coordinates of 34° 2' 56.1372'' N and 111° 5' 37.4460'' W.
 ```
