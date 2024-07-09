@@ -239,3 +239,14 @@ eval "$(pyenv virtualenv-init -)"
 ```javascript
 source ~/.bashrc
 ```
+
+<br>
+<br>
+
+
+### 🟢 Verify Installation
+To verify that pyenv is installed correctly, you can check its version:
+
+```javascript
+pyenv --version
+```
