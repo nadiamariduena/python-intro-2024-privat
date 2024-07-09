@@ -514,3 +514,16 @@ Available versions:
 ```javascript
 pyenv install 3.8.18
 ```
+
+<br>
+
+#### 🟠 Once you type this command `pyenv install 3.8.18` you will have to ✋ WAIT ✋ like 3 minutes (depends on your connection)
+
+```javascript
+mycomputer@usercomp:~$ pyenv install 3.8.18
+Downloading Python-3.8.18.tar.xz...
+-> https://www.python.org/ftp/python/3.8.18/Python-3.8.18.tar.xz
+Installing Python-3.8.18...
+Traceback (most recent call last):
+
+```
