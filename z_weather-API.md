@@ -218,3 +218,11 @@ python Weather.py
 ```javascript
 (.venv) mycomputer@usercomputer:~/python-intro-2024-privat/LESSON_17_Virtual_Environment_and_pip$ python Weather.py
 ```
+
+### RESULT
+
+- in your console you will be required to add a city
+
+```javascript
+
+```
