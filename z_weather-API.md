@@ -234,6 +234,17 @@ Arizona
 
 #### after i typed a city name, it generated this link (you can copy and paste it to your browser)
 
-```python
+```javascript
 https://api.openweathermap.org/data/2.5/weather?appid=620..........myAPI&q=Arizona&units=imperial
+```
+
+<br>
+
+#### on your browser you will see the following data
+
+- if you want to see the data in a clean way, install this [json-viewer  EXTENSION](https://chromewebstore.google.com/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?pli=1)
+
+```python
+{"coord":{"lon":-111.501,"lat":34.5003},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":81.91,"feels_like":79.56,"temp_min":79.14,"temp_max":85.28,"pressure":1011,"humidity":12,"sea_level":1011,"grnd_level":811},"visibility":10000,"wind":{"speed":9.6,"deg":62,"gust":18.5},"clouds":{"all":0},"dt":1720495145,"sys":{"type":1,"id":5309,"country":"US","sunrise":1720441237,"sunset":1720492879},"timezone":-25200,"id":5551752,"name":"Arizona","cod":200}
+
 ```
