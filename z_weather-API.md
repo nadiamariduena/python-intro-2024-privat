@@ -163,7 +163,9 @@ requests==2.32.3
 urllib3==2.2.2
  ```
 
- #### 🌈 solution: [INSTALL PYENV]()
+<br>
+
+ ### 🌈 solution: [INSTALL PYENV]()
 
 
 <br>
@@ -173,6 +175,8 @@ urllib3==2.2.2
 
  ## 🟢 Let's continue
 
+
+- Here below you can notice that i grab the API KEY, that is coming from the `.env`, there i have the long key from the weather site `{os.getenv("API_KEY")}`
 
  ```python
 # before
@@ -200,8 +204,9 @@ def get_current_weather():
     print(request_url)
 
 get_current_weather()
-
 ```
+
+<br>
 
 ### to LAUNCH it
 
