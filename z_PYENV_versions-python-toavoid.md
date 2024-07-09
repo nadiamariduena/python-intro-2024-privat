@@ -17,3 +17,5 @@
 ## 🔴 Avoid Very Old Releases
 
 
+🔸 Similarly, **it's wise to avoid very old Python** releases. For instance, unless you have compelling reasons to use Python 2.7 in 2022, it's not recommended.
+
