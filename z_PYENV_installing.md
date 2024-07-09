@@ -527,3 +527,11 @@ Installing Python-3.8.18...
 Traceback (most recent call last):
 
 ```
+
+<br>
+
+### 🟣 check the python versions you have on your computer
+
+ ```javascript
+ pyenv versions
+ ```
