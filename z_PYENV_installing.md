@@ -570,3 +570,5 @@ pyenv global 3.8.10
 <br>
 
 ## 🟡 pyenv (Visual Studio)
+
+### ONCE installed, the `PYENV` works on the global but not on the visual studio, the type of errs i get:
