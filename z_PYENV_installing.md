@@ -506,3 +506,11 @@ Available versions:
   3.14t-dev
 
 ```
+
+<br>
+
+### 🟢 i will choose this:
+
+```javascript
+pyenv install 3.8.18
+```
