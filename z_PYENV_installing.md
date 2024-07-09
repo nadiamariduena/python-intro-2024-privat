@@ -620,3 +620,19 @@ resolve this issue and ensure pyenv is recognized in VS Code:
 pyenv --version
 // If this command works in your global terminal but not in VS Code, it indicates a path or environment variable issue specific to VS Code.
 ```
+
+<br>
+
+### 🟠
+## Setting Up VS Code to Recognize pyenv
+
+You need to configure VS Code to use pyenv's environment settings properly.
+
+
+#### Here’s how to do it:
+
+- Open VS Code and go to Settings (you can press Ctrl + ,).
+
+- Search for "Terminal › Integrated › Env" and check the setting Terminal › Integrated › Env: Path.
+
+- Click on Edit in settings.json and add the following line (replace your_username with your actual username):
