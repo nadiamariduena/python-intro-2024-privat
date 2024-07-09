@@ -209,5 +209,12 @@ get_current_weather()
 
 
 ```javascript
+// my project is LESSON17
 python Weather.py
+```
+
+#### like so
+
+```javascript
+(.venv) mycomputer@usercomputer:~/python-intro-2024-privat/LESSON_17_Virtual_Environment_and_pip$ python Weather.py
 ```
