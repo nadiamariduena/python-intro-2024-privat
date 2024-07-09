@@ -635,4 +635,9 @@ You need to configure VS Code to use pyenv's environment settings properly.
 
 - Search for "Terminal › Integrated › Env" and check the setting Terminal › Integrated › Env: Path.
 
+**or**
+
+`shift + control + P` it will open the top bar
+
 - Click on Edit in settings.json and add the following line (replace your_username with your actual username):
+
