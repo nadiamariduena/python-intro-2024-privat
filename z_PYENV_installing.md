@@ -62,3 +62,18 @@ sudo: curl: command not found
 
 <br>
 
+
+### 🟠 update it
+
+```javascript
+sudo apt update
+// you will have a long list of updated packages
+```
+
+<br>
+
+### 🟠 try again to install curl
+
+```javascript
+sudo apt install curl
+```
