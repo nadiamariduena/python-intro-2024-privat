@@ -2,12 +2,19 @@
 - pylint / eslint in js [Go to section](#pylint_eslint)
 
 
-- READ
+- READ [python versions to avoid](./z_PYENV_versions-python-toavoid.md)
+
+<br>
+<br>
+
+## check this video [Mastering Python Code Quality with Pylint](https://youtu.be/RqdhVaX50mc?feature=shared)
+
 
 <br>
 <br>
 
 ### 🟡 Pylint is a static code analysis tool used primarily for checking Python code for errors, style issues, and potential bugs.
+
 
 
 
