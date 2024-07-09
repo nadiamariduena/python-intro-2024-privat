@@ -1,6 +1,4 @@
 import requests
-# from dotenv import load_env
-# import requests
 from dotenv import load_dotenv
 # # you will see the red underline under the imports, until you start creating the functions
 #

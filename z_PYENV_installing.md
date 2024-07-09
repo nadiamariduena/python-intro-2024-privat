@@ -290,6 +290,12 @@ Listing Available Python Versions: When you run `pyenv install --list`, pyenv fe
 
 <br>
 
+### 🌈 check this before you choose a version
+
+- Python release cycle (end of life)
+
+https://devguide.python.org/versions/
+
 
 #### ✋(this is just a short list, you have a lot more, but from here i will pick the versions i want to test, so to see if i have the same red underline issue when trying to import the DOTENV)
 
@@ -542,6 +548,8 @@ Traceback (most recent call last):
 
 ```javascript
 pyenv versions
+//
+//
   system
   3.8.10
 * 3.8.18 (set by /home/mycomputer/.pyenv/version)
