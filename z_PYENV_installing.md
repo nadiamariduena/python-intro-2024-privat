@@ -559,3 +559,14 @@ To switch to a different version, let's say you want to switch to version **3.8.
 pyenv global 3.8.10
 
 ```
+
+<br>
+<br>
+
+---
+
+
+<br>
+<br>
+
+## 🟡 pyenv (Visual Studio)
