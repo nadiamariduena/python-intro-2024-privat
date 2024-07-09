@@ -641,3 +641,16 @@ You need to configure VS Code to use pyenv's environment settings properly.
 
 - Click on Edit in settings.json and add the following line (replace your_username with your actual username):
 
+```javascript
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.env.linux": {
+        //  ADD YOURS
+      "PATH": "/home/princessoftheuniverse-highlander/.pyenv/shims:${env:PATH}"
+  },
+```
