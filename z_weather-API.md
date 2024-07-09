@@ -138,3 +138,18 @@ request_url = "https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lo
 // after modification
 request_url = "https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}&units=imperial"
 ```
+
+
+ #### like so:
+
+ - At this point, my machine will not recognize the dotenv or the charset-normalizer==3.3.2, packages installed on the environment, to check the packages, inspect the **requirements.txt**
+
+ ```python
+import requests
+from dotenv import load_dotenv
+import os
+
+request_url = "https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}&units=imperial"
+ ```
+
+ #### issues with the DOTENV installation
