@@ -28,3 +28,16 @@ Package `charset-normalizer` is not installed in the selected environment.Python
 Package `python-dotenv` is not installed in the selected environment.Python-InstalledPackagesCheckernot-installed
 
 ```
+
+
+<br>
+<br>
+
+----
+
+
+<br>
+
+## 🟣 PYENV installation
+
+
