@@ -101,3 +101,69 @@ Setting up curl (8.5.0-2ubuntu10.1) ...
 Processing triggers for man-db (2.12.0-4build2) ...
 
 ```
+
+### try to install pyenv again
+
+```javascript
+sudo curl https://pyenv.run | bash
+
+```
+#### output
+
+
+```javascript
+
+
+
+```javascript
+% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   270  100   270    0     0    198      0  0:00:01  0:00:01 --:--:--   198
+Cloning into '/home/mycomputer/.pyenv'...
+remote: Enumerating objects: 1267, done.
+remote: Counting objects: 100% (1267/1267), done.
+remote: Compressing objects: 100% (698/698), done.
+remote: Total 1267 (delta 747), reused 723 (delta 436), pack-reused 0
+Receiving objects: 100% (1267/1267), 627.16 KiB | 965.00 KiB/s, done.
+Resolving deltas: 100% (747/747), done.
+Cloning into '/home/mycomputer/.pyenv/plugins/pyenv-doctor'...
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 11 (delta 1), reused 5 (delta 0), pack-reused 0
+Receiving objects: 100% (11/11), 38.72 KiB | 388.00 KiB/s, done.
+Resolving deltas: 100% (1/1), done.
+Cloning into '/home/mycomputer/.pyenv/plugins/pyenv-update'...
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (6/6), done.
+Receiving objects: 100% (10/10), done.
+remote: Total 10 (delta 1), reused 5 (delta 0), pack-reused 0
+Resolving deltas: 100% (1/1), done.
+Cloning into '/home/mycomputer/.pyenv/plugins/pyenv-virtualenv'...
+remote: Enumerating objects: 64, done.
+remote: Counting objects: 100% (64/64), done.
+remote: Compressing objects: 100% (56/56), done.
+remote: Total 64 (delta 10), reused 29 (delta 1), pack-reused 0
+Receiving objects: 100% (64/64), 42.50 KiB | 414.00 KiB/s, done.
+Resolving deltas: 100% (10/10), done.
+
+WARNING: seems you still have not added 'pyenv' to the load path.
+
+# Load pyenv automatically by appending
+# the following to
+# ~/.bash_profile if it exists, otherwise ~/.profile (for login shells)
+# and ~/.bashrc (for interactive shells) :
+
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+# Restart your shell for the changes to take effect.
+
+# Load pyenv-virtualenv automatically by adding
+# the following to ~/.bashrc:
+
+eval "$(pyenv virtualenv-init -)"
+
+```
