@@ -30,3 +30,10 @@
 **Verify Environment:**
 
 - Ensure that Pylint is running in the same environment (Python interpreter and virtual environment) where your application dependencies are installed. If using a virtual environment, activate it before running Pylint.
+
+
+**Pylint Configuration:**
+
+- Check Pylint's configuration (pylintrc file or command-line options) to ensure it points to the correct Python interpreter and environment where your packages are installed.
+
+<br>
