@@ -615,3 +615,8 @@ resolve this issue and ensure pyenv is recognized in VS Code:
 #### Verify pyenv Installation and Configuration
 
 - First, ensure pyenv is correctly set up in your global environment:
+
+```javascript
+pyenv --version
+// If this command works in your global terminal but not in VS Code, it indicates a path or environment variable issue specific to VS Code.
+```
