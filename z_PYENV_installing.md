@@ -631,11 +631,7 @@ You need to configure VS Code to use pyenv's environment settings properly.
 
 #### Here’s how to do it:
 
-- Open VS Code and go to Settings (you can press Ctrl + ,).
-
-- Search for "Terminal › Integrated › Env" and check the setting Terminal › Integrated › Env: Path.
-
-**or**
+- on your VS code
 
 `shift + control + P` it will open the top bar , click on the (Preferences: Open User settings **JSON**)
 
