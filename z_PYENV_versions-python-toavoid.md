@@ -2,6 +2,10 @@
 
 ### read this [the-art-of-choosing-stable-python-version](https://medium.com/@rishabhojha11/the-art-of-choosing-stable-python-version-70a7c755467b)
 
+> 🔴 If you are trying to develop a python web-based application using Django. It is best to identify which Django version will suit your requirements before rushing to identify the python version. This is because 👾 **some Django versions are only available for latest python releases**.
+
+
+
 <br>
 <br>
 <br>
