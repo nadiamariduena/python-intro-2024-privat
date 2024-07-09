@@ -193,3 +193,30 @@ libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
 ```javascript
 nano ~/.bashrc
 ```
+
+<br>
+
+- 🟧 Paste the below at the end of the **nano** file, if you have no idea check this [freecodecamp.org/news/how-to-save-and-exit-nano-in-terminal]
+(https://www.freecodecamp.org/news/how-to-save-and-exit-nano-in-terminal-nano-quit-command/)
+
+<br>
+
+```bash
+# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+# sources /etc/bash.bashrc).
+if ! shopt -oq posix; then
+  if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
+  elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+  fi
+fi
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+```
