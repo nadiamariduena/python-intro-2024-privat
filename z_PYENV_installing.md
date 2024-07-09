@@ -605,3 +605,13 @@ This issue typically occurs because VS Code's integrated terminal does not inher
 the same environment settings as your global terminal session. Here’s how you can
 resolve this issue and ensure pyenv is recognized in VS Code:
 ```
+
+
+<br>
+
+
+### 🟠 Fixing pyenv Recognition in VS Code
+
+#### Verify pyenv Installation and Configuration
+
+- First, ensure pyenv is correctly set up in your global environment:
