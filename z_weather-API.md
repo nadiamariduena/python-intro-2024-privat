@@ -153,3 +153,61 @@ request_url = "https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lo
  ```
 
  #### issues with the DOTENV installation
+
+ ```javascript
+certifi==2024.7.4
+charset-normalizer==3.3.2 ✋
+idna==3.7
+python-dotenv==1.0.1 ✋
+requests==2.32.3
+urllib3==2.2.2
+ ```
+
+ #### 🌈 solution: [INSTALL PYENV]()
+
+
+<br>
+<br>
+<br>
+
+
+ ## 🟢 Let's continue
+
+
+ ```python
+# before
+request_url = "https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}&units=imperial"
+#
+#
+#
+# ✋ after
+import requests
+from dotenv import load_dotenv
+# i made it work even with the red underline, so i presume it has to do with the python version i am using, i will test it more later on
+#
+import os
+
+load_dotenv()
+
+def get_current_weather():
+    print("\n*** Get Current Weather Conditions ***\n")
+
+    city = input("\nPlease enter a city name:\n")
+
+
+    request_url = f'https://api.openweathermap.org/data/2.5/weather?appid={os.getenv("API_KEY")}&q={city}&units=imperial'
+
+    print(request_url)
+
+get_current_weather()
+
+```
+
+### to LAUNCH it
+
+- 🔴 type this on the console of the project where you have your environment ACTIVATED
+
+
+```javascript
+python Weather.py
+```
