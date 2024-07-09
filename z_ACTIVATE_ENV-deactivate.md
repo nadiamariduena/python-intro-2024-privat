@@ -9,10 +9,10 @@
 
 ```javascript
 //💡💡💡
-source env/bin/activate
+source .env/bin/activate
 //💡💡💡
 // like so:
-LESSON_16_OOP$ source env/bin/activate
+LESSON_16_OOP$ source .env/bin/activate
 ```
 
 #### output
