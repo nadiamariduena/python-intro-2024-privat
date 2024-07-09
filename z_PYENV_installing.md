@@ -250,3 +250,9 @@ To verify that pyenv is installed correctly, you can check its version:
 ```javascript
 pyenv --version
 ```
+#### output
+
+```javascript
+pyenv 2.4.7
+
+```
