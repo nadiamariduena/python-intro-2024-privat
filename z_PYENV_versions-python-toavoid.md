@@ -19,3 +19,4 @@
 
 🔸 Similarly, **it's wise to avoid very old Python** releases. For instance, unless you have compelling reasons to use Python 2.7 in 2022, it's not recommended.
 
+🔸 Likewise, `Python 3.7`, slated to reach its **end-of-life in 2023**, isn't ideal for long-term projects requiring ongoing maintenance. By the time development concludes, transitioning to a newer Python version will likely be necessary.
