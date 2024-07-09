@@ -223,3 +223,19 @@ eval "$(pyenv virtualenv-init -)"
 <br>
 
 #### 🟧  to save: `strg + O`, check the file you are saving on (be careful), if its correct press ENTER, then.. to get out press `strg + X`
+
+
+<br>
+
+
+### 🟠 Applying Changes
+
+<br>
+
+- After adding the lines to your initialization script, save the file and close the text editor.
+
+- To apply these changes, you typically need to reload the shell or source the initialization script:
+
+```javascript
+source ~/.bashrc
+```
