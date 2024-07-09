@@ -13,7 +13,11 @@
 
  - red underline due to packages not being installed in the environment
 
- -  later on i will discover that not only this type of red underline appears because the packages are not well installed but also because even if the packages are installed, 🔴 the **Pylint** will recognize other type of issues (so here the pylint is not the bad guy but the good one, its only telling you that something is wrong [Pylint-errs](./z_PYlint-errs.md)  )
+ -  later on i will discover that not only this type of red underline appears because the packages are not well installed but also because even if the packages are installed, 🔴 the **Pylint** will recognize other type of issues (so here the **pylint is not the bad guy but the good one, its only telling you that something is wrong [Pylint-errs](./z_PYlint-errs.md)** so its a good thing to have it.
+
+<br>
+
+ - ⚠️ check also the issues you will find in different python versions [python-toavoid](./z_PYENV_versions-python-toavoid.md)
 
 
 ```python
