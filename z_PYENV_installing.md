@@ -284,3 +284,5 @@ pyenv install --list
 
 Listing Available Python Versions: When you run `pyenv install --list`, pyenv fetches and displays a list of all available Python versions that it supports. This list includes both stable releases and pre-release versions.
 
+**Version Selection:** This command helps you decide which specific version of Python you want to install. It provides information such as version numbers and release dates, which can be useful for making an informed choice.
+
