@@ -165,7 +165,7 @@ urllib3==2.2.2
 
 <br>
 
- ### 🌈 solution: [INSTALL PYENV]()
+ ### 🌈 solution: [INSTALL PYENV](./z_PYENV_installing.md)
 
 
 <br>
