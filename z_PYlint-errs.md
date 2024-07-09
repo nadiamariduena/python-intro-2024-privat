@@ -1,4 +1,17 @@
-###  🟡 Pylint is a static code analysis tool used primarily for checking Python code for errors, style issues, and potential bugs.
+
+- pylint / eslint in js [Go to section](#pylint_eslint)
+
+
+- READ
+
+<br>
+<br>
+
+### 🟡 Pylint is a static code analysis tool used primarily for checking Python code for errors, style issues, and potential bugs.
+
+
+
+<br>
 
 
 - 🟦 When Pylint reports that packages are not well installed in the correct environment, it typically means one of the following:
@@ -60,6 +73,8 @@ By ensuring that Pylint runs in the correct environment and its configuration ma
 
 <br>
 <br>
+
+<a name="pylint_eslint"></a>
 
 ### 🟣 so Pylint is the equivalent in javascript to Eslint?
 

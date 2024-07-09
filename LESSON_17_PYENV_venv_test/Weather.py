@@ -17,3 +17,4 @@ def get_current_weather():
     print(request_url)
 
 get_current_weather()
+

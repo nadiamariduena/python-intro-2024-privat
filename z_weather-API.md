@@ -187,6 +187,9 @@ request_url = "https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lo
 #
 #
 # ✋ after
+# this below will deactivate temporarly the red underline
+## pylint: disable=import-error
+
 import requests
 from dotenv import load_dotenv
 # i made it work even with the red underline, so i presume it has to do with the python version i am using, i will test it more later on
@@ -319,3 +322,5 @@ Arizona/Coordinates
 Arizona, USA Lat Long Coordinates Info
 The latitude of Arizona, USA is 34.048927, and the longitude is -111.093735. Arizona, USA is located at United States country in the States place category with the gps coordinates of 34° 2' 56.1372'' N and 111° 5' 37.4460'' W.
 ```
+
+

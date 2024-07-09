@@ -13,7 +13,7 @@
 
  - red underline due to packages not being installed in the environment
 
- -  later on i will discover that not only this type of red underline appears because the packages are not well installed but also because even if the packages are installed, the **Pylint** will
+ -  later on i will discover that not only this type of red underline appears because the packages are not well installed but also because even if the packages are installed, 🔴 the **Pylint** will recognize other type of issues (so here the pylint is not the bad guy but the good one, its only telling you that something is wrong [Pylint-errs](./z_PYlint-errs.md)  )
 
 
 ```python
@@ -654,8 +654,7 @@ pyenv --version
 
 <br>
 
-### 🟠
-## Setting Up VS Code to Recognize pyenv
+### 🟠  Setting Up VS Code to Recognize pyenv
 
 You need to configure VS Code to use pyenv's environment settings properly.
 
