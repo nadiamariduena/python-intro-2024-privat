@@ -224,5 +224,9 @@ python Weather.py
 - in your console you will be required to add a city
 
 ```javascript
+*** Get Current Weather Conditions ***
 
+
+Please enter a city name:
+Arizona
 ```
