@@ -228,5 +228,12 @@ python Weather.py
 
 
 Please enter a city name:
+// i typed
 Arizona
+```
+
+#### after i typed a city name, it generated this link (you can copy and paste it to your browser)
+
+```python
+https://api.openweathermap.org/data/2.5/weather?appid=620..........myAPI&q=Arizona&units=imperial
 ```
