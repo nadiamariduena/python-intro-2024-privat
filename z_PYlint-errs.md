@@ -37,3 +37,10 @@
 - Check Pylint's configuration (pylintrc file or command-line options) to ensure it points to the correct Python interpreter and environment where your packages are installed.
 
 <br>
+
+
+**Ignore or Suppress Warnings:**
+
+- 🍊 If you are confident that your application will work correctly despite Pylint's warnings...
+
+- you can configure Pylint to ignore certain import errors or suppress specific warnings using directives in your code or in Pylint's configuration.
