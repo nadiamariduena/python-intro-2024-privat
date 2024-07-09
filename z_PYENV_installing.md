@@ -279,4 +279,8 @@ The `pyenv install --list` command is used to list all the versions of Python th
 pyenv install --list
 ```
 
-Here's a breakdown of its purpose:
+#### Here's a breakdown of its purpose:
+
+
+Listing Available Python Versions: When you run `pyenv install --list`, pyenv fetches and displays a list of all available Python versions that it supports. This list includes both stable releases and pre-release versions.
+
