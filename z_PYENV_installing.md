@@ -275,3 +275,8 @@ pyenv 2.4.7
 The `pyenv install --list` command is used to list all the versions of Python that can be installed using pyenv, a popular tool for managing multiple Python versions on a single system.
 
 
+```javascript
+pyenv install --list
+```
+
+Here's a breakdown of its purpose:
