@@ -572,3 +572,36 @@ pyenv global 3.8.10
 ## 🟡 pyenv (Visual Studio)
 
 ### ONCE installed, the `PYENV` works on the global but not on the visual studio, the type of errs i get:
+
+
+```javascript
+// good (ON GLOBAL)
+in my global ~$ pyenv --version
+// output
+pyenv 2.4.7
+
+
+
+
+
+// 🔴 in my visual studio
+// not good
+LESSON_17_Virtual_Environment_and_pip$ pyenv --version
+//
+//
+Command 'pyenv' not found, did you mean:
+  command 'p7env' from deb libnss3-tools (2:3.96.1-1)
+Try: sudo apt install <deb name>
+Command 'pyenv' not found, did you mean:
+  command 'p7env' from deb libnss3-tools (2:3.96.1-1)
+Try: sudo apt install <deb name>
+
+
+
+ChatGPT
+It seems like pyenv is not recognized in the integrated terminal of Visual Studio Code
+(VS Code).
+This issue typically occurs because VS Code's integrated terminal does not inherit
+the same environment settings as your global terminal session. Here’s how you can
+resolve this issue and ensure pyenv is recognized in VS Code:
+```
