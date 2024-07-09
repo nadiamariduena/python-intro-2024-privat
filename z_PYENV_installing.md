@@ -102,7 +102,7 @@ Processing triggers for man-db (2.12.0-4build2) ...
 
 ```
 
-### try to install pyenv again
+### 🟠 try to install pyenv again
 
 ```javascript
 sudo curl https://pyenv.run | bash
@@ -166,4 +166,30 @@ eval "$(pyenv init -)"
 
 eval "$(pyenv virtualenv-init -)"
 
+```
+
+<br>
+
+
+### 🟠 edit the initialization
+
+```javascript
+// 1
+sudo apt-get update
+
+//2
+sudo apt-get install -y make build-essential libssl-dev zlib1g-dev \
+libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev \
+libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
+
+```
+ <br>
+
+
+ ## 🟣 nano
+
+- this will open the nano
+
+```javascript
+nano ~/.bashrc
 ```
