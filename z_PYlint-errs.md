@@ -5,3 +5,8 @@
 
 <br>
 
+**Incorrect Environment Setup:**
+
+- Pylint might be running in an environment where the Python interpreter or the virtual environment (if used) does not have the necessary packages installed. This can happen if Pylint is configured to run in a different environment than where your application runs.
+
+<br>
