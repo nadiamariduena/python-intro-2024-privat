@@ -71,9 +71,33 @@ sudo apt update
 ```
 
 <br>
+<br>
 
 ### 🟠 try again to install curl
 
 ```javascript
 sudo apt install curl
+```
+
+
+#### output
+
+```javascript
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following NEW packages will be installed:
+  curl
+0 upgraded, 1 newly installed, 0 to remove and 3 not upgraded.
+Need to get 227 kB of archives.
+After this operation, 532 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 curl amd64 8.5.0-2ubuntu10.1 [227 kB]
+Fetched 227 kB in 1s (207 kB/s)
+Selecting previously unselected package curl.
+(Reading database ... 229525 files and directories currently installed.)
+Preparing to unpack .../curl_8.5.0-2ubuntu10.1_amd64.deb ...
+Unpacking curl (8.5.0-2ubuntu10.1) ...
+Setting up curl (8.5.0-2ubuntu10.1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+
 ```
