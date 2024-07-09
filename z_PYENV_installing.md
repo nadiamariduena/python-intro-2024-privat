@@ -548,3 +548,14 @@ pyenv versions
   3.10.8
 
 ```
+
+<br>
+
+## 🌈 Switch to a Different Version:
+
+To switch to a different version, let's say you want to switch to version **3.8.10** where Tkinter might work correctly (i will be talking about this Tkinter):
+
+```javascript
+pyenv global 3.8.10
+
+```
