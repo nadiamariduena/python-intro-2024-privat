@@ -220,5 +220,6 @@ export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 ```
+<br>
 
-###  to save: `strg + O`, check the file you are saving on (be careful), if its correct press ENTER, then.. to get out press `strg + X`
+#### 🟧  to save: `strg + O`, check the file you are saving on (be careful), if its correct press ENTER, then.. to get out press `strg + X`
