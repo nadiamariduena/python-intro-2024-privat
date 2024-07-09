@@ -23,3 +23,10 @@
 <br>
 
 ### 💁‍♀️ To address this issue:
+
+
+<br>
+
+**Verify Environment:**
+
+- Ensure that Pylint is running in the same environment (Python interpreter and virtual environment) where your application dependencies are installed. If using a virtual environment, activate it before running Pylint.
