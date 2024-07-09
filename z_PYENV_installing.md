@@ -43,8 +43,22 @@ Package `python-dotenv` is not installed in the selected environment.Python-Inst
 
 <br>
 
+### 🟠 install
+
 This command below installs **pyenv** ✋ globally on your system. It sets up pyenv in your home directory (`~/.pyenv`) and modifies your shell's initialization file (like `.bashrc, .zshrc, etc`.) to include **pyenv** commands.
 
 ```javascript
 curl https://pyenv.run | bash
 ```
+
+
+#### output
+
+```javascript
+$ sudo curl https://pyenv.run | bash
+[sudo] password for mycomputer:
+sudo: curl: command not found
+```
+
+<br>
+
