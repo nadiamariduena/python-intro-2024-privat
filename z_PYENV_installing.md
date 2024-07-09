@@ -3,7 +3,17 @@
 <br>
 <br>
 
-### I encountered an issue when trying to run the code on the  [weather api](./z_weather-API.md)
+### 🧶Why?
+
+#### I encountered an issue when trying to run the code on the  [weather api](./z_weather-API.md) exercise
+
+<br>
+
+ **the issue:**
+
+ - red underline due to packages not being installed in the environment
+
+ -  later on i will discover that not only this type of red underline appears because the packages are not well installed but also because even if the packages are installed, the **Pylint** will
 
 
 ```python
@@ -15,7 +25,7 @@ import os
 
 <br>
 
-### Somehow i always ended up having the red underline on the `Weather.py`
+#### Somehow i always ended up having the red underline on the `Weather.py`
 
 <br>
 
@@ -39,6 +49,19 @@ Package `python-dotenv` is not installed in the selected environment.Python-Inst
 <br>
 
 ## 🟣 PYENV installation
+
+<br>
+<br>
+
+### 🟡 Check this video to see how you will be able to change the versions [min: 5:40 / Manage Multiple Python Versions with PyEnv](https://youtu.be/3my06DUnApM?si=0Mu3vQvbToF5hLUA&t=340)
+
+<br>
+
+**PYENV** is a great tool for managing multiple Python versions on your system, regardless of the system's default Python installation or available packages.
+
+[How to Install and Run Multiple Python Versions on Ubuntu/Debian | pyenv & virtualenv Setup Tutorial](https://youtu.be/1Zgo8M9yUtM?si=lPx1WQTX8_hQsu8D)
+
+## Here's a step-by-step guide to installing pyenv and setting it up to manage Python versions and virtual environments:
 
 
 <br>
