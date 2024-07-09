@@ -66,3 +66,5 @@ By ensuring that Pylint runs in the correct environment and its configuration ma
 ##### chatgpt:
 
 Yes, that's correct! Pylint and ESLint serve similar purposes in their respective languages (Python and JavaScript):
+
+**Static Code Analysis:** Both Pylint and ESLint analyze code without executing it (statically) to find errors, enforce coding standards, and identify potential bugs.
