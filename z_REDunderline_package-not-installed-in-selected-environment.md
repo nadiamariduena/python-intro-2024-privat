@@ -64,5 +64,11 @@ Package `python-dotenv` is not installed in the selected environment.Python-Inst
 - i will continue to test to see the different type of issues
 
 ```javascript
+// 3.7.14 (with this version the red underline is gone)
+  system
+* 3.7.14 (set by /home/mycomputer/.pyenv/version)
+  3.8.10 //(red underline)
+  3.8.18 //(i had several issues with this one, missing packages, red underline)
+  3.10.8 // (red underline)
 
 ```
