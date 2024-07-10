@@ -7,6 +7,10 @@
 
 #### KEEP in mind that the ubuntu that installed came already with this version `python3.12` , this is the version my computer is actually using, the with pyenv i an using the following (for now, because i will be testing more)
 
+
+
+### Before installing, check the versions you already have
+
 ```javascript
   system
 * 3.7.14 (set by /home/mycomputer/.pyenv/version)
@@ -20,9 +24,9 @@
 
 <br>
 
-### 🟠 Installing python3.8.18
+### 🟠 Missing packages from python3.8.18
 
-- type this in your ubuntu console `pyenv install 3.8.18`
+- TO INSTALL: type this in your ubuntu console `pyenv install 3.8.18`
 
 ```javascript
 Downloading Python-3.8.18.tar.xz...
