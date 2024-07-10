@@ -125,3 +125,18 @@ Python **3.10.x:** `Python 3.10` is the latest stable release as of now (July 20
 
 - - 👎 However, being relatively new, some libraries and frameworks may not fully support it yet, so compatibility should be verified.
 
+
+<br>
+<br>
+
+### Python 3.6
+
+Python **3.6.x:** `Python 3.6` is older but still supported with security updates until December 2021.
+
+-  It's generally stable, but newer Python versions have added significant improvements and features since then.
+
+### is Python 3.6 compatible with Django?
+
+##### chatgpt:
+
+Yes, Python 3.6 is compatible with Django. Django officially supports a range of Python versions, and Python 3.6 is within that supported range for most versions of Django.
