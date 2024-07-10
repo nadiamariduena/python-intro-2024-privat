@@ -147,3 +147,48 @@ sudo apt update
 ```javascript
 sudo apt install pylint
 ```
+
+#### output
+
+```javascript
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  python3-astroid python3-dill python3-importlib-metadata python3-isort python3-logilab-common python3-mccabe python3-more-itertools
+  python3-mypy-extensions python3-platformdirs python3-toml python3-tomlkit python3-zipp
+Suggested packages:
+  python3-objgraph
+The following NEW packages will be installed:
+  pylint python3-astroid python3-dill python3-importlib-metadata python3-isort python3-logilab-common python3-mccabe python3-more-itertools
+  python3-mypy-extensions python3-platformdirs python3-toml python3-tomlkit python3-zipp
+0 upgraded, 13 newly installed, 0 to remove and 4 not upgraded.
+Need to get 1,098 kB of archives.
+After this operation, 8,349 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-astroid all 3.0.2-2 [174 kB]
+Get:2 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-toml all 0.10.2-1 [16.5 kB]
+Get:3 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-isort all 5.6.4-1 [63.1 kB]
+Get:4 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-more-itertools all 10.2.0-1 [52.9 kB]
+Get:5 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-zipp all 1.0.0-6 [6,090 B]
+Get:6 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-importlib-metadata all 4.12.0-1 [17.8 kB]
+Get:7 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-mypy-extensions all 1.0.0-1 [6,148 B]
+Get:8 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-logilab-common all 1.9.8-2 [280 kB]
+Get:9 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-dill all 0.3.8-1 [83.0 kB]
+Get:10 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-mccabe all 0.7.0-1 [8,678 B]
+Get:11 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-platformdirs all 4.2.0-1 [16.1 kB]
+Get:12 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-tomlkit all 0.12.4-1 [37.5 kB]
+Get:13 http://archive.ubuntu.com/ubuntu noble/universe amd64 pylint all 3.0.3-2 [337 kB]
+Fetched 1,098 kB in 1s (911 kB/s)
+//
+// ..... more
+```
+
+<br>
+
+### check the Version
+
+```javascript
+pylint --version
+
+```
