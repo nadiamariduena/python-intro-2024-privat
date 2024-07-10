@@ -60,7 +60,14 @@ import-error / E0401
 
 ```
 
+<br>
+<br>
 
+---
+
+
+<br>
+<br>
 
 
 #### 🟡 Determining the "best" Python version depends on several factors, including your specific project requirements, compatibility with libraries and frameworks you intend to use, and whether you prioritize stability or newer features.
