@@ -130,6 +130,8 @@ Yes, that's correct! Pylint and ESLint serve similar purposes in their respectiv
 
 - check if you already have it in your ubuntu
 
+- OPEN your ubuntu terminal
+
 ```javascript
 pylint --version
 ```
@@ -190,5 +192,11 @@ Fetched 1,098 kB in 1s (911 kB/s)
 
 ```javascript
 pylint --version
+```
 
+```javascript
+pylint 3.0.3
+astroid 3.0.2
+// this python version below is the main python that i installed, when installing UBUNTU through the usb key, this one has nothing to do with the python versions i installed with PYENV
+Python 3.12.3 (main, Apr 10 2024, 05:33:47) [GCC 13.2.0]
 ```
