@@ -117,7 +117,7 @@ Python **3.7.x:** `Python 3.7` is also a solid choice with many libraries and fr
 
 <br>
 
-### Python 3.10
+### 🔸 Python 3.10
 
 Python **3.10.x:** `Python 3.10` is the latest stable release as of now (July 2024).
 
@@ -129,7 +129,7 @@ Python **3.10.x:** `Python 3.10` is the latest stable release as of now (July 20
 <br>
 <br>
 
-### :small_orange_diamond: Python 3.6
+### 🔸 Python 3.6
 
 Python **3.6.x:** `Python 3.6` is older but still supported with security updates until December 2021.
 
@@ -141,3 +141,17 @@ Python **3.6.x:** `Python 3.6` is older but still supported with security update
 
 - - Yes, Python 3.6 is compatible with Django. Django officially supports a range of Python versions, and Python 3.6 is within that supported range for most versions of Django.
 
+
+<br>
+
+### 🟣 What Python version can I use with Django?
+
+https://docs.djangoproject.com/en/5.0/faq/install/
+
+```javascript
+3.2	3.6, 3.7, 3.8, 3.9, 3.10 (added in 3.2.9)
+4.0	3.8, 3.9, 3.10
+4.1	3.8, 3.9, 3.10, 3.11 (added in 4.1.3)
+4.2	3.8, 3.9, 3.10, 3.11, 3.12 (added in 4.2.8)
+5.0	3.10, 3.11, 3.12
+```
