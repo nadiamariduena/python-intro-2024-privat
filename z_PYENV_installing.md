@@ -574,6 +574,8 @@ Traceback (most recent call last):
 
 - you need to relaunch visual studio to see the option of the new PYTHON version
 
+> you can open the top bar (to choose the interpreter) , by clicking on the bottom right (you need to open a weather.py type of file, to see the python versions at the bottom), once you see a version click on it, and the top bar will unfold
+
 <br>
 
 ### 🟣 check the python versions you have on your computer
