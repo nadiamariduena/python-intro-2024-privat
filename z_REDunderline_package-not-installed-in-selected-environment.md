@@ -115,3 +115,13 @@ Python **3.7.x:** `Python 3.7` is also a solid choice with many libraries and fr
 
 - ✅ It **introduced data classes and various performance improvements**. It's still maintained, with security fixes being provided until mid-2023.
 
+<br>
+
+### Python 3.10
+
+Python **3.10.x:** `Python 3.10` is the latest stable release as of now (July 2024).
+
+- ✅ It **includes new features like pattern matching and improved error messages**.
+
+- - 👎 However, being relatively new, some libraries and frameworks may not fully support it yet, so compatibility should be verified.
+
