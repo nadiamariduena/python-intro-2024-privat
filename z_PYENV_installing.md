@@ -1,6 +1,10 @@
 ## 🟡 PYENV installing
 
 <br>
+
+ - ⚠️ check also the issues you can possibly have in different python versions [python-toavoid](./z_PYENV_versions-python-toavoid.md)
+
+
 <br>
 
 
@@ -20,7 +24,7 @@
 
 <br>
 
- - ⚠️ check also the issues you will find in different python versions [python-toavoid](./z_PYENV_versions-python-toavoid.md)
+ - ⚠️ check also the issues you can possibly have in different python versions [python-toavoid](./z_PYENV_versions-python-toavoid.md)
 
 
 ```python

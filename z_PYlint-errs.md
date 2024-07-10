@@ -5,14 +5,16 @@
 - READ [python versions to avoid](./z_PYENV_versions-python-toavoid.md)
 
 
-[which-python-version-pylint-should-evaluate-for](https://stackoverflow.com/questions/23052637/specify-which-python-version-pylint-should-evaluate-for)
+- READ [which-python-version-pylint-should-evaluate-for](https://stackoverflow.com/questions/23052637/specify-which-python-version-pylint-should-evaluate-for)
+
+
+- Watch [Mastering Python Code Quality with Pylint](https://youtu.be/RqdhVaX50mc?feature=shared)
 
 <br>
 
 <br>
 
-## check this video [Mastering Python Code Quality with Pylint](https://youtu.be/RqdhVaX50mc?feature=shared)
-
+### install Pylint []()
 
 <br>
 <br>
