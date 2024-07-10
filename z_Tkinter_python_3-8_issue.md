@@ -717,6 +717,8 @@ ii  python3-tk:amd64 3.12.3-0ubuntu1 amd64        Tkinter - Writing Tk applicati
 
 - 🌈 The output you provided indicates that `python3-tk` version **3.12.3-0ubuntu1** is installed on your system.
 
+>In summary, the presence of python3-tk version 3.12.3-0ubuntu1 means that Tkinter is installed and available for use with Python 3 on your Ubuntu system. You'll need to ensure that python3-tk or its equivalent is installed for each Python version you use with Pyenv, as Pyenv manages Python environments independently.
+
 <br>
 
 ### Let's break down what this means:
