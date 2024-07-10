@@ -50,6 +50,10 @@ Package `python-dotenv` is not installed in the selected environment.Python-Inst
 
 ```
 
+### 🌈 solution
+
+[]()
+
 
 <br>
 <br>
