@@ -95,7 +95,7 @@ Traceback (most recent call last):
 
 
 
-  // ✋  lzma.py
+  // ✋  lzma.py  liblzma-dev
    File "<string>", line 1, in <module>
     File "/home/mycomputer/.pyenv/versions/3.8.18/lib/python3.8/lzma.py", line 27, in <module>
     from _lzma import *
@@ -121,7 +121,7 @@ pyenv 2.4.7
 
 <br>
 
-### 🟧 install `libncurses5-dev libncursesw5-dev`
+ # 🟧 install `libncurses5-dev libncursesw5-dev`
 
 ```javascript
 sudo apt-get install libncurses5-dev libncursesw5-dev
@@ -164,7 +164,7 @@ Processing triggers for man-db (2.12.0-4build2) ...
 
 <br>
 
-### 🟧 install `libffi-dev`
+ # 🟧 install `libffi-dev`
 
 ```javascript
 sudo apt-get install libffi-dev
@@ -237,7 +237,7 @@ Processing triggers for install-info (7.1-3build2) ...
 
 <br>
 
-### 🟧 install `sqlite3 libsqlite3-dev`
+ # 🟧 install `sqlite3 libsqlite3-dev`
 
 ```javascript
 sudo apt-get install sqlite3 libsqlite3-dev
@@ -271,5 +271,99 @@ Unpacking sqlite3 (3.45.1-1ubuntu2) ...
 Setting up libsqlite3-dev:amd64 (3.45.1-1ubuntu2) ...
 Setting up sqlite3 (3.45.1-1ubuntu2) ...
 Processing triggers for man-db (2.12.0-4build2) ...
+
+```
+
+
+
+
+<br>
+
+<br>
+
+ # 🟧 install `liblzma-dev`
+
+```javascript
+sudo apt-get install liblzma-dev
+```
+
+
+```javascript
+// ✋ output
+//
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Suggested packages:
+  liblzma-doc
+The following NEW packages will be installed:
+  liblzma-dev
+0 upgraded, 1 newly installed, 0 to remove and 3 not upgraded.
+Need to get 176 kB of archives.
+After this operation, 801 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/main amd64 liblzma-dev amd64 5.6.1+really5.4.5-1 [176 kB]
+Fetched 176 kB in 1s (276 kB/s)
+Selecting previously unselected package liblzma-dev:amd64.
+(Reading database ... 229736 files and directories currently installed.)
+Preparing to unpack .../liblzma-dev_5.6.1+really5.4.5-1_amd64.deb ...
+Unpacking liblzma-dev:amd64 (5.6.1+really5.4.5-1) ...
+Setting up liblzma-dev:amd64 (5.6.1+really5.4.5-1) ...
+
+```
+
+
+<br>
+
+<br>
+
+<br>
+
+# 🟧 install `python3-tk`
+
+```javascript
+sudo apt-get install python3-tk
+```
+
+
+
+```javascript
+
+
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  blt libtk8.6 tk8.6-blt2.5
+Suggested packages:
+  blt-demo tk8.6 tix python3-tk-dbg
+The following NEW packages will be installed:
+  blt libtk8.6 python3-tk tk8.6-blt2.5
+0 upgraded, 4 newly installed, 0 to remove and 3 not upgraded.
+Need to get 1,516 kB of archives.
+After this operation, 4,929 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://archive.ubuntu.com/ubuntu noble/main amd64 libtk8.6 amd64 8.6.14-1build1 [779 kB]
+Get:2 http://archive.ubuntu.com/ubuntu noble/main amd64 tk8.6-blt2.5 amd64 2.5.3+dfsg-7build1 [630 kB]
+Get:3 http://archive.ubuntu.com/ubuntu noble/main amd64 blt amd64 2.5.3+dfsg-7build1 [4,840 B]
+Get:4 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-tk amd64 3.12.3-0ubuntu1 [102 kB]
+Fetched 1,516 kB in 2s (944 kB/s)
+Selecting previously unselected package libtk8.6:amd64.
+(Reading database ... 229586 files and directories currently installed.)
+Preparing to unpack .../libtk8.6_8.6.14-1build1_amd64.deb ...
+Unpacking libtk8.6:amd64 (8.6.14-1build1) ...
+Selecting previously unselected package tk8.6-blt2.5.
+Preparing to unpack .../tk8.6-blt2.5_2.5.3+dfsg-7build1_amd64.deb ...
+Unpacking tk8.6-blt2.5 (2.5.3+dfsg-7build1) ...
+Selecting previously unselected package blt.
+Preparing to unpack .../blt_2.5.3+dfsg-7build1_amd64.deb ...
+Unpacking blt (2.5.3+dfsg-7build1) ...
+Selecting previously unselected package python3-tk:amd64.
+Preparing to unpack .../python3-tk_3.12.3-0ubuntu1_amd64.deb ...
+Unpacking python3-tk:amd64 (3.12.3-0ubuntu1) ...
+Setting up libtk8.6:amd64 (8.6.14-1build1) ...
+Setting up tk8.6-blt2.5 (2.5.3+dfsg-7build1) ...
+Setting up blt (2.5.3+dfsg-7build1) ...
+Setting up python3-tk:amd64 (3.12.3-0ubuntu1) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.2) ...
 
 ```
