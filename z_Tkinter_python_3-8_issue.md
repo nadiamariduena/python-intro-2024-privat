@@ -692,4 +692,24 @@ Installed Python-3.8.18 to /home/mycomputer/.pyenv/versions/3.8.18
 
 <br>
 
+## 🔸 Verify if the `Tkinter` has been installed
+
+```javascript
+
+dpkg -l python3-tk
+```
+
+#### outcome
+
+- Seems like there are no more issues
+
+```javascript
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name             Version         Architecture Description
++++-================-===============-============-=================================================
+ii  python3-tk:amd64 3.12.3-0ubuntu1 amd64        Tkinter - Writing Tk applications with Python 3.x
+
+```
 
