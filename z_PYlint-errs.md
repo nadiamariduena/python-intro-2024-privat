@@ -1,3 +1,7 @@
+# 🟡 Pylint
+
+
+<br>
 
 - pylint / eslint in js [Go to section](#pylint_eslint)
 
@@ -14,12 +18,12 @@
 
 <br>
 
-### install Pylint []()
+### 🟣 install Pylint  [Go to section](#install_pylint)
 
 <br>
 <br>
 
-### 🟡 Pylint is a static code analysis tool used primarily for checking Python code for errors, style issues, and potential bugs.
+### 🟠 Pylint is a static code analysis tool used primarily for checking Python code for errors, style issues, and potential bugs.
 
 
 
@@ -112,3 +116,20 @@ Yes, that's correct! Pylint and ESLint serve similar purposes in their respectiv
 
 
 🍊 While Pylint is specific to Python and ESLint is specific to JavaScript, they share the common goal of helping developers write cleaner, more maintainable code by catching potential issues early in the development process. Each tool has its own set of rules and conventions tailored to the respective language's syntax and best practices.
+
+
+<br>
+<br>
+
+<br>
+<br>
+
+<a name="install_pylint"></a>
+
+## 🟡 install Pylint
+
+- check if you already have it in your ubuntu
+
+```javascript
+pylint --version
+```
