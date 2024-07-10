@@ -133,3 +133,17 @@ Yes, that's correct! Pylint and ESLint serve similar purposes in their respectiv
 ```javascript
 pylint --version
 ```
+
+- update the system before installing
+
+```javascript
+sudo apt update
+```
+
+<br>
+
+- install it
+
+```javascript
+sudo apt install pylint
+```
