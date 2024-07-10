@@ -24,11 +24,14 @@
 
 <br>
 
-### 🟠 Missing packages from python3.8.18
+### 🟧  Missing packages from python3.8.18
 
 - TO INSTALL: type this in your ubuntu console `pyenv install 3.8.18`
 
 ```javascript
+// ✋ output
+//
+//
 Downloading Python-3.8.18.tar.xz...
 -> https://www.python.org/ftp/python/3.8.18/Python-3.8.18.tar.xz
 Installing Python-3.8.18...
@@ -104,7 +107,9 @@ Installed Python-3.8.18 to /home/mycomputer/.pyenv/versions/3.8.18
 
 ```
 
-#### check again your Pyenv version
+<br>
+
+### 🟧  check again your Pyenv version
 
 ```javascript
 pyenv --version
@@ -116,4 +121,75 @@ pyenv 2.4.7
 
 <br>
 
-#### install sudo apt-get install libncurses5-dev libncursesw5-dev
+### 🟧 install `libncurses5-dev libncursesw5-dev`
+
+```javascript
+sudo apt-get install libncurses5-dev libncursesw5-dev
+```
+
+
+<br>
+
+```javascript
+// ✋ output
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Note, selecting 'libncurses-dev' instead of 'libncurses5-dev'
+Note, selecting 'libncurses-dev' instead of 'libncursesw5-dev'
+
+//
+//
+Suggested packages:
+  ncurses-doc
+The following NEW packages will be installed:
+  libncurses-dev
+0 upgraded, 1 newly installed, 0 to remove and 3 not upgraded.
+Need to get 384 kB of archives.
+After this operation, 2,417 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/main amd64 libncurses-dev amd64 6.4+20240113-1ubuntu2 [384 kB]
+Fetched 384 kB in 1s (324 kB/s)
+Selecting previously unselected package libncurses-dev:amd64.
+(Reading database ... 229441 files and directories currently installed.)
+Preparing to unpack .../libncurses-dev_6.4+20240113-1ubuntu2_amd64.deb ...
+Unpacking libncurses-dev:amd64 (6.4+20240113-1ubuntu2) ...
+Setting up libncurses-dev:amd64 (6.4+20240113-1ubuntu2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+
+
+```
+
+
+<br>
+
+<br>
+
+### 🟧 install `libffi-dev`
+
+```javascript
+sudo apt-get install libffi-dev
+```
+
+
+```javascript
+// ✋ output
+//
+//
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following NEW packages will be installed:
+  libffi-dev
+0 upgraded, 1 newly installed, 0 to remove and 3 not upgraded.
+Need to get 62.8 kB of archives.
+After this operation, 331 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/main amd64 libffi-dev amd64 3.4.6-1build1 [62.8 kB]
+Fetched 62.8 kB in 1s (91.9 kB/s)
+Selecting previously unselected package libffi-dev:amd64.
+(Reading database ... 229522 files and directories currently installed.)
+Preparing to unpack .../libffi-dev_3.4.6-1build1_amd64.deb ...
+Unpacking libffi-dev:amd64 (3.4.6-1build1) ...
+Setting up libffi-dev:amd64 (3.4.6-1build1) ...
+Processing triggers for install-info (7.1-3build2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+```
