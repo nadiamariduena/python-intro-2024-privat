@@ -87,6 +87,8 @@ Package `python-dotenv` is not installed in the selected environment.Python-Inst
 <br>
 <br>
 
+##### chatgpt:
+
 ### 🟠As of my last update in January 2022, here are some considerations for Python versions:
 
 <br>
@@ -155,3 +157,7 @@ https://docs.djangoproject.com/en/5.0/faq/install/
 4.2	3.8, 3.9, 3.10, 3.11, 3.12 (added in 4.2.8)
 5.0	3.10, 3.11, 3.12
 ```
+
+#### 🔴 However, it's important to note that Python 3.6 reached its end-of-life status in December 2021, which means it no longer receives official support or updates from the Python core development team.
+
+- - While Django may still officially support Python 3.6 in its older releases, it's advisable to consider upgrading to a supported Python version (like Python 3.7 or newer) for security and compatibility with other libraries and tools in the Python ecosystem.
