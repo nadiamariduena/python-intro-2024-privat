@@ -670,4 +670,26 @@ pyenv 2.4.7
 
 <br>
 
+<br>
+<br>
+<br>
+
+## 🟡 Install Python`3.8.18` again
+
+```javascript
+pyenv install 3.8.18
+```
+#### outcome
+
+- Seems like there are no more issues
+
+```javascript
+Downloading Python-3.8.18.tar.xz...
+-> https://www.python.org/ftp/python/3.8.18/Python-3.8.18.tar.xz
+Installing Python-3.8.18...
+Installed Python-3.8.18 to /home/mycomputer/.pyenv/versions/3.8.18
+```
+
+<br>
+
 
