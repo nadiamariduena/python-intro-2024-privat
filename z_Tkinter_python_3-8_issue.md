@@ -230,3 +230,46 @@ Setting up libreadline-dev:amd64 (8.2-4build1) ...
 Processing triggers for install-info (7.1-3build2) ...
 
 ```
+
+
+
+<br>
+
+<br>
+
+### 🟧 install `sqlite3 libsqlite3-dev`
+
+```javascript
+sudo apt-get install sqlite3 libsqlite3-dev
+```
+
+
+```javascript
+// ✋ output
+//
+//
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Suggested packages:
+  sqlite3-doc
+The following NEW packages will be installed:
+  libsqlite3-dev sqlite3
+0 upgraded, 2 newly installed, 0 to remove and 3 not upgraded.
+Need to get 1,055 kB of archives.
+After this operation, 3,983 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/main amd64 libsqlite3-dev amd64 3.45.1-1ubuntu2 [911 kB]
+Get:2 http://archive.ubuntu.com/ubuntu noble/main amd64 sqlite3 amd64 3.45.1-1ubuntu2 [144 kB]
+Fetched 1,055 kB in 2s (540 kB/s)
+Selecting previously unselected package libsqlite3-dev:amd64.
+(Reading database ... 229572 files and directories currently installed.)
+Preparing to unpack .../libsqlite3-dev_3.45.1-1ubuntu2_amd64.deb ...
+Unpacking libsqlite3-dev:amd64 (3.45.1-1ubuntu2) ...
+Selecting previously unselected package sqlite3.
+Preparing to unpack .../sqlite3_3.45.1-1ubuntu2_amd64.deb ...
+Unpacking sqlite3 (3.45.1-1ubuntu2) ...
+Setting up libsqlite3-dev:amd64 (3.45.1-1ubuntu2) ...
+Setting up sqlite3 (3.45.1-1ubuntu2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+
+```
