@@ -57,5 +57,5 @@ Package `python-dotenv` is not installed in the selected environment.Python-Inst
 
 ## 🌈 solution
 
-- After reading about the different types of issues you can have with python versions, I DECIDED to test a couple of them, keeping in mind that even if
+- After reading about the [different types of issues](./z_PYENV_versions-python-toavoid.md) you can have with python versions, I DECIDED to test a couple of them, keeping in mind that even if
 
