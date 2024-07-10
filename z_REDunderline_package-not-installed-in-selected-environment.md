@@ -82,5 +82,13 @@ Package `python-dotenv` is not installed in the selected environment.Python-Inst
 <br>
 
 
-### 🟡 Determining the "best" Python version depends on several factors, including your specific project requirements, compatibility with libraries and frameworks you intend to use, and whether you prioritize stability or newer features.
+#### 🟡 Determining the "best" Python version depends on several factors, including your specific project requirements, compatibility with libraries and frameworks you intend to use, and whether you prioritize stability or newer features.
 
+<br>
+<br>
+
+### 🟠As of my last update in January 2022, here are some considerations for Python versions:
+
+<br>
+
+Python 3.9.x: Python 3.9 is a stable release with a good balance of new features and stability. It includes performance improvements and new syntax features like the merge operator (|) for dictionaries. Many libraries and frameworks support Python 3.9 well.
