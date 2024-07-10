@@ -296,6 +296,14 @@ source .env/bin/activate
   mycomputer@mycomputer:~/Documents/0_PYTHON-all/LESSON_16_OOP$ deactivate
 ```
 
+#### remove cache
+
+- if for some reason you want to remove the **.env or .venv**
+
+```javascript
+rm -rf .venv
+```
+
 
 <br>
 

@@ -602,6 +602,8 @@ pyenv global 3.8.10
 
 ```
 
+#### Just like that you can install different versions
+
 <br>
 <br>
 
