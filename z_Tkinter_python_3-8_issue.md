@@ -729,3 +729,4 @@ Version: 3.12.3-0ubuntu1 is the version of python3-tk that is installed.
 
 **Architecture:** amd64 indicates that the package is built for 64-bit systems.
 
+**Description:** "Tkinter - Writing Tk applications with Python 3.x" is a brief description of what the package provides.
