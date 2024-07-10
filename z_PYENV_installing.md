@@ -570,6 +570,12 @@ Traceback (most recent call last):
 
 <br>
 
+#### 🔴 Launch visual studio (in case it s open)
+
+- you need to relaunch visual studio to see the option of the new PYTHON version
+
+<br>
+
 ### 🟣 check the python versions you have on your computer
 
  ```javascript
@@ -586,7 +592,9 @@ pyenv versions
 //
   system
   3.8.10
-* 3.8.18 (set by /home/mycomputer/.pyenv/version)
+* 3.8.18 (set by /home/mycomputer/.pyenv/version) // ✋ the one i am using
+//
+// you can open the top bar (to choose the interpreter) , by clicking on the bottom right (you need to open a weather.py type of file, to see the python versions at the bottom), once you see a version click on it, and the top bar will unfold
   3.10.8
 
 ```
