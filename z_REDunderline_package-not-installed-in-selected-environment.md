@@ -59,3 +59,10 @@ Package `python-dotenv` is not installed in the selected environment.Python-Inst
 
 - After reading about the [different types of issues](./z_PYENV_versions-python-toavoid.md) you can have with python versions, I DECIDED to test a couple of them, keeping in mind that in the above link it says also that for DJANgo you will need the latest  versions
 
+#### version that i have installed
+
+- i will continue to test to see the different type of issues
+
+```javascript
+
+```
