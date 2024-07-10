@@ -193,3 +193,40 @@ Setting up libffi-dev:amd64 (3.4.6-1build1) ...
 Processing triggers for install-info (7.1-3build2) ...
 Processing triggers for man-db (2.12.0-4build2) ...
 ```
+
+
+<br>
+
+<br>
+
+### 🟧 install `libreadline-dev`
+
+```javascript
+sudo apt-get install libreadline-dev
+```
+
+
+```javascript
+// ✋ output
+//
+//
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Suggested packages:
+  readline-doc
+The following NEW packages will be installed:
+  libreadline-dev
+0 upgraded, 1 newly installed, 0 to remove and 3 not upgraded.
+Need to get 167 kB of archives.
+After this operation, 814 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/main amd64 libreadline-dev amd64 8.2-4build1 [167 kB]
+Fetched 167 kB in 1s (137 kB/s)
+Selecting previously unselected package libreadline-dev:amd64.
+(Reading database ... 229557 files and directories currently installed.)
+Preparing to unpack .../libreadline-dev_8.2-4build1_amd64.deb ...
+Unpacking libreadline-dev:amd64 (8.2-4build1) ...
+Setting up libreadline-dev:amd64 (8.2-4build1) ...
+Processing triggers for install-info (7.1-3build2) ...
+
+```
