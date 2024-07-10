@@ -367,3 +367,69 @@ Setting up python3-tk:amd64 (3.12.3-0ubuntu1) ...
 Processing triggers for libc-bin (2.39-0ubuntu8.2) ...
 
 ```
+
+<br>
+<br>
+
+----
+
+<br>
+
+## 🟦 Uninstall Python`3.8.18` again
+
+```javascript
+
+pyenv uninstall 3.8.18
+
+```
+
+## 🍭 Remove cache from the version below
+
+```javascript
+rm -rf ~/.pyenv/cache/Python-3.8.18
+```
+
+### 🔸 Check PYenv version again
+
+```javascript
+pyenv --version
+
+// output
+pyenv 2.4.7
+
+```
+
+
+
+<br>
+<br>
+
+----
+
+<br>
+
+
+## 🟡 Install Python`3.8.18` again
+
+```javascript
+pyenv install 3.8.18
+```
+
+
+<br>
+
+### 🔴 As you can see, all the other packages have been installed, ONLY the tkinter have issues
+
+```javascript
+Downloading Python-3.8.18.tar.xz...
+-> https://www.python.org/ftp/python/3.8.18/Python-3.8.18.tar.xz
+Installing Python-3.8.18...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/mycomputer/.pyenv/versions/3.8.18/lib/python3.8/tkinter/__init__.py", line 36, in <module>
+    import _tkinter # If this fails your Python may not be configured for Tk
+ModuleNotFoundError: No module named '_tkinter'
+WARNING: The Python tkinter extension was not compiled and GUI subsystem has been detected. Missing the Tk toolkit?
+Installed Python-3.8.18 to /home/mycomputer/.pyenv/versions/3.8.18
+
+```
