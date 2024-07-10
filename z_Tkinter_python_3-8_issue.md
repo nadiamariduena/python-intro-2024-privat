@@ -726,3 +726,6 @@ ii  python3-tk:amd64 3.12.3-0ubuntu1 amd64        Tkinter - Writing Tk applicati
 
 **Name:** python3-tk is the package name for Tkinter for Python 3.
 Version: 3.12.3-0ubuntu1 is the version of python3-tk that is installed.
+
+**Architecture:** amd64 indicates that the package is built for 64-bit systems.
+
