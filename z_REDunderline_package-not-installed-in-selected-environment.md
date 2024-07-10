@@ -91,6 +91,18 @@ Package `python-dotenv` is not installed in the selected environment.Python-Inst
 
 <br>
 
+### PYTHON 3.9
+
 Python **3.9.x:** `Python 3.9` is a stable release with a good balance of new features and stability.
 
 - ✅ It includes performance improvements and new syntax **features like the merge operator** `(|)` for dictionaries. Many libraries and frameworks support Python 3.9 well.
+
+
+<br>
+
+### Python 3.8
+
+Python **3.8.x:** `Python 3.8` is another stable release with Long Term Support (LTS) until October 2024.
+
+- It's widely used and generally considered stable and reliable. It **introduced the assignment expressions** `(walrus operator :=)` and optimizations in various areas.
+
