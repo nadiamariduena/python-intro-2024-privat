@@ -5,7 +5,24 @@
 
 <br>
 
+#### KEEP in mind that the ubuntu that installed came already with this version `python3.12` , this is the version my computer is actually using, the with pyenv i an using the following (for now, because i will be testing more)
 
+```javascript
+  system
+* 3.7.14 (set by /home/mycomputer/.pyenv/version)
+  3.8.10
+  3.8.18
+  3.10.8
+
+
+```
+
+
+<br>
+
+### 🟠 Installing python3.8.18
+
+- type this in your ubuntu console `pyenv install 3.8.18`
 
 ```javascript
 Downloading Python-3.8.18.tar.xz...
@@ -14,7 +31,7 @@ Installing Python-3.8.18...
 Traceback (most recent call last):
   File "<string>", line 1, in <module>
 
-
+// --------  MISSING PACKAGES ---------------
 
    // ✋ curses
   File "/home/mycomputer/.pyenv/versions/3.8.18/lib/python3.8/curses/__init__.py", line 13, in <module>
