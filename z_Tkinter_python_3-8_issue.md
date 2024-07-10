@@ -730,3 +730,15 @@ Version: 3.12.3-0ubuntu1 is the version of python3-tk that is installed.
 **Architecture:** amd64 indicates that the package is built for 64-bit systems.
 
 **Description:** "Tkinter - Writing Tk applications with Python 3.x" is a brief description of what the package provides.
+
+<br>
+
+
+### 🔴 If you switch to a different Python version using Pyenv (pyenv global, pyenv local, pyenv shell)..
+
+
+- 🟥 you will need to ensure that **python3-tk** is installed for that **specific Python version** as well.
+
+- 🟥 Installing **python3-tk** for one Python version does not automatically install it for other Python versions managed by Pyenv.
+
+<br>
