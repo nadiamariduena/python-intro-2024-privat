@@ -91,4 +91,6 @@ Package `python-dotenv` is not installed in the selected environment.Python-Inst
 
 <br>
 
-Python **3.9.x:** `Python 3.9` is a stable release with a good balance of new features and stability. It includes performance improvements and new syntax features like the merge operator (|) for dictionaries. Many libraries and frameworks support Python 3.9 well.
+Python **3.9.x:** `Python 3.9` is a stable release with a good balance of new features and stability.
+
+- ✅ It includes performance improvements and new syntax **features like the merge operator** `(|)` for dictionaries. Many libraries and frameworks support Python 3.9 well.
