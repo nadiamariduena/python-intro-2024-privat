@@ -104,3 +104,16 @@ Installed Python-3.8.18 to /home/mycomputer/.pyenv/versions/3.8.18
 
 ```
 
+#### check again your Pyenv version
+
+```javascript
+pyenv --version
+
+// output
+pyenv 2.4.7
+
+```
+
+<br>
+
+#### install sudo apt-get install libncurses5-dev libncursesw5-dev
