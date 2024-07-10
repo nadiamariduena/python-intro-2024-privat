@@ -5,11 +5,11 @@
 
 <br>
 
-#### KEEP in mind that the ubuntu that installed, it came already with this version `python3.12` , this is the version my computer is actually using, the other versions you see below, were installed with pyenv i am using the 3.7.14 (for now, because i will be testing more)
+#### 🟣 KEEP in mind that the ubuntu that installed, it came already with this version `python3.12` , this is the version my computer is actually using, the other versions you see below, were installed with pyenv i am using the 3.7.14 (for now, because i will be testing more)
 
 
 
-### Before installing, check the versions you already have
+#### Before installing, check the versions you already have
 
 ```javascript
   system
