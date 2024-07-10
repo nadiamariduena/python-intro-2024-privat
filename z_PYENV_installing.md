@@ -3,6 +3,9 @@
 <br>
 <br>
 
+
+<br>
+
 ### 🧶Why? 🧶 🧶
 
 #### I encountered an issue when trying to run the code on the  [weather api](./z_weather-API.md) exercise
