@@ -3,6 +3,10 @@
 
 <br>
 
+- 🔴 red underline when importing **dotenv or requests** SOLVED []()
+
+<br>
+
 - pylint / eslint in js [Go to section](#pylint_eslint)
 
 
