@@ -8,8 +8,9 @@
 #### 🟩 KEEP in mind that the ubuntu that installed, it came already with this version `python3.12` , this is the version my computer is actually using, the other versions you see below, were installed with pyenv i am using the 3.7.14 (for now, because i will be testing more)
 
 
+<br>
 
-#### Before installing, check the versions you already have
+### 🟧 Before installing, check the versions you already have
 
 ```javascript
   system
@@ -23,6 +24,8 @@
 
 
 <br>
+
+# python3.8.18
 
 ### 🟧  Missing packages from python3.8.18
 
@@ -325,5 +328,15 @@ Setting up liblzma-dev:amd64 (5.6.1+really5.4.5-1) ...
  [visualize it: ](https://realpython.com/cdn-cgi/image/width=853,format=auto/https://files.realpython.com/media/17_4_tk_window.662fec42e4f9.jpg)
 
 
- ### 1. Check the whole installation here: [Tkinter_python_3-8_issue](./z_Tkinter_python_3-8_issue.md)
+ ###  Check the whole installation here: [Tkinter_python_3-8_issue](./z_Tkinter_python_3-8_issue.md)
 
+- Follow the steps from the above link, its the last part of the installation.
+
+<br>
+<br>
+
+---
+
+
+<br>
+<br>
