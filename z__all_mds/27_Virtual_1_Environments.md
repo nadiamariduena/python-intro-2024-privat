@@ -416,13 +416,21 @@ yt-dlp                2024.4.9
 
 ```
 
-#### if you dont have the result, try installing the `requests` while it s not ✋ activated
+### 🟠 if you dont have the result, try installing the `requests` while it s not ✋ activated
 
 ```javascript
 
 python3 -m pip install requests
 ```
 
+<br>
+
+### 🟠 Check if you have the package
+
+
+```javascript
+pip show requests
+```
 <br>
 <br>
 
