@@ -446,6 +446,10 @@ Installed Python-3.8.18 to /home/mycomputer/.pyenv/versions/3.8.18
 
 ```javascript
 sudo apt-get install tk-dev
+// 🔴 not to be confused with the command that i used more at
+///the top: sudo apt-get install python3-tk
+// read after the code below
+
 ```
 
 
@@ -632,6 +636,19 @@ Setting up tk-dev:amd64 (8.6.14build1) ...
 
 
 ```
+
+<br>
+
+## 🟣 Differences
+
+#### The packages `python3-tk` and `tk-dev` serve different purposes, although they are related to tkinter and Tkinter development.
+
+```javascript
+sudo apt-get install python3-tk
+```
+**python3-tk:** This package provides the Tkinter module for Python 3.x.
+
+🔸 Tkinter is Python's standard **GUI (Graphical User Interface)** toolkit, based on the **Tk GUI toolkit** originally developed for the Tcl scripting language. Installing python3-tk allows you to use Tkinter in your Python scripts to create graphical interfaces.
 
 
 <br>
