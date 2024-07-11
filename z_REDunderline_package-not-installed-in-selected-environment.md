@@ -77,6 +77,7 @@ Package `python-dotenv` is not installed in the selected environment.Python-Inst
 
 ```
 
+## 🔴 [](z_Python_err-install_packages.md)
 
 <br>
 <br>
