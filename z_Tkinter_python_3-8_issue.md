@@ -641,7 +641,7 @@ Setting up tk-dev:amd64 (8.6.14build1) ...
 
 ## 🟣 Differences
 
-#### The packages `python3-tk` and `tk-dev` serve different purposes, although they are related to tkinter and Tkinter development.
+#### The packages `python3-tk` and `tk-dev` ✋ serve different purposes, although they are related to tkinter and Tkinter development.
 
 ```javascript
 sudo apt-get install python3-tk
@@ -650,6 +650,12 @@ sudo apt-get install python3-tk
 
 🔸 Tkinter is Python's standard **GUI (Graphical User Interface)** toolkit, based on the **Tk GUI toolkit** originally developed for the Tcl scripting language. Installing python3-tk allows you to use Tkinter in your Python scripts to create graphical interfaces.
 
+
+<br>
+
+🍰 **tk-dev:** This package (tk-dev) **provides development files and headers for the Tk GUI toolkit**.
+
+- These files are **needed if you want to compile and build applications that use Tk**, such as when you're developing applications in languages other than Python that utilize Tk directly.
 
 <br>
 <br>
