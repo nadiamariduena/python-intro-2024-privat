@@ -1,6 +1,8 @@
-# 🟡 Unable to install tkinter using python3.8
+# 🟡 Unable to install tkinter using python3.8.18
 
-- This file is the continuation of the
+<br>
+
+#### This file is the continuation of the `python 3.8.18` intallation issue  [Python_err-install_packages](./z_Python_err-install_packages.md) 🔴 but if you only had issues with this package then proceed.
 
 <br>
 <br>
@@ -508,3 +510,12 @@ Version: 3.12.3-0ubuntu1 is the version of python3-tk that is installed.
 - 🟥 Installing **python3-tk** for one Python version does not automatically install it for other Python versions managed by Pyenv.
 
 <br>
+
+## Test
+
+- type the following command within your ubuntu terminal
+
+```javascript
+python3 -c "import tkinter; tkinter._test()"
+```
+✅ You will notice that at the left side of your screen a small icon and a small window/modal box is will appear, there you will have **tk version 8.6** and 2 btns

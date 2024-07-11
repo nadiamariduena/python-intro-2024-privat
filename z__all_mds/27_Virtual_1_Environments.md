@@ -21,6 +21,10 @@
 
 <br>
 
+https://medium.com/@adocquin/mastering-python-virtual-environments-with-pyenv-and-pyenv-virtualenv-c4e017c0b173
+
+<br>
+
 
 ### 🟠 It's pretty normal to have multiple Python applications running on your computer.
 
