@@ -1,13 +1,20 @@
-## 🔴 Red underline
+## 🟡 Red underline
+
+<br>
+<br>
 
 
+ - 🔴 1 check  the issues you can possibly have in different python versions [python-toavoid](./z_PYENV_versions-python-toavoid.md)
+
+
+-  🔴 2 [Python_err-install_packages.](z_Python_err-install_packages.md)
 
 <br>
 
 
 <br>
 
-### 🧶Why? 🧶 🧶
+## 🧶Why? 🧶 🧶
 
 #### I encountered an issue when trying to run the code on the  [weather api](./z_weather-API.md) exercise
 
@@ -21,7 +28,7 @@
 
 <br>
 
- - ⚠️ check also the issues you can possibly have in different python versions [python-toavoid](./z_PYENV_versions-python-toavoid.md)
+
 
 
 ```python
@@ -77,7 +84,10 @@ Package `python-dotenv` is not installed in the selected environment.Python-Inst
 
 ```
 
-## 🔴 [](z_Python_err-install_packages.md)
+ - 🔴 1 check also the issues you can possibly have in different python versions [python-toavoid](./z_PYENV_versions-python-toavoid.md)
+
+
+-  🔴 2 [Python_err-install_packages.](z_Python_err-install_packages.md)
 
 <br>
 <br>
