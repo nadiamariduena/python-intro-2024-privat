@@ -646,7 +646,7 @@ Setting up tk-dev:amd64 (8.6.14build1) ...
 ```javascript
 sudo apt-get install python3-tk
 ```
-**python3-tk:** This package provides the Tkinter module for Python 3.x.
+🍫 **python3-tk:** This package provides the Tkinter module for Python 3.x.
 
 🔸 Tkinter is Python's standard **GUI (Graphical User Interface)** toolkit, based on the **Tk GUI toolkit** originally developed for the Tcl scripting language. Installing python3-tk allows you to use Tkinter in your Python scripts to create graphical interfaces.
 
