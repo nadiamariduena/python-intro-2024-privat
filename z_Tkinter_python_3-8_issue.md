@@ -320,6 +320,8 @@ Setting up liblzma-dev:amd64 (5.6.1+really5.4.5-1) ...
 
 # 🟧 install `python3-tk`
 
+ - visualize it:  https://realpython.com/python-gui-tkinter/
+
 ```javascript
 sudo apt-get install python3-tk
 ```
