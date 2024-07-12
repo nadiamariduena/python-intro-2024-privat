@@ -6,6 +6,6 @@
 
 
 <br>
+<br>
 
-
-- ✋ I recommend you check all the time the version of the python within the bin folder withing your **.venv** , here: `.venv/bin`
+- ✋ I recommend you check the python version  within the **bin** (that is generated from the venv) folder withing your **.venv** , here: `.venv/bin`
