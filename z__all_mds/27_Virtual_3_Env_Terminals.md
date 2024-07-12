@@ -50,5 +50,9 @@ mycomputer@userLudovico:~/lesson-2$
 
 4 🔸 Even if you changed the **interpreter** now, lets say for a **version 3.7.14** , you will see that once you have generated the **venv folder** within **LESSON_2** (terminal 2), you will still get the **python 3.8.18**
 
-#### You should not open a second terminal like this, click on the `+` (right bottom bar) instead, only like that you can be sure you are going to get the right version, the version you have currently within your INTERPRETER
+
+<br>
+<br>
+
+### 🌈 You should not open a second terminal like this, click on the `+` (right bottom bar) instead, only like that you can be sure you are going to get the right version, the version you have currently within your INTERPRETER
 
