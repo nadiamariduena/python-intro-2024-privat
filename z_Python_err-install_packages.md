@@ -82,16 +82,7 @@ ModuleNotFoundError: No module named '_sqlite3'
 WARNING: The Python sqlite3 extension was not compiled. Missing the SQLite3 lib?
 Traceback (most recent call last):
 
-/*
-In Python, sqlite3 and dbapi2 are often referenced together because sqlite3 is a module that implements the Python Database API Specification v2.0 (DB-API 2.0) for SQLite databases.
 
-sqlite3: This is the standard Python library module for working with SQLite databases. It provides an interface to interact with SQLite databases using SQL queries. You import it in your Python scripts like this:
-
-import sqlite3
-
-
-The sqlite3 module provides functions and classes to create a connection to an SQLite database file, execute SQL queries, manage transactions, and retrieve query results.
-*/
 
 
 
@@ -251,13 +242,34 @@ Processing triggers for install-info (7.1-3build2) ...
 
  # 🟧 install `sqlite3 libsqlite3-dev`
 
+ <br>
 ```javascript
 sudo apt-get install sqlite3 libsqlite3-dev
 ```
 
+<br>
+
+In Python, **sqlite3** and **dbapi2** are often referenced together because  <u>sqlite3 is a module that implements the Python Database API Specification v2.0 (DB-API 2.0) for SQLite databases</u>.
+
+
+<br>
+
+### sqlite3:
+
+- This is the standard Python library module for working with SQLite databases. It provides an interface to interact with SQLite databases using SQL queries. You import it in your Python scripts like this:  `import sqlite3`
+
+
+The sqlite3 module provides functions and classes to create a connection to an SQLite database file, execute SQL queries, manage transactions, and retrieve query results.
+
+
+
+ <br>
+
+#### output
+
 
 ```javascript
-// ✋ output
+// ✋
 //
 //
 Reading package lists... Done
