@@ -21,7 +21,7 @@
 1 🔸 Open the **Weather.py** (so that you can change the **interpreter** by clicking at the bottom right of your VS, once you click on it you will see at the top of your VS code a dropdown with all the python versions that you should have already installed with **pyenv** )
 
 
-- lets say you have only **Terminal 1** (you shouldnt have any other terminal open within your VS code)
+- lets say you have only **Terminal 1** open (you shouldn't have any other terminal open within your VS code for this test), in this terminal you have **python 3.8.18** marked at the bottom right, if you decided to open a second window based on this terminal 1, even if you changed the **interpreter** now, lets say for a **version 3.7.14**
 
 
 ```javascript
