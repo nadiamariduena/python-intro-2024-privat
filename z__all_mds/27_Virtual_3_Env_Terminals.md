@@ -32,9 +32,18 @@
 //
 Terminal 1 will handle LESSON_1
 Terminal 2 (child of terminal 1) will handle LESSON_2
-
+//
+// it should look like this:
+mycomputer@userLudovico:~/lesson-1$
+mycomputer@userLudovico:~/lesson-2$
 ```
 
+<br>
 
-2 🔸 Lets say you have only **Terminal 1** open (you shouldn't have any other terminal open within your VS code for this test), in this terminal you have **python 3.8.18** marked at the bottom right, if you decided to open a second window based on this terminal 1 (look at the right bar, and hover on the terminal 1, click on the option **split** that looks like a window, this will create a child terminal, therefore split), even if you changed the **interpreter** now, lets say for a **version 3.7.14** , you will see that once you have generated the venv folder in the project of the terminal 1, you will still get the **python 3.8.18**
+2 🔸 Lets say you have only **Terminal 1** open, this terminal is **cd** within **LESSON_1**  (you shouldn't have any other terminal open within your VS code for this test)
+
+
+<br>
+
+3 🔸 in this terminal you have **python 3.8.18** marked at the bottom right, if you decided to open a second window based on this terminal 1 (look at the right bar, and hover on the terminal 1, click on the option **split** that looks like a window, this will create a child terminal, therefore split), even if you changed the **interpreter** now, lets say for a **version 3.7.14** , you will see that once you have generated the venv folder in the project of the terminal 1, you will still get the **python 3.8.18**
 
