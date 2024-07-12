@@ -56,3 +56,17 @@ mycomputer@userLudovico:~/lesson-2$
 
 ### 🌈 You should not open a second terminal like this, click on the `+` (right bottom bar) instead, only like that you can be sure you are going to get the right version, the version you have currently within your INTERPRETER
 
+
+- DELETE your venv
+
+```javascript
+// 1  (in case you venv is activated)
+deactivate
+// 2 remove
+rm -rf .venv
+// create again but this time open the terminal using the + PLUS
+python -m venv .venv
+// CHECK the PYTHON version within the bin and if the python version matches the one on YOUR INTERPRETER then proceed to ACTIVATE
+// activate
+source .venv/bin/activate
+```
