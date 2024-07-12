@@ -45,5 +45,10 @@ mycomputer@userLudovico:~/lesson-2$
 
 <br>
 
-3 🔸 in this terminal you have **python 3.8.18** marked at the bottom right, if you decided to open a second window based on this terminal 1 (look at the right bar, and hover on the terminal 1, click on the option **split** that looks like a window, this will create a child terminal, therefore split), even if you changed the **interpreter** now, lets say for a **version 3.7.14** , you will see that once you have generated the venv folder in the project of the terminal 1, you will still get the **python 3.8.18**
+3 🔸 In this terminal you have **python 3.8.18** marked at the bottom right, if you decided to open a second window based on this terminal 1 (look at the right bar, and hover on the terminal 1, click on the option **split** that looks like a window, this will create a child terminal, therefore split)
+
+
+4 🔸 Even if you changed the **interpreter** now, lets say for a **version 3.7.14** , you will see that once you have generated the **venv folder** within **LESSON_2** (terminal 2), you will still get the **python 3.8.18**
+
+#### You should not open a second terminal like this, click on the `+` (right bottom bar) instead, only like that you can be sure you are going to get the right version, the version you have currently within your INTERPRETER
 
