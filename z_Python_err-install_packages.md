@@ -82,7 +82,11 @@ ModuleNotFoundError: No module named '_sqlite3'
 WARNING: The Python sqlite3 extension was not compiled. Missing the SQLite3 lib?
 Traceback (most recent call last):
 
+/*
+In Python, sqlite3 and dbapi2 are often referenced together because sqlite3 is a module that implements the Python Database API Specification v2.0 (DB-API 2.0) for SQLite databases.
 
+
+*/
 
 
 
