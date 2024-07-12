@@ -31,6 +31,7 @@
 
 //
 Terminal 1 will handle LESSON_1
+Terminal 2 (child of terminal 1) will handle LESSON_2
 
 ```
 
