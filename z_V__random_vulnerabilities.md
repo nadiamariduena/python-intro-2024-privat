@@ -23,3 +23,5 @@
 
 
 ### 🟦 chatgpt
+
+- It sounds like you've encountered a vulnerability message related to the **urllib3** library and its handling of the Proxy-Authorization request header during cross-origin redirects. This issue is categorized as "Moderate" severity.
