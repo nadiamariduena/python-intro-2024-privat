@@ -78,3 +78,7 @@ urllib3==2.0.7
 pip install --upgrade urllib3
 
 ```
+
+#### once you have updated or deleted the venv and re generated the venv and re installed the "requests" where this (urllib3) comes from
+
+- you will have to go to the link that appears after you commit to your repo, once on the url of the issues, delete the issue related to what you just solved (only if you think you solved it)
