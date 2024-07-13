@@ -97,7 +97,10 @@ pip install --upgrade urllib3
 
 ### 🔴 Session object does not verify requests after making first request
 
-#### chatgpt
+
+<br>
+
+## 🌈 chatgpt Solution
 
 - It seems like the error message you're encountering when pushing your repository is related to a security warning about using the requests library with verify=False. This warning is indicating that SSL certificate verification is disabled for requests made using verify=False, which can pose security risks, especially in production environments.
 
@@ -123,10 +126,60 @@ This means that the **HTTPS connections made by requests will not verify the aut
 > 🔴 This can lead to potential security vulnerabilities, such as man-in-the-middle attacks where an attacker could intercept or manipulate the communication between your application and the server.
 
 
+### Solution
+
+To address this issue, you should:
+
+Avoid verify=False: Remove or avoid using **verify=False** in your requests calls, especially in scenarios where security is a concern.
+
+**Proper SSL Certificate Verification:** Ensure that SSL certificate verification (verify=True by default) is enabled for all HTTPS requests made by your application.
+
+Example Code Update
+Here’s how you can modify your get_current_weather function to ensure proper SSL certificate verification:
 <br>
 
 
-#### github
+```javascript
+import requests
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+def get_current_weather():
+    print("\n*** Get Current Weather Conditions ***\n")
+
+    city = input("\nPlease enter a city name:\n")
+
+    api_key = os.getenv("API_KEY")
+    if not api_key:
+        print("Error: API_KEY is not set in the environment variables.")
+        return
+
+    request_url = f'https://api.openweathermap.org/data/2.5/weather'
+    params = {
+        'appid': api_key,
+        'q': city,
+        'units': 'imperial'
+    }
+
+    response = requests.get(request_url, params=params)
+
+    if response.status_code == 200:
+        weather_data = response.json()
+        print(f"Weather in {city}: {weather_data['weather'][0]['description']}, Temperature: {weather_data['main']['temp']}°F")
+    else:
+        print(f"Error fetching weather data: {response.status_code} - {response.text}")
+
+get_current_weather()
+
+
+```
+
+<br>
+
+
+# 🌈 github solution
 
 
 When making requests through a Requests Session, if the first request is made with verify=False to disable cert verification, all subsequent requests to the same origin will continue to ignore cert verification regardless of changes to the value of verify. This behavior will continue for the lifecycle of the connection in the connection pool.
@@ -191,4 +244,4 @@ It does not specifically correlate with Python version `3.7.14.` Instead, it's t
 
 <br>
 
-If you want to verify the latest version of requests available currently, you can check the **PyPI** website or use pip with the **--upgrade** flag (`pip install --upgrade requests`) to get the latest version compatible with your Python environment.
+🔸 If you want to verify the latest version of requests available currently, you can check the **PyPI** website or use pip with the **--upgrade** flag (`pip install --upgrade requests`) to get the latest version compatible with your Python environment.
