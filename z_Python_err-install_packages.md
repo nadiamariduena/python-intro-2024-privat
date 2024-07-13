@@ -249,7 +249,7 @@ sudo apt-get install sqlite3 libsqlite3-dev
 
 <br>
 
-In Python, **sqlite3** and **dbapi2** are often referenced together because  <u>sqlite3 is a module that implements the Python Database API Specification v2.0 (DB-API 2.0) for SQLite databases</u>.
+In Python, **sqlite3** and **dbapi2** are often referenced together because  <u>sqlite3 is a module that implements the Python Database **API** Specification v2.0 (**DB-API 2.0**) for **SQLite** databases</u>.
 
 
 <br>
@@ -259,44 +259,17 @@ In Python, **sqlite3** and **dbapi2** are often referenced together because  <u>
 - This is the standard Python library module for working with SQLite databases. It provides an interface to interact with SQLite databases using SQL queries. You import it in your Python scripts like this:  `import sqlite3`
 
 
-The sqlite3 module provides functions and classes to create a connection to an SQLite database file, execute SQL queries, manage transactions, and retrieve query results.
+>The sqlite3 module provides functions and classes to create a connection to an SQLite database file, execute SQL queries, manage transactions, and retrieve query results.
 
+<br>
 
+**DB-API 2.0 (dbapi2):** This is a standard interface for relational database access in Python. The Python Software Foundation defines this API specification, which allows Python programs to interact with databases in a consistent manner across different database systems.
+
+>**SQLite** implements this DB-API 2.0 standard, meaning that when you use sqlite3 module functions and classes, you are actually using DB-API 2.0-compliant methods.
+
+- This ensures that the code written for SQLite using sqlite3 can be easily adapted to work with other databases supported by Python (like MySQL, PostgreSQL) by simply changing the module used (e.g., mysql.connector, psycopg2).
 
  <br>
-
-#### output
-
-
-```javascript
-// ✋
-//
-//
-Reading package lists... Done
-Building dependency tree... Done
-Reading state information... Done
-Suggested packages:
-  sqlite3-doc
-The following NEW packages will be installed:
-  libsqlite3-dev sqlite3
-0 upgraded, 2 newly installed, 0 to remove and 3 not upgraded.
-Need to get 1,055 kB of archives.
-After this operation, 3,983 kB of additional disk space will be used.
-Get:1 http://archive.ubuntu.com/ubuntu noble/main amd64 libsqlite3-dev amd64 3.45.1-1ubuntu2 [911 kB]
-Get:2 http://archive.ubuntu.com/ubuntu noble/main amd64 sqlite3 amd64 3.45.1-1ubuntu2 [144 kB]
-Fetched 1,055 kB in 2s (540 kB/s)
-Selecting previously unselected package libsqlite3-dev:amd64.
-(Reading database ... 229572 files and directories currently installed.)
-Preparing to unpack .../libsqlite3-dev_3.45.1-1ubuntu2_amd64.deb ...
-Unpacking libsqlite3-dev:amd64 (3.45.1-1ubuntu2) ...
-Selecting previously unselected package sqlite3.
-Preparing to unpack .../sqlite3_3.45.1-1ubuntu2_amd64.deb ...
-Unpacking sqlite3 (3.45.1-1ubuntu2) ...
-Setting up libsqlite3-dev:amd64 (3.45.1-1ubuntu2) ...
-Setting up sqlite3 (3.45.1-1ubuntu2) ...
-Processing triggers for man-db (2.12.0-4build2) ...
-
-```
 
 
 
