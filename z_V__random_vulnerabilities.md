@@ -112,7 +112,7 @@ request with verify=False Moderate
 
 
 <br>
-<br>
+
 
 #### github
 
@@ -121,6 +121,17 @@ When making requests through a Requests Session, if the first request is made wi
 
 https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56
 
+
+
+### Remediation
+Any of these options can be used to remediate the current issue, we highly recommend upgrading as the preferred mitigation.
+
+**Upgrade to** `requests>=2.32.0.`
+
+**For** `requests<2.32.0`, **avoid** setting `verify=False` for the first request to a host while using a Requests Session.
+
+
+**For** `requests<2.32.0`, call **close()*** on Session objects to clear existing connections if verify=False is used.
 
 ```javascript
 // ✋
@@ -131,6 +142,3 @@ requests==2.32.3
 
 requests==2.31.0
 ```
-
-### Remediation
-Any of these options can be used to remediate the current issue, we highly recommend upgrading as the preferred mitigation.
