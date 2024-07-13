@@ -134,11 +134,12 @@ Any of these options can be used to remediate the current issue, we highly recom
 **For** `requests<2.32.0`, call **close()*** on Session objects to clear existing connections if verify=False is used.
 
 ```javascript
-// ✋
+// ✋ what i had
 
 requests==2.32.3
 
 // ---------------
+// after i removed the venv and re installed all the stuff related to venv
 
 requests==2.31.0
 ```
