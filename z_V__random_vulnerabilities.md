@@ -188,3 +188,7 @@ The version of the requests module you installed (`requests==2.31.0`) is not dir
 
 
 It does not specifically correlate with Python version `3.7.14.` Instead, it's the most recent stable version of the requests module that was available from the Python Package Index (PyPI) at that time.
+
+<br>
+
+If you want to verify the latest version of requests available currently, you can check the **PyPI** website or use pip with the **--upgrade** flag (`pip install --upgrade requests`) to get the latest version compatible with your Python environment.
