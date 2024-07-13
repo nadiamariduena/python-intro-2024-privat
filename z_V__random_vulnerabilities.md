@@ -159,7 +159,7 @@ requests==2.31.0
 
 <br>
 
-####  After I removed the `.venv` and re installed all the stuff related to venv, I installed this version below by using this command: `pip install requests`
+#### 🟡 After I removed the `.venv` and re installed all the stuff related to venv, I installed this version below by using this command: `pip install requests`
 
 
 ```javascript
@@ -170,4 +170,7 @@ requests==2.31.0
 
 But I wasn't sure if it was going to install the **requests version** related to the **python version** I had in my interpreter at the moment of installing it, which was the `python 3.7.14 `
 
-#### chatgpt
+#### 🟦 chatgpt
+
+
+The version of the requests module you installed (`requests==2.31.0`) is not directly tied to the Python version (`3.7.14`) you're using in Visual Studio Code.
