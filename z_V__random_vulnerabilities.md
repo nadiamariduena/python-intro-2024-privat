@@ -174,3 +174,7 @@ But I wasn't sure if it was going to install the **requests version** related to
 
 
 The version of the requests module you installed (`requests==2.31.0`) is not directly tied to the Python version (`3.7.14`) you're using in Visual Studio Code.
+
+- In Python projects, including those using virtual environments (venv), you can typically install the latest compatible version of a package unless you specify a version explicitly.
+
+> 🟧 In your case, pip install requests without specifying a version fetched **requests==2.31.0**, which was the latest available version at the time you installed it.
