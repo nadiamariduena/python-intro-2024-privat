@@ -52,6 +52,7 @@
 - Sometimes, vulnerabilities are fixed in newer versions of libraries like urllib3, and updating your dependencies (such as requests) could help mitigate such issues.
 
 ```javascript
+// when you delete the venv with the cache, remove the requirements.txt also, check the python version you have within the interpreter and open the terminal with the + , dont split the terminal
 // ✋
 certifi==2024.7.4
 charset-normalizer==3.3.2
