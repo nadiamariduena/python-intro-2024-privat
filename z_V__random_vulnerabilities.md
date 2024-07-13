@@ -134,7 +134,8 @@ Avoid verify=False: Remove or avoid using **verify=False** in your requests call
 
 **Proper SSL Certificate Verification:** Ensure that SSL certificate verification (verify=True by default) is enabled for all HTTPS requests made by your application.
 
-Example Code Update
+**Example Code Update**
+
 Here’s how you can modify your get_current_weather function to ensure proper SSL certificate verification:
 <br>
 
