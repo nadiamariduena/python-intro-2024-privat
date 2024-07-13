@@ -151,10 +151,23 @@ Any of these options can be used to remediate the current issue, we highly recom
 requests==2.32.3
 
 // ---------------
-// after i removed the venv and re installed all the stuff related to venv
+// after i removed the venv and re installed all the stuff related to venv, i installed this version below by using this command: pip install requests, keep in  mind that its going to install the version related to the python version you have in your interpreter
 
 requests==2.31.0
 ```
 
 
 <br>
+
+####  After I removed the `.venv` and re installed all the stuff related to venv, I installed this version below by using this command: `pip install requests`
+
+
+```javascript
+
+requests==2.31.0
+
+```
+
+But I wasn't sure if it was going to install the **requests version** related to the **python version** I had in my interpreter at the moment of installing it, which was the `python 3.7.14 `
+
+#### chatgpt
