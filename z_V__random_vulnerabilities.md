@@ -110,6 +110,18 @@ request with verify=False Moderate
 #1 opened 3 days ago • Detected in requests (pip) • LESSON_17_PYENV_venv_test/requirements.txt
 ```
 
+<br>
+
+### 🟩 Understanding the Issue
+
+<br>
+
+When you use `verify=False` in your requests library calls, SSL certificate verification is disabled.
+
+This means that the **HTTPS connections made by requests will not verify the authenticity of the server's SSL certificate**.
+
+> 🔴 This can lead to potential security vulnerabilities, such as man-in-the-middle attacks where an attacker could intercept or manipulate the communication between your application and the server.
+
 
 <br>
 
@@ -143,3 +155,6 @@ requests==2.32.3
 
 requests==2.31.0
 ```
+
+
+<br>
