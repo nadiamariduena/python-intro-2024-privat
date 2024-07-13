@@ -54,7 +54,7 @@ Traceback (most recent call last):
 
 <br>
 
-## sqlite3:
+## 🟩 sqlite3:
 
 - This is the standard Python library module for working with SQLite databases. It provides an interface to interact with SQLite databases using SQL queries. You import it in your Python scripts like this:  `import sqlite3`
 
@@ -66,6 +66,10 @@ It provides functions and classes to interact with SQLite databases, such as cre
 <br>
 <br>
 
+
+## 🟩 DB-API 2.0
+
+<br>
 
 **DB-API 2.0 (dbapi2):** This is a standard interface for relational database access in Python. The Python Software Foundation defines this API specification, which allows Python programs to interact with databases in a consistent manner across different database systems.
 
