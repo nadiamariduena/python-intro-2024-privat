@@ -178,3 +178,13 @@ The version of the requests module you installed (`requests==2.31.0`) is not dir
 - In Python projects, including those using virtual environments (venv), you can typically install the latest compatible version of a package unless you specify a version explicitly.
 
 > 🟧 In your case, pip install requests without specifying a version fetched **requests==2.31.0**, which was the latest available version at the time you installed it.
+
+<br>
+
+
+### To clarify:
+
+`requests==2.31.0` is the version of the requests module that was the latest available version when you ran pip install requests.
+
+
+It does not specifically correlate with Python version `3.7.14.` Instead, it's the most recent stable version of the requests module that was available from the Python Package Index (PyPI) at that time.
