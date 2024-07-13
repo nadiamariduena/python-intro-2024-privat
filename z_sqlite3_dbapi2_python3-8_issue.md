@@ -8,6 +8,21 @@
 
 <br>
 
+### install it
+
+```javascript
+sudo apt update
+sudo apt-get install sqlite3 libsqlite3-dev
+//
+
+// once installed, check the version
+sqlite3 --version
+
+```
+
+
+<br>
+
 
 <br>
 
@@ -24,6 +39,7 @@ The terms **sqlite3.dbapi2**, **sqlite3**, and **libsqlite3**-dev relate to SQLi
   File "<string>", line 1, in <module>
   File "/home/mycomputer/.pyenv/versions/3.8.18/lib/python3.8/sqlite3/__init__.py", line 23, in <module>
     from sqlite3.dbapi2 import *
+    ✋
   File "/home/mycomputer/.pyenv/versions/3.8.18/lib/python3.8/sqlite3/dbapi2.py", line 27, in <module>
     from _sqlite3 import *
 ModuleNotFoundError: No module named '_sqlite3'
@@ -38,7 +54,7 @@ Traceback (most recent call last):
 
 <br>
 
-### sqlite3:
+## sqlite3:
 
 - This is the standard Python library module for working with SQLite databases. It provides an interface to interact with SQLite databases using SQL queries. You import it in your Python scripts like this:  `import sqlite3`
 
