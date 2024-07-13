@@ -82,3 +82,22 @@ pip install --upgrade urllib3
 #### 🔴 once you have updated or deleted the venv and re generated the venv and re installed the "requests" where this (urllib3) comes from
 
 - you will have to go to the link that appears after you commit to your repo (https://github.com/yourgithub/yourfolderwheretheproblemcomesfrom/security/dependabot), once on the url of the issues, delete the issue related to what you just solved (only if you think you solved it)
+
+
+<br>
+<br>
+
+---
+
+
+<br>
+<br>
+
+### Session object does not verify requests after making first request
+
+```javascript
+Requests Session object does not verify requests after making first
+request with verify=False Moderate
+//
+#1 opened 3 days ago • Detected in requests (pip) • LESSON_17_PYENV_venv_test/requirements.txt
+```
