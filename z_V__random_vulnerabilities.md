@@ -52,6 +52,7 @@
 - Sometimes, vulnerabilities are fixed in newer versions of libraries like urllib3, and updating your dependencies (such as requests) could help mitigate such issues.
 
 ```javascript
+// ✋
 certifi==2024.7.4
 charset-normalizer==3.3.2
 idna==3.7
