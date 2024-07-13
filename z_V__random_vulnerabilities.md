@@ -222,7 +222,7 @@ requests==2.31.0
 
 ```
 
-But I wasn't sure if it was going to install the **requests version** related to the **python version** I had in my interpreter at the moment of installing it, which was the `python 3.7.14 `
+🤔 But I wasn't sure if it was going to install the **requests version** related to the **python version** I had in my interpreter at the moment of installing the **requests**, which was the `python 3.7.14 `
 
 #### 🟦 chatgpt
 
