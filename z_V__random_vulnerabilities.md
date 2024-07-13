@@ -93,7 +93,15 @@ pip install --upgrade urllib3
 <br>
 <br>
 
-### Session object does not verify requests after making first request
+## 🟣 REQUESTS
+
+### 🔴 Session object does not verify requests after making first request
+
+#### chatgpt
+
+- It seems like the error message you're encountering when pushing your repository is related to a security warning about using the requests library with verify=False. This warning is indicating that SSL certificate verification is disabled for requests made using verify=False, which can pose security risks, especially in production environments.
+
+
 
 ```javascript
 Requests Session object does not verify requests after making first
@@ -101,3 +109,9 @@ request with verify=False Moderate
 //
 #1 opened 3 days ago • Detected in requests (pip) • LESSON_17_PYENV_venv_test/requirements.txt
 ```
+
+
+<br>
+<br>
+
+#### github
