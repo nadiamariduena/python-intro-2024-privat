@@ -54,7 +54,7 @@ Traceback (most recent call last):
 
 <br>
 
-## 🟩 sqlite3 🍏
+## 🟩 sqlite3
 
 - This is the standard Python library module for working with SQLite databases. It provides an interface to interact with SQLite databases using SQL queries. You import it in your Python scripts like this:  `import sqlite3`
 
