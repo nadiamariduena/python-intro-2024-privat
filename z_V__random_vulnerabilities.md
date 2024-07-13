@@ -115,3 +115,22 @@ request with verify=False Moderate
 <br>
 
 #### github
+
+
+When making requests through a Requests Session, if the first request is made with verify=False to disable cert verification, all subsequent requests to the same origin will continue to ignore cert verification regardless of changes to the value of verify. This behavior will continue for the lifecycle of the connection in the connection pool.
+
+https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56
+
+
+```javascript
+// ✋
+
+requests==2.32.3
+
+// ---------------
+
+requests==2.31.0
+```
+
+### Remediation
+Any of these options can be used to remediate the current issue, we highly recommend upgrading as the preferred mitigation.
