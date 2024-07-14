@@ -542,9 +542,23 @@ Las Vegas
     # pprint(weather_data)
 
 
-    print(f'\nCurrent weather from {weather_data["name"]}')
+    print(f'\nCurrent weather from {weather_data["name"]} 🚀')
+
+
 
 
 if __name__ == "__main__":
     get_current_weather()
+```
+
+### output
+
+```python
+*** Get Current Weather Conditions ***
+
+
+Please enter a city name:
+miami
+
+Current weather from Miami 🚀
 ```
