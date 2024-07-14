@@ -369,7 +369,11 @@ Boston
 
  - - <u>It is used **to print data structures** such as **dictionaries and lists** in a visually appealing and readable format</u> , making it easier for humans to interpret.
 
+- **Function:** The pprint() function within the module is the main tool used for this purpose.
 
+- - It takes a Python data structure as input and outputs a formatted representation of that structure.
+
+- - This can include indenting nested structures, breaking long lines, and generally presenting the data in a way that is easier to understand than the default print() function output.
 
 
 
