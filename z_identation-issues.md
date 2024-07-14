@@ -1,6 +1,8 @@
-## 🟧 indentation issues
+## 🟧 Indentation issues
 
-- check the prettify for python, its called PPRINT
+<br>
+
+- 🔴 check the prettify for python results, its called **PPRINT** and you used instead of `print()` [Go to section](#pprint_to_prettifyhtecode)
 
 <br>
 <br>
@@ -139,6 +141,15 @@ for person in people:
 
 <br>
 <br>
+
+---
+
+
+<br>
+<br>
+
+
+<a name="pprint_to_prettifyhtecode"></a>
 
 
 # 🟠 PPRINT
