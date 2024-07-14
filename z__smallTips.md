@@ -2,11 +2,24 @@
 ## 🟡 Useful beginner info or tips
 
 <br>
+
+- __name__ == "__main__" [Go to section](#__main____)
+
+
+
+<br>
+
+- PPRINT:  TO **prettify** your code result (**indentated** results too) [Go to section](#pretiffy_indentation)
+
+
+<br>
 <br>
 
 
 ---
 
+<br>
+<br>
 <br>
 
 
@@ -24,6 +37,8 @@ https://www.computerhope.com/jargon/s/shift-tab.htm#:~:text=Shift%2BTab%20is%20a
 
 
 <br>
+
+<a name="pretiffy_indentation"></a>
 
 ## 🌈 TO prettify your code result (indentated results too)
 
@@ -142,6 +157,9 @@ print(person1.age) # output: 30
 
 
 <br>
+
+<a name="__main____"></a>
+
 <br>
 
 ### 🍭 `__name__ == "__main__"`
