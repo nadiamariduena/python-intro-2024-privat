@@ -7,16 +7,32 @@
 
 
 
-<br>
 
-- PPRINT:  TO **prettify** your code result (**indentated** results too) [Go to section](#pretiffy_indentation)
-
-
-<br>
+- **__init__** [Go to section](#__init__)
 
 
+
+- **__new__** [Go to section](#__new__)
+
+<!-- - <a name="isinstance"></a> -->
 
 -  **SUPER( )** [Go to section](#about__super())
+
+
+
+- **isinstance** [Go to section](#isinstance)
+
+
+<br>
+<br>
+
+- **PPRINT:**  TO "prettify" your code result (**indentated** results too) [Go to section](#pretiffy_indentation)
+
+
+<br>
+
+
+
 
 <br>
 <br>
@@ -67,8 +83,10 @@ https://defkey.com/what-means/shift-tab
 
 <br>
 <br>
+<br>
+<br>
 
-### If you have many of this `print("")` on your code, you can remove all of them depending on the situation
+## 🟡 If you have many of this `print("")` on your code, you can remove all of them depending on the situation
 
 - If you remove them add this `\n`
 
@@ -88,7 +106,7 @@ https://defkey.com/what-means/shift-tab
 <br>
 <br>
 
-## DEF
+## 🟡 DEF
 
 - to start with a function you will use the **def** that stands for **defining**
 
@@ -108,9 +126,14 @@ hello()
 
 
 <br>
+
+
+
+<a name="__init__"></a>
+
 <br>
 
-## `__init__`
+## 🟡 `__init__`
 
 - a constructor is a special method within a class that is automatically called when a new instance of the class is created. The constructor method is named `__init__()` and is used to initialize the object's attributes.
 
@@ -124,7 +147,11 @@ Here's a breakdown of its purpose and usage:
 
 **Customization:** You can define the constructor to accept parameters, allowing you to customize the initialization process based on specific values passed during object creation. These parameters are passed as arguments to the `__init__()` method.
 
+<br>
+
 Here's a basic example to illustrate the concept:
+
+<br>
 
 ```python
 class Person:
@@ -152,7 +179,7 @@ print(person1.age) # output: 30
 <br>
 <br>
 
-## NONE
+## 🟡 NONE
 
 - IN python **none** is neither true or false
 
@@ -164,11 +191,12 @@ print(person1.age) # output: 30
 
 <br>
 
+
 <a name="__main____"></a>
 
 <br>
 
-### 🍭 `__name__ == "__main__"`
+## 🟡   `__name__ == "__main__"`
 
 <br>
 
@@ -231,8 +259,13 @@ In the example you provided, the randomfunfact3() function is defined, and then 
 ---
 
 <br>
+<br>
 
-## isinstance()
+<a name="isinstance"></a>
+
+<br>
+
+## 🟡 isinstance()
 
 ##### ChatGPT:
 
@@ -286,7 +319,7 @@ def process_data(data):
 
 <br>
 
-## `%` is the modulo operator
+## 🟡 `%` is the modulo operator
 
 `%` is the modulo operator, not a percentage calculation.
 
@@ -307,7 +340,13 @@ So, x % 2 == 0 checks if x is divisible by 2 with no remainder, which is true fo
 
 <br>
 
-### 🍭 `__new__` Method
+
+
+<a name="__new__"></a>
+
+<br>
+
+## 🟡  `__new__` Method
 
 source [https://builtin.com/data-science/new-python](https://builtin.com/data-science/new-python#:~:text=In%20Python%2C%20__init__,to%20be%20passed%20to%20it.)
 
@@ -329,7 +368,7 @@ source [https://builtin.com/data-science/new-python](https://builtin.com/data-sc
 
 <br>
 
-# ` super().`
+## 🟡 ` super().`
 
 ## what is the `super()` method in python?
 
