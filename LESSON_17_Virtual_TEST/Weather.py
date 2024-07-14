@@ -4,6 +4,8 @@ from dotenv import load_dotenv
 #
 import os
 
+from pprint import pprint
+
 load_dotenv()
 
 def get_current_weather():
@@ -18,7 +20,7 @@ def get_current_weather():
     weather_data = requests.get(request_url).json()
 
 
-    print(weather_data)
+    pprint(weather_data)
 
 
 

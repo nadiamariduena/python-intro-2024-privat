@@ -373,7 +373,77 @@ Boston
 
 - - It takes a Python data structure as input and outputs a formatted representation of that structure.
 
-- - This can include indenting nested structures, breaking long lines, and generally presenting the data in a way that is easier to understand than the default print() function output.
+- - This can include **indenting** nested structures, **breaking** long **lines**, and generally presenting the data in a way that is easier to understand than the default print() function output.
 
 
 
+<br>
+<br>
+
+## 🟧 Use it on the `weather.py`
+
+ Now lets import the **PPRINT** within the weather app
+
+ <br>
+
+
+```python
+from pprint import pprint
+```
+
+#### use it
+
+- once imported , replace the default print by the pprint
+
+```python
+# before
+ print(weather_data)
+
+# after
+pprint(weather_data)
+```
+
+### Output
+
+```javascript
+// ✋ BEFORE PPRINT
+{'coord': {'lon': -71.0598, 'lat': 42.3584}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02n'}], 'base': 'stations', 'main': {'temp': 73.72, 'feels_like': 74.98, 'temp_min': 70.57, 'temp_max': 75.49, 'pressure': 1017, 'humidity': 89, 'sea_level': 1017, 'grnd_level': 1013}, 'visibility': 10000, 'wind': {'speed': 8.05, 'deg': 210}, 'clouds': {'all': 20}, 'dt': 1720930800, 'sys': {'type': 2, 'id': 2013408, 'country': 'US', 'sunrise': 1720948810, 'sunset': 1721002783}, 'timezone': -14400, 'id': 4930956, 'name': 'Boston', 'cod': 200}
+
+
+#
+#
+// ✅ after PPRINT
+
+*** Get Current Weather Conditions ***
+
+
+Please enter a city name:
+New Mexico
+{'base': 'stations',
+ 'clouds': {'all': 1},
+ 'cod': 200,
+ 'coord': {'lat': 34.5003, 'lon': -106.0008},
+ 'dt': 1720985736,
+ 'id': 5481136,
+ 'main': {'feels_like': 88.54,
+          'grnd_level': 812,
+          'humidity': 13,
+          'pressure': 1015,
+          'sea_level': 1015,
+          'temp': 92.98,
+          'temp_max': 93.06,
+          'temp_min': 91.33},
+ 'name': 'New Mexico',
+ 'sys': {'country': 'US',
+         'id': 2003420,
+         'sunrise': 1720958529,
+         'sunset': 1721009837,
+         'type': 2},
+ 'timezone': -21600,
+ 'visibility': 10000,
+ 'weather': [{'description': 'clear sky',
+              'icon': '01d',
+              'id': 800,
+              'main': 'Clear'}],
+ 'wind': {'deg': 109, 'gust': 13.11, 'speed': 8.57}}
+```
