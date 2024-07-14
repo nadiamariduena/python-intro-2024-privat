@@ -515,6 +515,7 @@ Las Vegas
 
  ### 🍭 Showing specific properties
 
+- Here i will focus on reaching the **name** property from the above **object** ⤴️
 
 ```python
  print(f'\nCurrent weather from {weather_data["name"]}')
