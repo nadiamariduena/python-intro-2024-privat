@@ -469,5 +469,6 @@ __name__ == "__main__"
 #### like here below:
 
 ```python
-
+if __name__ == "__main__":
+    get_current_weather()
 ```
