@@ -21,9 +21,13 @@ def get_current_weather():
 
     # before using the pprint:
     #  pprint(weather_data)
-    # --- usin the "pprint" to beautify the code (the result will be well structured and indented)
-    pprint(weather_data)
+    #
 
+    # --- using the "pprint" to beautify the code (the result will be well structured and indented)
+    # pprint(weather_data)
+
+
+    print(f'\nCurrent weather from {weather_data["name"]}')
 
 
 if __name__ == "__main__":
