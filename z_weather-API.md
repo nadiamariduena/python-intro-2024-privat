@@ -458,3 +458,16 @@ New Mexico
 <br>
 <br>
 
+### export it
+
+- If I want to export it as a module i have to add the
+
+```python
+__name__ == "__main__"
+```
+
+#### like here below:
+
+```python
+
+```
