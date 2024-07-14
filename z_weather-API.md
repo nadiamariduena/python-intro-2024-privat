@@ -349,7 +349,9 @@ Boston
 
 <br>
 
-## 🟠 PPRINT
+<br>
+
+# 🟠 PPRINT
 
  Now lets import another **module**, its called **PPRINT**
 
@@ -358,6 +360,14 @@ Boston
 **PPRINT** stands for **"pretty-print"**  💅and it is both a module and a function within Python.
 
 - Its primary **purpose** is to **format** complex **Python** data **structures** in a more **readable** way,  **especially** when they are **nested** or contain multiple levels of **indentation** ✋.
+
+<br>
+
+### Module and Function
+
+**Module:** The  pprint module (pprint) in Python provides the pprint() function and related utilities.
+
+ - - <u>It is used to print data structures such as dictionaries and lists in a visually appealing and readable format</u> , making it easier for humans to interpret.
 
 
 
