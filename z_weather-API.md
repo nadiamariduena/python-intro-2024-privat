@@ -363,11 +363,11 @@ Boston
 
 <br>
 
-### Module and Function
+### 🫐 Module and Function
 
 **Module:** The  pprint module (pprint) in Python provides the pprint() function and related utilities.
 
- - - <u>It is used to print data structures such as dictionaries and lists in a visually appealing and readable format</u> , making it easier for humans to interpret.
+ - - <u>It is used **to print data structures** such as **dictionaries and lists** in a visually appealing and readable format</u> , making it easier for humans to interpret.
 
 
 
