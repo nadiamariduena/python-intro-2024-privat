@@ -356,6 +356,47 @@ source [https://builtin.com/data-science/new-python](https://builtin.com/data-sc
   In Python, **new** is a static method that’s responsible for creating and returning a new instance of the class. It takes the class as its first argument followed by additional arguments.
 
 <br>
+
+##### example:
+
+```python
+
+class IceCream:
+    def __new__(ice_cream_class, flavor):
+        # __new__ method creates a new instance of the class
+        print(f"Creating a new {flavor} ice cream!")
+        #     # In Python, super() is a build-in function used to access methods and properties from a parent class.
+        instance = super().__new__(ice_cream_class)
+        return instance
+
+    def __init__(self, flavor):
+        # __init__ method initializes the instance
+        self.flavor = flavor
+        print(f"A {self.flavor} ice cream is ready!")
+
+# Creating instances of IceCream using __new__ and __init__
+chocolate_ice_cream = IceCream("chocolate")
+vanilla_ice_cream = IceCream("vanilla")
+
+
+
+
+```
+
+ <br>
+
+ ##### output
+
+ ```python
+Creating a new chocolate ice cream!
+A chocolate ice cream is ready!
+Creating a new vanilla ice cream!
+A vanilla ice cream is ready!
+
+ ```
+
+
+<br>
 <br>
 
 ---
