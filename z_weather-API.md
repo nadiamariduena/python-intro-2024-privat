@@ -403,6 +403,13 @@ from pprint import pprint
 pprint(weather_data)
 ```
 
+<br>
+
+- 🌈 RUN the code with the arrow at the top bar of your VS code
+
+
+<br>
+
 ### Output
 
 ```javascript
