@@ -344,3 +344,12 @@ Boston
 // OUTPUT ✋
 {'coord': {'lon': -71.0598, 'lat': 42.3584}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02n'}], 'base': 'stations', 'main': {'temp': 73.72, 'feels_like': 74.98, 'temp_min': 70.57, 'temp_max': 75.49, 'pressure': 1017, 'humidity': 89, 'sea_level': 1017, 'grnd_level': 1013}, 'visibility': 10000, 'wind': {'speed': 8.05, 'deg': 210}, 'clouds': {'all': 20}, 'dt': 1720930800, 'sys': {'type': 2, 'id': 2013408, 'country': 'US', 'sunrise': 1720948810, 'sunset': 1721002783}, 'timezone': -14400, 'id': 4930956, 'name': 'Boston', 'cod': 200}
 ```
+
+<br>
+
+<br>
+
+## 🟠 PPRINT
+
+- Now lets import another **module**, its called **PPRINT**
+
