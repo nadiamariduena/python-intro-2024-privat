@@ -13,6 +13,12 @@
 
 
 <br>
+
+
+
+-  **SUPER( )** [Go to section](#about__super())
+
+<br>
 <br>
 
 
@@ -317,6 +323,12 @@ source [https://builtin.com/data-science/new-python](https://builtin.com/data-sc
 
 <br>
 
+<br>
+
+<a name="about__super()"></a>
+
+<br>
+
 # ` super().`
 
 ## what is the `super()` method in python?
@@ -346,6 +358,9 @@ class IceCreamStoreInherited(IceCreamStore):
           # - It returns a proxy object that allows you to call methods of the superclass (parent class) in a subclass (child class).
 
 ```
+
+<br>
+
 
 ## 🔴 More examples [z\_\_all_mds/24_Classes_2%20inheritance](./z__all_mds/24_Classes_2%20inheritance.md)
 
