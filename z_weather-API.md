@@ -472,3 +472,50 @@ __name__ == "__main__"
 if __name__ == "__main__":
     get_current_weather()
 ```
+
+<br>
+<br>
+
+## 🟠 Reach specific properties from the result below:
+
+
+```javascript
+Las Vegas
+{'base': 'stations',
+ 'clouds': {'all': 0},
+ 'cod': 200,
+ 'coord': {'lat': 36.175, 'lon': -115.1372},
+ 'dt': 1720996842,
+ 'id': 5506956,
+ 'main': {'feels_like': 99.66,
+          'grnd_level': 946,
+          'humidity': 14,
+          'pressure': 1011,
+          'sea_level': 1011,
+          'temp': 103.69,
+          'temp_max': 104.68,
+          'temp_min': 102.56},
+ 'name': 'Las Vegas',
+ 'sys': {'country': 'US',
+         'id': 6171,
+         'sunrise': 1720960467,
+         'sunset': 1721012285,
+         'type': 1},
+ 'timezone': -25200,
+ 'visibility': 10000,
+ 'weather': [{'description': 'clear sky',
+              'icon': '01d',
+              'id': 800,
+              'main': 'Clear'}],
+ 'wind': {'deg': 180, 'gust': 21.85, 'speed': 14.97}}
+```
+
+
+<br>
+
+ ### 🍭 Showing specific properties
+
+
+```python
+
+```
