@@ -324,3 +324,6 @@ The latitude of Arizona, USA is 34.048927, and the longitude is -111.093735. Ari
 ```
 
 
+### But lets continue with the code
+
+- I will be using JSON to show the data within the VS code terminal
