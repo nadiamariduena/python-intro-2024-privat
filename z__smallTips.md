@@ -1,16 +1,48 @@
-## INdentation
 
-- to move a piece of code use the **tab key** to indent the code
+## 🟡 Useful beginner info or tips
 
-- to reverse the indentation use **Shift+Tab**
+<br>
+<br>
 
-https://www.computerhope.com/jargon/s/shift-tab.htm#:~:text=Shift%2BTab%20is%20a%20keyboard,line%20in%20most%20text%20editors.
+
+---
 
 <br>
 
-other
+
+## 🟠 Indentation
+
+<br>
+
+#### 🟣 What is it?
+
+- to move a piece of code use the **tab key** to indent the code
+
+ - - 🔸 to reverse the indentation use **Shift+Tab**
+
+https://www.computerhope.com/jargon/s/shift-tab.htm#:~:text=Shift%2BTab%20is%20a%20keyboard,line%20in%20most%20text%20editors.
+
+
+<br>
+
+## 🌈 TO prettify your code result (indentated results too)
+
+
+<br>
+
+- use **PPRINT** [READ more |  identation-issues.md](./z_identation-issues.md)
+
+<br>
+
+### other
 
 https://defkey.com/what-means/shift-tab
+
+<br>
+<br>
+
+---
+
 
 <br>
 <br>
@@ -26,6 +58,15 @@ https://defkey.com/what-means/shift-tab
 
 <br>
 
+<br>
+<br>
+
+---
+
+
+<br>
+<br>
+
 ## DEF
 
 - to start with a function you will use the **def** that stands for **defining**
@@ -38,6 +79,12 @@ def hello():
 # just like in js, you call the function like here below: name + parentheses
 hello()
 ```
+
+<br>
+<br>
+
+---
+
 
 <br>
 <br>
@@ -78,24 +125,67 @@ print(person1.age) # output: 30
 <br>
 <br>
 
+---
+
+
+<br>
+<br>
+
 ## NONE
 
 - IN python **none** is neither true or false
 
 <br>
+<br>
 
 ---
 
+
+<br>
 <br>
 
 ### 🍭 `__name__ == "__main__"`
 
-- in other words this code, will check if i am importing it in another component, or if i am running the code from the same component, in this case will be the **modules_3_kansas.py**
+<br>
+
+- `__name__ == "__main__` is like asking, "Am I the main character in this story?" It helps a program know if it's the main program being run or just a helper in another program. This way, it can act differently depending on how it's being used.
+
+
+### main character
 
 ```python
+# calculator.py
+# File: statistics.py
 
+# Importing functions from calculator.py
+import calculator
+
+# Using the functions from calculator.py
+result = calculator.subtract(10, 4)
+print("Result of subtraction:", result)
+
+```
+
+
+#### helper code (no main character)
+
+
+```python
+# ✋ I will be using the code here
+# File: calculator.py
+
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+# This block will only run if this script is the main program
 if __name__ == "__main__":
-    randomfunfact3()
+    # Example usage when run directly
+    result = add(5, 3)
+    print("Result of addition:", result)
+
 ```
 
 #### chatgpt
