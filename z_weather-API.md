@@ -355,7 +355,7 @@ Boston
 
 <br>
 
-**pprint** stands for **"pretty-print"**  💅and it is both a module and a function within Python.
+**PPRINT** stands for **"pretty-print"**  💅and it is both a module and a function within Python.
 
 - Its primary **purpose** is to **format** complex **Python** data **structures** in a more **readable** way,  **especially** when they are **nested** or contain multiple levels of **indentation** ✋.
 
