@@ -28,3 +28,5 @@ In Python, when working with files, **"rawx"** operations typically refer to low
 **Open:** Use `open()` function to open a file and obtain a file object.
 
 
+**Read/Write:** Use `read(), write(), seek(), etc.`, to manipulate the file content directly.
+
