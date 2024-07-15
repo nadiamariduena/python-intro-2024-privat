@@ -600,6 +600,9 @@ Miami
  'wind': {'deg': 90, 'speed': 10.36}}
 ```
 
+*** Get Current Weather Conditions ***
+
+
 
 #### output
 
@@ -608,4 +611,24 @@ Miami
 // Miami
 
 The temp/temperature weather is 83.91 // reaching the parent: main and then the child: temp
+```
+
+### You can also do it like this
+
+```javascript
+// Please enter a city name:
+// Miami
+
+FEELS like 🌻  93.54 and {'id': 802, 'main': 'Clouds', 'description': 'scattered clouds', 'icon': '03n'}
+
+
+// in the object you see it like here
+
+/*
+
+ 'weather': [{'description': 'scattered clouds',
+              'icon': '03n',
+              'id': 802,
+              'main': 'Clouds'}],
+*/
 ```
