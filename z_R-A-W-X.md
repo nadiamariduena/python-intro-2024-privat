@@ -39,3 +39,6 @@ In Python, when working with files, **"rawx"** operations typically refer to low
 
 
 **Create (C):** Create new files or write data to existing files.
+
+**Read (R):** Read data from files.
+
