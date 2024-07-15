@@ -126,3 +126,31 @@ Jimmie
 <br>
 
 3. Now create another file and call it `files.py`
+
+#### it should look like this:
+
+```javascript
+project_folder/
+├── Lesson_18/
+     └── context.txt
+     └── files.py
+     └── more_names.txt
+     └── names.txt
+
+
+
+```
+
+<br>
+
+
+#### `files.py`
+
+```bash
+# Acronym for:
+
+# r = Read
+# a = Append
+# w = Write
+# x = Create
+```
