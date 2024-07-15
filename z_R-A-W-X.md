@@ -5,10 +5,10 @@
 ```bash
 # Acronym for:
 
-# r = Read
-# a = Append
-# w = Write
-# x = Create
+# r = Read  # Reading data from a file.
+# a = Append # Adding data to the end of a file.
+# w = Write # Writing data to a file, overwriting existing content
+# x = Create # Extending the file with additional content or executing a file
 ```
 
 <br>
