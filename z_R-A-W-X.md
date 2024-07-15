@@ -17,6 +17,8 @@
 
 **a** (**Append**): This mode allows appending data to the end of an existing file. It also creates a new file if it doesn't exist.
 
+**w** (**Write**): This mode allows writing data to a file. It truncates the file to zero length if it exists or creates a new file for writing.
+
 
 <br>
 
