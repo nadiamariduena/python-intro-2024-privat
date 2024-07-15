@@ -15,6 +15,8 @@
 
 **r** (**Read**): This mode allows reading from an existing file. It positions the file pointer at the beginning of the file.
 
+**a** (**Append**): This mode allows appending data to the end of an existing file. It also creates a new file if it doesn't exist.
+
 
 <br>
 
