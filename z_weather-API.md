@@ -565,10 +565,47 @@ Current weather from Miami 🚀
 
 <br>
 
-### Reach a property child
+### 🟣 Reach a property child
 
 - from the code below, i am going to grab the **main** and then one of the **children of the main**, in this case the **temp**
 
 ```javascript
+Miami
+{'base': 'stations',
+ 'clouds': {'all': 40},
+ 'cod': 200,
+ 'coord': {'lat': 25.7743, 'lon': -80.1937},
+ 'dt': 1721013926,
+ 'id': 4164138,
+ 'main': {'feels_like': 93.74, ✋
+          'grnd_level': 1019,
+          'humidity': 80,
+          'pressure': 1019,
+          'sea_level': 1019,
+          'temp': 83.91, ✋
+          'temp_max': 85.01,
+          'temp_min': 82},
+ 'name': 'Miami',
+ 'sys': {'country': 'US',
+         'id': 2009435,
+         'sunrise': 1720953504,
+         'sunset': 1721002474,
+         'type': 2},
+ 'timezone': -14400,
+ 'visibility': 10000,
+ 'weather': [{'description': 'scattered clouds',
+              'icon': '03n',
+              'id': 802,
+              'main': 'Clouds'}],
+ 'wind': {'deg': 90, 'speed': 10.36}}
+```
 
+
+#### output
+
+```javascript
+// Please enter a city name:
+// Miami
+
+The temp/temperature weather is 83.91 // reaching the parent: main and then the child: temp
 ```
