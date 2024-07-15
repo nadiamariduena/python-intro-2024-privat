@@ -565,7 +565,7 @@ Current weather from Miami 🚀
 
 <br>
 
-### 🟣 Reach a property child
+### 🟣 Reach a property child from an object
 
 - from the code below, i am going to grab the **main** and then one of the **children of the main**, in this case the **temp**
 
@@ -612,8 +612,20 @@ Miami
 
 The temp/temperature weather is 83.91 // reaching the parent: main and then the child: temp
 ```
+<br>
+<br>
 
-### You can also do it like this
+### 🟣 Reach a property child from an array `["weather"][0]}`
+
+```javascript
+
+    print(f'\nFEELS like 🌻  {weather_data["main"]["feels_like"]} and {weather_data["weather"][0]}')
+```
+
+
+#### output
+
+<br>
 
 ```javascript
 // Please enter a city name:
