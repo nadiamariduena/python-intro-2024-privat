@@ -30,3 +30,7 @@ In Python, when working with files, **"rawx"** operations typically refer to low
 
 **Read/Write:** Use `read(), write(), seek(), etc.`, to manipulate the file content directly.
 
+
+**Close:** Use `close()` to release the file object and free up system resources.
+
+<br>
