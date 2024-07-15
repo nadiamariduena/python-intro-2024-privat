@@ -11,6 +11,7 @@
 
 In Python, when working with files, **"rawx"** operations typically refer to low-level file handling using functions like `open(), read(), write(), and close()`.
 
+- - **These operations** give you direct control over:
 
+>**reading from and writing** to files without higher-level abstractions that libraries like pandas or csv provide.
 
-#### Let's break down the components and their similarities to CRUD operations, and then we'll use diagrams to illustrate their structure.
