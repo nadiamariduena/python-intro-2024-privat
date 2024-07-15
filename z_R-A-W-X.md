@@ -144,7 +144,7 @@ project_folder/
 <br>
 
 
-#### `files.py`
+### 🟠 `files.py`
 
 ```bash
 # Acronym for:
@@ -155,4 +155,28 @@ project_folder/
 # x = Create
 
 # Read - Error if the file doesn't exist
+# f stands for FILE
+# r stands for read, i will use it here below,  as the second argument
+
+f = open("names.txt", "r")
+```
+
+<br>
+
+### 🟠 this 2 are the same, you dont need to add the "r" (read), as it will automatically know that the operation is for reading
+
+```python
+# this is the same
+f = open("names.txt")
+#  as this
+f = open("names.txt", "r")
+
+```
+
+<br>
+
+### 🟠 but if you add a third argument like "b" to the "r", like so `rb` , then you are specifying that you will be reading a binary file, or an `rt` to read a "text file"
+
+```python
+f = open("names.txt", "rb")
 ```

@@ -9,4 +9,4 @@
 # f stands for FILE
 # r stands for read, i will use it here below,  as the second argument
 
-f = open("names.txt")
+f = open("names.txt", "r")
