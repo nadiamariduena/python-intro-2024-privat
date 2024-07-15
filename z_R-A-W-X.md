@@ -44,3 +44,4 @@ In Python, when working with files, **"rawx"** operations typically refer to low
 
 **Update (U)**: Modify existing data in files.
 
+**Delete (D):** Remove files or specific data from files.
