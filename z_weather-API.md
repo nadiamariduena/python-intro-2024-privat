@@ -600,7 +600,7 @@ Miami
  'wind': {'deg': 90, 'speed': 10.36}}
 ```
 
-*** Get Current Weather Conditions ***
+
 
 
 
