@@ -180,3 +180,19 @@ f = open("names.txt", "r")
 ```python
 f = open("names.txt", "rb")
 ```
+
+<br>
+
+<br>
+
+### 🟠 reach the file `names.txt` content and show it
+
+```python
+f = open("names.txt")
+print(f.read())
+```
+#### to try the code, type: `python files.py` on your terminal, like so
+
+```javascript
+mycomputer:~/LESSON_18$ python files.py
+```
