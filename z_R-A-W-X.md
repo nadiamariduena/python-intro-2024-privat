@@ -91,3 +91,13 @@ In Python, when working with files, **"rawx"** operations typically refer to low
 <br>
 <br>
 
+### 🟢 Examples
+
+#### Reading from a File ('r'):
+
+```python
+with open('example.txt', 'r') as file:
+    content = file.read()
+    print(content)
+
+```
