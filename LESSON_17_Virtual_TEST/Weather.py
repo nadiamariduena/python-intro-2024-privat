@@ -28,7 +28,8 @@ def get_current_weather():
 
 
     print(f'\nCurrent weather from {weather_data["name"]} 🚀')
-
+    #
+    print(f'\nThe temp/temperature weather is {weather_data["main"]["temp"]}')
 
 if __name__ == "__main__":
     get_current_weather()
