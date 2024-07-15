@@ -42,3 +42,5 @@ In Python, when working with files, **"rawx"** operations typically refer to low
 
 **Read (R):** Read data from files.
 
+**Update (U)**: Modify existing data in files.
+
