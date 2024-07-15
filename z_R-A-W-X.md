@@ -91,7 +91,7 @@ In Python, when working with files, **"rawx"** operations typically refer to low
 <br>
 <br>
 
-### 🟢 Examples
+### 🟢 Examples (chatgpt)
 
 #### Reading from a File ('r'):
 
@@ -100,4 +100,25 @@ with open('example.txt', 'r') as file:
     content = file.read()
     print(content)
 
+```
+
+
+<br>
+
+### 🟢 Examples from this tutorial: [min: 2:23 | Python File Handling for Beginners](https://youtu.be/BRrem1k3904?si=WMO2xCStRm5uiB8h&t=143)
+
+
+<br>
+
+1. Create 3 files: `context.txt, more_names.txt names.txt`
+
+2. add the following to all of them
+
+<br>
+
+```python
+Dave
+Jane
+Eddie
+Jimmie
 ```
