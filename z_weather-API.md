@@ -515,7 +515,7 @@ Las Vegas
 
  ### 🍭 Showing specific properties
 
-- Here i will focus on reaching the **name** property from the above **object** ⤴️
+- Here i will focus on reaching the **name** property from the above **object** ⤴️  (**keep in mind that the data is constantly changing** , so you might have to review the object all the time when testing)
 
 ```python
  print(f'\nCurrent weather from {weather_data["name"]}')
@@ -561,4 +561,14 @@ Please enter a city name:
 miami
 
 Current weather from Miami 🚀
+```
+
+<br>
+
+### Reach a property child
+
+- from the code below, i am going to grab the **main** and then one of the **children of the main**, in this case the **temp**
+
+```javascript
+
 ```

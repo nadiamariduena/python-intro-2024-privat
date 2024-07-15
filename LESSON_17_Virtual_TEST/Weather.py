@@ -20,16 +20,16 @@ def get_current_weather():
     weather_data = requests.get(request_url).json()
 
     # before using the pprint:
-    #  pprint(weather_data)
+    pprint(weather_data)
     #
 
     # --- using the "pprint" to beautify the code (the result will be well structured and indented)
     # pprint(weather_data)
 
 
-    print(f'\nCurrent weather from {weather_data["name"]} 🚀')
-    #
-    print(f'\nThe temp/temperature weather is {weather_data["main"]["temp"]}')
+    # print(f'\nCurrent weather from {weather_data["name"]} 🚀')
+    # #
+    # print(f'\nThe temp/temperature weather is {weather_data["main"]["temp"]}')
 
 if __name__ == "__main__":
     get_current_weather()
