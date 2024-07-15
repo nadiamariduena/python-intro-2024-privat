@@ -34,3 +34,8 @@ In Python, when working with files, **"rawx"** operations typically refer to low
 **Close:** Use `close()` to release the file object and free up system resources.
 
 <br>
+
+### 🟪 Similarities to CRUD Operations
+
+
+**Create (C):** Create new files or write data to existing files.
