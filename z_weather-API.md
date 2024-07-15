@@ -458,6 +458,8 @@ New Mexico
 <br>
 <br>
 
+## 👾 [Python Virtual Environment and pip for Beginners](https://youtu.be/eDe-z2Qy9x4?si=lG0Ylgi4eziYe_MY&t=1550)
+
 ### export it
 
 - If I want to export it as a module i have to add the
