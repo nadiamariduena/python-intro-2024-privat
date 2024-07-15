@@ -20,6 +20,8 @@
 **w** (**Write**): This mode allows writing data to a file. It truncates the file to zero length if it exists or creates a new file for writing.
 
 
+**x** (**Create**): This mode creates a new file and opens it for writing. If the file already exists, the operation will fail.
+
 <br>
 
 <br>
