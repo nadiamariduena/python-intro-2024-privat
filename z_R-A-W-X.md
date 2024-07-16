@@ -273,3 +273,4 @@ f.close()
 
   - If you keep a file open unnecessarily, you might reach the **limit of maximum open file descriptors allowed by the operating system**.
 
+  -  ✋ Closing the file releases these resources, allowing other parts of your program or other programs to use them.
