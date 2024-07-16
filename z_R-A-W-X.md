@@ -271,3 +271,5 @@ f.close()
 
   Opening a file **consumes system resources** (file descriptors in operating systems).
 
+  - If you keep a file open unnecessarily, you might reach the **limit of maximum open file descriptors allowed by the operating system**.
+
