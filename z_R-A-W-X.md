@@ -145,7 +145,9 @@ project_folder/
 
 # 🟩 OPEN()
 
-- Use the **open()** operation to access the content of the files.py file (which contains 4 names). Once you are done, remember to `close()` the `open()` operation ( its important to close it, read)
+- Use the **open()** operation to access the content of the files.py file (which contains 4 names). Once you are done, remember to `close()` the `open()` operation ✋ (its important to close it, read it here: [Go to section](#close_the_operation))
+
+<a name="close_the_operation"></a>
 
 ```bash
 # Acronym for:
