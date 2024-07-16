@@ -289,3 +289,7 @@ When you write to a file in Python, the data is often buffered in memory before 
 
 
   ### 🤔 So, close() in Python is like locking a door with a key before leaving. But if someone else with a key opens the door while I'm not home, can I track these movements with timestamps or logs?
+
+  ##### ✅ chatgpt:
+
+  - Yes, you can track these movements (operations on files or resources) in Python using various logging mechanisms or libraries. Here are some approaches and libraries you can use:
