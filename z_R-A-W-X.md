@@ -512,3 +512,19 @@ project_root/
 |── more_names.txt
 |── file_operations.log ✋
 ```
+
+#### output on the console
+
+```javascript
+Ludovico Sforza
+
+One believes things because one has been conditioned to believe them.
+
+Stability isn’t nearly so spectacular as instability.
+
+Most human beings have an almost infinite capacity for taking things for granted.
+
+When the rich wage war it's the poor who die.
+
+----
+```
