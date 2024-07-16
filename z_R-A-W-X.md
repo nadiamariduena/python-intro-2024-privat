@@ -401,7 +401,19 @@ When you write to a file in Python, the data is often buffered in memory before 
 
   <br>
 
+  #### first
+
+
+```javascript
+project_root/
+│
+├── files.py
+|── files_morenames.py
+|── more_names.txt
+```
+
 ```python
+# ✋ files_morenames.py
 
 import logging
 from datetime import datetime
@@ -459,6 +471,10 @@ read_file(filename)
 ### Within the `more_names.txt` file, add some content
 
 ```bash
+# ✋ more_names.py
+#
+#
+
 Ludovico Sforza
 
 One believes things because one has been conditioned to believe them.
