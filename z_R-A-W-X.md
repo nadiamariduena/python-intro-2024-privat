@@ -401,7 +401,9 @@ When you write to a file in Python, the data is often buffered in memory before 
 
   <br>
 
-  #### first
+
+
+## 1.
 
 
 ```javascript
@@ -411,6 +413,8 @@ project_root/
 |── files_morenames.py
 |── more_names.txt
 ```
+
+### 2.
 
 ```python
 # ✋ files_morenames.py
@@ -468,7 +472,7 @@ read_file(filename)
 
   <br>
 
-### Within the `more_names.txt` file, add some content
+## 3. Within the `more_names.txt` file, add some content
 
 ```bash
 # ✋ more_names.py
@@ -486,4 +490,25 @@ Most human beings have an almost infinite capacity for taking things for granted
 When the rich wage war it's the poor who die.
 
 
+```
+
+<br>
+
+## 4. RUN the code
+
+- Type this in your VS terminal `python files_morenames.py` (you can create a venv or you can just do it within the folder your are testing this, in my case is LESSON_18)
+
+<br>
+
+- Once you run the code **A NEW FILE** will be generated
+
+<br>
+
+```javascript
+project_root/
+│
+├── files.py
+|── files_morenames.py
+|── more_names.txt
+|── file_operations.log ✋
 ```
