@@ -18,4 +18,14 @@ f = open("names.txt")
 for line in f:
     print(line)
 
+print("----")
+
 f.close()
+
+try:
+    f = open("names.txt")
+    print(f.read())
+except:
+    print("The file you want to read doesn't exists")
+finally:
+    f.close()
