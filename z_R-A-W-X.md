@@ -249,3 +249,8 @@ for line in f:
 ```python
 f.close()
 ```
+
+<br>
+
+### 🔴 Closing a file in Python after performing operations on it is crucial for several reasons:
+
