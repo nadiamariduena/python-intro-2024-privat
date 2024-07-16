@@ -617,6 +617,42 @@ read_file(filename)
 
 ### The Console result
 
+<br>
+
+```javascript
+
+ python files_morenames.py
+Ludovico Sforza
+
+One believes things because one has been conditioned to believe them.
+
+Stability isn’t nearly so spectacular as instability.
+
+Most human beings have an almost infinite capacity for taking things for granted.
+
+When the rich wage war it's the poor who die.
+
+---- ✋ PPRINT
+{'event': 'File content',
+ 'file': 'more_names.txt',
+ 'lines': ['Ludovico Sforza',
+           '',
+           'One believes things because one has been conditioned to believe '
+           'them.',
+           '',
+           'Stability isn’t nearly so spectacular as instability.',
+           '',
+           'Most human beings have an almost infinite capacity for taking '
+           'things for granted.',
+           '',
+           "When the rich wage war it's the poor who die.",
+           '']}
+```
+
+
+<br>
+<br>
+
 
 ```javascript
 project_root/
@@ -629,3 +665,19 @@ project_root/
 
 
 ### The Log
+
+```javascript
+INFO:root:{'event': 'File opened', 'file': 'more_names.txt', 'timestamp': '2024-07-16 03:19:28.933175'}
+INFO:root:{'event': 'Read line', 'file': 'more_names.txt', 'line': 'Ludovico Sforza', 'timestamp': '2024-07-16 03:19:28.933364'}
+INFO:root:{'event': 'Read line', 'file': 'more_names.txt', 'line': '', 'timestamp': '2024-07-16 03:19:28.933475'}
+INFO:root:{'event': 'Read line', 'file': 'more_names.txt', 'line': 'One believes things because one has been conditioned to believe them.', 'timestamp': '2024-07-16 03:19:28.933554'}
+INFO:root:{'event': 'Read line', 'file': 'more_names.txt', 'line': '', 'timestamp': '2024-07-16 03:19:28.933640'}
+INFO:root:{'event': 'Read line', 'file': 'more_names.txt', 'line': 'Stability isn’t nearly so spectacular as instability.', 'timestamp': '2024-07-16 03:19:28.933710'}
+INFO:root:{'event': 'Read line', 'file': 'more_names.txt', 'line': '', 'timestamp': '2024-07-16 03:19:28.933811'}
+INFO:root:{'event': 'Read line', 'file': 'more_names.txt', 'line': 'Most human beings have an almost infinite capacity for taking things for granted.', 'timestamp': '2024-07-16 03:19:28.933895'}
+INFO:root:{'event': 'Read line', 'file': 'more_names.txt', 'line': '', 'timestamp': '2024-07-16 03:19:28.933967'}
+INFO:root:{'event': 'Read line', 'file': 'more_names.txt', 'line': "When the rich wage war it's the poor who die.", 'timestamp': '2024-07-16 03:19:28.934038'}
+INFO:root:{'event': 'Read line', 'file': 'more_names.txt', 'line': '', 'timestamp': '2024-07-16 03:19:28.934105'}
+INFO:root:{'event': 'File closed', 'file': 'more_names.txt', 'timestamp': '2024-07-16 03:19:28.934735'}
+
+```
