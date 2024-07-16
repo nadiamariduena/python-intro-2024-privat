@@ -244,6 +244,8 @@ for line in f:
 
 # 🟩 CLOSE()
 
+- its important that you close the file, because it might be that ou have some changes done, and its not going to show up until you **close()** it
+
 ```python
 f.close()
 ```
