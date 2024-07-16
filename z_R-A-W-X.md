@@ -191,8 +191,30 @@ f = open("names.txt", "rb")
 f = open("names.txt")
 print(f.read())
 ```
+
+<br>
+
 #### to try the code, type: `python files.py` on your terminal, like so
+
+-
 
 ```javascript
 mycomputer:~/LESSON_18$ python files.py
+```
+
+<br>
+
+#### output
+
+- you will have the content of the `file.py`
+
+```javascript
+// /LESSON_18_rawx_operations$ python files.py
+
+# names
+
+Dave
+Jane
+Eddie
+Jimmie
 ```
