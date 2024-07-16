@@ -13,4 +13,7 @@
 
 f = open("names.txt")
 # print(f.read())
-print(f.read(4)) # it will reach the first 4 character file, which in this case will be Dave
+#print(f.read(4)) # it will reach the first 4 character file, which in this case will be Dave
+
+for line in f:
+    print(line)

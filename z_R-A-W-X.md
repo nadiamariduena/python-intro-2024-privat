@@ -218,3 +218,25 @@ Jane
 Eddie
 Jimmie
 ```
+
+<br>
+
+<br>
+
+### loops
+
+```python
+# for the line in f ,(which is the names.txt), print the line
+for line in f:
+    print(line)
+
+# output
+#
+# Dave
+
+# Jane
+
+# Eddie
+
+# Jimmie
+```
