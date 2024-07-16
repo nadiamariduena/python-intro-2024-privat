@@ -243,3 +243,7 @@ for line in f:
 ```
 
 # 🟩 CLOSE()
+
+```python
+f.close()
+```
