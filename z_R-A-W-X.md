@@ -282,3 +282,6 @@ When you write to a file in Python, the data is often buffered in memory before 
 
  🔶 **Ensure Data Integrity:**
 
+  If you are performing operations that modify the contents of a file (e.g., writing, appending, etc.),
+  closing the file ensures that all modifications are finalized and saved to the file.
+
