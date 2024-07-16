@@ -143,8 +143,9 @@ project_folder/
 
 <br>
 
+# 🟩 OPEN()
 
-### 🟠 `files.py`
+- use the open()` operation, use the content of this **files.py** (contain 4 names), once you will be done you will have to close the `opem()` operation
 
 ```bash
 # Acronym for:
@@ -240,3 +241,5 @@ for line in f:
 
 # Jimmie
 ```
+
+# 🟩 CLOSE()
