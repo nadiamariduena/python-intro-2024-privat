@@ -262,3 +262,5 @@ f.close()
 
 - 🔴 If you do not close the file properly using **close()**, the buffered data may not be written to the disk.
 
+- Closing the file ensures that any remaining data in the buffer is flushed (written) to the file.
+
