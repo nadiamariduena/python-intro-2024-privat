@@ -260,4 +260,5 @@ f.close()
 
 - When you write to a file in Python, the data is often buffered in memory before being physically written to the file on disk.
 
+- 🔴 If you do not close the file properly using **close()**, the buffered data may not be written to the disk.
 
