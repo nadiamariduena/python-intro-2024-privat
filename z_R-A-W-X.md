@@ -500,7 +500,7 @@ When the rich wage war it's the poor who die.
 
 <br>
 
-- Once you run the code **A NEW FILE** will be generated
+## 5. Once you run the code **A NEW FILE** will be generated
 
 <br>
 
@@ -513,7 +513,9 @@ project_root/
 |── file_operations.log ✋
 ```
 
-#### output on the console
+### output on the console
+
+- 🔴 Every time you add something new to the `more_names.txt`, it will appear on your console and it will show the log on the generated  `file_operations.log`
 
 ```javascript
 Ludovico Sforza
@@ -527,4 +529,14 @@ Most human beings have an almost infinite capacity for taking things for granted
 When the rich wage war it's the poor who die.
 
 ----
+```
+
+
+## 6. THE Log
+
+```javascript
+INFO:root:File more_names.txt opened at 2024-07-16 02:58:57.851105
+INFO:root:File more_names.txt closed at 2024-07-16 02:58:57.851381
+
+
 ```
