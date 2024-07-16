@@ -309,4 +309,6 @@ When you write to a file in Python, the data is often buffered in memory before 
 
   #### Logging Module:
 
-  - - Python's built-in logging module allows you to record detailed information about events, including timestamps. You can log messages when resources are accessed (opened) and when they are closed. Here's a basic example:
+  - - Python's built-in logging module **allows you to record detailed information about events, including timestamps.**
+
+  - -  You can **log messages when resources are accessed (opened) and when they are closed.** ✋ Here's a basic example:
