@@ -448,8 +448,26 @@ def read_file(filename):
     #
     #
     #
-# Example usage
-filename = "more_names.txt"
+# Example usage 🌈
+filename = "more_names.txt" # this is the file i will be using, i have added some quotes, instead of just names
 read_file(filename)
 
   ```
+
+  <br>
+
+### Within the
+
+```bash
+Ludovico Sforza
+
+One believes things because one has been conditioned to believe them.
+
+Stability isn’t nearly so spectacular as instability.
+
+Most human beings have an almost infinite capacity for taking things for granted.
+
+When the rich wage war it's the poor who die.
+
+
+```
