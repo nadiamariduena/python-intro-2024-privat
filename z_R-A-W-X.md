@@ -545,3 +545,5 @@ INFO:root:File more_names.txt closed at 2024-07-16 02:58:57.851381
 <br>
 
 ### 🟡 I want something that logs the additions made to the file. Currently, I have the timestamp; I'm seeking additional data pertaining to these changes.
+
+- the log is showing me the last change i made to the more_names files, but the data is messy, i want it clean and pretty, i know now its possible to structure the data in a json type of format, and indented using PPRINT (for clarity).
