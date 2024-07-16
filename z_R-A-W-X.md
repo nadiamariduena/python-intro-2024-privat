@@ -285,3 +285,4 @@ When you write to a file in Python, the data is often buffered in memory before 
   If you are performing operations that modify the contents of a file (e.g., writing, appending, etc.),
   closing the file ensures that all modifications are finalized and saved to the file.
 
+  🔴 If you do not close the file properly, some changes may not be written completely or correctly, leading to potential data corruption or loss.
