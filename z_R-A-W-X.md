@@ -540,3 +540,8 @@ INFO:root:File more_names.txt closed at 2024-07-16 02:58:57.851381
 
 
 ```
+
+<br>
+<br>
+
+### 🟡 I want something that logs the additions made to the file. Currently, I have the timestamp; I'm seeking additional data pertaining to these changes.
