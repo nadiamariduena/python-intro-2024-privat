@@ -1,9 +1,13 @@
 import logging
 import json
+#
+# time stamp
 from datetime import datetime
+# to indent the data and make it cleaner
 from pprint import pprint
 
 # Configure logging
+# the logs will be generated in this file "file_operations.log"
 logging.basicConfig(filename='file_operations.log', level=logging.INFO)
 
 # Function to log when the file is opened
@@ -16,6 +20,10 @@ def close_file(filename):
 
 # Function to read and print the content of the file, and log each line
 def read_file(filename):
+    #
+    #
+    #
+    # r for reading the f which is the file containing the data
     try:
         with open(filename, 'r') as f:
             open_file(filename)  # Log file open operation
@@ -27,6 +35,10 @@ def read_file(filename):
                 print(line)  # Print each line (strip to remove newline characters)
             print("----")
             pprint({'event': 'File content', 'file': filename, 'lines': lines})  # Print all lines read in a structured way
+
+            #
+            #
+            # different scenarios in case the data is not there
     except FileNotFoundError:
         logging.error({'event': 'File not found', 'file': filename, 'timestamp': str(datetime.now())})
         print("The file you want to read doesn't exist")
@@ -35,6 +47,10 @@ def read_file(filename):
         print(f"Error reading file: {str(e)}")
     finally:
         close_file(filename)  # Log file close operation
+    #
+    #
+    #
+    #
 
 # Example usage
 filename = "more_names.txt"
