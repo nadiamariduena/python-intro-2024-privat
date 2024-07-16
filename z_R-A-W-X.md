@@ -256,7 +256,7 @@ f.close()
 
 <a name="close_the_operation"></a>
 
-### 🫐 Closing a file in Python after performing operations on it is crucial for several reasons:
+## 🫐 Closing a file in Python after performing operations on it is crucial for several reasons:
 
 <br>
 
@@ -264,9 +264,9 @@ f.close()
 
 - When you write to a file in Python, the data is often buffered in memory before being physically written to the file on disk.
 
-- 🔴 If you do not close the file properly using **close()**, the buffered data may not be written to the disk.
+ 🔴 If you do not close the file properly using **close()**, the buffered data may not be written to the disk.
 
-- Closing the file ensures that any remaining data in the buffer is flushed (written) to the file.
+ Closing the file ensures that any remaining data in the buffer is flushed (written) to the file.
 
 <br>
 <br>
@@ -275,6 +275,6 @@ f.close()
 
   Opening a file **consumes system resources** (file descriptors in operating systems).
 
-  - If you keep a file open unnecessarily, you might reach the **limit of maximum open file descriptors allowed by the operating system**.
+   🔴 If you keep a file open unnecessarily, you might reach the **limit of maximum open file descriptors allowed by the operating system**.
 
-  -  ✋ Closing the file releases these resources, allowing other parts of your program or other programs to use them.
+   ✋ Closing the file releases these resources, allowing other parts of your program or other programs to use them.
