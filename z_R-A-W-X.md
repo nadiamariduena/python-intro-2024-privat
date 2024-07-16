@@ -256,11 +256,18 @@ f.close()
 
 <br>
 
-**Flush Buffer to Disk:**
+ 🔶 **Flush Buffer to Disk:**
 
 - When you write to a file in Python, the data is often buffered in memory before being physically written to the file on disk.
 
 - 🔴 If you do not close the file properly using **close()**, the buffered data may not be written to the disk.
 
 - Closing the file ensures that any remaining data in the buffer is flushed (written) to the file.
+
+<br>
+<br>
+
+ 🔶 **Release System Resources:**
+
+  Opening a file **consumes system resources** (file descriptors in operating systems).
 
