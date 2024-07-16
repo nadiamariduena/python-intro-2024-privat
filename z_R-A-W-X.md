@@ -252,5 +252,12 @@ f.close()
 
 <br>
 
-### 🔴 Closing a file in Python after performing operations on it is crucial for several reasons:
+### 🫐 Closing a file in Python after performing operations on it is crucial for several reasons:
+
+<br>
+
+**Flush Buffer to Disk:**
+
+- When you write to a file in Python, the data is often buffered in memory before being physically written to the file on disk.
+
 
