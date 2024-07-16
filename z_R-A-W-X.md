@@ -199,8 +199,6 @@ print(f.read())
 
 #### to try the code, type: `python files.py` on your terminal, like so
 
--
-
 ```javascript
 mycomputer:~/LESSON_18$ python files.py
 ```
