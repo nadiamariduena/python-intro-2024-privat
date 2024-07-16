@@ -286,3 +286,6 @@ When you write to a file in Python, the data is often buffered in memory before 
   closing the file ensures that all modifications are finalized and saved to the file.
 
   🔴 If you do not close the file properly, some changes may not be written completely or correctly, leading to potential data corruption or loss.
+
+
+  ### 🤔 So, close() in Python is like locking a door with a key before leaving. But if someone else with a key opens the door while I'm not home, can I track these movements with timestamps or logs?
