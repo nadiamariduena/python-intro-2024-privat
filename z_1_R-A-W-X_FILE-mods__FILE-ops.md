@@ -32,3 +32,16 @@ file = open('example.txt', 'r')
 file.close()
 
 ```
+<br>
+
+### `read(size=-1)`:
+
+Method to read and return the entire file content or specified number of bytes (size).
+
+
+```python
+with open('example.txt', 'r') as file:
+    content = file.read()
+
+
+```
