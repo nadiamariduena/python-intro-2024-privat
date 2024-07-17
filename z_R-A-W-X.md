@@ -10,6 +10,7 @@
 - Append() [Go to section](#_APPEND_operation)
 
 
+- Write() [Go to section](#_WRITE_operation)
 
 
 
@@ -753,6 +754,16 @@ f.close()
 
 <br>
 <br>
+
+---
+
+<br>
+<br>
+
+<a name="_WRITE_operation"></a>
+
+## 🟡 WRITE
+
 
 ```python
 # ------
