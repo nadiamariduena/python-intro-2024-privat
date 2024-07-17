@@ -735,3 +735,10 @@ f.write('David Lee Roth 🥥')
 f.close()
 
 ```
+
+#### DUplicate the above code and modify a couple of things
+
+```python
+# before: f = open('names.txt', 'a')
+f = open("names.txt") # here we dont need to add the r, because by default it will READ 'r' it
+```
