@@ -1,4 +1,6 @@
-# 🟡 R.A.W.X
+# 🟡 File Modes & File operations
+
+[Python File Handling for Beginners](https://youtu.be/BRrem1k3904?si=fT2tkkVBgT-9yn93&t=44)
 
 
 <br>
@@ -17,22 +19,14 @@
 <br>
 <br>
 
-# 🌴 FILE operations
 
-[Python File Handling for Beginners](https://youtu.be/BRrem1k3904?si=fT2tkkVBgT-9yn93&t=44)
 
 <br>
 
-## 🟠 Purpose of RAWX File Operations
+## 🟦 FILE Modes
 
 
-- The purpose of using raw file operations is to have precise control over how data is read from or written to files.
-
-- 👾 This level of control is **useful when dealing with binary data**, custom file formats, or when performance optimization is critical.
-
-
-
-
+### 🟠 Purpose of File Modes ('r', 'a', 'w', 'x')
 
 
 ```bash
@@ -43,6 +37,13 @@
 # w = Write # Writing data to a file, overwriting existing content
 # x = Create # Extending the file with additional content or executing a file
 ```
+
+- The purpose of using raw file operations is to have precise control over how data is read from or written to files.
+
+- 👾 This level of control is **useful when dealing with binary data**, custom file formats, or when performance optimization is critical.
+
+
+
 
 #### 🟢 Examples from this tutorial: [min: 2:23 | Python File Handling for Beginners](https://youtu.be/BRrem1k3904?si=WMO2xCStRm5uiB8h&t=143)
 
