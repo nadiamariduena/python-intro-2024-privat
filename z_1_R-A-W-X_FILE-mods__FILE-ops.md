@@ -50,6 +50,11 @@ f = open('context.txt', 'w')
 f.write('i deleted all of the context.txt content')
 f.close() # 🔴 Failure to close the file properly can lead to issues like resource leaks or data not being fully written to the file in certain circumstances.
 
+#
+# B
+# 🔴 You use a with statement, which automatically handles opening and closing the file.
+
+
 
 ```
 
