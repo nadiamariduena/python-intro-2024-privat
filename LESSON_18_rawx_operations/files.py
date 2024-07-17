@@ -64,3 +64,10 @@ print("_____ 🦄 ______")
 #     f.close()
 
 
+# print all lines
+with open('context.txt', 'r') as file:
+    lines = file.readlines()
+    print(lines)
+
+# output:
+# ['# context\n', 'Rainbow\n', 'Horse\n', 'Zebra\n', 'Zonkey\n', 'Donkey']

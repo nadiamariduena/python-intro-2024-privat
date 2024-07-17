@@ -134,7 +134,8 @@ with open('output.txt', 'w') as file:
 with open('example.txt', 'r') as file:
     line = file.readline()
 #
-#
+# output: # context, it will remove the rest
+
 ```
 <br>
 
@@ -144,4 +145,17 @@ with open('example.txt', 'r') as file:
 <br>
 <br>
 
-### 🟠
+### 🟠 readlines():
+
+Method to **read all lines** from the file and return them as a list.
+
+```python
+
+# print all lines
+with open('context.txt', 'r') as file:
+    lines = file.readlines()
+    print(lines)
+
+# output:
+# ['# context\n', 'Rainbow\n', 'Horse\n', 'Zebra\n', 'Zonkey\n', 'Donkey']
+```
