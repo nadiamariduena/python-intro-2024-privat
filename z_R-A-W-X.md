@@ -3,11 +3,11 @@
 
 <br>
 
-- Append [Go to section](#_OPEN_operation)
+- Open() [Go to section](#_OPEN_operation)
 
-- Close [Go to section](#_CLOSE_operation)
+- Close() [Go to section](#_CLOSE_operation)
 
-- Append [Go to section](#_APPEND_operation)
+- Append() [Go to section](#_APPEND_operation)
 
 
 
@@ -15,8 +15,24 @@
 
 <br>
 <br>
+
+# 🌴 FILE operations
 
 [Python File Handling for Beginners](https://youtu.be/BRrem1k3904?si=fT2tkkVBgT-9yn93&t=44)
+
+<br>
+
+## 🟠 Purpose of RAWX File Operations
+
+
+- The purpose of using raw file operations is to have precise control over how data is read from or written to files.
+
+- 👾 This level of control is **useful when dealing with binary data**, custom file formats, or when performance optimization is critical.
+
+
+
+
+
 
 ```bash
 # Acronym for:
@@ -26,6 +42,10 @@
 # w = Write # Writing data to a file, overwriting existing content
 # x = Create # Extending the file with additional content or executing a file
 ```
+
+#### 🟢 Examples from this tutorial: [min: 2:23 | Python File Handling for Beginners](https://youtu.be/BRrem1k3904?si=WMO2xCStRm5uiB8h&t=143)
+
+
 
 <br>
 
@@ -97,32 +117,6 @@ In Python, when working with files, **"rawx"** operations typically refer to low
 <br>
 <br>
 
-## 🟠 Purpose of Raw File Operations
-
-
-- The purpose of using raw file operations is to have precise control over how data is read from or written to files.
-
-- 👾 This level of control is **useful when dealing with binary data**, custom file formats, or when performance optimization is critical.
-
-<br>
-<br>
-
-### 🟢 Examples (chatgpt)
-
-#### Reading from a File ('r'):
-
-```python
-with open('example.txt', 'r') as file:
-    content = file.read()
-    print(content)
-
-```
-
-
-<br>
-
-### 🟢 Examples from this tutorial: [min: 2:23 | Python File Handling for Beginners](https://youtu.be/BRrem1k3904?si=WMO2xCStRm5uiB8h&t=143)
-
 
 <br>
 
@@ -158,10 +152,15 @@ project_folder/
 ```
 
 <br>
+<br>
 
 <a name="_OPEN_operation"></a>
 
 # 🟩 OPEN()
+
+### Purpose of open() in File Operations
+
+<br>
 
 - Use the **open()** operation to access the content of the files.py file (which contains 4 names). Once you are done, remember to `close()` the `open()` operation ✋ (its important to close it, read it here: [Go to section](#close_the_operation))
 
@@ -713,3 +712,5 @@ INFO:root:{'event': 'File closed', 'file': 'more_names.txt', 'timestamp': '2024-
 <a name="_APPEND_operation"></a>
 
 ## 🟡 APPEND
+
+### Purpose of append() in File Operations
