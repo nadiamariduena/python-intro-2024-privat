@@ -714,3 +714,6 @@ INFO:root:{'event': 'File closed', 'file': 'more_names.txt', 'timestamp': '2024-
 ## 🟡 APPEND
 
 ### Purpose of append() in File Operations
+
+- In Python, when dealing with file operations, the `append()` mode is a specific mode **used when opening a file**.
+
