@@ -383,7 +383,27 @@ Yes, using `f.close()` at the end of working with a file, as you have done in yo
 
 
 
+## 🟨 OPEN & CLOSE
 
+- difference between option A and option B
+
+```python
+# A
+# notice this: f = open
+f = open('context.txt', 'w')
+f.write('i deleted all of the context.txt content')
+f.close() # 🔴 Failure to close the file properly can lead to issues like resource leaks or data not being fully written to the file in certain circumstances.
+
+#
+# B
+# 🔴 You use a with statement, which automatically handles opening and closing the file.
+
+with open('context.txt', 'w') as f:
+f.write('Hello, world!\n')
+# 🔴 No need to explicitly close() the file
+# When the with block is exited (either normally or due to an exception), Python ensures that the file is properly closed.
+
+```
 
 
 
