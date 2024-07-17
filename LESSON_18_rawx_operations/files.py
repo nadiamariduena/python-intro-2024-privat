@@ -45,7 +45,8 @@ print(f.read())
 f.close()
 
 # ------
-# WRITE.
+# WRITE
+# Overwrite
 # ------
 
 
