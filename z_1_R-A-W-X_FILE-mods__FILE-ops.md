@@ -204,8 +204,32 @@ A byte is a fundamental unit of digital information storage or processing, typic
 
 - In Python, when you read or write to a file, each character, **including** newline characters (\n), is represented as one byte.
 
+<br>
+
 #### 🔶 Byte Positions:
 
 Byte positions in a file **start from 0** and increment by one for each character, including newline characters.
 
 - **For example**, the first character in a file is at byte position 0, the second character is at byte position 1, and so on.
+
+<br>
+
+#### 🔶 Byte Positions:
+
+Byte positions in a file **start from 0** and increment by one for each character, including newline characters. For example, the first character in a file is at byte position 0, the second character is at byte position 1, and so on.
+
+<br>
+
+#### 🔶 File Pointer and seek() Method:
+
+The file pointer in Python represents the current position in the file where the next read or write operation will occur.
+
+- - When you use `file.seek(10)`, you are instructing Python to move the file pointer to the 10th byte in the file. This means it positions the file pointer just after the 10th byte.
+
+<br>
+
+#### 🔶 🔴 Understanding file.seek(10) in your Example:
+
+In your specific case, `file.seek(10)` moves the file pointer to the position just after the 10th byte in the file.
+
+- - This is because byte positions in Python are zero-indexed. So, file.seek(10) moves to byte position 10, not byte position 9.
