@@ -299,3 +299,12 @@ The **visual representation** you're looking at is a way to **show** how **data*
 - - 📌 Just like each square on a chessboard has a unique position (e.g., A1, B2), each byte in your representation has a byte position (0, 1, 2, ...). This helps identify where each character is stored in the sequence.
 
 <br>
+
+#### 🔶 Sequential Storage:
+
+- - Both the chessboard and byte sequence store information sequentially.
+
+- - In a chessboard, pieces are placed in a specific order on squares.
+
+- - Similarly, in memory, bytes (which represent characters here) are stored one after another in a continuous sequence.
+
