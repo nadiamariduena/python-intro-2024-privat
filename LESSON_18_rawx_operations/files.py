@@ -49,7 +49,7 @@ f.close()
 #
 # ------
 # WRITE ('w') w: stands for WRITE
-# Overwrite, we will overwrite what we have when we will open the txt
+# write & Overwrite, we will overwrite what we have, when we will open the txt
 # ------
 
 
