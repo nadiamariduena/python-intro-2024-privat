@@ -159,3 +159,18 @@ with open('context.txt', 'r') as file:
 # output:
 # ['# context\n', 'Rainbow\n', 'Horse\n', 'Zebra\n', 'Zonkey\n', 'Donkey']
 ```
+
+<br>
+
+### 🟠 `seek(offset, whence=0):`
+
+Method to move the file pointer to a specific position.
+
+```python
+with open('example.txt', 'r') as file:
+    file.seek(10)  # Move to the 10th byte
+    content = file.read()
+```
+
+offset specifies the number of bytes to move.
+whence (optional) specifies the reference point (0 for start of file, 1 for current position, 2 for end of file).
