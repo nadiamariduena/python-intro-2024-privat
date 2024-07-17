@@ -719,3 +719,6 @@ INFO:root:{'event': 'File closed', 'file': 'more_names.txt', 'timestamp': '2024-
 
 - When you open a file in append mode (`'a'`), it allows you to **write data** to the **end of the file** without truncating it.
 
+
+
+-  This means any existing content in the file remains untouched, and new data is simply added at the end.
