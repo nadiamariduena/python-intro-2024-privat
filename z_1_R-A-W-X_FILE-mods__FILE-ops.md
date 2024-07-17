@@ -294,3 +294,8 @@ The **visual representation** you're looking at is a way to **show** how **data*
 
 - - Both the byte representation and a chessboard can be visualized as grids. In a chessboard, you have rows and columns where each square can hold a piece (like a character in our byte example).
 
+#### 🔶 Indexing:
+
+- - 📌 Just like each square on a chessboard has a unique position (e.g., A1, B2), each byte in your representation has a byte position (0, 1, 2, ...). This helps identify where each character is stored in the sequence.
+
+<br>
