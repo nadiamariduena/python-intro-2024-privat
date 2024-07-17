@@ -340,3 +340,8 @@ The **visual representation** you're looking at is a way to **show** how **data*
 **SQL Injection:** ✋ Malicious bytes can be crafted to manipulate SQL queries executed by a database, potentially giving unauthorized access or control over the database.
 
 **Code Injection:** Bytes can be designed to exploit vulnerabilities in a program's input handling, allowing an attacker to execute arbitrary code.
+
+
+#### Format String Attacks:
+
+- - Certain programming languages and applications are vulnerable to attacks where bytes can be crafted to exploit format string vulnerabilities. These attacks can lead to leaking sensitive information or even executing arbitrary code.
