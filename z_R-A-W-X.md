@@ -83,6 +83,9 @@
 
 The most **commonly used** file operations in Python depend on the specific task, but typically include:
 
+- - Opening and Closing Files (open(), close())
+
+
 
 <br>
 <br>
