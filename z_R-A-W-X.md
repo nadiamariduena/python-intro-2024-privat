@@ -102,7 +102,7 @@ The most **commonly used** file operations in Python depend on the specific task
 
 - - **Reading** Content (`read()`, `readline()`, `readlines()`)
 
-- - Writing Content (write())
+- - **Writing** Content (`write()`)
 
 - - Managing File Position (seek(), tell())
 
