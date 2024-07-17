@@ -70,3 +70,21 @@ with open('large_file.txt', 'r') as file:
 #Contents of large_file.txt printed in chunks of 1024 bytes.
 
 ```
+
+<br>
+<br>
+
+### 🟠  write(string):
+
+- Method to write a string to a file.
+
+
+#### Returns the number of characters written.
+
+Example
+
+```python
+with open('output.txt', 'w') as file:
+    file.write('Hello, world!\n')
+
+```
