@@ -69,10 +69,26 @@
 
 <br>
 
+---
+
 <br>
 
 ## 🟦 File Operations: `open(), read(), write(), close()`
 
+
+<br>
+
+### 🟠 Most Used File Operations
+
+
+The most **commonly used** file operations in Python depend on the specific task, but typically include:
+
+
+<br>
+<br>
+
+
+---
 
 <br>
 <br>
