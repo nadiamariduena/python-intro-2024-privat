@@ -345,3 +345,13 @@ The **visual representation** you're looking at is a way to **show** how **data*
 #### Format String Attacks:
 
 - - Certain programming languages and applications are vulnerable to attacks where bytes can be crafted to exploit format string vulnerabilities. These attacks can lead to leaking sensitive information or even executing arbitrary code.
+
+<br>
+
+### To mitigate these risks, it's crucial to:
+
+**Validate Inputs:** Always validate and sanitize any input received from users or external sources.
+Use Safe APIs: Utilize safe APIs and libraries provided by the programming language to handle input securely.
+
+**Implement Proper Access Controls:** Restrict access to sensitive functions and resources based on the principle of least privilege.
+Regular Security Audits: Perform regular security audits and testing to identify and fix potential vulnerabilities.
