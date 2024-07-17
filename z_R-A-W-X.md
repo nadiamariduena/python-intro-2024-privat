@@ -748,3 +748,20 @@ print(f.read())
 
 f.close()
 ```
+
+
+
+<br>
+<br>
+
+```python
+# ------
+# WRITE ('w') w: stands for WRITE
+# write & Overwrite, we will overwrite what we have, when we will open the txt
+# ------
+
+f = open("context.txt", "w")
+f.write('i deleted all of the context.txt content')
+f.close()
+
+```
