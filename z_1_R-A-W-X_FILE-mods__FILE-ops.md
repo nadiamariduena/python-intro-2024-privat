@@ -17,3 +17,18 @@
 ```python
 file = open('example.txt', 'r')
 ```
+
+<br>
+
+### close():
+
+- Method to close an opened file.
+
+#### Ensures resources associated with the file are freed.
+
+
+```python
+file = open('example.txt', 'r')
+file.close()
+
+```
