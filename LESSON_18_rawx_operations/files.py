@@ -29,3 +29,17 @@ except:
     print("The file you want to read doesn't exists")
 finally:
     f.close()
+
+
+#
+print("_____ 👾 ______")
+# ------
+# APPEND
+# ------
+f = open('names.txt', 'a')
+f.write('David Lee Roth 🥥')
+f.close()
+
+f = open('names.txt')
+print(f.read())
+f.close()

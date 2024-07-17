@@ -722,3 +722,16 @@ INFO:root:{'event': 'File closed', 'file': 'more_names.txt', 'timestamp': '2024-
 
 
 -  This means any existing content in the file remains untouched, and new data is simply added at the end.
+
+```python
+# divider
+print("_____ 👾 ______")
+# ------
+# APPEND
+# ------
+f = open('names.txt', 'a')
+f.write('David Lee Roth 🥥')
+# from the moment you are going to run the code: python files.py , the David Lee Roth is going to be saved and automatically generated in your names.txt (without you having to type anything there)
+f.close()
+
+```
