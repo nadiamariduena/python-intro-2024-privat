@@ -1,5 +1,15 @@
 # 🟡 R.A.W.X
 
+
+
+
+
+
+
+
+<br>
+<br>
+
 [Python File Handling for Beginners](https://youtu.be/BRrem1k3904?si=fT2tkkVBgT-9yn93&t=44)
 
 ```bash
@@ -681,3 +691,13 @@ INFO:root:{'event': 'Read line', 'file': 'more_names.txt', 'line': '', 'timestam
 INFO:root:{'event': 'File closed', 'file': 'more_names.txt', 'timestamp': '2024-07-16 03:19:28.934735'}
 
 ```
+
+<br>
+<br>
+
+---
+
+<br>
+<br>
+
+## 🟡 APPEND
