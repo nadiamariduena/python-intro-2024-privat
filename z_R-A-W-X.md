@@ -26,8 +26,13 @@
 ## 🟦 FILE Modes
 
 
-### 🟠 Purpose of File Modes ('r', 'a', 'w', 'x')
+### 🟠 Purpose of File Modes `'r', 'a', 'w', 'x'`
 
+<br>
+
+- The purpose of using raw file operations is to have precise control over how data is read from or written to files.
+
+<br>
 
 ```bash
 # Acronym for:
@@ -38,7 +43,9 @@
 # x = Create # Extending the file with additional content or executing a file
 ```
 
-- The purpose of using raw file operations is to have precise control over how data is read from or written to files.
+<br>
+
+
 
 - 👾 This level of control is **useful when dealing with binary data**, custom file formats, or when performance optimization is critical.
 
@@ -62,6 +69,12 @@
 
 <br>
 
+<br>
+
+## 🟦 File Operations: `open(), read(), write(), close()`
+
+
+<br>
 <br>
 
 ### 🟡 QUESTION: 🫐 "Explain 'rawx' in Python for file handling, using diagrams to illustrate its structure. I've heard it's similar to CRUD. Explain the purpose of 'rawx' and provide small examples of its use. Finally, conclude with an example involving ice cream."
