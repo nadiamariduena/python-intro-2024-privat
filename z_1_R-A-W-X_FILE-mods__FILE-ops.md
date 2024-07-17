@@ -329,4 +329,7 @@ The **visual representation** you're looking at is a way to **show** how **data*
 
 ### ✅ Yes, bytes can potentially be used to inject malicious programs or code into a system, especially if the program or application handling those bytes doesn't properly validate or sanitize them. Here are a few scenarios where bytes could be used maliciously:
 
+**Buffer Overflows:** This occurs when a program writes more data to a buffer ( 🔴 an allocated memory space) than it can hold.
+
+- - If an attacker can control the bytes written beyond the buffer's bounds, they can overwrite critical data, potentially altering program flow or injecting executable code.
 
