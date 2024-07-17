@@ -52,4 +52,4 @@ f.close()
 # write & Overwrite, we will overwrite what we have, when we will open the txt
 # ------
 
-f = open("context.txt")
+f = open("context.txt", "w")
