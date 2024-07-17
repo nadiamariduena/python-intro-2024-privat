@@ -121,3 +121,27 @@ with open('output.txt', 'w') as file:
     file.write('Hello, world!\n')
 
 ```
+
+<br>
+<br>
+
+### 🟠 readline():
+
+🔸 This line reads one line from the file object file and stores it in the variable line.
+
+```python
+
+with open('example.txt', 'r') as file:
+    line = file.readline()
+#
+#
+```
+<br>
+
+🔸 The **readline()** method reads characters from the file until it reaches a newline character ('**\n**') or the end of the file. It returns the line as a string including the newline character at the end, unless the end of the file has been reached.
+
+
+<br>
+<br>
+
+### 🟠

@@ -59,6 +59,8 @@ print("_____ 🦄 ______")
 # f.write('i deleted all of the context.txt content')
 # f.close()
 
-with open('context.txt', 'w') as f:
-    f.write('Hello, world!\n')
-    f.close()
+# with open('context.txt', 'w') as f:
+#     f.write('Hello, world!\n')
+#     f.close()
+
+

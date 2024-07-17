@@ -381,7 +381,7 @@ Jimmie
 
 Yes, using `f.close()` at the end of working with a file, as you have done in your code snippet, is a good practice for several reasons, including ensuring that any changes made to the file are properly saved and resources associated with the file are released.
 
-
+<br><br><br>
 
 ## 🟨 OPEN & CLOSE
 
