@@ -191,3 +191,9 @@ whence (optional) specifies the reference point (0 for start of file, 1 for curr
 A byte is a fundamental unit of digital information storage or processing, typically consisting of 8 bits.
 
 - In Python, when you read or write to a file, each character, **including** newline characters (\n), is represented as one byte.
+
+#### 🔶 Byte Positions:
+
+Byte positions in a file **start from 0** and increment by one for each character, including newline characters.
+
+- **For example**, the first character in a file is at byte position 0, the second character is at byte position 1, and so on.
