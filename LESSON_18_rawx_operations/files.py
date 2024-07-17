@@ -34,7 +34,8 @@ finally:
 #
 print("_____ 👾 ______")
 # ------
-# APPEND 1.
+#
+# APPEND 1. ('a') a: stands for APPEND
 # ------
 f = open('names.txt', 'a')
 f.write('David Lee Roth 🥥')
@@ -43,9 +44,11 @@ f.close()
 f = open('names.txt')
 print(f.read())
 f.close()
-
+#
+#
+#
 # ------
-# WRITE
+# WRITE ('w') w: stands for WRITE
 # Overwrite, we will overwrite what we have when we will open the txt
 # ------
 
