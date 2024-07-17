@@ -6,8 +6,9 @@
 
 
 <br>
+<br>
 
-### open():
+### 🟠 open():
 
 - Function to open a file and return a corresponding file object.
 
@@ -19,8 +20,9 @@ file = open('example.txt', 'r')
 ```
 
 <br>
+<br>
 
-### close():
+### 🟠  close():
 
 - Method to close an opened file.
 
@@ -33,8 +35,9 @@ file.close()
 
 ```
 <br>
+<br>
 
-### `read(size=-1)`:
+### 🟠  `read(size=-1)`:
 
 Method to read and return the entire file content or specified number of bytes (size).
 
@@ -45,7 +48,7 @@ with open('example.txt', 'r') as file:
 ```
 <br>
 
-#### Example 3: Handling Large Files in Chunks
+#### 🟤 Example 3: Handling Large Files in Chunks
 
 - For larger files, reading in chunks is more efficient. Let's assume large_file.txt contains large amounts of data.
 
