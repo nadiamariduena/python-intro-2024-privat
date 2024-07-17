@@ -104,7 +104,7 @@ The most **commonly used** file operations in Python depend on the specific task
 
 - - **Writing** Content (`write()`)
 
-- - Managing File Position (seek(), tell())
+- - **Managing File Position** (`seek()`, `tell()`)
 
 - - Appending to Files ('a' mode and write())
 
