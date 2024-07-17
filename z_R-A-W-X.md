@@ -729,7 +729,7 @@ print("_____ 👾 ______")
 # ------
 # APPEND
 # ------
-f = open('names.txt', 'a')
+f = open('names.txt', 'a') ## a: append
 f.write('David Lee Roth 🥥')
 # from the moment you are going to run the code: python files.py , the David Lee Roth is going to be saved and automatically generated in your names.txt (without you having to type anything there)
 f.close()
@@ -741,4 +741,8 @@ f.close()
 ```python
 # before: f = open('names.txt', 'a')
 f = open("names.txt") # here we dont need to add the r, because by default it will READ 'r' it
+#
+print(f.read())
+
+f.close()
 ```
