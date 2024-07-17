@@ -46,7 +46,7 @@ f.close()
 
 # ------
 # WRITE
-# Overwrite
+# Overwrite, we will overwrite what we have when we will open the txt
 # ------
 
 
