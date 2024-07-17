@@ -736,7 +736,7 @@ f.close()
 
 ```
 
-#### DUplicate the above code and modify a couple of things
+### Duplicate the above code and modify a couple of things
 
 ```python
 # before: f = open('names.txt', 'a')

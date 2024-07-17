@@ -34,7 +34,7 @@ finally:
 #
 print("_____ 👾 ______")
 # ------
-# APPEND
+# APPEND 1.
 # ------
 f = open('names.txt', 'a')
 f.write('David Lee Roth 🥥')
@@ -43,3 +43,9 @@ f.close()
 f = open('names.txt')
 print(f.read())
 f.close()
+
+# ------
+# WRITE.
+# ------
+
+
