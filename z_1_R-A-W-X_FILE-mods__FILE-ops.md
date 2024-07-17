@@ -180,7 +180,9 @@ whence (optional) specifies the reference point (0 for start of file, 1 for curr
 
 ## 🟪 QUESTION:  i have no idea about bytes in computers, i didnt get this in my frontend classes,  so this is my first time, Can you explain it?
 
-#### ✅ chatgpt: Understanding bytes and their relationship to file handling in Python is fundamental to grasping how `seek()` operates.
+<br>
+
+### ✅ chatgpt: Understanding bytes and their relationship to file handling in Python is fundamental to grasping how `seek()` operates.
 
 - Understanding bytes and their implications might not be emphasized in typical frontend development classes, as frontend development often focuses more on user interface design, interaction, and presentation of data rather than low-level data representation and manipulation.
 
