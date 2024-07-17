@@ -55,7 +55,10 @@ print("_____ 🦄 ______")
 # write & Overwrite, we will overwrite what we have, when we will open the txt
 # ------
 
-f = open("context.txt", "w")
-f.write('i deleted all of the context.txt content')
-f.close()
+# f = open("context.txt", "w")
+# f.write('i deleted all of the context.txt content')
+# f.close()
 
+with open('context.txt', 'w') as f:
+    f.write('Hello, world!\n')
+    f.close()

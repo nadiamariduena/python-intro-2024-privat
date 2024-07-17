@@ -34,6 +34,29 @@ file = open('example.txt', 'r')
 file.close()
 
 ```
+
+<br>
+
+
+
+## 🟨 OPEN & CLOSE
+
+- difference between option A and option B
+
+```python
+# A
+# notice this: f = open
+f = open('context.txt', 'w')
+f.write('i deleted all of the context.txt content')
+
+```
+
+<br>
+<br>
+
+---
+
+
 <br>
 <br>
 

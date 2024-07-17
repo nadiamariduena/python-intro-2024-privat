@@ -1,7 +1,1 @@
-# context
-
-Rainbow
-Horse
-Zebra
-Zonkey
-Donkey
+Hello, world!
