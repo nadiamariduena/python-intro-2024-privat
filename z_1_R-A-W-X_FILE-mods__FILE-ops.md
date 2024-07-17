@@ -174,3 +174,10 @@ with open('example.txt', 'r') as file:
 
 offset specifies the number of bytes to move.
 whence (optional) specifies the reference point (0 for start of file, 1 for current position, 2 for end of file).
+
+<br>
+<br>
+
+## 🟪 QUESTION:  i have no idea about bytes in computers, i didnt get this in my frontend classes,  so this is my first time, Can you explain it?
+
+#### ✅ chatgpt: Understanding bytes and their relationship to file handling in Python is fundamental to grasping how `seek()` operates. Let's clarify the concept of bytes in the context of file handling:

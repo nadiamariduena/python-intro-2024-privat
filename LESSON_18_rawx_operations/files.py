@@ -65,9 +65,17 @@ print("_____ 🦄 ______")
 
 
 # print all lines
-with open('context.txt', 'r') as file:
-    lines = file.readlines()
-    print(lines)
+# with open('context.txt', 'r') as file:
+#     lines = file.readlines()
+#     print(lines)
 
 # output:
 # ['# context\n', 'Rainbow\n', 'Horse\n', 'Zebra\n', 'Zonkey\n', 'Donkey']
+
+
+
+with open('context.txt', 'r') as file:
+    file.seek(10)  # Move to the 10th byte
+    contentx = file.read()
+    print(contentx)
+
