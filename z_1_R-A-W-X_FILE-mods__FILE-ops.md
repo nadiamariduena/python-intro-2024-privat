@@ -233,3 +233,45 @@ The file pointer in Python represents the current position in the file where the
 In your specific case, `file.seek(10)` moves the file pointer to the position just after the 10th byte in the file.
 
 - - This is because byte positions in Python are zero-indexed. So, file.seek(10) moves to byte position 10, not byte position 9.
+
+#### your file content
+
+```bash
+
+0123456789  <- Byte positions
+Rainbow
+Horse
+Zebra
+Zonkey
+Donkey
+
+```
+
+### Visual Representation:
+
+- notice how the `Ho` use the last boxes (reminds me a chess board)
+
+```python
+Byte Position |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
+--------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+Characters    | R   | a   | i   | n   | b   | o   | w   | \n  | H   | o   |
+Byte Position | 10  | 11  | 12  | 13  | 14  | 15  | 16  | 17  | 18  | 19  |
+--------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+Characters    | r   | s   | e   | \n  | Z   | e   | b   | r   | a   | \n  |
+Byte Position | 20  | 21  | 22  | 23  | 24  | 25  | 26  | 27  | 28  | 29  |
+--------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+Characters    | Z   | o   | n   | k   | e   | y   | \n  | D   | o   | n   |
+Byte Position | 30  | 31  | 32  | 33  | 34  | 35  | 36  | 37  | 38  | 39  |
+--------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+Characters    | k   | e   | y   | \n  |           |     |     |     |     |
+
+
+```
+
+**Byte Positions:** Each column represents a byte position in the file, starting from 0.
+
+**Characters:** Each row under "Characters" shows the character present at that byte position in the file content.
+
+**Newline (\n):** Represents the newline character, which marks the end of each line in the file content.
+
+`# when i run the code, you will notice that the \n also appears, output: ['# context\n', 'Rainbow\n', 'Horse\n', 'Zebra\n', 'Zonkey\n', 'Donkey']`
