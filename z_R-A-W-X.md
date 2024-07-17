@@ -1,7 +1,13 @@
 # 🟡 R.A.W.X
 
 
+<br>
 
+- Append [Go to section](#_OPEN_operation)
+
+- Close [Go to section](#_CLOSE_operation)
+
+- Append [Go to section](#_APPEND_operation)
 
 
 
@@ -153,6 +159,8 @@ project_folder/
 
 <br>
 
+<a name="_OPEN_operation"></a>
+
 # 🟩 OPEN()
 
 - Use the **open()** operation to access the content of the files.py file (which contains 4 names). Once you are done, remember to `close()` the `open()` operation ✋ (its important to close it, read it here: [Go to section](#close_the_operation))
@@ -256,6 +264,8 @@ for line in f:
 
 <br>
 <br>
+
+<a name="_CLOSE_operation"></a>
 
 # 🟩 CLOSE()
 
@@ -699,5 +709,7 @@ INFO:root:{'event': 'File closed', 'file': 'more_names.txt', 'timestamp': '2024-
 
 <br>
 <br>
+
+<a name="_APPEND_operation"></a>
 
 ## 🟡 APPEND
