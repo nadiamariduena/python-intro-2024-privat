@@ -333,3 +333,10 @@ The **visual representation** you're looking at is a way to **show** how **data*
 
 - - If an attacker can control the bytes written beyond the buffer's bounds, they can overwrite critical data, potentially altering program flow or injecting executable code.
 
+<br>
+
+**Injection Attacks:** Bytes can be crafted in such a way that when interpreted by a program, they execute unintended actions. For example:
+
+**SQL Injection:** ✋ Malicious bytes can be crafted to manipulate SQL queries executed by a database, potentially giving unauthorized access or control over the database.
+
+**Code Injection:** Bytes can be designed to exploit vulnerabilities in a program's input handling, allowing an attacker to execute arbitrary code.
