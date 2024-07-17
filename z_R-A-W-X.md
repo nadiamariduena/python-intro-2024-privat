@@ -742,6 +742,8 @@ f.close()
 # before: f = open('names.txt', 'a')
 f = open("names.txt") # here we dont need to add the r, because by default it will READ 'r' it
 #
+#
+# before: f.write('David Lee Roth 🥥')
 print(f.read())
 
 f.close()
