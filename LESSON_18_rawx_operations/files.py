@@ -47,6 +47,9 @@ f.close()
 #
 #
 #
+print("_____ 🦄 ______")
+#
+#
 # ------
 # WRITE ('w') w: stands for WRITE
 # write & Overwrite, we will overwrite what we have, when we will open the txt
