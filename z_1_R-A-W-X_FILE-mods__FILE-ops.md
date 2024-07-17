@@ -181,3 +181,13 @@ whence (optional) specifies the reference point (0 for start of file, 1 for curr
 ## 🟪 QUESTION:  i have no idea about bytes in computers, i didnt get this in my frontend classes,  so this is my first time, Can you explain it?
 
 #### ✅ chatgpt: Understanding bytes and their relationship to file handling in Python is fundamental to grasping how `seek()` operates. Let's clarify the concept of bytes in the context of file handling:
+
+
+### 🔷 Bytes in File Handling:
+
+
+#### 🔶 What is a Byte?
+
+A byte is a fundamental unit of digital information storage or processing, typically consisting of 8 bits.
+
+- In Python, when you read or write to a file, each character, **including** newline characters (\n), is represented as one byte.
