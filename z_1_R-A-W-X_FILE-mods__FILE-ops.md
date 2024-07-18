@@ -252,6 +252,7 @@ Purpose: Opens a file for both reading and writing.
 
 
 ```python
+# 'r+' Mode (Read and Write)
 file = open('menu.txt', 'r+')
 
 ```
