@@ -245,7 +245,7 @@ print(data[:5])     # Slicing the first 5 bytes
 # b'Hello'
 # -----------
 
-#data[0] accesses the first byte of the bytes literal b'Hello, World!'.
+# ✋ data[0] accesses the first byte of the bytes literal b'Hello, World!'.
 #
 #In ASCII encoding, the character 'H' corresponds to the byte value 72.Therefore, print(data[0]) prints 72.
 #
