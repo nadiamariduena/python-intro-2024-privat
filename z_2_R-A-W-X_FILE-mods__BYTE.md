@@ -495,5 +495,8 @@ print(len(data))
 # len(data) evaluates to 13, which is the number of bytes in b'Hello, World!'.
 
 # output: 13
-print(b'Hello' in data)  # True
+print(b'Hello' in data)
+
+# Since "Hello" is indeed part of "Hello, World!", b'Hello' in data evaluates to True.
+# output: True
 ```
