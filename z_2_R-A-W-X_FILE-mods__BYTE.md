@@ -235,10 +235,32 @@ In Python, when you're working with bytes (typically represented by bytes or `by
 
 You can **access individual bytes or slices of bytes** using indexing and slicing operations, similar to how you would work with strings or lists.
 
+```python
+data = b'Hello, World!'
+print(data[0])      # Accessing the first byte
+print(data[:5])     # Slicing the first 5 bytes
+
+
+
+
+```
 
 
 <br>
 
+#### Here's a visual representation of the bytes literal b'Hello, World!' similar to the table you provided:
+
+
+```bash
+Byte Position |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
+--------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+Characters    |  H  |  e  |  l  |  l  |  o  |  ,  |     |  W  |  o  |  r  |
+Byte Position | 10  | 11  | 12  | 13  | 14  | 15  | 16  | 17  | 18  | 19  |
+--------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+Characters    |  l  |  d  |  !  |     |     |     |     |     |     |     |
+ASCII Values  |  72 | 101 | 108 | 108 | 111 |  44 |  32 |  87 | 111 | 114 |
+
+```
 
 
 
