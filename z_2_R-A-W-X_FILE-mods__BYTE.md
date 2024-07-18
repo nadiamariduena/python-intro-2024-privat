@@ -445,6 +445,12 @@ Byte Position | Byte Value | ASCII Character
 
 
 
-### 🔸 Manipulation: You can manipulate bytes using methods such as replace(), count(), startswith(), endswith(), etc.
+### 🔶 Manipulation: You can manipulate bytes using methods such as replace(), count(), startswith(), endswith(), etc.
 
 
+```python
+data = b'Hello, World!'
+new_data = data.replace(b'World', b'Python')
+print(new_data)   # b'Hello, Python!'
+
+```
