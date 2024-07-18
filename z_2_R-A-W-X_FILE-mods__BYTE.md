@@ -480,3 +480,16 @@ Byte Position | Original Byte Value | Replacement Byte Value | ASCII Character (
      12       |         33          |           33           |             !             |              !
 
 ```
+
+<br>
+
+
+### 🔶 Length and Membership:
+
+- You can get the length of bytes using `len()` and check membership using in.
+
+```python
+data = b'Hello, World!'
+print(len(data))         # 13
+print(b'Hello' in data)  # True
+```
