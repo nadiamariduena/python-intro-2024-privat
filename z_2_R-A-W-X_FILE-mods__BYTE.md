@@ -333,3 +333,28 @@ for byte in data:
 100 corresponds to the ASCII value of 'd'.
 33 corresponds to the ASCII value of '!'.
 ```
+
+<br>
+
+### Why does 108 appear twice?
+
+In the bytes literal `b'Hello, World!'`, there are indeed two occurrences of the byte with **ASCII** value 108. These correspond to the two 'l' characters in the string "Hello, World!".
+
+
+<br>
+
+### Why does 100 ('d') appear when it's not in the table?
+
+The character 'd' does appear in the bytes literal `b'Hello, World!'` as part of the string "World!". Its ASCII value is **100**, and it corresponds to byte position 11.
+
+
+```bash
+Byte Position |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
+--------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+Characters    |  H  |  e  |  l  |  l  |  o  |  ,  |     |  W  |  o  |  r  |
+Byte Position | 10  | 11  | 12  | 13  | 14  | 15  | 16  | 17  | 18  | 19  |
+--------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+Characters    |  l  |  d  |  !  |     |     |     |     |     |     |     |
+ASCII Values  |  72 | 101 | 108 | 108 | 111 |  44 |  32 |  87 | 111 | 114 |
+
+```
