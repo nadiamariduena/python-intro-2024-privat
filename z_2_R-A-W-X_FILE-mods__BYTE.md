@@ -381,3 +381,11 @@ print(combined)    # b'Hello, World'
 # output
 # b'Hello, World'
 ```
+
+
+Conversion: You can convert bytes to other formats like a bytearray or a list of integers representing the byte values.
+
+
+data = b'Hello'
+byte_list = list(data)
+bytearray_data = bytearray(data)
