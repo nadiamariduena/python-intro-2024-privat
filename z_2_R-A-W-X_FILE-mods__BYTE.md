@@ -490,6 +490,10 @@ Byte Position | Original Byte Value | Replacement Byte Value | ASCII Character (
 
 ```python
 data = b'Hello, World!'
-print(len(data))         # 13
+print(len(data))
+#This line prints the length of the bytes literal data.
+# len(data) evaluates to 13, which is the number of bytes in b'Hello, World!'.
+
+# output: 13
 print(b'Hello' in data)  # True
 ```
