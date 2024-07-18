@@ -510,10 +510,10 @@ print(b'Hello' in data)
 
 
 ```python
-#rb:
+#rb: read binary
 with open('file.bin', 'rb') as f:
     data = f.read()
-
+# wb: write binary
 with open('output.bin', 'wb') as f:
     f.write(data)
 ```
