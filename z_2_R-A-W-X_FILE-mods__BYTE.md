@@ -505,7 +505,7 @@ print(b'Hello' in data)
 
 
 
-### 🔶 Reading and Writing: You can read bytes from files or write bytes to files using file I/O operations.
+###  🟦 Reading and Writing: You can read bytes from files or write bytes to files using file I/O operations.
 
 
 
@@ -517,4 +517,18 @@ with open('file.bin', 'rb') as f:
 # wb: write binary
 with open('output.bin', 'wb') as f:
     f.write(data)
+```
+
+<br>
+
+
+### 🔶 Formatting: You can format bytes into a human-readable string using methods like decode().
+
+
+```python
+
+data = b'Hello, World!'
+text = data.decode('utf-8')
+print(text)   # Outputs: 'Hello, World!'
+
 ```
