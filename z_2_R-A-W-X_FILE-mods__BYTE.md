@@ -319,5 +319,17 @@ for byte in data:
 
 ```bash
 
-
+72 corresponds to the ASCII value of 'H'.
+101 corresponds to the ASCII value of 'e'.
+108 corresponds to the ASCII value of 'l'.
+108 again corresponds to the ASCII value of the second 'l'.
+111 corresponds to the ASCII value of 'o'.
+44 corresponds to the ASCII value of ','.
+32 corresponds to the ASCII value of the space character ' '.
+87 corresponds to the ASCII value of 'W'.
+111 corresponds to the ASCII value of 'o'.
+114 corresponds to the ASCII value of 'r'.
+108 corresponds to the ASCII value of the third 'l'.
+100 corresponds to the ASCII value of 'd'.
+33 corresponds to the ASCII value of '!'.
 ```
