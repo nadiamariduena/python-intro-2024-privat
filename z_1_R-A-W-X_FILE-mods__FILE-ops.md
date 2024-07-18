@@ -191,3 +191,9 @@ with open('example.txt', 'r') as file:
 - Read Mode (`'r'`) - Default mode.
 
 Purpose: Opens a file for reading. Raises an error if the file does not exist.
+
+
+```python
+file = open('menu.txt', 'r')
+
+```
