@@ -384,7 +384,10 @@ print(combined)    # b'Hello, World'
 
 <br>
 
-### 🔸 Conversion: You can convert bytes to other formats like a bytearray or a list of integers representing the byte values.
+### 🔸 Conversion:
+
+
+- You can convert bytes to other formats like a bytearray or a list of integers representing the byte values.
 
 
 ```python
@@ -399,4 +402,18 @@ print(bytearray_data)
 # [72, 101, 108, 108, 111]
 # bytearray(b'Hello')
 #
+```
+
+<br>
+
+
+### 🔸 Finding Substrings:
+
+- You can find the index of a substring within bytes using the index() method.
+
+
+```python
+data = b'Hello, World!'
+index = data.index(b'World')
+print(index)   # Outputs: 7
 ```
