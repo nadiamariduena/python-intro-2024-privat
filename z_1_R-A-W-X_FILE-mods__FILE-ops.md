@@ -1,4 +1,4 @@
-# 🟡 FILE Operations
+# 🟡 FILE Operations & File Modes
 
 <br>
 
@@ -7,6 +7,8 @@
 
 <br>
 <br>
+
+## 🟦 FILE Operations
 
 ### 🟠 open():
 
@@ -180,3 +182,12 @@ with open('example.txt', 'r') as file:
 <br>
 
 
+
+<br>
+
+## 🟦 FILE Modes
+
+
+- Read Mode (`'r'`) - Default mode.
+
+Purpose: Opens a file for reading. Raises an error if the file does not exist.
