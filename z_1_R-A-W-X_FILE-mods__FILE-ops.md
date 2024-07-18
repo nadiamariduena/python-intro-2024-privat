@@ -268,7 +268,15 @@ file = open('newfile.txt', 'x')
 
 ```
 
+<br>
 
+🍍 **'r+'**: Allows both reading and writing without truncating the file. Raises an error if the file does not exist.
+
+🍍 **'w+'**: Allows both reading and writing, truncates the file if it exists or creates a new file if it doesn't.
+
+
+
+<br>
 <br>
 
 ###  🔶  Text Mode ('t') - Default mode in Python 3.x (optional).
