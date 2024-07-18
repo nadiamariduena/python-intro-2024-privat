@@ -510,6 +510,7 @@ print(b'Hello' in data)
 
 
 ```python
+# I dont have the bin file at the moment, i will try to update it soon
 #rb: read binary
 with open('file.bin', 'rb') as f:
     data = f.read()
