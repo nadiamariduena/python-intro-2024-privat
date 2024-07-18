@@ -454,3 +454,29 @@ new_data = data.replace(b'World', b'Python')
 print(new_data)   # b'Hello, Python!'
 
 ```
+
+<br>
+
+#### Here's an enhanced table that explicitly shows where the replacement occurs between data = b'Hello, World!' and new_data = b'Hello, Python!':
+
+
+<br>
+
+```python
+Byte Position | Original Byte Value | Replacement Byte Value | ASCII Character (Original) | ASCII Character (Replacement)
+--------------|---------------------|------------------------|---------------------------|-------------------------------
+      0       |         72          |           72           |             H             |              H
+      1       |        101          |          101           |             e             |              e
+      2       |        108          |          108           |             l             |              l
+      3       |        108          |          108           |             l             |              l
+      4       |        111          |          111           |             o             |              o
+      5       |         44          |           44           |             ,             |              ,
+      6       |         32          |           32           |          (space)          |           (space)
+      7       |         87          |           80           |             W             |              P
+      8       |        111          |           121          |             o             |              y
+      9       |        114          |           116          |             r             |              t
+     10       |        108          |           104          |             l             |              h
+     11       |        100          |           111          |             d             |              o
+     12       |         33          |           33           |             !             |              !
+
+```
