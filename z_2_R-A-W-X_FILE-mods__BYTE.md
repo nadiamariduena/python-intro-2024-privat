@@ -237,12 +237,21 @@ You can **access individual bytes or slices of bytes** using indexing and slicin
 
 ```python
 data = b'Hello, World!'
-print(data[0])      # Accessing the first byte
+print(data[0])      # Accessing the first byte/
 print(data[:5])     # Slicing the first 5 bytes
 
+# ---- output
+# 72
+# b'Hello'
+# -----------
 
+#data[0] accesses the first byte of the bytes literal b'Hello, World!'.
+#
+#In ASCII encoding, the character 'H' corresponds to the byte value 72.Therefore, print(data[0]) prints 72.
+#
+#b'Hello' corresponds to the bytes 72 (H), 101 (e), 108 (l), 108 (l), 111 (o) in ASCII.
 
-
+# Therefore, print(data[:5]) prints b'Hello'.
 ```
 
 
