@@ -484,7 +484,7 @@ Byte Position | Original Byte Value | Replacement Byte Value | ASCII Character (
 <br>
 
 
-### 🔶 Length and Membership:
+### 🔸 Length and Membership:
 
 - You can get the length of bytes using `len()` and check membership using in.
 
@@ -499,4 +499,21 @@ print(b'Hello' in data)
 
 # Since "Hello" is indeed part of "Hello, World!", b'Hello' in data evaluates to True.
 # output: True
+```
+
+<br>
+
+
+
+### 🔶 Reading and Writing: You can read bytes from files or write bytes to files using file I/O operations.
+
+
+
+```python
+#rb:
+with open('file.bin', 'rb') as f:
+    data = f.read()
+
+with open('output.bin', 'wb') as f:
+    f.write(data)
 ```
