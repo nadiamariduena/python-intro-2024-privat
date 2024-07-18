@@ -367,3 +367,13 @@ Byte Position | Byte Value | ASCII Character
 
 ```
 <br>
+
+
+
+Concatenation and Repetition: You can concatenate bytes objects together using the + operator and repeat them using the * operator.
+
+data1 = b'Hello'
+data2 = b'World'
+combined = data1 + b', ' + data2
+print(combined)    # b'Hello, World'
+----
