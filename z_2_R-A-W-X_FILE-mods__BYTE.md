@@ -269,12 +269,25 @@ Byte Position | 10  | 11  | 12  | 13  | 14  | 15  | 16  | 17  | 18  | 19  |
 Characters    |  l  |  d  |  !  |     |     |     |     |     |     |     |
 ASCII Values  |  72 | 101 | 108 | 108 | 111 |  44 |  32 |  87 | 111 | 114 |
 
+#  10 represent the l (from world) and the 11 represents the  d
+#
+# Byte positions 1 to 4 correspond to characters 'e', 'l', 'l', 'o', which have ASCII values 101, 108, 108, 111 respectively.
+
 ```
 
 
 
 
 <br>
-<br>
 
 
+
+
+### 🔸 Iteration: You can iterate over the bytes using a loop or other iterable methods.
+
+
+```python
+data = b'Hello, World!'
+for byte in data:
+    print(byte)
+```
