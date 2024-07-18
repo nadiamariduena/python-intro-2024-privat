@@ -409,7 +409,7 @@ print(bytearray_data)
 
 ### 🔸 Finding Substrings:
 
-- You can find the index of a substring within bytes using the index() method.
+- You can find the index of a substring (substring is the second word, **string/father, substring/child**) within bytes using the index() method.
 
 
 ```python
@@ -417,3 +417,34 @@ data = b'Hello, World!'
 index = data.index(b'World')
 print(index)   # Outputs: 7
 ```
+
+<br>
+
+```bash
+Byte Position | Byte Value | ASCII Character
+--------------|------------|----------------
+      0       |     72     |       H
+      1       |    101     |       e
+      2       |    108     |       l
+      3       |    108     |       l
+      4       |    111     |       o
+      5       |     44     |       ,
+      6       |     32     |     (space)
+      7       |     87     |       W
+      8       |    111     |       o
+      9       |    114     |       r
+     10       |    108     |       l
+     11       |    100     |       d
+     12       |     33     |       !
+
+```
+
+
+<br>
+
+
+
+
+### 🔸 Manipulation: You can manipulate bytes using methods such as replace(), count(), startswith(), endswith(), etc.
+
+
