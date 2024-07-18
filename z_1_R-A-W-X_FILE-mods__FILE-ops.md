@@ -187,13 +187,65 @@ with open('example.txt', 'r') as file:
 
 ## 🟦 FILE Modes
 
+<br>
 
-- Read Mode (`'r'`) - Default mode.
+
+###  🔶  Read Mode (`'r'`) - Default mode.
 
 Purpose: Opens a file for reading. Raises an error if the file does not exist.
 
 
 ```python
+# - opt 1
 file = open('menu.txt', 'r')
+# You can use the "r" to specify that you want to read the menu.txt, but you can also remove, it will read it anyway
+# or  opt 2
+file = open('menu.txt', 'r')
+# In this case its okay because the menu.txt is a txt but if you have a binary file, then you have to specify the "rb
 
 ```
+
+<br>
+
+###  🔶  Write Mode ('w')
+
+Purpose: Opens a file for writing. Creates a new file or truncates an existing file.
+
+
+```python
+file = open('orders.txt', 'w')
+
+```
+
+<br>
+
+
+###  🔶 Append Mode ('a')
+
+Purpose: Opens a file for appending. Creates a new file if it does not exist.
+
+
+```python
+file = open('orders.txt', 'a')
+
+```
+
+<br>
+
+###  🔶 Binary Mode ('b')
+
+Purpose: Opens a file in binary mode for operations on binary files.
+
+
+```python
+
+file = open('data.bin', 'rb')
+
+```
+
+<br>
+
+
+###  🔶 Read and Write Mode ('r+' or 'w+')
+
+Purpose: Opens a file for both reading and writing.
