@@ -300,3 +300,14 @@ Purpose: Opens a file exclusively for writing. Raises an error if the file alrea
 file = open('newfile.txt', 'x')
 
 ```
+
+<br>
+
+###  🔶 Text Mode ('t') - Default mode in Python 3.x (optional).
+
+Purpose: Opens a file in text mode (default). This is usually implied and not explicitly used.
+
+```python
+file = open('menu.txt', 'rt')
+
+```
