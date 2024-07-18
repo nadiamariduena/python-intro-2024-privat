@@ -382,10 +382,21 @@ print(combined)    # b'Hello, World'
 # b'Hello, World'
 ```
 
+<br>
 
-Conversion: You can convert bytes to other formats like a bytearray or a list of integers representing the byte values.
+### 🔸 Conversion: You can convert bytes to other formats like a bytearray or a list of integers representing the byte values.
 
 
+```python
 data = b'Hello'
 byte_list = list(data)
 bytearray_data = bytearray(data)
+
+print(byte_list)
+print(bytearray_data)
+
+# output
+# [72, 101, 108, 108, 111]
+# bytearray(b'Hello')
+#
+```
