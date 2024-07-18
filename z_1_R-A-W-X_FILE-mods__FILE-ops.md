@@ -287,3 +287,16 @@ Purpose: Opens a file in text mode (default). This is usually implied and not ex
  ```python
 file = open('menu.txt', 'rt')
  ```
+
+
+<br>
+
+
+###  🔶  Exclusive Creation Mode ('x')
+
+Purpose: Opens a file exclusively for writing. Raises an error if the file already exists.
+
+```python
+file = open('newfile.txt', 'x')
+
+```
