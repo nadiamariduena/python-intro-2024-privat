@@ -286,8 +286,38 @@ ASCII Values  |  72 | 101 | 108 | 108 | 111 |  44 |  32 |  87 | 111 | 114 |
 ### 🔸 Iteration: You can iterate over the bytes using a loop or other iterable methods.
 
 
+>The output you're seeing when iterating through data = b'Hello, World!' using a for loop is correct and can be explained as follows:
+
 ```python
 data = b'Hello, World!'
 for byte in data:
     print(byte)
+
+```
+
+#### output
+
+```bash
+72
+101
+108
+108
+111
+44
+32
+87
+111
+114
+108
+100
+33
+```
+
+<br>
+
+- This loop iterates over each byte in the data bytes literal and prints its value. Let's break down why you see each value printed:
+
+```bash
+
+
 ```
