@@ -18,7 +18,7 @@ with open("tracks_combined_playlist.txt", "w") as combined_file:
            # filename carries the list name
            combined_file.write('___ 🟡 ____\n')
            combined_file.write(f"=== {filename} ===\n")
-           #
+           # The f before a string literal in Python, such as f"=== {filename} ===\n", denotes an f-string (formatted string literal). F-strings provide a way to embed expressions inside string literals, using curly braces {}.
 
            #
            # it will add a line after each track( i added the invader so to see it)
