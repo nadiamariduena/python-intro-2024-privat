@@ -317,7 +317,8 @@ Purpose: Opens a file exclusively for writing. Raises an error if the file alrea
 file = open('newfile.txt', 'x')
 
 ```
-
+<br>
+<br>
 <br>
 <br>
 
@@ -331,3 +332,16 @@ file = open('newfile.txt', 'x')
 ### 🟡 Some examples of file input and output (I/O) in Python using Spotify as a hypothetical example.
 
 - We'll start with basic operations and gradually move towards more advanced scenarios.
+
+<br>
+<br>
+
+#### 1. Basic FILE "r" READING & WRITING
+
+- example 1: reading from a file
+
+```python
+filename = "tracks.txt
+
+#opem file in read mode
+```
