@@ -477,5 +477,17 @@ with open("tracks_combined_playlist.txt", "w") as combined_file:
 #### output
 
 ```python
+___ 🟡 ____
+=== tracks_spot_playlist1.txt ===
+track_1: Tito Puente - Five Beat Mambo
+👾
+track_2: Santana - Black Magic Woman
+👾
+___ 🟡 ____
+=== tracks_spot_playlist2.txt ===
+track_1: Led Zeppelin - No Quarter
+👾
+track_2: Led Zeppelin - Tangerine
+👾
 
 ```
