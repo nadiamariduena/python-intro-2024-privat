@@ -319,3 +319,15 @@ file = open('newfile.txt', 'x')
 ```
 
 <br>
+<br>
+
+
+---
+
+<br>
+<br>
+
+
+### 🟡 Some examples of file input and output (I/O) in Python using Spotify as a hypothetical example.
+
+- We'll start with basic operations and gradually move towards more advanced scenarios.
