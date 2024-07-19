@@ -328,15 +328,18 @@ file = open('newfile.txt', 'x')
 <br>
 <br>
 
+## 🟡 More Exercises
 
-### 🟡 Some examples of file input and output (I/O) in Python using Spotify as a hypothetical example.
+### 🔸 Some examples of file input and output (I/O) in Python using Spotify as a hypothetical example.
 
-- We'll start with basic operations and gradually move towards more advanced scenarios.
+<br>
+
+- I'll start with basic operations and gradually move towards more advanced scenarios.
 
 <br>
 <br>
 
-#### 1. Basic FILE "r" READING & WRITING
+### 1. Basic FILE "r" READING & WRITING
 
 
 - create a file and call it "tracks.txt" , then add this:
