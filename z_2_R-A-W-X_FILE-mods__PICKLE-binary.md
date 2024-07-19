@@ -53,4 +53,4 @@ Serialization is like packing up your toys 🧸 into a special box  📦 so you 
 **Saving Things:** Just like you save your favorite drawings or toys in a box to keep them safe, computers save important information like **game levels, messages, or even pictures using serialization**. 🔴 This way, they can remember everything even after you turn off the computer.
 
 
-
+**Sending Across the Internet:** Imagine sending a special message to a friend in another city. Serialization helps computers turn that message into a format that can be sent over the internet quickly and put back together when it arrives.
