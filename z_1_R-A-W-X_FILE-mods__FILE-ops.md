@@ -422,13 +422,13 @@ Track 3: Feist - 1234 🌈Track 4: Feist - Mushaboom 🎠Track 5: Talking Heads 
 ```bash
 #  **----------------------**
 #tracks_spot_playlist1.txt
-track_1: TEMPLEOFJOY 110 - IMMINENT
-track_2: Kai Pattenberg - Obvilion
+track_1: Tito Puente - Five Beat Mambo
+track_2: Santana - Black Magic Woman
 #
 #  **----------------------**
 #tracks_spot_playlist2.txt
-track_1: TEMPLEOFJOY 110 - IMMINENT
-track_2: Kai Pattenberg - Obvilion
+track_1: Led Zeppelin - No Quarter
+track_2: Led Zeppelin - Tangerine
 ```
 <br>
 
@@ -489,5 +489,23 @@ track_1: Led Zeppelin - No Quarter
 👾
 track_2: Led Zeppelin - Tangerine
 👾
+
+```
+
+
+<br>
+
+### 🟣 QUESTION: In the example below (from the previous code), both lists have the same ID name. Will this cause any issues when merging, similar to how it behaves in React?
+
+```bash
+#  **----------------------**
+#tracks_spot_playlist1.txt
+track_1: Tito Puente - Five Beat Mambo
+track_2: Santana - Black Magic Woman
+#
+#  **----------------------**
+#tracks_spot_playlist2.txt
+track_1: Led Zeppelin - No Quarter
+track_2: Led Zeppelin - Tangerine
 
 ```
