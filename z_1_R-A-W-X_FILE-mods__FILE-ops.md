@@ -252,7 +252,9 @@ file = open('data.bin', 'rb')
 >**It ensures that data is read in its exact binary representation** without any text encoding conversions, which is crucial for maintaining data integrity when handling such files.
 
 ```python
-image_file = open("ice_cream_img.jpg", "rb")
+image_file = open("ice_cream_img.jpg", "rb") # rb md for "reading binary"
+image_data = image_file.read()
+image_file.close()
 ```
 
 
