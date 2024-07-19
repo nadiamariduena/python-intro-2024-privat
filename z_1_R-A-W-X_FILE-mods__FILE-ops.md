@@ -400,3 +400,10 @@ with open(filename, 'w') as file:
         file.write(track + '\n')  # Write each track followed by a newline
 
 ```
+#### output
+
+```python
+Track 1: James Blake - Limit To Your Love 💛
+Track 2: Feist - The Limit to your love🩷
+Track 3: Feist - 1234 🌈Track 4: Feist - Mushaboom 🎠Track 5: Talking Heads - This Must Be the Place 🌴Track 6: DAMASO PEREZ PRADO MAMBO Nº 8 🪇 💃
+```
