@@ -339,7 +339,7 @@ file = open('newfile.txt', 'x')
 <br>
 <br>
 
-### 1. Basic FILE "r" READING & WRITING
+### 🔸 1. Basic FILE "r" READING & WRITING
 
 
 - create a file and call it "tracks.txt" , then add this:
@@ -375,7 +375,9 @@ track_2: Kai Pattenberg - Obvilion
 
 <br>
 
-### Example 2: Writing to a file
+<br>
+
+### 🔸2. Writing to a file
 
 ```python
 # Example of writing Spotify tracks to a file
@@ -406,4 +408,74 @@ with open(filename, 'w') as file:
 Track 1: James Blake - Limit To Your Love 💛
 Track 2: Feist - The Limit to your love🩷
 Track 3: Feist - 1234 🌈Track 4: Feist - Mushaboom 🎠Track 5: Talking Heads - This Must Be the Place 🌴Track 6: DAMASO PEREZ PRADO MAMBO Nº 8 🪇 💃
+```
+
+<br>
+
+<br>
+
+### 🔸 3. Using Context Managers for Multiple Files
+
+
+- **create** `2` lists files and call them: "tracks_spot_playlist1.txt" and "tracks_spot_playlist2.txt, then add this in each:
+
+```bash
+#  **----------------------**
+#tracks_spot_playlist1.txt
+track_1: TEMPLEOFJOY 110 - IMMINENT
+track_2: Kai Pattenberg - Obvilion
+#
+#  **----------------------**
+#tracks_spot_playlist2.txt
+track_1: TEMPLEOFJOY 110 - IMMINENT
+track_2: Kai Pattenberg - Obvilion
+```
+<br>
+
+#### import the 2 lists here:
+
+```python
+# Example of reading multiple files and combining data
+filenames = ['tracks_spot_playlist1.txt', 'tracks_spot_playlist2.txt']
+
+#
+#
+# Using context manager to manage multiple file operations
+# will generate the tracks_combined_playlist.txt
+with open("tracks_combined_playlist.txt", "w") as combined_file:
+
+   # for filename in filenames: Loop through each filename within the filenames list
+   for filename in filenames:
+
+       # Open each file in read mode
+       with open(filename, "r") as file:
+           #
+           #
+           #Write a header indicating the filename
+           # filename carries the list name
+           combined_file.write('___ 🟡 ____\n')
+           combined_file.write(f"=== {filename} ===\n")
+           # The f before a string literal in Python, such as f"=== {filename} ===\n", denotes an f-string (formatted string literal). F-strings provide a way to embed expressions inside string literals, using curly braces {}.
+
+           #
+           # it will add a line after each track( i added the invader so to see it)
+           # Iterate over each line in the current file
+           for line in file:
+               #Write each line to the combined file (space)
+               combined_file.write(line)
+
+            # add a new
+               combined_file.write('👾 \n')
+```
+
+
+<br>
+
+- **run the code**, type the name of the file your code is, in my case it is: `tracks_exe_2/tracksy_spotfy_conxt.py` , don't forget to **cd** into the folder (if you are in one)
+
+
+#### output
+
+```python
+
 ```
