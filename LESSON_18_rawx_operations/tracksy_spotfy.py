@@ -5,6 +5,7 @@ tracks = [
     "Track 2: Feist - The Limit to your love🩷",
     "Track 3: Feist - 1234 🌈"
     "Track 4: Feist - Mushaboom 🎠"
+    "Track 5: Talking Heads - This Must Be the Place 🌴"
 ]
 
 filename = 'spotify_tracks.txt'
