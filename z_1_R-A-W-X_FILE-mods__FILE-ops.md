@@ -338,10 +338,34 @@ file = open('newfile.txt', 'x')
 
 #### 1. Basic FILE "r" READING & WRITING
 
+
+- create a file and call it "tracks.txt" , then add this:
+
+```bash
+#tracks.txt
+track_1: TEMPLEOFJOY 110 - IMMINENT
+track_2: Kai Pattenberg - Obvilion
+
+```
+
 - example 1: reading from a file
 
 ```python
-filename = "tracks.txt
+# import the tracks.txt
+filename = "tracks_exe_0_.txt"
 
-#opem file in read mode
+#open file in read mode
+with open(filename, "r") as file:
+    for line in file:
+        # will show the content of the tracks.txt in your console
+        print(line.strip())
+```
+
+- run the code, type the name of the file your code is, in my case it is:
+
+#### output
+
+```python
+track_1: TEMPLEOFJOY 110 - IMMINENT
+track_2: Kai Pattenberg - Obvilion
 ```
