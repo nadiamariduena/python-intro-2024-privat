@@ -16,7 +16,7 @@
 
 - If you're a Python programmer, you probably familiar with the following syntax:
 
-`for \_ in range(100)`
+`for _ in range(100)`
 
 **init**(self)
 
