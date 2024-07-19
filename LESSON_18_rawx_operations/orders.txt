@@ -1,4 +1,0 @@
-New order: Chocolate Ice Cream, Large
-Customer: John Doe
-New order: Chocolate Ice Cream, Large
-Customer: John Doe

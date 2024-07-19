@@ -1,7 +1,7 @@
 # 🟡 When you use 'w' mode (open('menu.txt', 'w')), it will create the menu.txt file if it doesn't already exist.
 # --- will generate
 #1 step
-menu_file = open("menu.txt", "w")
+menu_file = open("iceCream_menu.txt", "w")
 # ----
 
 # 2 Write the menu items to the file
@@ -30,3 +30,8 @@ print(menu_content)
 # ------------
 
 # 4 Appending to a file (recording orders)
+
+order_file = open("iceCream_orders.txt", "a")
+order_file.write("New order: Bubble gum 🍬 Ice Cream, Large\n")
+order_file.write("🙆‍♂️ Customer: Alistair")
+order_file.close()
