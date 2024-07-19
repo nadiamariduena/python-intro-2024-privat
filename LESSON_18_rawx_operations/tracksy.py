@@ -9,6 +9,8 @@ tracks = [
 filename = 'spotify_tracks.txt'
 
 # Open file in write mode
+# --- will generate with "open" the spotify_tracks.txt
 with open(filename, 'w') as file:
     for track in tracks:
+        # the "w" will add the tracks to the "file", remember: tracks is track
         file.write(track + '\n')  # Write each track followed by a newline
