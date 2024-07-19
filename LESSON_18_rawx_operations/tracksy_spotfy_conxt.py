@@ -9,3 +9,4 @@ with open("tracks_combined_playlist.txt", "w") as combined_file:
 
    # for filename in filenames: Loop through each filename within the filenames list
    for filename in filenames:
+       # Open each file in read mode
