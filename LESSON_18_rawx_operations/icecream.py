@@ -20,10 +20,13 @@ menu_file.close()
 
 #
 #
-# Reading from a file (displaying menu)
+# 3 Reading from a file (displaying menu)
+# this block below will be shown in your console when you will run the code again, keep in mind that at this point the menu.txt has been created and the below code will only read and show the stuff you have within the menut.txt
 menu_file = open("menu.txt", "r")
 menu_content = menu_file.read()
 print(menu_content)
 
 
+# ------------
 
+# 4 Appending to a file (recording orders)
