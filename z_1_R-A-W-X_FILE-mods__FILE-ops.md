@@ -532,8 +532,10 @@ track_2: Led Zeppelin - Tangerine
 <br>
 <br>
 
-### React Specific Concerns:
+### 🍭 React Specific Concerns:
 
 <br>
 
-- React and other frameworks often use id attributes to uniquely identify elements for purposes like styling and JavaScript manipulation. Using non-unique id attributes can lead to unexpected behavior, especially when targeting e
+- eact and other frameworks often use id attributes to uniquely identify elements for purposes like styling and JavaScript manipulation.
+
+- - Using non-unique id attributes can lead to unexpected behavior, especially when targeting elements with JavaScript or when applying styles based on IDs.
