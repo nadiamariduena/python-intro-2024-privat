@@ -17,5 +17,6 @@ with open("tracks_combined_playlist.txt", "w") as combined_file:
            #
            # Iterate over each line in the current file
            for line in line:
-               #Write each line to the combined file
+               #Write each line to the combined file (space)
+               combined_file.write(line)
 
