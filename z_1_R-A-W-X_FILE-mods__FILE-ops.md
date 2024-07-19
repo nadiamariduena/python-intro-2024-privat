@@ -323,12 +323,12 @@ file = open('newfile.txt', 'x')
 <br>
 
 
----
+
 
 <br>
 <br>
 
-## 🟡 More Exercises
+# 🟡 More Exercises
 
 ### 🔸 Some examples of file input and output (I/O) in Python using Spotify as a hypothetical example.
 
@@ -351,10 +351,10 @@ track_2: Kai Pattenberg - Obvilion
 
 ```
 
-- example 1: reading from a file
+
 
 ```python
-# import the tracks.txt
+# import the tracks.txt into the other file
 filename = "tracks_exe_0_.txt"
 
 #open file in read mode
@@ -372,3 +372,7 @@ with open(filename, "r") as file:
 track_1: TEMPLEOFJOY 110 - IMMINENT
 track_2: Kai Pattenberg - Obvilion
 ```
+
+<br>
+
+### Example 2: Writing to a file
