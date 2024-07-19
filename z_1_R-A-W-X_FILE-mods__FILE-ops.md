@@ -245,6 +245,18 @@ file = open('data.bin', 'rb')
 
 <br>
 
+### 🍨 `rb` for images, audio files, or any non-textual data
+
+- This mode is specifically used when **dealing with files that contain binary data**, such as images, audio files, or any non-textual data.
+
+>**It ensures that data is read in its exact binary representation** without any text encoding conversions, which is crucial for maintaining data integrity when handling such files.
+
+
+
+
+
+<br>
+
 
 ###  🔶 Read and Write Mode ('r+' or 'w+')
 
@@ -302,12 +314,3 @@ file = open('newfile.txt', 'x')
 ```
 
 <br>
-
-###  🔶 Text Mode ('t') - Default mode in Python 3.x (optional).
-
-Purpose: Opens a file in text mode (default). This is usually implied and not explicitly used.
-
-```python
-file = open('menu.txt', 'rt')
-
-```
