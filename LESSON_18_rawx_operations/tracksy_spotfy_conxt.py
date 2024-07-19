@@ -9,14 +9,24 @@ with open("tracks_combined_playlist.txt", "w") as combined_file:
 
    # for filename in filenames: Loop through each filename within the filenames list
    for filename in filenames:
+
        # Open each file in read mode
        with open(filename, "r") as file:
+           #
+           #
            #Write a header indicating the filename
+           # filename carries the list name
+           combined_file.write('___ 🟡 ____\n')
            combined_file.write(f"=== {filename} ===\n")
            #
+
            #
+           # it will add a line after each track( i added the invader so to see it)
            # Iterate over each line in the current file
-           for line in line:
+           for line in file:
                #Write each line to the combined file (space)
                combined_file.write(line)
+
+            # add a new
+               combined_file.write('👾 \n')
 
