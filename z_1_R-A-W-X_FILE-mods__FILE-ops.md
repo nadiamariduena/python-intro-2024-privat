@@ -527,4 +527,4 @@ track_2: Led Zeppelin - Tangerine
 
 <br>
 
-- - 🔴 In some frameworks like React, using the same id attribute for multiple elements can cause issues because id attributes should be unique within the document.
+- - 🔴 **In some frameworks** like <u>React</u> , using the **same id attribute for multiple elements can cause issues** because **id** attributes **should be unique** within the document.
