@@ -361,7 +361,7 @@ with open(filename, "r") as file:
         print(line.strip())
 ```
 
-- run the code, type the name of the file your code is, in my case it is:
+- run the code, type the name of the file your code is, in my case it is: `tracks_exe_0/tracks_exe_0.py` , dont forget to **cd** into the folder (if you are in one)
 
 #### output
 
