@@ -1,3 +1,5 @@
 Menu:
-1. Chocolate Ice Cream: $3.50
-2. Vanilla Ice Cream: $3.00
+1. 🍨 Chocolate Ice Cream: $3.50
+2. 🍦 Vanilla Ice Cream: $3.00
+
+
