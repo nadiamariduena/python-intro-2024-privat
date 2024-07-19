@@ -16,4 +16,5 @@ with open("tracks_combined_playlist.txt", "w") as combined_file:
            #
            #
            # Iterate over each line in the current file
+           for line in line:
 
