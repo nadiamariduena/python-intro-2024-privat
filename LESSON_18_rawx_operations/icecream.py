@@ -16,3 +16,14 @@ menu_file.write("2. 🍦 Vanilla Ice Cream: $3.00\n")
 # Close the file to SAVE the changes
 
 menu_file.close()
+
+
+#
+#
+# Reading from a file (displaying menu)
+menu_file = open("menu.txt", "r")
+menu_content = menu_file.read()
+print(menu_content)
+
+
+
