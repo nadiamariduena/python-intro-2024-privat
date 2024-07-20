@@ -27,11 +27,19 @@ shoes_collection = [
 #
 #
 # 3 Serialize the shoes collection object to a file
+#
 # - file_path Definition: Specifies the path where the serialized data will be stored, with a ".pickle extension".
 # - .pickle extension indicating it will be a pickled file.
+
+
+
+#
 file_path = "this_will_be_the_generated_shoes_collection.pickle"
 with open(file_path, "wb") as file:
     #open() Function: Opens the file specified by file_path in binary write mode ("wb").
+
+    ##The shoes_collection list is serialized and written to the file specified by file_path using the pickle.dump() function.
+    #
     pickle.dump(shoes_collection, file)
     #dump() function: It takes two parameters - the object being “shoes_collection” (look at the shoes in line 11) and a File object (at the end of line 20) to write the data to.
 
