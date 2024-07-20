@@ -148,6 +148,33 @@ When your **friend gets** the **email**, their **computer** uses **deserializati
 
 ## Exercise 1.
 
+```python
+import pickle
+
+example_dict = {1:"6", 2:"2",3:"f"}
+
+
+pickle_out = open("dict.pickle", "wb")
+pickle.dump(example_dict, pickle_out)
+pickle_out.close()
+
+# - 1 Run the code, it will generate a binary file called "dict.pickle"
+# - 2 you will not be able to visualize it, but you can install the below extension:
+# - 3 Within your extensions, Install: Hex Editor Extension
+# - 4 Once installed, click on the generated "dict.pickle" , click on the blue button, it will offer you to options at the top bar, choose the option of Hex editor
+```
+
+#### Deserialize
+
+```python
+import pickle
+
+pickle_in = open("dict.pickle", "rb") # rb = readbinary
+example_dict = pickle.load(pickle_in)
+print(example_dict)
+
+```
+
 <br>
 
 <br>
@@ -433,4 +460,13 @@ for shoe in loaded_shoes_collection:
     print(f"Brand: {shoe.brand}, Size: {shoe.size}, Color: {shoe.color}")
 
 
+```
+
+#### output
+
+```python
+Deserialized shoes collection:
+Brand: Nike, Size: 9, Color: Black
+Brand: Adidas, Size: 8, Color: White
+Brand: Puma, Size: 7, Color: Red
 ```

@@ -1,11 +1,17 @@
 import pickle
 
-example_dict = {1:"6", 2:"2",3:"f"}
+pickle_in = open("dict.pickle", "rb") # rb = readbinary
+example_dict = pickle.load(pickle_in)
+print(example_dict)
+
+# import pickle
+
+# example_dict = {1:"6", 2:"2",3:"f"}
 
 
-pickle_out = open("dict.pickle", "wb")
-pickle.dump(example_dict, pickle_out)
-pickle_out.close()
+# pickle_out = open("dict.pickle", "wb")
+# pickle.dump(example_dict, pickle_out)
+# pickle_out.close()
 
 # - 1 Run the code, it will generate a binary file called "dict.pickle"
 # - 2 you will not be able to visualize it, but you can install the below extension:
