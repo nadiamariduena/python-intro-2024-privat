@@ -133,9 +133,18 @@ When your **friend gets** the **email**, their **computer** uses **deserializati
 - - 🟧 It's like **your friend** can **open** the **email**, see the picture of your shoe box, and **know exactly which shoes** are **inside**, their sizes, and everything else.
 
 <br>
+<br><br>
+
+## 🟣  Exercises
+
+
+
+
+### The purpose of the below code is to demonstrate <u>serialization</u>  of a collection of *Shoe* objects into a file using Python's pickle module.
+
 <br>
 
-####  Exercises
+- Later on, you will see how the data will be translated from binary to text.
 
 ```python
 #0
@@ -143,6 +152,7 @@ import pickle
 
 
 # 1 Defining the Shoe Class:
+#A Shoe class is defined with attributes brand, size, and color.
 class Shoe:
 
     def __init__(self, brand, size, color):
