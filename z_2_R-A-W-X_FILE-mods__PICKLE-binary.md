@@ -140,7 +140,7 @@ When your **friend gets** the **email**, their **computer** uses **deserializati
 
 
 
-### The purpose of the below code is to demonstrate <u>serialization</u>  of a collection of *Shoe* objects into a file using Python's pickle module.
+### 1 The purpose of the below code is to demonstrate <u>serialization</u>  of a collection of *Shoe* objects into a file using Python's pickle module.
 
 <br>
 
@@ -198,3 +198,13 @@ with open(file_path, "wb") as file:
 print(f"Serialized shoes collection to {file_path}")
 
 ```
+
+<br>
+
+### 2. Run the code
+
+- type the name of your file: `python test2_pickle_shoe.py`
+
+#### 3 Once you run the code
+
+- You will see that you have a new file within your project, this is a pickle (binary) file `this_will_be_the_generated_shoes_collection.pickle`
