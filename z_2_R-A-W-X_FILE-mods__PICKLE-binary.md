@@ -214,4 +214,4 @@ print(f"Serialized shoes collection to {file_path}")
 
  -  Within your extensions, Install: Hex Editor Extension
 
--  Once installed, **click** on the generated `this_will_be_the_generated_shoes_collection.pickle` , **click** on the blue button, it will offer you to options at the top bar, choose the option of Hex editor
+-  Once installed, **click** on the generated `this_will_be_the_generated_shoes_collection.pickle` , **click** on the blue button, it will offer you two options at the top bar, choose the option of **Hex editor** (this will show you the binary version but not the actual object with the human readable data)
