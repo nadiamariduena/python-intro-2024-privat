@@ -275,4 +275,6 @@ AttributeError: Can't get attribute 'Shoe' on <module '__main__' from 'test2_pic
 
 #### ✅ chatgpt:
 
-- In Python, when you serialize an object using pickle, you're essentially saving its state and some metadata necessary to reconstruct it later. Here’s why you encounter issues when trying to deserialize (unpickle) without redefining the class:
+- ✋ **In Python**, when you **serialize** an **object** using **pickle**, you're essentially **saving its state and some metadata** necessary to reconstruct it later.
+
+#### Here’s why you encounter issues when trying to deserialize (unpickle) without redefining the class:
