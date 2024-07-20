@@ -5,8 +5,11 @@ import pickle
 # 1 Defining the Shoe Class:
 #A Shoe class is defined with attributes brand, size, and color.
 class Shoe:
+#Instances of this class represent individual shoes with specific attributes.
 
     def __init__(self, brand, size, color):
+        #It contains instances of the Shoe class initialized with different brands, sizes, and colors.
+
         self.brand = brand
         self.size = size
         self.color = color
