@@ -119,3 +119,5 @@ After writing down all the details 🗒️ 🖊️ , serialization then **turns/
 ### 🟦 4. Sending Over Email:
 
 Now, you want to send this special code (bytes) to your friend through email.
+
+🔴 Computers use serialization to turn these bytes into a message that can be attached to an email.
