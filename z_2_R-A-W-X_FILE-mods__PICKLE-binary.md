@@ -288,7 +288,7 @@ AttributeError: Can't get attribute 'Shoe' on <module '__main__' from 'test2_pic
 
 When you use `pickle.dump()` to serialize an object (`shoes_collection` in your case), Python stores not only the object's data but also some metadata about its class and module.
 
-This metadata includes information about where to find the class definition (Shoe) and how to reconstruct objects of that class when you unpickle them.
+This **metadata** includes **information about** where to find the **class** definition (**Shoe**) and **how to reconstruct objects** of that class when you unpickle them.
 
 
 ```python
