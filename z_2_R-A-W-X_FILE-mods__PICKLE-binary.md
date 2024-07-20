@@ -246,11 +246,15 @@ with open(file_path, "rb") as file:
 # Now you can print or manipulate the loaded object
 print("Loaded object:")
 print(loaded_object)
-
-
-# ------
-
 ```
 
+### 🔴 The error:
+
+```python
+Traceback (most recent call last):
+  File "test2_pickle_deserialization.py", line 14, in <module>
+    loaded_object = pickle.load(file)
+AttributeError: Can't get attribute 'Shoe' on <module '__main__' from 'test2_pickle_deserialization.py'>
+```
 
 
