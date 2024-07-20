@@ -112,3 +112,10 @@ Serialization is like packing up your toys 🧸 into a special box  📦 so you 
 After writing down all the details 🗒️ 🖊️ , serialization then **turns/converts** this **paper into** a special **code** made up of **numbers (bytes).**
 
 🟧 These numbers represent everything about your shoes and their sizes, neatly packed together.
+
+<br>
+<br>
+
+### 🟦 4. Sending Over Email:
+
+Now, you want to send this special code (bytes) to your friend through email.
