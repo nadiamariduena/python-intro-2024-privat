@@ -4,22 +4,7 @@
 # use the below code to convert the binary file that was generated on step 2 code
 
 
-import pickle
 
-# Assuming example.pickle is your pickled file
-file_path = "this_will_be_the_generated_shoes_collection.pickle"
-
-# Open the file in binary read mode
-with open(file_path, "rb") as file:
-    # Load (deserialize) the object from the file
-    loaded_object = pickle.load(file)
-
-# Now you can print or manipulate the loaded object
-print("Loaded object:")
-print(loaded_object)
-
-
-# ------
 
 import pickle
 
