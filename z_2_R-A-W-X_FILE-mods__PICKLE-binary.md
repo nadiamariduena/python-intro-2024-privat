@@ -138,9 +138,9 @@ When your **friend gets** the **email**, their **computer** uses **deserializati
 ## 🟣  Exercises
 
 
+### 🟠 Serializing
 
-
-### 1 The purpose of the below code is to demonstrate <u>serialization</u>  of a collection of *Shoe* objects into a file using Python's pickle module.
+#### 1 The purpose of the below code is to demonstrate <u>serialization</u>  of a collection of *Shoe* objects into a file using Python's pickle module.
 
 <br>
 
@@ -215,3 +215,10 @@ print(f"Serialized shoes collection to {file_path}")
  -  Within your extensions, Install: Hex Editor Extension
 
 -  Once installed, **click** on the generated `this_will_be_the_generated_shoes_collection.pickle` , **click** on the blue button, it will offer you two options at the top bar, choose the option of **Hex editor** (this will show you the binary version but not the actual object with the human readable data)
+
+
+<br>
+
+## 🟠 Deserialize
+
+### Deserialize (Unpickle) the Object:
