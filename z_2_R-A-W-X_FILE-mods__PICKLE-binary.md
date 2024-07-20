@@ -201,10 +201,17 @@ print(f"Serialized shoes collection to {file_path}")
 
 <br>
 
-### 2. Run the code
+### 2. Run the code:
 
-- type the name of your file: `python test2_pickle_shoe.py`
+- type the name of your file: `python test2_pickle_shoe.py` to run it.
 
-#### 3 Once you run the code
+- Once you run the code: it will generate a binary file called `this_will_be_the_generated_shoes_collection.pickle`
 
-- You will see that you have a new file within your project, this is a pickle (binary) file `this_will_be_the_generated_shoes_collection.pickle`
+
+### 3. Visualization
+
+ - you will not be able to visualize it, but you can install the below extension:
+
+ -  Within your extensions, Install: Hex Editor Extension
+
+-  Once installed, **click** on the generated `this_will_be_the_generated_shoes_collection.pickle` , **click** on the blue button, it will offer you to options at the top bar, choose the option of Hex editor
