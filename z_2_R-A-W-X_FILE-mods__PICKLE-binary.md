@@ -130,4 +130,4 @@ Now, **you** want to **send** this special code **(bytes)** to your friend **thr
 When your **friend gets** the **email**, their **computer** uses **deserialization** (the opposite of serialization) to **unpack** the special code **(bytes) back into a picture** of your shoe **box with all the details**.
 
 
-- - It's like **your friend** can **open** the **email**, see the picture of your shoe box, and **know exactly which shoes** are **inside**, their sizes, and everything else.
+- - 🟧 It's like **your friend** can **open** the **email**, see the picture of your shoe box, and **know exactly which shoes** are **inside**, their sizes, and everything else.
