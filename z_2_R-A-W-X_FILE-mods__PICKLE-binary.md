@@ -310,7 +310,7 @@ shoes_collection = [
 
 ]
 
-
+ ✋
 file_path = "this_will_be_the_generated_shoes_collection.pickle"
 with open(file_path, "wb") as file:
 
