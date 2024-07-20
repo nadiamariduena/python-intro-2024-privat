@@ -216,6 +216,25 @@ print(f"Serialized shoes collection to {file_path}")
 
 -  Once installed, **click** on the generated `this_will_be_the_generated_shoes_collection.pickle` , **click** on the blue button, it will offer you two options at the top bar, choose the option of **Hex editor** (this will show you the binary version but not the actual object with the human readable data)
 
+<br>
+
+#### at this point i have this:
+
+```python
+project/
+│
+├── test2_pickle_shoe.py    # Contains definition of Shoe class
+├── test2_pickle_deserialization.py    # Code to deserialize the generated code from the "test2_pickle_shoe.py"
+
+#this_will_be_the_generated_shoes_collection.pickle
+#
+├── serialized_data/
+│   └── shoes.pickle  # Serialized instances of Shoe class
+└── README.md         # Documentation and usage instructions
+
+
+```
+
 
 <br>
 
