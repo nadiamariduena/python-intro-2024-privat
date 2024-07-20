@@ -10,9 +10,9 @@
 
 #### ✅ chatgpt:
 
+<br>
 
-
- - 🟦 **Pickle** is a Python **module** used **for serializing and deserializing** Python `objects{}`, essentially allowing you 👍 [**TO CONVERT PYTHON OBJECTS**](#python_objects_to_convernt)
+ - 🟦 **Pickle** is a Python **module** used **for serializing and deserializing** Python `objects{}`, essentially allowing you 🔴 [**TO CONVERT PYTHON OBJECTS**](#python_objects_to_convernt)
    INTO a byte stream (serialization) that can be easily stored or transmitted, and later reconstruct them back into their original form (deserialization). 🤔
 
 
