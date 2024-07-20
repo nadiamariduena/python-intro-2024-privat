@@ -1,5 +1,7 @@
 #0
 import pickle
+#The pickle module is imported (import pickle).
+
 
 
 # 1 Defining the Shoe Class:
