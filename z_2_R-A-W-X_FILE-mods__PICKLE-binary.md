@@ -137,6 +137,24 @@ When your **friend gets** the **email**, their **computer** uses **deserializati
 
 ## 🟣  Exercises
 
+#### [What is Pickling And Unpickling in Python?](https://stackabuse.com/how-to-pickle-and-unpickle-objects-in-python/)
+
+
+#### Video [Python Pickle Module for saving objects (serialization)](https://youtu.be/2Tw39kZIbhs?si=uDzE3LpOxCG__we_)
+
+<br>
+
+<br>
+
+## Exercise 1.
+
+<br>
+
+<br>
+
+<br>
+
+## Exercise 2.
 
 ### 🟠 Serializing
 
