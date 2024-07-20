@@ -581,6 +581,16 @@ in a multi-core or distributed system
 4) converting an arbitrary python object to a
 string so that it can be used as a dictionary
 key (e.g. for caching & memoization).
+
+OTHER -----
+
+
+- Game profile saves
+
+- Game data saves like lives and health
+
+- Previous records of say numbers inputed to
+ a program
 ```
 
 <br>
