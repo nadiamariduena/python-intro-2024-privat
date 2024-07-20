@@ -158,7 +158,7 @@ pickle_out = open("dict.pickle", "wb") # wb: write binary, this will create / ge
 pickle.dump(example_dict, pickle_out)
 pickle_out.close()
 
-
+#https://youtu.be/2Tw39kZIbhs?si=uDzE3LpOxCG__we_
 ```
 
 <br>
