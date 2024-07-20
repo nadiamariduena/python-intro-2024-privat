@@ -86,7 +86,7 @@ Serialization is like packing up your toys 🧸 into a special box  📦 so you 
 
 <br>
 
-🌈 **the Object:**
+ ### 🛍️ the Object:
 
  - Imagine you have a special **box** (an `object{}`) that **holds** all your **favorite** **shoes** 👠, <u>each with their sizes and colors</u> .
 
@@ -95,6 +95,8 @@ Serialization is like packing up your toys 🧸 into a special box  📦 so you 
 <br>
 
 ### 🟦 Serialization Process:
+
+<br>
 
 🔴 Serialization **is like taking a 📷 picture** of this **special shoe box** and **writing down** every **detail** about **each shoe and its sizes on a piece of paper**.
 
