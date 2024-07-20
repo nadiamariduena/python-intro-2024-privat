@@ -336,3 +336,28 @@ print(f"Serialized shoes collection to {file_path}")
 **Python's pickle** module **stores references** to **class definitions** based on their module and name.
 
 - - 🔶 **If you define Shoe** in a **script** (`test2_pickle_deserialization.py`, for example) and **then serialize objects of that class in the same script**, Python knows where to find Shoe when you unpickle them in the same script.
+
+<br>
+
+- - 🔶 **However**, if you attempt to unpickle in a different script or environment where Python doesn't have access to the original class definition, you must import or redefine the class (Shoe) to provide Python with the necessary information to reconstruct the objects correctly.
+
+<br>
+
+## 🫐 Key Points:
+
+ 🟠 **Class Definition Scope:**
+
+- 🟥 You need to ensure that Python can access the class definition (Shoe) at the time of unpickling.
+
+<br>
+
+#### This can be done by:
+
+- - Importing the class if it's defined in another module.
+
+- - Redefining the class in the same module/script where you perform unpickling.
+
+<br>
+
+
+🟠  **Serialization Metadata:** pickle stores metadata about the class and module of serialized objects. This metadata is crucial for unpickling to work correctly.
