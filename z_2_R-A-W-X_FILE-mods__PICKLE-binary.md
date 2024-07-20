@@ -646,3 +646,27 @@ with open('program_state.pkl', 'rb') as f:
 #### Example:
 
 - **In a distributed system** where multiple **processes or machines** need to **exchange** Python **objects** over a **network connection** (e.g., **using TCP sockets**), pickle can serialize Python objects into a byte stream that can be sent over the network.
+
+<br>
+
+
+```python
+import pickle
+import socket
+
+# Assume 'data' is a Python object to be sent over the network
+data = {
+    'command': 'process',
+    'parameters': [1, 2, 3, 4]
+}
+
+# Serialize the data to a byte stream
+serialized_data = pickle.dumps(data)
+
+# Send the serialized data over a TCP connection
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+sock.connect(('remote_host', 12345))
+sock.sendall(serialized_data)
+sock.close()
+
+```
