@@ -184,6 +184,12 @@ example_dict = pickle.load(pickle_in)
 print(example_dict)
 ```
 
+#### output
+
+```python
+{1: '6', 2: '2', 3: 'f'}
+```
+
 <br>
 
 <br>
