@@ -1,3 +1,4 @@
+
 # 1 once you have generated the pickle by using the code:
 # 2 test2_pickle_shoe.py
 # use the below code to convert the binary file that was generated on step 2 code
@@ -40,3 +41,4 @@ with open(file_path, "rb") as fdile:
 print("Deserialized shoes collection:")
 for shoe in loaded_shoes_collection:
     print(f"Brand: {shoe.brand}, Size: {shoe.size}, Color: {shoe.color}")
+

@@ -222,3 +222,35 @@ print(f"Serialized shoes collection to {file_path}")
 ## 🟠 Deserialize
 
 ### Deserialize (Unpickle) the Object:
+
+- Use Python code to read the file and deserialize it back into Python objects.
+
+- 🔴 This code below will give me an error
+
+```python
+# 1 once you have generated the pickle by using the code:
+# 2 test2_pickle_shoe.py
+# use the below code to convert the binary file that was generated on step 2 code
+
+
+import pickle
+
+# Assuming example.pickle is your pickled file
+file_path = "this_will_be_the_generated_shoes_collection.pickle"
+
+# Open the file in binary read mode
+with open(file_path, "rb") as file:
+    # Load (deserialize) the object from the file
+    loaded_object = pickle.load(file)
+
+# Now you can print or manipulate the loaded object
+print("Loaded object:")
+print(loaded_object)
+
+
+# ------
+
+```
+
+
+
