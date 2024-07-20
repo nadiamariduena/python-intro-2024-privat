@@ -318,3 +318,12 @@ with open(file_path, "wb") as file:
 
 print(f"Serialized shoes collection to {file_path}")
 ```
+
+<br>
+
+## 🔴 Unpickling Requirements:
+
+ 🟠 When you unpickle (`pickle.load()`) an object, **Python needs to locate the class definition (Shoe)** to properly **reconstruct the objects** from the **serialized data**.
+
+
+- - 🔴 If Python cannot find the class definition (Shoe), it raises an AttributeError because it doesn't know how to recreate instances of the Shoe class.
