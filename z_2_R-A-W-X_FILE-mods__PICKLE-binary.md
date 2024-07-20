@@ -261,6 +261,8 @@ AttributeError: Can't get attribute 'Shoe' on <module '__main__' from 'test2_pic
 
 ### 🔴 REASON:
 
-- The error you're encountering, AttributeError: Can't get attribute 'Shoe' on `<module '__main__' from 'test2_pickle_deserialization.py'>`, typically occurs when Python tries to unpickle an object that has a class definition that it doesn't recognize. This happens because Python needs to know about the class (Shoe in this case) before it can properly unpickle instances of that class.
+- The error you're encountering, AttributeError: Can't get attribute 'Shoe' on `<module '__main__' from 'test2_pickle_deserialization.py'>`, typically **occurs** when **Python tries to unpickle an object** that **has** a **class definition** that it **doesn't recognize**.
+
+- - ✋ This happens because **Python needs** to **know about** the **class** (`Shoe` in this case) **before** it can properly **unpickle**  <u>instances of that class</u> .
 
 
