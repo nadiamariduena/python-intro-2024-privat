@@ -154,15 +154,25 @@ import pickle
 example_dict = {1:"6", 2:"2",3:"f"}
 
 
-pickle_out = open("dict.pickle", "wb")
+pickle_out = open("dict.pickle", "wb") # wb: write binary, this will create / generate the file
 pickle.dump(example_dict, pickle_out)
 pickle_out.close()
 
-# - 1 Run the code, it will generate a binary file called "dict.pickle"
-# - 2 you will not be able to visualize it, but you can install the below extension:
-# - 3 Within your extensions, Install: Hex Editor Extension
-# - 4 Once installed, click on the generated "dict.pickle" , click on the blue button, it will offer you to options at the top bar, choose the option of Hex editor
+
 ```
+
+<br>
+
+#### 🍭 1 Run the code, it will generate a binary file called "dict.pickle"
+#### 🍭 2 you will not be able to visualize it, but you can install the below extension:
+#### 🍭 3 Within your extensions, Install: Hex Editor Extension
+#### 🍭 4 Once installed, click on the generated "dict.pickle" , click on the blue button, it will offer you to options at the top bar, choose the option of Hex editor
+
+<br>
+
+#### 🟡 this generated binary file `dict.pickle` is the one you can send via email (like you do with images)
+
+<br>
 
 #### Deserialize
 
