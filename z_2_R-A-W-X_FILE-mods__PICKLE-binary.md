@@ -38,6 +38,42 @@
 <br>
 <br>
 
+
+#### 🟣 QUESTION: I've looked at the pickle documentation, but I don't understand where pickle is useful, What are some common use-cases for pickle?
+
+[common-use-cases-for-pickle-in-python](https://stackoverflow.com/questions/3438675/common-use-cases-for-pickle-in-python)
+
+<br>
+
+- 🟧 Give examples for each of the **below:**
+
+<br>
+
+```bash
+1) saving a program's state data to disk so that it can carry on where it left off when restarted (persistence)
+
+2) sending python data over a TCP connection in a multi-core or distributed system (marshalling)
+
+3) storing python objects in a database
+
+4) converting an arbitrary python object to a string so that it can be used as a dictionary key (e.g. for caching & memoization).
+```
+
+<br>
+
+🔴 I will include all the examples here. However, please note that they are all advanced. They are intended to provide you with an idea of what you can achieve in the future. For more details, refer to [Go to examples(advanced)](#common_use_cases_for_pickle) )
+
+<br>
+<br>
+
+---
+
+
+
+
+<br>
+<br>
+
 ## 🎠 What is Serialization?
 
 <br>
@@ -140,7 +176,7 @@ When your **friend gets** the **email**, their **computer** uses **deserializati
 <br>
 <br><br>
 
-## 🟣  Exercises
+## 🟠 Exercises
 
 #### [What is Pickling And Unpickling in Python?](https://stackabuse.com/how-to-pickle-and-unpickle-objects-in-python/)
 
@@ -175,9 +211,22 @@ pickle_out.close()
 <br>
 
 #### 🍭 1 Run the code, it will generate a binary file called "dict.pickle"
+
+```bash
+# ✋ This is the generated file, and this is what you have to deserialize to make the data human readable
+\80\03\7D\71\00\28\4B\01\58\01\00\00\00\36\71\01\4B\02\58\01\00\00\00\32\71\02\4B\03\58\01\00\00\00fqu.
+```
+
+<br>
+
+
 #### 🍭 2 you will not be able to visualize it, but you can install the below extension:
 #### 🍭 3 Within your extensions, Install: Hex Editor Extension
 #### 🍭 4 Once installed, click on the generated "dict.pickle" , click on the blue button, it will offer you to options at the top bar, choose the option of Hex editor
+
+<br>
+
+
 
 <br>
 
@@ -195,7 +244,7 @@ example_dict = pickle.load(pickle_in)
 print(example_dict)
 ```
 
-#### output
+#### 🌟 output
 
 ```python
 {1: '6', 2: '2', 3: 'f'}
@@ -203,19 +252,9 @@ print(example_dict)
 
 <br>
 
-145
 
-I've looked at the pickle documentation, but I don't understand where pickle is useful, What are some common use-cases for pickle?
 
-give examples for each of the below
 
-1) saving a program's state data to disk so that it can carry on where it left off when restarted (persistence)
-
-2) sending python data over a TCP connection in a multi-core or distributed system (marshalling)
-
-3) storing python objects in a database
-
-4) converting an arbitrary python object to a string so that it can be used as a dictionary key (e.g. for caching & memoization).
 
 <br>
 
@@ -510,3 +549,41 @@ Brand: Nike, Size: 9, Color: Black
 Brand: Adidas, Size: 8, Color: White
 Brand: Puma, Size: 7, Color: Red
 ```
+
+
+<br>
+<br>
+<br>
+
+---
+
+<br>
+<br>
+<br>
+
+## 🟡 Common use cases for Pickle
+
+<a name="common_use_cases_for_pickle"></a>
+
+ <br>
+
+```bash
+1) saving a program's state data to disk so
+that it can carry on where it left off when
+restarted (persistence)
+
+2) sending python data over a TCP connection
+in a multi-core or distributed system
+(marshalling)
+
+3) storing python objects in a database
+
+4) converting an arbitrary python object to a
+string so that it can be used as a dictionary
+key (e.g. for caching & memoization).
+```
+
+<br>
+
+🔴 I will include all the examples here **below**. However, please note that they are all advanced. They are intended to provide you with an idea of what you can achieve in the future.
+<br>
