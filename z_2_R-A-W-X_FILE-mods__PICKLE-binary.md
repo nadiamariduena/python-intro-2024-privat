@@ -97,3 +97,5 @@ Serialization is like packing up your toys 🧸 into a special box  📦 so you 
 ### 🟦 Serialization Process:
 
 🔴 Serialization **is like taking a 📷 picture** of this **special shoe box** and **writing down** every **detail** about **each shoe and its sizes on a piece of paper**.
+
+#### ✋ It's a way to capture all the information in a format that computers can easily understand and store.
