@@ -326,4 +326,13 @@ print(f"Serialized shoes collection to {file_path}")
  🟠 When you unpickle (`pickle.load()`) an object, **Python needs to locate the class definition (Shoe)** to properly **reconstruct the objects** from the **serialized data**.
 
 
-- - 🔴 If Python cannot find the class definition (Shoe), it raises an AttributeError because it doesn't know how to recreate instances of the Shoe class.
+- - 🔴 If Python cannot find the class definition (**Shoe**), it raises an AttributeError because it doesn't know how to recreate instances of the Shoe class.
+
+<br>
+<br>
+
+### 🟦 Module Scope:
+
+**Python's pickle** module **stores references** to **class definitions** based on their module and name.
+
+- - 🔶 **If you define Shoe** in a **script** (`test2_pickle_deserialization.py`, for example) and **then serialize objects of that class in the same script**, Python knows where to find Shoe when you unpickle them in the same script.
