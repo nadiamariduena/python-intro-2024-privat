@@ -1,22 +1,22 @@
 import pickle
 
-
+# Example object representing a collection of shoes
 class Shoe:
-
     def __init__(self, brand, size, color):
         self.brand = brand
         self.size = size
         self.color = color
 
+# Example collection of shoes
 shoes_collection = [
     Shoe("Nike", 9, "Black"),
     Shoe("Adidas", 8, "White"),
     Shoe("Puma", 7, "Red")
-
 ]
 
-# Serialize the shoes collection object to a file
-file_path = "this_will_be_the_generated_shoes_collection.pickle"
-with open(file_path, "wb") as file:
+# Serialize the shoes_collection object to a file
+file_path = 'shoes_collection.pickle'
+with open(file_path, 'wb') as file:
     pickle.dump(shoes_collection, file)
-    #dump() function: It takes two parameters - the object being “shoes_collection” (look at the shoes in line 11) and a File object (at the end of line 20) to write the data to.
+
+print(f"Serialized shoes collection to {file_path}")
