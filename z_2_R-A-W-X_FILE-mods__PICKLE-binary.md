@@ -248,7 +248,9 @@ print("Loaded object:")
 print(loaded_object)
 ```
 
-### 🔴 The error:
+<br>
+
+### 🔴 THE ERROR:
 
 ```python
 Traceback (most recent call last):
@@ -259,10 +261,18 @@ AttributeError: Can't get attribute 'Shoe' on <module '__main__' from 'test2_pic
 ```
 <br>
 
-### 🔴 REASON:
+### 🌈 REASON:
 
 - The error you're encountering, AttributeError: Can't get attribute 'Shoe' on `<module '__main__' from 'test2_pickle_deserialization.py'>`, typically **occurs** when **Python tries to unpickle an object** that **has** a **class definition** that it **doesn't recognize**.
 
 - - ✋ This happens because **Python needs** to **know about** the **class** (`Shoe` in this case) **before** it can properly **unpickle**  <u>instances of that class</u> .
 
 
+<br>
+<br>
+
+### 🟣 QUESTION: why do i have to declare the `Shoe class` again?
+
+#### ✅ chatgpt:
+
+- In Python, when you serialize an object using pickle, you're essentially saving its state and some metadata necessary to reconstruct it later. Here’s why you encounter issues when trying to deserialize (unpickle) without redefining the class:
