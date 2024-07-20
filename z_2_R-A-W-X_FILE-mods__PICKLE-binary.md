@@ -607,6 +607,9 @@ OTHER -----
 
 - **Imagine** you have a Python **application** that **processes large** amounts of **data** and **needs** to be **able to save** its **state periodically** and **resume from where it left** off if it **crashes** or is **restarted**.
 
+<br>
+
+
 ```python
 import pickle
 
@@ -628,3 +631,18 @@ with open('program_state.pkl', 'rb') as f:
 # 'loaded_data' will now contain the program state as it was saved
 
 ```
+
+<br>
+<br>
+
+- In this example, pickle is used to serialize the data dictionary to a file (`program_state.pkl`) which can then be loaded back to restore the program's state.
+
+
+<br>
+<br>
+
+### 2) Sending Python data over a TCP connection (marshalling)
+
+#### Example:
+
+- **In a distributed system** where multiple **processes or machines** need to **exchange** Python **objects** over a **network connection** (e.g., **using TCP sockets**), pickle can serialize Python objects into a byte stream that can be sent over the network.
