@@ -255,6 +255,12 @@ Traceback (most recent call last):
   File "test2_pickle_deserialization.py", line 14, in <module>
     loaded_object = pickle.load(file)
 AttributeError: Can't get attribute 'Shoe' on <module '__main__' from 'test2_pickle_deserialization.py'>
+
 ```
+<br>
+
+### 🔴 REASON:
+
+- The error you're encountering, AttributeError: Can't get attribute 'Shoe' on `<module '__main__' from 'test2_pickle_deserialization.py'>`, typically occurs when Python tries to unpickle an object that has a class definition that it doesn't recognize. This happens because Python needs to know about the class (Shoe in this case) before it can properly unpickle instances of that class.
 
 
