@@ -19,3 +19,4 @@ shoes_collection = [
 file_path = "this_will_be_the_generated_shoes_collection.pickle"
 with open(file_path, "wb") as file:
     pickle.dump(shoes_collection, file)
+    #dump() function: It takes two parameters - the object being “shoes_collection” (look at the shoes in line 11) and a File object (at the end of line 20) to write the data to.
