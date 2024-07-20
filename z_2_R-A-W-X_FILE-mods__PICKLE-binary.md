@@ -89,3 +89,7 @@ Serialization is like packing up your toys 🧸 into a special box  📦 so you 
 🌈 **the Object:**
 
  - Imagine you have a special **box** (an `object{}`) that **holds** all your **favorite** **shoes** 👠, <u>each with their sizes and colors</u> .
+
+ - ✋ This box (object) also remembers where each shoe came from and other details you like.
+
+<br>
