@@ -29,4 +29,7 @@ with open(file_path, "wb") as file:
     pickle.dump(shoes_collection, file)
     #dump() function: It takes two parameters - the object being “shoes_collection” (look at the shoes in line 11) and a File object (at the end of line 20) to write the data to.
 
+
+#
+# 4 Printing a Confirmation Message:
 print(f"Serialized shoes collection to {file_path}")
