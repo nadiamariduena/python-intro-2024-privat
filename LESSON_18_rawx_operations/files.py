@@ -79,3 +79,7 @@ with open('context.txt', 'r') as file:
     contentx = file.read()
     print(contentx)
 
+#
+#
+# ------
+# another way to CREATE a file
