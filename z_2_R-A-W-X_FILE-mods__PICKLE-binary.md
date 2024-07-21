@@ -775,8 +775,32 @@ print(cached_function(3, 4))  # Output: 7 (retrieved from cache)
 
 <br>
 
+https://stackoverflow.com/questions/14509269/best-method-of-saving-data
+
 #### 🟣 QUESTION: I've made a class in which I want to keep track of stats of students. I intend to make a GUI later to manipulate this data.
+
+
 
 - 🟣 **My main question is:** what is the best way to save and later retrieve this data?
 
 - 🟣I've read about pickle and **JSON, but I don't really get how they work** (especially about how they save the data, like in which format and where).
+
+<br>
+
+### ✅ stackoveflow:
+
+<br>
+
+#### If data is simple, use JSON:
+
+- If your data are pretty simple, like just collections of collections of strings or numbers, I would use json.
+
+ What JSON is, is a string representation of simple data types and combinations of simple data types. Once you use the json module to convert your data to a string, you write it to a file yourself.
+
+
+<br>
+
+#### If data is complicated, use PICKLE:
+
+ If your **data** are more **complicated**, and involves `classes` **other than the built-in collection objects**, pickle is a better choice.
+
