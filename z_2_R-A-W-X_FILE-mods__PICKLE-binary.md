@@ -4,7 +4,7 @@
  <br>
  <br>
 
- ### ⚠️ I came across the topic of Pickle while researching something else, and it piqued my interest. However, I must admit that I am a total beginner in Python, which makes using it comfortably quite challenging for me.
+ ###  I came across the topic of Pickle while researching something else, and it piqued my interest. However, I must admit that I am a total beginner in Python, which makes using it comfortably quite challenging for me.
 
  <br>
 
@@ -763,3 +763,20 @@ print(cached_function(3, 4))  # Output: 7 (retrieved from cache)
 <br>
 
 - In this example, `pickle.dumps()` is **used** to **serialize** a **tuple** (`arg1, arg2`) **into a byte** string **key**, ✋ which is then used as a key in the cache dictionary for memoization purposes.
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+### 🟡 This is an interesting question someone asked on Stack Overflow, especially if you are just starting out like me.
+
+<br>
+
+#### 🟣 QUESTION: I've made a class in which I want to keep track of stats of students. I intend to make a GUI later to manipulate this data.
+
+- 🟣 **My main question is:** what is the best way to save and later retrieve this data?
+
+- 🟣I've read about pickle and **JSON, but I don't really get how they work** (especially about how they save the data, like in which format and where).
