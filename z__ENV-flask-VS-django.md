@@ -5,11 +5,15 @@
 - **Django** is preferred by many big tech companies.
 
 <br>
+
+>  **Flask**, a lightweight Python web framework, is used by various companies across different industries, but it's particularly favored in tech companies for its simplicity and flexibility. While specific usage details aren't always publicly disclosed, here are some big tech companies known to use Flask or have used it in their projects:
+
+<br>
 <br>
 
 <br>
 
-## Flask is great for smaller projects?
+## 🟣 Flask is great for smaller projects?
 
 #### ✅ chatgpt:
 
