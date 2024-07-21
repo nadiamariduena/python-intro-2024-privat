@@ -804,3 +804,5 @@ https://stackoverflow.com/questions/14509269/best-method-of-saving-data
 
  If your **data** are more **complicated**, and involves `classes` **other than the built-in collection objects**, pickle is a better choice.
 
+
+ - - 🔴 One very important thing to know about **pickle** is that there are **security vulnerabilities** in pickle, and
