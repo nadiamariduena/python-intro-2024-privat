@@ -734,4 +734,28 @@ loaded_data = pickle.loads(result['serialized_data'])
 #### Example:
 
 
-- When you need to use a Python object (or a combination of objects) as a dictionary key, you can serialize them into a string representation using pickle.
+- **When you** need to **use** a Python **object** (**or** a combination of **objects**) **as a dictionary key**, you can **serialize them** into a **string** representation **using pickle**.
+
+```python
+import pickle
+
+# Example function with caching using pickle for key generation
+cache = {}
+
+def cached_function(arg1, arg2):
+    # Create a tuple of arguments to use as cache key
+    key = pickle.dumps((arg1, arg2))
+
+    if key in cache:
+        return cache[key]
+    else:
+        result = arg1 + arg2
+        cache[key] = result
+        return result
+
+# Example usage
+print(cached_function(3, 4))  # Output: 7
+print(cached_function(3, 4))  # Output: 7 (retrieved from cache)
+
+
+```
