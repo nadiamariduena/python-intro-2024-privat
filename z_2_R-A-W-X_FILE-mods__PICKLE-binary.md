@@ -212,6 +212,8 @@ pickle_out.close()
 
 #### 🍭 1 Run the code, it will generate a binary file called "dict.pickle"
 
+
+
 ```bash
 # ✋ This is the generated file, and this is what you have to deserialize to make the data human readable
 \80\03\7D\71\00\28\4B\01\58\01\00\00\00\36\71\01\4B\02\58\01\00\00\00\32\71\02\4B\03\58\01\00\00\00fqu.
@@ -219,9 +221,17 @@ pickle_out.close()
 
 <br>
 
+- check it here: https://hexed.it/
+
+🌈 **Hexed.it** is a web-based hexadecimal (hex) **editor and viewer**. Hexadecimal is a base-16 numeral system often used in computing to represent **binary data in a human-readable format**. Hexed.it allows users to upload files and view their contents in hexadecimal format, providing tools to edit bytes directly.
+
+<br>
+
 
 #### 🍭 2 you will not be able to visualize it, but you can install the below extension:
 #### 🍭 3 Within your extensions, Install: Hex Editor Extension
+
+
 #### 🍭 4 Once installed, click on the generated "dict.pickle" , click on the blue button, it will offer you to options at the top bar, choose the option of Hex editor
 
 <br>
@@ -671,6 +681,12 @@ sock.close()
 
 ```
 
-3) Storing Python objects in a database
-Example:
-If you need to store Python objects in a database (particularly NoSQL databases that support storing complex data structures directly), pickle can serialize Python objects into a format that can be stored in the database.
+<br>
+<br>
+
+### 3) Storing Python objects in a database
+
+#### Example:
+
+
+- **If you need** to **store** Python **objects in a database** (particularly **NoSQL** databases **that support storing** complex **data** structures **directly**)**, pickle** can **serialize** Python **objects into a format** that **can be stored in the database**.
