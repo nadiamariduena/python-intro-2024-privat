@@ -808,3 +808,5 @@ https://stackoverflow.com/questions/14509269/best-method-of-saving-data
  - - 🔴 One very important thing to know about **pickle** is that there are **security vulnerabilities** in pickle, and
 
  ### 🔴 it's a bad idea to unpickle anything you yourself didn't pickle.
+
+ **pickle is vulnerable** to the security problems detailed in this article:
