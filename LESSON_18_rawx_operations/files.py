@@ -102,3 +102,12 @@ if not os.path.exists("test_file.txt"):
     f = open("test_file.txt", "x")
     f.write('dora 🦊')
     f.close()
+
+
+# ------
+# handling error 'if the file' doesn't exist
+
+if os.path.exists("test_file.txt"):
+    os.remove("test_file.txt")
+else:
+    print('the file you wish to del does not exist')
