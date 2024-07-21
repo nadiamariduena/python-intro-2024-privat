@@ -722,4 +722,16 @@ loaded_data = pickle.loads(result['serialized_data'])
 
 <br>
 
-- Here, pickle is used to serialize the data dictionary before storing it in MongoDB. When retrieving the data, pickle is again used to deserialize the stored byte stream back into a Python object.
+#### Here, pickle is used to serialize the data dictionary before storing it in MongoDB.
+
+- - When retrieving the data, pickle is again used to deserialize the stored byte stream back into a Python object.
+
+<br>
+<br>
+
+### 4) Converting an arbitrary Python object to a string for caching & memoization
+
+#### Example:
+
+
+- When you need to use a Python object (or a combination of objects) as a dictionary key, you can serialize them into a string representation using pickle.
