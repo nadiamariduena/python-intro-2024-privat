@@ -670,3 +670,7 @@ sock.sendall(serialized_data)
 sock.close()
 
 ```
+
+3) Storing Python objects in a database
+Example:
+If you need to store Python objects in a database (particularly NoSQL databases that support storing complex data structures directly), pickle can serialize Python objects into a format that can be stored in the database.
