@@ -759,3 +759,7 @@ print(cached_function(3, 4))  # Output: 7 (retrieved from cache)
 
 
 ```
+
+<br>
+
+- In this example, `pickle.dumps()` is **used** to **serialize** a **tuple** (`arg1, arg2`) **into a byte** string **key**, ✋ which is then used as a key in the cache dictionary for memoization purposes.
