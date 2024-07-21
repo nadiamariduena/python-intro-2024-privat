@@ -32,3 +32,4 @@
 
 **Microframework vs. Minimalist Framework:** **Flask** is often **likened** to **Express** in the Node.js world because both are **lightweight** and **provide** only the **essential tools** needed **for** web **development**.
 
+- - 🔶 They are considered microframeworks, meaning they offer core functionalities but leave other components (like database ORM and authentication) to be added as needed via extensions or middleware.
