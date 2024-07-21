@@ -83,3 +83,4 @@ with open('context.txt', 'r') as file:
 #
 # ------
 # another way to CREATE a file
+# Creates the specified file, but returns an error if the file exists
