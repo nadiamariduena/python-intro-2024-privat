@@ -1,3 +1,5 @@
+import os
+
 # Acronym for:
 
 # r = Read
@@ -81,6 +83,22 @@ with open('context.txt', 'r') as file:
 
 #
 #
+# Acronym for:
+
+# r = Read
+# a = Append
+# w = Write
+# x = Create
 # ------
+#
+print("_____ 👾 ______")
+#
+#
 # another way to CREATE a file
 # Creates the specified file, but returns an error if the file exists
+# - import the 'os' at the top of this file
+#
+if not os.path.exists("test_file.txt"):
+    f = open("test_file.txt", "x")
+    f.write('dora 🦊')
+    f.close()
