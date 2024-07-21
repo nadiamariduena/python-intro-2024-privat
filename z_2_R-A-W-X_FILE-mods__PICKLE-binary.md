@@ -719,3 +719,7 @@ loaded_data = pickle.loads(result['serialized_data'])
 
 
 ```
+
+<br>
+
+- Here, pickle is used to serialize the data dictionary before storing it in MongoDB. When retrieving the data, pickle is again used to deserialize the stored byte stream back into a Python object.
