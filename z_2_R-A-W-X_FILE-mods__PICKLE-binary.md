@@ -810,3 +810,7 @@ https://stackoverflow.com/questions/14509269/best-method-of-saving-data
  ### 🔴 it's a bad idea to unpickle anything you yourself didn't pickle.
 
  **pickle is vulnerable** to the security problems detailed in this article:
+
+ http://www.kalzumeus.com/2013/01/31/what-the-rails-security-issue-means-for-your-startup/
+
+#### 🌈 If the size of your data is very large, or you will be saving/loading it frequently, or for any reason using json and saving to a local file is inadequate, then a database will be the way to go.
