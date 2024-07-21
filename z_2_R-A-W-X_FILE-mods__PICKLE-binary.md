@@ -690,3 +690,32 @@ sock.close()
 
 
 - **If you need** to **store** Python **objects in a database** (particularly **NoSQL** databases **that support storing** complex **data** structures **directly**)**, pickle** can **serialize** Python **objects into a format** that **can be stored in the database**.
+
+```python
+import pickle
+import pymongo
+
+# Connect to MongoDB (assuming it's running locally)
+client = pymongo.MongoClient('localhost', 27017)
+db = client['mydatabase']
+collection = db['mypicklecollection']
+
+# Assume 'data' is a Python object to be stored in MongoDB
+data = {
+    'user_id': 123,
+    'preferences': {'theme': 'dark', 'language': 'en'},
+    # ... other user data
+}
+
+# Serialize and store data in MongoDB
+serialized_data = pickle.dumps(data)
+collection.insert_one({'serialized_data': serialized_data})
+
+# Later, retrieve and deserialize the data
+result = collection.find_one({'user_id': 123})
+loaded_data = pickle.loads(result['serialized_data'])
+
+# 'loaded_data' now contains the deserialized Python object
+
+
+```
