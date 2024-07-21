@@ -23,3 +23,12 @@
 #### ✅ chatgpt:
 
 - Yes, the comparison between **Flask/Express** and Django/NestJS can help illustrate their similarities and differences in the web development landscape.
+
+<br>
+
+### 🟧 Flask and Express:
+
+<br>
+
+**Microframework vs. Minimalist Framework:** **Flask** is often **likened** to **Express** in the Node.js world because both are **lightweight** and **provide** only the **essential tools** needed **for** web **development**.
+
