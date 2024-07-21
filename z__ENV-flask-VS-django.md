@@ -11,7 +11,6 @@
 
 >  **Flask**, a **lightweight Python** web **framework**, is **used** by various **companies** across **different industries**, **but** it's particularly **favored** in tech companies for its **simplicity and flexibility**.
 
-> While **specific usage** details aren't always publicly disclosed, here are some big tech companies known to use Flask or have used it in their projects:
 
 <br>
 <br>
@@ -38,6 +37,34 @@
 
 🟫 **Learning Curve:** Both frameworks have a relatively low learning curve compared to more comprehensive frameworks like Django or NestJS.
 >This makes them attractive for beginners or for projects where rapid development and simplicity are prioritized over built-in features and conventions.
+
+
+
+<br>
+
+### 🟢 Here are some big tech companies known to use Flask or have used it in their projects:
+
+<br>
+
+**Netflix:** Flask has been reported as one of the frameworks used for certain projects and internal tools at Netflix.
+
+**Reddit:** Reddit, known for its large-scale web applications, has used Flask in some of its services and applications.
+
+**Lyft:** Flask has been mentioned in Lyft's tech stack for powering certain internal tools and services.
+
+**Zillow:** Zillow, the online real estate database company, has reportedly used Flask for some of its backend services.
+
+**Nasa:** NASA has used Flask in various internal projects and applications.
+
+**Mozilla:** Flask has been mentioned as part of Mozilla's technology stack for certain projects.
+
+**LinkedIn:** LinkedIn has used Flask in some of its projects, particularly for lightweight and rapid development tasks.
+
+**Pinterest:** Flask has been reported as part of Pinterest's technology stack, particularly for internal tools and dashboards.
+
+**Twilio:** Twilio, known for its cloud communications platform, has used Flask in certain parts of its backend infrastructure.
+
+**Uber:** Flask has been mentioned as part of Uber's technology stack for building web applications and services.
 
 <br>
 <br>
