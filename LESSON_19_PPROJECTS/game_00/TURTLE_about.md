@@ -96,3 +96,5 @@ Companies typically **use** more **robust and specialized**  <u>libraries and fr
 📌 **Unreal Engine:** Unreal Engine is another game engine known for its advanced graphics capabilities and is used for developing high-end 3D games, simulations, and visualizations.
 
 📌 **Qt:** Qt is a C++ framework that also provides Python bindings. It's used for developing GUI applications with advanced graphics capabilities and is suitable for creating complex desktop applications.
+
+**Web-based Technologies:** For interactive and graphical web applications, companies often use HTML5, CSS3, and JavaScript frameworks like WebGL (for 3D graphics) or libraries such as Three.js for creating web-based games and visualizations.
