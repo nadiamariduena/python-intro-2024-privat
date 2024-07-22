@@ -93,7 +93,7 @@ Companies typically **use** more **robust and specialized**  <u>libraries and fr
 
 📌 **OpenGL:** OpenGL is a cross-platform graphics library that provides low-level access to graphics hardware. It's widely used in professional game development for rendering 2D and 3D graphics.
 
- - - [Let's code 3D Engine in Python. OpenGL Pygame Tutorial](https://youtu.be/eJDIsFJN4OQ?si=Ctx3TQHul9dZNtTw)
+ - - [Let's code 3D Engine in Python. OpenGL Pygame Tutorial](https://youtu.be/eJDIsFJN4OQ?si=Ctx3TQHul9dZNtTw) , **the teacher** will add some **bugs purposely** (which is good)
 
 <br>
 
