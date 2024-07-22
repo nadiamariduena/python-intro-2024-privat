@@ -96,3 +96,42 @@ export default MyComponent;
 #### Swift (iOS development):
 
 `String(format:)` constructor: In Swift, String(format:) allows for string interpolation and formatting using placeholders like %@, %d, etc.
+
+
+<br>
+<br>
+
+## Continue
+
+```python
+print("---- 🍀 ----")
+
+adj = input("Adjetive: ")
+verb1 = input("Verb: ")
+verb2 = input("Verb: ")
+famous_person = input("famous Person: ")
+
+madlib = f"Computer programming is so {adj}! It makes me so excited all the time because \ I love to {verb1}. Stay hydrated and {verb2} like you are {famous_person} "
+
+# Print THE RESULT
+print(madlib)
+```
+
+<br>
+
+#### Run the code
+
+- Run the arrow (top bar) , you will have to fill the questions:
+
+```bash
+Adjetive: interesting
+Verb: learn
+Verb: eat healthy
+famous Person: Tilda S.
+
+```
+#### output
+
+```bash
+Computer programming is si interesting! It makes me so excited all the time because \ I love to learn. Stay hydrated and eat healthy like you are Tilda S.
+```
