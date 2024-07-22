@@ -450,3 +450,16 @@ class IceCreamStoreInherited(IceCreamStore):
 ---
 
 <br>
+
+
+## `f` strings
+
+-  **f-strings** in Python are indeed similar to template literals in other programming languages, such as JavaScript.
+
+```python
+name = "Alice"
+age = 30
+greeting = f"Hello, my name is {name} and I am {age} years old."
+print(greeting)
+
+```
