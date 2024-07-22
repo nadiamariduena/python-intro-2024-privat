@@ -36,3 +36,9 @@
 **Simulations:**
 
 - -  Beyond games, it can be used to create simulations of physical processes or mathematical models due to its ability to move a turtle cursor programmatically.
+
+<br>
+
+**Art and Design:**
+
+- - Some artists and designers use turtle to create algorithmic art or generative art, where patterns and shapes are created programmatically.
