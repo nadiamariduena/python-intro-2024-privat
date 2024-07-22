@@ -53,3 +53,10 @@ Template literals (ES6): Introduced with ECMAScript 6 (ES6), template literals p
 
 - - This is the primary method for string interpolation and formatting in modern JavaScript and React applications.
 
+<br>
+
+#### C#:
+
+`String.Format()` method: In C#, String.Format() is used for composite formatting of strings, where placeholders like {0}, {1}, etc., are replaced with values provided in subsequent arguments.
+
+<br>
