@@ -11,6 +11,9 @@
 
 >  **Flask**, a **lightweight Python** web **framework**, is **used** by various **companies** across **different industries**, **but** it's particularly **favored** in tech companies for its **simplicity and flexibility**.
 
+[Flask vs Django in 2024 - Make a RIGHT Choice (Difference Explained)](https://youtu.be/lyI98IS7HqE?si=rKdEGPBdc5yptZD9)
+
+
 
 <br>
 <br>
@@ -25,7 +28,7 @@
 
 <br>
 
-### 🟧 Flask and Express:
+### 🟧 Flask & Express:
 
 <br>
 
