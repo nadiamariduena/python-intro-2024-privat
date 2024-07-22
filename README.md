@@ -5,14 +5,15 @@
 <br>
 <br>
 
-## 📝 What I use:
+## 📝 Resources I Used:
 
-<br>
+I utilized the following videos and text to learn:
+
 <br>
 
 #### 🟠 YOUTUBE:
 
-<br>
+
 
 - [Dave Gray | Python Basic course](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6MQri81d012LwP5jvFZ_scc)
 
@@ -23,7 +24,7 @@
 
 #### 🟠 CHATGPT:
 
-<br>
+
 
 - [chatgpt](https://chatgpt.com/)
   I use chatgpt to generate answers to any question i have when learning something.
@@ -33,13 +34,13 @@
 
 #### 🟠 GEEKS FOR GEEKS:
 
-<br>
+
 
 - [www.geeksforgeeks.org](https://www.geeksforgeeks.org/getting-started-with-python-programming/?ref=shm)
 
-- [PYTHON.ORG](https://www.python.org/doc/)
+- [python.org](https://www.python.org/doc/)
 
-- [CODEACADEM | PYTHON](https://www.codecademy.com/resources/docs/python)
+- [code academy | python](https://www.codecademy.com/resources/docs/python)
 
 <br>
 <br>
@@ -52,17 +53,17 @@
 
 <br>
 
-#### Plagiarism
+#### 🟦 Plagiarism
 
-- there is nothing to plagiarize ( I always add the sources of the examples, texts, videos etc )
-
-<br>
-<br>
+- There's no need for concern about plagiarism—I consistently cite the sources of all examples, texts, and videos used
 
 <br>
 <br>
 
-## 🟡 Content
+<br>
+<br>
+
+### 🟡 Content
 
 [installation](./z__all_mds/0_installation.md)
 
@@ -71,7 +72,7 @@
 <br>
 <br>
 
-## 🟡 Lessons
+### 🟡 Lessons
 
 [LESSON_01](./LESSON_01/)
 
