@@ -30,3 +30,9 @@
 **Teaching Tool:**
 
 - - It's extensively used in educational environments to teach programming concepts such as loops, conditionals, functions, and basic object-oriented programming.
+
+<br>
+
+**Simulations:**
+
+- -  Beyond games, it can be used to create simulations of physical processes or mathematical models due to its ability to move a turtle cursor programmatically.
