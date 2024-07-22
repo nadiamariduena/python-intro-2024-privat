@@ -31,4 +31,25 @@ print(f"subscribe to {youtuber}") # ✋ you can use it in JS & react BUT, you do
 
 The **.format()** method as seen in Python **does not exist** as a built-in method in **JavaScript or React*.
 
->However, various languages and frameworks might have similar functionality or libraries that offer similar capabilities for string formatting and interpolation. Here’s a brief overview across different languages:
+>However, various languages and frameworks might have similar functionality or libraries that offer similar capabilities for string formatting and interpolation.
+
+#### Here’s a brief overview across different languages:
+
+<br>
+
+### 🟧 Languages and Frameworks with String Formatting Methods:
+
+<br>
+
+#### Python:
+
+`.format()` method: Used for string formatting. Python also introduced f-strings (f"...") starting from Python 3.6, which offer a more concise and readable way to format strings.
+
+
+
+#### JavaScript:
+
+Template literals (ES6): Introduced with ECMAScript 6 (ES6), template literals provide a way to embed expressions inside strings using `${}` placeholders.
+
+- - This is the primary method for string interpolation and formatting in modern JavaScript and React applications.
+
