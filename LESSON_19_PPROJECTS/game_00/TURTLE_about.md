@@ -42,3 +42,16 @@
 **Art and Design:**
 
 - - Some artists and designers use turtle to create algorithmic art or generative art, where patterns and shapes are created programmatically.
+
+<br>
+<br>
+<br>
+
+## 🟡 Who is using it?
+
+<br>
+
+The turtle module is not typically used by large corporations or companies in professional software development due to its simplicity and limitations for more complex applications.
+
+
+>In essence, while the turtle module is powerful for learning and teaching programming, its practical applications are limited mostly to educational and hobbyist contexts rather than industrial or professional software development.
