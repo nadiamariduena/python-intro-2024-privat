@@ -60,3 +60,14 @@ Template literals (ES6): Introduced with ECMAScript 6 (ES6), template literals p
 `String.Format()` method: In C#, String.Format() is used for composite formatting of strings, where placeholders like {0}, {1}, etc., are replaced with values provided in subsequent arguments.
 
 <br>
+
+#### Java:
+
+`String.format()` method: In Java, String.format() allows for string formatting similar to C#'s String.Format(). It uses placeholders like %s, %d, etc., to format strings with corresponding values.
+
+<br>
+
+#### PHP:
+
+`sprintf()` function: PHP provides sprintf() for formatted string output. It supports placeholders similar to C#'s and Java's formatting methods.
+
