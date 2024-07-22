@@ -155,7 +155,7 @@ Computer programming is si interesting! It makes me so excited all the time beca
 
 - Within the **sample_madlibs** folder, create a file and call it (whatever you want) i will call it `vw_orlando_extraits.py`
 
-- Look for some text, ask chatgpt to make you a list of **(nouns, verbs, and adjectives)** out of the text.
+- Look for some text, ask chatgpt to make you a list of **(nouns, verbs, and adjectives)** out of the text (Book excerpts etc...)
 
 ##### it should look like this:
 
@@ -194,3 +194,24 @@ vain
 impertinent
 dernier
 ```
+
+
+<br>
+<br>
+
+## 🟠 Create a function
+
+- This function can be reused, allowing you to create different files with excerpts from books
+
+```python
+def madlib():
+```
+
+- You will be nesting withing this function the lists of nouns, verbs, and adjectives
+
+<br>
+<br>
+
+### 🟠 Assign the lists of nouns, verbs, and adjectives
+
+<br>
