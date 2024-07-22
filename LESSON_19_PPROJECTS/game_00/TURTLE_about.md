@@ -100,7 +100,7 @@ Companies typically **use** more **robust and specialized**  <u>libraries and fr
  > Shaders are specifically designed for graphics programming and are written in shading languages like GLSL (OpenGL Shading Language), HLSL (High-Level Shading Language), Metal Shading Language, or Cg (C for Graphics).
 
 
-
+>These shading languages are low-level languages optimized for execution on graphics processing units (GPUs). They provide developers with precise control over how graphical elements are rendered on screen, including effects like lighting, shadows, textures, and more.
 
 <br>
 <br>
