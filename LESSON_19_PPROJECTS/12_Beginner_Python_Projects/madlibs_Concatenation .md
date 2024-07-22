@@ -177,10 +177,10 @@ mur
 pêches
 météore
 poussière
-Verbs:
+
 
 #
-# Verb
+# Verbs:
 avait-il désiré
 semblait
 vouloir
@@ -189,10 +189,11 @@ laissant
 mûrissent
 brûler
 s’évanouit
-Adjectives:
 
 
-# Adjectives
+
+# Adjectives:
+#
 pourquoi
 vain
 impertinent
