@@ -135,3 +135,62 @@ famous Person: Tilda S.
 ```bash
 Computer programming is si interesting! It makes me so excited all the time because \ I love to learn. Stay hydrated and eat healthy like you are Tilda S.
 ```
+
+<br>
+<br>
+
+---
+
+
+<br>
+<br>
+
+
+## 🟠 Importing
+
+### Importing exercise:
+
+- Create a folder within your project, call it **sample_madlibs**
+
+
+- Within the **sample_madlibs** folder, create a file and call it (whatever you want) i will call it `vw_orlando_extraits.py`
+
+- Look for some text, ask chatgpt to make you a list of **(nouns, verbs, and adjectives)** out of the text.
+
+##### it should look like this:
+
+>Pourquoi donc Orlando avait-il désiré s’élever au-dessus de ses ancêtres ? Il semblait vain, impertinent au dernier point de vouloir renchérir sur cette œuvre anonyme, sur le labeur de ces mains disparues. Mieux valait partir inconnu, laissant derrière soi une arche, un cellier, un mur où mûrissent les pêches que brûler comme un météore qui s’évanouit sans poussière.
+
+```bash
+
+Nouns:
+
+Orlando
+ancêtres
+point
+œuvre
+labeur
+mains
+arche
+cellier
+mur
+pêches
+météore
+poussière
+Verbs:
+
+avait-il désiré
+semblait
+vouloir
+renchérir
+laissant
+mûrissent
+brûler
+s’évanouit
+Adjectives:
+
+pourquoi
+vain
+impertinent
+dernier
+```
