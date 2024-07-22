@@ -25,3 +25,8 @@
 
 - -  It provides a **simple** way to **draw shapes, lines, and colors** on a ` 🔲 canvas` using turtle graphics, which can be animated to create visual effects.
 
+<br>
+
+**Teaching Tool:**
+
+- - It's extensively used in educational environments to teach programming concepts such as loops, conditionals, functions, and basic object-oriented programming.
