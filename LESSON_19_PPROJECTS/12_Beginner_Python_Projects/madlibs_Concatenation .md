@@ -23,3 +23,12 @@ print(f"subscribe to {youtuber}") # ✋ you can use it in JS & react BUT, you do
 # subscribe to Dorothea Ernst
 # subscribe to Dorothea Ernst
 ```
+
+<br>
+<br>
+
+## 🫐 `.format()`
+
+The **.format()** method as seen in Python **does not exist** as a built-in method in **JavaScript or React*.
+
+>However, various languages and frameworks might have similar functionality or libraries that offer similar capabilities for string formatting and interpolation. Here’s a brief overview across different languages:
