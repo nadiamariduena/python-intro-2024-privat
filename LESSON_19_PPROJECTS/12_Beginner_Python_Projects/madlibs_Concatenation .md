@@ -55,6 +55,25 @@ Template literals (ES6): Introduced with ECMAScript 6 (ES6), template literals p
 
 <br>
 
+```javascript
+import React from 'react';
+
+const youtuber = "Dorothea Ernst";
+
+const MyComponent = () => {
+  return (
+    <div>
+      <p>{`Subscribe to ${youtuber}`}</p>
+    </div>
+  );
+}
+
+export default MyComponent;
+
+```
+
+<br>
+
 #### C#:
 
 `String.Format()` method: In C#, String.Format() is used for composite formatting of strings, where placeholders like {0}, {1}, etc., are replaced with values provided in subsequent arguments.
