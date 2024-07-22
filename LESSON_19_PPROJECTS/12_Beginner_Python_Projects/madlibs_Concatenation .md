@@ -15,6 +15,10 @@ print("subscribe to " + youtuber) # ✋ you can use it in JS & react
 print("subscribe to {}". format(youtuber))
 print(f"subscribe to {youtuber}") # ✋ you can use it in JS & react BUT, you dont use the f"", you will use the template literals: console.log(`subscribe to ${youtuber}`);
 
+#Template literals, introduced in ECMAScript 6 (ES6), provide a powerful way to embed expressions inside strings using ${} placeholders. This is quite similar to Python's f-strings and is now widely used in modern JavaScript and React applications.
+
+
+#🟧 OUTPUT:
 # subscribe to Dorothea Ernst
 # subscribe to Dorothea Ernst
 # subscribe to Dorothea Ernst
