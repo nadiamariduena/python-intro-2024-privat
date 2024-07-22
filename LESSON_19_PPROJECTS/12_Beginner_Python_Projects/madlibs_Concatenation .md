@@ -71,3 +71,9 @@ Template literals (ES6): Introduced with ECMAScript 6 (ES6), template literals p
 
 `sprintf()` function: PHP provides sprintf() for formatted string output. It supports placeholders similar to C#'s and Java's formatting methods.
 
+
+<br>
+
+#### Swift (iOS development):
+
+`String(format:)` constructor: In Swift, String(format:) allows for string interpolation and formatting using placeholders like %@, %d, etc.
