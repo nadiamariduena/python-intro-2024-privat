@@ -94,3 +94,5 @@ Companies typically **use** more **robust and specialized**  <u>libraries and fr
 📌 **Unity:** Unity is a game engine that supports both 2D and 3D game development. It's highly popular in the industry due to its powerful features, cross-platform support, and extensive asset store.
 
 📌 **Unreal Engine:** Unreal Engine is another game engine known for its advanced graphics capabilities and is used for developing high-end 3D games, simulations, and visualizations.
+
+📌 **Qt:** Qt is a C++ framework that also provides Python bindings. It's used for developing GUI applications with advanced graphics capabilities and is suitable for creating complex desktop applications.
