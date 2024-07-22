@@ -206,6 +206,8 @@ dernier
 
 ## 🟠 Create a function
 
+<br>
+
 - This function can be reused, allowing you to create different files with excerpts from books
 
 ```python
