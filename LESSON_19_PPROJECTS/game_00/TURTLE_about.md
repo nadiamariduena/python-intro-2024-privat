@@ -97,6 +97,12 @@ Companies typically **use** more **robust and specialized**  <u>libraries and fr
 
  - - ✋ NOTES: **the teacher** will add some **bugs purposely** (which is good). in min 6:12 you will see the ` void main() ` , remember the shoe project using shaders
 
+ > Shaders are specifically designed for graphics programming and are written in shading languages like GLSL (OpenGL Shading Language), HLSL (High-Level Shading Language), Metal Shading Language, or Cg (C for Graphics).
+
+
+
+
+<br>
 <br>
 
 📌 **Unity:** Unity is a game engine that supports both 2D and 3D game development. It's highly popular in the industry due to its powerful features, cross-platform support, and extensive asset store.
