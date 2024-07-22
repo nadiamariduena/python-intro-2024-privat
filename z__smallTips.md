@@ -203,7 +203,16 @@ print(person1.age) # output: 30
 - `__name__ == "__main__` is like asking, "Am I the main character in this story?" It helps a program know if it's the main program being run or just a helper in another program. This way, it can act differently depending on how it's being used.
 
 
-### main character
+
+<br>
+
+### 🔴 in this scenario (it seems the opposite but...)
+
+- In this scenario, the "main character" or the main script that gets executed when you run the code directly is calculator.py. Let me break down how it works:
+
+#### helper code (no main character)
+
+
 
 ```python
 # calculator.py
@@ -219,8 +228,7 @@ print("Result of subtraction:", result)
 ```
 
 
-#### helper code (no main character)
-
+ ### main character
 
 ```python
 # ✋ I will be using the code here
@@ -237,7 +245,7 @@ if __name__ == "__main__":
     # Example usage when run directly
     result = add(5, 3)
     print("Result of addition:", result)
-
+# So, if __name__ == "__main__": is like a signal that tells Python: "Hey, I'm the main box! Do what's inside me when someone wants to play with me directly."
 ```
 
 #### chatgpt
