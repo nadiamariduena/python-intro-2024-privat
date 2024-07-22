@@ -90,11 +90,3 @@ Companies typically **use** more **robust and specialized**  <u>libraries and fr
 **Pygame:** Pygame is a popular library used for game development in Python. It provides functionality for handling graphics, sound, input devices, and more. Pygame is suitable for creating 2D games and is more feature-rich compared to the turtle module.
 
 📌 **OpenGL:** OpenGL is a cross-platform graphics library that provides low-level access to graphics hardware. It's widely used in professional game development for rendering 2D and 3D graphics.
-
-**Unity:** Unity is a game engine that supports both 2D and 3D game development. It's highly popular in the industry due to its powerful features, cross-platform support, and extensive asset store.
-
-**Unreal Engine:** Unreal Engine is another game engine known for its advanced graphics capabilities and is used for developing high-end 3D games, simulations, and visualizations.
-
-**Qt:** Qt is a C++ framework that also provides Python bindings. It's used for developing GUI applications with advanced graphics capabilities and is suitable for creating complex desktop applications.
-
-**Web-based Technologies:** For interactive and graphical web applications, companies often use HTML5, CSS3, and JavaScript frameworks like WebGL (for 3D graphics) or libraries such as Three.js for creating web-based games and visualizations.
