@@ -179,6 +179,8 @@ météore
 poussière
 Verbs:
 
+#
+# Verb
 avait-il désiré
 semblait
 vouloir
@@ -189,6 +191,8 @@ brûler
 s’évanouit
 Adjectives:
 
+
+# Adjectives
 pourquoi
 vain
 impertinent
@@ -215,3 +219,4 @@ def madlib():
 ### 🟠 Assign the lists of nouns, verbs, and adjectives
 
 <br>
+
