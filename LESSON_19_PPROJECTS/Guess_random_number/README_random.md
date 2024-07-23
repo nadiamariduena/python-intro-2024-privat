@@ -155,3 +155,7 @@ guess(10)
 
 >
 
+
+<br>
+
+### 🟣 QUESTION: Does Python support a 'break' statement within a while loop?
