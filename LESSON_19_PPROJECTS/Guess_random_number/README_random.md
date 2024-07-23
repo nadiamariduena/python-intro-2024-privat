@@ -18,3 +18,9 @@
 ## 🟠 Generate a random integer
 
 ### To generate a random integer within a specified range, you use `random.randint(a, b)`, where:
+
+<br>
+
+🔶 **a** is the **lower** bound (inclusive) of the range.
+
+🔵 **𝑁 (N):** This symbol is used to **represent** the **random integer** that the function generates. It can be any integer within the range specified by `𝑎 (a) and 𝑏 (b)`.
