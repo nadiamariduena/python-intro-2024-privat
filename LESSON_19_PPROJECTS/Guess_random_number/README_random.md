@@ -202,3 +202,13 @@ Sorry, guess again. Too high
 # 🔴
 Yay, congrats. You have guessed the number {random_number}
 ```
+
+<br>
+<br>
+
+### 🟣 QUESTION: Why does adding the 'break' statement ignore the condition? As a result, it seems to encounter an error but then displays 'congrats'.
+
+#### ✅ chatgpt:
+
+- The issue you're encountering is due to how you're handling the printing of the random number at the end of your function.
+
