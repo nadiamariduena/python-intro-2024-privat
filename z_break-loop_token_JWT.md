@@ -295,7 +295,9 @@ pip install PyJWT
 
 <br>
 
-#### Notes to myself: I already tried to set the JWT once (complicated), check the videos i made about the issues and solutions.
+#### 🐻 Notes to myself 🍯:
+
+- I already tried to set the **JWT** once (complicated but not impossible, its just a lot to be careful for a beginner), check the videos i made about the issues and solutions.
 
 - **Private** repo: https://github.com/nadiamariduena/jwt-cookie-rtk-0/blob/master/ERR__NoTOKEN-err.md
 
