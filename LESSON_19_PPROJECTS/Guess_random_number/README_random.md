@@ -97,3 +97,43 @@ guess(10)
 ### i purposely removed the line:
 
 The reason for this is because if you notice, there's **no input** prompt **to capture** a **user's guess**, <u>essential</u>  for the logic to function correctly within the range of `1 to 10`.
+
+```python
+import random
+
+def guess(x):
+    random_number = random.randint(1, x)
+    guess = 0
+    # LOOP
+    # you need a loop for the guessing
+    while guess != random_number:
+        #
+
+        # the guess variable is initialized to 0, and because
+        # there's NO user INPUT statement within the loop to update guess,
+        # 🔴 the while loop will not exit, regardless of how
+        # many iterations it performs
+
+        #
+      if guess < random_number:
+        print("Sorry, guess again. Too LOW 👎")
+      elif guess > random_number:
+        print("Sorry, guess again. Too high")
+
+    print("Yay, congrats. You have guessed the number {random_number}")
+
+#  Call the guess function with x = 10.
+# limit is 10, can be 100 , 300 etc
+guess(10)
+```
+
+<br>
+
+
+
+<br>
+
+
+### 🌈 The missing line
+
+- The missing line `guess = int(input(f"Guess a number between 1 and {x}: "))` is crucial because it prompts the user to enter their guess for the randomly generated number. Without this input, the program lacks the mechanism to interactively receive and compare guesses, leading to an infinite loop.
