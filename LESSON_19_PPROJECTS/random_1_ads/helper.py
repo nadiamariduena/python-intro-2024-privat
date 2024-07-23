@@ -32,4 +32,5 @@ ads_pool = [
 # Function to randomly select and return and ad
 
 def get_random_ad():
-    return random.choice(ads_pool)
+  return random.choice(ads_pool)
+#random.choice is a function from the random module in Python that allows you to randomly select an element from a non-empty sequence, such as a list, tuple, or string. Here's what it means and how it works
