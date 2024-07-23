@@ -35,3 +35,12 @@
 ```
 
 - which means **𝑁** is **within/between** the range from 𝑎 a to 𝑏 b, ` 🟦 🟣 🟦` inclusive.
+
+<br>
+
+
+- When **we combine** these **two2** statements `𝑎 ≤ 𝑁 ≤ 𝑏` with `≤ ≤`, it indicates that **𝑁** can be any number that is between **𝑎** and **𝑏**, including 𝑎 a and 𝑏 b themselves.
+
+<br>
+
+### 🟣 Question: this has to always be: 𝑁 , or can be anything else?
