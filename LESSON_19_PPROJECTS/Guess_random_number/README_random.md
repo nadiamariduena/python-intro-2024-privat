@@ -423,4 +423,49 @@ while True:
 
 <br>
 
-- - PyJWT is a Python library that allows you to encode and decode JWTs easily. It provides functions to create tokens, verify them, and decode them back to their original form. Here’s how you can use PyJWT:
+- - PyJWT is a Python library that allows you to encode and decode JWTs easily. It provides functions to create tokens, verify them, and decode them back to their original form.
+
+#### Here’s how you can use PyJWT:
+
+```python
+# You can install PyJWT using pip:
+pip install PyJWT
+
+```
+
+<br>
+
+#### Notes to myself: I already tried to set the JWT once (complicated), check the videos i made about the issues and solutions.
+
+- **Private** repo: https://github.com/nadiamariduena/jwt-cookie-rtk-0/blob/master/ERR__NoTOKEN-err.md
+
+
+
+```python
+import jwt
+import datetime
+
+# Example payload (data to be encoded into JWT)
+payload = {
+    'user_id': 123,
+    'username': 'example_user',
+    'exp': datetime.datetime.utcnow() + datetime.timedelta(minutes=30)  # Token expiry time
+}
+
+# Example secret key (should be kept secret in a real application)
+secret_key = 'your_secret_key_here'
+
+# Encode a JWT
+token = jwt.encode(payload, secret_key, algorithm='HS256')
+print(f"Generated token: {token}")
+
+# Decode the JWT
+try:
+    decoded_payload = jwt.decode(token, secret_key, algorithms=['HS256'])
+    print("Decoded payload:", decoded_payload)
+except jwt.ExpiredSignatureError:
+    print("Token has expired.")
+except jwt.InvalidTokenError:
+    print("Invalid token.")
+
+```
