@@ -89,3 +89,11 @@ def guess(x):
 # limit is 10, can be 100 , 300 etc
 guess(10)
 ```
+
+<br>
+
+## 🔴 If you miss a line here, you will have an endless LOOP
+
+### i purposely removed the line:
+
+The reason for this is because if you notice, there's **no input** prompt **to capture** a **user's guess**, <u>essential</u>  for the logic to function correctly within the range of `1 to 10`.
