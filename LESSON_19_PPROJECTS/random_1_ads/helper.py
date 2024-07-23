@@ -10,7 +10,9 @@ class Ad:
         self.ad_type = ad_type
         self.content = content
         self.image_url = image_url
-        #
+        # self.image_url = image_url, ad_id, ad_type, content, and image_url become attributes of the class instance (self refers to the instance being created).
+
+        # Attributes (or instance variables) are variables that belong to each instance of a class, in this case (self).
 
 
 #👾 This will display on your terminal the properties from STEP 1.
