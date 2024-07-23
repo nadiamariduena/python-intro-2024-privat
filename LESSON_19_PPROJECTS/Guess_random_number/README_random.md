@@ -403,3 +403,14 @@ while True:
 
 
 ```
+
+<br>
+<br>
+
+<br>
+
+#### 🟣 QUESTION: is there JWT for python?
+
+<br>
+
+#### ✅ chatgpt: Yes, there is a widely used library for working with JWT (JSON Web Tokens) in Python. The most popular library for handling JWTs in Python is PyJWT
