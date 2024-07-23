@@ -61,3 +61,31 @@ Yes, you're absolutely right. In mathematics and programming, the choice of vari
 
 
 ### 🟧 Here are some key points:
+
+**Flexibility in Variable Names:** You can use any variable name to represent a number or integer in a mathematical function or formula. Common choices include `'𝑁', 'x', 'y', 'z', 'm', 'n', etc`.
+
+<br>
+<br>
+
+## 🟢 Let's continue
+
+
+```python
+import random
+#
+import random
+
+# Define a function called guess that takes a parameter 'x'.
+# Here, 'x' represents the upper limit (B) for the random number generation.
+def guess(x):
+    # Generate a random number between 1 and 'x'.
+    random_number = random.randint(1, x)
+
+    # Initialize 'guess' to 0. Typically, this variable would be used
+    # to store the user's guess in a number guessing game scenario.
+    guess = 0
+
+# Call the guess function with x = 10.
+# limit is 10, can be 100 , 300 etc
+guess(10)
+```
