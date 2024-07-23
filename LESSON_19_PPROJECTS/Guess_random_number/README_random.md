@@ -24,3 +24,14 @@
 🔶 **a** is the **lower** bound (inclusive) of the range.
 
 🔵 **𝑁 (N):** This symbol is used to **represent** the **random integer** that the function generates. It can be any integer within the range specified by `𝑎 (a) and 𝑏 (b)`.
+
+🔶 **b** is the **upper** bound (inclusive) of the range.
+
+
+```python
+#(a, b) , the the n will be the random number that will be generated
+𝑁  such that 𝑎 ≤ 𝑁 ≤ 𝑏
+#
+```
+
+- which means **𝑁** is **within/between** the range from 𝑎 a to 𝑏 b, ` 🟦 🟣 🟦` inclusive.
