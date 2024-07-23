@@ -414,3 +414,13 @@ while True:
 <br>
 
 #### ✅ chatgpt: Yes, there is a widely used library for working with JWT (JSON Web Tokens) in Python. The most popular library for handling JWTs in Python is PyJWT
+
+<br>
+
+🟠 **PyJWT Library**
+
+#### [PyJWT Tutorial: Managing Authorization using JWT in Python](https://www.youtube.com/watch?v=ZWEIeLiysp0)
+
+<br>
+
+- - PyJWT is a Python library that allows you to encode and decode JWTs easily. It provides functions to create tokens, verify them, and decode them back to their original form. Here’s how you can use PyJWT:
