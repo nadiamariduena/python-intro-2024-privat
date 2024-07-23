@@ -310,3 +310,34 @@ def move_player():
 move_player()  # Call the function to start playing the game
 
 ```
+
+<br>
+<br>
+
+## 🟡  BREAK (example 2)
+
+<br>
+
+#### 🟣 QUESTION: Can you provide a real-world scenario where the break statement is used in a loop within a banking system implemented in Python, and **explain how tokens** are managed to automatically log out a user after 3 minutes of inactivity?
+
+<br>
+
+#### ✅ chatgpt:
+
+- In a Python-based banking application, the break statement is crucial for managing iterative processes efficiently.
+
+
+<br>
+
+
+### Token-based authentication and timeout functionality
+
+<br
+
+- let's integrate the concept of issuing and **Verifying tokens** along with the existing **PIN-based authentication**. **Tokens will expire** if the **user** is **inactive for 3 minutes** after logging in.
+
+```python
+
+
+
+```
