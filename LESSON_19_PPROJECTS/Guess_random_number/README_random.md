@@ -166,3 +166,39 @@ guess(10)
 
 >The break statement is typically used when a certain condition is met and you want to stop the loop immediately, regardless of whether the loop condition itself would normally allow for more iterations.
 
+
+```python
+import random
+
+def guess(x):
+    random_number = random.randint(1, x)
+    guess = 0
+    # LOOP
+    # you need a loop for the guessing
+    while guess != random_number:
+      guess = int(input(f"Guess a number between 1 and {x}: "))
+        #---
+      if guess < random_number:
+        print("Sorry, guess again. Too LOW ")
+      elif guess > random_number:
+        print("Sorry, guess again. Too high")
+        # ✋
+        break
+ # ✋ issue
+    print("Yay, congrats. You have guessed the number {random_number}")
+
+
+guess(10)
+```
+<br>
+
+
+### output:
+
+```bash
+# here i guessed a number between 1 and 10, but instead of following the rule, i wanted to see what would happen if i typed 500
+Guess a number between 1 and 10: 500
+Sorry, guess again. Too high
+# 🔴
+Yay, congrats. You have guessed the number {random_number}
+```
