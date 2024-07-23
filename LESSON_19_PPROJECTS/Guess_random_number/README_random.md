@@ -268,3 +268,11 @@ Sorry, guess again. Too high
 ### (Real-World Application:)
 
 - 🟧 let's consider a simple game scenario where a player moves on a grid using directional **inputs:** `(up, down, left, right)`.
+
+<br>
+
+### 🟠 We'll use a loop to continuously process the player's INPUTS
+
+ - - We'll use a loop to **continuously process** the **player's** **inputs** and **update** their **position on the grid**.
+
+ <br>
