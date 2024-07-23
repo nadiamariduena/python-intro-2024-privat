@@ -262,3 +262,9 @@ Sorry, guess again. Too high
 
 <br>
 <br>
+
+## 🟦 BREAK
+
+### (Real-World Application:)
+
+- 🟧 let's consider a simple game scenario where a player moves on a grid using directional **inputs:** `(up, down, left, right)`.
