@@ -137,3 +137,12 @@ guess(10)
 ### 🌈 The missing line
 
 - The missing line `guess = int(input(f"Guess a number between 1 and {x}: "))` is crucial because it prompts the user to enter their guess for the randomly generated number. Without this input, the program lacks the mechanism to interactively receive and compare guesses, leading to an infinite loop.
+
+```python
+     guess = int(input(f"Guess a number between 1 and {x}: "))
+```
+
+<br>
+<br>
+
+##  🔴  Intentionally Causing a BUG
