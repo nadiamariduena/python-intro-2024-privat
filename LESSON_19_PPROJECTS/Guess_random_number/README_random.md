@@ -212,3 +212,17 @@ Yay, congrats. You have guessed the number {random_number}
 
 - The issue you're encountering is due to how you're handling the printing of the random number at the end of your function.
 
+
+
+<br>
+<br>
+
+### 🌈 solution
+
+- I really dont need this but its just a way to solve the issue (you can also remove the **break**)
+
+```python
+ if guess == random_number:
+        print(f"Yay, congrats. You have guessed the number {random_number}")
+
+```
