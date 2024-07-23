@@ -1,12 +1,17 @@
 import random
 
 class Ad:
+    # STEP 1, declare the PARAMETERS: ad_id, ad_type, content, image_url=None / ad_id, ad_type, content, and image_url=None are parameters of the __init__ method of a class.
     def __init__(self, ad_id, ad_type, content, image_url=None):
+        #image_url=None specifies that image_url is an optional parameter. If no value is provided for image_url when creating an object, it defaults to None
         self.ad_id = ad_id
         self.ad_type = ad_type
         self.content = content
         self.image_url = image_url
+        #
 
+
+#👾 This will display on your terminal the properties from STEP 1.
     def display(self):
         print(f"DISPLAYING {self.ad_type} AD #{self.ad_id}:")
         print(f"CONTENT: {self.content}")
