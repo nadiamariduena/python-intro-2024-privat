@@ -10,3 +10,10 @@ class Ad:
     def display(self):
         print(f"DISPLAYING {self.ad_type} AD #{self.ad_id}:")
         print(f"CONTENT: {self.content}")
+        #
+        # IMG
+        # if there is img then show it
+        if self.image_url:
+            print(f"IMAGE url: {self.image_url}")
+
+        print("_____ 🌻 _____")
