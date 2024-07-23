@@ -276,3 +276,7 @@ Sorry, guess again. Too high
  - - We'll use a loop to **continuously process** the **player's** **inputs** and **update** their **position on the grid**.
 
  <br>
+
+#### Here's a conceptual example where using break can make sense:
+
+- **break** ensures the game loop respects the player's decision to quit, providing a clear and immediate termination point for the game session.
