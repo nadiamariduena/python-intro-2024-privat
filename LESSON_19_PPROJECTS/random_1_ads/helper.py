@@ -2,6 +2,8 @@ import random
 
 class Ad:
     # STEP 1, declare the PARAMETERS: ad_id, ad_type, content, image_url=None / ad_id, ad_type, content, and image_url=None are parameters of the __init__ method of a class.
+
+    # INIT method: This is a special method in Python classes that is automatically called when a new instance of the class is created. It initializes (sets up) the initial state of the object by assigning values to its attributes
     def __init__(self, ad_id, ad_type, content, image_url=None):
         #image_url=None specifies that image_url is an optional parameter. If no value is provided for image_url when creating an object, it defaults to None
         self.ad_id = ad_id
