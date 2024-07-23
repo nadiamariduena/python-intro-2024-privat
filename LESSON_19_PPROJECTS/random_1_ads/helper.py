@@ -17,3 +17,6 @@ class Ad:
             print(f"IMAGE url: {self.image_url}")
 
         print("_____ 🌻 _____")
+
+
+# List of ads
