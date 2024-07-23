@@ -159,3 +159,10 @@ guess(10)
 <br>
 
 ### 🟣 QUESTION: Does Python support a 'break' statement within a while loop?
+
+#### ✅ chatgpt:
+
+- Yes, in Python, you can use the **break** statement **to exit a while loop** prematurely.
+
+>The break statement is typically used when a certain condition is met and you want to stop the loop immediately, regardless of whether the loop condition itself would normally allow for more iterations.
+
