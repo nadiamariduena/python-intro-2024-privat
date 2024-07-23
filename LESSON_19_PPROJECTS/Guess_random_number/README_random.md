@@ -251,3 +251,14 @@ def guess(x):
 guess(10)
 ```
 <br>
+
+#### output
+
+```python
+Guess a number between 1 and 10: 598
+Sorry, guess again. Too high
+```
+
+
+<br>
+<br>
