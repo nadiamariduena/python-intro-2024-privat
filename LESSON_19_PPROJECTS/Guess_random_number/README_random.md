@@ -280,3 +280,33 @@ Sorry, guess again. Too high
 #### Here's a conceptual example where using break can make sense:
 
 - **break** ensures the game loop respects the player's decision to quit, providing a clear and immediate termination point for the game session.
+
+```python
+def move_player():
+    #x, y = 0, 0: The player starts at position (0, 0) on a grid where x represents horizontal position and y represents vertical position.
+
+    x, y = 0, 0  # Starting position of the player at coordinates (0, 0)
+
+    while True:  # while True:: Start a loop that continues indefinitely until we decide to stop it.
+
+        direction = input("Enter direction (up, down, left, right) or 'quit' to exit: ")  # Ask the player which direction they want to move
+
+        if direction == 'up':  # If the player chooses 'up'
+            y += 1  # Move the player up by increasing the y-coordinate by 1
+        elif direction == 'down':  # If the player chooses 'down'
+            y -= 1  # Move the player down by decreasing the y-coordinate by 1
+        elif direction == 'left':  # If the player chooses 'left'
+            x -= 1  # Move the player left by decreasing the x-coordinate by 1
+        elif direction == 'right':  # If the player chooses 'right'
+            x += 1  # Move the player right by increasing the x-coordinate by 1
+        elif direction == 'quit':  # If the player chooses 'quit'
+            print("Quitting game...")  # Display a message that we are quitting the game
+            break  # Exit the loop and end the game if the player chooses to quit
+        else:  # If the player enters any other input that is not recognized
+            print("Invalid input. Please enter up, down, left, right, or quit.")  # Ask the player to enter a valid direction or 'quit'
+
+        print(f"Player position: ({x}, {y})")  # After each move, show the player's current position on the grid
+
+move_player()  # Call the function to start playing the game
+
+```
