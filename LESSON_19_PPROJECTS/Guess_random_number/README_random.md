@@ -338,6 +338,68 @@ move_player()  # Call the function to start playing the game
 
 ```python
 
+import time
+import random
+import string
+
+# Mock banking system
+
+# Assume the correct PIN is 1234
+correct_pin = '1234'
+
+# Dictionary to store active tokens with their expiry times
+active_tokens = {}
+
+def generate_token():
+    """Generate a random 6-character alphanumeric token."""
+    return ''.join(random.choices(string.ascii_letters + string.digits, k=6))
+
+while True:
+    start_time = time.time()  # Track start time of each login attempt
+    pin = input("Please enter your 4-digit PIN (or 'q' to quit): ")
+
+    if pin == 'q':
+        print("Exiting the banking system.")
+        break  # Exit the loop and therefore the program
+
+    if pin == correct_pin:
+        print("PIN accepted. Welcome to your account.")
+
+        # Generate a new token and store it with its expiry time (3 minutes)
+        token = generate_token()
+        token_expiry = time.time() + 180  # 180 seconds = 3 minutes
+        active_tokens[token] = token_expiry
+
+        print(f"Your token is: {token}")
+        print("Token will expire in 3 minutes if inactive.")
+
+        while True:
+            # Check if current time exceeds token's expiry time
+            if time.time() > active_tokens[token]:
+                print("Token expired due to inactivity.")
+                del active_tokens[token]
+                break  # Exit the inner loop to log out the user
+
+            action = input("Enter your action (or 'q' to logout): ")
+
+            if action == 'q':
+                print("Logging out.")
+                del active_tokens[token]
+                break  # Logout and exit the inner loop
+
+            # Perform banking operations here
+            print(f"Performing action: {action}")
+
+            # Reset the token's expiry time for each action
+            active_tokens[token] = time.time() + 180  # Reset expiry to 3 minutes from now
+
+        break  # Exit the outer loop since the user has successfully logged in
+
+    else:
+        print("Incorrect PIN. Please try again.")
+
+# Additional code for banking operations could follow after the loop
+# For example, displaying account balance, making transactions, etc.
 
 
 ```
