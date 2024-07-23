@@ -20,3 +20,16 @@ class Ad:
 
 
 # List of ads
+ads_pool = [
+    Ad(1,
+       "Banner",
+       "Get 20% off on premium subscription",
+        "https://example.com/banner1.jpg"),
+    Ad(2, 'Sponsored Post', 'Discover the latest trends in fashion.', 'https://example.com/post1.jpg'),
+    Ad(3, 'Video Ad', 'Watch our new product in action.', 'https://example.com/video1.jpg'),
+]
+
+# Function to randomly select and return and ad
+
+def get_random_ad():
+    return random.choice(ads_pool)
