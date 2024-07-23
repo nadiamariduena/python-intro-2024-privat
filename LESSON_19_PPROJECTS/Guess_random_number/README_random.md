@@ -146,3 +146,12 @@ guess(10)
 <br>
 
 ##  🔴  Intentionally Causing a BUG
+
+#### This is only for testing purposes because the break in this guessing game is unnecessary. here is why:
+
+<br>
+
+- **If** your **loop naturally exits** when a **condition is met** (like in a typical **guessing game** where the loop exits **when the guess matches the target**), ✋ using break might be **redundant** and could **potentially complicate** the **logic**.
+
+>
+
