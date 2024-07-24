@@ -24,3 +24,15 @@
 <br>
 
 ## 🟦 This will simulate fetching friends or suggested connections
+
+
+<br>
+
+ ## 🟠 step 1.
+
+ <br>
+
+ ##   `users:`
+
+ - - Represents a list of example user profiles. In a real application, this data would typically come from a database or `API`.
+
