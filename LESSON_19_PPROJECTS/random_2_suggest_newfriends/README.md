@@ -172,7 +172,9 @@ def suggest_random_user(current_user_id):
 <br>
 
 
-### 🟦 Import
+## 🟠 step 1.
+
+#### 🟦 Import
 
 <br>
 
@@ -193,9 +195,25 @@ from helper import suggest_random_user, users
 <br>
 <br>
 
-## 🟦 Now, in main.py, we simulate suggesting friends for Mario (user ID 2):
+### 🟦 Now, in main.py, we simulate suggesting friends for Mario (user ID 2):
 
 
 <br>
 
- ## 🟠 step 1.
+ ## 🟠 step 2.
+
+ ```python
+from helper import suggest_random_user, users
+```
+
+
+<br>
+<br>
+
+ ## 🟠 step 3.
+
+ - - **Simulating** a `current user` (in real application, this <u>could come from session or login</u> )
+
+ <br>
+
+
