@@ -16,3 +16,11 @@
 <br>
 
 # 🟣 helper.py 🐻
+
+- - In `helper.py`, we'll define a function that generates **random users** or profiles. This will simulate fetching potential friends or suggested connections.
+
+
+<br>
+<br>
+
+## 🟦 This will simulate fetching friends or suggested connections
