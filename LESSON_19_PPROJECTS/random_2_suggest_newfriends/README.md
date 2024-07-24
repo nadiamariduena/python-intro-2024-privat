@@ -192,3 +192,10 @@ from helper import suggest_random_user, users
 
 <br>
 <br>
+
+## 🟦 Now, in main.py, we simulate suggesting friends for Mario (user ID 2):
+
+
+<br>
+
+ ## 🟠 step 1.
