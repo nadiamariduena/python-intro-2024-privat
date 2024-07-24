@@ -4,3 +4,15 @@
 
 
 
+#### We'll have two files: `helper.py` and `main.py`.
+
+<br>
+<br>
+<br>
+
+---
+
+<br>
+<br>
+
+# 🟣 helper.py 🐻
