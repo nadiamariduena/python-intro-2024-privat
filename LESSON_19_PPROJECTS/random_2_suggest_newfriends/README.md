@@ -182,3 +182,13 @@ def suggest_random_user(current_user_id):
 
 - - Within the function that you are importing, **also** import the `suggested_user`.
 
+
+<br>
+
+```python
+from helper import suggest_random_user, users
+```
+
+
+<br>
+<br>
