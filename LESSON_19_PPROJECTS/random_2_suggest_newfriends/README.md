@@ -250,3 +250,9 @@ Suggested friends for Anatole:
 #  In programming, we typically start counting from 0 for the first element in a list, so users[current_user_id - 1] refers to the user at index current_user_id - 1 in the users list.
   print(f"Suggested friends for {users[current_user_id - 1]['name']}:")
  ```
+
+ <br>
+
+ ## `["name"]`
+
+ - 🌈 This syntax (`["name"]`) is used because `users[current_user_id - 1]` returns a dictionary (a type of collection in Python), and dictionaries use keys to access their values.
