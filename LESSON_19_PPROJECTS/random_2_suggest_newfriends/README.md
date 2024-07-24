@@ -289,3 +289,5 @@ Suggested friends for Anatole:
  - - 🌈 It **uses** a **function** called `suggest_random_user` (comes from the helper.py) and **gives** it **your number** (`current_user_id`).
 
  <br>
+
+ - - 🔸 `print(f"- {suggested_user['name']}")`: **After finding a random friend**, this line **prints** their **name** with a dash (-) in front of it. The suggested_user['name'] part gets the name of the friend that was randomly picked.
