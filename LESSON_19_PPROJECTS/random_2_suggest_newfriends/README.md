@@ -65,3 +65,18 @@ users = [
 ## `suggest_random_user()`
 
 <br>
+
+
+ `suggest_random_user(current_user_id)`: This  <u>function takes</u> **current_user_id** as a **parameter** ... 🟤(continue after the code)
+
+
+<br>
+
+```python
+# the function
+ def suggest_random_user(current_user_id):
+```
+<br>
+<br>
+
+## 🟠 step 3.
