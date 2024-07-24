@@ -223,3 +223,10 @@ def main():
     # ✋ this current_user_id is coming from the helper TOO
     current_user_id = 4 # Assuming current user is Alice with user ID 1, ✋ you can change this to choose another user from the list/array
 ```
+### 🟧 In your terminal you will see something like this:
+
+
+
+```python
+Suggested friends for Anatole:
+```
