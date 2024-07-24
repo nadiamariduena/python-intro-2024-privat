@@ -167,3 +167,16 @@ def suggest_random_user(current_user_id):
 <br>
 
 # 🐝 main.py
+
+<br>
+<br>
+
+
+### 🟦 Import
+
+<br>
+
+- -  **Import** the **function** `suggest_random_user` and the array/list with the `users = []`.
+
+<br>
+
