@@ -123,7 +123,7 @@ other_users = [user for user in users if user["id"] != current_user_id]
 
 ### 🟠 Randomly select a user from the remaining list
 
-- `random.choice` to select a random user from other_users, which are all users except the current one.
+- `random.choice` to select a random user from **other_users**, ✋ which are all users except the current one.
 
 ```python
 suggested_user = random.choice(other_users)
