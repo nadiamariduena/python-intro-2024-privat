@@ -12,7 +12,7 @@ users = [
     {"id": 1, "name": "Alice"},
       {"id": 2, "name": "Mario"},
        {"id": 3, "name": "Anastasia"},
-             {"id": 4, "name": "Anatole"},
+             {"id": 4, "name": "Anatole"}, # Anatole de France: It is well for the heart to be naive and for the mind not to be,
              {"id": 5, "name": "Filomena"}
 ]
 
