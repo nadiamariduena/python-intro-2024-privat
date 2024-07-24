@@ -5,6 +5,9 @@
 #
 import random
 
+
+#
+# users: Represents a list of example user profiles. In a real application, this data would typically come from a database or API.
 users = [
     {"id": 1, "name": "Alice"},
       {"id": 2, "name": "Mario"},
@@ -19,12 +22,12 @@ users = [
 def suggest_random_user(current_user_id):
     #
     # Exclude the current user from suggestions
-
     other_users = [user for user in users if user["id"] != current_user_id]
 
 
 
-
+    # Randomly select a user from the remaining list
     suggested_user = random.choice(other_users)
+    # random.choice to select a random user from other_users, which are all users except the current one.
 
     return suggested_user
