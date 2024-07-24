@@ -8,7 +8,7 @@ from helper import suggest_random_user, users
 def main():
     #Simulating a current user (in real application, this could come from session or login)
     # this current_user_id is coming from the helper TOO
-    current_user_id = 1 # Assuming current user is Alice with user ID 1
+    current_user_id = 4 # Assuming current user is Alice with user ID 1
 
 
     # Suggesting 3 random users that the current user may know
@@ -25,3 +25,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+    # OUTPUT
+
+    #Suggested friends for Anatole:
+# - Mario
+# - Mario
+# - Alice
