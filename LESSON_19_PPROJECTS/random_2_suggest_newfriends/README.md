@@ -285,3 +285,5 @@ Suggested friends for Anatole:
  <br>
 
  - - 🌈 `suggested_user = suggest_random_user(current_user_id)`: Inside the loop, this **line asks** the **computer** to **find** a **random friend** for you.
+
+ - - It **uses** a **function** called `suggest_random_user` (comes from the helper.py) and **gives** it **your number** (`current_user_id`).
