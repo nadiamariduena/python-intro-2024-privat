@@ -36,3 +36,32 @@
 
  - - Represents a list of example user profiles. In a real application, this data would typically come from a database or `API`.
 
+
+<br>
+
+
+
+```python
+import random
+
+users = [
+    {"id": 1, "name": "Alice"},
+    {"id": 2, "name": "Mario"},
+    {"id": 3, "name": "Anastasia"},
+    {"id": 4, "name": "Anatole"},
+    {"id": 5, "name": "Filomena"}
+]
+
+```
+
+<br>
+<br>
+
+
+## 🟠 step 2.
+
+<br>
+
+## `suggest_random_user()`
+
+<br>
