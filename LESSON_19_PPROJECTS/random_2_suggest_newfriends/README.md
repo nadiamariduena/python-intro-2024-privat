@@ -101,3 +101,7 @@ other_users = [user for user in users if user["id"] != current_user_id]
 ```
 
 <br>
+
+### 🌈 So, the line goes through `each friend (user) in the users` list. It checks if the number (`id`) of <u>that friend </u> is *not* the same as your number (`current_user_id`). 🔸  If it's not the same, that friend is added to the other_users list.
+
+<br>
