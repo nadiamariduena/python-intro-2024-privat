@@ -8,7 +8,9 @@ import random
 users = [
     {"id": 1, "name": "Alice"},
       {"id": 2, "name": "Mario"},
-       {"id": 3, "name": "Anastacia"}
+       {"id": 3, "name": "Anastasia"},
+             {"id": 4, "name": "Anatole"},
+             {"id": 5, "name": "Filomena"}
 ]
 
 
