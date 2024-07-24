@@ -6,3 +6,5 @@
 import random
 
 def suggest_random_user(current_user_id):
+    #
+    # Exclude the current user from suggestions
