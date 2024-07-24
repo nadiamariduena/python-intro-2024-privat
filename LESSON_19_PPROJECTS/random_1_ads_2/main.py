@@ -8,3 +8,6 @@ def display_fashion_ads(ad):
     print("____ ☁️ ______ ")
 
 def main():
+    """Main function to run the program.
+    """
+
