@@ -291,3 +291,19 @@ Suggested friends for Anatole:
  <br>
 
  - - 🔸 `print(f"- {suggested_user['name']}")`: **After finding a random friend**, this line **prints** their **name** with a dash (-) in front of it. The suggested_user['name'] part gets the name of the friend that was randomly picked.
+
+<br>
+
+>Each time it suggests a friend, it prints their name with a dash in front (- Alice, - Bob, - Charlie, for example).
+
+<br>
+
+#### output
+
+```bash
+# ✋OUTPUT
+#Suggested friends for Anatole:
+# - Mario
+# - Mario
+# - Alice
+```
