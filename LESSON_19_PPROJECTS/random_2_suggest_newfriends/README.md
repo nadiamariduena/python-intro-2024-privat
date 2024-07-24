@@ -281,3 +281,7 @@ Suggested friends for Anatole:
         suggested_user = suggest_random_user(current_user_id)
         print(f"- {suggested_user['name']}")
  ```
+
+ <br>
+
+ - - 🌈 `suggested_user = suggest_random_user(current_user_id)`: Inside the loop, this **line asks** the **computer** to **find** a **random friend** for you.

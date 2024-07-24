@@ -20,6 +20,12 @@ def main():
     for i in range(3): # suggest 3 users
         #
         suggested_user = suggest_random_user(current_user_id)
+
+        #suggested_user = suggest_random_user(current_user_id): Inside the loop, this line asks the computer to find a random friend for you. It uses a function called suggest_random_user and gives it your number (current_user_id).
+
+
+        #
+        #
         print(f"- {suggested_user['name']}")
 
 
