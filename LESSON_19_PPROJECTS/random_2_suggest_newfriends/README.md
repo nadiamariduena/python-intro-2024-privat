@@ -256,3 +256,18 @@ Suggested friends for Anatole:
  ## `["name"]`
 
  - 🌈 This syntax (`["name"]`) is used because `users[current_user_id - 1]` returns a dictionary (a type of collection in Python), and dictionaries use keys to access their values.
+
+ <br>
+ <br>
+
+
+ ## 🟠 step 5.
+
+ ### Loop:
+
+<br>
+
+ - - 🌈 `for i in range(3):`: **This** line **tells** the **computer** to **do**  <u>something</u> **three times** in a row.
+
+
+ <br>
