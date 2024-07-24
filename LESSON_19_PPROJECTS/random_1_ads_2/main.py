@@ -15,3 +15,5 @@ def main():
         ad = fashion_ads()
         display_fashion_ads(ad)
 
+if __name__ == "__main__":
+    main()
