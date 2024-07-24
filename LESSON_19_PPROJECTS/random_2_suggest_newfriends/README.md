@@ -80,3 +80,16 @@ users = [
 <br>
 
 ## 🟠 step 3.
+
+<br>
+
+## `other_users`
+
+
+🟤 and **suggests a random user** from **users** <u>excluding the current user</u> .
+
+<br>
+
+- - 🌈 Imagine you have a **list of all your friends**, and **each friend** has a **number** that **identifies them**.
+
+- - 🌈 Now, let's say **you want to make a new list**, but **you don't want your own number in it**. This line of code does exactly that:
