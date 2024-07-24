@@ -274,3 +274,10 @@ Suggested friends for Anatole:
 
 
  - - 🌈 The **range(3)** part **means** it will **count from 0 to 2** (because in programming, it starts counting from 0). So, it will repeat the next lines of code three times.
+
+ ```python
+   for i in range(3): # suggest 3 users
+        #
+        suggested_user = suggest_random_user(current_user_id)
+        print(f"- {suggested_user['name']}")
+ ```
