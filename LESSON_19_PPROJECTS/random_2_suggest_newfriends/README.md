@@ -303,7 +303,8 @@ Suggested friends for Anatole:
 ```bash
 # ✋OUTPUT
 #Suggested friends for Anatole:
-# - Mario
-# - Mario
-# - Alice
+Suggested friends for Anatole:
+- Anastasia
+- Alice
+- Filomena
 ```
