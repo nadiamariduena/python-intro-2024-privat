@@ -11,3 +11,7 @@ def main():
     """Main function to run the program.
     """
 
+    for x in range(3):
+        ad = fashion_ads()
+        display_fashion_ads(ad)
+
