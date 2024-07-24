@@ -105,3 +105,20 @@ other_users = [user for user in users if user["id"] != current_user_id]
 ### 🌈 So, the line goes through `each friend (user) in the users` list. It checks if the number (`id`) of <u>that friend </u> is *not* the same as your number (`current_user_id`). 🔸  If it's not the same, that friend is added to the other_users list.
 
 <br>
+
+- **users** is the original list that has information about all your friends (`step 1.` ).
+
+- **current_user_id** is your own number that identifies you among your friends (`step 2.` ).
+
+- **other_users** is the new list that this line of code creates.(`step 3.` )
+
+<br>
+
+
+
+<br>
+<br>
+
+## step 4.
+
+### 🟠 Randomly select a user from the remaining list
