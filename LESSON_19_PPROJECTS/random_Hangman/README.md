@@ -34,3 +34,15 @@ from file_withwords import words
 -  - This is the first random selection which picks a word to start with.
 
 <br>
+
+```python
+#1
+def get_valid_word():
+    #
+    # 🔸 Initialization:
+    #  This is the first random selection which picks a word to start with.
+    word = random.choice(words)
+
+
+```
+
