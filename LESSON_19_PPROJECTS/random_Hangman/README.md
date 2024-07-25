@@ -53,3 +53,9 @@ def get_valid_word():
 ## 🟠 3.  Validation Loop:
 
 ####  - The while loop checks the selected word (word) to ensure it does not contain underscores ('_') or spaces (' ').
+
+<br>
+
+
+- -  `while _ or space ''` **is in the word**,  **keep choosing a word** (If the selected word contains either an underscore or a space, the loop continues to randomly select another word from words until a valid word (without underscores or spaces) is found.)
+
