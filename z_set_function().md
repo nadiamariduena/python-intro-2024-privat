@@ -280,3 +280,16 @@ my_set = set([1, 2, 3, 2, 1])  # {1, 2, 3}
 ```
 
 <br>
+
+### 🟧 Here's what's happening:
+
+<br>
+
+- - You start with a list that contains duplicate elements: `[1, 2, 3, 2, 1]`.
+
+
+- - When you convert this list to a set using `set([1, 2, 3, 2, 1])`, the set automatically removes the duplicates.
+
+
+- - As a result, my_set will contain only the unique elements `{1, 2, 3}`
+
