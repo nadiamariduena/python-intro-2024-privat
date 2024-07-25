@@ -187,3 +187,30 @@ print(document)
 <br>
 
 ### 🟠 Python Script to UPDATE  the address propery:
+
+This script connects to MongoDB, updates a document using `$set`, and then retrieves and prints the updated document.
+
+<br>
+
+```python
+
+from pymongo import MongoClient
+
+# Connect to MongoDB
+client = MongoClient('mongodb://localhost:27017/')
+db = client['mydatabase']
+collection = db['users']
+
+# Update the user's address using $set
+user_id_to_update = 1
+new_address = "789 Updated Blvd"
+update_query = { '_id': user_id_to_update }
+update_values = { '$set': { 'address': new_address } }
+
+# Perform the update operation
+result = collection.update_one(update_query, update_values)
+
+# Fetch and print the updated document
+updated_document = collection.find_one({ '_id': user_id_to_update })
+print(updated_document)
+```
