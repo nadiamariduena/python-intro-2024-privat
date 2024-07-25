@@ -208,3 +208,32 @@ Dec  Hex  Char   Dec  Hex  Char   Dec  Hex  Char   Dec  Hex  Char
 
 
 - - We’ll **use** `string.ascii_uppercase`, `string.ascii_lowercase`, `string.ascii_letters`, `string.digits`, and `string.punctuation` to achieve this.
+
+<br>
+
+```python
+import string
+
+# Example text
+text = "Hello, World! 123 @#"
+
+# ✋ Convert text to sets of different character types
+uppercase_letters = set(char for char in text if char in string.ascii_uppercase)
+
+
+# ✋ lowercase
+lowercase_letters = set(char for char in text if char in string.ascii_lowercase)
+
+# ✋ Digits
+digits = set(char for char in text if char in string.digits)
+
+# ✋ Punctuation
+punctuation = set(char for char in text if char in string.punctuation)
+
+# Print results
+print("Uppercase Letters:", uppercase_letters)
+print("Lowercase Letters:", lowercase_letters)
+print("Digits:", digits)
+print("Punctuation:", punctuation)
+
+```
