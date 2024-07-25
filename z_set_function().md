@@ -67,6 +67,21 @@ print(3 in my_set)          # Prints True
 
 ```
 
+<br>
+
+### 🫐 More Operations
+
+- Popping elements
+
+```python
+my_set = {1, 2, 3}
+element = my_set.pop()  # Removes and returns an arbitrary element
+print(element)          # Output could be 1, 2, or 3
+print(my_set)           # Output will be the set without the popped element
+
+```
+
+
 
 <br>
 <br>
