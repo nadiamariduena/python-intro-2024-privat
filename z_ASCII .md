@@ -43,3 +43,17 @@ import string # import the string at the top of the page,  to use it below
 #
 alphabet = set(string.ascii_uppercase)  # This line creates a set of all uppercase letters in the alphabet
 ```
+
+<br>
+
+
+The `ascii_uppercase`  is a constant defined in the Python string module. It represents a string containing all uppercase letters of the **ASCII** character set.
+
+
+<br>
+
+### Here’s some more detail:
+
+<br>
+
+🟪 **string Module:** In Python, the string module contains a collection of constants and functions related to ASCII strings.
