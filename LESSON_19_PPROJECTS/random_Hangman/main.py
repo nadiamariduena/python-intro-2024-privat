@@ -27,6 +27,6 @@ def get_valid_word():
         # - Once a valid word (one that does not contain underscores or spaces) is found, the function returns this word.
 
 def hangman():
-    word = get_valid_word(words)
-    word_letters = set(word)
-    alphabet = set(string.ascii_uppercase)
+  word = get_valid_word(words)  # This line gets a valid word to play with
+  word_letters = set(word)
+  alphabet = set(string.ascii_uppercase)
