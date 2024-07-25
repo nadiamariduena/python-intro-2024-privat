@@ -136,3 +136,25 @@ print(document)
 
 
 ```
+
+<br>
+
+## 🌴 MONGO: 🌞  $set
+
+ `$set` is used to modify data within a MongoDB collection.
+
+ 🔴 They interact with different parts of your application and don't interfere with each other.
+
+
+
+ <br>
+ <br>
+
+## 🟦  Scenario
+Suppose you have a MongoDB collection named users, and you want to update the address of a user with a specific user_id. The $set operator will be used to update the address field in the user's document.
+
+### Setup
+
+**MongoDB Collection Setup:**
+
+-  - Assume your MongoDB collection users has the following documents:
