@@ -18,3 +18,11 @@ project_folder/
 ## 🟠  1. import
 
 - import the **random** module, then import the file with the words
+
+```python
+import random
+from file_withwords import words
+```
+
+<br>
+<br>
