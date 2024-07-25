@@ -64,3 +64,11 @@ Each of these functions and methods has its specific use cases, but they all dea
 
 
 ## 🟡 Mongo
+
+### 🟣 QUESTION: I know that MongoDB has a `set` method. How does Python handle similar functionality?
+
+<br>
+
+#### ✅ Chatgpt:
+
+- - In MongoDB, the set operator is used within update operations to specify the value of a field or to add new fields to a document. The functionality and purpose of the set operator in MongoDB are quite different from the set function in Python.
