@@ -76,3 +76,7 @@ def get_valid_word():
 ### Second Random Selection (random.choice(words) within the loop):
 
 <br>
+
+- - Inside the while loop, when word is found to contain an underscore or a space, random.choice(words) is used again to pick another random word from the list words.
+
+<br>
