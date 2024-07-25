@@ -293,3 +293,17 @@ my_set = set([1, 2, 3, 2, 1])  # {1, 2, 3}
 
 - - As a result, my_set will contain only the unique elements `{1, 2, 3}`
 
+
+<br>
+<br>
+
+
+### 🌈 JavaScript Set
+
+
+- - **Purpose:** Represents a collection of unique values. It is a built-in object in JavaScript.
+
+```javascript
+let mySet = new Set([1, 2, 3, 2, 1]);  // Set {1, 2, 3}
+
+```
