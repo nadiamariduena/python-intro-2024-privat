@@ -13,6 +13,11 @@ project_folder/
 ```
 
 <br>
+
+## Explanation
+
+- You can explain this by using an analogy of picking toys from a box. Initially, you pick a toy (**first** `random.choice(words)`), but **if the 🧸 toy has a mark** or is **broken** 🧶
+<br>
 <br>
 
 ## 🟠  1. import
