@@ -264,3 +264,11 @@ This example demonstrates how MongoDB's $set operator is used to modify an exist
 
 - **Yes**, Python's set and JavaScript's Set share some similarities in terms of their core functionality, but there are differences in their syntax and usage. Here’s a comparison of the two:
 
+
+<br>
+
+
+### 🌈 Python `set`
+
+
+- - Purpose: Represents an **unordered collection** of **unique elements**. It is a built-in data type in Python.
