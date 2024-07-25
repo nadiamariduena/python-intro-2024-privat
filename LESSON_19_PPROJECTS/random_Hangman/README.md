@@ -93,3 +93,11 @@ word = random.choice(words)
 <br>
 
 ## 🟠 5.  `return word`:
+
+### Once a valid word (one that does not contain underscores or spaces) is found, the function returns this word.
+
+
+```python
+return word
+```
+
