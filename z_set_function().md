@@ -142,36 +142,9 @@ print(union_set)         # Output: {1, 2, 3, 4, 5}
 
 - - For **non-boolean** values, it returns the first truthy value or the last value if none are truthy.
 
-<br>
+ <br>
 
-### 🟣 QUESTION: so it s not common in frontend application (that doesn't involve bits or math opeartions)?
-
-#### ✅ chatgpt:
-
--
-**Correct**, the `bitwise OR operator (|)` is **not commonly used in typical frontend** applications that focus on UI design, user interactions, or animations. For most frontend development tasks, **you won't find much use** for **bitwise** operations **unless you're dealing** with specific cases where **bit-level manipulation**  is beneficial. [Bit Manipulation 01: Introduction](https://youtu.be/uUtb0BaeosQ?si=SD3NqOeSLQBWJVnb)
-
-<br>
-
-
-### When Bitwise Operations Might Be Relevant
-
-<br>
-
-#### Feature Flags or Configuration Settings:
-
-- - If you have a need to manage multiple boolean options compactly (e.g., feature flags), you might use bitwise operations to set, check, or toggle these flags efficiently.
-
-
-### ✋ Custom Graphics or Game Development:
-
-- - In cases where you're working with custom graphics rendering (like using WebGL) or game development, you might use bitwise operations for pixel manipulation or to handle various states or flags in a compact way.
-
-<br>
-
-### Performance Optimization:
-
-- - For highly optimized code where you need to perform operations at the bit level for performance reasons, bitwise operations might come into play. **However, such scenarios are more specialized and less common in standard frontend development.**
+ ### read More here [z_Bitwise_operator](./z_Bitwise_operator.md)
 
 <br>
 <br>
