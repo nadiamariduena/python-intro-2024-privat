@@ -246,3 +246,21 @@ Lowercase Letters: {'l', 'o', 'e', 'r', 'd'}
 Digits: {'2', '1', '3'}
 Punctuation: {'@', '!', ',', '#', ' '}
 ```
+
+#### output acsii
+
+```bash
+ASCII values for Uppercase Letters: {'W': 87, 'H': 72}
+ASCII values for Lowercase Letters: {'l': 108, 'o': 111, 'e': 101, 'r': 114, 'd': 100}
+ASCII values for Digits: {'2': 50, '1': 49, '3': 51}
+ASCII values for Punctuation: {'@': 64, '!': 33, ',': 44, '#': 35, ' ': 32}
+
+```
+
+<br>
+<br>
+
+
+#### 🟣 QUESTION: I see that the current method of choosing letters seems a bit random. Can you show me how to make the 'H' in 'Hello' and the 'O' in 'World' uppercase? Also, could you explain how to use symbols like {, which I think is '123' in the table?
+
+<br>
