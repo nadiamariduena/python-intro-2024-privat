@@ -33,3 +33,13 @@
 #### excerpt of the code from the above link ⤴️
 
 <br>
+
+### 🟠 The `ascii_uppercase`
+
+
+
+```python
+import string # import the string at the top of the page,  to use it below
+#
+alphabet = set(string.ascii_uppercase)  # This line creates a set of all uppercase letters in the alphabet
+```
