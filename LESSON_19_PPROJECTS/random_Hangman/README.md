@@ -83,3 +83,13 @@ def get_valid_word():
 
 - - 🧶  This process repeats until a word is selected that meets the condition of not containing underscores or spaces.
 
+
+```python
+word = random.choice(words)
+```
+
+<br>
+
+<br>
+
+## 🟠 5.  `return word`:
