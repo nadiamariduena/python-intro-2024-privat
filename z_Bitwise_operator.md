@@ -34,7 +34,7 @@ print(union_set)         # Output: {1, 2, 3, 4, 5}
 
 <br>
 
-### 🟣 QUESTION: so it s not common in frontend application (that doesn't involve bits or math opeartions)?
+### 🟣 QUESTION: so it s not common in frontend applications (that doesn't involve bits or math opeartions)?
 
 #### ✅ chatgpt:
 
@@ -44,7 +44,7 @@ print(union_set)         # Output: {1, 2, 3, 4, 5}
 <br>
 
 
-### When Bitwise Operations Might Be Relevant
+### 🟠 When Bitwise Operations Might Be Relevant
 
 <br>
 
@@ -66,3 +66,27 @@ print(union_set)         # Output: {1, 2, 3, 4, 5}
 
 <br>
 <br>
+
+## 🟠 Examples Where Bitwise Operations Are Common
+
+
+#### Low-Level Programming:
+
+- - operating systems, drivers, or embedded systems where you manipulate hardware registers or perform efficient data encoding/decoding.
+
+
+<br>
+
+
+#### Data Compression:
+
+- - Techniques for **compressing or encoding** data efficiently often use bitwise operations.
+
+
+<br>
+
+#### Network Protocols:
+
+
+- - Some **network protocols use bitwise operations** for efficient data transmission and error checking.
+In summary, while bitwise operations, including the bitwise OR operator, are powerful tools, they are not typically required in most frontend development tasks unless you have specific needs for bit-level manipulation or optimization.
