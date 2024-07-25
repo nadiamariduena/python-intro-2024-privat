@@ -120,3 +120,19 @@ print(sorted_words)
 
 ### 🟣 QUESTION: so its getting only the uppercase from THE table:
 `'Apple' (65), 'Banana' (66), 'Cat' (67), and 'Dog' (68).`
+
+#### ✅ chatgpt:
+
+- - Yes, that's correct. In your previous example, you mentioned strings like 'Apple', 'Banana', 'Cat', and 'Dog'. Each character in these strings corresponds to a specific ASCII value:
+
+<br>
+
+**'A'** corresponds to ASCII value **65**
+
+**'B'** corresponds to ASCII value **66**
+
+**'C'** corresponds to ASCII value **67**
+
+**'D'** corresponds to ASCII value **68**
+
+<br>
