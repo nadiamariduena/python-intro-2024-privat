@@ -183,3 +183,14 @@ Dec  Hex  Char   Dec  Hex  Char   Dec  Hex  Char   Dec  Hex  Char
 **Hex:**  Hexadecimal value of the ASCII character.
 
 **Char:**  Corresponding character represented by the ASCII code.
+
+<br>
+<br>
+
+
+#### 🟣 QUESTION: Can you give me an example where you include "text" converted to `uppercase, lowercase and symbols`? Use the right methods, similar to the first example "where is used" the: `set(string.ascii`
+
+
+#### ✅ chatgpt:
+
+- Let's work with a sample text that includes uppercase letters, lowercase letters, and symbols. We’ll use Python to manipulate and analyze this text using methods similar to those shown in the first example, focusing on ASCII values.
