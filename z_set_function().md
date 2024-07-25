@@ -320,3 +320,27 @@ let mySet = new Set([1, 2, 3, 2, 1]);  // Set {1, 2, 3}
 
 🔴**Set Operations:** JavaScript does not natively support set operations like union, intersection, and difference directly.
 
+
+**Checking Membership:** `mySet.has(4)` returns **true** or **false**
+
+```bash
+# ✋ In JavaScript, you can use the has() method to check if a value is present in a Set. Here’s how you can use it:
+# Creating a set
+// Creating a Set
+const mySet = new Set([1, 2, 3, 4, 5]);
+
+// Checking membership
+const elementToCheck = 4;
+
+// Using 'has()' to check if the element is in the Set
+const isMember = mySet.has(elementToCheck);
+
+// Printing the result
+console.log(isMember);  // Output will be true if 4 is in the Set, otherwise false
+
+
+#
+# ✋ output
+# true
+#
+```
