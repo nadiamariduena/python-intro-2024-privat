@@ -136,3 +136,15 @@ print(sorted_words)
 **'D'** corresponds to ASCII value **68**
 
 <br>
+
+### 🫐 When you refer to `string.ascii_uppercase` in Python, it specifically provides a string containing all uppercase letters from 'A' to 'Z'. This is directly related to their ASCII values:
+
+```python
+
+import string
+
+ascii_uppercase = string.ascii_uppercase
+print(ascii_uppercase)
+# Output: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
+```
