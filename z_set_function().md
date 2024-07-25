@@ -24,3 +24,10 @@ tuple(iterable):
 
 -  - **Purpose:** Creates a **tuple object** from an iterable. Tuples are similar to lists but are immutable, meaning their contents cannot be changed once created.
 frozenset(iterable):
+
+- - **Purpose:** Creates an **immutable version** of a set. Frozensets are hashable and can be used as dictionary keys or elements of other sets, but you cannot modify their contents after creation.
+dict(iterable):
+
+-  - **Purpose:** Creates a dictionary object from an iterable of key-value pairs.
+
+-  - Dictionaries store data in key-value pairs and do not allow duplicate keys.
