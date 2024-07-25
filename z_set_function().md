@@ -232,3 +232,10 @@ print(updated_document)
 
 ### 🟦 Explanation
 
+
+**Update Operation:**
+
+`Query: { '_id': 1 }` specifies which document to update (the document with _id equal to 1).
+
+`Update: { '$set': { 'address': '789 Updated Blvd' } }` specifies the change to be made, which is updating the address field.
+
