@@ -81,6 +81,24 @@ print(my_set)           # Output will be the set without the popped element
 
 ```
 
+- clearing elements
+
+```python
+my_set = {1, 2, 3}
+my_set.clear()  # Removes all elements from the set
+print(my_set)   # Output: set()
+
+```
+
+- Copying a set
+
+```python
+
+my_set = {1, 2, 3}
+new_set = my_set.copy()  # Creates a shallow copy of the set
+print(new_set)           # Output: {1, 2, 3}
+
+
 
 
 <br>
