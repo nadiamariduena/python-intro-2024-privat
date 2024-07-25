@@ -307,3 +307,16 @@ my_set = set([1, 2, 3, 2, 1])  # {1, 2, 3}
 let mySet = new Set([1, 2, 3, 2, 1]);  // Set {1, 2, 3}
 
 ```
+
+<br>
+
+### Key Operations:
+
+<br>
+
+**Adding an Element:** `mySet.add(4)`
+
+**Removing an Element:** `mySet.delete(2)`
+
+🔴**Set Operations:** JavaScript does not natively support set operations like union, intersection, and difference directly.
+
