@@ -54,11 +54,23 @@ setdefault(key, default) (method of dictionaries):
 - -  **Purpose:** Retrieves the value for the given key if it exists in the dictionary; otherwise, it sets the key with a default value and returns that default value.
 Each of these functions and methods has its specific use cases, but they all deal with creating or manipulating collections of data in various ways.
 
+<br>
+
+
+### 🟠 Common Operations
+
+```python
+my_set = set([1, 2, 3]) # CREATES set
+my_set.add(4)               # ADDING ELEMENTS: Adds 4 to the set
+my_set.remove(2)            # REMOVE ELEMENTS: Removes 2 from the set
+print(3 in my_set)          # Prints True
+
+```
 
 
 <br>
 <br>
-
+<br>
 
 <br>
 
@@ -314,14 +326,41 @@ let mySet = new Set([1, 2, 3, 2, 1]);  // Set {1, 2, 3}
 
 <br>
 
+🔴**Set Operations:** JavaScript does not natively support set operations like union, intersection, and difference directly.
+
+<br>
+
 **Adding an Element:** `mySet.add(4)`
+
+
 
 **Removing an Element:** `mySet.delete(2)`
 
-🔴**Set Operations:** JavaScript does not natively support set operations like union, intersection, and difference directly.
+
+
+
+
+
+
+
+
+<br>
+
+```javascript
+
+let mySet = new Set([1, 2, 3]);
+mySet.add(4);               // Adds 4 to the set
+mySet.delete(2);            // Removes 2 from the set
+console.log(mySet.has(3));  // Prints true
+
+```
+
+<br>
 
 
 **Checking Membership:** `mySet.has(4)` returns **true** or **false**
+
+<br>
 
 ```bash
 # ✋ In JavaScript, you can use the has() method to check if a value is present in a Set. Here’s how you can use it:
