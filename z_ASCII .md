@@ -237,3 +237,12 @@ print("Digits:", digits)
 print("Punctuation:", punctuation)
 
 ```
+
+<br>
+
+```bash
+Uppercase Letters: {'W', 'H'}
+Lowercase Letters: {'l', 'o', 'e', 'r', 'd'}
+Digits: {'2', '1', '3'}
+Punctuation: {'@', '!', ',', '#', ' '}
+```
