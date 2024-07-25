@@ -151,10 +151,13 @@ print(document)
  <br>
 
 ## 🟦  Scenario
-Suppose you have a MongoDB collection named users, and you want to update the address of a user with a specific user_id. The $set operator will be used to update the address field in the user's document.
 
-### Setup
+<br>
 
-**MongoDB Collection Setup:**
 
--  - Assume your MongoDB collection users has the following documents:
+- Suppose you have a MongoDB collection named users, and you want to **update the address of a user** with a specific `user_id`.
+
+
+- 🔸 The `$set` **operator** will be used to update the address field in the user's document.
+
+<br>
