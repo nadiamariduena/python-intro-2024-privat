@@ -214,3 +214,21 @@ result = collection.update_one(update_query, update_values)
 updated_document = collection.find_one({ '_id': user_id_to_update })
 print(updated_document)
 ```
+
+#### output
+
+- Assuming the script runs successfully, here’s what you would expect the output to look like:
+
+```python
+{
+  "_id": 1,
+  "name": "Alice",
+  "address": "789 Updated Blvd"
+}
+
+```
+
+<br>
+
+### 🟦 Explanation
+
