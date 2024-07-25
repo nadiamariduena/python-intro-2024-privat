@@ -57,12 +57,19 @@ print(union_set)         # Output: {1, 2, 3, 4, 5}
 
 ### ✋ Custom Graphics or Game Development:
 
-- - In cases where you're working with custom graphics rendering (like using WebGL) or game development, you might use bitwise operations for pixel manipulation or to handle various states or flags in a compact way.
+- - In cases where you're working with custom graphics rendering (like using **WebGL** 🌈) or game development, you might use bitwise operations for pixel manipulation or to handle various states or flags in a compact way.
 
-<br>
 
-- - #### Example: Using Bitwise Operations for Pixel Manipulation
 
+- - #### 🔶 Example: Using Bitwise Operations for Pixel Manipulation
+
+
+- - In graphics programming, you might need to **manipulate** *individual* **pixels of an image**.
+
+- -  Bitwise operations can be used for tasks like encoding color information into a single integer value, which is often useful in custom rendering engines or games.
+
+
+#### 🟣 when you say: "In graphics programming, you might need to 'manipulate' individual "pixels" of an image, DO you mean: manipulating the pixels in a RPG game and if yes, show me an example
 
 
 <br>
