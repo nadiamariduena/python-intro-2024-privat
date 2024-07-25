@@ -30,6 +30,11 @@ def hangman():
   word = get_valid_word(words)  # This line gets a valid word to play with
   #
   #🟡 Creating Letters from the Word (set(word)):
+  # Now that we have a word, let's look at the letters it's made of.
+  #
+  # - Imagine your word is "CAT".
+  # - We take each letter from "CAT" (C, A, T) and write them down separately.
+  # - This helps us keep track of which letters are in the word.
   word_letters = set(word)  # This line creates a set of letters from the chosen word
 
 
