@@ -44,3 +44,23 @@ dict(iterable):
 
 - -  It counts the frequency of elements in an iterable and can be used for various counting and frequency operations.
 
+
+
+### collections.defaultdict(default_factory):
+
+-  - **Purpose:** Creates a dictionary with a default value for non-existent keys. This allows for automatic handling of missing keys with a specified default factory function.
+setdefault(key, default) (method of dictionaries):
+
+- -  **Purpose:** Retrieves the value for the given key if it exists in the dictionary; otherwise, it sets the key with a default value and returns that default value.
+Each of these functions and methods has its specific use cases, but they all deal with creating or manipulating collections of data in various ways.
+
+
+
+<br>
+<br>
+
+
+<br>
+
+
+## 🟡 Mongo
