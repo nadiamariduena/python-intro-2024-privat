@@ -72,3 +72,7 @@ def get_valid_word():
 <br>
 
 ## 🟠 4.  Second `random.choice(words)`:
+
+### Second Random Selection (random.choice(words) within the loop):
+
+<br>
