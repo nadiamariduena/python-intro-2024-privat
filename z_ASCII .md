@@ -57,3 +57,7 @@ The `ascii_uppercase`  is a constant defined in the Python string module. It rep
 <br>
 
 🟪 **string Module:** In Python, the string module contains a collection of constants and functions related to ASCII strings.
+
+- - These include various sets of ASCII characters (ascii_letters, ascii_lowercase, ascii_uppercase), digits (digits), punctuation (punctuation), and printable characters (printable).
+
+<br>
