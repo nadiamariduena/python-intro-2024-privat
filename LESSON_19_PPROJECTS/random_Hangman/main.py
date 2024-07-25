@@ -11,3 +11,5 @@ def get_valid_word():
     while '_' in word or ' ' in words:
 
 
+        word = random.choice(words)
+
