@@ -11,3 +11,10 @@ project_folder/
      └── helper.py
      └── main.py
 ```
+
+<br>
+<br>
+
+## 🟠  1. import
+
+- import the **random** module, then import the file with the words
