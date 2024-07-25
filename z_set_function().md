@@ -87,3 +87,17 @@ Each of these functions and methods has its specific use cases, but they all dea
 
 **MongoDB** `$set`: Used for updating or adding fields in database documents.
 
+
+
+<br>
+
+🟧 **Functionality**:
+
+<br>
+
+
+**Python** `set`: Creates and manipulates a collection of unique items.
+
+
+**MongoDB** `$set`: Modifies or adds fields in database documents.
+
