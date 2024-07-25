@@ -33,3 +33,5 @@ def hangman():
 
 #🟡 Making an Alphabet (set(string.ascii_uppercase)):
 #
+# In our game, we need to guess letters from A to Z
+# - We call this the alphabet. It's like a list of all the letters we can use. So, we write down all these letters (A, B, C, ..., Z) on a piece of paper.
