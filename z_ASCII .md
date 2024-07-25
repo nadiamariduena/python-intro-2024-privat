@@ -264,3 +264,15 @@ ASCII values for Punctuation: {'@': 64, '!': 33, ',': 44, '#': 35, ' ': 32}
 #### 🟣 QUESTION: I see that the current method of choosing letters seems a bit random. Can you show me how to make the 'H' in 'Hello' and the 'O' in 'World' uppercase? Also, could you explain how to use symbols like {, which I think is '123' in the table?
 
 <br>
+
+#### ✅ chatgpt:
+
+**Step-by-Step Approach**
+
+<br>
+
+🟠 **Extract Specific Characters:** Choose specific uppercase letters based on their position in the text. For example, extract 'H' from "Hello" and 'W' from "World".
+
+🟠 **Handle Symbols:** Identify symbols and their ASCII values. For example, { is indeed represented by ASCII 123.
+
+<br>
