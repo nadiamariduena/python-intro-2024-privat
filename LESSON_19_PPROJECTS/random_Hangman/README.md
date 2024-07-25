@@ -26,3 +26,11 @@ from file_withwords import words
 
 <br>
 <br>
+
+## 🟠 2. Initialization:
+
+####  Retrieve the words from the `file_withwords.py`
+
+-  - This is the first random selection which picks a word to start with.
+
+<br>
