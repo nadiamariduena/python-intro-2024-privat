@@ -160,3 +160,26 @@ print(ascii_uppercase)
 ##  🟦 Another ascii table
 
 - This table covers the basic ASCII characters from 0 to 127. Each character has a unique decimal and hexadecimal representation, allowing computers to understand and process textual data universally across different systems and programming languages that adhere to the ASCII standard.
+
+```python
+Dec  Hex  Char   Dec  Hex  Char   Dec  Hex  Char   Dec  Hex  Char
+---------------------------------------------------------------
+ 23  17   ETB    55  37   7     87  57   W     119  77   w
+ 24  18   CAN    56  38   8     88  58   X     120  78   x
+ 25  19   EM     57  39   9     89  59   Y     121  79   y
+ 26  1A   SUB    58  3A   :     90  5A   Z     122  7A   z
+ 27  1B   ESC    59  3B   ;     91  5B   [     123  7B   {
+ 28  1C   FS     60  3C   <     92  5C   \     124  7C   |
+ 29  1D   GS     61  3D   =     93  5D   ]     125  7D   }
+ 30  1E   RS     62  3E   >     94  5E   ^     126  7E   ~
+ 31  1F   US     63  3F   ?     95  5F   _     127  7F  DEL
+
+```
+
+<br>
+
+**Dec:**  Decimal value of the ASCII character.
+
+**Hex:**  Hexadecimal value of the ASCII character.
+
+**Char:**  Corresponding character represented by the ASCII code.
