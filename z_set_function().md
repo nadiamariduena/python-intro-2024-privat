@@ -251,3 +251,16 @@ This example demonstrates how MongoDB's $set operator is used to modify an exist
 
 <br>
 <br>
+
+## 🟡 Javascript
+
+<br>
+
+#### 🟣 QUESTION: So this `set` method in Python is similar to the `set` method in JavaScript
+
+<br>
+
+#### ✅ Chatgpt:
+
+- **Yes**, Python's set and JavaScript's Set share some similarities in terms of their core functionality, but there are differences in their syntax and usage. Here’s a comparison of the two:
+
