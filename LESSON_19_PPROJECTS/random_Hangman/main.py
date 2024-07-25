@@ -28,5 +28,5 @@ def get_valid_word():
 
 def hangman():
   word = get_valid_word(words)  # This line gets a valid word to play with
-  word_letters = set(word)
+  word_letters = set(word)  # This line creates a set of letters from the chosen word
   alphabet = set(string.ascii_uppercase)
