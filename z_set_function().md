@@ -272,3 +272,11 @@ This example demonstrates how MongoDB's $set operator is used to modify an exist
 
 
 - - Purpose: Represents an **unordered collection** of **unique elements**. It is a built-in data type in Python.
+
+```python
+# When you create a set in Python using the set() constructor, it automatically removes duplicate elements. This is because a set is designed to hold only unique items.
+my_set = set([1, 2, 3, 2, 1])  # {1, 2, 3}
+
+```
+
+<br>
