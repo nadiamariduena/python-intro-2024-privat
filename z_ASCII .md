@@ -194,3 +194,17 @@ Dec  Hex  Char   Dec  Hex  Char   Dec  Hex  Char   Dec  Hex  Char
 #### ✅ chatgpt:
 
 - Let's work with a sample text that includes uppercase letters, lowercase letters, and symbols. We’ll use Python to manipulate and analyze this text using methods similar to those shown in the first example, focusing on ASCII values.
+
+```python
+"Hello, World! 123 @#"
+
+```
+
+<br>
+
+- 🟠 **Extracting** `uppercase letters, lowercase letters, and symbols`
+
+- -  we'll use **sets** to **demonstrate** how these **characters can be categorized**.
+
+
+- - We’ll **use** `string.ascii_uppercase`, `string.ascii_lowercase`, `string.ascii_letters`, `string.digits`, and `string.punctuation` to achieve this.
