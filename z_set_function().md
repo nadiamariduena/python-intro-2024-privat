@@ -101,3 +101,38 @@ Each of these functions and methods has its specific use cases, but they all dea
 
 **MongoDB** `$set`: Modifies or adds fields in database documents.
 
+
+<br>
+
+>Despite their similar names, the MongoDB `$set` operator and Python’s set function 🔴 **serve very different purposes and operate in different contexts**.
+
+
+<br>
+
+## 🐒 pymongo
+
+```python
+from pymongo import MongoClient
+
+# Connect to MongoDB
+client = MongoClient('mongodb://localhost:27017/')
+db = client['mydatabase']
+collection = db['mycollection']
+
+# Example Python set ✋ SET python
+unique_values = set([1, 2, 3, 2, 1])  # This will be {1, 2, 3}
+
+# Prepare a MongoDB update operation using the $set operator
+update_query = { '_id': 1 }
+# ✋ SET mongo
+update_values = { '$set': { 'unique_values': list(unique_values) } }
+
+# Update the MongoDB document
+collection.update_one(update_query, update_values)
+
+# Fetch and print the updated document
+document = collection.find_one({'_id': 1})
+print(document)
+
+
+```
