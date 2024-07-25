@@ -61,3 +61,13 @@ The `ascii_uppercase`  is a constant defined in the Python string module. It rep
 - - These include various sets of ASCII characters (ascii_letters, ascii_lowercase, ascii_uppercase), digits (digits), punctuation (punctuation), and printable characters (printable).
 
 <br>
+
+🟪 **ascii_uppercase:**
+
+- - This constant specifically contains all uppercase letters from 'A' to 'Z' in ASCII encoding. Therefore, ascii_**uppercase** is a **string** `'ABCDEFGHIJKLMNOPQRSTUVWXYZ'`.
+
+<br>
+
+### 🟠  Basic ASCII table showing the character, its decimal value, and its hexadecimal value:
+
+<br>
