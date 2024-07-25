@@ -31,3 +31,16 @@ dict(iterable):
 -  - **Purpose:** Creates a dictionary object from an iterable of key-value pairs.
 
 -  - Dictionaries store data in key-value pairs and do not allow duplicate keys.
+
+<br>
+
+
+### collections.Counter(iterable):
+
+<br>
+
+- - **Purpose:** ✋ Creates a Counter object, which is a specialized dictionary subclass for counting **hashable objects**.
+
+
+- -  It counts the frequency of elements in an iterable and can be used for various counting and frequency operations.
+
