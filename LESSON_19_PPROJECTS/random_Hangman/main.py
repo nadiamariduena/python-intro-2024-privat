@@ -2,6 +2,7 @@
 
 import random
 from file_withwords import words
+import string
 
 
 #1
