@@ -30,3 +30,6 @@ def hangman():
   word = get_valid_word(words)  # This line gets a valid word to play with
   word_letters = set(word)  # This line creates a set of letters from the chosen word
   alphabet = set(string.ascii_uppercase)  # This line creates a set of all uppercase letters in the alphabet
+
+#🟡 Making an Alphabet (set(string.ascii_uppercase)):
+#
