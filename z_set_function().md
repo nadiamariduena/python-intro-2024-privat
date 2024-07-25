@@ -14,3 +14,13 @@
 
 #### Similar Methods or Functions
 
+
+🟧 **list(iterable):**
+
+<br>
+
+- - **Purpose:** Creates a **list object** from an iterable. Unlike sets, lists can contain duplicate elements and maintain the order of elements.
+tuple(iterable):
+
+-  - **Purpose:** Creates a **tuple object** from an iterable. Tuples are similar to lists but are immutable, meaning their contents cannot be changed once created.
+frozenset(iterable):
