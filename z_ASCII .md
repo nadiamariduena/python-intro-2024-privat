@@ -106,3 +106,17 @@ Dec  Hex  Char   Dec  Hex  Char   Dec  Hex  Char   Dec  Hex  Char
  ### 🟠 Example:
 
  - - **Suppose** you have a **list of words** and **you want** to **sort** them **alphabetically**:
+
+ ```python
+words = ["apple", "Banana", "car", "Dog"]
+sorted_words = sorted(words)
+print(sorted_words)
+#
+# ✋ OUTPUT
+# ['Banana', 'Dog', 'apple', 'car']
+ ```
+
+ <br>
+
+### 🟣 QUESTION: so its getting only the uppercase from THE table:
+`'Apple' (65), 'Banana' (66), 'Cat' (67), and 'Dog' (68).`
