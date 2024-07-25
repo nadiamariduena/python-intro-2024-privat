@@ -48,15 +48,24 @@ print(union_set)         # Output: {1, 2, 3, 4, 5}
 
 <br>
 
-#### Feature Flags or Configuration Settings:
+### Feature Flags or Configuration Settings:
 
 - - If you have a need to manage multiple boolean options compactly (e.g., feature flags), you might use bitwise operations to set, check, or toggle these flags efficiently.
 
+
+<br>
 
 ### ✋ Custom Graphics or Game Development:
 
 - - In cases where you're working with custom graphics rendering (like using WebGL) or game development, you might use bitwise operations for pixel manipulation or to handle various states or flags in a compact way.
 
+<br>
+
+- - #### Example: Using Bitwise Operations for Pixel Manipulation
+
+
+
+<br>
 <br>
 
 ### Performance Optimization:
