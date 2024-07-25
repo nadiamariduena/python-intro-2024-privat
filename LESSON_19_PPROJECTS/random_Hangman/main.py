@@ -13,3 +13,5 @@ def get_valid_word():
 
         word = random.choice(words)
 
+
+        return word
