@@ -344,3 +344,8 @@ console.log(isMember);  // Output will be true if 4 is in the Set, otherwise fal
 # true
 #
 ```
+<br>
+
+**mySet** is a Set containing the numbers 1, 2, 3, 4, 5.
+
+**The `has()` method** checks if **4** is an element in mySet.
