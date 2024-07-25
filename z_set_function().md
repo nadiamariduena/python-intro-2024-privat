@@ -239,3 +239,15 @@ print(updated_document)
 
 `Update: { '$set': { 'address': '789 Updated Blvd' } }` specifies the change to be made, which is updating the address field.
 
+
+### Fetch Updated Document:
+
+After performing the update, the find_one method retrieves the updated document based on the `_id`.
+
+
+This example demonstrates how MongoDB's $set operator is used to modify an existing field in a document.
+
+- The Python script connects to the MongoDB database, performs the update, and then retrieves the updated document to confirm the change.
+
+<br>
+<br>
