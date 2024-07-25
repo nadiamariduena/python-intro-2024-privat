@@ -98,7 +98,14 @@ my_set = {1, 2, 3}
 new_set = my_set.copy()  # Creates a shallow copy of the set
 print(new_set)           # Output: {1, 2, 3}
 
+```
+- SET Length
 
+```python
+my_set = {1, 2, 3}
+print(len(my_set))  # Output: 3
+
+```
 
 
 <br>
