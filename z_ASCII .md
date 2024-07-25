@@ -148,3 +148,15 @@ print(ascii_uppercase)
 # Output: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 ```
+<br>
+
+- This string **ascii_uppercase** consists of all uppercase letters in the ASCII character set, which are exactly the characters you mentioned ('A', 'B', 'C', 'D').
+
+- These characters have consecutive ASCII values from 65 to 68, respectively.
+
+<br>
+<br>
+
+##  🟦 Another ascii table
+
+- This table covers the basic ASCII characters from 0 to 127. Each character has a unique decimal and hexadecimal representation, allowing computers to understand and process textual data universally across different systems and programming languages that adhere to the ASCII standard.
