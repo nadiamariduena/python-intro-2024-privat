@@ -161,3 +161,29 @@ print(document)
 - 🔸 The `$set` **operator** will be used to update the address field in the user's document.
 
 <br>
+
+### Setup
+
+**MongoDB Collection Setup:**
+
+-  - Assume your MongoDB collection users has the following documents:
+
+
+```json
+{
+  "_id": 1,
+  "name": "Alice",
+  "address": "123 Old St"
+},
+{
+  "_id": 2,
+  "name": "Bob",
+  "address": "456 New Ave"
+}
+
+
+```
+
+<br>
+
+### 🟠 Python Script to UPDATE  the address propery:
