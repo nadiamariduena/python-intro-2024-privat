@@ -107,6 +107,29 @@ print(len(my_set))  # Output: 3
 
 ```
 
+<br>
+<br>
+
+### 🟦 Set Operations
+
+
+🟧 **Union**
+
+- -  The `|` **operator** **or** the `union()` **method** is used to merge two sets and automatically handle duplicates.
+
+Here’s a quick breakdown:
+
+<br>
+
+```python
+# merging, will ignore the duplicates
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+union_set = set1 | set2  # or set1.union(set2)
+print(union_set)         # Output: {1, 2, 3, 4, 5}
+
+```
+
 
 <br>
 <br>
