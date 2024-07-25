@@ -144,7 +144,12 @@ print(union_set)         # Output: {1, 2, 3, 4, 5}
 
 <br>
 
-### 🟣 QUESTION: so it s not common in frontend application that dont involve bits or math opeartions?
+### 🟣 QUESTION: so it s not common in frontend application (that doesn't involve bits or math opeartions)?
+
+#### ✅ chatgpt:
+
+-
+**Correct**, the `bitwise OR operator (|)` is **not commonly used in typical frontend** applications that focus on UI design, user interactions, or animations. For most frontend development tasks, **you won't find much use** for **bitwise** operations **unless you're dealing** with specific cases where **bit-level manipulation**  is beneficial. [Bit Manipulation 01: Introduction](https://youtu.be/uUtb0BaeosQ?si=SD3NqOeSLQBWJVnb)
 
 <br>
 <br>
