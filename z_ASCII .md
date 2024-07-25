@@ -276,3 +276,62 @@ ASCII values for Punctuation: {'@': 64, '!': 33, ',': 44, '#': 35, ' ': 32}
 🟠 **Handle Symbols:** Identify symbols and their ASCII values. For example, { is indeed represented by ASCII 123.
 
 <br>
+
+```python
+import string
+
+# Example text
+text = "Hello, World! 123 @#"
+
+# Define a function to extract specific uppercase letters based on positions
+def extract_specific_uppercase(text, positions):
+    """Extract specific uppercase letters from given positions."""
+    result = []
+
+
+
+    # for pos in positions: Imagine you have a list of places to check, like different spots on a treasure map. This line says, "Let's look at each of these spots one by one."
+
+    for pos in positions:
+        # Check if the position is within the text and is an uppercase letter
+        #For each spot, this line checks two things:
+        if 0 <= pos < len(text) and text[pos] in string.ascii_uppercase:
+            result.append(text[pos])
+
+
+            #
+    return result
+
+# Define specific positions for extraction
+positions = [0, 8]  # 0 for 'H' in "Hello", 8 for 'W' in "World"
+
+# Extract specific uppercase letters
+specific_uppercase = extract_specific_uppercase(text, positions)
+
+# Extract and print symbols
+symbols = set(char for char in text if char in string.punctuation)
+
+# Print results
+print("Specific Uppercase Letters:", specific_uppercase)
+print("Symbols:", symbols)
+
+# Print ASCII values for the symbols
+# We use string.punctuation to extract symbols from the text. We then print out these symbols and their ASCII values using the ord() function.
+ascii_values = {char: ord(char) for char in symbols}
+print("ASCII values for Symbols:", ascii_values)
+
+#You can incorporate the { symbol and its ASCII value directly into the script if needed:
+# Example of checking ASCII value for '{'
+# print("ASCII value for '{':", ord('{'))
+
+
+```
+
+#### output
+
+```bash
+Specific Uppercase Letters: ['H', 'W']
+Symbols: {'!', ',', ' ', '@', '#'}
+ASCII values for Symbols: {'!': 33, ',': 44, ' ': 32, '@': 64, '#': 35}
+
+```
