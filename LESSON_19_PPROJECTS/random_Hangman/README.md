@@ -21,13 +21,24 @@ project_folder/
 <br>
 <br>
 
-## 🟠  1. import
+## 🟠  0. import
 
 - import the **random** module, then import the file with the words
 
 ```python
 import random
 from file_withwords import words
+```
+
+<br>
+<br>
+
+## 🟠 1. Retrieve the `words` from the `file_withwords`
+
+- pass the parameter **words**
+
+```python
+def get_valid_word(words):
 ```
 
 <br>
@@ -112,22 +123,46 @@ return word
 
 <br>
 
+ ### 🟡 6. Select a random word from the words list
+
+<br>
+
+- This function selects a random word from the words list, **ensuring** it **doesn't contain hyphens or spaces**.
+
+
+- - 🔶 If a word with these characters is chosen, it keeps selecting until it finds a valid word.
+
+<br>
+
+```python
+def get_valid_word(words):
+    word = random.choice(words)
+    while '-' in word or ' ' in word:
+        word = random.choice(words)
+    return word
+
+```
+
+<br>
+<br>
+<br>
+<br>
+
+
+ ### 🟡 7.
+
+
+ -  Import `string` ,  to **access** the uppercase **alphabet**
+
+
+
 ```python
 import random
 from file_withwords import words
-
-
-
-def get_valid_word():
-
-    word = random.choice(words)
-
-    while '_' in word or ' ' in words:
-
-
-        word = random.choice(words)
-
-
-        return word
-
+import string ✋ # import this
+#
 ```
+<br>
+<br>
+
+ ### 🟡 8. Initialize the Game:
