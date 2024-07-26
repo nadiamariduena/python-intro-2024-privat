@@ -72,6 +72,12 @@ print(union_set)         # Output: {1, 2, 3, 4, 5}
 #### 🟣 when you say: "In graphics programming, you might need to 'manipulate' individual "pixels" of an image, DO you mean: manipulating the pixels in a RPG game and if yes, show me an example
 
 
+#### ✅ chatgpt:
+
+- **Absolutely!** In **RPG** (Role-Playing Game) development or any other game where custom graphics are involved, manipulating individual pixels of an image can be essential. This might be done for a variety of reasons, **such as applying custom effects, changing textures dynamically, or creating visual feedback**.
+
+https://youtube.com/shorts/0cYjreg7dpg?si=ZhnVae39pacE3OkB
+
 <br>
 <br>
 
