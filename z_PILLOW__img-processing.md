@@ -90,9 +90,9 @@ with Image.open('example.jpg') as img:
 <br>
 <br>
 
-#### 🟠 1.  Social Media Platforms
+### 🟠 1.  Social Media Platforms
 
-<br>
+
 
 
 **Image Filtering and Editing:** Apply filters, resize, or crop user-uploaded photos before displaying them on the platform.
@@ -100,7 +100,64 @@ with Image.open('example.jpg') as img:
 
 **Thumbnail Generation:** Create and optimize thumbnails for faster page loads and improved user experience.
 
-**User Profile Customization:** Allow users to edit or personalize their profile pictures.
+**User Profile Customization:** 📌 Allow users to edit or personalize their profile pictures.
 
 
+<br>
+
+### 🟠 2. E-commerce Websites
+
+
+**Product Image Processing:** Optimize product images for web use by resizing, compressing, or converting formats.
+
+
+🔥 **Virtual Try-On:** 📌   Implement features where users can try on products (like glasses or makeup) by overlaying product images on their own photos.
+
+<br>
+
+
+### 🟠 3. Content Management Systems (CMS)
+
+
+**Automated Image Handling:** 📌 Automatically handle and process images uploaded by users, including resizing and format conversion.
+
+
+**Image Manipulation:** 📌 Enable features such as cropping, rotating, and adding text or watermarks to images within the CMS.
+
+
+
+<br>
+
+
+### 🟠 4. Photo Editing Applications
+
+**Basic Editing Tools:** 📌 Provide features for cropping, resizing, rotating, and applying filters to images.
+
+🔥 **Advanced Processing:** 📌 Integrate more complex image manipulations, such as blending multiple images or generating effects.
+
+
+<br>
+
+### 🟠 5. Document Processing
+
+**PDF Generation:** Create and manipulate images within PDFs, such as generating graphs or embedding photos.
+
+
+**OCR (Optical Character Recognition):** Process scanned documents and images to extract text, especially when combined with OCR libraries.
+
+
+<br>
+
+### 🟠 6. Machine Learning and AI
+
+
+**Data Augmentation:** Perform transformations on images to create diverse datasets for training machine learning models.
+
+
+**Preprocessing:** Prepare images for further analysis or model input by resizing or converting formats.
+
+
+
+<br>
+<br>
 <br>
