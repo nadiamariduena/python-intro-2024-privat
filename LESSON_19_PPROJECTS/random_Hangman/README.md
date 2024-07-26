@@ -182,3 +182,16 @@ import string ✋ # import this
 
 <br>
 
+
+```python
+def hangman():
+    word = get_valid_word(words) # the get_valid_word is the first function. the ones that handles (selects a random word from the words list, **ensuring** it **doesn't contain hyphens or spaces**.)
+
+
+    #
+    #
+    word_letters = set(word) #`word_letters` is a `set` of **unique letters** in the `word` to be **guessed**
+    alphabet = set(string.ascii_uppercase) #`alphabet` is a `set` **of all uppercase letters**.
+    used_letters = set() #`used_letters` keeps **track of letters** that the **user has guessed** so far.
+
+```
