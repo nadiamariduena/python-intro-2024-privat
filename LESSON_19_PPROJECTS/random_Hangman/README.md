@@ -233,3 +233,15 @@ user_letter = input("Guess a letter: ").upper()
 
 <br>
 
+
+
+```python
+
+# If it is, add it to used_letters.
+    if user_letter in alphabet - used_letters:
+        used_letters.add(user_letter)
+
+        if user_letter in word_letters: # If the letter is in word_letters,
+            word_letters.remove(user_letter) # it means the guess was correct, so remove it from word_letters.
+
+```
