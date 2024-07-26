@@ -172,3 +172,13 @@ import string ✋ # import this
  - - #### 🟦 Purpose:
 
  <br>
+
+ - - **Checks** if the **guess** is **valid and unused**.
+
+- - **Updates** the **state** based on **whether** the **guess** is **correct or not**.
+
+- - **Provides feedback** to the **user** if the **guess** has **already** been **used or is invalid**
+
+
+<br>
+
