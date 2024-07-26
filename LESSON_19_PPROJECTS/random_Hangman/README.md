@@ -195,3 +195,26 @@ def hangman():
     used_letters = set() #`used_letters` keeps **track of letters** that the **user has guessed** so far.
 
 ```
+
+<br>
+
+ - - 🟢 `word` is `set` to a valid **random word**.
+
+ - - 🟢 `word_letters` is a `set` of **unique letters** in the `word` to be **guessed**.
+
+
+ - - 🟢 `alphabet` is a `set` **of all uppercase letters**.
+
+
+ - - 🟢 `used_letters` keeps **track of letters** that the **user has guessed** so far.
+
+
+
+<br>
+<br>
+
+ ### 🟡 9. Prompts the user to guess a letter
+
+- Prompts the user to guess a letter and converts their input to uppercase for consistency with the game logic.
+
+ <br>
