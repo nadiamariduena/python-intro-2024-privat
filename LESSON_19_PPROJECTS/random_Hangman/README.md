@@ -166,3 +166,9 @@ import string ✋ # import this
 <br>
 
  ### 🟡 8. Initialize the Game:
+
+ -  - 🟠 It selects a valid word for the game, initializes the sets for the letters in the word, the alphabet, and used letters.
+
+ - - #### 🟦 Purpose:
+
+ <br>
