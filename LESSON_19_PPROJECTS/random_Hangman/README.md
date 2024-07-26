@@ -218,3 +218,18 @@ def hangman():
 - Prompts the user to guess a letter and converts their input to uppercase for consistency with the game logic.
 
  <br>
+
+```python
+user_letter = input("Guess a letter: ").upper()
+```
+
+
+<br>
+<br>
+
+
+ ### 🟡 10. Handle User Input: Prompts the user to guess a letter and processes the guess:
+
+
+<br>
+
