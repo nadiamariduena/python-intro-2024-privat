@@ -826,6 +826,6 @@ lives = 0
 
 - - 🟦  This line **sets up** a **variable** named **lives** to **keep track** of **how many attempts** the **player has left**.
 
-
+- - 🫐 You'll need to update this counter throughout the game to reflect the number of incorrect guesses.
 
 
