@@ -343,3 +343,19 @@ while len(word_letters) > 0:
 - - Now that we can get the user **INPUT**, I want the **user** to be able to keep guessing **UNTIL** they the **get the WORD**
 
 <br>
+
+- -  >Every time I am removing a letter from **word letters**, which is a **set()** of the letters of the **word** (list/Array) that we haven't seen yet, I am just keep decrementing that
+
+
+- - So the condition that I have to satisfy for when the user gets all the letters in the words in the word, is:
+
+
+🟧 **while** the **length** of **word_letters** list/array is greater `>` than zero, I am going to keep iterating
+
+```python
+# similar to js but different syntax len for length
+while len(word_letters) > 0:
+# react
+#if (wordLetters.length > 0) {
+```
+<br>
