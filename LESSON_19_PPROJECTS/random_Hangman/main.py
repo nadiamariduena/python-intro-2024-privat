@@ -64,7 +64,9 @@ def function_2_hangman():
         # If the letter is in used_letters, it is included as-is in word_list, ELSE...
         # If the letter is not in used_letters, an underscore ("_") is included in its place.
 
-
+        # 13 Now I am going to get this "new WORD list" and I am going to `.join()` it again(like i did it previously)
+        print("Current word:", " ".join(word_list))
+        # This part converts the word_list from a list of characters into a single string with each character separated by a space. For example, if word_list is ['h', 'e', 'l', 'l', '_'], " ".join(word_list) will produce "h e l l _"
 
 
         # 5 add var, (this var will be the letter the user will type) and assign message input to "guess a letter:" , to uppercase()
