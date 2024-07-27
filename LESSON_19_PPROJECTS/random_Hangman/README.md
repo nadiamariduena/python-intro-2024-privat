@@ -379,3 +379,25 @@ while len(word_letters) > 0:
 ```
 <br>
 <br>
+
+### Like so
+
+```python
+ # 4
+  used_letters = set()
+     #           __|**|__   WHILE    __ |**|_
+    #
+    # 10 while the  length of word_letters list/array is greater `>` than zero, I am going to keep iterating
+    while len(word_letters) > 0:
+
+    # |**| KEEP iterating until they find - all the letters
+        # 5 the letters the user will be adding
+        user_letters = input("GUESS A LETTER: " ).upper()
+            # 6)
+        if user_letters in alphabet - used_letters:
+```
+
+<br>
+<br>
+
+## 🟠 `Join` the word
