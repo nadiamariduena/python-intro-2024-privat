@@ -401,3 +401,16 @@ while len(word_letters) > 0:
 <br>
 
 ## 🟠 `Join` the word
+
+- `.join` will turn the list into a **string**, separated by whatever the string is.
+
+-  you can add **white spaces, symbols, letters** , example:
+
+-  `' '.join` or `', '.join` or `'/ '.join` etc...
+
+
+```python
+print("You have used these letters: ", ' '.join(used_letters))
+#output
+"a", "b",
+```
