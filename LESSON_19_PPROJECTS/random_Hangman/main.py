@@ -81,7 +81,9 @@ def function_2_hangman():
                 # 9 to the set of word_letters, remove( the user_letters)
                 word_letters.remove(user_letters)
 
-
+            else:
+                lives = lives - 1 # Takes away a life if wrong
+                print("Letter is not in word")
 
         elif user_letters in used_letters:
             print("You have already used that character. Please try again")
