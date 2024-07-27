@@ -547,3 +547,103 @@ if __name__ == '__main__':
 
 
  >No matter what word I used, **the program didn't retrieve** any **words** from the file.
+
+<br>
+
+```bash
+Type Something: a
+a
+You have used these letters:
+Current word: _ _ _ _
+GUESS A LETTER: s
+You have used these letters:  S
+Current word: _ _ _ _
+GUESS A LETTER: e
+You have used these letters:  S E
+Current word: _ _ _ _
+GUESS A LETTER: r
+You have used these letters:  R S E
+Current word: _ _ _ _
+GUESS A LETTER: t
+You have used these letters:  R T S E
+Current word: _ _ _ _
+GUESS A LETTER: z
+You have used these letters:  Z S R E T
+Current word: _ _ _ _
+GUESS A LETTER: u
+You have used these letters:  Z U S R E T
+Current word: _ _ _ _
+GUESS A LETTER: i
+You have used these letters:  Z U S R E I T
+Current word: _ _ _ _
+GUESS A LETTER: o
+You have used these letters:  Z U S O R E I T
+Current word: _ _ _ _
+GUESS A LETTER: o
+You have already used that character. Please try again
+You have used these letters:  Z U S O R E I T
+Current word: _ _ _ _
+GUESS A LETTER: p
+You have used these letters:  Z U S P O R E I T
+Current word: _ _ _ _
+GUESS A LETTER: a
+You have used these letters:  A Z U S P O R E I T
+Current word: _ _ _ _
+GUESS A LETTER: s
+You have already used that character. Please try again
+You have used these letters:  A Z U S P O R E I T
+Current word: _ _ _ _
+GUESS A LETTER: d
+You have used these letters:  A Z U S P O R D E I T
+Current word: _ _ _ _
+GUESS A LETTER: f
+You have used these letters:  A Z U S P O R F D E I T
+Current word: _ _ _ _
+GUESS A LETTER: g
+You have used these letters:  A Z U S P O G R F D E I T
+Current word: _ _ _ _
+GUESS A LETTER: h
+You have used these letters:  A Z U S P O G R F H D E I T
+Current word: _ _ _ _
+GUESS A LETTER: j
+You have used these letters:  A Z U S P O G J R F H D E I T
+Current word: _ _ _ _
+GUESS A LETTER: k
+You have used these letters:  A Z U S P O K G J R F H D E I T
+Current word: _ _ _ _
+GUESS A LETTER: l
+You have used these letters:  A Z U S P L O K G J R F H D E I T
+Current word: _ _ _ _
+GUESS A LETTER: l
+You have already used that character. Please try again
+You have used these letters:  A Z U S P L O K G J R F H D E I T
+Current word: _ _ _ _
+GUESS A LETTER: y
+You have used these letters:  A Z U S P L O K G J R F H D E I Y T
+Current word: _ _ _ _
+GUESS A LETTER: x
+You have used these letters:  L J F E Z S X K R D I Y U T A P G H O
+Current word: _ _ _ _
+GUESS A LETTER: c
+You have used these letters:  L J F E Z S C X K R D I Y U T A P G H O
+Current word: _ _ _ _
+GUESS A LETTER: v
+You have used these letters:  L J F E Z S C X K R D I Y U T A P V G H O
+Current word: _ _ _ _
+GUESS A LETTER: b
+You have used these letters:  L J F E B Z S C X K R D I Y U T A P V G H O
+Current word: _ _ _ _
+GUESS A LETTER: n
+You have used these letters:  L J F E B Z S C X K R D I Y U T A P V G N H O
+Current word: _ _ _ _
+GUESS A LETTER: m
+You have used these letters:  L J F E B Z S C X K R D I Y U T A M P V G N H O
+Current word: _ _ _ _
+GUESS A LETTER:
+
+```
+
+<br>
+<br>
+
+## 🔴 Reason:
