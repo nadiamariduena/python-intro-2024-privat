@@ -824,5 +824,8 @@ GUESS A LETTER: i
 lives = 0
 ```
 
+- - 🟦  This line **sets up** a **variable** named **lives** to **keep track** of **how many attempts** the **player has left**.
+
+
 
 
