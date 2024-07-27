@@ -538,3 +538,12 @@ if __name__ == '__main__':
 <br>
 
 # 🔴 Issue:
+
+#### 🟠 At the end of the first phase of this **Hangman** exercise, I encountered an issue where I couldn't get the desired result.
+
+<br>
+
+- I **typed all** the **letters** of the **alphabet** and it didnt seem to find a match.
+
+
+ >No matter what word I used, **the program didn't retrieve** any **words** from the file.
