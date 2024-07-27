@@ -308,3 +308,23 @@ print(user_input)
 if __name__ == '__main__':
     hangman()
 ```
+
+<br>
+
+#### Run the code `python main.py`
+
+<br>
+
+
+
+- you will be requested to type a letter **twice**
+
+```bash
+Type Something: e
+e
+GUESS A LETTER: f
+```
+
+### 🟢 output
+
+>It will not do anything (because we need to implement the next phase)
