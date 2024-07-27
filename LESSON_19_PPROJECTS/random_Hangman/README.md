@@ -3,6 +3,8 @@
 <br>
 <br>
 
+# 🌴 Phase 1.
+
 ### 🟦 Structure
 
 ```javascript
@@ -785,3 +787,9 @@ GUESS A LETTER: i
 
 <br>
 <br>
+
+
+# 🌴 Phase 2.
+
+### Implementing Lives and Success Message
+
