@@ -443,3 +443,15 @@ word_list = [letter if letter in used_letters else "_" for letter in word]
 # If the letter is in used_letters, it is included as-is in word_list, ELSE...
 # If the letter is not in used_letters, an underscore ("_") is included in its place.
 ```
+
+<br>
+<br>
+
+### 🟠 Now I am going to get this "new WORD list" and I am going to `.join()` it again, so to convert it and to have this result: `"h e l l _"`
+
+
+```python
+    # 13
+        print("Current word:", " ".join(word_list))
+        # This part converts the word_list from a list of characters into a single string with each character separated by a space. For example, if word_list is ['h', 'e', 'l', 'l', '_'], " ".join(word_list) will produce "h e l l _"
+```
