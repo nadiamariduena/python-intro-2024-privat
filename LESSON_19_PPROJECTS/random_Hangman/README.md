@@ -647,3 +647,34 @@ GUESS A LETTER:
 <br>
 
 ## 🔴 Reason:
+
+### ✅: the import
+
+
+
+#### ⚠️ When importing data from other files, it's important to consider the `file type`.
+
+
+
+
+<br>
+
+#### The problem:
+
+ This problem was due to the import statement I used:
+
+`from file_withwords import words`, where `file_withwords` referred to `file_withwords.py`.
+
+>🤚 I think i already had a similar issue when retrieving **data** from either a `json or js` **file** to use in a **.map** operation
+
+
+<br>
+
+#### Solution:
+
+-  - I had the **choice to either use** the **long name** or **rename** the **file** to simply `words`. I chose the latter:
+
+```python
+# ✋
+from words import words
+```
