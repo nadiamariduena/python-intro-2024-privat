@@ -431,3 +431,15 @@ print("You have used these letters: ", ' '.join(used_letters))
 
 - - **If** the **letter** is **not** in `used_letters`, an **underscore** ("_") is **included** in its place.
 
+
+- -  By using **dashes** (you can use other symbols), the **user will know** what are the **words they haven't** guessed. example: `'h', 'e', 'l', 'l', '_'`
+
+<br>
+
+```python
+ #- The code generates a new list, word_list,
+ # - where each character in word is checked to see if it’s present in the collection used_letters.
+word_list = [letter if letter in used_letters else "_" for letter in word]
+# If the letter is in used_letters, it is included as-is in word_list, ELSE...
+# If the letter is not in used_letters, an underscore ("_") is included in its place.
+```
