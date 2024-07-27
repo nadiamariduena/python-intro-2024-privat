@@ -798,3 +798,9 @@ GUESS A LETTER: i
 #### 1.  Add Lives:
 
 - -   Introduce a **mechanism to track** and display the **number** of remaining **lives**. Each incorrect guess should decrement the count of lives.
+
+<br>
+
+#### 2. Success Message:
+
+-  - When the user successfully completes the word by finding all the letters, the game should display a congratulatory message or visual to indicate their victory.
