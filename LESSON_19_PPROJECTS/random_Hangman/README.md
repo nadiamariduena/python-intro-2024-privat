@@ -793,6 +793,11 @@ GUESS A LETTER: i
 
 ### 🌞 Implementing Lives and Success Message
 
+
+ This will make the game more interactive and rewarding as players work to complete the word while managing their lives.
+
+<br>
+
 <br>
 
 #### 1.  Add Lives:
