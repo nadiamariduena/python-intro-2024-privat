@@ -1,71 +1,92 @@
+#
+# intro: imports
+# import the random, string, and file containing the list of words
 import random
-from file_withwords import words
 import string
+# when importing data from other files, keep in mind that the file type, is important
+# because at the end of the first phase of this hangman exercise, i couldnt get the result i wanted  (no matter what word i used, it simply didnt get any word from the file of words), and was because the importing, i had this: "from file_withwords import words" and this file_withwords came from the file_withwords.py, so i ad the choice to either use the long name, or change the name to simply words, so to import it like "words" like here below(that is what i did)
+from words import words
 
 
-#1
-def get_valid_word(words):
-    #
 
-    #
-# 1 grab the data coming from the 'words'
+#  1
+# create the function to grab the words from the list
+def function_1_(words):
+
+#   1.a grab the data coming from the 'words'
+## Pick a random word from the list
+
     word = random.choice(words)
-    # loop: add the condition in which you tell it to continue the loop if the users adds either a _ or ' ' (empty space)
-    while '_' in word or ' ' in words:
+
+    # 1.b loop: add the condition in which you tell it:
+    ## If the word has underscores or spaces...
+
+    while "_" in word or " " in words:
+
+        # 1.c # ... Pick a new word
         word = random.choice(words)
-    # stop the loop
+
+
+    # 1.d # Give back the chosen word
+
     return word
 
 
-def hangman():
+#------------
+#  2)  create the function to init the hangman game
+def function_2_hangman():
+
     #1 make the connection to the first function
-    word = get_valid_word(words)
+    word =  function_1_(words)
 
     #2 TAKES the 'word' and turns it into a special list where each letter is only listed
-    word_letters = set(word)
 
-    #
+    word_letters = set(word)
     #3 This line creates a list of all the letters in the alphabet, from A to Z. It’s like having a list of all the letters you can use to guess the secret word.
     alphabet = set(string.ascii_uppercase)
-
-    #
     # 4 This line starts with an empty list where you can keep track of the letters you’ve already guessed. At first, it’s empty because you haven’t guessed any letters yet.
     used_letters = set()
 
+
+
+
+    #               __  || __ 🟡 WHILE  🟡 __  || _
     #
-    #
-    # 5 add var and assign message input to "guess a letter:" , to uppercase()
-    user_letter = input("Guess a letter: ").upper()
+    # 10 while the  length of word_letters list/array is greater `>` than zero, I am going to keep iterating
+    while len(word_letters) > 0:
+        #
+
+        # 5 add var, (this var will be the letter the user will type) and assign message input to "guess a letter:" , to uppercase()
+        user_letters = input("GUESS A LETTER: " ).upper()
+        # 6) Check if the user letter is 'in' the alphabet, and hasnt - ' been used yet (used_letters)
+        if user_letters in alphabet - used_letters:
+            # 7) to the set of used letters '.add' the ( the user letter)
+            used_letters.add(user_letters)
+
+            ## 8 If the user_letters is 'in' the word letters...
+            if user_letters in word_letters:
+                # 9 to the set of word_letters, remove( the user_letters)
+                word_letters.remove(user_letters)
 
 
-    # CONDITION
+
+        elif user_letters in used_letters:
+            print("You have already used that character. Please try again")
+
+        else:
+            print("Invalid character. Please try again")
+
+    # ____ 🟦  KEEP iterating until they find - all the letters
 
 
-    # 6 Check if the user letter is in the alphabet, and hasn't been used yet (used_letters)
-    if user_letter in alphabet - used_letters:
+    # __  || __ WHILE 🟡 __  || _
 
 
-        # 7 Add the user letter to the set of used letters
-        used_letters.add(user_letter)
-
-        ## 8 If the user letter is in the word letters...
-        if user_letter in word_letters:
-
-             # 9 If the user letter exist within the list of word_letters, remove it
-            word_letters.remove(user_letter)
-
-
-    elif user_letter in used_letters:
-        print("You have already used that character. PLEASE try again.")
-
-
-    else:
-        print("Invalid character. Please try again")
-
-
-user_input = input("Type Something")
+# ---- END ----
+user_input = input("Type Something: ")
 print(user_input)
 
 if __name__ == '__main__':
-    hangman()
-
+    #
+    # call the function with the condition logic
+    function_2_hangman()
