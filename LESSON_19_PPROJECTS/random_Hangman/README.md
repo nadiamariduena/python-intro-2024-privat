@@ -455,3 +455,86 @@ word_list = [letter if letter in used_letters else "_" for letter in word]
         print("Current word:", " ".join(word_list))
         # This part converts the word_list from a list of characters into a single string with each character separated by a space. For example, if word_list is ['h', 'e', 'l', 'l', '_'], " ".join(word_list) will produce "h e l l _"
 ```
+
+<br><br>
+
+## 🟣 Testing:
+- Run your code: `python main.py`
+
+```python
+
+import random
+import string
+from words import words
+
+
+
+
+def function_1_(words):
+
+    word = random.choice(words)
+    while "-" in word or " " in words:
+        word = random.choice(words)
+    return word.upper()
+
+
+
+def function_2_hangman():
+
+
+    word =  function_1_(words)
+    word_letters = set(word)
+    alphabet = set(string.ascii_uppercase)
+    used_letters = set() # what user has guessed
+
+
+
+
+
+    while len(word_letters) > 0:
+
+        print("You have used these letters: ", ' '.join(used_letters))
+
+        word_list = [letter if letter in used_letters else "-" for letter in word]
+
+        print("Current word:", " ".join(word_list))
+
+
+
+        user_letters = input("GUESS A LETTER: " ).upper()
+
+        if user_letters in alphabet - used_letters:
+            used_letters.add(user_letters)
+
+
+            if user_letters in word_letters:
+                word_letters.remove(user_letters)
+
+            else:
+                print('\nYour letter, ', user_letters, 'is not in the word.')
+
+
+
+        elif user_letters in used_letters:
+            print("You have already used that character. Please try again")
+        else:
+            print("Invalid character. Please try again")
+
+
+
+# ---- END ----
+user_input = input("Type Something: ")
+print(user_input)
+
+if __name__ == '__main__':
+
+    function_2_hangman()
+
+
+```
+
+<br>
+<br>
+<br>
+
+# 🔴 Issue:
