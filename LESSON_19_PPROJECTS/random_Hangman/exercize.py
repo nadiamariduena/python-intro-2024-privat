@@ -5,42 +5,45 @@
 # -----------------------------------
 # intro: imports
 # import the random, string, and file containing the list of words
+import random
+import string
+from file_withwords import words
 
 
 
 # 🟦 0
 # create the function to grab the words from the list
-
-
+def function_1_(words):
 
 # 🟦 1.a grab the data coming from the 'words'
 ## Pick a random word from the list
 
-
-
+    word = random.choice(words)
 
     # 1.b loop: add the condition in which you tell it:
     ## If the word has underscores or spaces...
 
-
+    while "_" in word or " " in words:
 
         # 1.c # ... Pick a new word
-
+        word = random.choice(words)
 
 
     # 1.d # Give back the chosen word
 
-
+    return word
 
 
 #------------
 # 🟧 # create the function to init the hangman game
-
+def function_2_hangman():
 
     #1 make the connection to the first function
-
+    word =  function_1_(words)
 
     #2 TAKES the 'word' and turns it into a special list where each letter is only listed
+
+    word_letters = set(word)
 
 
     #
