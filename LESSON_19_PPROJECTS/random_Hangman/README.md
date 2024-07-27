@@ -791,5 +791,10 @@ GUESS A LETTER: i
 
 # 🌴 Phase 2.
 
-### Implementing Lives and Success Message
+### 🌞 Implementing Lives and Success Message
 
+<br>
+
+#### 1.  Add Lives:
+
+- -   Introduce a **mechanism to track** and display the **number** of remaining **lives**. Each incorrect guess should decrement the count of lives.
