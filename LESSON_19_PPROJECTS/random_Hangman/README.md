@@ -809,3 +809,20 @@ GUESS A LETTER: i
 #### 2. Success Message:
 
 -  - When the user successfully completes the word by finding all the letters, the game should display a congratulatory message or visual to indicate their victory.
+
+
+<br>
+<br>
+
+
+### 🟧 <u>Add Lives</u>  :
+
+
+#### Begin by initializing the lives counter in your game. For example:
+
+```python
+lives = 0
+```
+
+
+

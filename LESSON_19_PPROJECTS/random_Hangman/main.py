@@ -48,9 +48,9 @@ def function_2_hangman():
     used_letters = set()
 
 
+    lives = 0
 
-
-    #               __  || __ 🟡 WHILE  🟡 __  || _
+    #
     #
     # 10 while the  length of word_letters list/array is greater `>` than zero, I am going to keep iterating
     while len(word_letters) > 0:
@@ -92,7 +92,7 @@ def function_2_hangman():
     # ____ 🟦  KEEP iterating until they find - all the letters
 
 
-    # __  || __ WHILE 🟡 __  || _
+
 
 
 # ---- END ----
