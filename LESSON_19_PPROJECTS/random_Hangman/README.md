@@ -328,3 +328,18 @@ GUESS A LETTER: f
 ### 🟢 output
 
 >It will not do anything (because we need to implement the next phase)
+
+<br>
+<br>
+
+## 🟠 Another `WHILE` Loop
+
+<br>
+
+```python
+while len(word_letters) > 0:
+```
+
+- - Now that we can get the user **INPUT**, I want the **user** to be able to keep guessing **UNTIL** they the **get the WORD**
+
+<br>
