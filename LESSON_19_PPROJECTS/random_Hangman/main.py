@@ -55,6 +55,10 @@ def function_2_hangman():
     # 10 while the  length of word_letters list/array is greater `>` than zero, I am going to keep iterating
     while len(word_letters) > 0:
         #
+        # 11 `.join` will turn the list into a **string**, separated by whatever the string is `you can add , white spaces, etc...`
+        print("You have used these letters: ", ' '.join(used_letters))
+
+
 
         # 5 add var, (this var will be the letter the user will type) and assign message input to "guess a letter:" , to uppercase()
         user_letters = input("GUESS A LETTER: " ).upper()
