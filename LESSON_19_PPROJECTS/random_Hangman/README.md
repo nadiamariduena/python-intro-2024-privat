@@ -678,3 +678,110 @@ GUESS A LETTER:
 # ✋
 from words import words
 ```
+
+<br>
+<br>
+
+### Test it again
+
+#### output
+
+```bash
+Type Something: a
+a
+You have used these letters:
+Current word: - - - - - - - -
+GUESS A LETTER: b
+
+Your letter,  B is not in the word.
+You have used these letters:  B
+Current word: - - - - - - - -
+GUESS A LETTER: p
+
+Your letter,  P is not in the word.
+You have used these letters:  B P
+Current word: - - - - - - - -
+GUESS A LETTER: h
+You have used these letters:  B H P
+Current word: H - - - - - - -
+GUESS A LETTER: a
+You have used these letters:  B H A P
+Current word: H - - - - A - -
+GUESS A LETTER: e
+You have used these letters:  E B H P A
+Current word: H E - - - A - -
+GUESS A LETTER: r
+
+Your letter,  R is not in the word.
+You have used these letters:  E B H P R A
+Current word: H E - - - A - -
+GUESS A LETTER: t
+You have used these letters:  E B H T P R A
+Current word: H E - - T A - T
+GUESS A LETTER: s
+You have used these letters:  E B H T P R S A
+Current word: H E S - T A - T
+GUESS A LETTER: m
+
+Your letter,  M is not in the word.
+You have used these letters:  E B M H T P R S A
+Current word: H E S - T A - T
+GUESS A LETTER: h
+You have already used that character. Please try again
+You have used these letters:  E B M H T P R S A
+Current word: H E S - T A - T
+GUESS A LETTER: o
+
+Your letter,  O is not in the word.
+You have used these letters:  E B M H T O P R S A
+Current word: H E S - T A - T
+GUESS A LETTER: p
+You have already used that character. Please try again
+You have used these letters:  E B M H T O P R S A
+Current word: H E S - T A - T
+GUESS A LETTER: q
+
+Your letter,  Q is not in the word.
+You have used these letters:  E Q B M H T O P R S A
+Current word: H E S - T A - T
+GUESS A LETTER: d
+
+Your letter,  D is not in the word.
+You have used these letters:  E D Q B M H T O P R S A
+Current word: H E S - T A - T
+GUESS A LETTER: c
+
+Your letter,  C is not in the word.
+You have used these letters:  E D Q B M C H T O P R S A
+Current word: H E S - T A - T
+GUESS A LETTER: v
+
+Your letter,  V is not in the word.
+You have used these letters:  E D Q B M C H T O P R V S A
+Current word: H E S - T A - T
+GUESS A LETTER: b
+You have already used that character. Please try again
+You have used these letters:  E D Q B M C H T O P R V S A
+Current word: H E S - T A - T
+GUESS A LETTER: n
+You have used these letters:  N E D Q B M C H T O P R V S A
+Current word: H E S - T A N T
+GUESS A LETTER:
+Invalid character. Please try again
+You have used these letters:  N E D Q B M C H T O P R V S A
+Current word: H E S - T A N T
+GUESS A LETTER: i
+```
+
+### 🌈 Now it works!!1
+
+
+<br>
+<br>
+<br>
+
+---
+
+
+<br>
+<br>
