@@ -1,4 +1,4 @@
-#🟡  fill each comment, analyse the comments, dont copy, just think, if you started to javascript, the syntax in python will confuse but at the end is the same logic
+#🟡  fill each comment, analyse the comments, dont copy, just think, if you started with javascript the syntax in python will confuse you,  but at the end is the same logic
 
 #🔴 repeat this 20 times until you get familiar with the syntax
 
