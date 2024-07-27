@@ -359,3 +359,23 @@ while len(word_letters) > 0:
 #if (wordLetters.length > 0) {
 ```
 <br>
+
+- 🔴 You have to indent the previous code, as this new **while** loop will be position at the top of the **previous condition**
+
+<br>
+
+
+```python
+ # 4
+  used_letters = set()
+     #           __|**|__   WHILE    __ |**|_
+    #
+    # 10 while the  length of word_letters list/array is greater `>` than zero, I am going to keep iterating
+    while len(word_letters) > 0:
+
+    # |**| KEEP iterating until they find - all the letters
+        # 5 the letters the user will be adding
+        user_letters = input("GUESS A LETTER: " ).upper()
+```
+<br>
+<br>
