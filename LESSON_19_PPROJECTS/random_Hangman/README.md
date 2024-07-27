@@ -830,4 +830,16 @@ lives = 0
 
 - - ⚠️ You'll **need** to **update** this **counter** throughout the game **to reflect** the **number** of **incorrect guesses**.
 
+<br>
 
+### add it on top of the while loop
+
+```python
+
+    lives = 0
+
+    #
+    #
+    # 10 while the  length of word_letters list/array is greater `>` than zero, I am going to keep iterating
+    while len(word_letters) > 0:
+```
