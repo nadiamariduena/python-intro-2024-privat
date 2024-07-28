@@ -2,11 +2,12 @@
 # intro: imports
 # import the random, string, and file containing the list of words
 import random
-import string
+
 # when importing data from other files, keep in mind that the file type, is important
 # because at the end of the first phase of this hangman exercise, i couldnt get the result i wanted  (no matter what word i used, it simply didnt get any word from the file of words), and was because the importing, i had this: "from file_withwords import words" and this file_withwords came from the file_withwords.py, so i ad the choice to either use the long name, or change the name to simply words, so to import it like "words" like here below(that is what i did)
 from words import words
-
+from hangman_visual import lives_visual_dict
+import string
 
 
 #  1
@@ -48,7 +49,7 @@ def function_2_hangman():
     used_letters = set()
 
     #14 This line "sets up" a "variable" named "lives" to "keep track" of "how many attempts" the "player has left".
-    lives = 37
+    lives = 7
     # lives = 0 test it
     #
     #
@@ -71,6 +72,10 @@ def function_2_hangman():
         word_list = [letter if letter in used_letters else "_" for letter in word]
         # If the letter is in used_letters, it is included as-is in word_list, ELSE...
         # If the letter is not in used_letters, an underscore ("_") is included in its place.
+
+
+        # 19 hangman VISUAL
+        print(lives_visual_dict[lives])
 
         # 13 Now I am going to get this "new WORD list" and I am going to `.join()` it again(like i did it previously)
         print("Current word:", ' '.join(word_list))
@@ -113,6 +118,8 @@ def function_2_hangman():
 
     # 18 Show the failure or succes messages
     if lives == 0:
+        # 20 hangman VISUAL
+        print(lives_visual_dict[lives])
         print("__💀__YOU Died. The word was", word )
 
     else:

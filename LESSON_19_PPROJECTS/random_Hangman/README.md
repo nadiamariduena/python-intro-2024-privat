@@ -1188,7 +1188,8 @@ return word.upper()
 <br>
 <br>
 
-# 🌈
+# Le code
+
 
 ```python
 #
@@ -1333,3 +1334,21 @@ Current word: _ R I N K
 GUESS A LETTER: d
 You Guessed the word🌈  DRINK !!
 ```
+
+
+<br>
+<br>
+
+---
+
+<br>
+<br>
+
+# 🟡 Hangman Visual
+
+### Third Phase: Implementing Visual Feedback for Hangman
+
+
+- In the third phase of developing The Hangman game, I will focus on creating a visual representation to indicate the game's status.
+
+- - This visual will provide feedback on the player's progress and the outcome of the game, enhancing the overall user experience.
