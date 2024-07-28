@@ -57,7 +57,8 @@ def function_2_hangman():
         #
         # 11 `.join` will turn the list into a **string**, separated by whatever the string is `you can add , white spaces, etc...`
         # print("You have used these letters: ", ' '.join(used_letters))
-        # 16
+        #
+        # 16 Shows Remaining Lives: It tells you how many lives (or chances) you have left.
         print('You have', lives,  'lives left and you have used these letters: ', ' '.join(used_letters))
 
         # -12 The code generates a new list, word_list,
