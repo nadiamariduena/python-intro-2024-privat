@@ -853,3 +853,25 @@ lives = 0
 
 - -  You’ll need to update the number of lives remaining based on the player's guesses. For instance:
 
+```python
+lives = lives - 1
+# ✋ Decrements the lives counter by 1 for each incorrect guess
+
+```
+
+<br>
+
+### Like so:
+
+```python
+         ## 8 If the user_letters is 'in' the word letters...
+            if user_letters in word_letters:
+                # 9 to the set of word_letters, remove( the user_letters)
+                word_letters.remove(user_letters)
+
+            # ✋ new conditional
+            else:
+                lives = lives - 1 # Takes away a life if wrong
+                print("Letter is not in word")
+
+```
