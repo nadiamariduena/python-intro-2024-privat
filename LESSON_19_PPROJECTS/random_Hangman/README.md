@@ -1,5 +1,8 @@
 # 🟡 Hangman
 
+#### Course developed by Kylie Ying.
+
+
 <br>
 <br>
 
