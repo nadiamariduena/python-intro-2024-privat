@@ -938,4 +938,14 @@ print('You have', lives,  'lives left and you have used these letters: ', ' '.jo
 
 ```python
 
+    # 18 Show the failure or succes messages
+    if lives == 0:
+        print("__💀__YOU Died. The word was", word )
+
+    else:
+        print("You Guessed the word🌈 ", word, "!!")
+
+
+
+# ---- END ----
 ```

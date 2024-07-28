@@ -48,8 +48,8 @@ def function_2_hangman():
     used_letters = set()
 
     #14 This line "sets up" a "variable" named "lives" to "keep track" of "how many attempts" the "player has left".
-    lives = 0
-
+    lives = 37
+    # lives = 0 test it
     #
     #
     # 10 while the  length of word_letters list/array is greater `>` than zero, I am going to keep iterating
@@ -73,17 +73,17 @@ def function_2_hangman():
         # If the letter is not in used_letters, an underscore ("_") is included in its place.
 
         # 13 Now I am going to get this "new WORD list" and I am going to `.join()` it again(like i did it previously)
-        print("Current word:", " ".join(word_list))
+        print("Current word:", ' '.join(word_list))
         # This part converts the word_list from a list of characters into a single string with each character separated by a space. For example, if word_list is ['h', 'e', 'l', 'l', '_'], " ".join(word_list) will produce "h e l l _"
 
 
         # 5 add var, (this var will be the letter the user will type) and assign message input to "guess a letter:" , to uppercase()
         user_letters = input("GUESS A LETTER: " ).upper()
+
         # 6) Check if the user letter is 'in' the alphabet, and hasnt - ' been used yet (used_letters)
         if user_letters in alphabet - used_letters:
             # 7) to the set of used letters '.add' the ( the user letter)
             used_letters.add(user_letters)
-
             ## 8 If the user_letters is 'in' the word letters...
             if user_letters in word_letters:
                 # 9 to the set of word_letters, remove( the user_letters)
@@ -95,6 +95,7 @@ def function_2_hangman():
                 lives = lives - 1 # Takes away a life if wrong
                 #This line of code subtracts 1 from the lives variable whenever the player makes an incorrect guess. It effectively reduces the number of remaining attempts.
                 print("Letter is not in word")
+                print('\nYour letter,', user_letters, 'is not in the word.')
 
 
 
@@ -104,15 +105,24 @@ def function_2_hangman():
         else:
             print("Invalid character. Please try again")
 
+
+
     # ____ 🟦  KEEP iterating until they find - all the letters
 
 
 
+    # 18 Show the failure or succes messages
+    if lives == 0:
+        print("__💀__YOU Died. The word was", word )
+
+    else:
+        print("You Guessed the word🌈 ", word, "!!")
+
 
 
 # ---- END ----
-user_input = input("Type Something: ")
-print(user_input)
+# user_input = input("Type Something: ")
+# print(user_input)
 
 if __name__ == '__main__':
     #
