@@ -53,7 +53,12 @@ def function_2_hangman():
     #
     #
     # 10 while the  length of word_letters list/array is greater `>` than zero, I am going to keep iterating
-    while len(word_letters) > 0:
+    # while len(word_letters) > 0:
+    # 17 - the game will keep going as long as there are letters left to guess and you still have lives remaining.
+    while len(word_letters) > 0 and lives > 0:
+        # The game continues only if both conditions are true at the same time.
+
+
         #
         # 11 `.join` will turn the list into a **string**, separated by whatever the string is `you can add , white spaces, etc...`
         # print("You have used these letters: ", ' '.join(used_letters))

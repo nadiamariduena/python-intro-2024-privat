@@ -897,3 +897,16 @@ lives = lives - 1
 print('You have', lives,  'lives left and you have used these letters: ', ' '.join(used_letters))
 # The join part puts all the guessed letters together with spaces in between, so it’s easy to see which letters you’ve tried.
 ```
+
+<br>
+<br>
+
+### 🟠 Now modify this
+
+
+
+
+#### Before
+
+
+
