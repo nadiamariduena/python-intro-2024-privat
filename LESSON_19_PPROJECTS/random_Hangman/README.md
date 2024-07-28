@@ -2,6 +2,10 @@
 
 #### Course developed by Kylie Ying.
 
+[min: 24:26 | 12 Beginner Python Projects - Coding Course](https://youtu.be/8ext9G7xspg?si=BSVIdjwSDysNzP_F&t=1466)
+
+
+#### repo: https://github.com/kying18/hangman
 
 <br>
 <br>
