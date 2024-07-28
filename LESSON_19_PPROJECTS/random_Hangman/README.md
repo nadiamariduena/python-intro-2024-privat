@@ -1470,3 +1470,135 @@ from hangman_visual import lives_visual_dict
         print("You Guessed the word🌈 ", word, "!!")
 
 ```
+
+<br>
+<br>
+
+### 🟣 Testing
+
+- python main.py
+
+```python
+
+
+import random
+from words import words
+from hangman_visual import lives_visual_dict
+import string
+
+
+
+def function_1_(words):
+    word = random.choice(words)
+    while "_" in word or " " in words:
+        word = random.choice(words)
+    # return word
+    return word.upper() #🔴  if the chosen word is not **converted to uppercase**, your lowercase inputs will not match
+
+#------------
+#  2)  create the function to init the hangman game
+def function_2_hangman():
+
+    #1 make the connection to the first function
+    word =  function_1_(words)
+
+    #2
+
+    word_letters = set(word)
+    #3
+    alphabet = set(string.ascii_uppercase)
+    # 4
+    used_letters = set()
+
+    #14 This line "sets up" a "variable" named "lives" to "keep track" of "how many attempts" the "player has left".
+    lives = 7
+    # lives = 0 test it
+    #
+    #
+    # 10 while the  length of word_letters list/array is greater `>` than zero, I am going to keep iterating
+    # while len(word_letters) > 0:
+    # 17 -
+    while len(word_letters) > 0 and lives > 0:
+        # The game continues only if both conditions are true at the same time.
+
+
+        #
+        # 11 `.join` will turn the list into a **string**, separated by whatever the string is `you can add , white spaces, etc...`
+        # print("You have used these letters: ", ' '.join(used_letters))
+        #
+        # 16 Shows Remaining Lives:
+        print('You have', lives,  'lives left and you have used these letters: ', ' '.join(used_letters))
+
+        # -12
+        word_list = [letter if letter in used_letters else "_" for letter in word]
+        # If the letter is in used_letters, it is included as-is in word_list, ELSE...
+        # If the letter is not in used_letters, an underscore ("_") is included in its place.
+
+
+        # 19 hangman VISUAL
+        print(lives_visual_dict[lives])
+
+        # 13
+        print("Current word:", ' '.join(word_list))
+
+
+        # 5
+        user_letters = input("GUESS A LETTER: " ).upper()
+
+        # 6)
+        if user_letters in alphabet - used_letters:
+            # 7) to the set of used letters '.add' the ( the user letter)
+            used_letters.add(user_letters)
+            ## 8 If the user_letters is 'in' the word letters...
+            if user_letters in word_letters:
+                # 9 to the set of word_letters, remove( the user_letters)
+                word_letters.remove(user_letters)
+
+
+            # 15
+            else:
+                lives = lives - 1 # Takes away a life if wrong
+                #This line of code subtracts 1 from the lives variable whenever the player makes an incorrect guess. It effectively reduces the number of remaining attempts.
+                print("Letter is not in word")
+                print('\nYour letter,', user_letters, 'is not in the word.')
+
+
+
+        elif user_letters in used_letters:
+            print("You have already used that character. Please try again")
+
+        else:
+            print("Invalid character. Please try again")
+
+
+
+    # ____ 🟦  KEEP iterating until they find - all the letters
+
+
+
+    # 18 Show the failure or succes messages
+    if lives == 0:
+        # 20 hangman VISUAL
+        print(lives_visual_dict[lives])
+        print("__💀__YOU Died. The word was", word )
+
+    else:
+        print("You Guessed the word🌈 ", word, "!!")
+
+
+
+# ---- END ----
+# user_input = input("Type Something: ")
+# print(user_input)
+
+if __name__ == '__main__':
+    #
+    # call the function with the condition logic
+    function_2_hangman()
+
+```
+
+<br>
+<br>
+
+## 🔴 Error
