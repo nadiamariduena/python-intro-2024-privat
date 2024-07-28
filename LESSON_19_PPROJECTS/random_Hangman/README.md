@@ -1352,3 +1352,15 @@ You Guessed the word🌈  DRINK !!
 - In the third phase of developing The Hangman game, I will focus on creating a visual representation to indicate the game's status.
 
 - - This visual will provide feedback on the player's progress and the outcome of the game, enhancing the overall user experience.
+
+#### Objective
+
+
+I will develop a visual display that shows:
+
+- - **The hangman figure:** A graphical representation that evolves as the player makes incorrect guesses.
+
+- - **Success and Failure States:** Clear visuals to indicate whether the player has won or lost the game.
+
+<br>
+
