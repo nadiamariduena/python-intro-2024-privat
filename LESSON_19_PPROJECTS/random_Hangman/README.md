@@ -919,6 +919,8 @@ print('You have', lives,  'lives left and you have used these letters: ', ' '.jo
 
 #### After
 
+### the game will keep going as long as there are letters left to guess and you still have lives remaining.
+
 - The game continues only if both conditions are true at the same time.
 
 
