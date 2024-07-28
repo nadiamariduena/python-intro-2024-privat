@@ -1620,3 +1620,80 @@ KeyError: 37
 ## 🟫 Reason
 
 - If your **game uses** a **variable number of lives (like 25)**, you need to **make sure** this value is a key in the dictionary. (value KEY?  🔴**if there are 7 keys** within the file of the visuals, you need to have **lives = 7**)
+
+```python
+lives_visual_dict = {
+        0: """
+                ___________
+               | /        |
+               |/        ( )
+               |          |
+               |         / \\
+               |
+           """,
+        1: """
+                ___________
+               | /        |
+               |/        ( )
+               |          |
+               |         /
+               |
+            """,
+        2: """
+                ___________
+               | /        |
+               |/        ( )
+               |          |
+               |
+               |
+            """,
+        3: """
+                ___________
+               | /        |
+               |/        ( )
+               |
+               |
+               |
+            """,
+        4: """
+                ___________
+               | /        |
+               |/
+               |
+               |
+               |
+            """,
+        5: """
+                ___________
+               | /
+               |/
+               |
+               |
+               |
+            """,
+        6: """
+               |
+               |
+               |
+               |
+               |
+            """,
+        7: "", # 🔴 seven KEYS
+    }
+```
+
+<br>
+<br>
+
+## 🌈 Solution
+
+### Adjust lives to Match Dictionary Keys:
+
+- if you have something else in your code like `lives = 20` , change it to: `lives = 7`
+
+```python
+    #14
+    lives = 7 # 🔴 seven keys
+
+
+```
