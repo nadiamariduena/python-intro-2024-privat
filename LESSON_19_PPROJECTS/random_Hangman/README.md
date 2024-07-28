@@ -1345,11 +1345,17 @@ You Guessed the word🌈  DRINK !!
 
 <br>
 <br>
+<br>
 
 ---
 
+
 <br>
 <br>
+
+
+# 🌴 Phase 3.
+
 
 # 🟡 Hangman Visual
 
