@@ -951,6 +951,104 @@ print('You have', lives,  'lives left and you have used these letters: ', ' '.jo
 ```
 
 <br>
+<br>
+<br>
+
+
+## 🟣 Testing:
+
+
+- Run your code: `python main.py`
+
+```python
+#
+# intro: imports
+# import the random, string, and file containing the list of words
+import random
+import string
+# when importing data from other files, keep in mind that the file type, is important
+# because at the end of the first phase of this hangman exercise, i couldnt get the result i wanted  (no matter what word i used, it simply didnt get any word from the file of words), and was because the importing, i had this: "from file_withwords import words" and this file_withwords came from the file_withwords.py, so i ad the choice to either use the long name, or change the name to simply words, so to import it like "words" like here below(that is what i did)
+from words import words
+
+
+
+
+def function_1_(words):
+    word = random.choice(words)
+    while "_" in word or " " in words:
+        word = random.choice(words)
+    return word
+
+#------------
+#  2)  create the function to init the hangman game
+def function_2_hangman():
+
+
+    word =  function_1_(words)
+    word_letters = set(word)
+    alphabet = set(string.ascii_uppercase)
+    used_letters = set()
+
+
+
+
+    # ------💗
+    lives = 10
+    # ------💗
+
+    while len(word_letters) > 0 and lives > 0:
+
+
+        print('You have', lives,  '❤️‍🔥lives left and you have used these letters: ', ' '.join(used_letters))
+        word_list = [letter if letter in used_letters else "_" for letter in word]
+        print("Current word:", ' '.join(word_list))
+
+
+
+        # ----
+        user_letters = input("GUESS A LETTER: " ).upper()
+
+        if user_letters in alphabet - used_letters:
+            used_letters.add(user_letters)
+            if user_letters in word_letters:
+                word_letters.remove(user_letters)
+
+
+            # 15
+            else:
+                lives = lives - 1
+                print("Letter is not in word")
+                print('\nYour letter,', user_letters, 'is not in the word.')
+
+
+
+        elif user_letters in used_letters:
+            print("You have already used that character. Please try again")
+        else:
+            print("Invalid character. Please try again")
+
+
+
+    # ____ 🟦  KEEP iterating until they find - all the letters
+
+    if lives == 0:
+        print("__💀__YOU Died. The word was", word )
+    else:
+        print("You Guessed the word🌈 ", word, "!!")
+
+
+
+# ---- END ----
+user_input = input("Type Something: ")
+print(user_input)
+
+if __name__ == '__main__':
+    #
+    # call the function with the condition logic
+    function_2_hangman()
+
+
+```
 
 
 <br>
