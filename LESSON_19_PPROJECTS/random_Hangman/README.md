@@ -918,3 +918,13 @@ print('You have', lives,  'lives left and you have used these letters: ', ' '.jo
 <br>
 
 #### After
+
+- The game continues only if both conditions are true at the same time.
+
+
+```python
+ # 17 - the game will keep going as long as there are letters left to guess and you still have lives remaining.
+    while len(word_letters) > 0 and lives > 0:
+# The game continues only if both conditions are true at the same time.
+
+```
