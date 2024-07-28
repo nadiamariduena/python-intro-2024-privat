@@ -85,7 +85,8 @@ def function_2_hangman():
             # 15
             else:
                 lives = lives - 1 # Takes away a life if wrong
-
+                #This line of code subtracts 1 from the lives variable whenever the player makes an incorrect guess. It effectively reduces the number of remaining attempts.
+                print("Letter is not in word")
 
 
 
