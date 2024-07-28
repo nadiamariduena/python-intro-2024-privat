@@ -82,6 +82,12 @@ def function_2_hangman():
                 word_letters.remove(user_letters)
 
 
+            # 15
+            else:
+                lives = lives - 1 # Takes away a life if wrong
+
+
+
 
         elif user_letters in used_letters:
             print("You have already used that character. Please try again")
