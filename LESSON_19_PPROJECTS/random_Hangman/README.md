@@ -891,3 +891,9 @@ lives = lives - 1
 # 11 `.join` will turn the list into a **string**, separated by whatever the string is `you can add , white spaces, etc...`
 ```
 #### After
+
+```python
+# 16 - ✋ Shows Remaining Lives: It tells you how many lives (or chances) you have left.
+print('You have', lives,  'lives left and you have used these letters: ', ' '.join(used_letters))
+# The join part puts all the guessed letters together with spaces in between, so it’s easy to see which letters you’ve tried.
+```
