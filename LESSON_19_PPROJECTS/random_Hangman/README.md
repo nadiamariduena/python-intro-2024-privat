@@ -949,3 +949,110 @@ print('You have', lives,  'lives left and you have used these letters: ', ' '.jo
 
 # ---- END ----
 ```
+
+<br>
+
+
+<br>
+<br>
+<br>
+
+# 🔴 Issue:
+
+
+- I **typed all** the **letters** of the **alphabet** and it didnt seem to find a match.
+
+
+ >No matter what word I used, **the program didn't retrieve** any **words** from the file.
+
+<br>
+
+```bash
+Letter is not in word
+
+Your letter, O is not in the word.
+You have 30 ❤️‍🔥lives left and you have used these letters:  O T E I U Z R
+Current word: _ _ _ _ _ _ _
+GUESS A LETTER: PP
+Invalid character. Please try again
+You have 30 ❤️‍🔥lives left and you have used these letters:  O T E I U Z R
+Current word: _ _ _ _ _ _ _
+GUESS A LETTER: P
+Letter is not in word
+
+Your letter, P is not in the word.
+You have 29 ❤️‍🔥lives left and you have used these letters:  O T E I U Z R P
+Current word: _ _ _ _ _ _ _
+GUESS A LETTER: Y
+Letter is not in word
+
+Your letter, Y is not in the word.
+You have 28 ❤️‍🔥lives left and you have used these letters:  O Y T E I U Z R P
+Current word: _ _ _ _ _ _ _
+GUESS A LETTER: X
+Letter is not in word
+
+Your letter, X is not in the word.
+You have 27 ❤️‍🔥lives left and you have used these letters:  O Y T E I U Z X R P
+Current word: _ _ _ _ _ _ _
+GUESS A LETTER: C
+Letter is not in word
+
+Your letter, C is not in the word.
+You have 26 ❤️‍🔥lives left and you have used these letters:  O Y T E I U Z C X R P
+Current word: _ _ _ _ _ _ _
+GUESS A LETTER: VB
+Invalid character. Please try again
+You have 26 ❤️‍🔥lives left and you have used these letters:  O Y T E I U Z C X R P
+Current word: _ _ _ _ _ _ _
+GUESS A LETTER: N
+Letter is not in word
+
+Your letter, N is not in the word.
+You have 25 ❤️‍🔥lives left and you have used these letters:  O Y T E I U Z C N X R P
+Current word: _ _ _ _ _ _ _
+GUESS A LETTER: M
+Letter is not in word
+
+Your letter, M is not in the word.
+You have 24 ❤️‍🔥lives left and you have used these letters:  O Y M T E I U Z C N X R P
+Current word: _ _ _ _ _ _ _
+GUESS A LETTER: M,
+Invalid character. Please try again
+You have 24 ❤️‍🔥lives left and you have used these letters:  O Y M T E I U Z C N X R P
+Current word: _ _ _ _ _ _ _
+GUESS A LETTER: M
+You have already used that character. Please try again
+You have 24 ❤️‍🔥lives left and you have used these letters:  O Y M T E I U Z C N X R P
+Current word: _ _ _ _ _ _ _
+GUESS A LETTER: L
+Letter is not in word
+
+Your letter, L is not in the word.
+You have 23 ❤️‍🔥lives left and you have used these letters:  O Y M T E I U Z C N X L R P
+Current word: _ _ _ _ _ _ _
+GUESS A LETTER: D
+Letter is not in word
+
+Your letter, D is not in the word.
+You have 22 ❤️‍🔥lives left and you have used these letters:  O D Y M T E I U Z C N X L R P
+Current word: _ _ _ _ _ _ _
+GUESS A LETTER: F
+Letter is not in word
+
+Your letter, F is not in the word.
+You have 21 ❤️‍🔥lives left and you have used these letters:  O D Y F M T E I U Z C N X L R P
+Current word: _ _ _ _ _ _ _
+GUESS A LETTER: G
+Letter is not in word
+
+Your letter, G is not in the word.
+You have 20 ❤️‍🔥lives left and you have used these letters:  O D Y F M T E G I U Z C N X L R P
+Current word: _ _ _ _ _ _ _
+GUESS A LETTER: H
+Letter is not in word
+
+Your letter, H is not in the word.
+You have 19 ❤️‍🔥lives left and you have used these letters:  O D Y F M T E G H I U Z C N X L R P
+Current word: _ _ _ _ _ _ _
+```
