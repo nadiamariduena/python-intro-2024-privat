@@ -1158,13 +1158,13 @@ Current word: _ _ _ _ _ _ _
 <br>
 <br>
 
-## 🟧 The Problem
+## 🟫 The Problem
 
 At the end of the second phase of the game, **I encounter** an issue where letters I typed do not seem to be recognized correctly, even though I receive messages about the **number of lives and chances remaining**.
 
 <br>
 
-- 🌈 The problem occurs because the game is not correctly handling the case of the letters. Specifically, if the chosen word is not converted to uppercase, your lowercase inputs will not match, and the game will not recognize them properly.
+- 🌈 The problem occurs because the **game is not correctly handling the case of the letters**. Specifically, if the chosen word is not **converted to uppercase**, your lowercase inputs will not match, and the game will not recognize them properly.
 
 <br>
 
