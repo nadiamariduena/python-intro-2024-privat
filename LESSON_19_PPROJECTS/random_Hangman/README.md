@@ -930,3 +930,12 @@ print('You have', lives,  'lives left and you have used these letters: ', ' '.jo
 # The game continues only if both conditions are true at the same time.
 
 ```
+
+<br>
+<br>
+
+### Last condition
+
+```python
+
+```
