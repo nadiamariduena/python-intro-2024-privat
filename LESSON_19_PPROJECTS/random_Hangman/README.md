@@ -1,6 +1,6 @@
 # 🟡 Hangman
 
-#### Course developed by Kylie Ying.
+#### 🫐 Course developed by Kylie Ying.
 
 [min: 24:26 | 12 Beginner Python Projects - Coding Course](https://youtu.be/8ext9G7xspg?si=BSVIdjwSDysNzP_F&t=1466)
 
@@ -12,7 +12,7 @@
 
 # 🌴 Phase 1.
 
-### 🟦 Structure
+### 🟧 Structure
 
 ```javascript
 project_folder/
