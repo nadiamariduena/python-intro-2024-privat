@@ -29,8 +29,8 @@ def function_1_(words):
 
     # 1.d # Give back the chosen word
 
-    return word
-
+    # return word
+    return word.upper() #🔴  if the chosen word is not **converted to uppercase**, your lowercase inputs will not match
 
 #------------
 #  2)  create the function to init the hangman game
