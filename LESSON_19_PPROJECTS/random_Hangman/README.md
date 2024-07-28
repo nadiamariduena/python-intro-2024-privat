@@ -1324,3 +1324,12 @@ if __name__ == '__main__':
 
 ```
 
+### 🟣 Test OUTPUT
+
+```bash
+Your letter, S is not in the word.
+You have 17 lives left and you have used these letters:  G A I E V T O Y N Q X J M K Z F B S C R W H P U
+Current word: _ R I N K
+GUESS A LETTER: d
+You Guessed the word🌈  DRINK !!
+```
