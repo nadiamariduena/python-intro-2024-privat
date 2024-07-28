@@ -910,3 +910,11 @@ print('You have', lives,  'lives left and you have used these letters: ', ' '.jo
 
 
 
+```python
+# 10 while the  length of word_letters list/array is greater `>` than zero, I am going to keep iterating
+  while len(word_letters) > 0:
+```
+
+<br>
+
+#### After
