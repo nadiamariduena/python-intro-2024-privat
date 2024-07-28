@@ -1602,3 +1602,21 @@ if __name__ == '__main__':
 <br>
 
 ## 🔴 Error
+
+```python
+You have 37 lives left and you have used these letters:
+Traceback (most recent call last):
+  File "main.py", line 137, in <module>
+    function_2_hangman()
+  File "main.py", line 78, in function_2_hangman
+    print(lives_visual_dict[lives])
+KeyError: 37
+```
+
+<br>
+
+<br>
+
+## 🟫 Reason
+
+- If your **game uses** a **variable number of lives (like 25)**, you need to **make sure** this value is a key in the dictionary. (value KEY?  🔴**if there are 7 keys** within the file of the visuals, you need to have **lives = 7**)
