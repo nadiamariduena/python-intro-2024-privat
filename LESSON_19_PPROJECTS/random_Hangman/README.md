@@ -1169,3 +1169,16 @@ At the end of the second phase of the game, **I encounter** an issue where lette
 <br>
 
 
+#### before
+
+```python
+
+ return word
+
+```
+
+#### after
+
+```python
+return word.upper()
+```
