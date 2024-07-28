@@ -1437,3 +1437,36 @@ lives_visual_dict = {
 
 <br>
 <br>
+
+### 🟠 import the visuals file
+
+```python
+from hangman_visual import lives_visual_dict
+```
+
+<br>
+<br>
+
+### And use it here
+
+```python
+     # 19 hangman VISUAL
+        print(lives_visual_dict[lives])
+
+        # 13 Now I am going to get this "new WORD list" and I am going to `.join()` it again(like i did it previously)
+
+```
+
+### and here:
+
+```python
+    # 18 Show the failure or succes messages
+    if lives == 0:
+        # 20 🔴 hangman VISUAL
+        print(lives_visual_dict[lives])
+        print("__💀__YOU Died. The word was", word )
+
+    else:
+        print("You Guessed the word🌈 ", word, "!!")
+
+```
