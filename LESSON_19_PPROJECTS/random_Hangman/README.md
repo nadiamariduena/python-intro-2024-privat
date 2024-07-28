@@ -1697,3 +1697,114 @@ lives_visual_dict = {
 
 
 ```
+
+<br>
+<br>
+
+### 🟣 Test it
+
+- Run your code: `python main.py`
+
+
+### output
+
+
+```bash
+Current word: A _ _
+GUESS A LETTER: r
+Letter is not in word
+
+Your letter, R is not in the word.
+You have 6 lives left and you have used these letters:  A R
+
+               |
+               |
+               |
+               |
+               |
+
+Current word: A _ _
+GUESS A LETTER: t
+Letter is not in word
+
+Your letter, T is not in the word.
+You have 5 lives left and you have used these letters:  A T R
+
+                ___________
+               | /
+               |/
+               |
+               |
+               |
+
+Current word: A _ _
+GUESS A LETTER: z
+Letter is not in word
+
+Your letter, Z is not in the word.
+You have 4 lives left and you have used these letters:  A T Z R
+
+                ___________
+               | /        |
+               |/
+               |
+               |
+               |
+
+Current word: A _ _
+GUESS A LETTER: u
+Letter is not in word
+
+Your letter, U is not in the word.
+You have 3 lives left and you have used these letters:  A Z R U T
+
+                ___________
+               | /        |
+               |/        ( )
+               |
+               |
+               |
+
+Current word: A _ _
+GUESS A LETTER: i
+Letter is not in word
+
+Your letter, I is not in the word.
+You have 2 lives left and you have used these letters:  A Z I R U T
+
+                ___________
+               | /        |
+               |/        ( )
+               |          |
+               |
+               |
+
+Current word: A _ _
+GUESS A LETTER: m
+Letter is not in word
+
+Your letter, M is not in the word.
+You have 1 lives left and you have used these letters:  A Z I R U M T
+
+                ___________
+               | /        |
+               |/        ( )
+               |          |
+               |         /
+               |
+
+Current word: A _ _
+GUESS A LETTER: f
+Letter is not in word
+
+Your letter, F is not in the word.
+
+                ___________
+               | /        |
+               |/        ( )
+               |          |
+               |         / \
+               |
+
+__💀__YOU Died. The word was ASK
+```
