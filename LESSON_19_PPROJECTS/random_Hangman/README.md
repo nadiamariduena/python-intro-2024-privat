@@ -815,7 +815,7 @@ GUESS A LETTER: i
 <br>
 
 
-### 🟧 <u>Add Lives</u>  :
+### 🟠 <u>Add Lives</u>  :
 
 
 #### Begin by initializing the lives counter in your game. For example:
@@ -847,4 +847,9 @@ lives = 0
 <br>
 <br>
 
-### Add a new conditional
+## 🟠 Add a new conditional
+
+#### Track Lives:
+
+- -  You’ll need to update the number of lives remaining based on the player's guesses. For instance:
+
