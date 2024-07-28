@@ -875,3 +875,19 @@ lives = lives - 1
                 print("Letter is not in word")
 
 ```
+
+<br>
+<br>
+
+### 🟠 Now modify the below line
+
+
+#### Before
+
+```python
+
+
+  print("You have used these letters: ", ' '.join(used_letters))
+# 11 `.join` will turn the list into a **string**, separated by whatever the string is `you can add , white spaces, etc...`
+```
+#### After

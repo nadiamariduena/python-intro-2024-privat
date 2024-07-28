@@ -56,7 +56,9 @@ def function_2_hangman():
     while len(word_letters) > 0:
         #
         # 11 `.join` will turn the list into a **string**, separated by whatever the string is `you can add , white spaces, etc...`
-        print("You have used these letters: ", ' '.join(used_letters))
+        # print("You have used these letters: ", ' '.join(used_letters))
+        # 16
+        print('You have', lives,  'lives left and you have used these letters: ', ' '.join(used_letters))
 
         # -12 The code generates a new list, word_list,
         # - where each character in word is checked to see if it’s present in the collection used_letters.
