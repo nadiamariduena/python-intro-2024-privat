@@ -1017,6 +1017,18 @@ word_list =
 
 <br>
 
+### 🟦 Assign to the variable the below logic
+
+- - ✋ It is necessary to provide the alternative value when the condition  is not met, 🫴 🧶 **like when a letter isn't found/allowed or it's not the letter that the computer randomly used**
+
+<br>
+
+```python
+# 🔶 "Check if the letter is allowed.
+# - If yes, keep it; if no, put an underscore."
+word_list = [letter if letter in used_letters else "_" for letter in word]
+```
+
 
 <br>
 <br>
