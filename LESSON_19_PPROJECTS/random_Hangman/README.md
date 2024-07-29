@@ -253,7 +253,9 @@ Yes, exactly! The alphabet set ensures that any letters or characters you're wor
 
 🔶 **Validating Against the English Alphabet:**
 
-- -  By defining alphabet as set(string.ascii_uppercase), you’re explicitly specifying that only the uppercase English letters (A-Z) are considered valid. This is useful if your application is designed to work specifically with the English alphabet.
+- -  By defining alphabet as `set(string.ascii_uppercase)`, **you**’re **explicitly specifying** that **only** the **uppercase English letters (A-Z)** are **considered valid**.
+
+- - This is useful if your application is designed to work specifically with the English alphabet.
 
 
 <br>
