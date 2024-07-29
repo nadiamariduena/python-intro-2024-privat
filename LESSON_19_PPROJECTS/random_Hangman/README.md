@@ -981,29 +981,20 @@ print('You have', lives,  'lives left and you have used these letters: ', ' '.jo
 
 <br>
 <br>
+<br>
+<br>
 
-### Last condition
+# 🟡 Letter
 
-```python
+#### This line of code will generate a new list where each letter of the random word is checked against a list of guessed letters.
 
-    # 18 Show the failure or succes messages
-    if lives == 0:
-        print("__💀__YOU Died. The word was", word )
-
-    else:
-        print("You Guessed the word🌈 ", word, "!!")
-
-
-
-# ---- END ----
-```
 
 <br>
 <br>
 <br>
 
 
-## 🟣 Testing:
+# 🟣 Testing:
 
 
 - Run your code: `python main.py`
@@ -1583,7 +1574,7 @@ def function_2_hangman():
         # 16 Shows Remaining Lives:
         print('You have', lives,  'lives left and you have used these letters: ', ' '.join(used_letters))
 
-        # -12
+        # -12 If letter is found in used_letters, it is added to the word_list.
         word_list = [letter if letter in used_letters else "_" for letter in word]
         # If the letter is in used_letters, it is included as-is in word_list, ELSE...
         # If the letter is not in used_letters, an underscore ("_") is included in its place.
