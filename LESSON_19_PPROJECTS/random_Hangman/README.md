@@ -1037,6 +1037,17 @@ word_list = [letter if letter in used_letters else "_" for letter in word]
 <br>
 <br>
 
+### 🔴 Why Not Just letter if?
+
+### `letter if letter`
+
+```python
+letter if letter ...
+```
+
+<br>
+<br>
+<br>
 
 
 # 🟣 Testing:
