@@ -1045,6 +1045,14 @@ word_list = [letter if letter in used_letters else "_" for letter in word]
 letter if letter ...
 ```
 
+- **If you only** write **letter if**...
+
+- - 🔴 **it’s like saying:** ✋ <u>"Just give me the letter."</u>  **You haven’t said what to do if the letter isn’t allowed**.
+
+#### 🌈 The code needs both parts (the condition and the alternative) to decide what to do in both cases.
+
+
+
 <br>
 <br>
 <br>
