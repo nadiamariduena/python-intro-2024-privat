@@ -218,6 +218,18 @@ def hangman():
  - - 🟢 `used_letters` keeps **track of letters** that the **user has guessed** so far.
 
 
+<br>
+<br>
+
+<br>
+
+## 🫐 Alphabet
+
+<br>
+
+
+
+<br>
 
 <br>
 <br>
@@ -856,7 +868,7 @@ lives = 0
 
 ## 🟠 Add a new conditional
 
-#### Track Lives:
+#### TAKES AWAY a life, Track Lives:
 
 - -  You’ll need to update the number of lives remaining based on the player's guesses. For instance:
 
