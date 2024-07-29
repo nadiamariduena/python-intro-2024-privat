@@ -1064,6 +1064,16 @@ word_list = [letter if letter in used_letters else "_" ...
 <br>
 
 
+
+## 🟠 Decreases  `lives by 1`
+
+<br>
+
+- `lives = lives - 1`: This line **decreases the player's number of lives by 1**.
+
+
+#### 🔴 Each incorrect guess costs the player one life.
+
 <br>
 <br>
 <br>
