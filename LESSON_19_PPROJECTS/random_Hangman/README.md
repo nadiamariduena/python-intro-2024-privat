@@ -228,6 +228,13 @@ def hangman():
 <br>
 
 
+```python
+    alphabet = set(string.ascii_uppercase) #`alphabet` is a `set` **of all uppercase letters**.
+```
+
+<br>
+
+ The alphabet **set**, which contains all uppercase letters of the English alphabet `(set(string.ascii_uppercase))`, is **used to define** the **valid range** of **characters** that are **considered acceptable input** for **your application**.
 
 <br>
 
