@@ -988,6 +988,8 @@ print('You have', lives,  'lives left and you have used these letters: ', ' '.jo
 
 #### This line of code will generate a new list where each letter of the random word is checked against a list of guessed letters.
 
+- - If the letter is found in the guessed letters, it will be included as is; if not, it will be replaced with an underscore _. This allows you to see which letters you've guessed correctly and which ones are still hidden
+
 
 <br>
 <br>
