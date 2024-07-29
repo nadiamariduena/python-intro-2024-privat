@@ -236,6 +236,17 @@ def hangman():
 
  The alphabet **set**, which contains all uppercase letters of the English alphabet `(set(string.ascii_uppercase))`, is **used to define** the **valid range** of **characters** that are **considered acceptable input** for **your application**.
 
+
+<br>
+
+ ### 🍰 In other words, it sets the boundaries for what is considered a valid letter.
+
+<br>
+
+ #### 🟣 QUESTION: So it controls that it s on proper British alphabet, and not (a example: sanskrit)?
+
+
+
 <br>
 
 <br>
