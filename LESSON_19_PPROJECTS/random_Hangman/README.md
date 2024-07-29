@@ -1074,6 +1074,19 @@ word_list = [letter if letter in used_letters else "_" ...
 
 #### 🔴 Each incorrect guess costs the player one life.
 
+```python
+if user_letters in alphabet - used_letters:
+    used_letters.add(user_letters)
+    if user_letters in word_letters:
+        word_letters.remove(user_letters)
+    else:
+        lives = lives - 1
+        print("Letter is not in word")
+        print('\nYour letter,', user_letters, 'is not in the word.')
+#________
+```
+
+
 <br>
 <br>
 <br>
