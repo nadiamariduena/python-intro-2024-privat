@@ -1101,6 +1101,19 @@ if user_letters in alphabet - used_letters:
 
 - checks the player's remaining lives and provides feedback based on whether the player has won or lost the game:
 
+```python
+
+    # 18 Show the failure or succes messages
+    if lives == 0:
+        print("__💀__YOU Died. The word was", word )
+
+    else:
+        print("You Guessed the word🌈 ", word, "!!")
+
+
+
+# ---- END ----
+```
 
 <br>
 <br>
