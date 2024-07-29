@@ -1000,6 +1000,13 @@ word_list = [letter if letter in used_letters else "_" for letter in word]
 # and you want to reveal some letters of this word based on whether they are in a list of "guessed" letters.
 ```
 <br>
+
+- - If letter is found in used_letters, it is added to the word_list.
+
+- - If letter is not in used_letters, the character "_" is added instead.
+
+
+<br>
 <br>
 <br>
 
