@@ -1029,10 +1029,14 @@ word_list =
 word_list = [letter if letter in used_letters else "_" for letter in word]
 ```
 
+<br>
+
+- So, you need to provide an alternative value (like `_`) **for** the case **when** the **letter isn’t allowed** or **isn’t what you’re looking for**. This way, the computer knows what to do whether the letter is allowed or not.
+
 
 <br>
 <br>
-<br>
+
 
 
 # 🟣 Testing:
