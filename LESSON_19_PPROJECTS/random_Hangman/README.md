@@ -1052,6 +1052,17 @@ letter if letter ...
 #### 🌈 The code needs both parts (the condition and the alternative) to decide what to do in both cases.
 
 
+```python
+# 🔶 "Check if the letter is allowed.
+# - If yes, keep it; if no, put an underscore."
+word_list = [letter if letter in used_letters else "_" ...
+```
+
+<br>
+<br>
+<br>
+<br>
+
 
 <br>
 <br>
