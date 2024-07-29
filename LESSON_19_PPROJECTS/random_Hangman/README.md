@@ -1005,6 +1005,18 @@ word_list = [letter if letter in used_letters else "_" for letter in word]
 
 - - If letter is not in used_letters, the character "_" is added instead.
 
+<br>
+
+### 🟦 Create a new variable
+
+- I will start by creating a **NEW** variable, this variable **word_list** will enclose the logic for a scenario of not finding a letter within the random word choose by the computer
+
+```python
+word_list =
+```
+
+<br>
+
 
 <br>
 <br>
