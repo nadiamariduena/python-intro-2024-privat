@@ -245,6 +245,9 @@ def hangman():
 
  #### 🟣 QUESTION: So it controls that it s on proper British alphabet, and not (a example: sanskrit)?
 
+ #### ✅  Chatgpt:
+
+Yes, exactly! The alphabet set ensures that any letters or characters you're working with are within a predefined set of valid letters—in this case, the English alphabet.
 
 
 <br>
