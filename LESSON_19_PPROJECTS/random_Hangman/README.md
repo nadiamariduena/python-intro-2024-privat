@@ -1086,6 +1086,21 @@ if user_letters in alphabet - used_letters:
 #________
 ```
 
+<br>
+
+- Add the prints, showing the **"`user_letters`, 'is not in the word.'"**
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+## 🟠 Last condition `if lives == 0`
+
+- checks the player's remaining lives and provides feedback based on whether the player has won or lost the game:
+
 
 <br>
 <br>
