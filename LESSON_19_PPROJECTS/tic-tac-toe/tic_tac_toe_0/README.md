@@ -296,3 +296,4 @@ class TicTacToe:
 
 ### 🟧  `self.current_winner = None`
 
+**self.current_winner:** This keeps track of who is winning the game.
