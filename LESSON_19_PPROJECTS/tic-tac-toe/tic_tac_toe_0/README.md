@@ -219,7 +219,7 @@ class Player:
 
 ```python
 # child class
-class RandomComputerPlayer:
+class RandomComputerPlayer(Player):
     def __init__(self, letter):
         super().__init__(letter)
 
