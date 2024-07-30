@@ -12,7 +12,7 @@ class Player:
 
 
 # inherited class
-# I will build a random comp player  that builds on top of this bass player object. And so in our initialization
+#
 class RandomComputerPlayer:
     def __init__(self, letter):
         super().__init__(letter)
@@ -20,3 +20,10 @@ class RandomComputerPlayer:
     def get_move(self, game):
         pass
 
+class HumanPlayer(Player):
+    def __init__(self, letter):
+        super().__init__(letter)
+
+
+    def get_move(self, game):
+        pass
