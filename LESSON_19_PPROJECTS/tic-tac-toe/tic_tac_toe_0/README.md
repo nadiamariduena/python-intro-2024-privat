@@ -145,3 +145,21 @@ class Player:
 
 
 <br>
+
+- - ### `self.letter = letter`: (letter is X or O)
+
+```bash
+   X | O | 3
+  ---|---|---
+   4 | X | 6
+  ---|---|---
+   7 | 8 | O
+
+```
+
+<br>
+<br>
+
+
+## 🟦 get_move(self, game)
+
