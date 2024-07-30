@@ -124,3 +124,14 @@ import random
 
  - - Each player has a special mark, like **X or O**.
 
+
+<br>
+<br>
+
+```python
+class Player:
+    def __init__()
+```
+
+<br>
+<br>
