@@ -198,4 +198,10 @@ class RandomComputerPlayer:
 ```
 
 
+<br>
+
+- - `class RandomComputerPlayer`: This is a special type of player who is a computer that makes random moves.
+
+
+
 
