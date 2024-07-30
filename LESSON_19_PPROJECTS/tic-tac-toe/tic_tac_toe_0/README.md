@@ -181,3 +181,21 @@ class Player:
 
 
 ```
+
+
+<br>
+<br>
+
+## 🟠 `class RandomComputerPlayer`
+
+```python
+class RandomComputerPlayer:
+    def __init__(self, letter):
+        super().__init__(letter)
+
+    def get_move(self, game):
+        pass
+```
+
+
+

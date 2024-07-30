@@ -12,7 +12,7 @@ class Player:
 
 
 # inherited class
-#
+#  This is a special type of player who is a computer that makes random moves.
 class RandomComputerPlayer:
     def __init__(self, letter):
         super().__init__(letter)
@@ -20,10 +20,3 @@ class RandomComputerPlayer:
     def get_move(self, game):
         pass
 
-class HumanPlayer(Player):
-    def __init__(self, letter):
-        super().__init__(letter)
-
-
-    def get_move(self, game):
-        pass
