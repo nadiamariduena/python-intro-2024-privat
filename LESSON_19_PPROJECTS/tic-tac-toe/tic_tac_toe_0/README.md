@@ -190,6 +190,11 @@ class Player:
 
 - **When** you **create** a **child class**, you **often want** to **use the setup from the parent class**. This is where `super()` **comes in**.
 
+<br>
+
+### 🔶 What `super().`__init__(letter)` Does
+
+
 
 <br>
 <br>
