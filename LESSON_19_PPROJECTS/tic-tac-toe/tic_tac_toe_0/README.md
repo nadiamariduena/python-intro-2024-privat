@@ -158,17 +158,17 @@ class Player:
 ```
 
 <br>
-<br>
 
 
-## 🟦 get_move(self, game)
+- - ### 🟤 get_move(self, game)
 
 
 - - `get_move(self, game)`: This is like a placeholder for where the **player will decide what move to make in the game**.
 
 - -  Right **now**, it's **empty**, so the player doesn’t actually make a move yet.
 
-
+<br>
+<br>
 
 ```python
 class Player:
@@ -186,9 +186,18 @@ class Player:
 <br>
 <br>
 
-## 🟠 `class RandomComputerPlayer`
+# 🟡 Child Classes and super()
+
+- **When** you **create** a **child class**, you **often want** to **use the setup from the parent class**. This is where `super()` **comes in**.
+
+
+<br>
+<br>
+
+### 🟠 `class RandomComputerPlayer`
 
 ```python
+# child class
 class RandomComputerPlayer:
     def __init__(self, letter):
         super().__init__(letter)
