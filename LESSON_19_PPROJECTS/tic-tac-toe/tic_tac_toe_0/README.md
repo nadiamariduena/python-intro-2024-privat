@@ -263,3 +263,13 @@ class HumanPlayer(Player):
 
 
 `super().__init__(letter):` Ensures that the child classes correctly set up the letter attribute by calling the parent class’s __init__ method.
+
+<br>
+<br>
+<br>
+
+## 🟡 Create the `game.py`
+
+```python
+
+```
