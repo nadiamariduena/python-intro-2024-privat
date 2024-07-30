@@ -165,3 +165,7 @@ class Player:
 
 
 - - `get_move(self, game)`: This is like a placeholder for where the **player will decide what move to make in the game**.
+
+- -  Right **now**, it's **empty**, so the player doesn’t actually make a move yet.
+
+
