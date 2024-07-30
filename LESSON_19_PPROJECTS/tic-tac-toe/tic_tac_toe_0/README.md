@@ -213,6 +213,18 @@ class RandomComputerPlayer:
 
     def get_move(self, game):
         pass
+
+
+
+# ✋ Same here
+#
+class HumanPlayer(Player):
+    def __init__(self, letter):
+        super().__init__(letter)
+
+
+    def get_move(self, game):
+        pass
 ```
 
 
