@@ -203,5 +203,7 @@ class RandomComputerPlayer:
 - - `class RandomComputerPlayer`: This is a special type of player who is a computer that makes random moves.
 
 
+- - `super().__init__(letter)`: This line is like saying, “Hey, use the setup from the Player blueprint because I am still a player.”
+
 
 
