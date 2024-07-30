@@ -90,3 +90,22 @@ https://www.vedantu.com/maths/rows-in-maths
 
 <br>
 <br>
+
+
+
+
+
+<br>
+
+## 🟦 Within the `player.py`
+
+
+- Start by importing the below
+
+
+
+
+```python
+import math
+import random
+```
