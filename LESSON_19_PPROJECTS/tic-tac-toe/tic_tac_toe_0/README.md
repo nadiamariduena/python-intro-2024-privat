@@ -206,4 +206,6 @@ class RandomComputerPlayer:
 - - `super().__init__(letter)`: This line is like saying, “Hey, use the setup from the Player blueprint because I am still a player.”
 
 
+- - `get_move(self, game)`: This is also a placeholder for where the computer would decide on a random move. For now, it’s empty.
+
 
