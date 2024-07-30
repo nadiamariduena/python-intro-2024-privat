@@ -251,3 +251,11 @@ class HumanPlayer(Player):
 - - `get_move(self, game)`: This is also a placeholder for where the computer would decide on a random move. For now, it’s empty.
 
 
+<br>
+<br>
+
+## Summary
+
+
+**Parent Class (Player):** Defines the basic setup, including the letter attribute.
+
