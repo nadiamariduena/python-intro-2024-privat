@@ -287,3 +287,10 @@ class TicTacToe:
 
 - - ####  🔸 Think of it as a 3x3 grid but stored in a single line.
 
+```python
+[' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
+#Each ' ' represents an empty spot on the board.
+
+```
+<br>
+
