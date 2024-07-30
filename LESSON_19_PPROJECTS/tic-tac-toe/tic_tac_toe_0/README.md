@@ -259,3 +259,6 @@ class HumanPlayer(Player):
 
 **Parent Class (Player):** Defines the basic setup, including the letter attribute.
 
+**Child Classes (RandomComputerPlayer and HumanPlayer):** Use super() to inherit and utilize the setup from the Player class.
+
+
