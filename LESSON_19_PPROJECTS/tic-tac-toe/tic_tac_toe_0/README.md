@@ -169,3 +169,15 @@ class Player:
 - -  Right **now**, it's **empty**, so the player doesn’t actually make a move yet.
 
 
+
+```python
+class Player:
+    def __init__(self, letter):
+        # letter is X or O
+        self.letter = letter
+
+    def get_move(self, game):
+        pass
+
+
+```
