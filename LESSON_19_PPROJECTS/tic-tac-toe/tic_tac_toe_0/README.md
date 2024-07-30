@@ -53,3 +53,17 @@
 - -   **1-9** are placeholders for where you can put **Xs and Os**.
 
 - - You can **update the board** as **players** make their **moves**.
+
+<br>
+
+
+#### 🔶 Example 2: X and O Placed
+
+```bash
+   X | O | 3
+  ---|---|---
+   4 | X | 6
+  ---|---|---
+   7 | 8 | O
+
+```
