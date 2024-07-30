@@ -196,6 +196,7 @@ class Player:
 
 - - **super():** This function is used to call methods from the parent class (Player in this case).
 
+- - **super().__init__(letter): This calls the __init__ method of the Player class, passing the letter parameter to it.
 
 
 <br>
