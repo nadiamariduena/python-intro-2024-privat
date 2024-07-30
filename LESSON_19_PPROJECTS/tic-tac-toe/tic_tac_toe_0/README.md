@@ -109,3 +109,13 @@ https://www.vedantu.com/maths/rows-in-maths
 import math
 import random
 ```
+
+<br>
+<br>
+
+## 🟦 Creating a `Player`:
+
+<br>
+
+- -  Create a **class:** `class Player:`
+
