@@ -119,3 +119,8 @@ import random
 
 - -  Create a **class:** `class Player:`
 
+
+ - - #### Think of this as a blueprint for a player in the game.
+
+ - - Each player has a special mark, like **X or O**.
+
