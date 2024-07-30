@@ -13,7 +13,7 @@ class Player:
 
 # inherited class
 #  This is a special type of player who is a computer that makes random moves.
-class RandomComputerPlayer:
+class RandomComputerPlayer(Player):
     def __init__(self, letter):
         super().__init__(letter)
 
