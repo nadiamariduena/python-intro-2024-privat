@@ -135,3 +135,13 @@ class Player:
 
 <br>
 <br>
+
+## 🟦 initialize it: `def __init__()`
+
+
+- -  `__init__(self, letter)`: This is like setting up the player with their mark when they start the game.
+
+- **For example**, if you choose X, then the player will be X.
+
+
+<br>
