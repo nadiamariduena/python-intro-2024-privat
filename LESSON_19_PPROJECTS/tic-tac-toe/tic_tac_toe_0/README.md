@@ -202,8 +202,20 @@ class Player:
 
 <br>
 <br>
+<br>
 
-### 🟠 `class RandomComputerPlayer`
+
+
+
+### 🟠 `class RandomComputerPlayer` & `HumanPlayer`
+
+#### When you use `super().__init__(letter)`, you are saying, “I want to use the setup that the Player class provides to initialize this new player, including setting up their mark (X or O).”
+
+
+- It ensures that the **child classes** `(RandomComputerPlayer and HumanPlayer)` properly inherit and set up the letter attribute from the Player class.
+
+
+<br>
 
 ```python
 # child class
