@@ -163,3 +163,5 @@ class Player:
 
 ## 🟦 get_move(self, game)
 
+
+- - `get_move(self, game)`: This is like a placeholder for where the **player will decide what move to make in the game**.
