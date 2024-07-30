@@ -67,3 +67,26 @@
    7 | 8 | O
 
 ```
+
+### How to Read the Board
+
+https://www.vedantu.com/maths/rows-in-maths
+
+
+**Rows:** The board is divided into three rows.
+
+**Columns:** Each row has three columns.
+
+**Cells:** The intersections of rows and columns are where you place Xs or Os
+
+
+<br>
+<br>
+
+<br>
+<br>
+
+# 🟡 Let's Start
+
+<br>
+<br>
