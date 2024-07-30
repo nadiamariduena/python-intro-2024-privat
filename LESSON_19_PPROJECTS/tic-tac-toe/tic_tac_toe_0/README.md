@@ -297,3 +297,5 @@ class TicTacToe:
 ### 🟧  `self.current_winner = None`
 
 **self.current_winner:** This keeps track of who is winning the game.
+
+**None:** This means we don’t know yet if anyone has won because the game hasn’t been played.
