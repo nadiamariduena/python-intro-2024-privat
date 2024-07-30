@@ -294,3 +294,5 @@ class TicTacToe:
 ```
 <br>
 
+### 🟧  `self.current_winner = None`
+
