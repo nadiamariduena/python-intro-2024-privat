@@ -262,3 +262,4 @@ class HumanPlayer(Player):
 **Child Classes (RandomComputerPlayer and HumanPlayer):** Use super() to inherit and utilize the setup from the Player class.
 
 
+`super().__init__(letter):` Ensures that the child classes correctly set up the letter attribute by calling the parent class’s __init__ method.
