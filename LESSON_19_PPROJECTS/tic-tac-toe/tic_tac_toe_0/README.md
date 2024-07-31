@@ -399,3 +399,13 @@ self.board = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 - 🎠 Carousel Machine = Loop: Just like the carousel machine spins through different animal seats, the loop goes through different rows.
 
 - 🎠 Each Turn = Each Iteration: Each turn of the carousel machine moves you to a new set of animal seats, just like each iteration of the loop moves to the next row. 🎠
+
+
+```bash
+   0 | 1 | 2
+  ---|---|---
+   3 | 4 | 5
+  ---|---|---
+   6 | 7 | 8
+
+```
