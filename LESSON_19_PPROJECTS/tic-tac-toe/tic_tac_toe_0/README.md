@@ -443,3 +443,13 @@ self.board = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 
 
 #### First Round (First Turn):
+
+```bash
+Round 1:
+[ 🐴 | 🦄 | 🐪 ]
+
+
+# - You start at the first section.
+# - Pick an animal from this section.
+# - Example: You choose the 🐴 from the first section.
+```
