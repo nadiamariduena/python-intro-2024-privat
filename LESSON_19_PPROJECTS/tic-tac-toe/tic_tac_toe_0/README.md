@@ -371,3 +371,12 @@ self.board = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 
 - - **self.board:** This **is** the **list** with **all** the **spaces** on the **board**.
 
+
+<br>
+<br>
+
+## 🟨 What Does `i*3:(i+1)*3` Do?
+
+<br>
+
+🟦 `i*3`: This tells us where to **start** in the list for each row.
