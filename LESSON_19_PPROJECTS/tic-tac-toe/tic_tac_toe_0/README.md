@@ -393,7 +393,7 @@ self.board = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 <br>
 <br>
 
- ![yellow-submarine](https://github.com/user-attachments/assets/f8fbc564-6920-42a4-b72a-66b0f6fc024c)
+ ![https://youtu.be/LgR6UNeQxXE?feature=shared](https://github.com/user-attachments/assets/f8fbc564-6920-42a4-b72a-66b0f6fc024c)
 
 <br>
 
