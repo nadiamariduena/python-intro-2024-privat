@@ -552,3 +552,10 @@ For i = 0: (0+1)*3 = 3 which gives us the end index 3.
 <br>
 
 ### As the carousel continues to spin, the visible rows are updated, but this movement is not shown in the slice. The slicing expression [self.board[i*3:(i+1)*3]] dynamically adjusts to extract each row based on the current iteration.
+
+```python
+For i = 1: (1+1)*3 = 6 which gives us the end index 6.
+# AND so on
+```
+<br>
+<br>
