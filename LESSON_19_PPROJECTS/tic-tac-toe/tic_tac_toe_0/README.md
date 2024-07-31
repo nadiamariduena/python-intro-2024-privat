@@ -391,6 +391,10 @@ self.board = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 - In this Tic-Tac-Toe game, the list of numbers is divided into three rows.
 
 <br>
+<br>
+ 
+ ![yellow-submarine](https://github.com/user-attachments/assets/f8fbc564-6920-42a4-b72a-66b0f6fc024c)
+
 
 #### 🌈 short explanation:
 
