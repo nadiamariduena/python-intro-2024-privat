@@ -559,3 +559,6 @@ For i = 1: (1+1)*3 = 6 which gives us the end index 6.
 ```
 <br>
 <br>
+
+### Expanding to a Grid with 4 Values Per Row
+
