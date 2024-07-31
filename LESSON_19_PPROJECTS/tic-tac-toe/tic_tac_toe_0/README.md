@@ -525,3 +525,12 @@ Tic-Tac-Toe Grid:
 
 `i+1` helps us figure out the end position of the slice.
 
+
+```bash
+i represents the current row index.
+
+i + 1 gives you the next row’s index, which helps determine the end of the current row.
+```
+<br>
+
+#### 🟣 in other words: `i + 1` gives you the next row’s index, which helps determine the end of the current row.
