@@ -505,3 +505,12 @@ Tic-Tac-Toe Grid:
 
 ```
 <br>
+
+### Visual Explanation
+
+```bash
+| 0 | 1 | 2 |  <- First Row (0 to 2)
+| 3 | 4 | 5 |  <- Second Row (3 to 5)
+| 6 | 7 | 8 |  <- Third Row (6 to 8)
+```
+
