@@ -349,3 +349,14 @@ self.board = [0, 1, 2, 3, 4, 5, 6, 7, 8]
    6 | 7 | 8
 
 ```
+
+
+<br>
+<br>
+
+### `for row in`:
+
+- - `for` row `in` ...: This part **tells** the **computer** to **go through each** <u>row</u>  **one by one**.
+
+- - ##### It’s like saying, “For each row in the list we’re making, do something with it.”
+
