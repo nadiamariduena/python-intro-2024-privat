@@ -360,3 +360,14 @@ self.board = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 
 - - ##### It’s like saying, “For each row in the list we’re making, do something with it.”
 
+
+<br>
+<br>
+
+
+### `[self.board[i*3:(i+1)*3] for i in range(3)]`:
+
+- - This part creates a list of rows from the **board.**
+
+- - **self.board:** This **is** the **list** with **all** the **spaces** on the **board**.
+
