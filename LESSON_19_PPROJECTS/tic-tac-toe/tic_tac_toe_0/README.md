@@ -395,3 +395,5 @@ self.board = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 #### 🌈 short explanation:
 
 ### Imagine you’re at a funfair with a carousel that has 3 sections. Each section has different animals to ride on. You get to choose one animal from each section as the carousel spins.
+
+- 🎠 Carousel Machine = Loop: Just like the carousel machine spins through different animal seats, the loop goes through different rows.
