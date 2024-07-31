@@ -562,3 +562,6 @@ For i = 1: (1+1)*3 = 6 which gives us the end index 6.
 
 ### Expanding to a Grid with 4 Values Per Row
 
+
+- - If you change the slicing formula to `[self.board[i*4:(i+1)*4]]`, this will create a grid where each row contains 4 values:
+
