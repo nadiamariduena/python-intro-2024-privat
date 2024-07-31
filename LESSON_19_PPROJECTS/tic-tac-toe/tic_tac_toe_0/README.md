@@ -534,3 +534,11 @@ i + 1 gives you the next row’s index, which helps determine the end of the cur
 <br>
 
 #### 🟣 in other words: `i + 1` gives you the next row’s index, which helps determine the end of the current row.
+
+```bash
+For i = 0: (0+1)*3 = 3 which gives us the end index 3.
+For i = 1: (1+1)*3 = 6 which gives us the end index 6.
+For i = 2: (2+1)*3 = 9 which gives us the end index 9.
+```
+
+
