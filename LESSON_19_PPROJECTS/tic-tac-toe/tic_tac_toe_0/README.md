@@ -425,3 +425,10 @@ self.board = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 - - Each section has different animals to ride on. You get to choose one animal 🦓 from each section as the carousel spins .
 
 <br>
+
+
+<br>
+
+### 🍭 When i is 0:
+
+- -  `i*3` is `0*3`, which equals `0`.
