@@ -432,3 +432,14 @@ self.board = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 ### 🍭 When i is 0:
 
 - -  `i*3` is `0*3`, which equals `0`.
+
+- - This means **we start at position `0`** in the **list**.
+
+<br>
+
+### 🎠 How it works, imagine a iteration, like a carousel SPIN, each turn is similar to a loop iteration
+
+<br>
+
+
+#### First Round (First Turn):
