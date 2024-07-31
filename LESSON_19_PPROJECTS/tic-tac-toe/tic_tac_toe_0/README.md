@@ -417,3 +417,7 @@ self.board = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 [ 🦓 | 🦒 | 🦁 ]
 
 [ 🐯 | 🐵 | 🦔 ]
+
+#### Each section represents a different part of the carousel 🎠 . Think of these sections like the rows in our Tic-Tac-Toe game
+
+- - Imagine you’re at a **funfair** 🎪 with a carousel 🎠 that has 3 sections.
