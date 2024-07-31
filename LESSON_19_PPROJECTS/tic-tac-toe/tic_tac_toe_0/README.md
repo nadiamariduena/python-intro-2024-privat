@@ -380,3 +380,5 @@ self.board = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 <br>
 
 🟦 `i*3`: This tells us where to **start** in the list for each row.
+
+🟦 `(i+1)*3`: This tells us where to **stop** in the list for each row.
