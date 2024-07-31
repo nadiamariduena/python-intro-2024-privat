@@ -511,6 +511,13 @@ Tic-Tac-Toe Grid:
 ```
 <br>
 
+#### and opla.. jump to the next row
+
+![tumblr_f7a8d8b69cdcc60f31cb097c3a334d5f_82b2b893_500](https://github.com/user-attachments/assets/a1a09d4d-7946-4d44-8765-8b700a3a5280)
+
+
+<br>
+
 ### Visual Explanation
 
 ```bash
