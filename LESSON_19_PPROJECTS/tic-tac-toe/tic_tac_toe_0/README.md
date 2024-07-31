@@ -514,3 +514,14 @@ Tic-Tac-Toe Grid:
 | 6 | 7 | 8 |  <- Third Row (6 to 8)
 ```
 
+
+
+<br>
+
+## `for row in [self.board[i*3:(i+1)*3] for i in range(3)]:`
+
+
+## 🟠 What i+1 Does 🟡
+
+`i+1` helps us figure out the end position of the slice.
+
