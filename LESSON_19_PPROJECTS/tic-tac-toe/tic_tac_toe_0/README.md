@@ -294,8 +294,32 @@ class TicTacToe:
 ```
 <br>
 
-### 🟧  `self.current_winner = None`
+## 🟧  `self.current_winner = None`
+
+<br>
 
 **self.current_winner:** This keeps track of who is winning the game.
 
 **None:** This means we don’t know yet if anyone has won because the game hasn’t been played.
+
+<br>
+<br>
+
+---
+
+<br>
+<br>
+
+## 🌴 Create a another function, call it:  `print_board`
+
+- pass the param from the parent function: **self**
+
+```python
+def print_board(self):
+    #This part creates a list of rows from the board. Let’s break this down:
+    #- - self.board: This is the list with all the spaces on the board.
+    for row in [self.board[i*3:(i+1)*3] for i in range(3)]:
+```
+
+<br>
+<br>
