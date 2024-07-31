@@ -453,3 +453,12 @@ Round 1:
 # - Pick an animal from this section.
 # - Example: You choose the 🐴 from the first section.
 ```
+#### Second Round (Second Turn):
+
+```bash
+Round 2:
+[ 🦓 | 🦒 | 🦁 ]
+# - Carousel turns to the second section.
+# - Pick an animal from this new section.
+# - Example: You choose the 🦓 from the second section.
+```
