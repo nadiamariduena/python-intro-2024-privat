@@ -472,3 +472,36 @@ Round 3:
 # - Pick an animal from this last section.
 # - Example: You choose the 🐯 from the third section.
 ```
+
+<br>
+<br>
+
+```python
+Tic-Tac-Toe Grid:
+
+🍭
+1. **First Iteration (i = 0)**
+   - Start at index: 0
+   - End at index: 3
+   - Extract: [0, 1, 2]
+
+   [0 | 1 | 2]  <- First Row (0 to 2)
+
+🍰
+2. **Second Iteration (i = 1)**
+   - Start at index: 3
+   - End at index: 6
+   - Extract: [3, 4, 5]
+
+   [3 | 4 | 5]  <- Second Row (3 to 5)
+
+🍓
+3. **Third Iteration (i = 2)**
+   - Start at index: 6
+   - End at index: 9
+   - Extract: [6, 7, 8]
+
+   [6 | 7 | 8]  <- Third Row (6 to 8)
+
+```
+<br>
