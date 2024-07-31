@@ -323,3 +323,13 @@ def print_board(self):
 
 <br>
 <br>
+
+## 🟩  Let’s break this down:
+
+
+
+### 🟠 `for row in [self.board[i*3:(i+1)*3] for i in range(3)]`:
+
+<br>
+
+- 🌈 **Imagine** we have a tic-tac-toe board represented as a list with 9 positions, like this:
