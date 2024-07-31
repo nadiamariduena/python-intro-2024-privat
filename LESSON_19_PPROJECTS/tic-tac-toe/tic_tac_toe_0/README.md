@@ -542,3 +542,10 @@ For i = 2: (2+1)*3 = 9 which gives us the end index 9.
 ```
 
 
+
+### 🟣 In other words: when the first round (or spin) of the carousel ends, it slices at position 3, which marks the end of the first row and the beginning of the second row.
+
+```python
+# (i+1) or (0+1)
+For i = 0: (0+1)*3 = 3 which gives us the end index 3.
+```
