@@ -565,3 +565,8 @@ For i = 1: (1+1)*3 = 6 which gives us the end index 6.
 
 - - If you change the slicing formula to `[self.board[i*4:(i+1)*4]]`, this will create a grid where each row contains 4 values:
 
+```bash
+| 🐴 | 🦄 | 🐪 | 🦓 |  <- First Row (positions 0 to 3)
+| 🦒 | 🦁 | 🐯 | 🐵 |  <- Second Row (positions 4 to 7)
+| 🦔 | 🦋 | 🦜 | 🦨 |  <- Third Row (positions 8 to 11)
+```
