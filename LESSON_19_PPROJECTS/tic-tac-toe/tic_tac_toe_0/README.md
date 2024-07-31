@@ -392,11 +392,12 @@ self.board = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 
 <br>
 <br>
- 
+
  ![yellow-submarine](https://github.com/user-attachments/assets/f8fbc564-6920-42a4-b72a-66b0f6fc024c)
 
+<br>
 
-#### 🌈 short explanation:
+### 🌈 short explanation:
 
 ### Imagine you’re at a funfair with a carousel that has 3 sections. Each section has different animals to ride on. You get to choose one animal from each section as the carousel spins.
 
