@@ -333,3 +333,19 @@ def print_board(self):
 <br>
 
 - 🌈 **Imagine** we have a tic-tac-toe board represented as a list with 9 positions, like this:
+
+```python
+self.board = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+
+```
+
+#### This list represents the tic-tac-toe board like this:
+
+```bash
+   0 | 1 | 2
+  ---|---|---
+   3 | 4 | 5
+  ---|---|---
+   6 | 7 | 8
+
+```
