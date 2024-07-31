@@ -382,3 +382,16 @@ self.board = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 🟦 `i*3`: This tells us where to **start** in the list for each row.
 
 🟦 `(i+1)*3`: This tells us where to **stop** in the list for each row.
+
+
+<br>
+
+#### Understanding i*3
+
+- In this Tic-Tac-Toe game, the list of numbers is divided into three rows.
+
+<br>
+
+#### 🌈 short explanation:
+
+### Imagine you’re at a funfair with a carousel that has 3 sections. Each section has different animals to ride on. You get to choose one animal from each section as the carousel spins.
