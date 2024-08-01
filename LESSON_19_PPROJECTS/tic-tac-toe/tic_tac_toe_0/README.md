@@ -616,3 +616,12 @@ For i = 1: (1+1)*3 = 6 which gives us the end index 6.
 <br>
 
 ## 🟡 Connection and Purpose
+
+<br>
+
+- - **Initialization**
+
+`self.board = [' ' for _ in range(9)]`:
+
+>This creates the board with 9 empty spaces, setting up the initial state of the Tic-Tac-Toe game.
+
