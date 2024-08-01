@@ -625,3 +625,9 @@ For i = 1: (1+1)*3 = 6 which gives us the end index 6.
 
 >This creates the board with 9 empty spaces, setting up the initial state of the Tic-Tac-Toe game.
 
+<br>
+
+- -  **Row Extraction**
+
+`for row in [self.board[i*3:(i+1)*3] for i in range(3)]:`
+
