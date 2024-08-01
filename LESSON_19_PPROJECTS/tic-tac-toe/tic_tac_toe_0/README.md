@@ -260,7 +260,7 @@ class HumanPlayer(Player):
 <br>
 <br>
 
-## Summary
+## 🟤 Summary
 
 
 **Parent Class (Player):** Defines the basic setup, including the letter attribute.
@@ -285,19 +285,29 @@ class TicTacToe:
 ```
 
 <br>
+<br>
 
 ### 🟧 `self.board = [' ' for _ in range(9)]`
 
+<br>
 
-- -   This **creates a list** (like a **row of boxes**) with **9 empty spaces**. Each space will be where we put **X or O.**
 
-- - ####  🔸 Think of it as a 3x3 grid but stored in a single line.
+- - 🔸 This line of code: `self.board = [' ' for _ in range(9)]` ,  **initializes** the <u>self.board</u>
 
-```python
-[' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
-#Each ' ' represents an empty spot on the board.
 
-```
+- - 🔸 `for _ in range(9)`: This **iterates 9** times, and for each iteration, it adds a space to the list.
+
+
+- - 🔸 Result: The list self.board will be `[' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']`. This represents an empty Tic-Tac-Toe board with 9 positions, all initially empty.
+
+
+
+<br>
+
+- - ###  🔸 Think of it as a 3x3 grid but stored in a single line.
+
+
+<br>
 <br>
 
 ## 🟧  `self.current_winner = None`
