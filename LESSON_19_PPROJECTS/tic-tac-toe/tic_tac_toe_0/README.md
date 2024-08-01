@@ -1,5 +1,11 @@
 # 🟡 Tic Tac Toe
 
+#### 🫐 Course developed by Kylie Ying.
+
+[min: 35:55 | 12 Beginner Python Projects - Coding Course](https://youtu.be/8ext9G7xspg?si=U_U7YuBMpWRwDksc&t=2155)
+
+
+
 
 <br>
 <br>
