@@ -412,6 +412,12 @@ self.board = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 - 🎠 Each Turn = Each Iteration: Each turn of the carousel machine moves you to a new set of animal seats, just like each iteration of the loop moves to the next row. 🎠
 
 
+<br>
+
+- The for row in [...] loop iterates over:
+
+
+
 ```bash
    0 | 1 | 2
   ---|---|---
@@ -525,6 +531,10 @@ Tic-Tac-Toe Grid:
 <br>
 
 ### Visual Explanation
+
+- The **for** row **in** [...] loop iterates over:
+
+
 
 ```bash
 | 0 | 1 | 2 |  <- First Row (0 to 2)

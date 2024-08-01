@@ -4,7 +4,7 @@ class TicTacToe:
 
         self.current_winner = None # Keep track of winner
 
-    # def print_board(self):
-    #     #This part creates a list of rows from the board. Let’s break this down:
+    def print_board(self):
+    #     #This part creates a list of rows from the board:
     #     #- - self.board: This is the list with all the spaces on the board.
-    #     for row in [self.board[i*3:(i+1)*3] for i in range(3)]:
+         for row in [self.board[i*3:(i+1)*3] for i in range(3)]:
