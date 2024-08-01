@@ -632,3 +632,12 @@ For i = 1: (1+1)*3 = 6 which gives us the end index 6.
 `for row in [self.board[i*3:(i+1)*3] for i in range(3)]:`
 
 >This takes the linear list self.board and splits it into 3 rows, each containing 3 elements. It makes it easier to print the board in a 3x3 grid format.
+
+<br>
+
+### 🟫 Consider the board after some moves might look like this:
+
+```python
+self.board = ['X', 'O', 'X', ' ', 'X', 'O', ' ', ' ', 'O']
+
+```
