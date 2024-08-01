@@ -2,6 +2,8 @@ class TicTacToe:
     def __init__(self):
         # This line of code: self.board = [' ' for _ in range(9)] ,  initializes the self.board
         # for _ in range(9) : This iterates 9 times, and for each iteration, it adds a space to the list.
+        # Result: The list self.board will be [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']. This represents an empty Tic-Tac-Toe board with 9 positions, all initially empty.
+        #
         self.board = [' ' for _ in range(9)] # This creates a list (like a row of boxes) with 9 empty spaces. Each space will be where we put X or O. Think of it as a 3x3 grid but stored in a single line.
 
         self.current_winner = None # Keep track of winner
