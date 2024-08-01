@@ -608,3 +608,11 @@ For i = 1: (1+1)*3 = 6 which gives us the end index 6.
 | 🦒 | 🦁 | 🐯 | 🐵 |  <- Second Row (positions 4 to 7)
 | 🦔 | 🦋 | 🦜 | 🦨 |  <- Third Row (positions 8 to 11)
 ```
+
+
+<br>
+<br>
+<br>
+<br>
+
+## 🟡 Connection and Purpose
