@@ -641,3 +641,8 @@ For i = 1: (1+1)*3 = 6 which gives us the end index 6.
 self.board = ['X', 'O', 'X', ' ', 'X', 'O', ' ', ' ', 'O']
 
 ```
+#### The list comprehension inside print_board:
+
+```python
+[self.board[i*3:(i+1)*3] for i in range(3)]
+```
