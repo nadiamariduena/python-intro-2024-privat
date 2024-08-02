@@ -746,3 +746,7 @@ class TicTacToe:
 **It allows you to group functions** that are **related to a class** <u>together</u>, **even** if **those functions don't need** to **interact** with **class** or **instance data**. This helps in organizing code better.
 
 <br>
+
+### 🟦 Utility Functions:
+
+`@staticmethod` is useful for **utility functions** that **might** be **relevant** to the **class but don't need** to **modify or access** the **class's state**.
