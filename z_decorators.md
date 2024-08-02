@@ -9,3 +9,14 @@
 <br>
 
 ### 🟧 Here's a list of common decorators and the most used ones in Python:
+
+<br>
+
+## 🟦 Built-in Decorators
+
+
+#### `@staticmethod`:
+
+- - Defines a method that does not operate on an instance or class. It behaves like a regular function but is associated with the class.
+
+<br>
