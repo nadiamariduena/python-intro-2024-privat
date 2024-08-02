@@ -28,3 +28,9 @@
 
 #### `@classmethod:`
 
+
+- -  Defines a method that operates on the class itself, rather than on instances. It receives the class as its first argument (cls).
+
+<br>
+
+#### `@property:`
