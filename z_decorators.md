@@ -60,3 +60,6 @@
 <br>
 
 ####  `functools.total_ordering`:
+
+- - Automatically generates missing comparison methods (<, <=, >, >=) based on the defined ones (==, !=).
+
