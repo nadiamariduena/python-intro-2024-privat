@@ -155,3 +155,8 @@ print(add.__doc__)       # Output: Add two numbers.
 
 
 ## 🟦  Custom and Third-Party Decorators
+
+
+#### `@login_required`:
+
+- - Common in web frameworks like Django, it ensures that a user is authenticated before accessing a view.
