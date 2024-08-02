@@ -260,3 +260,5 @@ Excessive retries might result in unnecessary load or delay, affecting the perfo
 - Idempotent operations are those where repeating the same request has the same effect as making it just once. If the operations aren’t idempotent, retrying can result in unintended side effects or duplicate actions.
 
 **Multiple Charges**: If an order request is retried and each attempt results in a new charge or order entry, the customer might be billed multiple times.
+
+**Duplicate Entries**: Non-idempotent operations might lead to duplicate records in the database, which can cause confusion and require additional cleanup.
