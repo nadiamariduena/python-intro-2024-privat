@@ -742,3 +742,7 @@ class TicTacToe:
 <br>
 
 ### 🟦 Encapsulation:
+
+**It allows you to group functions** that are **related to a class** <u>together</u>, **even** if **those functions don't need** to **interact** with **class** or **instance data**. This helps in organizing code better.
+
+<br>
