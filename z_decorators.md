@@ -182,3 +182,8 @@ print(add.__doc__)       # Output: Add two numbers.
 #### 🟣 QUESTION:  In ReactJS, failing to use useEffect when making API calls can lead to issues such as memory leaks. Is there a similar risk when using the <u>@retry decorator</u>  in Python for handling retries?
 
 - If so, how can this risk be mitigated? For example, consider a scenario where we're managing API calls to an ice cream store's inventory system.
+
+#### ✅ Chatgpt:
+
+- - 🔴 **Yes**, there can be risks of resource leaks or unintended behavior when using a retry decorator in Python, similar to how you might face issues with useEffect in React if not properly managed.
+
