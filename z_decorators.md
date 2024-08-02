@@ -187,3 +187,4 @@ print(add.__doc__)       # Output: Add two numbers.
 
 - - 🔴 **Yes**, there can be risks of resource leaks or unintended behavior when using a retry decorator in Python, similar to how you might face issues with useEffect in React if not properly managed.
 
+- - In Python, this can often manifest as unclosed resources, such as file handles or network connections, especially if the retrying logic involves repeated resource usage.
