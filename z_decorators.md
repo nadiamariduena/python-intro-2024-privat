@@ -320,3 +320,16 @@ In MongoDB or any other database service, multiple requests can lead to:
 
 - - **Optimize Queries:** Ensure that your database queries are efficient to reduce the cost of operations.
 
+
+
+
+
+
+
+<br>
+<br>
+
+### Protected Example with Idempotency and Retry Management
+
+
+1. Protected Code with Idempotency and Retry Management:
