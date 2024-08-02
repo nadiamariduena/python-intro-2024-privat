@@ -335,7 +335,7 @@ In MongoDB or any other database service, multiple requests can lead to:
 1. Protected Code with Idempotency and Retry Management:
 
 ```python
-import uuid
+import uuid # Notes: check the social media project, i used it there just to test it
 import time
 import requests
 from functools import wraps
