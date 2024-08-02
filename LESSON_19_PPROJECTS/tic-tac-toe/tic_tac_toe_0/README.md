@@ -789,10 +789,28 @@ print(result)  # Output: 8
 
 #### Example Scenario:
 
-- - You have a method that needs to access or modify class or instance attributes, or interact with other methods of the class.
+- - You have a **method that needs to access or modify class or instance attributes**, or interact with other methods of the class.
 
 Code Example 1: Accessing Instance Attributes
 
 ```python
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def greet(self):
+        print(f"Hello, my name is {self.name}")
+
+# Usage
+p = Person("Alice")
+p.greet()  # Output: Hello, my name is Alice
 
 ```
+
+<br>
+
+#### Explanation:
+
+- - The `greet` method **needs to access** the **instance attribute** `self.name`.
+
+- - This **method must be an instance** method, 🛑 **not** a static method, because it operates on the instance state.
