@@ -276,3 +276,7 @@ In MongoDB or any other database service, multiple requests can lead to:
 
 - - Each request that creates or updates a document counts as a read or write operation. More operations can lead to higher costs, particularly if you're charged per operation.
 
+
+**Service Charges:**
+
+- -  Some database services charge based on the number of requests or the amount of data processed. More retries can result in higher bills.
