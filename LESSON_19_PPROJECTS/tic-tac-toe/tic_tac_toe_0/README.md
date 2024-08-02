@@ -780,3 +780,19 @@ print(result)  # Output: 8
 #### Explanation:
 
 - - The add method is a utility function that performs an addition operation. It doesn't need to access or modify any class or instance attributes. It’s logically related to the MathUtils class, but it doesn’t rely on any class-specific data.
+
+<br>
+<br>
+
+
+### 🟠 When Not to Use staticmethod
+
+#### Example Scenario:
+
+- - You have a method that needs to access or modify class or instance attributes, or interact with other methods of the class.
+
+Code Example 1: Accessing Instance Attributes
+
+```python
+
+```
