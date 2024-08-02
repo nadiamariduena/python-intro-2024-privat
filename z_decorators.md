@@ -242,3 +242,9 @@ If the function place_order involves opening resources (e.g., file handles, data
 
 <br>
 
+
+### Performance Issues:
+Excessive retries might result in unnecessary load or delay, affecting the performance and user experience.
+
+<br>
+
