@@ -271,3 +271,8 @@ In MongoDB or any other database service, multiple requests can lead to:
 **Higher Data Transfer Costs:**
 
 - -  Each request involves data being sent over the network. Retry attempts increase the amount of data transferred, which might lead to higher costs, especially if the requests are large or frequent.
+
+**Increased Read/Write Operations:**
+
+- - Each request that creates or updates a document counts as a read or write operation. More operations can lead to higher costs, particularly if you're charged per operation.
+
