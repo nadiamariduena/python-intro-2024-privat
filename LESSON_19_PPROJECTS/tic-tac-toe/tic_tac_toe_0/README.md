@@ -661,3 +661,42 @@ self.board = ['X', 'O', 'X', ' ', 'X', 'O', ' ', ' ', 'O']
 <br>
 
 - - `'| ' + ... + ' |'` wraps the formatted row with | on both ends.
+
+<br>
+
+> #### This format makes it easy to *visually* inspect the current state of the Tic-Tac-Toe board, with each cell separated by vertical bars and each row clearly delineated.
+
+
+```python
+print('| ' +  ' | '.join(row) +  ' |')
+```
+#### output
+
+```bash
+| X | O | X |
+|   | X | O |
+|   |   | O |
+```
+
+<br>
+
+
+```python
+class TicTacToe:
+    def __init__(self):
+
+        self.board = [' ' for _ in range(9)]
+        self.current_winner = None
+
+    def print_board(self):
+
+         for row in [self.board[i*3:(i+1)*3] for i in range(3)]:
+             #
+             #  | '.join(row) joins the elements of the row with ' | ' as the separator, so each row’s elements are separated by vertical bars.
+             print('| ' +  ' | '.join(row) +  ' |')
+```
+
+<br>
+<br>
+<br>
+<br>
