@@ -63,3 +63,10 @@
 
 - - Automatically generates missing comparison methods (<, <=, >, >=) based on the defined ones (==, !=).
 
+
+<br>
+
+#### `functools.singledispatch`:
+
+- - Allows a function to behave differently based on the type of its first argument. It’s a form of generic function dispatch.
+
