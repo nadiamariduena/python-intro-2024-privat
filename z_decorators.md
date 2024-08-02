@@ -92,3 +92,8 @@ def log_decorator(func):
 #### ✅ chatgpt:
 
 - The `@functools.wraps` decorator might appear in grey and look like a comment in some code editors or IDEs due to syntax highlighting settings or themes that treat decorators differently. Despite its appearance, @functools.wraps is indeed an important part of the code.
+
+>It is used to update the wrapper function to look more like the original function being decorated.
+
+>This means it copies metadata such as the function name, docstring, and other attributes from the original function to the wrapper function.
+
