@@ -333,3 +333,71 @@ In MongoDB or any other database service, multiple requests can lead to:
 
 
 1. Protected Code with Idempotency and Retry Management:
+
+```python
+import uuid
+import time
+import requests
+from functools import wraps
+from requests.adapters import HTTPAdapter
+from requests.packages.urllib3.util.retry import Retry
+from pymongo import MongoClient, errors
+
+# Retry Decorator with Exponential Backoff 🔄
+def retry_request(max_retries=3, backoff_factor=0.3):
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            session = requests.Session()
+            retry = Retry(total=max_retries,
+                          backoff_factor=backoff_factor,
+                          status_forcelist=[500, 502, 503, 504])
+            adapter = HTTPAdapter(max_retries=retry)
+            session.mount('http://', adapter)
+            session.mount('https://', adapter)
+            return func(session, *args, **kwargs)
+        return wrapper
+    return decorator
+
+# Function to Place Order with Idempotency 🛒
+@retry_request(max_retries=5, backoff_factor=1)
+def place_order(session, order_details):
+    order_id = str(uuid.uuid4())  # Unique identifier for idempotency 🆔
+    try:
+        response = session.post('https://api.icecreamstore.com/order', json={**order_details, 'order_id': order_id})
+        response.raise_for_status()
+        return response.json()
+    except requests.RequestException as e:
+        print(f"Order placement failed: {e}")
+        raise
+
+# Connect to MongoDB 🗄️
+client = MongoClient('mongodb://localhost:27017/')
+db = client['icecream_store']
+orders_collection = db['orders']
+
+# Function to Store Order in MongoDB with Idempotency 📦
+def store_order(order_id, order_details):
+    try:
+        orders_collection.update_one(
+            {'order_id': order_id},  # Unique key for idempotency 🆔
+            {'$set': order_details},
+            upsert=True  # Insert the document if it does not exist
+        )
+    except errors.PyMongoError as e:
+        print(f"Failed to store order in MongoDB: {e}")
+        raise
+
+# Usage Example 🚀
+order_details = {'flavor': 'vanilla', 'quantity': 2}
+try:
+    order_response = place_order(requests.Session(), order_details)
+    order_id = order_response['order_id']
+    store_order(order_id, order_details)
+    print("Order placed and stored successfully:", order_response)
+except Exception as e:
+    print(f"Failed to place or store order: {e}")
+
+```
+
+<br>
