@@ -280,3 +280,17 @@ In MongoDB or any other database service, multiple requests can lead to:
 **Service Charges:**
 
 - -  Some database services charge based on the number of requests or the amount of data processed. More retries can result in higher bills.
+
+
+
+<br>
+<br>
+
+
+## 🟧 How to Manage These Issues
+
+### Use Idempotent API Endpoints:
+
+#### Design your API to handle retries safely. This often involves:
+
+#### Idempotent Operations:
