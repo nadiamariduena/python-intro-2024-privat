@@ -136,3 +136,14 @@ print(add.__doc__)       # Output: Add two numbers.
 
 
  ```
+
+
+ <br>
+
+### In this example:
+
+- - `@functools.wraps(func)` ensures that wrapper retains the __name__ and __doc__ attributes of add.
+
+
+🔴 **Without** `functools.wraps`, **add.__name__** would be **'wrapper'** and **add.__doc__** would be **None**, which would be **misleading**.
+
