@@ -750,3 +750,21 @@ class TicTacToe:
 ### 🟦 Utility Functions:
 
 `@staticmethod` is useful for **utility functions** that **might** be **relevant** to the **class but don't need** to **modify or access** the **class's state**.
+
+<br>
+
+### Code Organization:
+
+It makes it clear that the method doesn't depend on the class's state or instance, and hence, it’s more about logical grouping rather than functionality.
+
+<br>
+<br>
+
+
+### 🟠 When to Use staticmethod
+
+**Example Scenario:** You have a utility function that logically belongs to a class but doesn’t need to interact with the class or instance data.
+
+```python
+
+```
