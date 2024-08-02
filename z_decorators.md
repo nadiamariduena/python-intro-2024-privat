@@ -308,3 +308,7 @@ In MongoDB or any other database service, multiple requests can lead to:
 #### 🔶 Limit Retries:
 
 - - Set a reasonable limit on the number of retries to avoid excessive requests.
+
+#### 🔶 Exponential Backoff:
+
+- - Use exponential backoff strategies to space out retry attempts, reducing the load on the system.
