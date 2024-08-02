@@ -734,3 +734,11 @@ class TicTacToe:
 
   🔴 Instead, it is used to define a function within a class's namespace that doesn't need access to the instance or class.
 
+
+<br>
+
+## Purpose of `@staticmethod`
+
+<br>
+
+### 🟦 Encapsulation:
