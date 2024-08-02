@@ -401,3 +401,64 @@ except Exception as e:
 ```
 
 <br>
+
+<br>
+
+
+### 🛑 Risky Example without Protections
+2. Risky Code without Idempotency or Retry Management:
+
+```python
+import time
+import requests
+from pymongo import MongoClient, errors
+
+# Function to Place Order Without Retry or Idempotency 🚫
+def place_order(order_details):
+    try:
+        response = requests.post('https://api.icecreamstore.com/order', json=order_details)
+        response.raise_for_status()
+        return response.json()
+    except requests.RequestException as e:
+        print(f"Order placement failed: {e}")
+        # No retry mechanism, so we simply raise the exception 🚨
+        raise
+
+# Connect to MongoDB 🗄️
+client = MongoClient('mongodb://localhost:27017/')
+db = client['icecream_store']
+orders_collection = db['orders']
+
+# Function to Store Order in MongoDB Without Idempotency 📦
+def store_order(order_id, order_details):
+    try:
+        orders_collection.insert_one({**order_details, 'order_id': order_id})
+    except errors.PyMongoError as e:
+        print(f"Failed to store order in MongoDB: {e}")
+        raise
+
+# Usage Example 🚀
+order_details = {'flavor': 'vanilla', 'quantity': 2}
+try:
+    order_response = place_order(order_details)
+    order_id = order_response['order_id']
+    store_order(order_id, order_details)
+    print("Order placed and stored successfully:", order_response)
+except Exception as e:
+    print(f"Failed to place or store order: {e}")
+
+```
+
+
+
+```bash
+# Summary
+🔄: Retry mechanism with exponential backoff.
+🛒: Function to place orders with idempotency.
+🆔: Unique identifier for idempotency.
+🗄️: Connecting to MongoDB.
+📦: Storing orders in MongoDB with idempotency.
+🚀: Usage example.
+🚫: No retry or idempotency protections.
+🚨: Risk of failure without retries.
+```
