@@ -77,3 +77,5 @@
 
 #### `functools.wraps`:
 
+
+- - A helper decorator used to preserve the metadata of the original function when decorating functions. This is especially useful when creating custom decorators.
