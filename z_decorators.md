@@ -54,3 +54,9 @@
 <br>
 
 #### `functools.lru_cache`:
+
+- - Caches the results of expensive function calls to speed up subsequent calls with the same arguments. Useful for memoization.
+
+<br>
+
+####  `functools.total_ordering`:
