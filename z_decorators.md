@@ -312,3 +312,11 @@ In MongoDB or any other database service, multiple requests can lead to:
 #### 🔶 Exponential Backoff:
 
 - - Use exponential backoff strategies to space out retry attempts, reducing the load on the system.
+
+###   Monitor and Optimize:
+
+- - **Track API Usage:** Monitor the number of requests and failures to understand the impact of retries.
+
+
+- - **Optimize Queries:** Ensure that your database queries are efficient to reduce the cost of operations.
+
