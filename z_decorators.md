@@ -177,11 +177,13 @@ print(add.__doc__)       # Output: Add two numbers.
 ### 🟤 `@retry`:
 
 
-- - Custom decorator that allows you to automatically retry a function if it fails. Useful for handling transient errors in network operations or API calls.
+- - Custom decorator that allows you to automatically retry a function if it fails. Useful for handling transient errors in network operations or **API calls**.
 
-#### 🟣 QUESTION:  In ReactJS, failing to use useEffect when making API calls can lead to issues such as memory leaks. Is there a similar risk when using the <u>@retry decorator</u>  in Python for handling retries?
+<br>
 
-- If so, how can this risk be mitigated? For example, consider a scenario where we're managing API calls to an ice cream store's inventory system.
+#### 🟣 QUESTION:  In ReactJS, failing to use useEffect when making API calls can lead to issues such as memory leaks. Is there a similar risk when using the 🟤 <u>@retry decorator</u>  in Python for handling retries?
+
+- If so, how can this risk be mitigated? For example, consider a scenario where we're managing **API calls** to an ice cream store's inventory system.
 
 #### ✅ Chatgpt:
 
@@ -190,3 +192,15 @@ print(add.__doc__)       # Output: Add two numbers.
 - - In Python, this can often **manifest** as **unclosed resources**, **such** as **file handles or network connections**,
 
 - -  ✋ especially if the retrying logic involves repeated resource usage.
+
+
+<br>
+<br>
+
+### 🍨 Let’s illustrate this with an example from an ice cream store scenario.
+
+##### Example Scenario
+
+- Imagine you’re developing a Python function to place an order at an ice cream store via an API.
+
+- - You want to **retry** the **request** if it fails due to transient errors. Here’s a simple implementation of such a function using a retry decorator:
