@@ -302,3 +302,9 @@ In MongoDB or any other database service, multiple requests can lead to:
 
 - - Include unique identifiers (e.g., transaction_id) in requests so that the server can detect and ignore duplicate requests.
 
+
+### Implement Retry Strategies Wisely:
+
+#### 🔶 Limit Retries:
+
+- - Set a reasonable limit on the number of retries to avoid excessive requests.
