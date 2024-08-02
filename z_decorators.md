@@ -164,3 +164,7 @@ print(add.__doc__)       # Output: Add two numbers.
 #### `@csrf_exempt`:
 
 - - Used in web frameworks to exempt a view from CSRF (Cross-Site Request Forgery) protection.
+
+#### `@timer`:
+
+- - Custom decorator for measuring the execution time of a function. Not built-in but commonly used in practice.
