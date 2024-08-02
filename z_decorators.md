@@ -38,3 +38,9 @@
 - -  Turns a method into a property, allowing you to access it like an attribute without calling it as a method.
 
 <br>
+
+#### `@abstractmethod`:
+
+
+- - Used in abstract base classes to define abstract methods that must be implemented by any subclass.
+
