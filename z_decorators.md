@@ -204,3 +204,30 @@ print(add.__doc__)       # Output: Add two numbers.
 - Imagine you’re developing a Python function to place an order at an ice cream store via an API.
 
 - - You want to **retry** the **request** if it fails due to transient errors. Here’s a simple implementation of such a function using a retry decorator:
+
+```python
+import time
+import requests
+from functools import wraps
+
+def retry(max_retries=3, delay=2):
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            for attempt in range(max_retries):
+                try:
+                    return func(*args, **kwargs)
+                except requests.RequestException as e:
+                    print(f"Attempt {attempt + 1} failed: {e}")
+                    time.sleep(delay)
+            raise Exception("Max retries reached")
+        return wrapper
+    return decorator
+
+@retry(max_retries=5, delay=1)
+def place_order(order_details):
+    response = requests.post('https://api.icecreamstore.com/order', json=order_details)
+    response.raise_for_status()  # Raise an error for bad HTTP responses
+    return response.json()
+
+```
