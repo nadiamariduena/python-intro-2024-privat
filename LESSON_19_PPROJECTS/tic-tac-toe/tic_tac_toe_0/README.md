@@ -714,3 +714,7 @@ class TicTacToe:
 ## 🫐 What is `@staticmethod`
 
 ###  A staticmethod in Python is a 🔸 <u>method decorator</u> .
+
+<br>
+
+🍊 It is **used** to **define a method** in a **class** that **does not require access** to the **instance** (`self`) or the class (`cls`) to which it belongs.
