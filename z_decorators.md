@@ -248,3 +248,7 @@ Excessive retries might result in unnecessary load or delay, affecting the perfo
 
 <br>
 
+#### 🟣 QUESTION:  When you mention state inconsistencies: does this mean that retrying `API calls` could result in multiple requests, which might lead to state inconsistencies if the operations aren't handled right? For example, if a shop is using MongoDB, could this potentially lead to higher costs due to the increased number of requests?
+
+<br>
+
