@@ -700,3 +700,17 @@ class TicTacToe:
 <br>
 <br>
 <br>
+
+## 🟡 `@staticmethod`
+
+- 🧶 Read more about **DECORATORS** here: [z_decorators](../../../z_decorators.md)
+
+<br>
+<br>
+
+
+
+
+## 🫐 What is `@staticmethod`
+
+###  A staticmethod in Python is a 🔸 <u>method decorator</u> .
