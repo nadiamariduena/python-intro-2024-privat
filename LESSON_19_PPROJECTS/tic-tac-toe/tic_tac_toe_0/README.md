@@ -646,3 +646,18 @@ self.board = ['X', 'O', 'X', ' ', 'X', 'O', ' ', ' ', 'O']
 ```python
 [self.board[i*3:(i+1)*3] for i in range(3)]
 ```
+
+
+<br>
+<br>
+
+## 🟡 Add the bars to the table
+
+
+<br>
+
+- -  `' | '.join(row)` joins the elements of the row with `' | '` as the separator, so each row’s elements are separated by vertical bars.
+
+<br>
+
+- - `'| ' + ... + ' |'` wraps the formatted row with | on both ends.

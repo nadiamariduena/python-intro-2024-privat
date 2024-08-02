@@ -12,3 +12,10 @@ class TicTacToe:
     #     #This part creates a list of rows from the board:
     #     #- - self.board: This is the list with all the spaces on the board.
          for row in [self.board[i*3:(i+1)*3] for i in range(3)]:
+             #
+             #  | '.join(row) joins the elements of the row with ' | ' as the separator, so each row’s elements are separated by vertical bars.
+             print('| ' +  ' | '.join(row) +  ' |')
+
+    @staticmethod
+    def print_board_nums():
+        number
