@@ -160,3 +160,7 @@ print(add.__doc__)       # Output: Add two numbers.
 #### `@login_required`:
 
 - - Common in web frameworks like Django, it ensures that a user is authenticated before accessing a view.
+
+#### `@csrf_exempt`:
+
+- - Used in web frameworks to exempt a view from CSRF (Cross-Site Request Forgery) protection.
