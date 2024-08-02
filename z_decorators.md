@@ -231,3 +231,14 @@ def place_order(order_details):
     return response.json()
 
 ```
+
+<br>
+
+## 🔴 Potential Risks
+
+### Resource Leaks:
+
+If the function place_order involves opening resources (e.g., file handles, database connections) that are not properly closed or managed, retrying could exacerbate the issue.
+
+<br>
+
