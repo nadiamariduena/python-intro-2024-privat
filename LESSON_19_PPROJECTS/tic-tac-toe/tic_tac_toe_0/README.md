@@ -718,3 +718,7 @@ class TicTacToe:
 <br>
 
 🍊 It is **used** to **define a method** in a **class** that **does not require access** to the **instance** (`self`) or the class (`cls`) to which it belongs.
+
+#### In other words, a `staticmethod` is a method that can be called on the class itself, rather than on an instance of the class.
+
+
