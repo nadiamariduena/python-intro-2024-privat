@@ -44,3 +44,13 @@
 
 - - Used in abstract base classes to define abstract methods that must be implemented by any subclass.
 
+
+<br>
+<br>
+<br>
+
+## 🟦 Standard Library Decorators
+
+<br>
+
+#### `functools.lru_cache`:
