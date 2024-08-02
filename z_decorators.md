@@ -252,3 +252,7 @@ Excessive retries might result in unnecessary load or delay, affecting the perfo
 
 <br>
 
+#### ✅ chatgpt: Yes, retrying API calls can indeed lead to multiple requests, which may cause state inconsistencies if those requests aren’t idempotent.
+
+- - ✋ **Idempotent operations** are those where repeating the same request has the same effect as making it just once. If the operations aren’t idempotent, retrying can result in unintended side effects or duplicate actions.
+
