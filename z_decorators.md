@@ -97,3 +97,42 @@ def log_decorator(func):
 
 >This means it copies metadata such as the function name, docstring, and other attributes from the original function to the wrapper function.
 
+
+>This is crucial for preserving the original function's identity and documentation, especially when debugging or inspecting the function.
+
+<br>
+
+ ### 🟧 Another example:
+
+
+
+ ```python
+import functools
+
+def log_decorator(func):
+    #
+    #
+    @functools.wraps(func)  # Preserves the metadata of 'func'
+    #
+    #
+    def wrapper(*args, **kwargs):
+        #
+        print(f"Calling {func.__name__} with arguments {args} and keyword arguments {kwargs}")
+        #
+        result = func(*args, **kwargs)
+        #
+        print(f"{func.__name__} returned {result}")
+        return result
+        #
+    return wrapper
+
+@log_decorator
+def add(a, b):
+    """Add two numbers."""
+    return a + b
+
+print(add.__name__)      # Output: add
+print(add.__doc__)       # Output: Add two numbers.
+
+
+ ```
