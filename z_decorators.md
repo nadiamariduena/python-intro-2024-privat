@@ -90,3 +90,5 @@ def log_decorator(func):
 ```
 
 #### ✅ chatgpt:
+
+- The `@functools.wraps` decorator might appear in grey and look like a comment in some code editors or IDEs due to syntax highlighting settings or themes that treat decorators differently. Despite its appearance, @functools.wraps is indeed an important part of the code.
