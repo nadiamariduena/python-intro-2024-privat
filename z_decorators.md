@@ -20,3 +20,11 @@
 - - Defines a method that does not operate on an instance or class. It behaves like a regular function but is associated with the class.
 
 <br>
+
+- - 🍍 I used it in this project [tic_tac_toe_0](./LESSON_19_PPROJECTS/tic-tac-toe/tic_tac_toe_0/README.md)
+
+<br>
+<br>
+
+#### `@classmethod:`
+
