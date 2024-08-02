@@ -294,3 +294,11 @@ In MongoDB or any other database service, multiple requests can lead to:
 #### Design your API to handle retries safely. This often involves:
 
 #### Idempotent Operations:
+
+- - Ensure that repeating an operation (like placing an order) does not change the outcome beyond the initial request.
+
+
+#### Unique Request Identifiers:
+
+- - Include unique identifiers (e.g., transaction_id) in requests so that the server can detect and ignore duplicate requests.
+
