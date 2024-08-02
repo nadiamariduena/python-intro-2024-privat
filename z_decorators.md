@@ -168,3 +168,8 @@ print(add.__doc__)       # Output: Add two numbers.
 #### `@timer`:
 
 - - Custom decorator for measuring the execution time of a function. Not built-in but commonly used in practice.
+
+#### `@retry`:
+
+
+- - Custom decorator that allows you to automatically retry a function if it fails. Useful for handling transient errors in network operations or API calls.
