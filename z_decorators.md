@@ -81,3 +81,12 @@
 - - A helper decorator used to preserve the metadata of the original function when decorating functions. This is especially useful when creating custom decorators.
 
 #### 🟣 QUESTION: In the `@functools.wraps` **decorator** shown below, why does it appear in grey and look like a comment, even though it is an important part of the code?
+
+```python
+def log_decorator(func):
+    @functools.wraps(func)
+    def wrapper(*args, **kwargs):
+
+```
+
+#### ✅ chatgpt:
