@@ -766,5 +766,17 @@ It makes it clear that the method doesn't depend on the class's state or instanc
 **Example Scenario:** You have a utility function that logically belongs to a class but doesn’t need to interact with the class or instance data.
 
 ```python
+class MathUtils:
+    @staticmethod
+    def add(x, y):
+        return x + y
+
+# Usage
+result = MathUtils.add(5, 3)
+print(result)  # Output: 8
 
 ```
+
+#### Explanation:
+
+- - The add method is a utility function that performs an addition operation. It doesn't need to access or modify any class or instance attributes. It’s logically related to the MathUtils class, but it doesn’t rely on any class-specific data.
