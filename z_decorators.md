@@ -147,3 +147,11 @@ print(add.__doc__)       # Output: Add two numbers.
 
 🔴 **Without** `functools.wraps`, **add.__name__** would be **'wrapper'** and **add.__doc__** would be **None**, which would be **misleading**.
 
+
+<br>
+<br>
+<br>
+<br>
+
+
+## 🟦  Custom and Third-Party Decorators
