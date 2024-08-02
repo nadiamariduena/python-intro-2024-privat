@@ -722,3 +722,15 @@ class TicTacToe:
 #### In other words, a `staticmethod` is a method that can be called on the class itself, rather than on an instance of the class.
 
 
+
+ In Python, a `staticmethod` is a method that <u>belongs to a class rather than an instance of the class </u> .
+
+
+<br>
+<br>
+
+ 🔴 This means **it doesn't have access to the instance (self)** or **class (cls) attributes** or **methods.**
+
+
+  🔴 Instead, it is used to define a function within a class's namespace that doesn't need access to the instance or class.
+
