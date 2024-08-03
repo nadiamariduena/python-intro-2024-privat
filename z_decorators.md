@@ -654,3 +654,5 @@ except Exception as e:
 
 🔶 when you say:
 
+**staticmethod** is a method, but it does not operate on the instance or the class directly. It does not take `self` or `cls` as its first parameter. Instead, it behaves like a regular function but lives in the namespace of the class.
+
