@@ -1,5 +1,19 @@
 ## 🧶 Python decorators
 
+
+#### - staticmethod [Go to section](#staticmethod)
+
+
+
+
+
+<br
+
+<br>
+
+<br>
+
+
 #### Python decorators are a powerful feature that allows you to modify or enhance the behavior of functions or methods.
 
 - 🍊 Decorators are often used to **add functionality** to functions or methods.
@@ -10,12 +24,20 @@
 
 ### 🟧 Here's a list of common decorators and the most used ones in Python:
 
+
+
+
+
+### 🟦 Built-in Decorators
+
+
+<br>
 <br>
 
-## 🟦 Built-in Decorators
+<a name="staticmethod"></a>
 
 
-#### `@staticmethod`:
+## `@staticmethod`:
 
 - - Defines a method that does not operate on an instance or class. It behaves like a regular function but is associated with the class.
 
