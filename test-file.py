@@ -29,10 +29,10 @@ class Student:
 
     # Qualifications
 
-    s1 = Student("Filomena", "A")
-    s2 = Student("Ludovico", "C")
-    s3 = Student("Ana", "B")
-    s4 = Student("Yvonne", "D")
+s1 = Student("Filomena", "A")
+s2 = Student("Ludovico", "C")
+s3 = Student("Ana", "B")
+s4 = Student("Yvonne", "D")
 
 
 #Check if there are any students with good grades
