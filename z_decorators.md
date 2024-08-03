@@ -658,3 +658,6 @@ except Exception as e:
 
 Is it only the `staticmethod` or all decorators arent allowed to..(what you said above)
 
+### ✅ Chatgpt:
+
+-  When discussing decorators like staticmethod, the observation about not taking `self` or `cls` as parameters **specifically applies** to `staticmethod`. **However**, this concept can extend to other decorators based on their purpose and behavior. Let’s break it down:
