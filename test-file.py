@@ -25,3 +25,12 @@ class Student:
 
         good_students = [student.name for student in cls.students if student.grade in ("A", "B")]
 
+        return good_students
+
+    # Qualifications
+
+    s1 = Student("Filomena", "A")
+    s2 = Student("Ludovico", "C")
+    s3 = Student("Ana", "B")
+    s4 = Student("Yvonne", "D")
+
