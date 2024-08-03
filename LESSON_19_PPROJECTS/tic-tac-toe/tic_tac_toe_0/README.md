@@ -703,20 +703,21 @@ class TicTacToe:
 
 ## 🟡 `@staticmethod`
 
-- 🧶 Read more about **DECORATORS** here: [z_decorators](../../../z_decorators.md)
-
-<br>
-<br>
 
 
 
 
-## 🫐 What is `@staticmethod`
 
-###  A staticmethod in Python is a 🔸 <u>method decorator</u> .
+
+
+### 🫐 What is `@staticmethod`?
 
 <br>
 
-🍊 It is **used** to **define a method** in a **class** that **does not require access** to the **instance** (`self`) or the class (`cls`) to which it belongs.
+####  A staticmethod in Python is a 🔸  *method decorator*.
 
-#### 👾 [READ MORE: z_decorators](../../../z_decorators.md)
+
+
+🍊 It is **used** to **define a method** in a **class** that **does not require access** to the **instance** (`self`) or the class (`cls`) to which it belongs (*check the examples in the link below*).
+
+####  🧶 [READ MORE: z_decorators](../../../z_decorators.md)

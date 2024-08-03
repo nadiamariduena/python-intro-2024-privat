@@ -1,32 +1,24 @@
 ## 🧶 Python decorators
 
 
-#### - staticmethod [Go to section](#staticmethod)
+### - staticmethod [Go to section](#staticmethod)
+
+ - -  examples: [Go to examples](#staticmethod_examples)
 
 
-
-
-
-<br
 
 <br>
 
 <br>
 
+<br>
 
-#### Python decorators are a powerful feature that allows you to modify or enhance the behavior of functions or methods.
+
+### Python decorators are a powerful feature that allows you to modify or enhance the behavior of functions or methods.
 
 - 🍊 Decorators are often used to **add functionality** to functions or methods.
 
-
-<br>
-<br>
-
-### 🟧 Here's a list of common decorators and the most used ones in Python:
-
-
-
-
+#### 🟧 Here's a list of common decorators and the most used ones in Python 🟧
 
 ### 🟦 Built-in Decorators
 
@@ -102,9 +94,14 @@ It makes it clear that the method doesn't depend on the class's state or instanc
 <br>
 
 
+<a name="staticmethod_examples"></a>
+
+
 ### 🟠 When to Use staticmethod
 
-**Example Scenario:** You have a utility function that logically belongs to a class but doesn’t need to interact with the class or instance data.
+### 👾 1. Example:
+
+ - - You have a utility function that logically belongs to a class but doesn’t need to interact with the class or instance data.
 
 ```python
 class MathUtils:
@@ -128,7 +125,7 @@ print(result)  # Output: 8
 
 ### 🟠 When Not to Use staticmethod
 
-#### Example Scenario:
+### 👾 2. Example:
 
 - - You have a **method that needs to access or modify class or instance attributes**, or interact with other methods of the class.
 
@@ -148,7 +145,7 @@ p.greet()  # Output: Hello, my name is Alice
 
 ```
 
-<br>
+
 
 #### Explanation:
 
