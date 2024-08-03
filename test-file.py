@@ -34,3 +34,10 @@ class Student:
     s3 = Student("Ana", "B")
     s4 = Student("Yvonne", "D")
 
+
+#Check if there are any students with good grades
+print(Student.had_good_grades())
+
+# GET a list of students with good grades
+good_students = Student.get_students_with_good_grades()
+print(good_students)
