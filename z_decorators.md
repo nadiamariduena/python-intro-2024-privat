@@ -305,6 +305,10 @@ class Counter:
     def increment(cls)
     cls.count += 1
 
+    @classmethod
+    def get_count(cls)
+    return cls.count
+
 ```
 
 <br>
