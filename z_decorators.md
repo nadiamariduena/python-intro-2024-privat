@@ -309,6 +309,8 @@ class Counter:
     def get_count(cls)
     return cls.count
 
+Counter.increment()
+print(Counter.get_count())
 ```
 
 <br>
