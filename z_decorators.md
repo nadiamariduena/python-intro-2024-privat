@@ -183,6 +183,8 @@ Parameters: A staticmethod does not take self or cls as its first parameter. It 
 
 ## 🌠 More examples
 
+####  1: Basic Static Method
+
 ```python
 class IceCreamStore:
     @staticmethod
@@ -195,8 +197,31 @@ greeting = IceCreamStore.greet_customer('Alice')
 print(greeting)  # Output: Hello, Alice! Welcome to Ice Cream Store!
 
 # 🔍 Notice: 'greet_customer' does not use 'self' or 'cls'
-```
+# ✋ Behavior: greet_customer is a static method because it doesn't operate on an instance (self) or the class (cls). It's like a regular function
 
+# ✋ Parameters: It only takes name as its parameter and doesn’t need self or cls.
+```
+<br>
+
+### 2: Static Method with Multiple Parameters
+
+```python
+class IceCreamStore:
+    @staticmethod
+    def recommend_flavor(age, preference):
+        # 🛠️ This is a static method. It only takes parameters you provide and does not involve 'self' or 'cls' cls stands for class.
+        if age < 12:
+            return 'Vanilla' if preference == 'sweet' else 'Chocolate'
+        else:
+            return 'Mint Chocolate Chip' if preference == 'minty' else 'Coffee'
+
+# 🌟 Using the static method
+recommendation = IceCreamStore.recommend_flavor(10, 'sweet')
+print(f"We recommend: {recommendation}")  # Output: We recommend: Vanilla
+
+# 🔍 Notice: 'recommend_flavor' uses only provided parameters, not 'self' or 'cls'
+
+```
 
 <br>
 <br>
