@@ -7,6 +7,9 @@
 
 <br>
 
+### - classmethod [Go to section](#classmethod)
+
+
 
 
 
@@ -285,11 +288,34 @@ print(hours)  # Output: We are open from 10 AM to 10 PM daily.
 <br>
 <br>
 
+<a name="classmethod"></a>
+
 ## 👾 `@classmethod:`
 
 
 - -  Defines a method that **operates** on the  ✋ **class itself**, rather than on instances. It receives the class as its first argument (cls).
 
+### Example
+
+```python
+class Counter:
+    count =
+
+    @classmethod
+    def increment(cls)
+    cls.count += 1
+
+```
+
+<br>
+
+<br>
+<br>
+
+---
+
+
+<br>
 <br>
 
 #### `@property:`
