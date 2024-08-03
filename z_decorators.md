@@ -317,6 +317,34 @@ print(Counter.get_count())  # Output: 1
 
 <br>
 
+## 2.
+
+-  `get_count method`: This method should be defined as a @classmethod to properly access the class attribute count
+
+```python
+class Counter:
+    count = 0
+
+    @classmethod
+    def increment(cls):
+        cls.count += 5
+
+    @classmethod
+    def ajout(cls):
+        cls.count += 1
+
+    @classmethod
+    def get_count(cls):
+        return cls.count
+
+# Usage
+Counter.increment()  # Increment count by 5
+Counter.ajout()     # Add 1 to count
+print(Counter.get_count())  # Print the current count = 6
+```
+
+<br>
+
 <br>
 <br>
 
