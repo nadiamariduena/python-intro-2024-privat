@@ -224,6 +224,25 @@ print(f"We recommend: {recommendation}")  # Output: We recommend: Vanilla
 ```
 
 <br>
+
+### 3: Static Method Without Any Parameters
+
+```python
+class IceCreamStore:
+    @staticmethod
+    def store_hours():
+        # 🛠️ This is a static method with no parameters. It still does not use 'self' or 'cls'.
+        return "We are open from 10 AM to 10 PM daily."
+
+# 🌟 Using the static method
+hours = IceCreamStore.store_hours()
+print(hours)  # Output: We are open from 10 AM to 10 PM daily.
+
+# 🔍 Notice: 'store_hours' has no parameters and does not use 'self' or 'cls'
+
+```
+
+<br>
 <br>
 
 ---
