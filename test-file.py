@@ -1,12 +1,19 @@
 class Student:
 # Class attribute to keep track of all students
     # THE Bellow looks like an array but it not, so dont confuse it with the JS arrays
-    students = []
+    students = [] ## An empty list to keep track of all Student instances
 
     def __init__(self, name, grade):
         self.name = name
         self.grade = grade
         # ADD the new student to the class list
+        Student.students.append(self) # -  # Refers to the instance of Student that is currently being initialized
+        # - "Student" class, this line is typically found in the __init__ method, which is the constructor for the class.
+        # - Student: This refers to the class itself.
+
+    # Maintaining a Record: This line ensures that every time a new Student instance is created, it is added to the class-level students list.
+        #
+        #
 
     @classmethod
     def had_good_grades(cls): #cls: class
