@@ -5,6 +5,9 @@
 
  - -  examples: [Go to examples](#staticmethod_examples)
 
+<br>
+
+
 
 
 <br>
@@ -14,7 +17,18 @@
 
 - **self:** Refers to the instance of the class in instance methods. It allows access to instance attributes and other instance methods.
 
+
+
+```python
+class MyClass:
+    def instance_method(self):
+        print("This is an instance method")
+
+```
+<br>
+
 - **cls:** Refers to the class itself in class methods. It allows access to class attributes and other class methods.
+
 
 <br>
 
