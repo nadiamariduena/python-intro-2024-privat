@@ -29,6 +29,17 @@ class MyClass:
 
 - **cls:** Refers to the class itself in class methods. It allows access to class attributes and other class methods.
 
+```python
+
+class MyClass:
+    class_attr = 42
+
+    @classmethod
+    def class_method(cls):
+        print(f"This is a class method. Class attribute value: {cls.class_attr}")
+#
+# Here, cls is used to refer to MyClass, allowing access to class_attr and any other class-level data or methods. This is useful when you need to perform actions that affect the class as a whole rather than individual instances.
+```
 
 <br>
 
