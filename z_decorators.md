@@ -299,18 +299,20 @@ print(hours)  # Output: We are open from 10 AM to 10 PM daily.
 
 ```python
 class Counter:
-    count =
+    count = 0
 
     @classmethod
-    def increment(cls)
-    cls.count += 1
+    def increment(cls):
+        cls.count += 1
 
-    @classmethod
-    def get_count(cls)
-    return cls.count
+    @classmethod # 🔴 dont forget to declare the classmethod, otherwise you will get an error when running the code
+    def get_count(cls):
+        return cls.count
 
+# Usage
 Counter.increment()
-print(Counter.get_count())
+print(Counter.get_count())  # Output: 1
+
 ```
 
 <br>
