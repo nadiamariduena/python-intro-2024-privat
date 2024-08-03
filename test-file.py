@@ -17,3 +17,11 @@ class Student:
             if student.grade in ("A 🌈", "B 👍"):
                 return True
         return False
+
+    @classmethod
+    def get_students_with_good_grades(cls):
+        """Class method to get a List o students with good grades (A or B).
+        """
+
+        good_students = [student.name for student in cls.students if student.grade in ("A", "B")]
+
