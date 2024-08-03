@@ -29,18 +29,20 @@
 <a name="staticmethod"></a>
 
 
-## `@staticmethod`:
-
-- - Defines a method that does not operate on an instance or class. It behaves like a regular function but is associated with the class.
+## 👾 `@staticmethod` 👾
 
 <br>
 
-- - 🍍 I used it in this project [tic_tac_toe_0](./LESSON_19_PPROJECTS/tic-tac-toe/tic_tac_toe_0/README.md)
+- - 🍍 Defines a method that does not operate on an instance or class. It behaves like a regular function but is associated with the class.
+
+<br>
+
+- - 🤌 I used it in this project [tic_tac_toe_0](./LESSON_19_PPROJECTS/tic-tac-toe/tic_tac_toe_0/README.md)
 
 
 
 <br>
-
+<br>
 
 
 ### 🫐 What is `@staticmethod`
@@ -168,10 +170,10 @@ p.greet()  # Output: Hello, my name is Alice
 <br>
 <br>
 
-#### `@classmethod:`
+## 👾 `@classmethod:`
 
 
-- -  Defines a method that operates on the class itself, rather than on instances. It receives the class as its first argument (cls).
+- -  Defines a method that **operates** on the  ✋ **class itself**, rather than on instances. It receives the class as its first argument (cls).
 
 <br>
 
@@ -604,3 +606,51 @@ except Exception as e:
 🚫: No retry or idempotency protections.
 🚨: Risk of failure without retries.
 ```
+
+<br>
+<br>
+
+---
+
+<br>
+<br>
+
+# 🌈 Summary
+
+
+### Built-in decorators:
+
+- - @staticmethod,
+- - @classmethod,
+- - @property,
+- - @abstractmethod.
+
+<br>
+
+### Standard library decorators:
+
+- - functools.lru_cache,
+- - functools.wraps,
+- - functools.total_ordering,
+- - functools.singledispatch.
+
+<br>
+
+###  Custom/third-party decorators:
+
+- - @login_required,
+- - @csrf_exempt, @timer,
+- - @retry.
+
+<br>
+<br>
+
+---
+
+<br>
+<br>
+
+### 🟣  QUESTION:
+
+🔶 when you say:
+
