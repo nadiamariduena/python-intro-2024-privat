@@ -717,4 +717,6 @@ class TicTacToe:
 
 <br>
 
-🍊 It is **used** to **define a method** in a **class** that **does not require access** to the **instance** (`self`) or the class (`cls`) to which it belongs. [RAD MORE here: z_decorators](../../../z_decorators.md)
+🍊 It is **used** to **define a method** in a **class** that **does not require access** to the **instance** (`self`) or the class (`cls`) to which it belongs.
+
+#### 👾 [READ MORE: z_decorators](../../../z_decorators.md)
