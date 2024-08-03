@@ -21,7 +21,7 @@ class Student:
         """
 
         for student in cls.students: # (the LIST at the top inside the class, line 3)
-            if student.grade in ("A 🌈", "B 👍"):
+            if student.grade in ("A", "B"): # dont add emojis within the "" on the a b etc, you will get a False instead of True, just because of the emoji and not because of the Note
                 return True
         return False
 
