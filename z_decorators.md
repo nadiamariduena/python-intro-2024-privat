@@ -155,10 +155,33 @@ p.greet()  # Output: Hello, my name is Alice
 
 - - This **method must be an instance** method, 🛑 **not** a static method, because it operates on the instance state.
 
+<br>
 
 
 
 
+### 🟣  QUESTION:
+
+🔶 when you say:
+
+**staticmethod** is a method, but it does not operate on the instance or the class directly. It does not take `self` or `cls` as its first parameter. Instead, it behaves like a regular function but lives in the namespace of the class.
+
+Is it only the `staticmethod` or all decorators arent allowed to..(what you said above)
+
+### ✅ Chatgpt:
+
+-  When discussing decorators like staticmethod, the observation about not taking `self` or `cls` as parameters **specifically applies** to `staticmethod`. **However**, this concept can extend to other decorators based on their purpose and behavior.
+
+#### Let’s break it down:
+
+Behavior: A staticmethod is a method that does not operate on an instance (self) or the class (cls). It is essentially a regular function that is bound to the class's namespace.
+
+Parameters: A staticmethod does not take self or cls as its first parameter. It behaves just like a normal function in terms of its parameters and return values.
+
+
+<br>
+
+## 🌠 More examples
 
 
 <br>
@@ -190,6 +213,11 @@ p.greet()  # Output: Hello, my name is Alice
 
 
 <br>
+
+<br>
+
+---
+
 <br>
 <br>
 
@@ -294,6 +322,10 @@ print(add.__doc__)       # Output: Add two numbers.
 
 <br>
 <br>
+
+---
+
+
 <br>
 <br>
 
@@ -316,9 +348,14 @@ print(add.__doc__)       # Output: Add two numbers.
 
 <br>
 <br>
+
+---
+
 <br>
 
-### 🟤 `@retry`:
+<br>
+
+## 🟤 `@retry`:
 
 
 - - Custom decorator that allows you to automatically retry a function if it fails. Useful for handling transient errors in network operations or **API calls**.
@@ -649,15 +686,3 @@ except Exception as e:
 
 <br>
 <br>
-
-### 🟣  QUESTION:
-
-🔶 when you say:
-
-**staticmethod** is a method, but it does not operate on the instance or the class directly. It does not take `self` or `cls` as its first parameter. Instead, it behaves like a regular function but lives in the namespace of the class.
-
-Is it only the `staticmethod` or all decorators arent allowed to..(what you said above)
-
-### ✅ Chatgpt:
-
--  When discussing decorators like staticmethod, the observation about not taking `self` or `cls` as parameters **specifically applies** to `staticmethod`. **However**, this concept can extend to other decorators based on their purpose and behavior. Let’s break it down:
