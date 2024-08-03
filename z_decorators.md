@@ -183,6 +183,11 @@ Parameters: A staticmethod does not take self or cls as its first parameter. It 
 
 ## 🌠 More examples
 
+```python
+class IceCreamStore:
+    @staticmethod
+```
+
 
 <br>
 <br>
