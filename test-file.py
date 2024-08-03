@@ -14,3 +14,6 @@ class Student:
         """
 
         for student in cls.students: # (the LIST at the top inside the class, line 3)
+            if student.grade in ("A 🌈", "B 👍"):
+                return True
+        return False
