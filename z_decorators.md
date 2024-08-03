@@ -187,12 +187,14 @@ Parameters: A staticmethod does not take self or cls as its first parameter. It 
 class IceCreamStore:
     @staticmethod
     def greet_customer(name):
-        # This is a static method. I does not take "self" or cls as parameters
+        # 🛠️ This is a static method. It does not take 'self' or 'cls' as parameters.
         return f"Hello, {name}! Welcome to Ice Cream Store!"
 
-# Using the static method
-greeting = IceCreamStore.greet_customer("Alice")
-print(greeting)
+# 🌟 Using the static method
+greeting = IceCreamStore.greet_customer('Alice')
+print(greeting)  # Output: Hello, Alice! Welcome to Ice Cream Store!
+
+# 🔍 Notice: 'greet_customer' does not use 'self' or 'cls'
 ```
 
 
