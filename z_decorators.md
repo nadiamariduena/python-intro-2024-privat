@@ -190,7 +190,9 @@ class IceCreamStore:
         # This is a static method. I does not take "self" or cls as parameters
         return f"Hello, {name}! Welcome to Ice Cream Store!"
 
-# Using
+# Using the static method
+greeting = IceCreamStore.greet_customer("Alice")
+print(greeting)
 ```
 
 
