@@ -31,3 +31,11 @@ my_list = [1, 2, 3, 4]
 
  - - **Python does have an array module** that provides a more constrained array type that only supports items of the same type.
 
+
+  - - 🔴 **It’s less commonly used** than lists in everyday Python programming.
+
+```python
+import array
+my_array = array.array('i', [1, 2, 3, 4])  # 'i' indicates an array of integers
+
+  ```
