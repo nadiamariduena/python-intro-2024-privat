@@ -14,6 +14,8 @@
 
 - **self:** Refers to the instance of the class in instance methods. It allows access to instance attributes and other instance methods.
 
+- **cls:** Refers to the class itself in class methods. It allows access to class attributes and other class methods.
+
 <br>
 
 <br>
