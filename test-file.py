@@ -4,6 +4,7 @@ class Student:
     students = [] ## An empty list to keep track of all Student instances
 
     def __init__(self, name, grade):
+        # - self refers to the specific instance of the class that is currently being created or interacted with
         self.name = name
         self.grade = grade
         # ADD the new student to the class list
@@ -35,6 +36,9 @@ class Student:
         return good_students
 
     # Qualifications
+#Student.students.append(s1)  # Adds the new Student instance (s1) to the list
+# -  s1 is the "self", and so on s2 self, s3 self...
+# - self refers to the specific instance of the class that is currently being created or interacted with
 
 s1 = Student("Filomena", "A")
 s2 = Student("Ludovico", "C")
