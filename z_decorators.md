@@ -8,6 +8,13 @@
 
 
 <br>
+<br>
+
+### 🌟 Remember:
+
+- **self:** Refers to the instance of the class in instance methods. It allows access to instance attributes and other instance methods.
+
+<br>
 
 <br>
 
