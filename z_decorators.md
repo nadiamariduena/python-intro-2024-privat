@@ -186,6 +186,11 @@ Parameters: A staticmethod does not take self or cls as its first parameter. It 
 ```python
 class IceCreamStore:
     @staticmethod
+    def greet_customer(name):
+        # This is a static method. I does not take "self" or cls as parameters
+        return f"Hello, {name}! Welcome to Ice Cream Store!"
+
+# Using
 ```
 
 
