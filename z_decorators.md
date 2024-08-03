@@ -23,6 +23,129 @@
 
 - - 🍍 I used it in this project [tic_tac_toe_0](./LESSON_19_PPROJECTS/tic-tac-toe/tic_tac_toe_0/README.md)
 
+
+
+<br>
+
+
+
+### 🫐 What is `@staticmethod`
+
+####  A staticmethod in Python is a 🔸 <u>method decorator</u> .
+
+<br>
+<br>
+
+🍊 It is **used** to **define a method** in a **class** that **does not require access** to the **instance** (`self`) or the class (`cls`) to which it belongs.
+
+#### In other words, a `staticmethod` is a method that can be called on the class itself, rather than on an instance of the class.
+
+<br>
+
+ In Python, a `staticmethod` is a method that <u>belongs to a class rather than an instance of the class </u> .
+
+
+<br>
+<br>
+
+ 🔴 This means **it doesn't have access to the instance (self)** or **class (cls) attributes** or **methods.**
+
+
+  🔴 Instead, it is used to define a function within a class's namespace that doesn't need access to the instance or class.
+
+
+<br>
+
+## Purpose of `@staticmethod`
+
+<br>
+
+### 🟦 Encapsulation:
+
+**It allows you to group functions** that are **related to a class** <u>together</u>, **even** if **those functions don't need** to **interact** with **class** or **instance data**. This helps in organizing code better.
+
+<br>
+
+### 🟦 Utility Functions:
+
+`@staticmethod` is useful for **utility functions** that **might** be **relevant** to the **class but don't need** to **modify or access** the **class's state**.
+
+<br>
+
+### Code Organization:
+
+It makes it clear that the method doesn't depend on the class's state or instance, and hence, it’s more about logical grouping rather than functionality.
+
+<br>
+<br>
+
+
+### 🟠 When to Use staticmethod
+
+**Example Scenario:** You have a utility function that logically belongs to a class but doesn’t need to interact with the class or instance data.
+
+```python
+class MathUtils:
+    @staticmethod
+    def add(x, y):
+        return x + y
+
+# Usage
+result = MathUtils.add(5, 3)
+print(result)  # Output: 8
+
+```
+
+#### Explanation:
+
+- - The add method is a utility function that performs an addition operation. It doesn't need to access or modify any class or instance attributes. It’s logically related to the MathUtils class, but it doesn’t rely on any class-specific data.
+
+<br>
+<br>
+
+
+### 🟠 When Not to Use staticmethod
+
+#### Example Scenario:
+
+- - You have a **method that needs to access or modify class or instance attributes**, or interact with other methods of the class.
+
+Code Example 1: Accessing Instance Attributes
+
+```python
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def greet(self):
+        print(f"Hello, my name is {self.name}")
+
+# Usage
+p = Person("Alice")
+p.greet()  # Output: Hello, my name is Alice
+
+```
+
+<br>
+
+#### Explanation:
+
+- - The `greet` method **needs to access** the **instance attribute** `self.name`.
+
+- - This **method must be an instance** method, 🛑 **not** a static method, because it operates on the instance state.
+
+
+
+
+
+
+
+<br>
+<br>
+
+---
+
+
 <br>
 <br>
 
