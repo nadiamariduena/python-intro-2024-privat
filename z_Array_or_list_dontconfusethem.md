@@ -156,3 +156,7 @@ In **some scenarios**, such as **numerical computing** or **low-level data** man
 🌈 **Features:** Supports multi-dimensional arrays, vectorized operations, and extensive mathematical functions.
 
 ```python
+import numpy as np
+my_array = np.array([1, 2, 3, 4])
+
+```
