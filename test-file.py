@@ -30,3 +30,7 @@ class Base(ABC):
 
         # and here we can now change the old value from @property, to the new_value
         self._value = new_value
+
+
+# Pass the first class within the parenthesis here below
+class Derived(Base):
