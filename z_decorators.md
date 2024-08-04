@@ -471,11 +471,11 @@ class Base(ABC):
         print("pass")
         pass
 
-
+    # ✋
     @classmethod
     def class_method(cls):
         print("This is class METHOD")
-
+      # ✋
     @staticmethod
     def static_method():
         print("This is a static method")
@@ -1022,3 +1022,57 @@ except Exception as e:
 - - **Yes**, it's quite common in Python to mix different types of methods and decorators within a class, **depending on the design** and **requirements of the class**.
 
 #### Here’s a brief overview of each and how they can be combined:
+
+- -  In the code below, we define and use a Python class hierarchy that demonstrates abstract classes, class methods, static methods, and properties.
+
+
+```python
+
+#  ABC stands for Abstract Base Class. It's a class provided by the abc module in Python that helps you define abstract base classes.
+from abc import ABC, abstractmethod
+
+class Base(ABC):
+    #🤚 dont forget to  import the @abstractmethod at the top
+    @abstractmethod
+    def abstract_method(self):
+        print("pass")
+        pass
+
+
+    # ---------- interesting
+    # 🔓 the @property here below, works as a lock on a box, when you use the lock to look inside the box, it shows you what is inside. the getter method works on the same way, it lets you see the value of something
+    #
+    @property
+    def value(self):
+        return self._value
+
+    @value.setter
+
+    # :🔑 the @value.setter, this @value from this setter here, is the key from the @property above, so when you say @value.setter, you are seeing: @property_name.setter
+
+    def value(self, new_value):
+
+        # and here we can now change the old value from @property, to the new_value
+        self._value = new_value
+
+
+# Pass the first class within the parenthesis here below
+class Derived(Base):
+    def __init__(self, value):
+        self._value = value
+
+# then use the abstract function from the class 1 here
+    def abstract_method(self):
+        print("Implemented abstract method in the 'Derived' function")
+
+
+
+# Usage
+d = Derived(10)
+d.abstract_method()  # Outputs: Implemented abstract method in Derived.
+d.class_method()     # Outputs: This is a class method.
+d.static_method()    # Outputs: This is a static method.
+print(d.value)       # Outputs: 10
+d.value = 20
+print(d.value)       # Outputs: 20
+```
