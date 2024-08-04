@@ -202,6 +202,8 @@ data = {
 # Create a DataFrame
 df = pd.DataFrame(data)
 
+# Define the official start time
+start_time = '09:00'
 
 ```
 
