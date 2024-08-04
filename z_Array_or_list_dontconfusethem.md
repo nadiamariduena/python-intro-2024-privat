@@ -205,6 +205,10 @@ df = pd.DataFrame(data)
 # Define the official start time
 start_time = '09:00'
 
+# Convert ClockInTime to datetime to make comparisons
+df['ClockInTime'] = pd.to_datetime(df['ClockInTime'], format='%H:%M').dt.time
+
+
 ```
 
 
