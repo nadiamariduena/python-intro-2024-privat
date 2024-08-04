@@ -1086,12 +1086,14 @@ class Derived(Base):
         print("Implemented abstract method in the 'Derived' function")
 
 
-
-# Usage
+# We create an object d of type Derived, initializing it with a value of 10.
 d = Derived(10)
-d.abstract_method()  # Outputs: Implemented abstract method in Derived.
+# Call abstract_method: Calling d.abstract_method() will execute the method defined in the Derived class, which prints "Implemented abstract method in the 'Derived' class"
+d.abstract_method()
+ #-----------------
 d.class_method()     # Outputs: This is a class method.
 d.static_method()    # Outputs: This is a static method.
+ #-----------------
 print(d.value)       # Outputs: 10
 d.value = 20
 print(d.value)       # Outputs: 20
