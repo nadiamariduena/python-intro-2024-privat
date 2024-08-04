@@ -45,13 +45,24 @@ class MyClass:
 ```
 
 <br>
+<br>
+
+### Getter & Setter (`@property`)
+
+- Within the `@property decorator` and the mixed decorators, you will see how its used, but remember the following:
+
+
+
+<br>
+
+<br>
 
 <br>
 
 <br>
 
 
-### Python decorators are a powerful feature that allows you to modify or enhance the behavior of functions or methods.
+## 👾 Python decorators are a powerful feature that allows you to modify or enhance the behavior of functions or methods.
 
 - 🍊 Decorators are often used to **add functionality** to functions or methods.
 
