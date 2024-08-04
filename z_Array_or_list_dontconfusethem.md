@@ -199,6 +199,8 @@ data = {
     'ClockInTime': ['08:30', '09:00', '08:45', '09:15']
 }
 
+# Create a DataFrame
+df = pd.DataFrame(data)
 
 
 ```
