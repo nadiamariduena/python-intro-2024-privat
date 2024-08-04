@@ -468,6 +468,8 @@ print(good_students)
 
 - - An abstract method `abstract_method`, which must be implemented by any **subclass** (the second abstract function at the bottom of the below code).
 
+<br>
+
 - -  A `@property` **value** with a getter and setter that allows controlled access to a private attribute _value.
 
 
@@ -524,8 +526,9 @@ class Derived(Base):
         print("Implemented abstract method in the 'Derived' function")
 
 
-
+# We create an object d of type Derived, initializing it with a value of 10.
 d = Derived(10)
+# Call abstract_method: Calling d.abstract_method() will execute the method defined in the Derived class, which prints "Implemented abstract method in the 'Derived' class"
 d.abstract_method()
 
 print(d.value)
