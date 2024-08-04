@@ -1,3 +1,5 @@
+
+
 from abc import ABC, abstractmethod
 
 class Base(ABC):
@@ -34,3 +36,9 @@ class Base(ABC):
 
 # Pass the first class within the parenthesis here below
 class Derived(Base):
+    def __init__(self, value):
+        self._value = value
+
+# then use the abstract function from the class 1 here
+    def abstract_method(self):
+        print("Implemented abstract method in the 'Derived' function")
