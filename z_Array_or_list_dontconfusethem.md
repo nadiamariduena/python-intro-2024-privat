@@ -39,3 +39,11 @@ import array
 my_array = array.array('i', [1, 2, 3, 4])  # 'i' indicates an array of integers
 
   ```
+
+  ## 🟧 Use Case:
+
+  - - The **array module** is typically **used** when **you need** a more **memory-efficient storage** of **elem**ents of the **same type**, but for most general purposes, lists are more common.
+
+  <br>
+
+  ### 🟣 QUESTION: but if it's better for memory storage, why nobody is using it, is there a better way, or developers prefer libraries instead of using the vanilla way?
