@@ -3,14 +3,15 @@
 from abc import ABC, abstractmethod
 
 class Base(ABC):
-    #🤚
+    #🤚The purpose of the abstract base class (Base) and its derived class (Derived) in this simplified example is to illustrate how abstract methods and properties can be used to manage and interact with state.
     @abstractmethod
     def abstract_method(self):
+        print("pass")
         pass
 
 
     @classmethod
-    def class_method(cls):
+    def class_method(clsThe purpose of the abstract base class (Base) and its derived class (Derived) in this simplified example is to illustrate how abstract methods and properties can be used to manage and interact with state.):
         print("This is class METHOD")
 
     @staticmethod
@@ -42,3 +43,12 @@ class Derived(Base):
 # then use the abstract function from the class 1 here
     def abstract_method(self):
         print("Implemented abstract method in the 'Derived' function")
+
+
+
+d = Derived(10)
+d.abstract_method()
+
+print(d.value)
+d.value = 20
+print(d.value)
