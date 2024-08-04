@@ -67,3 +67,9 @@ my_array = array.array('i', [1, 2, 3, 4])  # 'i' indicates an array of integers
 
 - - Python lists are highly versatile and can **hold items of different** data **types**.
 
+```python
+my_list = [1, "hello", 3.14, [1, 2, 3]]
+
+```
+
+- - They **provide** a wide range of **built-in methods** for **manipulating data**, which makes them **convenient** for general-purpose use.
