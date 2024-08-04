@@ -51,7 +51,9 @@ class MyClass:
 
 - Within the `@property decorator` and the mixed decorators, you will see how its used, but remember the following:
 
+`@property` is like the **lock** 🔓 that allows you to view the contents.
 
+`@value.setter` is like the **key** 🔑 that lets you change the contents.
 
 <br>
 
