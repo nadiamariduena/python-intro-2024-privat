@@ -180,8 +180,21 @@ Offers powerful tools for data analysis, including handling missing data, mergin
 ```python
 import pandas as pd
 df = pd.DataFrame({'numbers': [1, 2, 3, 4]})
+# pd is an alias for the Pandas library
 
 ```
+
+
+<br>
+
+-  DataFrame to store and analyze the times employees clock in to work. We'll then check if employees are on time based on a predefined start time.
+
+```python
+
+
+```
+
+
 <br>
 <br>
 
