@@ -1,7 +1,7 @@
 from abc import ABC
 
 class Base(ABC):
-
+    #🤚
     @abstractmethod
     def abstract_method(self):
         pass
@@ -15,3 +15,7 @@ class Base(ABC):
     def static_method():
         print("This is a static method")
 
+    # ---------- interesting
+    @property
+    def value(self):
+        return self._value
