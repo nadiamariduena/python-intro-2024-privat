@@ -1,14 +1,21 @@
 ## 🧶 Python decorators
 
 
-### - staticmethod [Go to section](#staticmethod)
+<br>
+<br>
+
+###  Static Method [Go to section](#staticmethod)
 
  - -  examples: [Go to examples](#staticmethod_examples)
 
 <br>
 
-### - classmethod [Go to section](#classmethod)
+###   Class Method [Go to section](#classmethod)
 
+
+<br>
+
+###   Mixed Methods [Go to section](#mixed_methods)
 
 
 
@@ -919,6 +926,10 @@ except Exception as e:
 ---
 
 <br>
+<br>
+
+<a name="mixed_methods"></a>
+
 <br>
 
 
