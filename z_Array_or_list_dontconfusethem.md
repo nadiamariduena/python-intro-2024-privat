@@ -144,3 +144,12 @@ In **some scenarios**, such as **numerical computing** or **low-level data** man
 ### Alternatives and Libraries
 
 **For many** use **cases**, particularly those **involving numerical computations** or **scientific data analysis**, Python **developers** often **use** specialized **libraries** that **offer** even **more** capabilities **than** the **array module**:
+
+<br>
+
+### NumPy:
+
+**Description:** A powerful library for numerical computing.
+
+- - It provides `numpy.ndarray`, which is similar to arrays **but** with **more advanced** features and optimizations.
+
