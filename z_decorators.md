@@ -466,7 +466,9 @@ print(good_students)
 
 **Base Class:** This is an **abstract base class (ABC)** that **includes:**
 
-- - An abstract method `abstract_method`, which must be implemented by any subclass.
+- - An abstract method `abstract_method`, which must be implemented by any **subclass** (the second abstract function at the bottom of the below code).
+
+- -  A `@property` **value** with a getter and setter that allows controlled access to a private attribute _value.
 
 
 
@@ -517,6 +519,7 @@ class Derived(Base):
         self._value = value
 
 # then use the abstract function from the class 1 here
+# abstract_method bottom
     def abstract_method(self):
         print("Implemented abstract method in the 'Derived' function")
 
