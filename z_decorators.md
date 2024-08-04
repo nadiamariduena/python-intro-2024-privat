@@ -456,7 +456,9 @@ print(good_students)
 
 
 
-### example
+### example:
+
+- -  In the code below, we define and use a Python class hierarchy that demonstrates `abstract classes`, and `@properties`.
 
 
 ```python
