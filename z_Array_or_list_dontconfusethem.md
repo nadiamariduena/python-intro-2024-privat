@@ -214,7 +214,11 @@ df['ClockInTime'] = pd.to_datetime(df['ClockInTime'], format='%H:%M').dt.time
 from datetime import datetime
 start_time = datetime.strptime(start_time, '%H:%M').time()
 
+# Check if employees are on time
+df['OnTime'] = df['ClockInTime'].apply(lambda x: x <= start_time)
 
+# Display the DataFrame
+print(df)
 
 ```
 
