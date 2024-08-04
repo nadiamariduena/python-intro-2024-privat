@@ -189,6 +189,8 @@ df = pd.DataFrame({'numbers': [1, 2, 3, 4]})
 
 -  DataFrame to store and analyze the times employees clock in to work. We'll then check if employees are on time based on a predefined start time.
 
+- to test the below create a **env**, activate it,  then install **pandas** `pip install pandas` , once installed, test it: `python employee_times.py`
+
 ```python
 
 import pandas as pd
@@ -207,6 +209,11 @@ start_time = '09:00'
 
 # Convert ClockInTime to datetime to make comparisons
 df['ClockInTime'] = pd.to_datetime(df['ClockInTime'], format='%H:%M').dt.time
+
+# Convert start_time to datetime.time for comparison
+from datetime import datetime
+start_time = datetime.strptime(start_time, '%H:%M').time()
+
 
 
 ```
