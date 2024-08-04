@@ -173,3 +173,7 @@ my_array = np.array([1, 2, 3, 4])
 - - It provides data structures like Series and DataFrame for handling labeled data.
 
 
+### Features:
+
+Offers powerful tools for data analysis, including handling missing data, merging datasets, and more.
+
