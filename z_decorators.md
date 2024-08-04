@@ -533,6 +533,8 @@ print(d.value)       # Outputs: 20 (updated value)
 
 🔴 **Yes**, you’ve captured the essence.  The **second abstraction** primarily **offers** the **ability** to **nest or encapsulate** a **new value** <u>within an existing one</u> .
 
+- - The purpose of the abstract base class (`Base`) and its derived class (`Derived`) in this simplified example is to illustrate how abstract methods and properties can be used to manage and interact with state
+
 <br>
 
 <br>
