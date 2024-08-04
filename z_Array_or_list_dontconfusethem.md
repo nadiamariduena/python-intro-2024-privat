@@ -98,3 +98,8 @@ my_list = [1, "hello", 3.14, [1, 2, 3]]
 The **vast majority** of **Python** code **uses lists**, and many **libraries and frameworks** are **designed** with **lists in mind**.
 
 - -  This broad support makes it easy to work with lists and integrate with other tools.
+
+
+
+
+When to Use array Module
