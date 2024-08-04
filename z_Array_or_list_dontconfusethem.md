@@ -160,3 +160,16 @@ import numpy as np
 my_array = np.array([1, 2, 3, 4])
 
 ```
+<br>
+<br>
+<br>
+
+# 🟡 Pandas
+
+### Description:
+
+ A **library** designed **for data manipulation and analysis**.
+
+- - It provides data structures like Series and DataFrame for handling labeled data.
+
+
