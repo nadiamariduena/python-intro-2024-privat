@@ -910,3 +910,9 @@ except Exception as e:
 
 
 ### 🟣 QUESTION: Is it a common practice to mix decorators such as: `@staticmethod, @classmethod, @abstractmethod , @propertymethod` in python?
+
+### ✅ chatgpt:
+
+- - **Yes**, it's quite common in Python to mix different types of methods and decorators within a class, **depending on the design** and **requirements of the class**.
+
+#### Here’s a brief overview of each and how they can be combined:
