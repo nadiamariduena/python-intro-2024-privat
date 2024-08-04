@@ -131,3 +131,5 @@ The array module enforces type consistency for all elements.
 #### Specialized Use Cases:
 
 In **some scenarios**, such as **numerical computing** or **low-level data** manipulation, arrays might offer better performance.
+
+- - For example, operations on arrays might be faster due to their compact representation.
