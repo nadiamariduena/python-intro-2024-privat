@@ -418,6 +418,9 @@ print(good_students)
 <br>
 <br>
 
+Create a exercise where I will
+Manage a list of all Student instances and provide functionality to check and retrieve students with good grades. use staticmethod, classmethod, abstractmethod , property method
+
 #### `@property:`
 
 - -  Turns a method into a property, allowing you to access it like an attribute without calling it as a method.
@@ -904,3 +907,6 @@ except Exception as e:
 
 <br>
 <br>
+
+
+### 🟣 QUESTION: Is it a common practice to mix decorators such as: `@staticmethod, @classmethod, @abstractmethod , @propertymethod` in python?
