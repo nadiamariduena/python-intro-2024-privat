@@ -454,12 +454,24 @@ print(good_students)
 - - Used in abstract base classes to define abstract methods that must be implemented by any subclass.
 
 
+<br>
 
-
-### example:
+## 1. Example:
 
 - -  In the code below, we define and use a Python class hierarchy that demonstrates `abstract classes`, and `@properties`.
 
+<br>
+<br>
+
+
+**Base Class:** This is an **abstract base class (ABC)** that **includes:**
+
+- - An abstract method `abstract_method`, which must be implemented by any subclass.
+
+
+
+<br>
+<br>
 
 ```python
 
