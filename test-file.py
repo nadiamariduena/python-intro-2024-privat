@@ -1,5 +1,5 @@
 
-
+#  ABC stands for Abstract Base Class. It's a class provided by the abc module in Python that helps you define abstract base classes.
 from abc import ABC, abstractmethod
 
 class Base(ABC):
