@@ -109,4 +109,10 @@ The **vast majority** of **Python** code **uses lists**, and many **libraries an
 
 🟠 The **array module** provides a way to **store data** more efficiently when you have **large amounts of data of the same type**.
 
-- - Arrays use less memory compared to lists because they store elements in a more compact format.
+- - 🔴 **Arrays use less memory compared to lists** because they **store elements** in a **more compact** format.
+
+```python
+import array
+my_array = array.array('i', [1, 2, 3, 4])  # 'i' for signed integers
+
+```
