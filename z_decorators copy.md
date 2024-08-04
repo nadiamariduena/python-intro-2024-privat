@@ -528,11 +528,6 @@ d.value = 20         # Sets new value
 print(d.value)       # Outputs: 20 (updated value)
 ```
 
-#### ✅ chatgpt:
-
-
-🔴 **Yes**, you’ve captured the essence.  The **second abstraction** primarily **offers** the **ability** to **nest or encapsulate** a **new value** <u>within an existing one</u> .
-
 <br>
 
 <br>
