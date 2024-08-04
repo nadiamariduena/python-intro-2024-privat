@@ -182,3 +182,9 @@ import pandas as pd
 df = pd.DataFrame({'numbers': [1, 2, 3, 4]})
 
 ```
+<br>
+<br>
+
+## 🟦 In Summary:
+
+#### array is used when memory efficiency for homogeneous data is crucial, but lists are preferred for general use due to their flexibility. Specialized libraries are often chosen for complex numerical tasks.
