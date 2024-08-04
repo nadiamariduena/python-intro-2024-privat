@@ -191,6 +191,15 @@ df = pd.DataFrame({'numbers': [1, 2, 3, 4]})
 
 ```python
 
+import pandas as pd
+
+# Sample data: employee names and their clock-in times
+data = {
+    'Employee': ['Alice', 'Bob', 'Charlie', 'David'],
+    'ClockInTime': ['08:30', '09:00', '08:45', '09:15']
+}
+
+
 
 ```
 
