@@ -113,6 +113,13 @@ The **vast majority** of **Python** code **uses lists**, and many **libraries an
 
 ```python
 import array
+# i: integer
 my_array = array.array('i', [1, 2, 3, 4])  # 'i' for signed integers
 
 ```
+
+<br>
+
+#### Type Consistency:
+
+The array module enforces type consistency for all elements.
