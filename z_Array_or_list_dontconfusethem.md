@@ -100,6 +100,12 @@ The **vast majority** of **Python** code **uses lists**, and many **libraries an
 - -  This broad support makes it easy to work with lists and integrate with other tools.
 
 
+<br>
+<br>
 
+## 🟦 When to Use array Module
 
-When to Use array Module
+#### Memory Efficiency:
+
+🟠 The **array module** provides a way to **store data** more efficiently when you have **large amounts of data of the same type**.
+
