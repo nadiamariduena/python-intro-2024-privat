@@ -123,3 +123,5 @@ my_array = array.array('i', [1, 2, 3, 4])  # 'i' for signed integers
 #### Type Consistency:
 
 The array module enforces type consistency for all elements.
+
+- - This is useful when you need **to ensure** that **all elements** are of the **same type** and **can benefit** from **type-specific** operations.
