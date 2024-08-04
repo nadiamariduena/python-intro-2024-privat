@@ -153,3 +153,6 @@ In **some scenarios**, such as **numerical computing** or **low-level data** man
 
 - - It provides `numpy.ndarray`, which is similar to arrays **but** with **more advanced** features and optimizations.
 
+🌈 **Features:** Supports multi-dimensional arrays, vectorized operations, and extensive mathematical functions.
+
+```python
