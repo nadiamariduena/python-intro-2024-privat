@@ -432,3 +432,7 @@ root.mainloop()
     PhotoImage(file="image90.png"), # Image for value 90
     PhotoImage(file="image100.png") # Image for value 100
 ```
+
+PhotoImage(file
+
+"image0.png
