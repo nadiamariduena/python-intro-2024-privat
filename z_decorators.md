@@ -559,6 +559,13 @@ The underscore prefix (`_toy`) signifies that this attribute is intended for int
 
 - - By **using** `self._toy`, you **keep** the **internal state** <u>separate</u>  **from the public** interface.
 
+- - This makes it easier to control how the state is accessed or modified.
+
+<br>
+
+### 🔴 No Control Over Data
+
+
 <br>
 <br>
 <br>
