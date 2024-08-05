@@ -206,3 +206,58 @@ adjustments = [
 ### ✅ chatgpt:
 
 **Great** question! Both sets of variables serve different purposes in the code, and understanding their roles can clarify how the slider works.
+
+
+<br>
+<br>
+
+
+### 🟠  Wrap-Around Limits
+
+
+
+```python
+# Define wrap-around limits
+MIN_VALUE = 0
+MAX_VALUE = 100
+WRAP_VALUE = 10  # The value to reset to when the slider exceeds MAX_VALUE
+
+```
+
+<br>
+
+**MIN_VALUE:**
+
+- -  Represents the minimum value the slider can have. In this case, it's set to 0.
+
+
+**MAX_VALUE:**
+
+- - Represents the maximum value the slider can have. In this case, it's set to 100.
+
+<br>
+
+**WRAP_VALUE:**
+
+- -  Specifies the value to which the slider should reset when it exceeds MAX_VALUE. Here, it's set to 10, meaning that if the slider value goes over 100, it will wrap around to 10.
+
+
+<br>
+
+### 🟠 Adjustments List
+
+
+```python
+adjustments = [
+    ('increase', 10),
+    ('decrease', 20),
+    ('increase', 50),
+    ('decrease', 60),
+    ('increase', 80),  # This should wrap around to 10
+]
+```
+
+<br>
+
+- **adjustments List:** This list contains **tuples `[()]`** that specify actions and amounts to be performed on the slider. Each tuple has an action ('increase' or 'decrease') and a corresponding amount.
+
