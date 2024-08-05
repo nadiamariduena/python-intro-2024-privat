@@ -296,3 +296,40 @@ adjustments = [
 **Adjustments List:**
 
 This list contains **tuples** like `('increase', 10)` which specify what action to take and by how much.
+
+```python
+# wrong
+adjustments = [
+    ('increase__', 10),
+    ('___decrease', 20),
+    ('increase______', 50),
+    ('_________decrease', 60),
+    ('increase________________', 80),  # This should wrap around to 10
+]
+
+
+# GOOD 👍
+
+adjustments = [
+    ('increase', 10),
+    ('decrease', 20),
+    ('increase', 50),
+    ('decrease', 60),
+    ('increase', 80),  # This should wrap around to 10
+]
+
+
+```
+
+<br>
+
+**Each tuple** represents an instruction to either **increase or decrease** the slider’s value.
+
+```python
+
+if action == 'increase':
+    increase_slider(amount)
+elif action == 'decrease':
+    decrease_slider(amount)
+
+```
