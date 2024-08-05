@@ -1,5 +1,7 @@
 # 🟡 LOOPS
 
+- images used in the slider:  [Tima Miroshnichenko](TimaMiroshnichenko)
+
 <br>
 
 
@@ -346,9 +348,19 @@ For each tuple, the loop checks the action part of the tuple to decide what to d
 <br>
 <br>
 
-### Show images with Tkinter
 
-### 🔴 At the moment, I’m not actively focusing on Tkinter. However, I’m including the code below to familiarize myself with it. In the future, as I become more comfortable with Python, I may find ways to incorporate Tkinter into my projects.
+## 🟦 for file in image_files:
+
+<br>
+
+### 🟠 Show images with Tkinter
+
+#### 🔴 At the moment, I’m not actively focusing on Tkinter. However, I’m including the code below to familiarize myself with it. In the future, as I become more comfortable with Python, I may find ways to incorporate Tkinter into my projects.
+
+
+- 🟤 create a folder where you will store the code below and the images,  within it create you `.venv` then activate it
+
+<br>
 
 ```python
 # install this
