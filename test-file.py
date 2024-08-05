@@ -12,3 +12,9 @@ def increase_slider(amount):
         slider_value = 100 # Cap the slider at 100 (This will ensure that the slider value does not go beyond its maximum limit)
 
     print(f"Slider increased to: {slider_value}")
+
+
+# Function to decrease the slider value
+def decrease_slider(amount):
+    global slider_value
+
