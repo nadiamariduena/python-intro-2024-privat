@@ -23,3 +23,7 @@ class Derived_class(Base_class):
     def transform(self):
         self._value += 10
 
+
+d = Derived_class(20)
+print(f"Original value: {d.value}")
+
