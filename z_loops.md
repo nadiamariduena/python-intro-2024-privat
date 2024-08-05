@@ -288,3 +288,11 @@ adjustments = [
 
 - - Yes, exactly! The ('increase', 10) and similar tuples in the adjustments list are directly connected to the if action == "increase": part of the loop. Here’s how they work together:
 
+
+<br>
+
+### How It All Connects
+
+**Adjustments List:**
+
+This list contains **tuples** like `('increase', 10)` which specify what action to take and by how much.
