@@ -470,9 +470,13 @@ Let’s imagine you have a special box that you want to keep tidy and organized.
 
 #### The Key to Add Things (`Setter`):
 
-The `@property_name.setter` **decorator** is like a special key that lets you put new things into the box.
+🔶 The `@property_name.setter` **decorator** is like a 🔑**special key** that lets you put new things into the box.
 
-- - But, this 🔑**key** is very picky! It checks if what you're putting in is okay before letting it in.
+- - But, this **key** is very picky! It checks if what you're putting in is okay before letting it in.
+
+<br>
+
+#### 🎠 Imagine the box is for holding your favorite toy, and you only want to keep toys that are not too big. Here’s how it works:
 
 <br>
 <br>
