@@ -29,3 +29,14 @@ def decrease_value(amount):
         slider_value = MAX_VALUE
 
     print(f"Slider DECREASED to: {slider_value}")
+
+
+# Simulate changes in a loop
+
+adjustments = [
+    ('increase', 10),
+    ('decrease', 20),
+    ('increase', 50),
+    ('decrease', 60),
+    ('increase', 80),  # This should wrap around to 10
+]
