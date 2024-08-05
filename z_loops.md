@@ -352,6 +352,7 @@ For each tuple, the loop checks the action part of the tuple to decide what to d
 
 - the TKINTER works it shows one img, but it gives errors for all the others, i will check it soon
 
+
 ```python
 
 import tkinter as tk
@@ -366,6 +367,7 @@ root.title("Image Slider")
 
 # URLs of the images
 image_urls = [
+
     "https://images.pexels.com/photos/25413123/pexels-photo-25413123/free-photo-of-campagne-cloture-barriere-grillage.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "https://images.pexels.com/photos/25413122/pexels-photo-25413122/free-photo-of-route-aube-cote-littoral.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
     "https://images.pexels.com/photos/18486577/pexels-photo-18486577/free-photo-of-bois-paysage-art-sale.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -411,4 +413,22 @@ update_image(slider.get())
 # Run the Tkinter event loop
 root.mainloop()
 
+```
+
+- I am bit tired, i think i found the reason and its stupid because obviously its related to the variables connected to the images and also the enumeration (i will try to find more issues tomorrow)
+
+```python
+# 🔴 remember the css slider and the framer animation on fade (when all images appeared in 2seconds and disappeared to only leave 1 ) when you dont use ID, the number on the image is the id
+
+    PhotoImage(file="image0.png"),  # Image for value 0
+    PhotoImage(file="image10.png"), # Image for value 10
+    PhotoImage(file="image20.png"), # Image for value 20
+    PhotoImage(file="image30.png"), # Image for value 30
+    PhotoImage(file="image40.png"), # Image for value 40
+    PhotoImage(file="image50.png"), # Image for value 50
+    PhotoImage(file="image60.png"), # Image for value 60
+    PhotoImage(file="image70.png"), # Image for value 70
+    PhotoImage(file="image80.png"), # Image for value 80
+    PhotoImage(file="image90.png"), # Image for value 90
+    PhotoImage(file="image100.png") # Image for value 100
 ```
