@@ -461,6 +461,10 @@ Let’s imagine you have a special box that you want to keep tidy and organized.
 
 🔶 Think of the `@property` **decorator** as a  🔒 **lock** on the box.
 
+- - **When you use** the **lock to look inside the box**, it **shows you what’s inside**.
+
+
+
 <br>
 <br>
 <br>
