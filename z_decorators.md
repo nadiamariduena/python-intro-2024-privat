@@ -555,7 +555,7 @@ print(box.toy)
 
 The underscore prefix (`_toy`) signifies that this attribute is intended for internal use within the class.
 
-- - It helps to encapsulate the data, meaning the attribute should not be accessed directly from outside the class.
+- - It helps to **encapsulate the data**, meaning the attribute **should not be accessed directly** from **outside the class**.
 
 - - By **using** `self._toy`, you **keep** the **internal state** <u>separate</u>  **from the public** interface.
 
