@@ -472,6 +472,7 @@ Let’s imagine you have a special box that you want to keep tidy and organized.
 
 The `@property_name.setter` **decorator** is like a special key that lets you put new things into the box.
 
+- - But, this 🔑**key** is very picky! It checks if what you're putting in is okay before letting it in.
 
 <br>
 <br>
