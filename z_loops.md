@@ -179,3 +179,30 @@ for action, amount in adjustments:
 
 <br>
 <br>
+
+
+#### 🟣 Question:  what is the purpose of having 2 (one a the bottom and one at the top?
+
+
+```python
+# Define wrap-around limits
+MIN_VALUE = 0
+MAX_VALUE = 100
+WRAP_VALUE = 10  #
+
+compared to the one at the bottom
+
+adjustments = [
+    ('increase', 10),
+    ('decrease', 20),
+    ('increase', 50),
+    ('decrease', 60),
+    ('increase', 80),  # This should wrap around to 10
+]
+```
+
+<br>
+
+### ✅ chatgpt:
+
+**Great** question! Both sets of variables serve different purposes in the code, and understanding their roles can clarify how the slider works.
