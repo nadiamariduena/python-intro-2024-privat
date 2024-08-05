@@ -547,6 +547,15 @@ print(box.toy)
 
 
 
+## Reasons for Using _toy:
+
+
+
+### 🟤 Encapsulation:
+
+The underscore prefix (`_toy`) signifies that this attribute is intended for internal use within the class.
+
+
 <br>
 <br>
 <br>
