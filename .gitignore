@@ -4,4 +4,6 @@
 .env
 
 
+# loop or random exercises
 test-hide.py
+test-hide-md
