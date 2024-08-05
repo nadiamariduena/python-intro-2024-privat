@@ -106,12 +106,17 @@ display()    # Prints the updated value of 'count'
 
 ## 🟦 For loops
 
-
+### Slider Basic
 <br>
 
 
-### Slider Basic
 
-```python
 
-```
+## 🌈 Reset the slider after reaching the limit
+
+The GOAL is to make the slider to **wrap** around and **return to 0 (or another value like 10)** <u>once it reaches its maximum value (100)</u> , you can modify the previous code to include this behavior.
+
+
+####  🟧 Here’s how you can adjust the functions to make the slider reset to 0 after reaching 100 and to 10 after reaching 100 in a more interactive loop:
+
+

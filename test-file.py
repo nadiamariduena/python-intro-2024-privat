@@ -20,7 +20,7 @@ def increase_slider(amount):
 
     print(f"Slider INCREASED to: {slider_value}")
 
-def decrease_value(amount):
+def decrease_slider(amount):
 
     global slider_value
 
@@ -34,9 +34,16 @@ def decrease_value(amount):
 # Simulate changes in a loop
 
 adjustments = [
-    ('increase', 10),
-    ('decrease', 20),
-    ('increase', 50),
-    ('decrease', 60),
-    ('increase', 80),  # This should wrap around to 10
+    ('increase__', 10),
+    ('___decrease', 20),
+    ('increase______', 50),
+    ('_________decrease', 60),
+    ('increase________________', 80),  # This should wrap around to 10
 ]
+
+
+for action, amount in adjustments:
+    if action == "increase":
+        increase_slider(amount)
+    elif action == "decrease":
+        decrease_slider(amount)
