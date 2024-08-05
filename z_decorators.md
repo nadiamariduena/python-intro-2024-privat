@@ -491,6 +491,9 @@ When you use the box to see what toy is inside, the lock (getter) opens and show
 
 When you want to put a **new toy** 🚀 in the box, the special **key** (`setter`) **checks if the toy is small** enough to **fit**.
 
+- - **If it is**, it **lets you put** the **toy in**.
+
+- - **If not**, it says, "Nope, this toy is too big!"
 
 <br>
 <br>
