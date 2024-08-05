@@ -61,3 +61,6 @@ decrease_slider(60)  # Decrease the slider by 60
 
 <br>
 
+**decrease_slider(amount)**: This function **subtracts** a certain **amount** from the  **slider’s current value** using the **-= operator**.
+
+- - If the slider value goes below 0, it sets the value to 0 (since the slider can't go below 0).
