@@ -40,10 +40,13 @@ for file in image_files:
     #
 
     try:
-           # Load and resize each image, then add it to the images list
+        # Load and resize each image, then add it to the 'images' list
         img = load_and_resize_image(file)
         images.append(img)
+        #
+        #
     except Exception as e:
+    # Print an error message if the image cannot be loaded
         print(f"Error loading image {file}: {e}")
 
 # Create a canvas with a fixed size
