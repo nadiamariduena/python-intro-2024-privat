@@ -3,4 +3,5 @@
 #
 .env
 
-test_exercises.md
+
+test-hide.py

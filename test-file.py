@@ -1,23 +1,13 @@
-class Toybox:
-    def __init__(self, toy):
-        self._toy = None
-        self.toy = toy
+foods = ["rice", "tomatoes", "chicken", "vegetables", "dessert"]
 
 
-#------------
-    @property
-    def toy(self):
-        return self._toy # the🔒LOCK shows what toy is inside
+calories = [200, 30, 300, 100, 150]
+
+total_calories = 0
+
+for i in range(len(foods)):
+    total_calories += calories[i]
+    print(f"{foods[i].capitalize()}: {calories[i]} calories")
 
 
-    @toy.setter
-    def toy(self, new_toy):
-        if len(new_toy) > 10: # lets say toys longer than 10 units are too big
-            raise ValueError("This toy is too big!")
-
-        self._toy = new_toy # Put the toy in the box
-#------------
-
-box = Toybox("CAR🚙") # the toy "car" is small enough, so its okay
-
-print(box.toy)
+print(f"Total calories: {total_calories}")
