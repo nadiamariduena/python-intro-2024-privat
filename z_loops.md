@@ -2,11 +2,9 @@
 
 <br>
 
-## 🟦 For loops
 
-### Slider Basic
 
-- Before starting with the for loop, check the version below:
+### Before starting with the for loop, check the version below:
 
 ```python
 # Starting Value of the slider
@@ -74,3 +72,46 @@ decrease_slider(60)  # Decrease the slider by 60
 
 
 - - It allows you to modify the global variable from within a function.
+
+### 🟧 Purpose of global
+
+**Scope of Variables:** Variables defined inside a function are local to that function. They can’t be accessed or modified outside of it.
+
+<br>
+
+**Modifying Global Variables:** When you want to modify a global variable (a variable defined outside of any function) from within a function, you need to use the global keyword.
+
+- -  This tells Python that you are referring to the global variable, not creating a new local one.
+
+```python
+# Global variable
+count = 0
+
+def increment():
+    global count  # Declare that we are using the global variable 'count'
+    count += 1    # Modify the global variable 'count'
+
+def display():
+    print(count)  # Access the global variable 'count'
+
+increment()  # Calls the increment function
+display()    # Prints the updated value of 'count'
+
+```
+
+<br>
+<br>
+<br>
+
+
+## 🟦 For loops
+
+
+<br>
+
+
+### Slider Basic
+
+```python
+
+```
