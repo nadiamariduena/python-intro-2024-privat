@@ -440,7 +440,7 @@ print(good_students)
 
 
 
-## `@property:`
+## 🟡 `@property:`
 
 - -  Turns a method into a property, allowing you to access it like an attribute without calling it as a method.
 
@@ -454,11 +454,22 @@ Let’s imagine you have a special box that you want to keep tidy and organized.
 
 <br>
 <br>
+
+### 🌈 The Magic Box
+
+####  The Lock (Property):
+
+🔶 Think of the `@property` **decorator** as a  🔒 **lock** on the box.
+
+<br>
+<br>
 <br>
 <br>
 
-## `@abstractmethod`:
+## 🟡 `@abstractmethod`:
 
+
+#### An abstract class can be considered a blueprint for other classes. It allows you to create a set of methods that must be created within any child classes built from the abstract class. [geeksforgeeks.org/abstract-classes-in-python](https://www.geeksforgeeks.org/abstract-classes-in-python/)
 
 - - Used in abstract base classes to define abstract methods that must be implemented by any subclass.
 
