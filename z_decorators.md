@@ -487,6 +487,10 @@ When you use the box to see what toy is inside, the lock (getter) opens and show
 
 <br>
 
+**Add**ing a **Toy**:
+
+When you want to put a **new toy** 🚀 in the box, the special **key** (`setter`) **checks if the toy is small** enough to **fit**.
+
 
 <br>
 <br>
