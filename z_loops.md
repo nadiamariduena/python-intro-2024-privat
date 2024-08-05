@@ -48,3 +48,16 @@ decrease_slider(20)  # Decrease the slider by 20
 increase_slider(50)  # Increase the slider by 50
 decrease_slider(60)  # Decrease the slider by 60
 ```
+
+<br>
+
+**increase_slider(amount)**:
+
+
+ This function **adds** a certain **amount** to the **slider’s current value** using the **+= operator**.
+
+
+- -  If the slider value exceeds 100, it sets the value to 100 (since the slider can't go beyond 100).
+
+<br>
+
