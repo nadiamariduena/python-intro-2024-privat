@@ -8,5 +8,7 @@ def increase_slider(amount):
     slider_value += amount
     # add amount to the slider_value
 
-    if slider_value > 100:
-        slider_value = 100 # Cap the slider at 100
+    if slider_value > 100: #means (if the slider has reached the end) , then do the below:
+        slider_value = 100 # Cap the slider at 100 (This will ensure that the slider value does not go beyond its maximum limit)
+
+    print(f"Slider increased to: {slider_value}")
