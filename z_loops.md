@@ -348,6 +348,15 @@ For each tuple, the loop checks the action part of the tuple to decide what to d
 
 ### Show images with Tkinter
 
+```python
+# install this
+from PIL import Image, ImageTk # pip install pillow
+
+
+import requests # pip install requests
+# if you dont install this, you will have an error
+```
+
 - There are many aspects here that I still need to understand, but I wanted to check if the images would display correctly.
 
 - the TKINTER works it shows one img, but it gives errors for all the others, i will check it soon
