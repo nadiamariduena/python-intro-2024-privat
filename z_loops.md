@@ -333,3 +333,11 @@ elif action == 'decrease':
     decrease_slider(amount)
 
 ```
+
+<br>
+
+### Loop:
+
+The for loop iterates through each tuple in the adjustments list.
+For each tuple, the loop checks the action part of the tuple to decide what to do.
+
