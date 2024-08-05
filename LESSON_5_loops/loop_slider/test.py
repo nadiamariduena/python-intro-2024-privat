@@ -57,6 +57,10 @@ canvas.pack(fill=tk.BOTH, expand=True)
 def update_image(value):
     try:
         value = int(value)
+
+        # Ensure the slider value is within the expected range
+
+        #
         if 0 <= value <= 100:
             index = value // 10  # Determine which image to show
             image = images[index]
