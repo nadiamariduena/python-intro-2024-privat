@@ -273,3 +273,18 @@ adjustments = [
 
 
 
+
+
+
+
+
+<br>
+
+<br>
+
+### 🟣 QUESTION:  so this `('increase', 10), ('decrease', 20), etc` properties are connected to the `if action == "increase":` of the loop ?
+
+#### ✅ chatgpt:
+
+- - Yes, exactly! The ('increase', 10) and similar tuples in the adjustments list are directly connected to the if action == "increase": part of the loop. Here’s how they work together:
+
