@@ -59,9 +59,9 @@ def update_image(value):
         value = int(value)
 
         # Ensure the slider value is within the expected range
-
-        #
         if 0 <= value <= 100:
+
+            # Determine the index of the image to display based on slider value
             index = value // 10  # Determine which image to show
             image = images[index]
             image_width, image_height = image.width(), image.height()
