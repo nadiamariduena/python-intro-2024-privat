@@ -27,3 +27,10 @@ class Derived_class(Base_class):
 d = Derived_class(20)
 print(f"Original value: {d.value}")
 
+d.transform()
+print(f"Transformed value: {d.value}")
+
+
+# output
+# Original value: 20
+# Transformed value: 30
