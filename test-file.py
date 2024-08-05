@@ -18,3 +18,8 @@ class Base_class(ABC):
     def value(self, new_value):
         self._value = new_value
     # ---------
+
+class Derived_class(Base_class):
+    def transform(self):
+        self._value += 10
+
