@@ -496,6 +496,39 @@ When you want to put a **new toy** 🚀 in the box, the special **key** (`setter
 - - **If not**, it says, "Nope, this toy is too big!"
 
 <br>
+
+```python
+class Toybox:
+    def __init__(self, toy):
+        self._toy = None
+        self.toy = toy
+
+
+#------------
+#  the @property here below, works as a lock on a box, when you use the lock to look inside the box, it shows you what is inside. the getter method works on the same way, it lets you see the value of something
+    @property
+    def toy(self):
+        return self._toy # the🔒LOCK shows what toy is inside
+
+
+
+
+# the @value.setter, this @value from this setter here, is the key from the @property above, so when you say @value.setter, you are seeing: @property_name.setter
+    @toy.setter
+    def toy(self, new_toy): # 🔑
+        if len(new_toy) > 10: # lets say toys longer than 10 units are too big
+            raise ValueError("This toy is too big!")
+
+        self._toy = new_toy # Put the toy in the box
+#------------
+
+box = Toybox("CAR🚙") # the toy "car" is small enough, so its okay
+
+print(box.toy)
+
+```
+
+<br>
 <br>
 <br>
 <br>
