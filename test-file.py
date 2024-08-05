@@ -18,3 +18,9 @@ def increase_slider(amount):
 def decrease_slider(amount):
     global slider_value
 
+    slider_value -= amount
+
+    if slider_value < 0:
+        slider_value = 0 # Floorthe slider at o (remember:  0,1,2 )
+
+    print(f"Slider decreased to: {slider_value}")
