@@ -261,3 +261,15 @@ adjustments = [
 
 - **adjustments List:** This list contains **tuples `[()]`** that specify actions and amounts to be performed on the slider. Each tuple has an action ('increase' or 'decrease') and a corresponding amount.
 
+
+<br>
+<br>
+
+### 🟣 question: in other words the top settings is just to have a control over the reset, and the one at the bottom is for the user to give it control to go forward or backwards if implemented with buttons?
+
+#### ✅ chatgpt:
+
+- - Exactly! You've got it right.
+
+
+
