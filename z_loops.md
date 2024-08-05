@@ -120,3 +120,62 @@ The GOAL is to make the slider to **wrap** around and **return to 0 (or another 
 ####  🟧 Here’s how you can adjust the functions to make the slider reset to 0 after reaching 100 and to 10 after reaching 100 in a more interactive loop:
 
 
+
+
+<br>
+<br>
+
+```python
+slider_value = 50
+
+
+# Define wrap-around limits
+
+MIN_VALUE = 0
+MAX_VALUE = 100
+WRAP_VALUE = 10 # Will reset the value when the slider exceeds MAX_value
+
+# Function to increase the slider value
+
+def increase_slider(amount):
+
+    global slider_value
+
+    slider_value += amount
+
+    if slider_value > MAX_VALUE:
+        slider_value = WRAP_VALUE # RESET to wrap around value
+
+    print(f"Slider INCREASED to: {slider_value}")
+
+def decrease_slider(amount):
+
+    global slider_value
+
+    if slider_value < MIN_VALUE:
+
+        slider_value = MAX_VALUE
+
+    print(f"Slider DECREASED to: {slider_value}")
+
+
+# Simulate changes in a loop
+
+adjustments = [
+    ('increase', 10),
+    ('decrease', 20),
+    ('increase', 50),
+    ('decrease', 60),
+    ('increase', 80),  # This should wrap around to 10
+]
+
+
+for action, amount in adjustments:
+    if action == "increase":
+        increase_slider(amount)
+    elif action == "decrease":
+        decrease_slider(amount)
+```
+
+<br>
+<br>
