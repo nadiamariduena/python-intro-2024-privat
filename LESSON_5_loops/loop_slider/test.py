@@ -7,8 +7,16 @@ root.title("Image Slider")
 
 # Function to load and resize images while maintaining aspect ratio
 def load_and_resize_image(filename, max_size=(600, 600)):
+    #
+    #
     image = Image.open(filename)
+    #
+    # Resize the image to fit within the specified max_size while preserving the aspect ratio
     image.thumbnail(max_size, Image.ANTIALIAS)  # Resize image while maintaining aspect ratio
+
+    #
+    # Convert the PIL image to a format Tkinter can use
+
     return ImageTk.PhotoImage(image)
 
 # List of image filenames
