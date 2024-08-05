@@ -475,8 +475,18 @@ Let’s imagine you have a special box that you want to keep tidy and organized.
 - - But, this **key** is very picky! It checks if what you're putting in is okay before letting it in.
 
 <br>
+<br>
 
 #### 🎠 Imagine the box is for holding your favorite toy, and you only want to keep toys that are not too big. Here’s how it works:
+
+
+
+**Gett**ing the **Toy**:
+
+When you use the box to see what toy is inside, the lock (getter) opens and shows you the toy.
+
+<br>
+
 
 <br>
 <br>
