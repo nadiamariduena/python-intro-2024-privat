@@ -34,10 +34,13 @@ image_files = [
     "image100.png"
 ]
 
-# Load and resize images
+# Load and resize images into a list
 images = []
 for file in image_files:
+    #
+
     try:
+           # Load and resize each image, then add it to the images list
         img = load_and_resize_image(file)
         images.append(img)
     except Exception as e:
