@@ -566,6 +566,10 @@ The underscore prefix (`_toy`) signifies that this attribute is intended for int
 ### 🔴 No Control Over Data
 
 
+**Direct Access:**
+
+- - When you use toy directly, anyone can change it without any checks. This means mistakes or incorrect values can easily slip in because there’s no control over how the data is set or accessed.
+
 <br>
 <br>
 <br>
