@@ -11,3 +11,7 @@ class Toybox():
     @toy.setter
     def toy(self, new_toy):
         if len(new_toy) > 10: # lets say toys longer than 10 units are too big
+            raise ValueError("This toy is too big!")
+
+        self._toy = new_toy # Put the toy in the box
+
