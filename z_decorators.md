@@ -486,7 +486,7 @@ class Base(ABC):
     #🤚 dont forget to  import the @abstractmethod at the top
     @abstractmethod
     def abstract_method(self):
-        print("pass")
+
         pass
 
     # ✋
@@ -1055,7 +1055,7 @@ class Base(ABC):
     #🤚 dont forget to  import the @abstractmethod at the top
     @abstractmethod
     def abstract_method(self):
-        print("pass")
+
         pass
 
 
