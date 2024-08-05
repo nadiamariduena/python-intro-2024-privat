@@ -582,7 +582,9 @@ The underscore prefix (`_toy`) signifies that this attribute is intended for int
 **Less Clear:** If you use toy directly, it’s not clear to other people (or even yourself) if toy is supposed to be changed directly or if there’s special logic involved. It’s better to use _toy to show that toy is the main public way to interact with your class.
 
 
+### Namespace Conflicts
 
+**Potential Clashes:** If you have other attributes or methods in your class, using toy directly might lead to naming conflicts or confusion. Using _toy internally avoids this problem by clearly separating the internal data from the public interface.
 
 <br>
 <br>
