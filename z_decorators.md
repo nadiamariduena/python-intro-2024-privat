@@ -532,6 +532,12 @@ print(box.toy)
 
 ### 🟣 QUESTION: Why do we use `_toy` instead of `toy` in Python classes(above code)? Is it because *_toy* is used to store the actual value internally, while *toy* is used to access or modify this value through property methods?
 
+#### ✅ chatgpt:
+
+ Yes, using `_toy` (with an underscore) is a common convention in Python to indicate that it’s a private or internal attribute of the class.
+
+
+
 <br>
 <br>
 <br>
