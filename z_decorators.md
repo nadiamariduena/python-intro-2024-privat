@@ -464,6 +464,9 @@ Let’s imagine you have a special box that you want to keep tidy and organized.
 - - **When you use** the **lock to look inside the box**, it **shows you what’s inside**.
 
 
+- - This is **like** the `GETTER` method, which **lets you see** the **value of something**.
+
+<br>
 
 <br>
 <br>
