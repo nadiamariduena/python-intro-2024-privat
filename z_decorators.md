@@ -529,6 +529,10 @@ print(box.toy)
 ```
 
 <br>
+
+### 🟣 QUESTION: Why do we use `_toy` instead of `toy` in Python classes(above code)? Is it because *_toy* is used to store the actual value internally, while *toy* is used to access or modify this value through property methods?
+
+<br>
 <br>
 <br>
 <br>
