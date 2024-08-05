@@ -1,8 +1,10 @@
-class Toybox():
+class Toybox:
     def __init__(self, toy):
         self._toy = None
         self.toy = toy
 
+
+#------------
     @property
     def toy(self):
         return self._toy # the🔒LOCK shows what toy is inside
@@ -14,4 +16,8 @@ class Toybox():
             raise ValueError("This toy is too big!")
 
         self._toy = new_toy # Put the toy in the box
+#------------
 
+box = Toybox("CAR🚙") # the toy "car" is small enough, so its okay
+
+print(box.toy)
