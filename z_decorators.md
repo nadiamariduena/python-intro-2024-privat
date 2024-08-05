@@ -537,6 +537,15 @@ print(box.toy)
  Yes, using `_toy` (with an underscore) is a common convention in Python to indicate that it’s a private or internal attribute of the class.
 
 
+- -  This **helps** in **distinguishing**
+
+- - **between the internal state of the object and the public interface** that users of the class interact with.
+
+<br>
+
+#### 🔶 Here’s why you might use _toy instead of toy:
+
+
 
 <br>
 <br>
