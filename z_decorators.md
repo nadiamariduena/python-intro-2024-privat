@@ -577,6 +577,13 @@ The underscore prefix (`_toy`) signifies that this attribute is intended for int
 **Difficult Updates:** If you decide later that you need to add special rules or checks (like making sure the value is always a string), you’ll have to change your code everywhere toy is used. This can be messy and error-prone.
 
 
+### Confusing for Others
+
+**Less Clear:** If you use toy directly, it’s not clear to other people (or even yourself) if toy is supposed to be changed directly or if there’s special logic involved. It’s better to use _toy to show that toy is the main public way to interact with your class.
+
+
+
+
 <br>
 <br>
 <br>
