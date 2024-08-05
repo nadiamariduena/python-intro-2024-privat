@@ -1,56 +1,75 @@
 import tkinter as tk
 from PIL import Image, ImageTk
 
-import requests
-from io import BytesIO
-
 # Initialize the main window
 root = tk.Tk()
 root.title("Image Slider")
 
-# URLs of the images
-image_urls = [
-    "https://images.pexels.com/photos/25413123/pexels-photo-25413123/free-photo-of-campagne-cloture-barriere-grillage.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "https://images.pexels.com/photos/25413122/pexels-photo-25413122/free-photo-of-route-aube-cote-littoral.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-    "https://images.pexels.com/photos/18486577/pexels-photo-18486577/free-photo-of-bois-paysage-art-sale.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "https://images.pexels.com/photos/18264586/pexels-photo-18264586/free-photo-of-mer-paysage-ciel-soleil-couchant.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+# Function to load and resize images while maintaining aspect ratio
+def load_and_resize_image(filename, max_size=(600, 600)):
+    image = Image.open(filename)
+    image.thumbnail(max_size, Image.ANTIALIAS)  # Resize image while maintaining aspect ratio
+    return ImageTk.PhotoImage(image)
 
+# List of image filenames
+image_files = [
+    "image0.png",
+    "image10.png",
+    "image20.png",
+    "image30.png",
+    "image40.png",
+    "image50.png",
+    "image60.png",
+    "image70.png",
+    "image80.png",
+    "image90.png",
+    "image100.png"
 ]
 
-# Function to download images and convert to PhotoImage
-def load_images_from_urls(urls):
-    images = []
-    for url in urls:
-        response = requests.get(url)
-        image_data = BytesIO(response.content)
-        img = Image.open(image_data)
-        img = img.resize((300, 200), Image.ANTIALIAS)  # Resize image if needed
-        photo = ImageTk.PhotoImage(img)
-        images.append(photo)
-    return images
+# Load and resize images
+images = []
+for file in image_files:
+    try:
+        img = load_and_resize_image(file)
+        images.append(img)
+    except Exception as e:
+        print(f"Error loading image {file}: {e}")
 
-# Load images
-images = load_images_from_urls(image_urls)
-
-# Create a canvas to display the images
-canvas = tk.Canvas(root, width=300, height=200)
-canvas.pack()
+# Create a canvas with a fixed size
+canvas = tk.Canvas(root, width=600, height=600)
+canvas.pack(fill=tk.BOTH, expand=True)
 
 # Function to update the image on the canvas
 def update_image(value):
-    if 0 <= value <= 100:
-        index = value // 10  # Determine which image to show
-        canvas.delete("all")  # Clear the canvas
-        canvas.create_image(0, 0, anchor=tk.NW, image=images[index])
-    else:
-        print("Value out of range")
+    try:
+        value = int(value)
+        if 0 <= value <= 100:
+            index = value // 10  # Determine which image to show
+            image = images[index]
+            image_width, image_height = image.width(), image.height()
+
+            # Calculate the scaling factor to fit the image within the canvas
+            canvas_width = canvas.winfo_width()
+            canvas_height = canvas.winfo_height()
+            scale = min(canvas_width / image_width, canvas_height / image_height)
+
+            # Resize image based on the scaling factor
+            new_width = int(image_width * scale)
+            new_height = int(image_height * scale)
+            resized_image = image._PhotoImage__photo.zoom(new_width // image_width, new_height // image_height)
+
+            # Clear the canvas and display the resized image
+            canvas.delete("all")
+            canvas.create_image(0, 0, anchor=tk.NW, image=resized_image)
+            canvas.image = resized_image  # Keep a reference to avoid garbage collection
+        else:
+            print("Value out of range")
+    except Exception as e:
+        print(f"Error updating image: {e}")
 
 # Initialize the slider
 slider = tk.Scale(root, from_=0, to=100, orient=tk.HORIZONTAL, command=update_image)
-slider.pack()
-
-# Initialize the slider value to display the first image
-update_image(slider.get())
+slider.pack(fill=tk.X)
 
 # Run the Tkinter event loop
 root.mainloop()

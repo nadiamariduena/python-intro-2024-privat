@@ -348,6 +348,8 @@ For each tuple, the loop checks the action part of the tuple to decide what to d
 
 ### Show images with Tkinter
 
+### 🔴 At the moment, I’m not actively focusing on Tkinter. However, I’m including the code below to familiarize myself with it. In the future, as I become more comfortable with Python, I may find ways to incorporate Tkinter into my projects.
+
 ```python
 # install this
 from PIL import Image, ImageTk # pip install pillow
@@ -357,9 +359,10 @@ import requests # pip install requests
 # if you dont install this, you will have an error
 ```
 
+<br>
+
 - There are many aspects here that I still need to understand, but I wanted to check if the images would display correctly.
 
-- the TKINTER works it shows one img, but it gives errors for all the others, i will check it soon
 
 
 ```python
@@ -442,6 +445,231 @@ root.mainloop()
     PhotoImage(file="image100.png") # Image for value 100
 ```
 
-PhotoImage(file
+ <br>
 
-"image0.png
+### 🔴 Works but too small
+
+```python
+import tkinter as tk
+from PIL import Image, ImageTk
+
+# Initialize the main window
+root = tk.Tk()
+root.title("Image Slider")
+
+# Function to load images
+def load_image(filename):
+    image = Image.open(filename)
+    return ImageTk.PhotoImage(image)
+
+# List of image filenames
+image_files = [
+    "image0.png",
+    "image10.png",
+    "image20.png",
+    "image30.png",
+    "image40.png",
+    "image50.png",
+    "image60.png",
+    "image70.png",
+    "image80.png",
+    "image90.png",
+    "image100.png"
+]
+
+# Load images into a list
+images = []
+for file in image_files:
+    try:
+        img = load_image(file)
+        images.append(img)
+    except Exception as e:
+        print(f"Error loading image {file}: {e}")
+
+# Create a canvas to display the images
+canvas = tk.Canvas(root, width=300, height=200)
+canvas.pack()
+
+# Function to update the image on the canvas
+def update_image(value):
+    try:
+        value = int(value)
+        if 0 <= value <= 100:
+            index = value // 10  # Determine which image to show
+            canvas.delete("all")  # Clear the canvas
+            canvas.create_image(0, 0, anchor=tk.NW, image=images[index])
+            canvas.image = images[index]  # Keep a reference to avoid garbage collection
+        else:
+            print("Value out of range")
+    except Exception as e:
+        print(f"Error updating image: {e}")
+
+# Initialize the slider
+slider = tk.Scale(root, from_=0, to=100, orient=tk.HORIZONTAL, command=update_image)
+slider.pack()
+
+# Initialize the slider value to display the first image
+update_image(slider.get())
+
+# Run the Tkinter event loop
+root.mainloop()
+
+```
+
+<br>
+<br>
+
+### 🔴 Works but stretch the image
+
+```python
+import tkinter as tk
+from PIL import Image, ImageTk
+
+# Initialize the main window
+root = tk.Tk()
+root.title("Image Slider")
+
+# Function to load and resize images
+def load_and_resize_image(filename, size=(600, 600)):
+    image = Image.open(filename)
+    image = image.resize(size, Image.ANTIALIAS)  # Resize image
+    return ImageTk.PhotoImage(image)
+
+# List of image filenames
+image_files = [
+    "image0.png",
+    "image10.png",
+    "image20.png",
+    "image30.png",
+    "image40.png",
+    "image50.png",
+    "image60.png",
+    "image70.png",
+    "image80.png",
+    "image90.png",
+    "image100.png"
+]
+
+# Load and resize images
+images = []
+for file in image_files:
+    try:
+        img = load_and_resize_image(file)
+        images.append(img)
+    except Exception as e:
+        print(f"Error loading image {file}: {e}")
+
+# Create a canvas to display the images with a size of 600x600
+canvas = tk.Canvas(root, width=600, height=600)
+canvas.pack()
+
+# Function to update the image on the canvas
+def update_image(value):
+    try:
+        value = int(value)
+        if 0 <= value <= 100:
+            index = value // 10  # Determine which image to show
+            canvas.delete("all")  # Clear the canvas
+            canvas.create_image(0, 0, anchor=tk.NW, image=images[index])
+            canvas.image = images[index]  # Keep a reference to avoid garbage collection
+        else:
+            print("Value out of range")
+    except Exception as e:
+        print(f"Error updating image: {e}")
+
+# Initialize the slider
+slider = tk.Scale(root, from_=0, to=100, orient=tk.HORIZONTAL, command=update_image)
+slider.pack()
+
+# Initialize the slider value to display the first image
+update_image(slider.get())
+
+# Run the Tkinter event loop
+root.mainloop()
+
+```
+
+<br>
+<br>
+
+
+### 🔴 Works but not centered
+
+```python
+import tkinter as tk
+from PIL import Image, ImageTk
+
+# Initialize the main window
+root = tk.Tk()
+root.title("Image Slider")
+
+# Function to load and resize images while maintaining aspect ratio
+def load_and_resize_image(filename, max_size=(600, 600)):
+    image = Image.open(filename)
+    image.thumbnail(max_size, Image.ANTIALIAS)  # Resize image while maintaining aspect ratio
+    return ImageTk.PhotoImage(image)
+
+# List of image filenames
+image_files = [
+    "image0.png",
+    "image10.png",
+    "image20.png",
+    "image30.png",
+    "image40.png",
+    "image50.png",
+    "image60.png",
+    "image70.png",
+    "image80.png",
+    "image90.png",
+    "image100.png"
+]
+
+# Load and resize images
+images = []
+for file in image_files:
+    try:
+        img = load_and_resize_image(file)
+        images.append(img)
+    except Exception as e:
+        print(f"Error loading image {file}: {e}")
+
+# Create a canvas with a fixed size
+canvas = tk.Canvas(root, width=600, height=600)
+canvas.pack(fill=tk.BOTH, expand=True)
+
+# Function to update the image on the canvas
+def update_image(value):
+    try:
+        value = int(value)
+        if 0 <= value <= 100:
+            index = value // 10  # Determine which image to show
+            image = images[index]
+            image_width, image_height = image.width(), image.height()
+
+            # Calculate the scaling factor to fit the image within the canvas
+            canvas_width = canvas.winfo_width()
+            canvas_height = canvas.winfo_height()
+            scale = min(canvas_width / image_width, canvas_height / image_height)
+
+            # Resize image based on the scaling factor
+            new_width = int(image_width * scale)
+            new_height = int(image_height * scale)
+            resized_image = image._PhotoImage__photo.zoom(new_width // image_width, new_height // image_height)
+
+            # Clear the canvas and display the resized image
+            canvas.delete("all")
+            canvas.create_image(0, 0, anchor=tk.NW, image=resized_image)
+            canvas.image = resized_image  # Keep a reference to avoid garbage collection
+        else:
+            print("Value out of range")
+    except Exception as e:
+        print(f"Error updating image: {e}")
+
+# Initialize the slider
+slider = tk.Scale(root, from_=0, to=100, orient=tk.HORIZONTAL, command=update_image)
+slider.pack(fill=tk.X)
+
+# Run the Tkinter event loop
+root.mainloop()
+
+```
