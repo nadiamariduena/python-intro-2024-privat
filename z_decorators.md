@@ -440,10 +440,19 @@ print(good_students)
 
 
 
-#### `@property:`
+## `@property:`
 
 - -  Turns a method into a property, allowing you to access it like an attribute without calling it as a method.
 
+<br>
+
+## 🧸 1. Example
+
+Let’s imagine you have a special box that you want to keep tidy and organized.
+
+- - This **box** has a **lock** and **only lets** you **put in or take out things** in a certain way.
+
+<br>
 <br>
 <br>
 <br>
@@ -554,6 +563,54 @@ print(d.value)       # Outputs: 20 (updated value)
 🔴 **Yes**, you’ve captured the essence.  The **second abstraction** primarily **offers** the **ability** to **nest or encapsulate** a **new value** <u>within an existing one</u> .
 
 - - The purpose of the abstract base class (`Base`) and its derived class (`Derived`) in this simplified example is to illustrate how abstract methods and properties can be used to manage and interact with state
+
+<br>
+
+
+### example 2
+
+```python
+from abc import ABC, abstractmethod
+
+class Base_class(ABC):
+    def __init__(self, value):
+        self._value = value
+
+    @abstractmethod
+    def transform(self):
+        pass
+
+
+    #-----
+    @property
+    def value(self):
+        return self._value
+
+    @value.setter
+    def value(self, new_value):
+        self._value = new_value
+    # ---------
+
+class Derived_class(Base_class):
+    def transform(self):
+        self._value += 10
+
+
+d = Derived_class(20)
+print(f"Original value: {d.value}")
+
+d.transform()
+print(f"Transformed value: {d.value}")
+
+
+# output
+# Original value: 20
+# Transformed value: 30
+```
+
+
+
+
 
 <br>
 
