@@ -6,6 +6,7 @@
 
 ### Slider Basic
 
+- Before starting with the for loop, check the version below:
 
 ```python
 # Starting Value of the slider
