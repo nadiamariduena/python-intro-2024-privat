@@ -803,3 +803,12 @@ number_board = [
 
 [<img src="grid_tic_tac_toe.jpg"/>](https://threejs-journey.com/lessons/9)
 
+
+<br>
+<br>
+
+## 🌈 Breaking It Down
+
+`for j in range(3)` :  This part is a **loop** that **runs 3 times**.
+
+- - **Each time**, `j` takes on a value of 0, 1, and 2, one at a time.
