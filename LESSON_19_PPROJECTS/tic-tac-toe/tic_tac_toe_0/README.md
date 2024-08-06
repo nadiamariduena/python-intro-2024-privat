@@ -744,3 +744,8 @@ class TicTacToe:
 
 ### 🍊 This line Below creates a grid with numbered positions (0 to 8) for players to choose where to place their X or O.
 
+
+#### `number_board = [[str(i) for i in range(j*3, (j+1)*3)] for j in range(3)]`
+
+
+**Players Choose a Position by Number:** For example, if a player wants to place their `X` in the middle of the board, they would choose position 4.
