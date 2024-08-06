@@ -775,3 +775,8 @@ number_board = [
 | 6 | 7 | 8 |
 
 ```
+<br>
+
+## 🚀 Recapitulative
+
+- so to be clear: the 9 boxes are **indexes**
