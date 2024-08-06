@@ -749,3 +749,16 @@ class TicTacToe:
 
 
 **Players Choose a Position by Number:** For example, if a player wants to place their `X` in the middle of the board, they would choose position 4.
+
+<br>
+
+#### Before move
+
+```bash
+number_board = [
+    ['0', '1', '2'],  # Row j = 0
+    ['3', '4', '5'],  # Row j = 1
+    ['6', '7', '8']   # Row j = 2
+]
+
+```
