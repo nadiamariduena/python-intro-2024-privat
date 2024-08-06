@@ -762,3 +762,5 @@ number_board = [
 ]
 
 ```
+
+- - This number_board is used to show the positions on the Tic-Tac-Toe board to help players select where  they want to place their X or O.
