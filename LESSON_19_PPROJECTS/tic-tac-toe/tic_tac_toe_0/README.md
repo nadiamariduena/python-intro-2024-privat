@@ -832,3 +832,11 @@ number_board = [
 <br>
 
 ### 🟡 The logic used in the previous for loop in the `print_board()` function is similar, but now it’s applied to track and display the player's moves instead of just printing the board layout.🤺
+
+- Based on the previous `For` LOOP:  `j + 1` gives you the next row’s index (where the orange🔸 dot is, means that the index of the second row is the 3, 3 is the current index, and it marks the end of the ), which helps determine the end of the current row.
+
+```bash
+| 0 | 1 | 2 |  <- First Row (0 to 2)
+|3🔸| 4 | 5 |  <- Second Row (3 to 5)
+|6🔸 | 7 | 8 |  <- Third Row (6 to 8)
+```
