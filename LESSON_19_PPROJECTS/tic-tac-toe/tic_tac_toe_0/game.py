@@ -18,4 +18,4 @@ class TicTacToe:
 
     @staticmethod
     def print_board_nums():
-        number
+        number_board = [[str(i) for i in range(j*3, (j+1)*3)] for j in range(3)]

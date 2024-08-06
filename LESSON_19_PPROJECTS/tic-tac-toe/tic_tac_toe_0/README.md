@@ -641,11 +641,31 @@ For i = 1: (1+1)*3 = 6 which gives us the end index 6.
 self.board = ['X', 'O', 'X', ' ', 'X', 'O', ' ', ' ', 'O']
 
 ```
-#### The list comprehension inside print_board:
+
+
+
+### The list comprehension inside print_board:
 
 ```python
 [self.board[i*3:(i+1)*3] for i in range(3)]
 ```
+
+<br>
+
+#### Another example
+
+```python
+i=0: self.board[0:3] gives ['X', ' ', 'O'] (Row 0).
+i=1: self.board[3:6] gives [' ', 'X', ' '] (Row 1).
+i=2: self.board[6:9] gives ['O', ' ', 'X'] (Row 2).
+```
+
+
+
+
+<br>
+
+
 
 
 <br>
@@ -703,13 +723,6 @@ class TicTacToe:
 
 ## 🟡 `@staticmethod`
 
-
-
-
-
-
-
-
 ### 🫐 What is `@staticmethod`?
 
 <br>
@@ -721,3 +734,13 @@ class TicTacToe:
 🍊 It is **used** to **define a method** in a **class** that **does not require access** to the **instance** (`self`) or the class (`cls`) to which it belongs (*check the examples in the link below*).
 
 ####  🧶 [READ MORE: z_decorators](../../../z_decorators.md)
+
+
+
+<br>
+<br>
+
+## 🟦 Creating the Double Grid
+
+### 🍊 This line Below creates a grid with numbered positions (0 to 8) for players to choose where to place their X or O.
+

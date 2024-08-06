@@ -18,7 +18,7 @@ class RandomComputerPlayer(Player):
         super().__init__(letter)
 
     def get_move(self, game):
-        pass
+        pass # hold pn for now
 
 class HumanPlayer(Player):
     def __init__(self, letter):
@@ -26,5 +26,5 @@ class HumanPlayer(Player):
 
 
     def get_move(self, game):
-        pass
+        pass # hold pn for now
 
