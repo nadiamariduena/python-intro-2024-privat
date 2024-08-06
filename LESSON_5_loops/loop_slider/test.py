@@ -78,8 +78,11 @@ def update_image(value):
             scale = min(canvas_width / image_width, canvas_height / image_height)
 
             # Resize image based on the scaling factor
-            new_width = int(image_width * scale)
+            new_width = int(image_width * scale) # Computes the new width of the image after scaling.
+
             new_height = int(image_height * scale)
+            # Computes the new height of the image after scaling.
+            #
             resized_image = image._PhotoImage__photo.zoom(new_width // image_width, new_height // image_height)
 
             # Clear the canvas and display the resized image
