@@ -792,3 +792,5 @@ number_board = [
 | 3 |🔸4 | 5 |  <- Second Row (3 to 5)
 | 6 |  7 | 8 |  <- Third Row (6 to 8)
 ```
+
+- - **Index 4:** In the 1D list, it is the fifth position, corresponding to the center of the grid.
