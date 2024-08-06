@@ -786,3 +786,9 @@ number_board = [
 - These indices represent the positions in  the board.
 
 - - #### 👾 so when user adds `X` to index `4` (dot orange), its seeing as J4 in i4, just like in chess board visual (not the logic)
+
+```python
+| 0 |  1 | 2 |  <- First Row (0 to 2)
+| 3 |🔸4 | 5 |  <- Second Row (3 to 5)
+| 6 |  7 | 8 |  <- Third Row (6 to 8)
+```
