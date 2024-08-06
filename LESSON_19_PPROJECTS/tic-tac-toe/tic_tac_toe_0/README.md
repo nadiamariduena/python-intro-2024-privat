@@ -827,3 +827,8 @@ number_board = [
 
 >- - **It starts** at `j*3` and **goes up to** `(j+1)*3`, but doesn’t include `j+1)*3`.
 
+
+<br>
+<br>
+
+### 🟡 The logic used in the previous for loop in the `print_board()` function is similar, but now it’s applied to track and display the player's moves instead of just printing the board layout.🤺
