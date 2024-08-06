@@ -99,7 +99,7 @@ def update_image(value):
 # Initialize the slider
 slider = tk.Scale(root, from_=0, to=100, orient=tk.HORIZONTAL, command=update_image)
 # Creates a slider that ranges from 0 to 100. The update_image function is called whenever the slider value changes.
-slider.pack(fill=tk.X)
+slider.pack(fill=tk.X) # Makes the slider fill horizontally.
 
 # Run the Tkinter event loop
 root.mainloop()
