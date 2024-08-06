@@ -820,3 +820,10 @@ number_board = [
 
 ### 🟠 Inner List Comprehension `[[str(i) for i in range(j*3, (j+1)*3)] for j in range(3)]`:
 
+
+<br>
+
+>- - **For each** value of `j`, 🤺 this part creates a list of numbers.
+
+>- - **It starts** at `j*3` and **goes up to** `(j+1)*3`, but doesn’t include `j+1)*3`.
+
