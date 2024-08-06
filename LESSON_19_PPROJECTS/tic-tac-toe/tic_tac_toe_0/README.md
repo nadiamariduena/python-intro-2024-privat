@@ -840,3 +840,13 @@ number_board = [
 |3🔸| 4 | 5 |  <- Second Row (3 to 5)
 |6🔸 | 7 | 8 |  <- Third Row (6 to 8)
 ```
+
+```python
+For i = 0: (0+1)*3 = 3 which gives us the end index 3.
+For i = 1: (1+1)*3 = 6 which gives us the end index 6.
+For i = 2: (2+1)*3 = 9 which gives us the end index 9.
+```
+
+
+<br>
+
