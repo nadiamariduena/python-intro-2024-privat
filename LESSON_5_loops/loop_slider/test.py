@@ -68,7 +68,11 @@ def update_image(value):
 
             # Calculate the scaling factor to fit the image within the canvas
             canvas_width = canvas.winfo_width()
+            # canvas_width = canvas.winfo_width(): Gets the current width of the canvas.
+            # canvas_height = canvas.winfo_height(): Gets the current height of the canvas.
             canvas_height = canvas.winfo_height()
+            #
+            #
             scale = min(canvas_width / image_width, canvas_height / image_height)
 
             # Resize image based on the scaling factor
