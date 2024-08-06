@@ -780,3 +780,9 @@ number_board = [
 ## 🚀 Recapitulative
 
 - so to be clear: the 9 boxes are **indexes**
+
+- Each of the **9 cells** is indexed from `0 to 8`.
+
+- These indices represent the positions in  the board.
+
+- - #### 👾 so when user adds `X` to index `4` (dot orange), its seeing as J4 in i4, just like in chess board visual (not the logic)
