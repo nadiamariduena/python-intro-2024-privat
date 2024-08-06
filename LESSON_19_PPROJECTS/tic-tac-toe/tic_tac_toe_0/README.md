@@ -794,3 +794,12 @@ number_board = [
 ```
 
 - - **Index 4:** In the 1D list, it is the fifth position, corresponding to the center of the grid.
+
+- - **Grid View:** You would see it as J4 in the i4 position, indicating where the move was made.
+
+<br>
+
+## 🟫 Like here
+
+[<img src="grid_tic_tac_toe.jpg"/>](https://threejs-journey.com/lessons/9)
+
