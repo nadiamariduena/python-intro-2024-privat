@@ -345,8 +345,20 @@ pygame.quit()
 
 ## 🍍 Add some controls
 
-### First thing i need to know, is which key on the keyboard is being pressed
+### 🟠 First thing i need to know, is which key on the keyboard is being pressed
 
 ```bash
 key = pygame.key.get_pressed()
 ```
+
+<br>
+
+## 🟦 KEYS
+
+### 🟠 Now i can look for specific key with an `if` statement
+
+```python
+# 15 if the KEY being pressed is A so its true, then i want to ...
+ if key[pygame.K_a] == True:
+```
+

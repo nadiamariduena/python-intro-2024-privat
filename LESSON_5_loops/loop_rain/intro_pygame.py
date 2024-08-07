@@ -36,6 +36,8 @@ while run:
     #14 First thing i need to know, is which key on the keyboard is being pressed
     key = pygame.key.get_pressed()
 
+    # 15 if the KEY being pressed is A so its true, then i want to ...
+    if key[pygame.K_a] == True:
 
     #------------- EVENT handler
     for event in pygame.event.get():
