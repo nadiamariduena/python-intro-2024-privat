@@ -237,3 +237,7 @@ player = pygame.Rect((300, 250, 50, 50))
 ## `pygame.draw.rect(screen, (255, 0, 0), player)` has three main parts, each serving a specific purpose:
 
 <br>
+
+#### `screen`:
+
+- - This is where you are drawing. It’s the surface or canvas that will display everything.
