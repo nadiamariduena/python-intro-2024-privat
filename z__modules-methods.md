@@ -207,3 +207,18 @@ In Python, if you want to enumerate a list, you typically use the built-in enume
 ### 🟤 Without enumerate()
 
 - If you have a list of items without explicit IDs, you only get the items themselves:
+
+```python
+items = ['apple', 'banana', 'cherry']
+for item in items:
+    print(item)
+
+```
+#### output
+
+```python
+apple
+banana
+cherry
+
+```
