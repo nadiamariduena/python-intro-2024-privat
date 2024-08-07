@@ -540,3 +540,5 @@ screen.fill((0,0,0))
 - **Yes**, your concern is valid.
 
 - - **Adding a dark fill might not be the best solution** if it affects the visibility or clarity of the trail data.
+
+- - Overlapping or obscuring important data with a fill could create more problems than it solves.
