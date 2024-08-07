@@ -546,3 +546,9 @@ screen.fill((0,0,0))
 In programming, especially when dealing with graphical elements or animations, it's important to ensure that each component is properly managed and cleaned up to avoid visual artifacts or performance issues.
 
 In Python, especially if you're working with graphical libraries like Pygame or Tkinter, you might handle cleanup differently than in React. You would typically need to:
+
+#### Clear the Canvas:
+
+Ensure that the drawing area or canvas is cleared or reset appropriately between frames or updates.
+
+#### Manage State:
