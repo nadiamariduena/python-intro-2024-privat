@@ -926,3 +926,10 @@ Here, you **create an empty**  <u>list</u> **called moves**.
 ```python
 moves = []
 ```
+
+- - This list will store the positions on the board where a move can be made.
+
+<br>
+
+
+#### 2. 🔶 Looping Through the Board:
