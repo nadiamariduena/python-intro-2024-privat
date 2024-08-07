@@ -915,3 +915,14 @@ def available_moves(self):
 ```
 
 
+<br>
+<br>
+
+
+### 1. 🔶 Creating a List for Moves:
+
+Here, you **create an empty**  <u>list</u> **called moves**.
+
+```python
+moves = []
+```
