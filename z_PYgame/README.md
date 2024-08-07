@@ -53,3 +53,7 @@ screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT ))
 <br>
 
 #### In order to Keep the the window open, I need to CREATE a second element from those 3 steps (from step 2 to 4), one way to do that is by using LOOPS.
+
+<br>
+
+- For this game I will be using the While loop (i think you can also use the SWITCH loop)
