@@ -568,3 +568,8 @@ Properly manage event loops to ensure that resources are released and not left r
 
 - - The player’s position should be updated before drawing it to the screen.
 
+
+#### Handle the `pygame.display.update()` Correctly:
+
+- - `pygame.display.update()` should be called after you have drawn everything for the current frame.
+
