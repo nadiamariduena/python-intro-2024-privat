@@ -38,6 +38,10 @@ while run:
 
     # 15 if the KEY being pressed is A so its true, then i want to ...
     if key[pygame.K_a] == True:
+        #16
+        # ...move the rectangle to the left, the rectangle is assigned to the variable player
+        player.move_ip() # ip: stands for MOVE IN-PLACE
+        #  between the parentheses/brackets I pass in the movement in the X direction and the Y direction, if i am moving LEFT then I am subtracting from the X coordinate and I am not affecting the Y coordinate
 
     #------------- EVENT handler
     for event in pygame.event.get():
