@@ -806,3 +806,7 @@ sys.exit()
 <br>
 
 ### 🟦 Understanding FPS (frames per second) helps you gauge how smoothly your game or application is running.
+
+#### Here's how to interpret FPS values:
+
+### 🟠 FPS Interpretation:
