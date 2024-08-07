@@ -1037,3 +1037,9 @@ X | * | O
 **Index 8:** The spot is O (not empty). So, index 8 is not added to the moves list.
 
 <br>
+
+### 🟧 Result
+
+<br>
+
+The `available_moves` function will `return [1, 3, 5, 6, 7]`, indicating the positions on the board where a player can make a move.
