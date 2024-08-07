@@ -26,3 +26,18 @@
 
 - Simple exercise to get started with **Pygame**, based on this tutorial:  [Get Started in Pygame in 10 minutes!](https://www.youtube.com/watch?v=y9VG3Pztok8)
 
+
+<br>
+
+```python
+# 1
+import pygame
+# 2
+pygame.init()
+# 3
+# Window dimensions
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+# 4 create the game window
+screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT ))
+```
