@@ -263,3 +263,10 @@ while run:
 
 ## 🟦 Refresh the changes
 
+
+- - Think of `pygame.display.update()` as a final step to show what you’ve drawn.
+
+```python
+# the purpose is to refresh or update the screen with any changes that have been made.
+pygame.display.update()
+```
