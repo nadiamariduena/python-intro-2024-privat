@@ -250,3 +250,16 @@ player = pygame.Rect((300, 250, 50, 50))
 
 
 - - This defines the position and size of the rectangle. It tells Pygame where to draw the box and how big it should be, based on the coordinates and dimensions you provided.
+
+```python
+while run:
+    # 12 ✋ THE TOOL: contain 3 arguments, the screen , the rgb and the player who is going to draw
+    pygame.draw.rect(screen, (255, 0, 0), player)
+    #------------- EVENT handler
+    for event in pygame.event.get():
+```
+
+<br>
+
+## 🟦 Refresh the changes
+
