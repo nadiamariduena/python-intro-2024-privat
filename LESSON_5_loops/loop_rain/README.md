@@ -32,3 +32,9 @@
  <br>
 
 - - ACTIVATE the **environment:** Type this in your project terminal `source .myvenv/bin/activate`
+
+<br>
+
+#### 4. Verify activation:
+
+>Once ACTIVATED (you should see the `(.venv)mycomputer@usercomp:~/YOURPROJECT/`) , if you dont see the venv its not activated.
