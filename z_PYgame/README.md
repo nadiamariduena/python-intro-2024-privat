@@ -556,3 +556,15 @@ Ensure that the drawing area or canvas is cleared or reset appropriately between
 Keep track of the state of your trails and clear or update them as needed.
 
 #### Use Event Loops:
+
+Properly manage event loops to ensure that resources are released and not left running in the background.
+
+
+<br>
+
+### 🌈 SOLUTION
+
+#### Update Player Position and Screen Update:
+
+- - The player’s position should be updated before drawing it to the screen.
+
