@@ -178,3 +178,6 @@ class Color(Enum):
 
 In Python, if you want to enumerate a list, you typically use the built-in enumerate() function rather than the Enum class.
 
+
+<br>
+
