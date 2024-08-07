@@ -972,3 +972,24 @@ return
 ```
 
 - -  Finally, the function returns the moves list, which now contains all the positions on the board where a player can put their mark.
+
+<br>
+<br>
+
+
+
+```python
+
+    def available_moves(self):
+
+        moves = []
+
+        for (i, spot) in enumerate(self.board):
+
+            if spot == ' ':
+                moves.append(i)
+
+        return
+
+```
+
