@@ -518,3 +518,8 @@ pygame.quit()
 
 <br>
 
+- 🔴 a short term solution is to **add a black screen**
+
+```python
+screen.fill((0,0,0))
+```
