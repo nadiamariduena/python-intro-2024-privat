@@ -533,3 +533,10 @@ screen.fill((0,0,0))
 
 #### What would be the equivalent solution in Python for clearing the trail?
 
+<br>
+
+#### ✅ chatgpt:
+
+- **Yes**, your concern is valid.
+
+- - **Adding a dark fill might not be the best solution** if it affects the visibility or clarity of the trail data.
