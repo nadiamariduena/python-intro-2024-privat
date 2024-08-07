@@ -233,3 +233,7 @@ player = pygame.Rect((300, 250, 50, 50))
 <br>
 
 ### 🟠 Style of the TOOL:
+
+## `pygame.draw.rect(screen, (255, 0, 0), player)` has three main parts, each serving a specific purpose:
+
+<br>
