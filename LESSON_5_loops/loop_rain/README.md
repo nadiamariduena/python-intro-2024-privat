@@ -16,3 +16,7 @@
 - -  `.gitignore` file, add this: **.myvenv**
 
 
+
+#### 2. Within your /Project folder, create:
+
+- - `rain.py`
