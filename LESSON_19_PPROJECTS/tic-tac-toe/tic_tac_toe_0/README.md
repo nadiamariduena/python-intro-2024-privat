@@ -933,3 +933,14 @@ moves = []
 
 
 #### 2. 🔶 Looping Through the Board:
+
+### ENUMERATE()
+
+```python
+ for (i, spot) in enumerate(self.board):
+```
+
+-  `enumerate()`: will help you to loop through items that dont have an assigned id, like "id": 0, "id": 1, its for values such as [ apple, fruits, etc,]
+
+<br>
+
