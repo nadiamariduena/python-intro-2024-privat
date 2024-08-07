@@ -241,3 +241,12 @@ player = pygame.Rect((300, 250, 50, 50))
 #### `screen`:
 
 - - This is where you are drawing. It’s the surface or canvas that will display everything.
+
+#### `(255, 0, 0)`:
+
+- - This is the color of the rectangle. In this case, it specifies a bright red color using the RGB color model.
+
+#### `player`:
+
+
+- - This defines the position and size of the rectangle. It tells Pygame where to draw the box and how big it should be, based on the coordinates and dimensions you provided.
