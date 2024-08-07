@@ -73,3 +73,10 @@ urllib3            2.0.7
 # 🟡 PyGame
 
 **Pygame** is a popular library **used for** creating **games** and multimedia applications **in Python**.
+
+- - It provides a set of Python modules designed to handle common game development tasks, such as handling graphics, sound, and user input.
+
+<br>
+
+- - >Pygame is a great tool for learning game development and building simple games, prototypes, or multimedia projects.
+
