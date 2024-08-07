@@ -993,3 +993,27 @@ return
 
 ```
 
+
+### 🟧 Example
+
+Let’s say your board looks like this:
+
+```python
+X | * | O
+---------
+* | X | *
+---------
+🔸| * | O
+
+```
+
+<br>
+
+### 👾 Explanation with enumerate
+
+<br>
+
+- - **Index 0:** The spot is **X** (not empty).
+
+- - So, index 0 is not added to the moves list.
+
