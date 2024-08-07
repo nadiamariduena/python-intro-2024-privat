@@ -511,3 +511,10 @@ pygame.quit()
 <br>
 <br>
 <br>
+
+## 🟦 The trail
+
+- The reason for the trail is that the screen is not being refreshed, its keeping a history of everything that has been drawn
+
+<br>
+
