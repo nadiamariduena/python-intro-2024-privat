@@ -32,6 +32,11 @@ while run:
     pygame.draw.rect(screen, (255, 0, 0), player)
 
 
+
+    #14 First thing i need to know, is which key on the keyboard is being pressed
+    key = pygame.key.get_pressed()
+
+
     #------------- EVENT handler
     for event in pygame.event.get():
         # 7 This for loop goes through all the events that Pygame has collected.
