@@ -47,6 +47,13 @@ while run:
     elif key[pygame.K_d] == True:
         # move it to RIGHT
         player.move_ip(1, 0)
+        # 🤚 Y coordinates
+    elif key[pygame.K_w] == True:
+        # move it to RIGHT
+        player.move_ip(0, -1)
+    elif key[pygame.K_s] == True:
+        # move it to RIGHT
+        player.move_ip(0, 1)
 
     #------------- EVENT handler
     for event in pygame.event.get():
