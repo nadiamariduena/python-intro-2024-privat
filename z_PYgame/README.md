@@ -184,3 +184,16 @@ pygame.quit()
 <br>
 
 > - - 🔴 This has to be done **outside of the game loop**
+
+> - - You have to position this rectangle before the while loop starts
+
+<BR>
+<br>
+
+
+
+### 🟠 Coordinates
+
+`player = pygame.Rect((300, 250, 50, 50))`
+
+### The rectangle has 4 coordinates
