@@ -736,3 +736,7 @@ pygame.quit()
 ### 🟣 QUESTION: Could you provide me with the code to check the FPS of this project in Python?
 
 <br>
+
+#### ✅ chatgpt: You can modify your Pygame code to include FPS tracking and display the FPS on the screen.
+
+- Here’s an updated version of your code with FPS tracking:
