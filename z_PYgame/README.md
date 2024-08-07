@@ -810,3 +810,20 @@ sys.exit()
 #### Here's how to interpret FPS values:
 
 ### 🟠 FPS Interpretation:
+
+**High FPS (e.g., 60 FPS or more):**
+
+ - -  This indicates smooth performance. The game or application is updating quickly, and you should experience fluid motion and responsiveness. This is typically considered ideal for most interactive applications.
+
+**Low FPS (e.g., 30 FPS or less):**
+
+- -  This suggests slower performance. The game or application is updating less frequently, which may result in choppy or stuttery visuals and reduced responsiveness. Lower FPS can affect the user experience negatively.
+
+<br>
+<br>
+
+### 🟦 What is "Okay" FPS?
+
+<br>
+
+🌈**60 FPS:** Often considered the target for smooth gameplay or applications, providing a very fluid experience.
