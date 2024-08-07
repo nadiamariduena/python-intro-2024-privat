@@ -19,3 +19,10 @@
 
 <br>
 <br>
+
+# 🟡 INTRO
+
+### Drawing on screen
+
+- Simple exercise to get started with **Pygame**, based on this tutorial:  [Get Started in Pygame in 10 minutes!](https://www.youtube.com/watch?v=y9VG3Pztok8)
+
