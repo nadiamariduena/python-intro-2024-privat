@@ -552,3 +552,7 @@ In Python, especially if you're working with graphical libraries like Pygame or 
 Ensure that the drawing area or canvas is cleared or reset appropriately between frames or updates.
 
 #### Manage State:
+
+Keep track of the state of your trails and clear or update them as needed.
+
+#### Use Event Loops:
