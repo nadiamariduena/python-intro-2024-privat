@@ -362,3 +362,13 @@ key = pygame.key.get_pressed()
  if key[pygame.K_a] == True:
 ```
 
+<br>
+
+### Move the tool with the KEY
+
+```python
+if key[pygame.K_a] == True:
+#16
+        # ...move the rectangle to the left, the rectangle is assigned to the variable player
+        player.move_ip()
+```
