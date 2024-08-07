@@ -61,3 +61,14 @@ screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT ))
 - - **WHILE loop:** As long as a condition is true the while loop continue running
 
 - - To do that, lets create a variable with some boolean: `run = True`
+
+<br>
+
+```python
+# 5 create a variable that is going to be used for the condition on the WHILE LOOP
+run = True
+# 6 WHILE 'run' is  (equal to true) ':' execute all the code below
+while run == True:
+```
+
+<br>
