@@ -171,3 +171,11 @@ pygame.quit()
 <br>
 
 ## 🍍 THE TOOL/PEN
+
+- Here I will be implementing the Position of the tool and the style of the tool
+
+<br>
+
+### 🟠 POSITION of the TOOL:
+
+- -  Create a <u>tool/rectangle</u>  that can be moved across the screen with the keyboard
