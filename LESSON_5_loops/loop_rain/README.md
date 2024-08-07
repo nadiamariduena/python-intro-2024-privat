@@ -20,3 +20,7 @@
 #### 2. Within your /Project folder, create:
 
 - - `rain.py`
+
+#### 3. Within your /Project folder, Create the Environment:
+
+🌈 **In your terminal:** Check if you are in your **/Project** (this is important) because I am going to install some modules (I only want them installed in that specific project)
