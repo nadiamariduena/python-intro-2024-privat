@@ -24,12 +24,11 @@ class TicTacToe:
             print('| ' + '| '.join(row) + ' |')
         #  | '.join(row) joins the elements of the row with ' | ' as the separator, so each row’s elements are separated by vertical bars.
 
+
+
+
+#The available_moves function is designed to find out which spaces on the tic-tac-toe board are empty and can be used for a move.
     def available_moves(self):
-
+        # - 1 Creating a List for Moves:
         moves = []
-        for (i, spot) in enumerate(self.board):
-
-            if spot == ' ':
-                moves.append(i)
-
-        return
+        # Here, you create an empty list called moves. This list will store the positions on the board where a move can be made.
