@@ -542,3 +542,7 @@ screen.fill((0,0,0))
 - - **Adding a dark fill might not be the best solution** if it affects the visibility or clarity of the trail data.
 
 - - Overlapping or obscuring important data with a fill could create more problems than it solves.
+
+In programming, especially when dealing with graphical elements or animations, it's important to ensure that each component is properly managed and cleaned up to avoid visual artifacts or performance issues.
+
+In Python, especially if you're working with graphical libraries like Pygame or Tkinter, you might handle cleanup differently than in React. You would typically need to:
