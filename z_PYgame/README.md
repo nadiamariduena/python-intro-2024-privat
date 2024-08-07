@@ -731,3 +731,8 @@ pygame.quit()
 
 # 🟡 FPS
 
+<br>
+
+### 🟣 QUESTION: Could you provide me with the code to check the FPS of this project in Python?
+
+<br>
