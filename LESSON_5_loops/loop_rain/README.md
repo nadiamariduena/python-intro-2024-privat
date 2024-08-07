@@ -38,3 +38,29 @@
 #### 4. Verify activation:
 
 >Once ACTIVATED (you should see the `(.venv)mycomputer@usercomp:~/YOURPROJECT/`) , if you dont see the venv its not activated.
+
+<br>
+
+#### 5. Install Modules:
+
+- - INSTALL this: `pip install requests` and this `pip install pygame`
+
+<br>
+
+#### 6. VERIFY the installation
+
+- - VERIFY the installation: Type this in your project terminal `pip list`
+
+```bash
+
+Package            Version
+------------------ --------
+certifi            2024.7.4
+charset-normalizer 3.3.2
+idna               3.7
+pip                22.0.4
+pygame             1.6.0 ✋
+requests           1.31.0 ✋
+setuptools         47.1.0
+urllib3            2.0.7
+```
