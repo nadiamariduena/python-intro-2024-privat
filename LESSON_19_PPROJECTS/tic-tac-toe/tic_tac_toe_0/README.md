@@ -880,14 +880,38 @@ class TicTacToe:
 
 <br>
 
+<br>
+<br>
+
 ## 🟧 `Available Moves`
 
 ### This function helps us find out which boxes are still free to make a move in the game.
 
-- - After you've played with some of the boxes, this function will check which ones are left for you to use.
 
 ```python
 def available_moves(self):
+```
+
+
+<br>
+<br>
+
+### 🟦 After you've played with some of the boxes, this function will check which ones are left for you to use.
+
+
+```python
+
+    def available_moves(self):
+
+        moves = []
+
+        for (i, spot) in enumerate(self.board):
+
+            if spot == ' ':
+                moves.append(i)
+
+        return
+
 ```
 
 
