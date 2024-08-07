@@ -229,3 +229,19 @@ cherry
 
 
 - Using `enumerate()`, **you can get both** the **index** (which acts like an ID) **and** the **item itself**:
+
+```python
+items = ['apple', 'banana', 'cherry']
+for index, item in enumerate(items):
+    print(f"ID {index}: {item}")
+
+```
+
+#### output
+
+```bash
+ID 0: apple
+ID 1: banana
+ID 2: cherry
+
+```
