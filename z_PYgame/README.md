@@ -827,3 +827,5 @@ sys.exit()
 <br>
 
 🌈**60 FPS:** Often considered the target for smooth gameplay or applications, providing a very fluid experience.
+
+🟤**30 FPS:** Generally acceptable for many games and applications, though it may feel less smooth compared to 60 FPS.
