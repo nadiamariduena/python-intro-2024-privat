@@ -523,3 +523,13 @@ pygame.quit()
 ```python
 screen.fill((0,0,0))
 ```
+
+<br>
+<br>
+
+#### 🟣 QUESTION: The teacher's solution to the trail issue in the code involved adding a dark fill. However, I’m not sure this is the best approach, as it seems to overlap with the data of the trail.
+
+ In React, we can use `useEffect()` to manage and **clean up processes** specially for 3d apps running in the background.
+
+#### What would be the equivalent solution in Python for clearing the trail?
+
