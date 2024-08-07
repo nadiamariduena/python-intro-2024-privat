@@ -740,3 +740,69 @@ pygame.quit()
 #### ✅ chatgpt: You can modify your Pygame code to include FPS tracking and display the FPS on the screen.
 
 - Here’s an updated version of your code with FPS tracking:
+
+```python
+import pygame
+import sys ✋
+
+pygame.init()
+
+# Set up display
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+
+# Set up player
+player = pygame.Rect((300, 250, 50, 50))
+
+# Set up FPS clock
+clock = pygame.time.Clock()
+FPS = 60  # Set the desired FPS 🤚
+
+run = True
+
+while run:
+    # Handle events
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            run = False
+
+    # Get pressed keys
+    key = pygame.key.get_pressed()
+
+    # Move the player based on key presses
+    if key[pygame.K_a]:
+        player.move_ip(-1, 0)
+    elif key[pygame.K_d]:
+        player.move_ip(1, 0)
+    elif key[pygame.K_w]:
+        player.move_ip(0, -1)
+    elif key[pygame.K_s]:
+        player.move_ip(0, 1)
+
+    # Fill the background
+    screen.fill((0, 0, 0))
+
+    # Draw the player
+    pygame.draw.rect(screen, (255, 0, 0), player)
+
+    # Display FPS🤚
+    font = pygame.font.Font(None, 36)
+    fps_text = font.render(f'FPS: {int(clock.get_fps())}', True, (255, 255, 255))
+    screen.blit(fps_text, (10, 10))
+
+    # Update the display
+    pygame.display.update()
+
+    # Control the frame rate 🤚
+    clock.tick(FPS)
+
+pygame.quit()
+sys.exit()
+
+```
+
+<br>
+<br>
+
+### 🟦 Understanding FPS (frames per second) helps you gauge how smoothly your game or application is running.
