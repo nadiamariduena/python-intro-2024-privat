@@ -345,3 +345,8 @@ pygame.quit()
 
 ## 🍍 Add some controls
 
+### First thing i need to know, is which key on the keyboard is being pressed
+
+```bash
+key = pygame.key.get_pressed()
+```
