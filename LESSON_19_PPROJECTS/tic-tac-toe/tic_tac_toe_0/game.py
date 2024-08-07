@@ -32,3 +32,9 @@ class TicTacToe:
         # - 1 Creating a List for Moves:
         moves = []
         # Here, you create an empty list called moves. This list will store the positions on the board where a move can be made.
+
+
+        # - 2 Looping Through the Board:
+        # enumerate(): will help you to loop through items that dont have an assigned id, like "id": 0, "id": 1, its for values such as [ apple, fruits, etc,]
+        for (i, spot) in enumerate(self.board):
+
