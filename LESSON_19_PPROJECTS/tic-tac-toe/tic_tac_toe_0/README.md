@@ -849,7 +849,45 @@ For i = 2: (2+1)*3 = 9 which gives us the end index 9.
 
 
 <br>
+<br>
+
+### Before continuing with the `available moves`, this is what i have until now:
 
 <br>
+
+```python
+class TicTacToe:
+    def __init__(self):
+
+        self.board = [' ' for _ in range(9)] #
+        self.current_winner = None #
+
+    def print_board(self):
+
+         for row in [self.board[i*3:(i+1)*3] for i in range(3)]:
+             print('| ' +  ' | '.join(row) +  ' |')
+
+    @staticmethod
+    def print_board_nums():
+        number_board = [[str(i) for i in range(j*3, (j+1)*3)] for j in range(3)]
+
+        for row in number_board:
+            print('| ' + '| '.join(row) + ' |')
+
+```
+
+<br>
+
+<br>
+
+## 🟧 `Available Moves`
+
+### This function helps us find out which boxes are still free to make a move in the game.
+
+- - After you've played with some of the boxes, this function will check which ones are left for you to use.
+
+```python
+def available_moves(self):
+```
 
 

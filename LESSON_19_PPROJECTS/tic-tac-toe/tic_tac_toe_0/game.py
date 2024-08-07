@@ -23,3 +23,8 @@ class TicTacToe:
         for row in number_board:
             print('| ' + '| '.join(row) + ' |')
         #  | '.join(row) joins the elements of the row with ' | ' as the separator, so each row’s elements are separated by vertical bars.
+
+    def available_moves(self):
+
+        moves = []
+        for (i, spot) in enumerate(self.board):
