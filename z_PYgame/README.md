@@ -207,3 +207,29 @@ pygame.quit()
 - - **50:** This is the width of the box, meaning how wide it is from left to right. If you measure the box, it will be 50 steps wide.
 
 - - **50:** This is the height of the box, meaning how tall it is from top to bottom. If you measure the box, it will be 50 steps tall.
+
+
+```python
+
+# 1
+import pygame
+# 2
+pygame.init()
+# 3
+# Window dimensions
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+# 4 create the game window
+screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT ))
+
+# 11 create the tool to draw (outside of the loop),
+# the functioning tool logic, will be added within the WHILE loop after this.
+# 🟥
+player = pygame.Rect((300, 250, 50, 50))
+#300, 250:  a bit towards the center of the screen
+```
+
+<br>
+<br>
+
+### 🟠 Style of the TOOL:
