@@ -57,3 +57,7 @@ screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT ))
 <br>
 
 - For this game I will be using the While loop (i think you can also use the SWITCH loop)
+
+- - **WHILE loop:** As long as a condition is true the while loop continue running
+
+- - To do that, lets create a variable with some boolean: `run = True`
