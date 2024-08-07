@@ -197,3 +197,7 @@ pygame.quit()
 `player = pygame.Rect((300, 250, 50, 50))`
 
 ### The rectangle has 4 coordinates
+
+**The first 2 coordinates**: are the `X and Y` coordinates on the screen which all passes 300 and 250
+
+- - **300**: This tells us how far the box is from the left side of the screen. If your screen is very wide, 300 steps from the left might be somewhere in the middle, but not exactly in the center.
