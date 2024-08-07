@@ -1017,3 +1017,23 @@ X | * | O
 
 - - So, index 0 is not added to the moves list.
 
+
+<br>
+
+**Index 1:** The spot is * (empty). So, index 1 is added to the moves list.
+
+**Index 2:** The spot is O (not empty). So, index 2 is not added to the moves list.
+
+**Index 3:** The spot is * (empty). So, index 3 is added to the moves list.
+
+**Index 4:** The spot is X (not empty). So, index 4 is not added to the moves list.
+
+**Index 5:** The spot is * (empty). So, index 5 is added to the moves list.
+
+**Index 6:** The spot is * (empty). So, index 6 is added to the moves list.
+
+**Index 7:** The spot is * (empty). So, index 7 is added to the moves list.
+
+**Index 8:** The spot is O (not empty). So, index 8 is not added to the moves list.
+
+<br>
