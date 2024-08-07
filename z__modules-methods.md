@@ -222,3 +222,10 @@ banana
 cherry
 
 ```
+
+<br>
+
+### 🟠 With enumerate()
+
+
+- Using `enumerate()`, **you can get both** the **index** (which acts like an ID) **and** the **item itself**:
