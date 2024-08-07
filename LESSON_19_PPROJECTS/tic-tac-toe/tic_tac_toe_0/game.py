@@ -38,3 +38,7 @@ class TicTacToe:
         # enumerate(): will help you to loop through items that dont have an assigned id, like "id": 0, "id": 1, its for values such as [ apple, fruits, etc,]
         for (i, spot) in enumerate(self.board):
 
+
+            # - 3 Checking if the Spot is Empty
+            if spot == ' ':
+
