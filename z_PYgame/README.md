@@ -179,3 +179,8 @@ pygame.quit()
 ### 🟠 POSITION of the TOOL:
 
 - -  Create a <u>tool/rectangle</u>  that can be moved across the screen with the keyboard
+
+
+<br>
+
+> - - 🔴 This has to be done **outside of the game loop**
