@@ -944,3 +944,12 @@ moves = []
 
 <br>
 
+
+#### 3. 🔶 Checking if the Spot is Empty
+
+```python
+if spot == ' ':
+```
+
+<br>
+<br>
