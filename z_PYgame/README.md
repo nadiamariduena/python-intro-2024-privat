@@ -725,3 +725,9 @@ while run:
 # 10 at this point we can run the game (which is only a black window for now)
 pygame.quit()
 ```
+
+<br>
+<br>
+
+# 🟡 FPS
+
