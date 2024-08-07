@@ -961,3 +961,14 @@ if spot == ' ':
 ```
 
 - - **If** the **spot is empty**, this line adds the position i to the moves list. This way, you keep track of where players can make a move.
+
+<br>
+<br>
+
+#### 5. 🔶 return the func
+
+```python
+return
+```
+
+- -  Finally, the function returns the moves list, which now contains all the positions on the board where a player can put their mark.
