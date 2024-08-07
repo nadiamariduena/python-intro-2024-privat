@@ -201,3 +201,9 @@ pygame.quit()
 **The first 2 coordinates**: are the `X and Y` coordinates on the screen which all passes 300 and 250
 
 - - **300**: This tells us how far the box is from the left side of the screen. If your screen is very wide, 300 steps from the left might be somewhere in the middle, but not exactly in the center.
+
+- - **250**: This tells us how far the box is from the top of the screen. If your screen is tall, 250 steps down from the top might place the box roughly in the middle of the screen’s height.
+
+- - **50:** This is the width of the box, meaning how wide it is from left to right. If you measure the box, it will be 50 steps wide.
+
+- - **50:** This is the height of the box, meaning how tall it is from top to bottom. If you measure the box, it will be 50 steps tall.
