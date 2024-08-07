@@ -42,3 +42,10 @@ class TicTacToe:
             # - 3 Checking if the Spot is Empty
             if spot == ' ':
 
+
+                # - 4 Adding Empty Spots to the List:
+                # If the spot is empty, this line adds the position i to the moves list. This way, you keep track of where players can make a move.
+                moves.append(i)
+
+        return
+    #Finally, the function returns the moves list, which now contains all the positions on the board where a player can put their mark.
