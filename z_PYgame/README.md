@@ -379,3 +379,28 @@ if key[pygame.K_a] == True:
 
 ## 🟠 Duplicate the KEY logic
 
+
+```python
+if key[pygame.K_a] == True:
+    # X , Y
+        player.move_ip(-1, 0)
+```
+
+#### Instead of using **if** all the time, we'll use `elif` for the next key.
+
+- - This way, if the first key isn’t being pressed, it will check the next key, and so on (depending on how many keys you have).
+
+>**elif** means "else if" and it helps to check more keys in order if the first one isn’t pressed.
+
+
+
+
+```python
+  # 🤚 X coordinates
+    if key[pygame.K_a] == True:
+        # LEFT : -1 , the 0 is Y, here we dont do anything with the Y:0
+        player.move_ip(-1, 0)
+
+    elif key[pygame.K_d] == True:
+        # RIGHT:
+        player.move_ip(1, 0)

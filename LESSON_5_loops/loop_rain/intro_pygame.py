@@ -36,12 +36,17 @@ while run:
     #14 First thing i need to know, is which key on the keyboard is being pressed
     key = pygame.key.get_pressed()
 
+    # W.A.S.P
     # 15 if the KEY being pressed is A so its true, then i want to ...
+     # 🤚 X coordinates
     if key[pygame.K_a] == True:
         #16
         # ...move the rectangle to the left, the rectangle is assigned to the variable player
-        player.move_ip() # ip: stands for MOVE IN-PLACE
-        #  between the parentheses/brackets I pass in the movement in the X direction and the Y direction, if i am moving LEFT then I am subtracting from the X coordinate and I am not affecting the Y coordinate
+        player.move_ip(-1, 0) # ip: stands for MOVE IN-PLACE
+        #  between the parentheses/brackets I pass in the movement in the X  direction and the Y direction, if i am moving LEFT (X) then I am subtracting from the X coordinate and I am not affecting the Y coordinate
+    elif key[pygame.K_d] == True:
+        # move it to RIGHT
+        player.move_ip(1, 0)
 
     #------------- EVENT handler
     for event in pygame.event.get():
