@@ -953,3 +953,11 @@ if spot == ' ':
 
 <br>
 <br>
+
+#### 4. 🔶 Adding Empty Spots to the List:
+
+```python
+ moves.append(i)
+```
+
+- - **If** the **spot is empty**, this line adds the position i to the moves list. This way, you keep track of where players can make a move.
