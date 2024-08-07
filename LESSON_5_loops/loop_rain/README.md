@@ -64,3 +64,12 @@ requests           1.31.0 ✋
 setuptools         47.1.0
 urllib3            2.0.7
 ```
+
+
+<br>
+<br>
+<br>
+
+# 🟡 PyGame
+
+**Pygame** is a popular library **used for** creating **games** and multimedia applications **in Python**.
