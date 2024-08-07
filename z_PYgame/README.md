@@ -72,3 +72,11 @@ while run == True:
 ```
 
 <br>
+
+#### You can also use this way:
+
+```python
+while run
+# its the same as this:
+while run == True:
+```
