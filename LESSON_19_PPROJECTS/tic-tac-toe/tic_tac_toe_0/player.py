@@ -14,10 +14,12 @@ class Player:
 # inherited class
 #  This is a special type of player who is a computer that makes random moves.
 class RandomComputerPlayer(Player):
+
     def __init__(self, letter):
         super().__init__(letter)
 
     def get_move(self, game):
+        # Getting a Move: Chooses a random empty position from the board for the computer’s move.
 
 
         #
