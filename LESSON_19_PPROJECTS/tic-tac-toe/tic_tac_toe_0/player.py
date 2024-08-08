@@ -42,3 +42,7 @@ class HumanPlayer(Player):
        valid_square = False
        #Start with No Move: It starts with valid_square = False which means it hasn’t found a good move yet.
 
+
+       val = None
+       #val = None just means there’s no move chosen yet.
+
