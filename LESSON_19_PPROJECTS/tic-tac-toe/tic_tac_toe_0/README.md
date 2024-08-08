@@ -1182,3 +1182,7 @@ class HumanPlayer(Player):
 
 - - **If the integer** is **not** in the **list** or the conversion fails, it raises a **ValueError**, which prompts the except block to ask the user to enter a valid move. If the input is valid, it sets valid_square to True and completes the input process.
 
+<br>
+
+### 🎠 🌈  Imagine you’re playing Tic-Tac-Toe and you pick a spot.
+
