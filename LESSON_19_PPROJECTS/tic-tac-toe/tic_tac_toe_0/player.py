@@ -23,6 +23,8 @@ class RandomComputerPlayer(Player):
         #
         #picks a random position from that list of available moves.
         square = random.choice(game.available_moves())
+        return square
+        # The method returns this random position (square), which tells the game where the computer player wants to place its mark.
 
 
 
