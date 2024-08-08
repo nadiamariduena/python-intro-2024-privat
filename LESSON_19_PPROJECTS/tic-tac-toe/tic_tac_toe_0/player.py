@@ -71,6 +71,7 @@ class HumanPlayer(Player):
            except ValueError:
                # the exception will CATCH it and launch an error procedure 'ValueError', then will print the messa below
                print(' Invalid square. Try again')
+               # if there was an error, this line tells the player that their move is not allowed and asks them to try again.
 
 
 
