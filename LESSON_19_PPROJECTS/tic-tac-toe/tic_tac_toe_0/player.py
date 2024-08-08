@@ -57,7 +57,11 @@ class HumanPlayer(Player):
                # This line tries to turn the player's input (which is a string, like "5") into a number (an integer). For example, if the player typed "5", this line changes it into the number 5
                val = int(square)
 
+
+               # Here, the game checks if the number the player chose (like 5) is one of the valid empty spots where the player can place their mark. The list game.available_moves() contains all the numbers for empty spots.
                if val not in game.available_moves():
+
+
                    raise ValueError
                valid_square = True
 
