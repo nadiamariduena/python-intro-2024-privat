@@ -69,6 +69,7 @@ class HumanPlayer(Player):
 
            # if something went wrong. If there was an error (like the input wasn’t a number or wasn’t a valid spot), the game will launch the exception
            except ValueError:
+               # the exception will CATCH it and launch an error procedure 'ValueError', then will print the messa below
                print(' Invalid square. Try again')
 
 
