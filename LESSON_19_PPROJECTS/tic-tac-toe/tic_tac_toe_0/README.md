@@ -1088,3 +1088,8 @@ return [i for i, spot in enumerate(self.board) if spot == ' ']
 #
 i for i,
 ```
+
+<br>
+<br>
+<br>
+
