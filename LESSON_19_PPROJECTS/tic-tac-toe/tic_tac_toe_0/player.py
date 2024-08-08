@@ -74,6 +74,6 @@ class HumanPlayer(Player):
                # if there was an error, this line tells the player that their move is not allowed and asks them to try again.
 
 
-          # Once a valid move is found, this line returns (gives back) the number of the chosen spot. This number will be used to put the player’s mark on the grid.
-           return val
+    # Once a valid move is found, this line returns (gives back) the number of the chosen spot. This number will be used to put the player’s mark on the grid.
+       return val
 

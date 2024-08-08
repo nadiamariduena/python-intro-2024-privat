@@ -1184,6 +1184,24 @@ class HumanPlayer(Player):
 
 <br>
 
+```python
+    try:
+            val = int(square)
+            if val not in game.available_moves():
+                    raise ValueError
+            valid_square = True
+
+
+    except ValueError:
+                print(' Invalid square. Try again')
+
+return val
+```
+
+
+<br>
+<br>
+
 ### 🎠 🌈  Imagine you’re playing Tic-Tac-Toe and you pick a spot.
 
 >The game then **checks if it’s a good choice**—like **making sure** you **picked a valid box**.
@@ -1191,3 +1209,6 @@ class HumanPlayer(Player):
 > - - **If your pick is wrong**, the game tells you to try again, like a friend helping you get the right answer.
 
 > - - When you finally choose a good spot, the game lets you place your mark and everyone’s happy!
+
+<br>
+
