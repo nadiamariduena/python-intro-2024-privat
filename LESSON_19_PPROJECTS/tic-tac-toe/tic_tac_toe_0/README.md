@@ -1177,3 +1177,8 @@ class HumanPlayer(Player):
 ### In the try block...
 
 - - the **function converts the user input** to an **integer** and **checks if** this **integer** is a **valid move** by ensuring it's in the list of available moves.
+
+<br>
+
+- - **If the integer** is **not** in the **list** or the conversion fails, it raises a **ValueError**, which prompts the except block to ask the user to enter a valid move. If the input is valid, it sets valid_square to True and completes the input process.
+
