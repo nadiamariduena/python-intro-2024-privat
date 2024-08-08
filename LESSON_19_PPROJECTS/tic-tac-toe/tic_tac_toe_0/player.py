@@ -61,7 +61,7 @@ class HumanPlayer(Player):
                # Here, the game checks if the number the player chose (like 5) is one of the valid empty spots where the player can place their mark. The list game.available_moves() contains all the numbers for empty spots.
                if val not in game.available_moves():
 
-
+                   # If the number the player chose is not a valid empty spot, this line makes a special kind of error called ValueError. This tells the game that something went wrong and it needs to handle it.
                    raise ValueError
                valid_square = True
 
