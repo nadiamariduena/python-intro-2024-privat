@@ -1212,3 +1212,31 @@ return val
 
 <br>
 
+
+
+```python
+ try:
+
+               # This line tries to turn the player's input (which is a string, like "5") into a number (an integer). For example, if the player typed "5", this line changes it into the number 5
+               val = int(square)
+
+
+               # Here, the game checks if the number the player chose (like 5) is one of the valid empty spots where the player can place their mark. The list game.available_moves() contains all the numbers for empty spots.
+               if val not in game.available_moves():
+
+                   # If the number the player chose is not a valid empty spot, this line makes a special kind of error called ValueError. This tells the game that something went wrong and it needs to handle it.
+                   raise ValueError
+
+            # If everything is okay (the input was a number and it’s a valid empty spot), this line says that the player's move is valid. This stops the game from asking for another move.
+               valid_square = True
+
+           # if something went wrong. If there was an error (like the input wasn’t a number or wasn’t a valid spot), the game will launch the exception
+           except ValueError:
+               # the exception will CATCH it and launch an error procedure 'ValueError', then will print the messa below
+               print(' Invalid square. Try again')
+               # if there was an error, this line tells the player that their move is not allowed and asks them to try again.
+
+
+          # Once a valid move is found, this line returns (gives back) the number of the chosen spot. This number will be used to put the player’s mark on the grid.
+           return val
+```
