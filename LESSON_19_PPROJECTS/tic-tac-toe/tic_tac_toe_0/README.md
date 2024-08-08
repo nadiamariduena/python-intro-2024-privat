@@ -1186,3 +1186,5 @@ class HumanPlayer(Player):
 
 ### 🎠 🌈  Imagine you’re playing Tic-Tac-Toe and you pick a spot.
 
+>The game then **checks if it’s a good choice**—like **making sure** you **picked a valid box**.
+
