@@ -52,4 +52,10 @@ class HumanPlayer(Player):
            square = input(self.letter + '\'s turn. Input move (0-9):')
 
 
+           try:
+               val = int(square)
+
+
+
+           return val
 
