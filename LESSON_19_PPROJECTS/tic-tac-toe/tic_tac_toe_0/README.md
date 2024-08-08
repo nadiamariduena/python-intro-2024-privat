@@ -1133,3 +1133,32 @@ i for i,
 <br>
 <br>
 
+
+
+## 🍊  The Human Player
+
+- -  the Human Player, it’s a bit like the game is saying, “I’m not letting you move until you pick a spot that’s actually free!”
+
+
+```python
+
+#🤚 HUMAN move
+class HumanPlayer(Player):
+    def __init__(self, letter):
+        super().__init__(letter)
+
+    #Human Player is asked to choose a spot to put their mark, and the game will keep
+    def get_move(self, game):
+
+       valid_square = False
+       #Start with No Move: It starts with valid_square = False which means it hasn’t found a good move yet.
+
+
+       val = None
+       #val = None just means there’s no move chosen yet.
+
+       while not valid_square:
+
+           #Ask for Input: The game will ask the player to type in their move. For example, it might ask, "Where do you want to place your mark? (Pick a number from 0 to 9)."
+           square = input(self.letter + '\'s turn. Input move (0-9):')
+```
