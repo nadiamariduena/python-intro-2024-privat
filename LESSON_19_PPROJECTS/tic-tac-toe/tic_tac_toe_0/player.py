@@ -38,3 +38,7 @@ class HumanPlayer(Player):
 
     #Human Player is asked to choose a spot to put their mark, and the game will keep
     def get_move(self, game):
+
+       valid_square = False
+       #Start with No Move: It starts with valid_square = False which means it hasn’t found a good move yet.
+
