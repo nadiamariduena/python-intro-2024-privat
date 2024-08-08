@@ -1188,3 +1188,4 @@ class HumanPlayer(Player):
 
 >The game then **checks if it’s a good choice**—like **making sure** you **picked a valid box**.
 
+> - - **If your pick is wrong**, the game tells you to try again, like a friend helping you get the right answer.
