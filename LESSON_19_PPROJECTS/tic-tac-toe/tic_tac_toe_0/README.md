@@ -1075,3 +1075,16 @@ return [i for i, spot in enumerate(self.board) if spot == ' ']
 
 - - #### 🍊 This line finds all the empty spaces on the board where a player can put their mark. It looks at each spot on the board and checks if it's empty. If it is, it remembers the position so the player knows where they can move.
 
+
+<br>
+
+## 🫐 `i for i`
+
+🔴 "It's **like** saying, 'I want to create a new list 👭 by copying certain spots from the original list (the first i list).
+
+- - I will look at each spot in the original list, check if it is empty (what I mean by spot in this game), and if it is, I’ll add that spot to the new list (the second i list).'"
+
+```python
+#
+i for i,
+```
