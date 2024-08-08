@@ -1094,13 +1094,13 @@ i for i,
 <br>
 
 
-## 🟦 Back to the `Player.py`
+## 🟦 Back to the `Player.py` 🍍
 
-- -
 
-- modify this function
+ ### 🟠 Modify this function
 
 ```python
+  # ---- before ----
   def get_move(self, game):
         pass # hold pn for now
 
@@ -1113,7 +1113,9 @@ i for i,
 <br>
 <br>
 
-### 🍊 Computer Player that picks its move randomly.
+## 🍍 Computer Move
+
+### 🟧 Computer Player that picks its move randomly.
 
 ```python
     def get_move(self, game):
@@ -1135,7 +1137,9 @@ i for i,
 
 
 
-## 🍊  The Human Player
+## 🍍 Human Move
+
+### 🟧  The Human Player
 
 - -  the Human Player, it’s a bit like the game is saying, “I’m not letting you move until you pick a spot that’s actually free!”
 
@@ -1163,3 +1167,13 @@ class HumanPlayer(Player):
            # it might ask, "Where do you want to place your mark? (Pick a number from 0 to 9)."
            square = input(self.letter + '\'s turn. Input move (0-9):')
 ```
+
+
+<br>
+<br>
+
+## 🔴 `Try & exception`
+
+### In the try block...
+
+- - the **function converts the user input** to an **integer** and **checks if** this **integer** is a **valid move** by ensuring it's in the list of available moves.
