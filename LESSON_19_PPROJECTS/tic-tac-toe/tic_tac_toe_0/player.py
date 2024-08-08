@@ -53,6 +53,8 @@ class HumanPlayer(Player):
 
 
            try:
+
+               # This line tries to turn the player's input (which is a string, like "5") into a number (an integer). For example, if the player typed "5", this line changes it into the number 5
                val = int(square)
 
                if val not in game.available_moves():
