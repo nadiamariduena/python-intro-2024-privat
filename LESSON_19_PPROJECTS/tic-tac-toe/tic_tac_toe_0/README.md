@@ -1043,3 +1043,25 @@ X | * | O
 <br>
 
 The `available_moves` function will `return [1, 3, 5, 6, 7]`, indicating the positions on the board where a player can make a move.
+
+
+<br>
+<br>
+
+### A cleaner way of doing this:
+
+```python
+# ---- OPtion A
+def available_moves(self):
+        moves = []
+        for (i, spot) in enumerate(self.board):
+            if spot == ' ':
+                moves.append(i)
+        return
+
+# ---- OPtion B
+# cleaner
+#
+return [i for i, spot in enumerate(self.board) if spot == ' ']
+
+```
