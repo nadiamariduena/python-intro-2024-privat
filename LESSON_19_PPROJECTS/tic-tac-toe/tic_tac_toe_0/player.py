@@ -56,8 +56,8 @@ class HumanPlayer(Player):
                val = int(square)
 
                if val not in game.available_moves():
-
-
+                   raise ValueError
+               valid_square = True
 
 
            return val
