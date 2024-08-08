@@ -67,6 +67,7 @@ class HumanPlayer(Player):
             # If everything is okay (the input was a number and it’s a valid empty spot), this line says that the player's move is valid. This stops the game from asking for another move.
                valid_square = True
 
+           # if something went wrong. If there was an error (like the input wasn’t a number or wasn’t a valid spot), the game will launch the exception
            except ValueError:
                print(' Invalid square. Try again')
 
