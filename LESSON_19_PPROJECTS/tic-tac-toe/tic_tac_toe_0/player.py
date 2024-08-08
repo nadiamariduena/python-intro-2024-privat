@@ -63,6 +63,8 @@ class HumanPlayer(Player):
 
                    # If the number the player chose is not a valid empty spot, this line makes a special kind of error called ValueError. This tells the game that something went wrong and it needs to handle it.
                    raise ValueError
+
+            # If everything is okay (the input was a number and it’s a valid empty spot), this line says that the player's move is valid. This stops the game from asking for another move.
                valid_square = True
 
            except ValueError:
