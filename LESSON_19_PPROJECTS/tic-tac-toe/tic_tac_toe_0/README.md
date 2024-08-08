@@ -1093,3 +1093,43 @@ i for i,
 <br>
 <br>
 
+
+## 🟦 Back to the `Player.py`
+
+- -
+
+- modify this function
+
+```python
+  def get_move(self, game):
+        pass # hold pn for now
+
+  # ---- after ----
+
+  def get_move(self, game):
+        pass # hold pn for now
+```
+
+<br>
+<br>
+
+### 🍊 Computer Player that picks its move randomly.
+
+```python
+    def get_move(self, game):
+        # Getting a Move: Chooses a random empty position from
+        # the board for the computer’s move.
+         #
+        #picks a random position from that list of available moves.
+        square = random.choice(game.available_moves())
+        return square
+        # The method returns this random position (square), which tells the game
+        # where the computer player wants to place its mark.
+
+
+```
+
+
+<br>
+<br>
+
