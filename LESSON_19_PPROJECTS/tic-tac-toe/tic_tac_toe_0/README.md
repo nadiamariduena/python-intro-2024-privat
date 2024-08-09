@@ -1827,3 +1827,7 @@ How It Works:
 <br>
 
 #### 🟠 `self.current_winner = letter`
+
+**Purpose:** This line sets self.current_winner to the current player's letter if the move results in a win.
+
+**How It Works:** `self.current_winner` **keeps track** of **which player won the game**.
