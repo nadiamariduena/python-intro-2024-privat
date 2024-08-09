@@ -1655,6 +1655,15 @@ def play(game, x_player, o_player, print_game=[True]):
 - 🔴 **REMEMBER**: In `player.py`, **square** is a variable within the **get_move** method of the `RandomComputerPlayer()` class. It **represents** a **random**ly **chosen move** from the available moves on the game board.
 
 
+```python
+class RandomComputerPlayer(Player):
+    def __init__(self, letter):
+        super().__init__(letter)
+
+    def get_move(self, game):
+        square = random.choice(game.available_moves())
+        return square
+```
 
 ### 🟫 Role in game.py:
 
