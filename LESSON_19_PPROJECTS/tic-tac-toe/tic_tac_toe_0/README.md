@@ -1428,3 +1428,7 @@ def play(game, x_player, o_player, print_game=[True]):
 - - **x_player:** The player (or computer) who will make moves for **'X'**.
 
 - - **o_player:** The player (or computer) who will make moves for **'O'**.
+
+- - **print_game:** An optional boolean parameter (defaulting to True) that controls whether the game board should be printed.
+
+<br>
