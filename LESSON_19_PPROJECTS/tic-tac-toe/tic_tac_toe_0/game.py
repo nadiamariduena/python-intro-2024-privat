@@ -89,3 +89,8 @@ def play(game, x_player, o_player, print_game=[True]):
                 game.print_board()
                 print("")
 
+
+
+
+            # after we made our move, we need to alternate letters
+            letter = '0' if letter == 'X' else 'X' #switches player
