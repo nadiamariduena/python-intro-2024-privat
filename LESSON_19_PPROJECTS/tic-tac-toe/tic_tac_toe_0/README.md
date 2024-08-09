@@ -1661,6 +1661,7 @@ def play(game, x_player, o_player, print_game=[True]):
 - - - This **var**iable **indicates** the **index on the board where** a **move is to be made**.
 
 
+- - - The make_move method uses this square index to place a letter (either 'X' or 'O') in the specified position on the board and then checks if the move results in a win.
 
 <br>
 <br>
