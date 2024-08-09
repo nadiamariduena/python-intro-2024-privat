@@ -43,7 +43,10 @@ class TicTacToe:
         # Count how many empty spaces are left on the board
         return self.board.count(' ')  # Returns the number of empty spaces
 
+
+
     def make_move(self, square, letter):
+        # - square: This variable represents the [index] in the self.board list where the move is being made. It determines which position on the board is being accessed or updated.
         #  If the move is valid (the square is empty), place the letter there
 
         # Then return TRUE. if invalid, return FALSE

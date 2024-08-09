@@ -1353,6 +1353,7 @@ class RandomComputerPlayer(Player):
         super().__init__(letter)
 
     def get_move(self, game):
+        # ✋ This 'square' here below will be used serveral times within the game.py
         square = random.choice(game.available_moves())
         return square
 
@@ -1635,16 +1636,20 @@ def play(game, x_player, o_player, print_game=[True]):
 
 <br>
 
+
+
 ```python
     while game.empty_squares():
         #pass # wait  until we finish other stuff ( the functions: empty_squares, num_empty_squares)
 
         if letter == '0':
+            # 🔴 `square` variable here **below** is related to the square used in `player.py`
             square = o_player.get_move(game)
         else:
             square = x_player.get_move(game)
 
 ```
+
 
 <br>
 <br>
