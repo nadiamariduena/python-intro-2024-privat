@@ -1636,7 +1636,7 @@ def play(game, x_player, o_player, print_game=[True]):
 
 <br>
 
-
+### 👾 `square`
 
 ```python
     while game.empty_squares():
@@ -1649,7 +1649,14 @@ def play(game, x_player, o_player, print_game=[True]):
             square = x_player.get_move(game)
 
 ```
-- 🔴 **REMEMBER**: In `player.py`, **square** is a variable within the get_move method of the `RandomComputerPlayer()` class. It **represents** a **random**ly **chosen move** from the available moves on the game board.
+
+<br>
+
+- 🔴 **REMEMBER**: In `player.py`, **square** is a variable within the **get_move** method of the `RandomComputerPlayer()` class. It **represents** a **random**ly **chosen move** from the available moves on the game board.
+
+### 🟫 Role in game.py:
+
+
 
 <br>
 <br>

@@ -23,7 +23,7 @@ class RandomComputerPlayer(Player):
         # Getting a Move: Chooses a random empty position from the board for the computer’s move.
 
 
-        #
+        #👾 square
         #picks a random position from that list of available moves.
         square = random.choice(game.available_moves())
         return square
