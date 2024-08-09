@@ -1750,3 +1750,10 @@ def make_move(self, square, letter):
 <br>
 
 ## 🟠 Switching Players:
+
+**Purpose:** This line switches the turn to the other player.
+How It Works:
+
+```python
+            letter = '0' if letter == 'X' else 'X' #switches player
+```
