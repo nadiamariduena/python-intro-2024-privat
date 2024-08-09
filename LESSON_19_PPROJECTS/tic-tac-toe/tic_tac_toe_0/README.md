@@ -1455,3 +1455,19 @@ def play(game, x_player, o_player, print_game=[True]):
 
 <br>
 <br>
+
+### 🟦 The 👾 WHILE 👾  loop keeps running `while` there are still empty squares on the game board. This ensures that the game continues until there are no more moves left to be made.
+
+- `empty_squares()` , dont exist yet
+
+- for now I will use the **pass**, as there is another function that I will need to create
+
+- - > PASS: This is a placeholder 'while' waiting to implement other parts of the game logic, such as handling player moves or checking for game end conditions.
+
+```python
+     letter = 'X'
+
+    while game.empty_squares():
+        pass # wait  until we finish other stuff
+```
+
