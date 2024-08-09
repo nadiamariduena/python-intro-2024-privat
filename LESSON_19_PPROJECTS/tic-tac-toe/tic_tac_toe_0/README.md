@@ -1543,3 +1543,31 @@ def play(game, x_player, o_player, print_game=[True]):
 - - **Checking for Empty Spaces:** In the play function, game.empty_squares() is used in the while loop. This tells the game to keep running as long as there are empty spaces on the board.
 
 - - **Counting Empty Spaces:** You can use game.num_empty_squares() to find out exactly how many empty spots are left, which might be useful for deciding the next move or for game strategy.
+
+<br>
+
+```python
+ # .. more code
+
+    def empty_squares(self):
+        # Check if there is at least one empty space on the board
+        return ' ' in self.board  # Returns True if there's at least one empty space, False otherwise
+
+    def num_empty_squares(self):
+        # Count how many empty spaces are left on the board
+        return self.board.count(' ')  # Returns the number of empty spaces
+
+# ✋
+def play(game, x_player, o_player, print_game=[True]):
+    letter = 'X'  # 'X' starts the game
+    while game.empty_squares():  # Keep playing as long as there are empty squares
+        pass  # Placeholder for game logic
+```
+
+<br>
+
+> 🌈 So, the **`empty_squares`** function helps to check if the game can continue, and **`num_empty_squares`** helps count how many spots are left. These functions are important for keeping track of the game state during play.
+
+<br>
+<br>
+<br>
