@@ -1607,3 +1607,7 @@ def play(game, x_player, o_player, print_game=[True]):
 
 
 - - **`empty_squares`** **checks if** there are any empty spots left on the board.
+
+- - **`num_empty_squares`** **counts how many empty** spots are available.
+
+<br>
