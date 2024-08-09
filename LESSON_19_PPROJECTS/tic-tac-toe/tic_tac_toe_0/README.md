@@ -1523,3 +1523,11 @@ def play(game, x_player, o_player, print_game=[True]):
  def empty_squares(self):
        return ' ' in self.board
 ```
+<br>
+
+🟠  **Purpose:** This function counts how many empty spaces are left on the board.
+
+- - **How It Works:** It counts all the empty squares on the board where you can still place a mark.
+
+- - **What It Returns:** It tells you the number of empty spaces remaining.
+
