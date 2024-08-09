@@ -1762,3 +1762,9 @@ How It Works:
 `'O' if letter == 'X' else 'X'`
 
 - - **is a shorthand way to toggle between** `'X'` and `'O'`.
+
+<br>
+
+- - `If` the **current letter is** `'X'`, **it changes it to** `'O'`;
+
+- - `if` it’s `'O'`, **it changes it to** `'X'`.
