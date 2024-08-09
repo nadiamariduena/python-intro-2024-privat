@@ -1670,3 +1670,15 @@ def make_move(self, square, letter):
 **Comparison (==):** This compares the current state of self.board[square] to ' '.
 
 - - >If the spot is empty, it proceeds to make the move.
+
+#### `self.board[square] = letter`
+
+**Purpose:** Assigns the letter (either 'X' or 'O') to the specified square on the board.
+
+<br>
+
+##  Summary
+
+#### 🟠 `play()` Function:
+
+- - **Determines** which player's turn it is and gets the move from the respective player.
