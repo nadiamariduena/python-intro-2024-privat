@@ -1757,3 +1757,8 @@ How It Works:
 ```python
             letter = '0' if letter == 'X' else 'X' #switches player
 ```
+
+
+`'O' if letter == 'X' else 'X'`
+
+- - **is a shorthand way to toggle between** `'X'` and `'O'`.
