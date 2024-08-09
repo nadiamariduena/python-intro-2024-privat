@@ -1838,3 +1838,5 @@ How It Works:
 <br>
 
 ### 🔴 Remember
+
+> the line **`if self.winner(square, letter)`**: **is** closely **related to** the `self.current_winner` **attr**ibute **defined in** the `__init__` method of the TicTacToe class.
