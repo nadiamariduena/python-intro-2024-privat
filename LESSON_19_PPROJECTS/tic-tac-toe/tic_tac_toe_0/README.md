@@ -1768,3 +1768,20 @@ How It Works:
 - - `If` the **current letter is** `'X'`, **it changes it to** `'O'`;
 
 - - `if` it’s `'O'`, **it changes it to** `'X'`.
+
+>This ensures that after each move, the next player’s turn is correctly set.
+
+<br>
+
+```python
+        # FUNCTION to make the MOVE
+        if game.make_move(square, letter):
+            if print_game:
+                print(letter + f' makes a move to a square {square}')
+                game.print_board()
+                print("")
+
+
+            ✋
+            letter = '0' if letter == 'X' else 'X'
+```
