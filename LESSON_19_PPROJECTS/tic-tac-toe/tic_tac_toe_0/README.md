@@ -1579,3 +1579,31 @@ def play(game, x_player, o_player, print_game=[True]):
 - - >Example: If the board is ['X', ' ', 'O'] ( 👀 focus on the middle ' '), the function will return [1] because position 1 is empty.
 
 <br>
+
+```python
+# FINDS all the spots
+    def available_moves(self):
+        return [i for i, spot in enumerate(self.board) if spot == ' ']
+# CHECK if there are empty spots LEFT
+    def empty_squares(self):
+        return ' ' in self.board
+# COUNTS how many empty spots are available
+    def num_empty_squares(self):
+        return self.board.count(' ')
+
+
+# ✋
+def play(game, x_player, o_player, print_game=[True]):
+    if print_game:
+        game.print_board_nums()
+
+    letter = 'X'
+
+    while game.empty_squares():
+        pass
+```
+
+<br>
+
+
+- - **`empty_squares`** **checks if** there are any empty spots left on the board.
