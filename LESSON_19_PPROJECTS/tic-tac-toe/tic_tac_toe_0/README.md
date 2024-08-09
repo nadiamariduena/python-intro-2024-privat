@@ -1630,3 +1630,18 @@ def play(game, x_player, o_player, print_game=[True]):
 
 - - **Determine which player’s move to get based on whose turn it is**.
 
+
+- - It **assigns** the **move to the square** <u>variable</u>  by calling the appropriate player’s method `(o_player. get_move` or `x_player.get_move)` depending on whether it’s **'O'** s turn or **'X'** s turn. This ensures that the correct player's move is processed.
+
+<br>
+
+```python
+    while game.empty_squares():
+        #pass # wait  until we finish other stuff ( the functions: empty_squares, num_empty_squares)
+
+        if letter == '0':
+            square = o_player.get_move(game)
+        else:
+            square = x_player.get_move(game)
+
+```
