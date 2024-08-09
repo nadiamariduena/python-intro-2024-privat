@@ -1821,3 +1821,9 @@ How It Works:
 -  - This line **checks if the move** made **at square** with **letter** results in **a win** for the current player.
 
 **How It Works:**
+
+- - `self.winner(square, letter)` is a method that **determines if placing the letter at the square has** <u>created a winning condition on the board</u>  (like three in a row).
+
+<br>
+
+#### 🟠 `self.current_winner = letter`
