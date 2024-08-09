@@ -1666,3 +1666,7 @@ def make_move(self, square, letter):
 #### `if self.board[square] == ' '`:
 
 **Purpose:** Checks if the square is empty before making the move.
+
+**Comparison (==):** This compares the current state of self.board[square] to ' '.
+
+- - >If the spot is empty, it proceeds to make the move.
