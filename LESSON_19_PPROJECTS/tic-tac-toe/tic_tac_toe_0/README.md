@@ -1424,3 +1424,5 @@ def play(game, x_player, o_player, print_game=[True]):
 <br>
 
 - - **game:** An instance of the Tic-Tac-Toe game.
+
+- - **x_player:** The player (or computer) who will make moves for **'X'**.
