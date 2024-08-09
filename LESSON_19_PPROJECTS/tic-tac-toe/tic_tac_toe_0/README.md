@@ -1831,3 +1831,10 @@ How It Works:
 **Purpose:** This line sets self.current_winner to the current player's letter if the move results in a win.
 
 **How It Works:** `self.current_winner` **keeps track** of **which player won the game**.
+
+- - - **letter is assigned to** `self.current_winner` **to record the winner**.
+
+<br>
+<br>
+
+### 🔴 Remember
