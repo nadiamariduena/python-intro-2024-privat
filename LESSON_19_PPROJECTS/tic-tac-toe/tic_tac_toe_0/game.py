@@ -50,6 +50,14 @@ class TicTacToe:
         #
         if self.board[square] == ' ':
             self.board[square] = letter
+            # Check if this move wins the game
+            if self.winner(square, letter):
+                # This line sets self.current_winner to the current player's letter if the move results in a win
+                self.current_winner = letter
+
+                # if Statement: If this method returns True, it means that the current move has won the game.
+            return True
+        return False
 
 
 
