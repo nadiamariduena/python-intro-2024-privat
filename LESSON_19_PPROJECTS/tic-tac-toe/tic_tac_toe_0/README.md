@@ -1619,3 +1619,14 @@ def play(game, x_player, o_player, print_game=[True]):
 <br>
 <br>
 
+
+## 🟠 back to the `Play()` function
+
+
+
+- replace the **pass** for the below and add the condition.
+
+#### 🔶 Purpose of the CONDITION:
+
+- - **Determine which player’s move to get based on whose turn it is**.
+
