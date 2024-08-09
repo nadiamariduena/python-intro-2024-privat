@@ -27,12 +27,26 @@ class TicTacToe:
 
 
 
-#The available_moves function is designed to find out which spaces on the tic-tac-toe board are empty and can be used for a move.
+    # The available_moves
+    # - The available_moves function is designed to find out which spaces on the tic-tac-toe board are empty and can be used for a move.
     def available_moves(self):
         return [i for i, spot in enumerate(self.board) if spot == ' ']
     # This line finds all the empty spaces on the board where a player can put their mark. It looks at each spot on the board and checks if it's empty. If it is, it remembers the position so the player knows where they can move.
 
+
+
+    def empty_squares(self):
+        # Check if there is at least one empty space on the board
+        return ' ' in self.board # Returns True if there's at least one empty space, False otherwise
+
+
+
+
+
 def play(game, x_player, o_player, print_game=[True]):
+
+    # RETURNS the winner of the game! (the letter) or NONE for a TIE
+
     if print_game:
         game.print_board_nums()
 
@@ -41,6 +55,6 @@ def play(game, x_player, o_player, print_game=[True]):
     # ---
     # The loop keeps running while there are still empty squares on the game board. This ensures that the game continues until there are no more moves left to be made.
     while game.empty_squares():
-        pass # wait  until we finish other stuff
+        #pass # wait  until we finish other stuff
     # In this context, 'pass' means the loop does not yet perform any actions.
     #  - This is a placeholder 'while' waiting to implement other parts of the game logic, such as handling player moves or checking for game end conditions.
