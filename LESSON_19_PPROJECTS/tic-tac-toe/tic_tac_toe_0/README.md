@@ -1840,3 +1840,12 @@ How It Works:
 ### 🔴 Remember
 
 > the line **`if self.winner(square, letter)`**: **is** closely **related to** the `self.current_winner` **attr**ibute **defined in** the `__init__` method of the TicTacToe class.
+
+```python
+class TicTacToe:
+    def __init__(self):
+        self.board = [' ' for _ in range(9)] # This
+        # ✋ current_winner
+        self.current_winner = None # Keep track of winner
+```
+
