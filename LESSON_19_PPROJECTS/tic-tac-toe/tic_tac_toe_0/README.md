@@ -1744,3 +1744,9 @@ def make_move(self, square, letter):
 <br>
 
 🔶 <u>If</u> `make_move` <u>returns</u> **True** (indicating the move was successfully made), **the subsequent code inside** the `if` **block executes**.
+
+🔶 **If** the **move** was **not successful** (returns **False**), this **block is skipped**.
+
+<br>
+
+## 🟠 Switching Players:
