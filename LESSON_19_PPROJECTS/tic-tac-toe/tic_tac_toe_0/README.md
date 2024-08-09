@@ -1471,3 +1471,16 @@ def play(game, x_player, o_player, print_game=[True]):
         pass # wait  until we finish other stuff
 ```
 
+
+<br>
+<br>
+
+## 🟦 After the `WHILE` loop continue with the below functions
+
+- create them just before the `play(game...)` function that contains the `letter X`
+
+<br>
+<br>
+<br>
+
+## 🟦 `empty_squares` function
