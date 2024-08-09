@@ -1693,3 +1693,30 @@ def make_move(self, square, letter):
 - - **Checks if a spot** on the **board** is **empty** and, if so, places the player's mark there.
 
 - - **Returns True if** the **move** is **valid** and **False if** it is **not**
+
+<br>
+<br>
+<br>
+
+### 🟦 Back to the `Play()` function
+
+- After creating the **make_move()** ,  continue the condition
+
+```python
+        if letter == '0':
+            square = o_player.get_move(game) # Get move from 'O' player
+        else:
+            square = x_player.get_move(game) # Get move from 'X' player
+
+        # ✋ --- after creating the make_move function
+        #  FUNCTION to make the MOVE
+        if game.make_move(square, letter):
+```
+
+<br>
+
+### 🟠 `if game.make_move(square, letter):`
+
+  **Purpose:**
+
+- - This line calls the **make_move function** to **attempt placing** the **current player's** mark **(letter)** on the **board** at the position square.
