@@ -39,6 +39,10 @@ class TicTacToe:
         # Check if there is at least one empty space on the board
         return ' ' in self.board # Returns True if there's at least one empty space, False otherwise
 
+    def num_empty_squares(self):
+        # Count how many empty spaces are left on the board
+        return self.board.count(' ')  # Returns the number of empty spaces
+
 
 
 
@@ -58,3 +62,7 @@ def play(game, x_player, o_player, print_game=[True]):
         #pass # wait  until we finish other stuff
     # In this context, 'pass' means the loop does not yet perform any actions.
     #  - This is a placeholder 'while' waiting to implement other parts of the game logic, such as handling player moves or checking for game end conditions.
+        if letter == '0':
+            square = o_player.get_move(game) # Get move from 'O' player
+        else:
+            square = x_player.get_move(game) # Get move from 'X' player
