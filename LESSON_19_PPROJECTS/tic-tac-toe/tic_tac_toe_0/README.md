@@ -1669,7 +1669,9 @@ def play(game, x_player, o_player, print_game=[True]):
 
 - - The **square** in `player.py` is determined by the player's move logic (e.g., random choice).
 
+- - This **square** is then used in game.py to update the board and process the move.
 
+Essentially, `player.py` **generates the move** (square), and game.py applies it to the game board.
 
 <br>
 <br>
