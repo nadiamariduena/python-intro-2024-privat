@@ -1785,3 +1785,13 @@ How It Works:
             ✋
             letter = '0' if letter == 'X' else 'X'
 ```
+
+<br>
+<br>
+
+
+### 🟠 Check if this move wins the game
+
+- Back to the `make_move()`
+
+- with the following 2 lines, the `make_move` function **now provides additional info**rmation **by checking if a move res**ults **in a win**.
