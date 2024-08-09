@@ -1720,3 +1720,27 @@ def make_move(self, square, letter):
   **Purpose:**
 
 - - This line calls the **make_move function** to **attempt placing** the **current player's** mark **(letter)** on the **board** at the position square.
+
+<br>
+
+ **How It Works:**
+
+
+
+```python
+
+        if game.make_move(square, letter):
+        # ----
+        # If make_move returns True
+        # (indicating the move was successfully made),
+        # the subsequent code inside the if block executes.
+            if print_game:
+                print(letter + f' makes a move to a square {square}')
+                game.print_board()
+                print("")
+
+
+```
+<br>
+
+🔶 <u>If</u> `make_move` <u>returns</u> **True** (indicating the move was successfully made), **the subsequent code inside** the `if` **block executes**.
