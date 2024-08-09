@@ -1656,6 +1656,7 @@ def play(game, x_player, o_player, print_game=[True]):
 
 ### 🟫 Role in game.py:
 
+- - - **In `game.py`**, **square is an argument passed to the** `make_move` **method**.
 
 
 <br>
