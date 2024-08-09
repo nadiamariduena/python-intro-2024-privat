@@ -1795,3 +1795,20 @@ How It Works:
 - Back to the `make_move()`
 
 - with the following 2 lines, the `make_move` function **now provides additional info**rmation **by checking if a move res**ults **in a win**.
+
+- - - This **allows** the **game to** potentially **end if a player wins**, which can be detected and handled after the move is made.
+
+<br>
+
+```python
+    def make_move(self, square, letter):
+
+        if self.board[square] == ' ':
+            self.board[square] = letter
+            # ✋ Check if this move wins the game
+            if self.winner(square, letter):
+                self.current_winner = letter
+            return True
+        return False
+
+```
