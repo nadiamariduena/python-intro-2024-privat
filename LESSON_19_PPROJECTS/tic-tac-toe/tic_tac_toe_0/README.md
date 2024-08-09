@@ -1571,3 +1571,11 @@ def play(game, x_player, o_player, print_game=[True]):
 <br>
 <br>
 <br>
+
+## 🟠 Summary
+
+ **`available_moves`** **finds all** the **empty spots** on the board **where a move can be made**.
+
+- - >Example: If the board is ['X', ' ', 'O'] ( 👀 focus on the middle ' '), the function will return [1] because position 1 is empty.
+
+<br>
