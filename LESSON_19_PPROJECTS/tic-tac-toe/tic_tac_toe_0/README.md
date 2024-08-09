@@ -1420,3 +1420,7 @@ def play(game, x_player, o_player, print_game=[True]):
 #### `def play(game, x_player, o_player, print_game=[True])`:
 
 - - This defines the `play` function which takes **four** **param**eters:
+
+<br>
+
+- - **game:** An instance of the Tic-Tac-Toe game.
