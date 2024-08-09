@@ -1654,6 +1654,8 @@ def play(game, x_player, o_player, print_game=[True]):
 
 - 🔴 **REMEMBER**: In `player.py`, **square** is a variable within the **get_move** method of the `RandomComputerPlayer()` class. It **represents** a **random**ly **chosen move** from the available moves on the game board.
 
+
+
 ### 🟫 Role in game.py:
 
 - - - **In `game.py`**, **square is an argument passed to the** `make_move` **method**.
@@ -1663,6 +1665,13 @@ def play(game, x_player, o_player, print_game=[True]):
 
 - - - The make_move method uses this square index to place a letter (either 'X' or 'O') in the specified position on the board and then checks if the move results in a win.
 
+### Summary
+
+- - The **square** in `player.py` is determined by the player's move logic (e.g., random choice).
+
+
+
+<br>
 <br>
 <br>
 
