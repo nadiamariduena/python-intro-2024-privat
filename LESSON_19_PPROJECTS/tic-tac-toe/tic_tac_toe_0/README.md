@@ -1812,3 +1812,12 @@ How It Works:
         return False
 
 ```
+
+
+#### 🟠 `if self.winner(square, letter)`:
+
+**Purpose:**
+
+-  - This line **checks if the move** made **at square** with **letter** results in **a win** for the current player.
+
+**How It Works:**
