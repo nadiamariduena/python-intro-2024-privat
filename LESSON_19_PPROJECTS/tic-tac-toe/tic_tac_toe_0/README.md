@@ -1445,3 +1445,9 @@ def play(game, x_player, o_player, print_game=[True]):
 - - This helps visualize the board's current state.
 
 <br>
+
+**letter = 'X'**
+
+- - This **initializes the variable** `letter with 'X'`, **indicating** that **'X'** will start the game.
+
+- It’s used to keep track of which player's turn it is.
