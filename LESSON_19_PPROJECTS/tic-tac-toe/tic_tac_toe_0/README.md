@@ -1658,6 +1658,9 @@ def play(game, x_player, o_player, print_game=[True]):
 
 - - - **In `game.py`**, **square is an argument passed to the** `make_move` **method**.
 
+- - - This **var**iable **indicates** the **index on the board where** a **move is to be made**.
+
+
 
 <br>
 <br>
