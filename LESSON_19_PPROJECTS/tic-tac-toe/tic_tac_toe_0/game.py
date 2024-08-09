@@ -38,3 +38,8 @@ def play(game, x_player, o_player, print_game=[True]):
 
     letter = 'X' # This **initializes the variable** `letter with 'X'`, **indicating** that **'X'** will start the game.
     # It’s used to keep track of which player's turn it is.
+
+
+
+    # The loop keeps running while there are still empty squares on the game board. This ensures that the game continues until there are no more moves left to be made.
+    while game.empty_squares():
