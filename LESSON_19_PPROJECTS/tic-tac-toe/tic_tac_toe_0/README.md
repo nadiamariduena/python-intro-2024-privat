@@ -1682,3 +1682,14 @@ def make_move(self, square, letter):
 #### 🟠 `play()` Function:
 
 - - **Determines** which player's turn it is and gets the move from the respective player.
+
+- - **Uses `make_move` to place** the **mark** on the board if the move is valid.
+
+- - **Alternates turns between players** and optionally prints the board.
+
+
+#### 🟠 `make_move()` Function:
+
+- - **Checks if a spot** on the **board** is **empty** and, if so, places the player's mark there.
+
+- - **Returns True if** the **move** is **valid** and **False if** it is **not**
