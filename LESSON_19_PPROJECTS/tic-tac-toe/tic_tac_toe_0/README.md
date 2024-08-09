@@ -1501,3 +1501,16 @@ def play(game, x_player, o_player, print_game=[True]):
 <br>
 
 - - In the `play` **function**, `empty_squares` **function is used** in a **while loop to continue the game as long as** there are **empty squares**, providing a way to keep the game active until the board is full.
+
+<br>
+
+
+
+<br>
+<br>
+
+
+## 🟦 `num_empty_squares` function
+
+
+ **The num_empty_squares** function counts the total number of empty spaces remaining on the board.
