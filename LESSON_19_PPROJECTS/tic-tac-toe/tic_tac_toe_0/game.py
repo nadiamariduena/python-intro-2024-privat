@@ -29,23 +29,5 @@ class TicTacToe:
 
 #The available_moves function is designed to find out which spaces on the tic-tac-toe board are empty and can be used for a move.
     def available_moves(self):
-        # - 1 Creating a List for Moves:
-        moves = []
-        # Here, you create an empty list called moves. This list will store the positions on the board where a move can be made.
-
-
-        # - 2 Looping Through the Board:
-        # enumerate(): will help you to loop through items that dont have an assigned id, like "id": 0, "id": 1, its for values such as [ apple, fruits, etc,]
-        for (i, spot) in enumerate(self.board):
-
-
-            # - 3 Checking if the Spot is Empty
-            if spot == ' ':
-
-
-                # - 4 Adding Empty Spots to the List:
-                # If the spot is empty, this line adds the position i to the moves list. This way, you keep track of where players can make a move.
-                moves.append(i)
-
-        return
-    #5 Finally, the function returns the moves list, which now contains all the positions on the board where a player can put their mark.
+        return [i for i, spot in enumerate(self.board) if spot == ' ']
+    # This line finds all the empty spaces on the board where a player can put their mark. It looks at each spot on the board and checks if it's empty. If it is, it remembers the position so the player knows where they can move.

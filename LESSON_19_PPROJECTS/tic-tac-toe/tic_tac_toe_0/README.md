@@ -1048,7 +1048,7 @@ The `available_moves` function will `return [1, 3, 5, 6, 7]`, indicating the pos
 <br>
 <br>
 
-### A cleaner way of doing this:
+## 🟡 A cleaner way of doing this:
 
 ```python
 # ---- OPtion A
@@ -1066,7 +1066,6 @@ return [i for i, spot in enumerate(self.board) if spot == ' ']
 
 ```
 
-<br>
 <br>
 
 ## 🟡`return [i for i, spot in enumerate(self.board) if spot == ' ']`
@@ -1090,6 +1089,68 @@ i for i,
 ```
 
 <br>
+
+#### The code without the above line
+
+```python
+class TicTacToe:
+    def __init__(self):
+        # This line of code: self.board = [' ' for _ in range(9)] ,  initializes the self.board
+        # for _ in range(9) : This iterates 9 times, and for each iteration, it adds a space to the list.
+        # Result: The list self.board will be [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']. This represents an empty Tic-Tac-Toe board with 9 positions, all initially empty.
+        #
+        self.board = [' ' for _ in range(9)] # This creates a list (like a row of boxes) with 9 empty spaces. Each space will be where we put X or O. Think of it as a 3x3 grid but stored in a single line.
+
+        self.current_winner = None # Keep track of winner
+
+    def print_board(self):
+    #     #This part creates a list of rows from the board:
+    #     #- - self.board: This is the list with all the spaces on the board.
+         for row in [self.board[i*3:(i+1)*3] for i in range(3)]:
+             #
+             #  | '.join(row) joins the elements of the row with ' | ' as the separator, so each row’s elements are separated by vertical bars.
+             print('| ' +  ' | '.join(row) +  ' |')
+
+    @staticmethod
+    def print_board_nums():
+        number_board = [[str(i) for i in range(j*3, (j+1)*3)] for j in range(3)]
+
+        for row in number_board:
+            print('| ' + '| '.join(row) + ' |')
+        #  | '.join(row) joins the elements of the row with ' | ' as the separator, so each row’s elements are separated by vertical bars.
+
+
+
+
+#The available_moves function is designed to find out which spaces on the tic-tac-toe board are empty and can be used for a move.
+    def available_moves(self):
+        # - 1 Creating a List for Moves:
+        moves = []
+        # Here, you create an empty list called moves. This list will store the positions on the board where a move can be made.
+
+
+        # - 2 Looping Through the Board:
+        # enumerate(): will help you to loop through items that dont have an assigned id, like "id": 0, "id": 1, its for values such as [ apple, fruits, etc,]
+        for (i, spot) in enumerate(self.board):
+
+
+            # - 3 Checking if the Spot is Empty
+            if spot == ' ':
+
+
+                # - 4 Adding Empty Spots to the List:
+                # If the spot is empty, this line adds the position i to the moves list. This way, you keep track of where players can make a move.
+                moves.append(i)
+
+        return
+    #5 Finally, the function returns the moves list, which now contains all the positions on the board where a player can put their mark.
+```
+
+<br>
+<br>
+
+---
+
 <br>
 <br>
 
@@ -1240,3 +1301,97 @@ return val
           # Once a valid move is found, this line returns (gives back) the number of the chosen spot. This number will be used to put the player’s mark on the grid.
            return val
 ```
+
+<br>
+<br>
+
+### 🟤 Putting It All Together
+
+#### Here’s a simple story to tie it all together:
+
+Imagine you’re playing Tic-Tac-Toe and you need to pick a spot to place your mark.
+
+- -  You tell the game your choice (like saying "5").
+
+- - The game then tries to make sure "5" is a valid spot.
+
+- - **It checks if "5"** is actually a number and if it’s a spot where you can put your mark.
+
+<br>
+
+- - **If "5"** 👍 is a valid spot, the game says, "Great! That’s a valid move!"
+
+- - **If "5" isn’t** 👎 valid (maybe it’s already taken or isn’t a number), the game says, "Oops! That’s not a valid spot. Try again!"
+
+<br>
+
+- - Finally, when you make a **valid choice**, the **game uses** that **number to put your mark on the grid.**
+
+#### 🌈 So, this part of the code makes sure that you’re making a good move and helps you correct it if you’re not.
+
+<br>
+
+```python
+import math
+import random
+
+
+class Player:
+    def __init__(self, letter):
+        # letter is X or O
+        self.letter = letter
+
+    def get_move(self, game):
+        pass
+
+
+# inherited class
+#🤚 COMPUTER move
+class RandomComputerPlayer(Player):
+
+    def __init__(self, letter):
+        super().__init__(letter)
+
+    def get_move(self, game):
+        square = random.choice(game.available_moves())
+        return square
+
+
+
+#🤚 HUMAN move
+class HumanPlayer(Player):
+    def __init__(self, letter):
+        super().__init__(letter)
+
+    #Human Player is asked to choose a spot to put their mark, and the game will keep
+    def get_move(self, game):
+
+       valid_square = False
+       val = None
+
+       while not valid_square:
+
+           square = input(self.letter + '\'s turn. Input move (0-9):')
+
+           try:
+
+               val = int(square)
+               if val not in game.available_moves():
+                   raise ValueError
+
+               valid_square = True
+
+           except ValueError:
+                print(' Invalid square. Try again')
+
+       return val
+
+
+```
+
+<br>
+<br>
+<br>
+<br>
+
+## 🟦 Back to the `game.py` 🍍
