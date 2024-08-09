@@ -1611,3 +1611,11 @@ def play(game, x_player, o_player, print_game=[True]):
 - - **`num_empty_squares`** **counts how many empty** spots are available.
 
 <br>
+
+
+🍦In the  **PLAY function**, `empty_squares` is used to keep the game running while there are empty spots, and available_moves helps to identify valid positions for making moves.
+
+<br>
+<br>
+<br>
+
