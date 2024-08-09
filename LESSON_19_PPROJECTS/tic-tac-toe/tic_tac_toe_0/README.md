@@ -1439,3 +1439,9 @@ def play(game, x_player, o_player, print_game=[True]):
 - -  If it is, the game board is printed using game.
 
 <br>
+
+`print_board_nums()`.
+
+- - This helps visualize the board's current state.
+
+<br>
