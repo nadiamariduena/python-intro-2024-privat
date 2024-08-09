@@ -1531,3 +1531,15 @@ def play(game, x_player, o_player, print_game=[True]):
 
 - - **What It Returns:** It tells you the number of empty spaces remaining.
 
+
+<br>
+<br>
+
+
+##  🟧 How It Fits in the `play()` Function:
+
+<br>
+
+- - **Checking for Empty Spaces:** In the play function, game.empty_squares() is used in the while loop. This tells the game to keep running as long as there are empty spaces on the board.
+
+- - **Counting Empty Spaces:** You can use game.num_empty_squares() to find out exactly how many empty spots are left, which might be useful for deciding the next move or for game strategy.
