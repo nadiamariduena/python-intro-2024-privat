@@ -1432,3 +1432,10 @@ def play(game, x_player, o_player, print_game=[True]):
 - - **print_game:** An optional boolean parameter (defaulting to True) that controls whether the game board should be printed.
 
 <br>
+
+
+`if print_game`: This checks if the **print_game** flag is set to **True**.
+
+- -  If it is, the game board is printed using game.
+
+<br>
