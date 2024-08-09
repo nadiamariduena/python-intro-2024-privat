@@ -1645,3 +1645,24 @@ def play(game, x_player, o_player, print_game=[True]):
             square = x_player.get_move(game)
 
 ```
+
+<br>
+<br>
+
+
+## 🟦 `make_move` function
+
+
+```python
+def make_move(self, square, letter):
+    # If the move is valid (the square is empty), place the letter there
+    if self.board[square] == ' ':
+        self.board[square] = letter
+        return True
+    return False
+
+```
+
+#### `if self.board[square] == ' '`:
+
+**Purpose:** Checks if the square is empty before making the move.
