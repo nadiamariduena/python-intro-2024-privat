@@ -43,7 +43,13 @@ class TicTacToe:
         # Count how many empty spaces are left on the board
         return self.board.count(' ')  # Returns the number of empty spaces
 
+    def make_move(self, square, letter):
+        #  If the move is valid (the square is empty), place the letter there
 
+        # Then return TRUE. if invalid, return FALSE
+        #
+        if self.board[square] == ' ':
+            self.board[square] = letter
 
 
 
@@ -66,3 +72,12 @@ def play(game, x_player, o_player, print_game=[True]):
             square = o_player.get_move(game) # Get move from 'O' player
         else:
             square = x_player.get_move(game) # Get move from 'X' player
+
+        # ---- after you create the get_move at above the play() function
+        # FUNCTION to make the MOVE
+        if game.make_move(square, letter):
+            if print_game:
+                print(letter + f' makes a move to a square {square}')
+                game.print_board()
+                print("")
+
