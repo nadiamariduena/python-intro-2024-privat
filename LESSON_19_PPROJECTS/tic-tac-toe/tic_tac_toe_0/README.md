@@ -1411,3 +1411,12 @@ def play(game, x_player, o_player, print_game=[True]):
     letter = 'X'
 ```
 
+<br>
+<br>
+
+
+### Explanation:
+
+#### `def play(game, x_player, o_player, print_game=[True])`:
+
+- - This defines the `play` function which takes **four** **param**eters:
