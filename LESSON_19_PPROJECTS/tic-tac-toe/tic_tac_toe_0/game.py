@@ -31,3 +31,10 @@ class TicTacToe:
     def available_moves(self):
         return [i for i, spot in enumerate(self.board) if spot == ' ']
     # This line finds all the empty spaces on the board where a player can put their mark. It looks at each spot on the board and checks if it's empty. If it is, it remembers the position so the player knows where they can move.
+
+def play(game, x_player, o_player, print_game=[True]):
+    if print_game:
+        game.print_board_nums()
+
+    letter = 'X' # This **initializes the variable** `letter with 'X'`, **indicating** that **'X'** will start the game.
+    # It’s used to keep track of which player's turn it is.

@@ -1395,3 +1395,19 @@ class HumanPlayer(Player):
 <br>
 
 ## 🟦 Back to the `game.py` 🍍
+
+<br>
+
+### 🟠 The `play` function is designed to manage and run our game
+
+```python
+    def available_moves(self):
+        return [i for i, spot in enumerate(self.board) if spot == ' ']
+
+def play(game, x_player, o_player, print_game=[True]):
+    if print_game:
+        game.print_board_nums()
+
+    letter = 'X'
+```
+
