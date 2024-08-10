@@ -1900,3 +1900,23 @@ class TicTacToe:
 ``` -->
 
 <br>
+
+## 🟠 `winner()` Function
+
+
+
+
+The winner function determines if the current move has resulted in a win by checking the row and column where the move was made.
+
+#### This is used to check if a player has won the game after making a move.
+
+<br>
+
+**Purpose:**
+
+- - Defines the winner method that takes in the position of the move (`square`) and the player's mark (`letter`).
+
+```python
+  def winner(self, square, letter):
+```
+
