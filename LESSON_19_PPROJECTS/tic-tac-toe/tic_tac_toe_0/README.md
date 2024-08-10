@@ -1920,3 +1920,19 @@ The winner function determines if the current move has resulted in a win by chec
   def winner(self, square, letter):
 ```
 
+
+
+<br>
+
+ **Relation to play:**
+
+- - This **function** is **called in the** `make_move` method to determine if the move resulted in a win, exactly this part of the **make_move:**
+
+```python
+# def make_move(self, square, letter):
+#     if self.board[square] == ' ':
+#         self.board[square] = letter
+if self.winner(square, letter):
+
+```
+
