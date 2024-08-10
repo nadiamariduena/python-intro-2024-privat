@@ -1936,3 +1936,17 @@ if self.winner(square, letter):
 
 ```
 
+
+<br>
+
+### 🟠 Checking the Row
+
+**Purpose:** Calculates the row index and extracts the row from the board.
+
+
+```python
+        # row_ind
+        row_index = square // 3
+        row = self.board[row_index*3 : (row_index + 1) * 3]
+```
+<br>
