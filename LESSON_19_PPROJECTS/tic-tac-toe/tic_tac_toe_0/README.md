@@ -1965,3 +1965,7 @@ if all([spot == letter for spot in row]):
     return True
 ```
 **Purpose:**
+
+- - **Checks if all spots** in the **row are occupied** by the **current player's** mark (`letter`).
+
+<br>
