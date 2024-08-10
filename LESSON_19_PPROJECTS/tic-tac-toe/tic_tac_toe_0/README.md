@@ -1957,3 +1957,11 @@ if self.winner(square, letter):
 
 <br>
 <br>
+
+#### 🟤 Relation to `play()`: This helps determine if the move has resulted in a winning row.
+
+```python
+if all([spot == letter for spot in row]):
+    return True
+```
+**Purpose:**
