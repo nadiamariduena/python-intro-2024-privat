@@ -2004,3 +2004,17 @@ column = [self.board[col_index+i*3] for i in range(3)]
 `col_index = square % 3`: Uses the remainder to find the column index where the move was made.
 
 `column = [self.board[col_index+i*3] for i in range(3)]`: Creates a list of values from the board for the column.
+
+<br>
+
+#### 🟤 Relation to `play()`: This helps determine if the move has resulted in a winning column.
+
+```python
+if all([spot == letter for spot in column]):
+    return True
+
+```
+
+**Purpose:**
+
+- - **Checks if all spots** in the **column** are occupied by the current player's mark (`letter`).
