@@ -2022,3 +2022,11 @@ if all([spot == letter for spot in column]):
 `all([spot == letter for spot in column])`:
 
  - - Creates a list of **Boolean** values **checking** if **each spot in the column equals letter**.
+
+##### `all()` returns True if all values are True.
+
+#### 🟤 Relation to `play()`: If the column check returns True, it means the player has won by completing a column.
+
+The `make_move` **function** will set the `current_winner` based on this result.
+
+<br>
