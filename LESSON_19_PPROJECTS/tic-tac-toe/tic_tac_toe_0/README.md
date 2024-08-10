@@ -1950,3 +1950,10 @@ if self.winner(square, letter):
         row = self.board[row_index*3 : (row_index + 1) * 3]
 ```
 <br>
+
+- - 🍰 `row_index = square // 3`: **Divides** the square index **by 3** to **find which row the move is in**.
+
+- -  🔪 `row = self.board[row_index*3: (row_index + 1) * 3]`: **Slices** the board list to get the row where the move was made.
+
+<br>
+<br>
