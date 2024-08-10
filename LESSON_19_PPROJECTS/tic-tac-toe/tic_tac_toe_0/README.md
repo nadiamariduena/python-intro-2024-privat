@@ -1986,3 +1986,21 @@ if all([spot == letter for spot in row]):
 if all([spot == letter for spot in row]):
     return True
 ```
+
+<br>
+<br>
+
+### 🟠 Checking the Column
+
+```python
+# check column
+col_index = square % 3
+column = [self.board[col_index+i*3] for i in range(3)]
+```
+<br>
+
+**Purpose:** Calculates the column index and extracts the column from the board.
+
+`col_index = square % 3`: Uses the remainder to find the column index where the move was made.
+
+`column = [self.board[col_index+i*3] for i in range(3)]`: Creates a list of values from the board for the column.
