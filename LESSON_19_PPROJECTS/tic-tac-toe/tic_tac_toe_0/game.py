@@ -62,6 +62,25 @@ class TicTacToe:
             return True
         return False
 
+    #
+    def winner(self, square, letter):
+
+        # row_ind
+        #Calculates the row index and extracts the row from the board.
+        # row_index = square // 3: Divides the square index by 3 to find which row the move is in.
+        row_index = square // 3
+        row = self.board[row_index*3 : (row_index + 1) * 3]
+
+        if all([spot == letter for spot in row]):
+            return True
+
+        # check column
+        col_index = square % 3
+        column = [self.board[col_index+i*3] for i in range(3)]
+
+        if all([spot == letter for spot in column]):
+            return True
+
 
 
 def play(game, x_player, o_player, print_game=[True]):
@@ -100,3 +119,6 @@ def play(game, x_player, o_player, print_game=[True]):
 
             # after we made our move, we need to alternate letters
             letter = '0' if letter == 'X' else 'X' #switches player
+
+        if print_game:
+            print('It\'s a tie!')

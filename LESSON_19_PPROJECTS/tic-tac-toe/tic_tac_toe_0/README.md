@@ -1656,6 +1656,7 @@ def play(game, x_player, o_player, print_game=[True]):
 
 
 ```python
+#player.py
 class RandomComputerPlayer(Player):
     def __init__(self, letter):
         super().__init__(letter)
@@ -1886,3 +1887,16 @@ class TicTacToe:
         self.current_winner = None # Keep track of winner
 ```
 
+<br>
+<br>
+
+<!-- ## After the WHILE loop is over we will print the following:
+
+```python
+            letter = '0' if letter == 'X' else 'X' #switches player
+        # ✋
+        if print_game:
+            print('It\'s a tie!')
+``` -->
+
+<br>
