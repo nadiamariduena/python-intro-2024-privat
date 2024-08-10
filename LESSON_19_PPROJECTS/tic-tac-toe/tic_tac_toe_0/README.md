@@ -2056,3 +2056,4 @@ The `make_move` **function** will set the `current_winner` based on this result.
 
 `winner` **Function:** Checks if a move results in a win by examining the row and column where the move was made.
 
+**Relation to play:** The winner function is called in `make_move` **to verify** if the **current move** has won the game.
