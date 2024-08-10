@@ -2053,3 +2053,6 @@ The `make_move` **function** will set the `current_winner` based on this result.
             return True
 ```
 
+
+`winner` **Function:** Checks if a move results in a win by examining the row and column where the move was made.
+
