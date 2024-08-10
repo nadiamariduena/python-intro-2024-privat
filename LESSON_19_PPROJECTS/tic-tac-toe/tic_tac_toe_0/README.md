@@ -2030,3 +2030,26 @@ if all([spot == letter for spot in column]):
 The `make_move` **function** will set the `current_winner` based on this result.
 
 <br>
+
+###  Summary
+
+
+
+```python
+    def winner(self, square, letter):
+
+
+        row_index = square // 3
+        row = self.board[row_index*3 : (row_index + 1) * 3]
+
+        if all([spot == letter for spot in row]):
+            return True
+
+        # check column
+        col_index = square % 3
+        column = [self.board[col_index+i*3] for i in range(3)]
+
+        if all([spot == letter for spot in column]):
+            return True
+```
+
