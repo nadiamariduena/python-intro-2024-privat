@@ -1969,3 +1969,13 @@ if all([spot == letter for spot in row]):
 - - **Checks if all spots** in the **row are occupied** by the **current player's** mark (`letter`).
 
 <br>
+
+#### `all([spot == letter for spot in row])`:
+
+- - **Creates a list** of **Boolean values** <u>checking</u>  **if each spot in the row equals letter**.
+
+-  - `all()` returns True if all values are True.
+
+<br>
+
+**If the row check returns `True`**, it means the player has won by completing a row.
