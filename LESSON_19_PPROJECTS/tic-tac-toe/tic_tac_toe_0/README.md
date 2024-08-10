@@ -1979,3 +1979,10 @@ if all([spot == letter for spot in row]):
 <br>
 
 **If the row check returns `True`**, it means the player has won by completing a row.
+
+- - The `make_move` function will set the current_winner based on this result.
+
+```python
+if all([spot == letter for spot in row]):
+    return True
+```
