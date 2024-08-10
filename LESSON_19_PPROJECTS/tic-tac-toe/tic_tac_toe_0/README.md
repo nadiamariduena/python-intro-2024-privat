@@ -2018,3 +2018,7 @@ if all([spot == letter for spot in column]):
 **Purpose:**
 
 - - **Checks if all spots** in the **column** are occupied by the current player's mark (`letter`).
+
+`all([spot == letter for spot in column])`:
+
+ - - Creates a list of **Boolean** values **checking** if **each spot in the column equals letter**.
