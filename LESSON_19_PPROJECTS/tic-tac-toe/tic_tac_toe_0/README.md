@@ -2282,3 +2282,18 @@ The `make_move` **function** will set the `current_winner` based on this result.
 
 
 ## 🌈 Creating Players:
+
+- Import the Player to start testing the game
+
+```python
+from player import HumanPlayer, RandomComputerPlayer
+```
+
+<br>
+<br>
+
+## 👬 Players
+
+### 🟦 Create two players:
+
+🟡 `x_player` is an instance of **HumanPlayer** with the mark `'X'`. This means the human will play as 'X'.
