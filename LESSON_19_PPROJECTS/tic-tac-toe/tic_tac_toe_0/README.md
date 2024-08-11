@@ -2310,3 +2310,12 @@ from player import HumanPlayer, RandomComputerPlayer
 ### 🟦 Creating a Game Instance:
 
 - **Purpose:** This line creates a new game instance of the TicTacToe class. This initializes the game board and other necessary components for a new game.
+
+```python
+# t for tictactoe
+t = TicTacToe()
+```
+
+<br>
+
+### 🟦 Starting the Game:
