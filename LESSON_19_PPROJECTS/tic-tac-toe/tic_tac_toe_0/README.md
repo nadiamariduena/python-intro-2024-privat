@@ -2463,3 +2463,41 @@ if __name__ == '__main__':
 - -   **If** placed **inside the while loop**, it **might** print **prematurely during the game**, which could **mislead players into** thinking **the game** has **ended before all moves are exhausted**.
 
 - - -  Moving it outside ensures that it only shows up when the game actually reaches the end without a winner.
+
+<br>
+<br>
+
+## 🌈 FIX
+
+The "It's a tie!" message **should be printed only after all available moves have been exhausted** and no winner has been determined.
+
+#### Move this print statement outside of the `while` loop to ensure it only executes when the game has ended.
+
+<br>
+<br>
+
+```python
+while game.empty_squares():
+    if letter == '0':
+        square = o_player.get_move(game)  # Get move from 'O' player
+    else:
+        square = x_player.get_move(game)  # Get move from 'X' player
+
+    if game.make_move(square, letter):
+        if print_game:
+            print(letter + f' makes a move to a square {square}')
+            game.print_board()
+            print("")
+
+        if game.current_winner:
+            if print_game:
+                print(letter + ' wins!')
+            return letter
+
+        letter = '0' if letter == 'X' else 'X'
+
+# ✋ Check if the game ended in a tie
+if print_game:
+    print('It\'s a tie!')
+
+```
