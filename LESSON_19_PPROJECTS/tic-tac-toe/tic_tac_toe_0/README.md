@@ -2297,3 +2297,10 @@ from player import HumanPlayer, RandomComputerPlayer
 ### 🟦 Create two players:
 
 🟡 `x_player` is an instance of **HumanPlayer** with the mark `'X'`. This means the human will play as 'X'.
+
+🟣 `o_player` is an instance of **RandomComputerPlayer** with the mark `'O'`. This means the computer will play as 'O'.
+
+```python
+    x_player = HumanPlayer('X')
+    o_player = RandomComputerPlayer('O')
+```
