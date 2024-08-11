@@ -2066,3 +2066,27 @@ The `make_move` **function** will set the `current_winner` based on this result.
 
 <br>
 <br>
+
+## 🟢 Checking Diagonals:
+
+### In the code below, we will check if a player has won by filling one of the ✋ <u>diagonal lines</u>  with their mark:
+
+
+```python
+
+        if square % 2 == 0:
+            diagonal1 = [self.board[i] for i in [0, 4, 8]]
+
+            if all([spot == letter for spot in diagonal1]):
+                return True
+
+            diagonal2 = [self.board[i] for i in [2, 4, 6]]
+
+            if all([spot == letter for spot in diagonal2]):
+                return True
+
+        return False
+```
+
+
+
