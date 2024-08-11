@@ -2139,3 +2139,21 @@ The `make_move` **function** will set the `current_winner` based on this result.
 <br>
 
 ## 🌈 Diagonal Patterns:
+
+### Main Diagonal & Anti-Diagonal:
+
+<br>
+
+
+🌈**Main Diagonal:** Moves are at indices `0, 4, and 8`.
+
+```python
+#When you say an index like 2 is part of a diagonal, it means that if a move is made at index 2, it could potentially be part of the anti-diagonal.
+ if square % 2 == 0:
+            diagonal1 = [self.board[i] for i in [0, 4, 8]] #left to right diagonal
+            #  This line checks if positions 0, 4, and 8 form a diagonal from the top-left to the bottom-right.
+
+
+            if all([spot == letter for spot in diagonal1]):
+                return True
+```
