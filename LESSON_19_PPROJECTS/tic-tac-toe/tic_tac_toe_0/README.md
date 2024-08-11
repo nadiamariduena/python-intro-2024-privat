@@ -2459,3 +2459,7 @@ if __name__ == '__main__':
 <br>
 
  ### 🟦 The tie message is meant to indicate that the game has ended in a draw.
+
+- -   **If** placed **inside the while loop**, it **might** print **prematurely during the game**, which could **mislead players into** thinking **the game** has **ended before all moves are exhausted**.
+
+- - -  Moving it outside ensures that it only shows up when the game actually reaches the end without a winner.
