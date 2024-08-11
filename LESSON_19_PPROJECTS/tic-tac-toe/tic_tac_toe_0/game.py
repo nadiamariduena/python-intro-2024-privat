@@ -1,3 +1,4 @@
+
 class TicTacToe:
     def __init__(self):
         # This line of code: self.board = [' ' for _ in range(9)] ,  initializes the self.board
@@ -81,6 +82,11 @@ class TicTacToe:
         if all([spot == letter for spot in column]):
             return True
 
+        # check diagonals
+        # but only if the square is an even number (0, 2, 4, 6, 8)
+        # these are the only moves possible to win a diagonal
+        if square % 2 == 0:
+
 
 
 def play(game, x_player, o_player, print_game=[True]):
@@ -122,3 +128,5 @@ def play(game, x_player, o_player, print_game=[True]):
 
         if print_game:
             print('It\'s a tie!')
+
+

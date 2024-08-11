@@ -2059,3 +2059,10 @@ The `make_move` **function** will set the `current_winner` based on this result.
 **Relation to play:** The winner function is called in `make_move` **to verify** if the **current move** has won the game.
 
 **If** `winner` returns True, `make_move` **updates** **current_winner**, which influences game flow and ending conditions in the play function.
+
+
+<br>
+<br>
+
+<br>
+<br>
