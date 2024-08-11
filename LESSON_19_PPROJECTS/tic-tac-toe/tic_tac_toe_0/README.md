@@ -2304,3 +2304,9 @@ from player import HumanPlayer, RandomComputerPlayer
     x_player = HumanPlayer('X')
     o_player = RandomComputerPlayer('O')
 ```
+
+<br>
+
+### 🟦 Creating a Game Instance:
+
+- **Purpose:** This line creates a new game instance of the TicTacToe class. This initializes the game board and other necessary components for a new game.
