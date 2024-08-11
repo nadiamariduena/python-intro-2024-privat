@@ -2243,3 +2243,42 @@ The `make_move` **function** will set the `current_winner` based on this result.
    if all([spot == letter for spot in diagonal2]):
                 return True
 ```
+
+<br>
+<br>
+
+
+```python
+      # CHECK DIAGONALS
+
+        # but only if the square is an even number (0, 2, 4, 6, 8)
+        # these are the only moves possible to win a diagonal
+        if square % 2 == 0:
+
+            # This checks the line going from the top-left to the bottom-right of the board.
+            diagonal1 = [self.board[i] for i in [0, 4, 8]] #left to right diagonal
+
+            # If all three spots in this line are filled with the same player's mark, then that player won on this diagonal.
+            if all([spot == letter for spot in diagonal1]):
+                return True
+
+            #  This checks the line going from the top-right to the bottom-left of the board.
+            diagonal2 = [self.board[i] for i in [2, 4, 6]] # right to left diagonal
+
+
+            #If all three spots in this line are filled with the same player's mark, then that player won on this diagonal.
+            if all([spot == letter for spot in diagonal2]):
+                return True
+
+        # if all these fail
+        # If neither diagonal is completely filled with the same mark, the function
+        return False
+```
+
+
+<br>
+<br>
+<br>
+
+
+## 🌈 Creating Players:
