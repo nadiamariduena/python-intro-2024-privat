@@ -98,6 +98,10 @@ class TicTacToe:
             diagonal2 = [self.board[i] for i in [2, 4, 6]] # right to left diagonal
 
 
+            #If all three spots in this line are filled with the same player's mark, then that player won on this diagonal.
+            if all([spot == letter for spot in diagonal2]):
+                return True
+
 
 
 
