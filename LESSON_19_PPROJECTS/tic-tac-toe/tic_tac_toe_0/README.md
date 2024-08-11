@@ -2405,3 +2405,16 @@ Xwins!
 ## 🔴 Small Bug
 
 - **Issue:** When playing the game, a message "It's a tie!" appears after the first value/number is entered, which shouldn't happen.
+
+```python
+if print_game:
+            print('It\'s a tie!')
+```
+
+
+
+## 🟠 Explanation of the Bug
+
+- - The message is incorrectly placed within the while loop that processes each move.
+
+🌈 It should be **outside of the** `game.make_move()` **check** ✋ to avoid being printed prematurely.
