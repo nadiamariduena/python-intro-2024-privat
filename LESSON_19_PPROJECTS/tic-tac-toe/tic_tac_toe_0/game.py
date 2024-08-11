@@ -102,6 +102,9 @@ class TicTacToe:
             if all([spot == letter for spot in diagonal2]):
                 return True
 
+        # if all these fail
+        # If neither diagonal is completely filled with the same mark, the function
+        return False
 
 
 
