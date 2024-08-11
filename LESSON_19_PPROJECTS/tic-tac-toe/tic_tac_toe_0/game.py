@@ -90,6 +90,10 @@ class TicTacToe:
             # This checks the line going from the top-left to the bottom-right of the board.
             diagonal1 = [self.board[i] for i in [0, 4, 8]] #left to right diagonal
 
+            # If all three spots in this line are filled with the same player's mark, then that player won on this diagonal.
+            if all([spot == letter for spot in diagonal1]):
+                return True
+
 
 
 
