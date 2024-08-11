@@ -2090,3 +2090,30 @@ The `make_move` **function** will set the `current_winner` based on this result.
 
 
 
+
+<br>
+
+#### 🔸 Here below the user added the marks and created a diagonal line (green)
+
+- 🟢 Won!!
+
+<br>
+
+```python
+  🟢 |   | 🔵
+ ---|---|---
+    | 🟢 |
+ ---|---|---
+  🔵 |   | 🟢
+
+```
+
+
+<br>
+
+
+<br>
+
+
+
+## 🟧 Explanation:
