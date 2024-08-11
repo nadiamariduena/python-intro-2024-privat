@@ -2179,3 +2179,15 @@ The `make_move` **function** will set the `current_winner` based on this result.
             if all([spot == letter for spot in diagonal2]):
                 return True
 ```
+
+```bash
+   0 | 1 |🔸2
+  ---|---|---
+   3 |🔸4| 5
+  ---|---|---
+  🔸6| 7 | 8
+
+```
+<br>
+
+### 🟫 Why Start with 2?
