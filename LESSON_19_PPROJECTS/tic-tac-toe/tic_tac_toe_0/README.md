@@ -2319,3 +2319,12 @@ t = TicTacToe()
 <br>
 
 ### 🟦 Starting the Game:
+
+**Purpose:**
+
+- - This function call **starts the game**:
+t is the game instance.
+
+```python
+play(t, x_player, o_player, print_game=True)
+```
