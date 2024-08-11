@@ -2191,3 +2191,7 @@ The `make_move` **function** will set the `current_winner` based on this result.
 <br>
 
 ### 🟫 Why Start with 2?
+
+- -  The **anti**-diagonal **starts at** index **2 and goes** through index **4 to 6**.
+
+- -  - The move at **index 2** is significant because it's part of the **anti-diagonal**.
