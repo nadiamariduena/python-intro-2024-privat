@@ -2399,3 +2399,9 @@ X makes a move to a square 6
 Xwins!
 ```
 
+<br>
+<br>
+
+## 🔴 Small Bug
+
+- **Issue:** When playing the game, a message "It's a tie!" appears after the first value/number is entered, which shouldn't happen.
