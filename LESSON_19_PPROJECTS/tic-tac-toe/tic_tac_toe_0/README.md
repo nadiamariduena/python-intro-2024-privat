@@ -2418,3 +2418,44 @@ if print_game:
 - - The message is incorrectly placed within the while loop that processes each move.
 
 🌈 It should be **outside of the** `game.make_move()` **check** ✋ to avoid being printed prematurely.
+
+<br>
+
+
+
+#### related to this part of the code:
+
+```python
+    while game.empty_squares():
+
+        if letter == '0':
+            square = o_player.get_move(game) # Get move from 'O' player
+        else:
+            square = x_player.get_move(game) # Get move from 'X' player
+
+
+        if game.make_move(square, letter):
+            if print_game:
+                print(letter + f' makes a move to a square {square}')
+                game.print_board()
+                print("")
+
+            if game.current_winner:
+                if print_game:
+                    print(letter + 'wins!')
+                return letter
+
+
+
+            letter = '0' if letter == 'X' else 'X'
+
+        if print_game:
+            print('It\'s a tie!')
+
+
+if __name__ == '__main__':
+```
+
+<br>
+
+ ### 🟦 The tie message is meant to indicate that the game has ended in a draw.
