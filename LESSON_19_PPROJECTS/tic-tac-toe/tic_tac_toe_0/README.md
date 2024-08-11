@@ -2117,3 +2117,7 @@ The `make_move` **function** will set the `current_winner` based on this result.
 
 
 ## 🟧 Explanation:
+
+### 🟦 When to Check Diagonals:
+
+`if square % 2 == 0`: means we only check for diagonal wins if the move was made in one of these spots: **0, 2, 4, 6, or 8.** These are the spots where a diagonal can start or end.
