@@ -2332,3 +2332,17 @@ play(t, x_player, o_player, print_game=True)
 
 `x_player` and `o_player` are the human and computer players, respectively.
 
+
+`print_game=True`  **specifies** that the **game board** should **be printed after each move**, **allowing** players **to see** the **progress**.
+
+<br>
+<br>
+
+```python
+if __name__ == '__main__':
+    x_player = HumanPlayer('X')
+    o_player = RandomComputerPlayer('O')
+    t = TicTacToe()
+
+    play(t, x_player, o_player, print_game=True )
+```
