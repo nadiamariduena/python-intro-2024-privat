@@ -2131,3 +2131,11 @@ The `make_move` **function** will set the `current_winner` based on this result.
    O |   | X
 
 ```
+
+- 🔴 When you say an index like 2 is part of a diagonal, it means that if a move is made at index 2, it could potentially be part of the anti-diagonal.
+
+<br>
+
+<br>
+
+## 🌈 Diagonal Patterns:
