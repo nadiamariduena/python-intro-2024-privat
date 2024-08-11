@@ -2328,3 +2328,7 @@ t is the game instance.
 ```python
 play(t, x_player, o_player, print_game=True)
 ```
+<br>
+
+`x_player` and `o_player` are the human and computer players, respectively.
+
