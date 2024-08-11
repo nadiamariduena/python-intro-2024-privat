@@ -2224,3 +2224,22 @@ The `make_move` **function** will set the `current_winner` based on this result.
    6 | 7 |🔸8
 
 ```
+
+<br>
+<br>
+<br>
+
+### 🟧 If all three spots in this line are filled with the same player's mark, then that player won on this diagonal.
+
+
+```python
+# DIAGONAL1
+   if all([spot == letter for spot in diagonal1]):
+                return True
+
+
+
+# DIAGONAL2
+   if all([spot == letter for spot in diagonal2]):
+                return True
+```
