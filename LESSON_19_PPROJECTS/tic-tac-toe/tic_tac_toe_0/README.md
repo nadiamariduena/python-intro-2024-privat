@@ -2357,3 +2357,45 @@ if __name__ == '__main__':
 - 🟦 You should add the numbers between 0 & 8 to play
 
 - 🔴 the teacher mentioned that there is a bug, but continue to play (i will correct it later)
+
+#### Output
+
+```bash
+| 0| 1| 2 |
+| 3| 4| 5 |
+| 6| 7| 8 |
+X's turn. Input move (0-9):2
+X makes a move to a square 2
+|   |   | X |
+|   |   |   |
+|   |   |   |
+
+It's a tie!
+0 makes a move to a square 3
+|   |   | X |
+| 0 |   |   |
+|   |   |   |
+
+It's a tie!
+X's turn. Input move (0-9):4
+X makes a move to a square 4
+|   |   | X |
+| 0 | X |   |
+|   |   |   |
+
+It's a tie!
+0 makes a move to a square 5
+|   |   | X |
+| 0 | X | 0 |
+|   |   |   |
+
+It's a tie!
+X's turn. Input move (0-9):6
+X makes a move to a square 6
+|   |   | X |
+| 0 | X | 0 |
+| X |   |   |
+
+Xwins!
+```
+
