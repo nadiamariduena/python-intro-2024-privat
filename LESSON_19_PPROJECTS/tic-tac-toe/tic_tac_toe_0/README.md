@@ -2501,3 +2501,48 @@ if print_game:
     print('It\'s a tie!')
 
 ```
+
+<br>
+<br>
+
+### Testing it again
+
+- here i will choose diagonal moves, but in the next test i will do something different
+
+```python
+
+X's turn. Input move (0-9):2
+X makes a move to a square 2
+|   |   | X |
+|   |   |   |
+|   |   |   |
+
+0 makes a move to a square 3
+|   |   | X |
+| 0 |   |   |
+|   |   |   |
+
+X's turn. Input move (0-9):4
+X makes a move to a square 4
+|   |   | X |
+| 0 | X |   |
+|   |   |   |
+
+0 makes a move to a square 8
+|   |   | X |
+| 0 | X |   |
+|   |   | 0 |
+
+X's turn. Input move (0-9):6
+X makes a move to a square 6
+|   |   | X |
+| 0 | X |   |
+| X |   | 0 |
+
+Xwins!
+```
+
+<br>
+<br>
+
+### The game is pretty basic right now, so you'll almost always win. I've tried tweaking a few things to make the computer smarter, but it still tends to lose. Even after getting some help from ChatGPT to improve it, the computer's performance hasn’t really changed. (its frustrating)
