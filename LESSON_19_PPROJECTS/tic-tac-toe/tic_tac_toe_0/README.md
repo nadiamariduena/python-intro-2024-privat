@@ -2346,3 +2346,14 @@ if __name__ == '__main__':
 
     play(t, x_player, o_player, print_game=True )
 ```
+
+<br>
+<br>
+
+### 🧶 TEST
+
+- Within your project type: `python game.py` and run the code
+
+- 🟦 You should add the numbers between 0 & 8 to play
+
+- 🔴 the teacher mentioned that there is a bug, but continue to play (i will correct it later)
