@@ -2546,3 +2546,41 @@ Xwins!
 <br>
 
 ### The game is pretty basic right now, so you'll almost always win. I've tried tweaking a few things to make the computer smarter, but it still tends to lose. Even after getting some help from ChatGPT to improve it, the computer's performance hasn’t really changed. (its frustrating)
+
+```python
+ 0| 1| 2 |
+| 3| 4| 5 |
+| 6| 7| 8 |
+X's turn. Input move (0-9):3
+X makes a move to a square 3
+|   |   |   |
+| X |   |   |
+|   |   |   |
+
+0 makes a move to a square 6
+|   |   |   |
+| X |   |   |
+| 0 |   |   |
+
+X's turn. Input move (0-9):4
+X makes a move to a square 4
+|   |   |   |
+| X | X |   |
+| 0 |   |   |
+
+0 makes a move to a square 8
+|   |   |   |
+| X | X |   |
+| 0 |   | 0 |
+
+X's turn. Input move (0-9):5
+X makes a move to a square 5
+|   |   |   |
+| X | X | X |
+| 0 |   | 0 |
+
+Xwins!
+```
+
+<br>
+<br>
