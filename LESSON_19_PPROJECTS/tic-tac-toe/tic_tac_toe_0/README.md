@@ -2166,3 +2166,16 @@ The `make_move` **function** will set the `current_winner` based on this result.
    6 | 7 |🔸8
 
 ```
+
+<br>
+<br>
+
+🌈 **Anti-Diagonal:** Moves are at indices 2, 4, and 6.
+
+```python
+ diagonal2 = [self.board[i] for i in [2, 4, 6]]
+ # This line checks if positions 2, 4, and 6 form a diagonal from the top-right to the bottom-left.
+ # right to left diagonal
+            if all([spot == letter for spot in diagonal2]):
+                return True
+```
