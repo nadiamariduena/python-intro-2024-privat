@@ -2195,3 +2195,12 @@ The `make_move` **function** will set the `current_winner` based on this result.
 - -  The **anti**-diagonal **starts at** index **2 and goes** through index **4 to 6**.
 
 - -  - The move at **index 2** is significant because it's part of the **anti-diagonal**.
+
+<br>
+
+### 🟫 The Role of Index 4:
+
+- - **Index 4** is **crucial** because it’s the center of the board and part of both diagonals.
+
+
+#### `2, 4, 6`
