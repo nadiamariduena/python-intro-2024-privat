@@ -87,6 +87,11 @@ class TicTacToe:
         # these are the only moves possible to win a diagonal
         if square % 2 == 0:
 
+            # This checks the line going from the top-left to the bottom-right of the board.
+            diagonal1 = [self.board[i] for i in [0, 4, 8]] #left to right diagonal
+
+
+
 
 
 def play(game, x_player, o_player, print_game=[True]):
