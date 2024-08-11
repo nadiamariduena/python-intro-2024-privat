@@ -94,6 +94,9 @@ class TicTacToe:
             if all([spot == letter for spot in diagonal1]):
                 return True
 
+            #  This checks the line going from the top-right to the bottom-left of the board.
+            diagonal2 = [self.board[i] for i in [2, 4, 6]] # right to left diagonal
+
 
 
 
