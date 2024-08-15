@@ -189,3 +189,13 @@ https://pyga.me/docs/ref/display.html
 
 The **display** <u>in Pygame</u>  **is** the **main window or screen** <u>where</u>  **your game** or graphical application **will be shown**.
 
+
+**Creation:** You create the display using `pygame.display.set_mode()`.
+
+
+```python
+import pygame
+
+pygame.init()
+screen = pygame.display.set_mode((800, 600))  # Create a display surface with size 800x600
+```
