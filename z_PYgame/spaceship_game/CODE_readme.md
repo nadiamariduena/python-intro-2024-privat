@@ -557,3 +557,15 @@ pygame.quit()
 
 
 https://github.com/user-attachments/assets/e5a1fcd9-5d8d-469c-9cd9-2eb91cc17b97
+
+<br>
+<br>
+
+### 🟦 Once you have the animation, if you hide this line below, you will have another effect
+
+```python
+ # 7 --- DRAW the game ----
+ # list of colors: https://pyga.me/docs/ref/color_list.html
+
+display_surface.fill("lavenderblush2")
+```
