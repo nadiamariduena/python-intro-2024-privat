@@ -95,3 +95,13 @@ pygame.quit()
 
 - - **Updates the entire screen** with the new frame.
 
+
+📍 **Usage:**
+
+- -  Always updates the entire display surface. It's typically used when you are rendering the entire screen for each frame.
+
+```python
+pygame.display.flip()  # Updates the entire screen
+
+```
+
