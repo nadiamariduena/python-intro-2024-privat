@@ -280,7 +280,12 @@ pygame.quit()
 
 ### Change the BG
 
+Colors in Pygame are typically managed using **RGB** values, where each color is represented by a combination of **Red, Green, and Blue** components. Here’s a detailed overview:
 
+#### READ MORE [color_fill](../color_fill_.md)
+
+
+<br>
 
 
 
