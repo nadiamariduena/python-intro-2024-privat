@@ -366,3 +366,17 @@ pygame.quit()
 
  - - Add some color with `Fill`
 
+ ```python
+#10 create a surface
+# w:100 px & h: 200px
+surf = pygame.Surface((100,200))
+# surf for surface
+# COLOR of the shape
+surf.fill('orange')
+```
+
+### 🟤 Use it within the WHILE loop
+
+```python
+    display_surface.blit(surf, (100,150))
+```
