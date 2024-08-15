@@ -84,3 +84,14 @@ pygame.quit()
 <br>
 
 ### DRAW: 🟦 `FLIP()`
+
+ <a name="flip_"></a>
+
+
+####   `pygame.display.flip()`
+
+
+📍 **Functionality:**
+
+- - **Updates the entire screen** with the new frame.
+
