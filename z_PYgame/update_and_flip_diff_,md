@@ -105,3 +105,14 @@ pygame.display.flip()  # Updates the entire screen
 
 ```
 
+
+📍 **Performance:**
+
+- -  **Since it updates the entire screen, it might be less efficient compared to update()** if only part of the screen has changed.
+
+ <br>
+
+<br>
+
+### 🟦 Summary of Differences
+
