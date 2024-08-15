@@ -11,13 +11,16 @@
 <br>
 <br>
 
-<a name="update_"></a>
+
 
 ### 🟦 UPDATE()
 
 ####   `pygame.display.update()`
 
 <br>
+
+<a name="update_"></a>
+
 
 📍 **Functionality:**
 
