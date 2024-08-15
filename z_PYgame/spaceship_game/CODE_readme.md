@@ -203,7 +203,7 @@ pygame.quit()
 
  - A regular **surface** is an image of some kind, **you can have any number** but they are 🔴 **only visible when attached to the `display surface`**.
 
-
+ #### 🍦 Other than that, they share some attributes and methods.
 
 
 
