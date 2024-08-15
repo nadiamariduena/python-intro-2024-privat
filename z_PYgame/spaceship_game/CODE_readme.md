@@ -467,16 +467,39 @@ https://github.com/user-attachments/assets/fc8424c8-5034-4c99-9d66-b031ad5c6178
 
 [<img src="explanation_displaysurface_surface.png"/>](https://youtu.be/8OMghdHP-zs?si=grSlvwZx4hcMnnxq&t=1451)
 
-```python
-x = 100
-# x, y axis
-display_surface.blit(surf, (x, 150))
-```
 
 <br>
 
 
+
+<br>
+<br>
+<br>
+
+<a name="anim1_"></a>
+
 ## 🧶 Animate
+
+<br>
+<br>
+
+## 🟠 New variable
+
+**Define a Variable for Position:**
+
+- - Start by **creating** a **variable** to **hold the position** of the **shape** on the `x-axis`.
+
+#### For instance:
+
+```python
+x = 100
+#This variable x represents the horizontal position of your shape.
+```
+
+
+
+<br>
+<br>
 
 ### Why `x` ?
 
