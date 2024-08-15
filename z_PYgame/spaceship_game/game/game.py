@@ -16,10 +16,10 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-    display_surface.fill()
+    display_surface.fill("lavenderblush2")
 
 
-    pygame.display.update("lavenderblush2")
+    pygame.display.update()
 
 
 
