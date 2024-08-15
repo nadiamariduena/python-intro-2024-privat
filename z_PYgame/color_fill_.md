@@ -40,3 +40,15 @@ https://pyga.me/docs/ref/color_list.html
 
 #### When creating graphics or backgrounds, you can use these RGB tuples to specify colors.
 
+<br>
+
+#### Examples:
+
+### 🟤 Fill a surface with a color:
+
+```python
+surface.fill((255, 0, 0))  # Fills the surface with red
+
+# OR
+surface.fill((255, 0, 0))
+```
