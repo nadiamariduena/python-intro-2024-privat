@@ -458,3 +458,11 @@ https://github.com/user-attachments/assets/fc8424c8-5034-4c99-9d66-b031ad5c6178
 
 ### REMEMBER: 🔴 one set of numeric values defines the <u>size of the surface</u>  and the <u>other set defines its position on the canvas</u>   where it will be drawn?
 
+
+<br>
+
+<br>
+
+-  As you can see it on the image, **100** from the **X axis** and **150** from the **Y axis**
+
+[<img src="explanation_displaysurface_surface.png"/>](https://youtu.be/8OMghdHP-zs?si=grSlvwZx4hcMnnxq&t=1451)
