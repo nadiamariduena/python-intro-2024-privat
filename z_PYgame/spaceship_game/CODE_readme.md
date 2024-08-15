@@ -285,6 +285,11 @@ Colors in Pygame are typically managed using **RGB** values, where each color is
 #### READ MORE [color_fill](../color_fill_.md)
 
 
+
+### 🌈 All colors
+
+https://pyga.me/docs/ref/color_list.html
+
 <br>
 
 
