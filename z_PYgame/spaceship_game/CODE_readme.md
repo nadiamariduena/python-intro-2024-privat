@@ -138,3 +138,21 @@ while running:
  The teacher on the tutorial says that **they are the same**, `but` **they are not**. [read more: update_and_flip_diff](../update_and_flip_diff_.md)
 
 - - In Pygame, both `pygame.display.update()` and `pygame.display.flip()` are **used** to **update** the contents of the display, **but** they have **different use cases and behaviors**.
+
+<br>
+<br>
+
+
+## 🟦 Draw: `Fill`
+
+
+
+### Read the documentation
+
+- - https://pyga.me/docs/ref/draw.html
+
+- - https://pyga.me/docs/ref/display.html
+
+<br>
+
+🔶 I will be using the **display** & the `surface`
