@@ -473,6 +473,29 @@ x = 100
 display_surface.blit(surf, (x, 150))
 ```
 
+<br>
+
+
+## 🧶 Animate
+
+### Why `x` ?
+
+To animate a shape or surface in a graphical program, you need to `update` its **position over time**.
+
+- - This involves **adjusting a numeric value in a variable**, which **controls where** the **shape is drawn** on **the screen**.
+
+```python
+# before
+(surf, (100,150))
+
+# after
+x = 100
+# x, y axis
+display_surface.blit(surf, (x, 150))
+```
+
+
+
 ```python
 # ✋
 x = 100

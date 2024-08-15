@@ -22,7 +22,7 @@ while running:
             running = False
 
     display_surface.fill("lavenderblush2")
-
+    x += 0.1
     display_surface.blit(surf, (x,150))
 
 
