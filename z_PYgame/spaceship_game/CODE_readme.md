@@ -140,12 +140,22 @@ while running:
 - - In Pygame, both `pygame.display.update()` and `pygame.display.flip()` are **used** to **update** the contents of the display, **but** they have **different use cases and behaviors**.
 
 <br>
+
+```python
+    pygame.display.update()
+
+pygame.quit()
+```
+
+<br>
 <br>
 
 
-## 🟦 Draw: `Fill`
 
 
+## 🟦 Draw: `Display`, `Surface`, `Fill`
+
+<br>
 
 ### Read the documentation
 
@@ -168,7 +178,7 @@ while running:
 
 <br>
 
-#### 🟣 QUESTION:  to draw something using pygame, do you need first the `display` and then the `surface`, why?
+### 🟣 QUESTION:  to draw something using pygame, do you need first the `display` and then the `surface`, why?
 
 <br>
 
@@ -228,4 +238,35 @@ my_surface = pygame.Surface((100, 100))  # Create an off-screen surface of size 
 
 ```python
 surface.fill((255, 0, 0))  # Fills the surface with red
+```
+
+<br>
+<br>
+
+```python
+import pygame
+
+
+pygame.init()
+
+
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
+
+display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+
+running = True
+
+while running:
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+
+    pygame.display.update()
+
+
+
+
+pygame.quit()
 ```
