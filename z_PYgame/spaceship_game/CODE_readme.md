@@ -215,3 +215,10 @@ https://pyga.me/docs/ref/surface.html
 
 **A surface in Pygame** is a **2D array of pixels** that **represents** an **image** or a **portion** of the **screen.**
 
+
+```python
+# SIZE of the shape
+my_surface = pygame.Surface((100, 100))  # Create an off-screen surface of size 100x100
+```
+- - ###  Adding color to the new shape:
+
