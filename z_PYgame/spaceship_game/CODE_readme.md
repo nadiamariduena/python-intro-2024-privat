@@ -156,3 +156,9 @@ while running:
 <br>
 
 🔶 I will be using the **display** & the `surface`
+
+<br>
+<br>
+
+#### 🟣 QUESTION:  to draw something using pygame, do you need first the `display` and then the `surface`, why?
+
