@@ -162,3 +162,8 @@ while running:
 
 #### 🟣 QUESTION:  to draw something using pygame, do you need first the `display` and then the `surface`, why?
 
+<br>
+
+#### ✅ chatgpt:
+
+-  When using Pygame to draw graphics, the process involves working with both the display and surfaces. Here's a breakdown of why both are necessary:
