@@ -399,6 +399,18 @@ surf = pygame.Surface((100,200))
 # surf for surface
 ```
 
+2. The second argument can be a tuple with the `(x, y)` **position**, it can also be a rectangle, but we will check this later on
+
+<br>
+
+#### like so
+
+```python
+# args = arguments
+#  display_surface.blit(1args, (2args))
+ display_surface.blit(surf, (x,y))
+```
+
 
 <br>
 
