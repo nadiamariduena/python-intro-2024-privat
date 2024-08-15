@@ -412,6 +412,7 @@ surf = pygame.Surface((100,200))
 ```
 
 
+
 <br>
 
 ```python
@@ -445,8 +446,6 @@ while running:
 
 
     pygame.display.update()
-
-
 
 
 pygame.quit()

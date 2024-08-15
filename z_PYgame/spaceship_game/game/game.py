@@ -13,6 +13,7 @@ running = True
 
 surf = pygame.Surface((100,200))
 surf.fill('orange')
+x = 100
 
 while running:
 
@@ -22,7 +23,7 @@ while running:
 
     display_surface.fill("lavenderblush2")
 
-    display_surface.blit(surf, (100,150))
+    display_surface.blit(surf, (x,150))
 
 
     pygame.display.update()
