@@ -525,6 +525,12 @@ display_surface.blit(surf, (x, 150))
 
 - - In your animation loop, you need to continuously change the value of `x` to move the shape. The line: `x += 0.1`
 
+<br>
+
+>means **you are increasing** the **value of x by 0.1 each time the loop runs.**
+
+
+
 
 ```python
 # ✋
