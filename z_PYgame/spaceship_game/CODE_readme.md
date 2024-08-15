@@ -195,6 +195,15 @@ pygame.quit()
 
 -  When using Pygame to draw graphics, the process involves working with both the display and surfaces.
 
+<br>
+
+### 🟡 Display surface vs surface
+
+ - The **display surface** is the main surface that we draw **on**, and there can only be one and its always visible.
+
+
+
+
 <br><br>
 
   <a name="display_"></a>
@@ -301,7 +310,39 @@ https://pyga.me/docs/ref/color_list.html
 
 <br>
 
+```python
+import pygame
 
+
+pygame.init()
+
+
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
+
+
+# ✋
+display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+
+running = True
+
+while running:
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+    # ✋
+    display_surface.fill("lavenderblush2")
+
+
+    pygame.display.update()
+
+
+pygame.quit()
+```
+
+
+<br>
 
 
 <br>
