@@ -201,6 +201,10 @@ pygame.quit()
 
  - The **display surface** is the main surface that we draw **on**, and there can only be one and its always visible.
 
+ - A regular **surface** is an image of some kind, **you can have any number** but they are 🔴 **only visible when attached to the `display surface`**.
+
+
+
 
 
 
