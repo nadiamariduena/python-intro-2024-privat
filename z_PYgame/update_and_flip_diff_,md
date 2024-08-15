@@ -1,0 +1,25 @@
+
+## 🟡 Update & Flip differences
+
+
+- `update()` : [Go to section](#update_)
+
+-  `flip()`: [Go to section](#flip_)
+
+
+<br>
+<br>
+<br>
+
+<a name="update_"></a>
+
+### 🟦 UPDATE()
+
+####   `pygame.display.update()`
+
+<br>
+
+📍 **Functionality:**
+
+- -  Updates a **specific portion** of the **screen** or the **entire screen**.
+

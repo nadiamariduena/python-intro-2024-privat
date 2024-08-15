@@ -135,6 +135,6 @@ while running:
 
 #### `pygame.display.update()` and `pygame.display.flip()
 
- The teacher on the tutorial says that they are the same, but they are not
+ The teacher on the tutorial says that they are the same, but they are not.
 
 - - In Pygame, both `pygame.display.update()` and `pygame.display.flip()` are **used** to **update** the contents of the display, **but** they have **different use cases and behaviors**.
