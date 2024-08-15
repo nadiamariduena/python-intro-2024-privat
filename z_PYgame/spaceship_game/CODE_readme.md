@@ -516,7 +516,14 @@ x = 100
 # x, y axis
 display_surface.blit(surf, (x, 150))
 ```
+<br>
+<br>
 
+
+
+## 🟠 Update Position for Animation:
+
+- - In your animation loop, you need to continuously change the value of `x` to move the shape. The line: `x += 0.1`
 
 
 ```python
