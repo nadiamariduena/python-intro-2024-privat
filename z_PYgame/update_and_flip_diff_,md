@@ -116,3 +116,10 @@ pygame.display.flip()  # Updates the entire screen
 
 ### 🟦 Summary of Differences
 
+
+**Scope of Update:**
+
+- - `update()` can update specific areas of the screen or the whole screen.
+
+
+- - `flip()` updates the entire screen.
