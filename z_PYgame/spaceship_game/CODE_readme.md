@@ -388,6 +388,16 @@ surf.fill('orange')
 
 ## 🟦 `Blit()` (Block Image Transfer)
 
+- The `Blit()` is a fancy way of saying **You want to put ONE surface on ANOTHER surface**
+
+####  1. This method *Blit*, will have `2` arguments, first one is *surface* i just create `surf` from here below
+
+```python
+#10 create a surface
+# w:100 px & h: 200px
+surf = pygame.Surface((100,200))
+# surf for surface
+```
 
 
 <br>
