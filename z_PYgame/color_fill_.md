@@ -102,3 +102,12 @@ pygame.quit()
 ### 🟠 4. Color Manipulation
 
 In addition to direct RGB values, you can manipulate colors in various ways:
+
+**Blending Colors:** Mix colors using blending functions or by averaging RGB values.
+
+<br>
+
+**Transparency:**
+
+- - Use **RGBA** values where A (Alpha) represents the transparency level.
+
