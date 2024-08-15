@@ -222,3 +222,10 @@ my_surface = pygame.Surface((100, 100))  # Create an off-screen surface of size 
 ```
 - - ###  Adding color to the new shape:
 
+#### Examples:
+
+- 🟤 Fill a surface with a color:
+
+```python
+surface.fill((255, 0, 0))  # Fills the surface with red
+```
