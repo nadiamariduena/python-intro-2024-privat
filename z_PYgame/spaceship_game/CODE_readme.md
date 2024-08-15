@@ -8,7 +8,7 @@
 
 - `update()` : [Go to section](#update_)
 
--  `flip()`: [Go to section](#flip_)
+-  `flip()`: [Go to section](#update_)
 
 
 -  `surface()`: [Go to section](#surface_)
@@ -131,19 +131,28 @@ while running:
 <br>
 
 
-## 🟠 DRAW <u>the game</u>
+ <a name="update_"></a>
+
+
+
+## 🟠 UPDATE <u>the scene/ game</u>
 
 #### `pygame.display.update()` and `pygame.display.flip()
 
+<br>
+
  The teacher on the tutorial says that **they are the same**, `but` **they are not**. [read more: update_and_flip_diff](../update_and_flip_diff_.md)
+
+<br>
 
 - - In Pygame, both `pygame.display.update()` and `pygame.display.flip()` are **used** to **update** the contents of the display, **but** they have **different use cases and behaviors**.
 
 <br>
 
 ```python
-    pygame.display.update()
-
+# ✋
+pygame.display.update()
+# ✋
 pygame.quit()
 ```
 
@@ -151,7 +160,7 @@ pygame.quit()
 <br>
 
 
-
+ <a name="surface_"></a>
 
 ## 🟦 Draw: `Display`, `Surface`, `Fill`
 
