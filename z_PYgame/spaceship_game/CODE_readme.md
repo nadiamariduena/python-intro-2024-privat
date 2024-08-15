@@ -529,7 +529,9 @@ display_surface.blit(surf, (x, 150))
 
 >means **you are increasing** the **value of x by 0.1 each time the loop runs.**
 
+- - This creates a smooth movement as the shape gradually moves to the right.
 
+<br>
 
 
 ```python
