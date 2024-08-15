@@ -354,4 +354,11 @@ pygame.quit()
 
 # 🟦 Phase 2
 
-### 🟠 Displaying Graphics
+## 🟠 Displaying Graphics
+
+<br>
+
+### 🟤 CREATE another `SURFACE` 🕺
+
+ - this surface will be like the 🔫 **shooter**(can be anything you want)
+
