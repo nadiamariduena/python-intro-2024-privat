@@ -23,3 +23,8 @@
 
 - -  Updates a **specific portion** of the **screen** or the **entire screen**.
 
+📍 **Usage:**
+
+- - You can **pass specific rectangles (or a list of rectangles)** to this function to **only update parts of** the **screen**.
+
+<br>
