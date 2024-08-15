@@ -174,4 +174,18 @@ while running:
 
 #### ✅ chatgpt:
 
--  When using Pygame to draw graphics, the process involves working with both the display and surfaces. Here's a breakdown of why both are necessary:
+-  When using Pygame to draw graphics, the process involves working with both the display and surfaces.
+
+<br><br>
+
+  <a name="display_"></a>
+
+<br>
+
+
+### 🟠 1. Display
+
+https://pyga.me/docs/ref/display.html
+
+The **display** <u>in Pygame</u>  **is** the **main window or screen** <u>where</u>  **your game** or graphical application **will be shown**.
+
