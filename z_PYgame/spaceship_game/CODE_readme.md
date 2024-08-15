@@ -507,8 +507,15 @@ while running:
             running = False
 
     display_surface.fill("lavenderblush2")
-        # ✋
+    # ✋ anim
+    x += 0.1
     display_surface.blit(surf, (x,150))
+
     pygame.display.update()
 pygame.quit()
 ```
+
+### Output
+
+
+https://github.com/user-attachments/assets/e5a1fcd9-5d8d-469c-9cd9-2eb91cc17b97
