@@ -450,3 +450,11 @@ while running:
 
 pygame.quit()
 ```
+
+https://github.com/user-attachments/assets/fc8424c8-5034-4c99-9d66-b031ad5c6178
+
+
+<br>
+
+### REMEMBER: 🔴 one set of numeric values defines the <u>size of the surface</u>  and the <u>other set defines its position on the canvas</u>   where it will be drawn?
+
