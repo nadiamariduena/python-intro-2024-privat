@@ -206,14 +206,12 @@ screen = pygame.display.set_mode((800, 600))  # Create a display surface with si
 
  <a name="surface_"></a>
 
-## 🟠 2. Surface
+## 🟠 2. <u>Surface</u>  / new shape
 
 https://pyga.me/docs/ref/surface.html
 
 
+<br>
+
 **A surface in Pygame** is a **2D array of pixels** that **represents** an **image** or a **portion** of the **screen.**
 
-
-```python
-my_surface = pygame.Surface((100, 100))  # Create an off-screen surface of size 100x100
-```
