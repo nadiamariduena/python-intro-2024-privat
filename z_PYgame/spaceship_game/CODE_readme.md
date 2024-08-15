@@ -271,4 +271,23 @@ while running:
 pygame.quit()
 ```
 
-### 🟤 RUn the code: it should be black
+- 🟤 Run the code: it should be black
+
+<br>
+<br>
+
+## 🟠 `surface.fill`
+
+### Change the BG
+
+
+
+
+
+
+<br>
+<br>
+
+# 🟦 Phase 2
+
+### 🟠 Displaying Graphics
