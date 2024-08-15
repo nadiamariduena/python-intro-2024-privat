@@ -46,4 +46,8 @@ https://pyga.me/docs/ref/color_list.html
 
 ```python
 surface.fill((255, 0, 0))  # Fills the surface with red
+
+# or
+surface.fill("lavenderblush2")
+#more colors: https://pyga.me/docs/ref/color_list.html
 ```
