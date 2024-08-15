@@ -28,3 +28,18 @@
 - - You can **pass specific rectangles (or a list of rectangles)** to this function to **only update parts of** the **screen**.
 
 <br>
+
+#### 🔴 If no arguments are provided, it updates the whole screen.
+
+```python
+pygame.display.update()  # Updates the entire screen
+pygame.display.update(rect)  # Updates only the specified rectangle
+
+```
+
+<br>
+
+📍 **Performance:**
+
+- - ✋ By updating only parts of the screen that have changed, it can be more efficient if you’re only changing a small portion of the display.
+
