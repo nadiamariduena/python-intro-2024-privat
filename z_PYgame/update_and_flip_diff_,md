@@ -133,3 +133,13 @@ pygame.display.flip()  # Updates the entire screen
 
 `flip()` always refreshes the whole screen, which can be less efficient if only small parts have changed.
 
+
+<br>
+
+**Typical Use Cases:**
+
+**Use** `update()` when you need fine-grained control over which parts of the screen are updated.
+
+**Use** `flip()` when you are redrawing the entire screen, such as in full-screen animations or games.
+
+<br>
