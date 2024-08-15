@@ -91,3 +91,38 @@ WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720  # Set the width and height of the windo
 # Create a display surface with the specified dimensions
 display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))  # Create a window or screen for display with the specified width and height. This surface is where you'll draw your game graphics and handle user interactions.
 ```
+
+<br>
+<br>
+
+## 🟠 Implement the Loop
+
+- -  Compare the below codes (both):
+
+- - - The code below is from a previous project
+
+[https://github.com/nadiamariduena/python-intro-2024-privat/blob/master/LESSON_5_loops/loop_rain/intro_pygame.py](https://github.com/nadiamariduena/python-intro-2024-privat/blob/master/LESSON_5_loops/loop_rain/intro_pygame.py)
+
+
+```python
+import pygame
+
+pygame.init()
+
+# Define the dimensions for the window
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
+
+display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+
+# ✋
+running = True
+
+# ✋
+while running:
+#------------- GAME LOOP
+# 6 WHILE 'run' is TRUE ':' execute all the code below
+   for event in pygame.event.get():
+       if event.type == pygame.QUIT:
+           running = False
+
+```
