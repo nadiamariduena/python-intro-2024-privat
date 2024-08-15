@@ -151,17 +151,21 @@ while running:
 
 <br>
 
-- - https://pyga.me/docs/ref/surface.html#pygame.Surface.fill
+ https://pyga.me/docs/ref/surface.html#pygame.Surface.fill
 
-- - https://pyga.me/docs/ref/draw.html
+ https://pyga.me/docs/ref/draw.html
 
-- - https://pyga.me/docs/ref/display.html
 
 <br>
 
 🔶 I will be using the **display** & the `surface`
 
-<br>
+- - https://pyga.me/docs/ref/display.html
+
+- - https://pyga.me/docs/ref/surface.html
+
+
+
 <br>
 
 #### 🟣 QUESTION:  to draw something using pygame, do you need first the `display` and then the `surface`, why?
