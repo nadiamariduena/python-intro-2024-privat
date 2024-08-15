@@ -111,3 +111,16 @@ In addition to direct RGB values, you can manipulate colors in various ways:
 
 - - Use **RGBA** values where A (Alpha) represents the transparency level.
 
+
+#### Example with transparency:
+
+```python
+surface = pygame.Surface((100, 100), pygame.SRCALPHA)
+# Create a surface with per-pixel alpha
+
+
+surface.fill((255, 0, 0, 128))
+# Fill with semi-transparent red
+
+```
+
