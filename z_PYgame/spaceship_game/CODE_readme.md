@@ -466,3 +466,26 @@ https://github.com/user-attachments/assets/fc8424c8-5034-4c99-9d66-b031ad5c6178
 -  As you can see it on the image, **100** from the **X axis** and **150** from the **Y axis**
 
 [<img src="explanation_displaysurface_surface.png"/>](https://youtu.be/8OMghdHP-zs?si=grSlvwZx4hcMnnxq&t=1451)
+
+```python
+x = 100
+# x, y axis
+display_surface.blit(surf, (x, 150))
+```
+
+```python
+# ✋
+x = 100
+
+while running:
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+    display_surface.fill("lavenderblush2")
+        # ✋
+    display_surface.blit(surf, (x,150))
+    pygame.display.update()
+pygame.quit()
+```
