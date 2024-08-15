@@ -569,3 +569,16 @@ https://github.com/user-attachments/assets/e5a1fcd9-5d8d-469c-9cd9-2eb91cc17b97
 
 display_surface.fill("lavenderblush2")
 ```
+
+
+https://github.com/user-attachments/assets/d44a274c-2a16-48ef-91b5-51cfbabba6ed
+
+
+<br>
+<br>
+<br>
+
+<a name="load_img_"></a>
+
+
+## 🟡 Load an image
