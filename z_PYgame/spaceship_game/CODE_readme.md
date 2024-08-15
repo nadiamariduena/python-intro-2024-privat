@@ -80,3 +80,14 @@ pygame.quit()
 <br>
 
 ## 🟠 Create the window
+
+- Its a bit similar to threejs [3d-waving-flag-threejs](https://github.com/nadiamariduena/3d-waving-flag-threejs)
+
+
+```python
+# Define the dimensions for the window
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720  # Set the width and height of the window. These values define the resolution of the display surface.
+
+# Create a display surface with the specified dimensions
+display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))  # Create a window or screen for display with the specified width and height. This surface is where you'll draw your game graphics and handle user interactions.
+```
