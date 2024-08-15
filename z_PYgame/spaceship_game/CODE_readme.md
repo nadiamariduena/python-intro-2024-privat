@@ -39,3 +39,44 @@
 
 
 <br>
+
+---
+
+
+<br>
+<br>
+
+
+## 🟦 Phase 1
+
+
+## 🟠 Import and Init
+
+```python
+
+import pygame  # Import the Pygame library, which provides functionalities for game development and multimedia applications.
+
+# ---- general setup ----
+
+# Initialize Pygame modules and settings
+pygame.init()  # Initialize all imported Pygame modules. This must be called before using other Pygame functions.
+```
+<br>
+<br>
+
+### 🟦 The following should be added at the top and bottom of the file
+
+```python
+# init/start
+pygame.init()
+
+# end
+pygame.quit()
+# the pygame,quit() should always be placed after the loop
+```
+
+<br>
+<br>
+<br>
+
+## 🟠 Create the window
