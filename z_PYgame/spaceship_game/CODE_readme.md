@@ -362,3 +362,7 @@ pygame.quit()
 
  - this surface will be like the 🔫 **shooter**(can be anything you want)
 
+ - - Create the `surf` variable, add some a width and height
+
+ - - Add some color with `Fill`
+
