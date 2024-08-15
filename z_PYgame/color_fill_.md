@@ -124,3 +124,11 @@ surface.fill((255, 0, 0, 128))
 
 ```
 
+### Summary
+
+- Colors in Pygame are specified using RGB tuples.
+
+
+- Color Operations: You can fill surfaces, draw shapes, and manipulate colors using RGB values.
+
+**Transparency:** Managed using **RGBA values** on surfaces with per-pixel alpha.
