@@ -15,6 +15,10 @@ surf = pygame.Surface((100,200))
 surf.fill('orange')
 x = 100
 
+
+player_surf = pygame.image.load('../images/player.png')
+
+
 while running:
 
     for event in pygame.event.get():
