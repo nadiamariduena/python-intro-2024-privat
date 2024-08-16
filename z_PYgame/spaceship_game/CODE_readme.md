@@ -587,3 +587,15 @@ https://github.com/user-attachments/assets/d44a274c-2a16-48ef-91b5-51cfbabba6ed
 #13 IMporting img
 player_surf = pygame.image.load('../images/player.png')
 ```
+## 🌴 To see the image
+
+- 🫐 replace
+
+```python
+# this
+# surf is the squared/cuboid shape
+display_surface.blit(surf, (x,150))
+
+# for this
+display_surface.blit(player_surf, (x,150))
+```
