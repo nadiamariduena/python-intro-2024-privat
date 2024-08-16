@@ -599,3 +599,9 @@ display_surface.blit(surf, (x,150))
 # for this
 display_surface.blit(player_surf, (x,150))
 ```
+<br>
+<br>
+
+> We have successfully `Blited` the **surf** for the **player_surf**
+
+https://github.com/user-attachments/assets/c3db1e6e-3cd4-41c6-9105-34964df50eab
