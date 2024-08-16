@@ -27,7 +27,7 @@ while running:
 
     display_surface.fill("lavenderblush2")
     x += 0.1
-    display_surface.blit(surf, (x,150))
+    display_surface.blit(player_surf, (x,150))
 
 
     pygame.display.update()
