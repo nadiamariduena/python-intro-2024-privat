@@ -279,3 +279,12 @@ pygame.quit()
 
 <br>
 <br>
+
+### You have  a couple of options here, like for example:
+
+```python
+#1
+player_rect = player_surf.get_frect(topleft = (0, 0))
+#2
+player_rect = player_surf.get_frect(center = (0, 0))
+```
