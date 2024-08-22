@@ -293,7 +293,6 @@ player_rect = player_surf.get_frect(center = (0, 0))
 
 ### 🟠 this position: `(0, 0)`,  would be the position on the display surface from here:
 
-- I will add more details in the next phase
 
 ```python
 display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
