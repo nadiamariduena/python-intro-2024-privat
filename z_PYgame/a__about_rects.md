@@ -97,3 +97,17 @@ In Pygame, `Frect` (or frect) is **less commonly used compared** to `Rect`, **an
 
 - - If you need floating-point precision for rectangles, you might have to use or create **custom classes or rely on external libraries.
 Third-Party Libraries:**
+
+<br>
+
+- - - Some third-party libraries or extensions might provide an FRect class or similar functionality.
+
+<br>
+
+### `pygame.freetype`
+
+-  One such library is `pygame.freetype` **for text rendering**, which **uses floating-point precision** for certain **operations**, but it does not provide a general FRect class.
+
+<br>
+<br>
+<br>
