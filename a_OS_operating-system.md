@@ -30,3 +30,11 @@
 <br>
 <br>
 <br>
+
+### 🫐 to concatenate
+
+#### The `join` function is used to `concatenate` <u>parts of a file path</u>  in a way that is platform-independent.
+
+- - This means it will **use** the **correct path separators for the operating system you're running your code** on `(e.g., / for Unix-based systems like Linux and macOS, and \ for Windows)`.
+
+<br>
