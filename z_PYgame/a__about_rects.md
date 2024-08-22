@@ -196,7 +196,94 @@ myRect = pygame.Rect(100, 50, 20, 30)
  <br>
 
 
-<br>
+**Check Boundaries:** Ensure objects stay within certain limits by checking if they are inside or outside of specific Rects.
+
+#### example:
 
 
+
+```python
+import pygame
+import sys
+#sys.exit() is a good practice for handling program
+# termination gracefully, especially when the user closes
+#  the game window.
+
+# Initialize Pygame
+pygame.init()
+
+# Set up the display
+screen = pygame.display.set_mode((500, 400))
+pygame.display.set_caption("Rectangle Boundary Example")
+
+# Define colors
+WHITE = (255, 255, 255)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+
+# Create the play area as a rectangle (left, top, width, height)
+play_area = pygame.Rect(50, 50, 400, 300)
+
+# Create a character as a rectangle (left, top, width, height)
+character = pygame.Rect(100, 100, 20, 20)
+
+# Clock to control the frame rate
+clock = pygame.time.Clock()
+
+# Main game loop
+running = True
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            sys.exit()
+
+    # Movement speed
+    speed = 5
+
+    # Get pressed keys / USE the  arrows
+    keys = pygame.key.get_pressed()
+    if keys[pygame.K_LEFT]:
+        character.x -= speed
+    if keys[pygame.K_RIGHT]:
+        character.x += speed
+    if keys[pygame.K_UP]:
+        character.y -= speed
+    if keys[pygame.K_DOWN]:
+        character.y += speed
+
+    # Check if the character is inside the play area
+    if not play_area.colliderect(character):
+        # Print message if the character is outside the play area
+        print("The character is outside the play area!: 🟨")
+
+        # Move the character back inside
+        if character.left < play_area.left:
+            character.left = play_area.left
+        if character.right > play_area.right:
+            character.right = play_area.right
+        if character.top < play_area.top:
+            character.top = play_area.top
+        if character.bottom > play_area.bottom:
+            character.bottom = play_area.bottom
+
+    # Clear the screen
+    screen.fill(WHITE)
+
+    # Draw the play area (boundary)
+    pygame.draw.rect(screen, GREEN, play_area, 2)  # Draw the boundary of the play area
+
+    # Draw the character
+    pygame.draw.rect(screen, RED, character)
+
+    # Update the display
+    pygame.display.flip()
+
+    # Limit frames per second
+    clock.tick(30)
+
+```
 <br>
+
+https://github.com/user-attachments/assets/3397c1ba-e011-49a0-a8c9-f9f915067076
+
