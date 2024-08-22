@@ -118,7 +118,7 @@ https://www.pygame.org/docs/ref/rect.html
 
 <br>
 
-#### In Pygame, a Rect is like a `nice 🧸 box` that helps us keep track of rectangular areas.
+### In Pygame, a Rect is like a `nice 🧸 box` that helps us keep track of rectangular areas.
 
 - - ✋ You can make a Rect by choosing where the box starts (its left side and top) and how big it is (its width and height).
 
@@ -287,6 +287,12 @@ while running:
 
 https://github.com/user-attachments/assets/3397c1ba-e011-49a0-a8c9-f9f915067076
 
+
+<br>
+
+## 🟡 Other Exercises
+
+ - 🟦 Drawing lines [z_DRAW_line_0](./z_DRAW_line_0.md)
 
 <br>
 
