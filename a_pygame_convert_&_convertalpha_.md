@@ -42,3 +42,12 @@ a simple `background image` or a `sprite` **with a solid color background.**
 ```python
 background = pygame.image.load('background.png').convert()
 ```
+ <br>
+ <br>
+
+ - check the video by 🌟  [**Code with Russ**](https://youtu.be/z_tLkRMw-2Y?si=saYnzZFNh6kgGWdZ)
+
+
+ [<img src="./convert_and_convertAlpha_00.gif"/>](https://youtu.be/z_tLkRMw-2Y?si=saYnzZFNh6kgGWdZ)
+
+
