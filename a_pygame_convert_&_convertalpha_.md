@@ -51,3 +51,20 @@ background = pygame.image.load('background.png').convert()
  [<img src="./convert_and_convertAlpha_00.gif"/>](https://youtu.be/z_tLkRMw-2Y?si=saYnzZFNh6kgGWdZ)
 
 
+
+<br>
+<br>
+
+
+
+## `convert_alpha()`
+
+🔸 **For images with transparency:**
+
+- -  Use the `.convert_alpha()` **method**.
+
+- - - This method **preserves the transparency info**rmation and **converts** the **image** into a **format** that **maintains** the `alpha channel`, ✋ **ensuring both quality and performance**.
+
+
+<br>
+
