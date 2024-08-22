@@ -38,3 +38,18 @@
 - - This means it will **use** the **correct path separators for the operating system you're running your code** on `(e.g., / for Unix-based systems like Linux and macOS, and \ for Windows)`.
 
 <br>
+
+#### Here's a simple example of how you might use it:
+
+```python
+from os.path import join
+
+# Define parts of the path
+directory = 'folder'
+filename = 'file.txt'
+
+# Join them into a full path
+full_path = join(directory, filename)
+
+print(full_path)
+```
