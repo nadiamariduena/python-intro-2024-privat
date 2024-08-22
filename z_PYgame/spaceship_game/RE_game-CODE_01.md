@@ -415,3 +415,40 @@ for pos in star_positions:
 >  ### 🟨 By doing this, you ensure that the star positions are consistent and do not cause <u>unnecessary computations</u>  each frame.
 
 <br>
+
+```python
+# -----------  before  ------------
+
+
+star_surf = pygame.image.load(image_paths['star']).convert_alpha()
+
+
+# 5 the Loop
+while running:
+  for event in ...
+
+
+for i in range(20):
+        display_surface.blit(star_surf, (randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT) ))
+
+
+# ----------- ✋ after  ------------
+
+
+star_surf = pygame.image.load(image_paths['star']).convert_alpha()
+
+# 22
+star_positions = [(randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)) for i in range(20)]
+
+# 5 the Loop
+while running:
+  for event in ...
+
+for pos in star_positions:
+        display_surface.blit(star_surf, pos)
+```
+
+
+
+https://github.com/user-attachments/assets/837d5bce-3047-49e4-9724-3e6845658b07
+
