@@ -324,3 +324,25 @@ for event in
 ###  🟤 How This Affects our Game
 
 The issue arises because this line of code is inside a loop (while loop) that runs continuously, typically within a game loop structured like this:
+
+```python
+# 5 the Loop
+while running:
+    for event in pygame.event.get():
+       if event.type == pygame.QUIT:
+            running = False
+```
+<br>
+
+### 🟤 As a result:
+
+- - Each time the game loop iterates, new random positions are generated for the stars.
+
+- - - #### 🌟 This causes the stars to appear in different locations with every frame, <u>which can make them look like they are flickering or constantly moving.</u>
+
+<br>
+
+```python
+  for i in range(20):
+        display_surface.blit(star_surf, (randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT) ))
+```
