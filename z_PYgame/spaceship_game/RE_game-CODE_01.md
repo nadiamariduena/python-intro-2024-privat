@@ -225,3 +225,18 @@ for i in range(20):
 
  0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
 ```
+
+ <br>
+ <br>
+
+###  🍨 Here’s how the coordinates usually work:
+
+<br>
+
+**x-coordinate:**
+
+- -  This starts at **0** on the **left edge of the window** or canvas and increases as you move to the right. So, 0 for the x-coordinate is the far left.
+
+**y-coordinate:**
+
+- -  This starts at **0** on the **top edge of the window** or canvas and increases as you move downward. So, 0 for the y-coordinate is the top, and the value increases as you move towards the bottom.
