@@ -184,3 +184,19 @@ myRect = pygame.Rect(100, 50, 20, 30)
 
  - **Purpose:** The `.colliderect()` method checks if two pygame.Rect objects overlap or intersect with each other.
 
+ <br>
+
+ ### 🩷 Collisions / raycaster
+
+ - Examples: [collisions  | UNITY](https://youtu.be/E6bac9YP6Jc?si=zZqCiGNGthN-fZnh)
+
+
+
+ <br>
+ <br>
+
+
+<br>
+
+
+<br>
