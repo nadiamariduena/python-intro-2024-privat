@@ -229,7 +229,7 @@ for i in range(20):
  <br>
  <br>
 
-###  🍨 Here’s how the coordinates usually work:
+##  🍨 Here’s how the coordinates usually work:
 
 <br>
 
@@ -240,3 +240,12 @@ for i in range(20):
 **y-coordinate:**
 
 - -  This starts at **0** on the **top edge of the window** or canvas and increases as you move downward. So, 0 for the y-coordinate is the top, and the value increases as you move towards the bottom.
+
+<br>
+
+#### READ MORE:  [Cartesian coordinate](../../z_Cartesian_coordinate_plane.md)
+
+
+<br>
+<br>
+<br>
