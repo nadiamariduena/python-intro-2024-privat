@@ -77,3 +77,14 @@ player_surf = pygame.image.load(image_path)
 ```python
 player_surf = pygame.image.load('../images/player.png')
 ```
+
+<br>
+
+### 🔴 Issue with Using Relative Paths:
+
+
+- This approach may work perfectly on your development machine, where the relative path `../images/player.png` correctly points to the image file.
+
+ - - #### However, if you share your project with a colleague or deploy it on a different machine, the directory structure might differ.
+
+ - - ✋ In such cases, the relative path may no longer be accurate, leading to broken image loads.
