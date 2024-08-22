@@ -363,3 +363,22 @@ while running:
 <br>
 
 ## 🌈 Solution
+
+**To avoid these issues:**
+
+- - <u>You should generate the star positions only once before the game loop starts and then use these precomputed positions within the loop</u> .
+
+> - - #### This way, the star positions remain constant and do not change every frame.
+
+<br>
+
+#### 🌈 Create a new variable to store the positions
+
+
+```python
+# This x, y below, is to show you what we should add, it doesn't mean we have to add the x,y
+star_positions = [(x,y) for i in range(20)]
+```
+<br>
+
+<br>
