@@ -37,3 +37,26 @@ https://www.pygame.org/docs/ref/rect.html
 
 
 **Use Case:** Use `Rect` for most general purposes where integer precision is adequate, and `FRect` when you need finer control over positioning and dimensions that require floating-point precision.
+
+
+#### It is ideal for pixel-perfect positioning and size definitions.
+
+### `frect`
+
+In Pygame, the frect type is part of the `pygame.freetype` module and is used in scenarios where you are working with text rendering and need sub-pixel accuracy. **For typical rectangle operations in Pygame, the Rect class is commonly used**.
+
+
+
+**Example:**
+
+
+```python
+# ✋ rect
+import pygame
+rect = pygame.Rect(10, 20, 30, 40)
+
+#
+# ✋ FRECT (great precision: 30.5)
+import pygame.freetype
+frect = pygame.freetype.FRect(10.5, 20.5, 30.5, 40.5)
+```
