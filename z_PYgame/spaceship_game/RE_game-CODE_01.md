@@ -398,3 +398,20 @@ star_positions = [(x,y) for i in range(20)]
 star_positions = [(randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)) for i in range(20)]
 
 ```
+
+
+<br>
+
+#### 🌈 Use Precomputed Positions in the Game Loop:
+
+```python
+for pos in star_positions:
+        display_surface.blit(star_surf, pos)
+```
+
+<br>
+<br>
+
+>  ### 🟨 By doing this, you ensure that the star positions are consistent and do not cause <u>unnecessary computations</u>  each frame.
+
+<br>
