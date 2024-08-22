@@ -382,3 +382,19 @@ star_positions = [(x,y) for i in range(20)]
 <br>
 
 <br>
+
+#### 🟤 The correct value for `x,y`
+
+```python
+ WINDOW_WIDTH,   WINDOW_HEIGHT
+```
+
+
+#### 🌈 Generate Positions Once:
+
+- once you have created the new variable, assign it the `positions`
+
+```python
+star_positions = [(randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)) for i in range(20)]
+
+```
