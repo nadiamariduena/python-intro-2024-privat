@@ -197,3 +197,17 @@ from random import randint
 ### 🟤 Create the `for` loop within the `While` loop and nest the `star` img
 
 
+
+```python
+for i in range(20):
+# for the_star in range(20)
+```
+
+<br>
+
+### 🟠 Since we are using random, we don't need the `x and y` values, like we have been using here below:
+
+```python
+for i in range(20):
+    display_surface.blit(star_surf, (300,150)) # 🔴 We don't need the x:300, and y:150 values
+```
