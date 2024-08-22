@@ -92,3 +92,38 @@ image_paths = {
     'star': os.path.join(script_dir, '..', 'images', 'star.png')
 }
 ```
+
+<br>
+<br>
+
+
+### 🟠 Load the images
+
+
+
+
+```python
+# ✋ BEFORE
+# 17 Load the image
+# player_surf = pygame.image.load(image_path)
+# 18 - convert
+# player_surf = pygame.image.load(image_paths).convert_alpha()
+
+
+# ✋ AFTER
+# 20 Load the images
+player_surf = pygame.image.load(image_paths['player']).convert_alpha()
+star_surf = pygame.image.load(image_paths['star']).convert_alpha()
+
+```
+
+<br>
+<br>
+
+## 🟠 The loop
+
+<br>
+
+### The position of the star 🌟
+
+- -  If you add the below line within the while loop, its not going to animate, because the **300** is replacing the **x**
