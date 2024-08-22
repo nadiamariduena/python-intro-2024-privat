@@ -139,3 +139,21 @@ allPygame
         ├── gameFolder
              └── game.py
 ```
+
+<br>
+
+#### And not like this:
+
+```python
+
+allPygame
+    ├── images
+    ├── audio
+    └── game.py
+```
+
+
+<br>
+
+### 🌈 THEN the solution for such scenario:
+
