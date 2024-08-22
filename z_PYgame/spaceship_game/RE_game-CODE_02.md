@@ -136,3 +136,25 @@ myRect = pygame.Rect(100, 50, 20, 30)
 - - `surface.get_rect()` is a standard and commonly used method in Pygame to **obtain the bounding rectangle of a surface**.
 
 <br>
+
+```python
+# OPT 1
+pygame.Rect(pos, size)
+pygame.Frect(pos, size)
+
+
+# OPT 2
+surface.get_rect(point = pos)
+surface.get_frect(point = pos)
+```
+
+**Therefore**, `Option 1` is the **more standard and widely used approach in Pygame.**
+
+- - If you are working with traditional Pygame development and need rectangles, you’ll typically use pygame.Rect and surface.get_rect().
+
+
+<br>
+<br>
+
+<br>
+<br>
