@@ -127,3 +127,13 @@ star_surf = pygame.image.load(image_paths['star']).convert_alpha()
 ### The position of the star 🌟
 
 - -  If you add the below line within the while loop, its not going to animate, because the **300** is replacing the **x**
+
+
+```python
+display_surface.blit(star_surf, (300,150))
+```
+
+- To ensure the animation works correctly, **avoid hardcoding** the position value in the blit function.
+
+- -  #### 🟤 Instead of using a `fixed` value like the `300` like 300, use the could use the variable `x` that changes over time, just like we did for the plane, but WE DONT WANT that, `we want to add a random position for 20 stars`
+
