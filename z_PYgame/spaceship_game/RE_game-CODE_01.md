@@ -249,3 +249,31 @@ for i in range(20):
 <br>
 <br>
 <br>
+
+## 🟠 The Line below
+
+
+- - **The Line Below Draws** the `star_surf` surface at a random position on the display_surface, where `(randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT))` generates random coordinates within the dimensions of the window.
+
+```python
+ display_surface.blit(star_surf, (randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)))
+```
+
+
+https://github.com/user-attachments/assets/99e33a31-87c6-46f7-b7d1-2c2950d092dc
+
+
+<br>
+<br>
+
+---
+
+<br>
+<br>
+
+<a name="expensive_comp"></a>
+
+### 🔴 At this point, we have the stars ✋ <u>but its not exactly how it should be</u>
+
+<br>
+
