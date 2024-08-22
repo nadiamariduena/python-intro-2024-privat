@@ -8,3 +8,7 @@
 
 <br>
 
+- -  if the image has **no transparent** pixels: `.convert()`
+
+- -  if the image **has transparent** pixels: `.convert_alpha()` , this will make your game run much faster.
+
