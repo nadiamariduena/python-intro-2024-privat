@@ -68,3 +68,13 @@ background = pygame.image.load('background.png').convert()
 
 <br>
 
+
+### For example,
+
+
+- `a character` **sprite** with a `transparent background` **or a UI icon** with **see-through areas**.
+
+- - **Use** the `.convert_alpha()` **method for these images**.
+
+- - - This method preserves the transparency of the image, ensuring that the alpha channel (which controls transparency) is maintained for accurate rendering.
+
