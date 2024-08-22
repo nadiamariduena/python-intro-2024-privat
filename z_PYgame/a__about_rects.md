@@ -29,3 +29,11 @@ https://www.pygame.org/docs/ref/rect.html
 
 ## 🟠  Differences
 
+<br>
+
+🔴 **Precision:** `Rect uses integer` values(20), while `FRect uses floating-point` values(20.5).
+
+<br>
+
+
+**Use Case:** Use `Rect` for most general purposes where integer precision is adequate, and `FRect` when you need finer control over positioning and dimensions that require floating-point precision.
