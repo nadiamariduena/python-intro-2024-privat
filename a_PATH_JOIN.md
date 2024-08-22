@@ -30,3 +30,16 @@ player_surf = pygame.image.load(join('images', 'player.png'))
 <br>
 
 ### 🟤 Project Structure
+
+```python
+PROJECTFolder
+   ├── images
+   ├── audio
+   └── game
+       └── game.py
+
+```
+
+
+
+- - 🔴 In this structure, using `join('images', 'player.png')` **does not work** because `game.py` is **located** in the game **subfolder**, requiring a relative path ✋ **to move up one level** to **access the images folder**.
