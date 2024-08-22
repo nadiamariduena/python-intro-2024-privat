@@ -157,3 +157,76 @@ allPygame
 
 ### 🌈 THEN the solution for such scenario:
 
+
+```python
+import os
+import pygame
+
+# Get the directory of the current script
+script_dir = os.path.dirname(__file__)
+# Build the path to the image file
+image_path = os.path.join(script_dir, '..', 'images', 'player.png')
+
+# Load the image
+player_surf = pygame.image.load(image_path)
+
+```
+
+<br>
+
+### 🟦 In my code (within the Subfolder)
+
+
+```python
+import pygame
+
+
+# ✋
+import os
+
+pygame.init()
+
+# ✋
+script_dir = os.path.dirname(__file__)
+
+
+# --- window
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
+
+display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+#------
+ # title
+pygame.display.set_caption("Space shooter")
+
+
+running = True
+surf = pygame.Surface((100,200))
+surf.fill('orange')
+x = 100
+
+
+
+# BEFORE
+# player_surf = pygame.image.load(join('../images', 'player.png'))
+
+
+# ✋
+image_path = os.path.join(script_dir, '..', 'images', 'player.png')
+# ✋
+player_surf = pygame.image.load(image_path)
+
+
+
+while running:
+    for event in pygame.event.get():
+       if event.type == pygame.QUIT:
+            running = False
+
+    display_surface.fill("lavenderblush2")
+    x += 0.1
+    display_surface.blit(player_surf, (x,150))
+    pygame.display.update()
+
+
+pygame.quit()
+```
