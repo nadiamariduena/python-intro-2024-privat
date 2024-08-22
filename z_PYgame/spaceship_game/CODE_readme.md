@@ -691,3 +691,85 @@ pygame.quit()
 <br>
 
 - `os.path.join()` **method** is used to **concatenate** directory and file names into a single path.
+
+- - #### [READ MORE: a_PATH_JOIN](../../a_PATH_JOIN.md)
+
+
+- - #### [os.path import join](../../a_OS_operating-system.md)
+
+
+<br>
+
+> 🟠 **FOR JS devs**:  IN **JavaScript** is primarily used for **web development**, where **file paths** are usually **managed differently than in a traditional `fs` (file system)**.
+
+> 🟠 **FOR react devs**: In this case, the bundler (like **Webpack**) handles the paths and file inclusion for you.
+
+> 🟠 **NODE**: **Node.js** (which is used for **server-side** JavaScript), you can use the path module, which has a `join` function **similar to Python's** `os.path.join`.
+
+
+<br>
+
+```python
+# IMPORT ✋
+from os.path import join
+
+
+
+#using join to concatenate
+# path = join('images', 'player.png')
+# print(path)
+# IMporting img
+
+
+# Using JOIN() ✋
+player_surf = pygame.image.load(join('../images', 'player.png'))
+
+```
+
+<br>
+<br>
+
+
+
+<br>
+
+
+<br>
+
+
+
+
+## ⚠️ Be careful with paths and make sure <u>they point</u> where they should.
+
+### 🟦  Direct Path String
+
+```python
+player_surf = pygame.image.load('../images/player.png')
+```
+
+<br>
+
+- - This method directly provides a **relative** path to the image file.
+
+<br>
+
+- - 🔴 **It works** fine `if` the **path** is hardcoded and **you are certain that the path separators (`/` or `\`) are correct for your operating system**.
+
+
+<br>
+
+### 🟦 Considerations:
+
+**Platform Dependency:** This approach can be platform-dependent.
+
+- - For example, paths use `/` on **Unix-based systems (Linux, macOS) and \ on Windows**.
+
+- - #### 🔴 If you run this code on a different OS, you might encounter issues with path resolution.
+
+- - #### [READ MORE: a_PATH_JOIN](../../a_PATH_JOIN.md)
+
+<br>
+<br>
+<br>
+<br>
+
