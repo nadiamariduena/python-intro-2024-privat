@@ -112,3 +112,11 @@ player_surf = pygame.image.load('../images/player.png')
  - - ✋ Hardcoded paths can lead to conflicts and confusion, as other team members might not have the same directory layout.
 
  #### This complicates collaboration and maintenance.
+
+ <br>
+
+### 🔴 Deployment Complexity:
+
+<br>
+
+**For deployment in different environments** (e.g., a **production server** or a packaged executable), hardcoded **paths might not be valid**.
