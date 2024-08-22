@@ -346,3 +346,20 @@ while running:
   for i in range(20):
         display_surface.blit(star_surf, (randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT) ))
 ```
+
+<br>
+
+## 🔴 Effects
+
+**Visual Effect:**
+
+- - - The stars appear to **flicker** or move randomly because their positions are recalculated every frame. This is often not the desired effect if you want the stars to be in fixed positions.
+
+
+**Performance Impact:**
+
+✋ <u>Repeatedly generating random values every frame can be inefficient</u>, **especially** if there are **many** such **computations** `or` if the game is **running on lower-end hardware**.
+
+<br>
+
+## 🌈 Solution
