@@ -305,3 +305,22 @@ The **`randint`** function in this line: `(randint(0, WINDOW_WIDTH), randint(0, 
 <br>
 <br>
 
+
+```python
+
+while running:
+for event in
+
+# 🔴 In this loop, the randint function is invoked
+# on each frame update, causing new random coordinates
+#  for the stars to be calculated every frame.
+# 🔴 This results in the stars appearing at different
+#  positions each frame, which can make them look like
+#  they are flickering or moving unpredictably.
+```
+
+<br>
+
+###  🟤 How This Affects our Game
+
+The issue arises because this line of code is inside a loop (while loop) that runs continuously, typically within a game loop structured like this:
