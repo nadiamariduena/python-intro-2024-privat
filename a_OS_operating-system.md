@@ -53,3 +53,37 @@ full_path = join(directory, filename)
 
 print(full_path)
 ```
+
+<br>
+
+**If** directory is **'folder'** <u>and filename is</u>  `'file.txt'`, **the** `full_path` **would be** `'folder/file.txt'` **on Unix-based systems** or `'folder\\file.txt'` on **Windows**.
+
+> #### Using join ensures that your code works correctly across different operating systems.
+
+
+<br>
+<br>
+
+### 🔴 Not to be confused with this `Join()`
+
+### 🟠 `Join` the word
+
+- `.join` will turn the list into a **string**, separated by whatever the string is.
+
+-  you can add **white spaces, symbols, letters** , example:
+
+-  `' '.join` or `', '.join` or `'/ '.join` etc...
+
+
+```python
+print("You have used these letters: ", ' '.join(used_letters))
+# 🔴 output
+"a", "b",
+#
+#https://github.com/nadiamariduena/python-intro-2024-privat/blob/master/LESSON_19_PPROJECTS/random_Hangman/README.md
+```
+
+
+<br>
+<br>
+<br>
