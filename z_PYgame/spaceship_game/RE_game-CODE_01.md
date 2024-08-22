@@ -211,3 +211,17 @@ for i in range(20):
 for i in range(20):
     display_surface.blit(star_surf, (300,150)) # 🔴 We don't need the x:300, and y:150 values
 ```
+
+<br>
+
+### 🟤 Instead we need to grab the `X and Y` position of the window
+
+- - in most graphical **coordinate systems**,
+
+- - - **the origin (0, 0)** <u>is typically at the top-left corner of the window or canvas.</u>
+
+
+```python
+
+ 0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
+```
