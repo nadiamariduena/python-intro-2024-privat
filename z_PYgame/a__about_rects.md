@@ -80,3 +80,20 @@ it doesn't make sense to keep Rect with integers, it will be deprecated once FRe
 In Pygame, `Frect` (or frect) is **less commonly used compared** to `Rect`, **and it is not a standard** part **of** the core **Pygame library**.
 
 > - - - ##### As of my last update, Pygame itself does not include an FRect class by default.
+
+<br>
+
+> #### However, the concept of floating-point rectangles is supported through certain extensions or external libraries, or you might use custom implementations. For example:
+
+<br>
+
+### 🟧 Pygame and Floating-Point Rectangles:
+
+<br>
+
+- - 🔴 The standard **Pygame** library **does not include a built-in** `Frect` **class** <u>for floating-point rectangles</u> .
+
+<br>
+
+- - If you need floating-point precision for rectangles, you might have to use or create **custom classes or rely on external libraries.
+Third-Party Libraries:**
