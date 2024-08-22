@@ -791,3 +791,47 @@ player_surf = pygame.image.load('../images/player.png')
 
 <br>
 <br>
+
+
+- check the video by 🌟  [**Code with Russ**](https://youtu.be/z_tLkRMw-2Y?si=saYnzZFNh6kgGWdZ)
+
+ [<img src="../../convert_and_convertAlpha_00.gif"/>](https://youtu.be/z_tLkRMw-2Y?si=saYnzZFNh6kgGWdZ)
+
+
+ <br>
+ <br>
+
+ ### 🟦 Applying it to the code
+
+ ```python
+ # 18 - convert
+player_surf = pygame.image.load(image_path).convert()
+ ```
+
+
+<br>
+
+### 🟠 Output
+
+ - - As you can see, the image has a black background, indicating that it contains alpha values.
+
+ #### Therefore, we need to use `convert_alpha()` instead of `convert()`
+
+https://github.com/user-attachments/assets/9d5d2496-5896-4a3c-a4d2-c6b05e621cfa
+
+
+<br>
+
+###  `convert_alpha()` instead of `convert()`
+
+```python
+player_surf = pygame.image.load(image_path).convert_alpha()
+```
+
+
+
+https://github.com/user-attachments/assets/56c3366f-dafa-4fdf-9c6d-013720bc587f
+
+
+
+
