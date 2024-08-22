@@ -120,3 +120,22 @@ player_surf = pygame.image.load('../images/player.png')
 <br>
 
 **For deployment in different environments** (e.g., a **production server** or a packaged executable), hardcoded **paths might not be valid**.
+
+- - It requires additional configuration to adjust paths, making the deployment process more complex and error-prone.
+
+<br>
+<br>
+
+### 🌈 Solution
+
+- IF your `game.py` is **located** in the game **subfolder** , example
+
+```python
+# in the below scenario i need to use the ../ to reach the images folder
+allPygame
+       subFolderGame ✋
+        ├── images
+        ├── audio
+        ├── gameFolder
+             └── game.py
+```
