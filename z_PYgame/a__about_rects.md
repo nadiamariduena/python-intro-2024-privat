@@ -287,3 +287,79 @@ while running:
 
 https://github.com/user-attachments/assets/3397c1ba-e011-49a0-a8c9-f9f915067076
 
+
+<br>
+
+<br>
+<br>
+
+ ### The table
+
+ source [Pygame Rect Object, a basic guide](https://sigon.gitlab.io/post/2018-10-10-pygame-rect/)
+
+```bash
++----------------+---------------------------------------------------------------+
+| Attribute      | Description                                                   |
++----------------+---------------------------------------------------------------+
+| myRect.left    | Integer, x-coordinate of the left side of the rectangle       |
+| myRect.right   | Integer, x-coordinate of the right side of the rectangle      |
+| myRect.top     | Integer, y-coordinate of the top side of the rectangle        |
+| myRect.bottom  | Integer, y-coordinate of the bottom side of the rectangle     |
+| myRect.centerx | Integer, x-coordinate of the center of the rectangle           |
+| myRect.centery | Integer, y-coordinate of the center of the rectangle           |
+| myRect.width   | Integer, value of the width of the rectangle                  |
+| myRect.height  | Integer, value of the height of the rectangle                 |
+| myRect.size    | A tuple of two integers: (width, height)                      |
+| myRect.topleft | A tuple of two integers: (left, top)                          |
+| myRect.topright| A tuple of two integers: (right, top)                         |
+| myRect.bottomleft| A tuple of two integers: (left, bottom)                      |
+| myRect.bottomright| A tuple of two integers: (right, bottom)                     |
+| myRect.midleft | A tuple of two integers: (left, centery)                      |
+| myRect.midright| A tuple of two integers: (right, centery)                     |
+| myRect.midtop  | A tuple of two integers: (centerx, top)                       |
+| myRect.midbottom| A tuple of two integers: (centerx, bottom)                    |
++----------------+---------------------------------------------------------------+
+
+```
+
+<br>
+
+## 🟦 Rect
+
+#### In `Pygame`, a Rect is like a special box that helps us keep track of rectangular areas.
+
+- - You can make a Rect by choosing where the box starts (its left side and top) and how big it is (its width and height).
+
+
+
+<br>
+<br>
+
+### Equivalent react three fiber
+
+- This is a chatgpt generated code, i think i have an old code (i will be adding it soon)
+
+<br>
+
+```javascript
+
+    <Canvas>
+    //pos light x y z
+      <ambientLight />
+      <pointLight position={[10, 10, 10]} />
+// ----------- lights
+
+
+      <MovableCharacter position={[0, 0, 0]} onCollide={handleCollision} />
+
+      // ---------
+      // front screen at x0 y0 on the z axis (will pos frontal)
+      <mesh position={[0, 0, 2]}>
+        <boxGeometry args={[1, 1, 1]} />
+        <meshStandardMaterial color='green' />
+      </mesh>
+    </Canvas>
+```
+
+
+<br>
