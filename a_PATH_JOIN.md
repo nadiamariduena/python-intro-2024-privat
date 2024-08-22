@@ -230,3 +230,20 @@ while running:
 
 pygame.quit()
 ```
+
+
+<br>
+<br>
+
+
+#### 🟠 If your project set up looks like the below, then you can use this path `(join('images', 'player.png'))`
+
+```python
+
+allPygame
+    ├── images
+    ├── audio
+    └── game.py
+```
+
+<br>
