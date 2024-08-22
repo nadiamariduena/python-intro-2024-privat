@@ -158,3 +158,124 @@ surface.get_frect(point = pos)
 
 <br>
 <br>
+
+## 🟦 Back to the Tutorial
+
+
+- Before continuing, this is what i have until now, in the next step i will remove the animation, and i will replace a couple of things, so to use the `get_frect()`
+
+
+```python
+#0
+import pygame
+#14
+# from os.path import join
+import os
+
+# after you add the images within the loop, import the star and randomize it
+from random import randint
+
+
+
+
+# 1
+pygame.init()
+
+
+# 15 Get the directory of the current script
+script_dir = os.path.dirname(__file__)
+
+
+#2 --- window
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
+#3
+display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+#------
+# 9 change the window caption:
+pygame.display.set_caption("Space shooter")
+# change icon
+# add an img to the project folder and insert it below
+# pygame.display.set_icon('')
+
+
+# 4 LOOP var
+running = True
+
+
+#10 create a surface
+# w:100 px & h: 200px
+# size of the shape
+surf = pygame.Surface((100,200))
+# # Add color to the shape/Surface
+# surf.fill('orange')
+# 11 anima
+x = 100
+
+
+
+#13 IMporting img
+# player_surf = pygame.image.load(join('../images', 'player.png'))
+# 16
+# Build the path to the image file
+# image_path = os.path.join(script_dir, '..', 'images', 'player.png')
+# -----
+# 19 import several images, so to not repeat the above line
+# Dictionary of image paths
+image_paths = {
+    'player': os.path.join(script_dir, '..', 'images', 'player.png'),
+    'star': os.path.join(script_dir, '..', 'images', 'star.png')
+}
+
+# 17 Load the image
+# player_surf = pygame.image.load(image_path)
+# 18 - convert
+# player_surf = pygame.image.load(image_path).convert_alpha()
+# 21
+player_surf = pygame.image.load(image_paths['player']).convert_alpha()
+star_surf = pygame.image.load(image_paths['star']).convert_alpha()
+
+# 22
+star_positions = [(randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)) for i in range(20)]
+
+
+# 5 the Loop
+while running:
+    for event in pygame.event.get():
+       if event.type == pygame.QUIT:
+            running = False
+
+
+ # FILL the window with a red color
+ # player = pygame.Rect((300, 250, 50, 50))
+ # https://pyga.me/docs/ref/pygame.html
+
+ # 7 --- DRAW the game ----
+ # list of colors: https://pyga.me/docs/ref/color_list.html
+    display_surface.fill("lavenderblush2")
+
+    for pos in star_positions:
+        display_surface.blit(star_surf, pos)
+
+    # 12 anima
+    # CAREFUL with the identation, otherwise it wont work
+    # means **you are increasing** the **value of x by 0.1 each time the loop runs.**
+    x += 0.1
+    # pos of the shape
+    #  Position: Top-left corner at (100, 150) on the display surface
+    # 20 Anim images ---
+    display_surface.blit(player_surf, (x,150))
+
+    # Anim images ---
+    #`Blit()` is a fancy way of saying **You want to put ONE surface on ANOTHER surface**
+    pygame.display.update()
+
+
+
+
+# 6 EXIT
+# - if you dont add the below, its not going to cause a problem but it will behave
+pygame.quit()
+```
+
+<br>
+<br>
