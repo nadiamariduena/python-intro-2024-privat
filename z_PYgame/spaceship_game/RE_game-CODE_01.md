@@ -177,3 +177,23 @@ while running:
 https://github.com/user-attachments/assets/b77eaa6b-2f63-477f-a144-e9f2231a0897
 
 
+
+<br>
+<br>
+
+<a name="loop_vers_01"></a>
+
+### 🌟 LOOP:  Place 20 stars Randomly 🌟
+
+- import **randint**
+
+```python
+# after you add the images within the WHILE loop, import the star and randomize it
+from random import randint
+```
+
+<br>
+
+### 🟤 Create the `for` loop within the `While` loop and nest the `star` img
+
+
