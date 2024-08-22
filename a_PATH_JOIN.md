@@ -51,3 +51,21 @@ PROJECTFolder
 If you want to avoid using `..`, you need to **make sure that your working directory is always set to PROJECTFolder when you run the script**.
 
 This way, you can use relative paths based on the current working directory:
+
+```python
+import pygame
+from os.path import join
+
+# Define the path relative to the working directory (PROJECTFolder)
+image_path = join('images', 'player.png')
+
+# Load the image
+player_surf = pygame.image.load(image_path)
+
+```
+
+<br>
+<br>
+<br>
+
+## 🫐 Options
