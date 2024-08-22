@@ -49,3 +49,46 @@
 <br>
 
 
+
+
+<a name="load_severalimgs"></a>
+
+
+## 🟠 Importing several img's
+
+### Option 1. Tutorial Approach
+
+- -  First, import the image **star**
+
+```python
+
+star_surf = os.path.join(script_dir, '..', 'images', 'star.png')
+
+```
+
+<br>
+<br>
+
+
+### 🍍 Option 2. Implementing a `Dictionary` of image paths
+
+### as a personal enhancement, i will introduce a dictionary to manage multiple images.
+
+-  This approach mirrors the way JavaScript arrays can be used
+
+```python
+# 16
+# Build the path to the image file
+# ✋ BEFORE
+# image_path = os.path.join(script_dir, '..', 'images', 'player.png')
+# -----
+
+
+# ✋ AFTER
+# 19 import several images, so to not repeat the above line
+# Dictionary of image paths
+image_paths = {
+    'player': os.path.join(script_dir, '..', 'images', 'player.png'),
+    'star': os.path.join(script_dir, '..', 'images', 'star.png')
+}
+```
