@@ -7,3 +7,14 @@
 
 - - Which are the **signed distances** to the **point from two fixed perpendicular oriented lines**, called coordinate lines, coordinate axes or just axes (plural of axis) of the system.
 
+> #### The *point* where they *meet* is called the origin and has (0, 0) as coordinates.
+
+ <br>
+
+[<img src="cartesian-1.gif"/>]( )
+
+<br>
+
+<br>
+
+<br>
