@@ -137,3 +137,43 @@ display_surface.blit(star_surf, (300,150))
 
 - -  #### 🟤 Instead of using a `fixed` value like the `300` like 300, use the could use the variable `x` that changes over time, just like we did for the plane, but WE DONT WANT that, `we want to add a random position for 20 stars`
 
+
+<br>
+
+```python
+# ✋ We are not going to use the value of the X here below
+x = 100
+
+
+image_paths = {
+    'player': os.path.join(script_dir, '..', 'images', 'player.png'),
+    'star': os.path.join(script_dir, '..', 'images', 'star.png')
+}
+
+
+player_surf = pygame.image.load(image_paths['player']).convert_alpha()
+star_surf = pygame.image.load(image_paths['star']).convert_alpha()
+
+
+# LOOP
+while running:
+    for event in pygame.event.get():
+       if event.type == pygame.QUIT:
+            running = False
+
+
+    display_surface.fill("lavenderblush2")
+
+    x += 0.1
+
+    display_surface.blit(player_surf, (x,150))
+    # ✋ we dont need this animation
+    display_surface.blit(star_surf, (x,150))
+```
+<br>
+
+- As you can see, the star also features animation
+
+https://github.com/user-attachments/assets/b77eaa6b-2f63-477f-a144-e9f2231a0897
+
+
