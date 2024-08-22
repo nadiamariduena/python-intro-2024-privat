@@ -87,3 +87,9 @@ print("You have used these letters: ", ' '.join(used_letters))
 <br>
 <br>
 <br>
+
+### 🟦 Javascript / Nodejs/ React?
+
+In React (or JavaScript in general), **you don't use** `os.path.join` **because JavaScript handles file paths** and directories **differently compared** to **Python**.
+
+- - 🟠 **JavaScript** is primarily used for **web development**, where **file paths** are usually **managed differently than in a traditional file system**.
