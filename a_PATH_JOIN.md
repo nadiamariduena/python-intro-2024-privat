@@ -294,3 +294,87 @@ pygame.quit()
 
 ## 🟡 On the root folder
 
+
+```python
+#0
+import pygame
+#14
+from os.path import join
+
+
+# 1
+pygame.init()
+#2 --- window
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
+#3
+display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+#------
+# 9 change the window caption:
+pygame.display.set_caption("Space shooter")
+# change icon
+# add an img to the project folder and insert it below
+# pygame.display.set_icon('')
+
+
+# 4 LOOP var
+running = True
+
+
+#10 create a surface
+# w:100 px & h: 200px
+# size of the shape
+surf = pygame.Surface((100,200))
+# Add color to the shape/Surface
+surf.fill('orange')
+# 11 anima
+x = 100
+
+
+#15 using join to concatenate
+# path = join('images', 'player.png')
+# print(path)
+#13 IMporting img
+player_surf = pygame.image.load(join('images', 'player.png'))
+
+# 5 the Loop
+while running:
+    for event in pygame.event.get():
+       if event.type == pygame.QUIT:
+            running = False
+
+
+ # FILL the window with a red color
+ # player = pygame.Rect((300, 250, 50, 50))
+ # https://pyga.me/docs/ref/pygame.html
+
+ # 7 --- DRAW the game ----
+ # list of colors: https://pyga.me/docs/ref/color_list.html
+    display_surface.fill("lavenderblush2")
+
+
+    # 12 anima
+    # CAREFUL with the identation, otherwise it wont work
+    # means **you are increasing** the **value of x by 0.1 each time the loop runs.**
+    x += 0.1
+    # pos of the shape
+    #  Position: Top-left corner at (100, 150) on the display surface
+    display_surface.blit(player_surf, (x,150))
+    #`Blit()` is a fancy way of saying **You want to put ONE surface on ANOTHER surface**
+    pygame.display.update()
+
+
+
+
+# 6 EXIT
+# - if you dont add the below, its not going to cause a problem but it will behave
+pygame.quit()
+```
+
+<br>
+<br>
+
+## 🧶 Conclusion
+
+If The teacher’s code works without `..`, it’s likely due to their **working directory being set to the project root when running the script**.
+
+#### Ensuring that your working directory is correctly set or adjusting the script’s path handling to account for directory differences should resolve the issue.
