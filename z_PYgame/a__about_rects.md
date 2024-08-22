@@ -121,3 +121,19 @@ https://www.pygame.org/docs/ref/rect.html
 #### In Pygame, a Rect is like a `nice 🧸 box` that helps us keep track of rectangular areas.
 
 - - ✋ You can make a Rect by choosing where the box starts (its left side and top) and how big it is (its width and height).
+
+<br>
+
+> - -  #### 🔴 Placing surfaces is kind of messy
+
+-  - -  Since we always place the top-left , it requires math to place it in a precise spot
+
+
+
+<br>
+<br>
+
+### 🟠  Things You Can Do with `Rects`:
+
+<br>
+<br>
