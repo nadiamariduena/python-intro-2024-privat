@@ -834,4 +834,7 @@ https://github.com/user-attachments/assets/56c3366f-dafa-4fdf-9c6d-013720bc587f
 
 
 
+<br>
+<br>
 
+### [Next](https://github.com/nadiamariduena/python-intro-2024-privat/blob/master/z_PYgame/spaceship_game/RE_game-CODE_01.md)
