@@ -277,3 +277,31 @@ https://github.com/user-attachments/assets/99e33a31-87c6-46f7-b7d1-2c2950d092dc
 
 <br>
 
+
+
+
+## 🟦  Expensive
+
+- In the code, We have a section where we're `blitting` stars onto the display surface using random **coordinates**:
+
+
+```python
+   for i in range(20):
+        display_surface.blit(star_surf, (randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT) ))
+```
+<br>
+<br>
+
+## 📌 Why its expensive?
+
+
+
+### 🟦 Understanding the issue
+
+The **`randint`** function in this line: `(randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT) )`, **is responsible for generating random integers for the X and Y coordinates**.
+
+> ### Since this function is called  every frame, it generates new random positions for the stars <u>each time the game loop iterates</u> 🎠 .
+
+<br>
+<br>
+
