@@ -90,3 +90,24 @@ character = pygame.image.load('character.png').convert_alpha()
 <br>
 <br>
 
+
+## 🟤 Space Shooter example
+
+ ### 🟦 Applying it to the code
+
+ ```python
+ # 18 - convert
+player_surf = pygame.image.load(image_path).convert()
+ ```
+
+
+<br>
+
+### 🟠 Output
+
+ - - As you can see, the image **has a black background**, indicating that it contains alpha values.
+
+ #### Therefore, we need to use `convert_alpha()` instead of `convert()`
+
+https://github.com/user-attachments/assets/9d5d2496-5896-4a3c-a4d2-c6b05e621cfa
+
