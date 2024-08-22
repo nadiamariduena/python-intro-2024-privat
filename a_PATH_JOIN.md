@@ -16,3 +16,17 @@ Here's a summary of the issue and solution based on different project structures
 player_surf = pygame.image.load('../images/player.png')
 
 ```
+
+<br>
+
+### 🟤 Alternative Path Example:
+
+```python
+player_surf = pygame.image.load(join('images', 'player.png'))
+```
+
+<br>
+<br>
+<br>
+
+### 🟤 Project Structure
