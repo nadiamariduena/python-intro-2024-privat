@@ -288,3 +288,13 @@ player_rect = player_surf.get_frect(topleft = (0, 0))
 #2
 player_rect = player_surf.get_frect(center = (0, 0))
 ```
+
+<br>
+
+### 🟠 this position: `(0, 0)`,  would be the position on the display surface from here:
+
+- I will add more details in the next phase
+
+```python
+display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+```
