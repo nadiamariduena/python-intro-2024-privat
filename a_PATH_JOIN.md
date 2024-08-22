@@ -88,3 +88,17 @@ player_surf = pygame.image.load('../images/player.png')
  - - #### However, if you share your project with a colleague or deploy it on a different machine, the directory structure might differ.
 
  - - ✋ In such cases, the relative path may no longer be accurate, leading to broken image loads.
+
+ - - #### 🔴 This can cause your game to crash or display missing assets if the expected path does not match the actual location of the files.
+
+ <br>
+
+ ### 🔴 Cross-Platform Issues:
+
+ <br>
+
+ The project may be developed on a Windows machine where paths use backslashes `(..\\images\\player.png)`, but **if it needs to be deployed on a Unix-based system (like macOS or Linux), the backslashes won’t work and will cause errors**.
+
+ - - ✋ Hardcoding paths doesn’t account for platform-specific path separators.
+
+ <br>
