@@ -785,3 +785,9 @@ player_surf = pygame.image.load('../images/player.png')
 - -  if the image has **no transparent** pixels: `.convert()`
 
 - -  if the image **has transparent** pixels: `.convert_alpha()` , this will make your game run much faster.
+
+
+#### Read More: [ pygame convert & convert alpha](../../a_pygame_convert_&_convertalpha_.md)
+
+<br>
+<br>
