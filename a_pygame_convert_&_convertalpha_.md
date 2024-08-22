@@ -111,3 +111,70 @@ player_surf = pygame.image.load(image_path).convert()
 
 https://github.com/user-attachments/assets/9d5d2496-5896-4a3c-a4d2-c6b05e621cfa
 
+
+<br>
+
+###  `convert_alpha()` instead of `convert()`
+
+```python
+player_surf = pygame.image.load(image_path).convert_alpha()
+```
+<br>
+<br>
+
+### 🧶 The code
+
+```python
+ import pygame
+
+# from os.path import join / path for img (important!!)
+import os
+
+pygame.init()
+# path for img (important!!)
+script_dir = os.path.dirname(__file__)
+
+
+#  --- window
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
+#3
+display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+#  --- window
+
+
+pygame.display.set_caption("Space shooter")
+
+running = True
+
+surf = pygame.Surface((100,200))
+surf.fill('orange')
+x = 100
+
+
+
+
+image_path = os.path.join(script_dir, '..', 'images', 'player.png')
+# ✋
+player_surf = pygame.image.load(image_path).convert_alpha()
+
+
+while running:
+    for event in pygame.event.get():
+       if event.type == pygame.QUIT:
+            running = False
+
+    display_surface.fill("lavenderblush2")
+    x += 0.1
+
+    display_surface.blit(player_surf, (x,150))
+
+    pygame.display.update()
+
+
+
+
+pygame.quit()
+```
+
+
+https://github.com/user-attachments/assets/56c3366f-dafa-4fdf-9c6d-013720bc587f
