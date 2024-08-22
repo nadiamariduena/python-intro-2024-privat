@@ -60,3 +60,23 @@ rect = pygame.Rect(10, 20, 30, 40)
 import pygame.freetype
 frect = pygame.freetype.FRect(10.5, 20.5, 30.5, 40.5)
 ```
+
+<br>
+
+> - - 🔴
+it doesn't make sense to keep Rect with integers, it will be deprecated once FRect is released in 2.1.4. [Frect OR RECT](https://github.com/pygame/pygame/issues/3643)
+
+
+<br>
+<br>
+<br>
+
+### 🟣 QUESTION: Is `Frect` standard or commonly used in `Pygame` or related libraries?
+
+<br>
+
+#### ✅ chatgpt:
+
+In Pygame, `Frect` (or frect) is **less commonly used compared** to `Rect`, **and it is not a standard** part **of** the core **Pygame library**.
+
+> - - - ##### As of my last update, Pygame itself does not include an FRect class by default.
