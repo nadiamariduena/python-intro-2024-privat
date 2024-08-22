@@ -18,3 +18,30 @@
 <br>
 
 <br>
+
+## 🟧 Negative & Positive
+
+- **Negative** nums on the **left** (infinite) & **Positive** nums on the **right** (infinite)
+
+<br>
+
+[<img src="cartesian-coord_1_vector.png"/>]( )
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+## 🟠  (integers)
+
+- **Don't forget** that you can have **(numbers) between** the **integers**.
+
+>you don't see it in the cartesian img below(but **i retouched it and added** the **0.5** just to give an example)
+
+<br>
+
+[<img src="graph_2_vector.png"/>]( )
+
