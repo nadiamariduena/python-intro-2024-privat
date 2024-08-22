@@ -69,3 +69,11 @@ player_surf = pygame.image.load(image_path)
 <br>
 
 ## 🫐 Options
+
+- If you're working on a project where the folder containing your assets is nested inside another project with many other games, you might be using a relative path like this:
+
+🟠  Direct Path String (**EASY but not good**)
+
+```python
+player_surf = pygame.image.load('../images/player.png')
+```
