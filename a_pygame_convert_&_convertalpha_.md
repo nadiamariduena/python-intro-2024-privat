@@ -78,3 +78,15 @@ background = pygame.image.load('background.png').convert()
 
 - - - This method preserves the transparency of the image, ensuring that the alpha channel (which controls transparency) is maintained for accurate rendering.
 
+
+```python
+character = pygame.image.load('character.png').convert_alpha()
+```
+
+<br>
+
+### 🧶 Properly converting your images ensures smoother gameplay and better performance by aligning image formats with Pygame's rendering capabilities.
+
+<br>
+<br>
+
