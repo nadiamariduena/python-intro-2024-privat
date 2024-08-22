@@ -137,3 +137,25 @@ https://www.pygame.org/docs/ref/rect.html
 
 <br>
 <br>
+
+🟤 **Position Surfaces Precisely:** Use Rects to place images or shapes exactly where you want them on the screen.
+
+- **WIDTH & HEIGHT:** Create a rectangle that is 20 pixels wide and 30 pixels tall
+
+- **POSITION on the screen:** and place it at the position (100, 50) on the screen
+
+<br>
+
+```python
+
+myRect = pygame.Rect(100, 50, 20, 30)
+
+```
+<br>
+
+[<img src="pygame-coords.png"/>](https://sigon.gitlab.io/post/2018-10-10-pygame-rect/)
+
+> Source [Pygame Rect Object, a basic guide](https://sigon.gitlab.io/post/2018-10-10-pygame-rect/)
+
+<br>
+<br>
