@@ -587,9 +587,38 @@ https://github.com/user-attachments/assets/d44a274c-2a16-48ef-91b5-51cfbabba6ed
 #13 IMporting img
 player_surf = pygame.image.load('../images/player.png')
 ```
-## 🌴 To see the image
 
-- 🫐 replace
+<br>
+
+> We have successfully `Blited` the **surf** for the **player_surf**
+
+https://github.com/user-attachments/assets/c3db1e6e-3cd4-41c6-9105-34964df50eab
+
+<br>
+<br>
+<br>
+
+
+## 🟠 To consider
+
+### 🟤 File PATH
+
+
+
+
+- - The **file path** can become a problem depending on the code editor
+**VS code** starts a relative path from the main directory
+
+> - -  🌈 DEPENDING ont the operating system you might need a different slash in the **file path** , example:
+
+`images/player.png` or `../images/player.png`
+
+
+<br>
+
+### 🟤 To see the image
+
+- replace
 
 ```python
 # this
@@ -599,9 +628,66 @@ display_surface.blit(surf, (x,150))
 # for this
 display_surface.blit(player_surf, (x,150))
 ```
-<br>
+
 <br>
 
 > We have successfully `Blited` the **surf** for the **player_surf**
 
 https://github.com/user-attachments/assets/c3db1e6e-3cd4-41c6-9105-34964df50eab
+
+
+<br>
+<br>
+
+```python
+
+import pygame
+
+pygame.init()
+
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
+
+display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+
+pygame.display.set_caption("Space shooter")
+
+running = True
+
+surf = pygame.Surface((100,200))
+
+surf.fill('orange')
+
+x = 100
+
+# ✋
+player_surf = pygame.image.load('../images/player.png')
+
+
+while running:
+    for event in pygame.event.get():
+       if event.type == pygame.QUIT:
+            running = False
+
+
+    display_surface.fill("lavenderblush2")
+    x += 0.1
+    # ✋
+    display_surface.blit(player_surf, (x,150))
+
+    pygame.display.update()
+
+
+
+pygame.quit()
+```
+
+
+<br>
+<br>
+<br>
+
+## 🟡 `Join()` / path
+
+<br>
+
+- `os.path.join()` **method** is used to **concatenate** directory and file names into a single path.
