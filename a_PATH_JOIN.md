@@ -5,3 +5,14 @@
 - - Initially, the teacher used a relative path with `../images/player.png`, but then **switched** to using `join('images', 'player.png')`.
 
 #### 🍊 The success of these paths depends on where your script is located relative to the assets.
+
+<br>
+
+Here's a summary of the issue and solution based on different project structures:
+
+### 🟤 Initial Path Example:
+
+```python
+player_surf = pygame.image.load('../images/player.png')
+
+```
