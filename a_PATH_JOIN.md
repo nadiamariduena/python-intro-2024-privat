@@ -102,3 +102,13 @@ player_surf = pygame.image.load('../images/player.png')
  - - ✋ Hardcoding paths doesn’t account for platform-specific path separators.
 
  <br>
+
+### 🔴 Version Control Conflicts:
+
+<br>
+
+ ✋ When working in a team, different members might use different folder structures or make changes that affect the paths.
+
+ - - ✋ Hardcoded paths can lead to conflicts and confusion, as other team members might not have the same directory layout.
+
+ #### This complicates collaboration and maintenance.
