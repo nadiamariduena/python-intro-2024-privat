@@ -363,3 +363,91 @@ https://github.com/user-attachments/assets/3397c1ba-e011-49a0-a8c9-f9f915067076
 
 
 <br>
+
+```javascript
+import React, { useRef, useState, useEffect } from 'react';
+import { Canvas, useFrame } from '@react-three/fiber';
+import * as THREE from 'three';
+
+const MovableCharacter = ({ position, onCollide }) => {
+  const meshRef = useRef();
+  const [collision, setCollision] = useState(false);
+
+  useFrame(({ clock }) => {
+    // Movement controls
+    const speed = 0.05;
+    const move = new THREE.Vector3();
+
+    if (keyboardState['ArrowLeft']) move.x -= speed;
+    if (keyboardState['ArrowRight']) move.x += speed;
+    if (keyboardState['ArrowUp']) move.z -= speed;
+    if (keyboardState['ArrowDown']) move.z += speed;
+
+    // Update character position
+    meshRef.current.position.add(move);
+
+    // Collision detection
+    const boundingBox1 = new THREE.Box3().setFromObject(meshRef.current);
+
+    // For simplicity, assuming a fixed position for other object
+    const boundingBox2 = new THREE.Box3().setFromCenterAndSize(
+      new THREE.Vector3(0, 0, 0), // Position of the other object
+      new THREE.Vector3(1, 1, 1)  // Size of the other object
+    );
+
+    const isColliding = boundingBox1.intersectsBox(boundingBox2);
+
+    if (isColliding && !collision) {
+      setCollision(true);
+      onCollide();
+    } else if (!isColliding && collision) {
+      setCollision(false);
+    }
+  });
+
+  return (
+    <mesh ref={meshRef} position={position}>
+      <boxGeometry args={[1, 1, 1]} />
+      <meshStandardMaterial color={collision ? 'red' : 'blue'} />
+    </mesh>
+  );
+};
+
+const keyboardState = {};
+
+window.addEventListener('keydown', (event) => {
+  keyboardState[event.key] = true;
+});
+
+window.addEventListener('keyup', (event) => {
+  keyboardState[event.key] = false;
+});
+
+const App = () => {
+  const handleCollision = () => {
+    alert('Collision detected!');
+  };
+
+  return (
+    <Canvas>
+    //pos light x y z
+      <ambientLight />
+      <pointLight position={[10, 10, 10]} />
+// ----------- lights
+
+
+      <MovableCharacter position={[0, 0, 0]} onCollide={handleCollision} />
+
+      // ---------
+      // front on the z axis
+      <mesh position={[0, 0, 2]}>
+        <boxGeometry args={[1, 1, 1]} />
+        <meshStandardMaterial color='green' />
+      </mesh>
+    </Canvas>
+  );
+};
+
+export default App;
+
+```
