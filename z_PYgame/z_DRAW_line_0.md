@@ -90,3 +90,16 @@ This specifies the color of the line.
 This is the starting point `(x, y)` of the line.
 
 - - - Here, the line starts at the position (10, 100) on the screen. The x-coordinate is 10, and the y-coordinate is 100.
+
+
+#### `[630, 100]`:
+
+This is the ending point (x, y) of the line. The line will end at the position (630, 100) on the screen. The x-coordinate is 630, and the y-coordinate is 100.
+
+
+### `5`:
+
+This specifies the width (or **thickness**) of the line.
+
+ - - - **In this case, the line will be 5 pixels wide**.
+
