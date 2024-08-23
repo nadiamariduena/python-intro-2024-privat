@@ -42,3 +42,26 @@ ___
 ### 🟣 QUESTION:
 
 - - **WHEN YOU SAID: Relative to Parent Container:** Placing an element at (10, 100) within a container means it will be 10 pixels from the left and 100 pixels from the top of the container, which might be different from the screen coordinates if the container itself is positioned differently
+
+> #### 🟣 but imagine it s not 10 in px, but 10% of a parent component that isn't 400 px but 100vh & vw, then the 10 its equivalent to 10%
+
+<br>
+
+### ✅ chatgpt
+
+ **Yes**, when using percentage-based positioning within a **parent container** sized in **viewport units** (`vh and vw`), the percentages are **calculated relative to those viewport units**.
+>  This means that a percentage value translates directly to a portion of the container’s dimensions, maintaining proportional positioning.
+
+<br>
+
+<br>
+
+## 🟠 Explanation:
+
+### Example Scenario Parent Container Size:
+
+#### Let’s say you have a parent container that is 100vh tall and 100vw wide.
+
+  This means the container spans the full height and `width of the viewport`.
+
+  <br>
