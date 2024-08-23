@@ -65,3 +65,11 @@ ___
   This means the container spans the full height and `width of the viewport`.
 
   <br>
+
+**Child Element Positioning:** If you position a child element at 10% from the left and 20% from the top within this container, it translates to:
+
+<br>
+
+- - **Horizontal Position:** 10% of the container’s width.
+
+
