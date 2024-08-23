@@ -118,3 +118,23 @@ Both use similar concepts for drawing shapes.
 	<path fill="#474bff" d="M316,330Q240,420,163.5,330Q87,240,163.5,202.5Q240,165,316,202.5Q392,240,316,330Z" />
 </svg>
 ```
+
+## 🟤 Explanation
+
+<br>
+
+#### `<path>`:
+
+The `<path>` element is used to define a complex shape using a series of commands and parameters.
+
+<br>
+
+
+#### 🟤 `fill="#474bff"`:
+
+- - **Sets the** `fill` **color** of the `path`.
+
+- - -  `#474bff` is a hexadecimal color code representing a shade of blue.
+
+<br>
+<br>
