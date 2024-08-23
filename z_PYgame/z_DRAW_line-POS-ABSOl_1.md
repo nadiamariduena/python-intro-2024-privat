@@ -5,3 +5,9 @@
 
 <br>
 <br>
+
+### 🟦 In this Example, we are drawing a horizontal line on the screen:
+
+- The line **starts** at **pos**ition (`10 x, 100 y`)on the screen.  **(what would give in pos absolute: 10% x axis, 20.83 y axis)**
+
+<br>
