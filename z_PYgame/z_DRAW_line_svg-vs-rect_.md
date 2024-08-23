@@ -184,3 +184,32 @@ https://github.com/user-attachments/assets/dbb1c275-2270-4f98-a11e-fffcb1b8270d
 
 <br>
 
+
+[<img src="cubic_bezier_01.png"/>](https://jesperkiledal.com/blog/understanding-cubic-bezier-curve-svg/)
+
+
+<br>
+
+### 🟤 `Q240,420,163.5,330`:
+
+🟤 `Q`: **Quadratic Bezier Curve command**.
+
+- - **Draws a curve** from the current position (`316, 330`) to (`163.5, 330`) with a control point at (`240, 420`).
+
+
+```bash
+M316,330Q240,420,163.5,330Q87,240,163.5,202.5Q240,165,316,202.5Q392,240,316,330Z
+```
+
+<br>
+
+#### [Cubic Bezier / shape](https://jesperkiledal.com/blog/understanding-cubic-bezier-curve-svg/)
+
+- other types with anim [Cubic Bezier](https://cubic-bezier.com/#.17,.67,.83,.67)
+
+
+<br>
+<br>
+
+
+### `Q87,240,163.5,202.5`:
