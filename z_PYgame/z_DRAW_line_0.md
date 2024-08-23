@@ -103,3 +103,83 @@ This specifies the width (or **thickness**) of the line.
 
  - - - **In this case, the line will be 5 pixels wide**.
 
+
+
+<br>
+<br>
+
+```python
+import time
+import pygame
+
+# defining the colors
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+BLUE = (0, 0, 255)
+GREEN = (0, 255, 0)
+RED = (255, 0, 0)
+
+
+
+pygame.init()
+
+
+
+screen = pygame.display.set_mode((640, 480))
+
+# loading the font to be used at drawing time
+# here you can add the size of the FONT, 55 is higher, 10 is lower
+font = pygame.font.SysFont(None, 55)
+
+
+
+pygame.display.set_caption('Drawing')
+
+
+
+screen.fill(BLACK)
+
+
+
+# drawing at the surface --------
+# This is the surface where the line will be drawn. Typically, this is your main game window or screen where all graphical elements are displayed.
+
+pygame.draw.line(screen, WHITE, [120, 100], [630, 100], 5)
+pygame.draw.rect(screen, BLUE, [200, 210, 40, 20])
+pygame.draw.ellipse(screen, RED, [300, 200, 40, 40])
+pygame.draw.polygon(screen, GREEN, [[420, 200], [440, 240], [400, 240]])
+
+
+# update
+pygame.display.flip()
+
+
+# 🔴 will launch the timer *to close** the window
+# - the window will stay open for 10 milliseconds,
+# but as you can notice, at the bottom there is also
+# another timer, at the end it will addition those
+# 5 milli secs to the 10, total 15 milli secs before its closes
+
+# - the text = will be linked to this timer
+
+time.sleep(10)
+
+
+
+screen.fill(BLACK)
+# writing pygame at the buffer
+text = font.render('pygame', True, WHITE)
+# coping the text to the screen
+screen.blit(text, [250, 200])
+
+
+
+pygame.display.flip()
+
+
+# it will close after 5 milliseconds
+time.sleep(5)
+
+```
+
+<br>
