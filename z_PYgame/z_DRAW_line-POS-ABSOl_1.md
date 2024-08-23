@@ -87,3 +87,14 @@ ___
 <br>
 
 ## 🟦 Key Points:
+
+**Viewport Units:**
+
+- - The dimensions of the parent container are defined in viewport units (`vh and vw`). In this case, **100vh and 100vw mean** that the **parent container occupies the entire viewport** height and width, respectively.
+
+**Percentage Conversion:**
+
+- - When you use percentage values for positioning, they are calculated based on the size of the parent container. So if the container size is defined in viewport units, the percentage-based positions will also be in viewport units.
+
+<br>
+
