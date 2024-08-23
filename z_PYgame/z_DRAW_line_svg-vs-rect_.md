@@ -18,3 +18,16 @@
 https://www.fffuel.co/sssvg/
 
 <br>
+
+```javascript
+// SVG
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <rect x="200" y="200" width="400" height="400" fill="#EACF44"></rect>
+</svg>
+```
+#### output
+
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <rect x="200" y="200" width="400" height="400" fill="#EACF44"></rect>
+</svg>
+
