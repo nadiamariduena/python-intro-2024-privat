@@ -32,3 +32,13 @@ pygame.draw.line(screen, WHITE, [10, 100], [630, 100], 5)
 
 
 ```
+
+
+- -  🍊 The line **starts** at **pos**ition (`10 x, 100 y`)on the screen.  **(what would give in pos absolute: 10% x axis, 20.83 y axis)**
+
+<br>
+
+>It's slightly different from using absolute positioning, but the concept is similar  [read more | DRAW_line-POS-ABSOl](./z_DRAW_line-POS-ABSOl_1.md)
+
+<br>
+<br>
