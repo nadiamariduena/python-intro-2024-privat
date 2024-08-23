@@ -224,3 +224,13 @@ M316,330Q240,420,163.5,330Q87,240,163.5,202.5Q240,165,316,202.5Q392,240,316,330Z
 **Another Quadratic Bezier Curve**.
 
 - - Draws a curve from (163.5, 202.5) to (316, 202.5) with a control point at (240, 165).
+
+
+#### `Q392,240,316,330`:
+
+**Another Quadratic Bezier Curve**.
+
+- - Draws a curve from (316, 202.5) back to the starting point (316, 330) with a control point at (392, 240).
+Z:
+
+#### Close Path command. Draws a straight line back to the starting point of the path, closing the shape.
