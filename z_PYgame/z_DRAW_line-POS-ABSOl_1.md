@@ -28,3 +28,17 @@ ___
 <br>
 
 **Absolute Positioning:** Elements are placed at **specific coordinates** `relative` to their `containing block` **or** the `viewport` (**in the case of web development**).
+
+> #### The position does not change unless the coordinates are modified.
+
+<br>
+
+### 🟠 Relative to Parent Container
+
+**Relative to Parent Container:** Elements are positioned based on their parent container's dimensions and position. This means that the position of an element is dependent on the size and position of the parent container.
+
+<br>
+
+### 🟣 QUESTION:
+
+- - **WHEN YOU SAID: Relative to Parent Container:** Placing an element at (10, 100) within a container means it will be 10 pixels from the left and 100 pixels from the top of the container, which might be different from the screen coordinates if the container itself is positioned differently
