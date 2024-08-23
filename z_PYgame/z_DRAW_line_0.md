@@ -183,3 +183,17 @@ time.sleep(5)
 ```
 
 <br>
+
+### 🟠 In the above example:
+
+- i changed the x value for 120 instead of 10
+
+```python
+pygame.draw.line(screen, WHITE, [120, 100], [630, 100], 5)
+```
+
+
+https://github.com/user-attachments/assets/68975245-7944-4639-8e3a-3e479744a816
+
+
+
