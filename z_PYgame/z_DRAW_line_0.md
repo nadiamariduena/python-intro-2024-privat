@@ -42,3 +42,10 @@ pygame.draw.line(screen, WHITE, [10, 100], [630, 100], 5)
 
 <br>
 <br>
+
+- - 🍊 This means it **begins** `10` **pixels from the left edge** and `100` **pixels from the top edge** of the screen.
+
+
+
+
+> - - #### 🟤 The line `extends to` position (630, 100), which places the end of the line 630 pixels from the left edge and still at 100 pixels from the top.
