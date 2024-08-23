@@ -73,3 +73,10 @@ ___
 - - **Horizontal Position:** 10% of the container’s width.
 
 
+
+> - - ####   Since the container is 100vw wide, 10% of this width is
+`0.10 × 100 vw = 10 vw 0.10×100vw=10vw`.
+
+
+
+> - -   **Vertical Position:** 20% of the container’s height. Since the container is 100vh tall, 20% of this height is 0.20 × 100 vh = 20 vh 0.20×100vh=20vh.
