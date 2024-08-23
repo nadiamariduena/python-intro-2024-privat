@@ -49,3 +49,19 @@ pygame.draw.line(screen, WHITE, [10, 100], [630, 100], 5)
 
 
 > - - #### 🟤 The line `extends to` position (630, 100), which places the end of the line 630 pixels from the left edge and still at 100 pixels from the top.
+
+- -  Given the screen width of 640 pixels, this ensures the line is positioned well within the screen boundaries.
+The line has a thickness of 5 pixels.
+
+**starts** at 10,
+
+**ends** at 630
+
+>- - - (keep in mind that the **screen** 480, so the line will reache 630),
+
+>`screen = pygame.display.set_mode((640, 480))`), i will be adding the entire code at the end
+
+
+
+https://github.com/user-attachments/assets/af0f50cc-66b1-4cb3-a17f-719fe73436d2
+
