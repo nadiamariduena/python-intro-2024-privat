@@ -80,3 +80,10 @@ ___
 
 
 > - -   **Vertical Position:** 20% of the container’s height. Since the container is 100vh tall, 20% of this height is 0.20 × 100 vh = 20 vh 0.20×100vh=20vh.
+
+#### Thus, the element will be positioned 10vw from the left edge and 20vh from the top edge of the container.
+
+<br>
+<br>
+
+## 🟦 Key Points:
