@@ -138,3 +138,13 @@ The `<path>` element is used to define a complex shape using a series of command
 
 <br>
 <br>
+
+#### 🔴 Before Continue reading:
+
+- - Check the video Below, it will give you an understanding of what you are going to read next, specially for the coordinates, control points, sin, lerp and other stuff, the important is that you get **a bit** familiar with the **path** (i' am also not a genius in svg manipulation, but its funny once you start  animating it :)
+
+<br>
+
+https://github.com/user-attachments/assets/dbb1c275-2270-4f98-a11e-fffcb1b8270d
+
+<br>
