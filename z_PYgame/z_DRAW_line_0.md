@@ -65,3 +65,28 @@ The line has a thickness of 5 pixels.
 
 https://github.com/user-attachments/assets/af0f50cc-66b1-4cb3-a17f-719fe73436d2
 
+
+<br>
+
+<br>
+
+## 🟦 The Code
+
+### 🟠 Explanation:
+
+#### screen:
+
+This is the surface where the line will be drawn. Typically, this is your main game window or screen where all graphical elements are displayed.
+
+#### WHITE:
+
+This specifies the color of the line.
+
+- - - In pygame, colors are often defined using RGB tuples. For example, WHITE is usually defined as (255, 255, 255), which represents white in RGB color space.
+
+
+#### `[10, 100]`:
+
+This is the starting point `(x, y)` of the line.
+
+- - - Here, the line starts at the position (10, 100) on the screen. The x-coordinate is 10, and the y-coordinate is 100.
