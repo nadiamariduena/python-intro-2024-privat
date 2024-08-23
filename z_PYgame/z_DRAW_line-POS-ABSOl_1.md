@@ -98,3 +98,7 @@ ___
 
 <br>
 
+
+**Relative Positioning:**
+
+- -  Regardless of whether the parent container’s size is in pixels, viewport units, or any other units, the percentage values you use for positioning will always be relative to the size of the parent container. This ensures that the child element’s position is proportional to the parent’s dimensions.
