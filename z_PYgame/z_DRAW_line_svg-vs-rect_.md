@@ -163,3 +163,11 @@ https://github.com/user-attachments/assets/dbb1c275-2270-4f98-a11e-fffcb1b8270d
 <br>
 
 #### 🟤 `d="M316,330Q240,420,163.5,330Q87,240,163.5,202.5Q240,165,316,202.5Q392,240,316,330Z":`
+
+- - 🟤 The   **`d`** attribute contains a series of commands and parameters that **describe** the <u>shape of the path</u> .
+
+<br>
+
+
+
+### Here’s a breakdown of the path data:
