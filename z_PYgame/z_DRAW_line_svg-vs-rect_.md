@@ -213,3 +213,14 @@ M316,330Q240,420,163.5,330Q87,240,163.5,202.5Q240,165,316,202.5Q392,240,316,330Z
 
 
 ### `Q87,240,163.5,202.5`:
+
+**Another Quadratic Bezier Curve**.
+
+- - Draws a curve from (163.5, 330) to (163.5, 202.5) with a control point at (87, 240).
+
+
+#### `Q240,165,316,202.5`:
+
+**Another Quadratic Bezier Curve**.
+
+- - Draws a curve from (163.5, 202.5) to (316, 202.5) with a control point at (240, 165).
