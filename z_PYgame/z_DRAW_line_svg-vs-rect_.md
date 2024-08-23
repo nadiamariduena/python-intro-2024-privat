@@ -148,3 +148,10 @@ The `<path>` element is used to define a complex shape using a series of command
 https://github.com/user-attachments/assets/dbb1c275-2270-4f98-a11e-fffcb1b8270d
 
 <br>
+
+> SOURCE: tutorial by **Olivier Larose** [How to Make an Animated SVG Curve using Next.js, Sine, Linear Interpolation](https://youtu.be/5FqetqO2Y9A?si=zSmKnnWEwPmbdr7s)
+
+<br>
+
+
+##  🟠 Understanding the Cubic Bézier Curve in SVG
