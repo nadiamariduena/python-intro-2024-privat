@@ -430,3 +430,11 @@ https://github.com/user-attachments/assets/328f60ea-967d-42c5-bc0e-2cfbeddcdd63
 **Padding:**
 
 - -  **Add** space between the plane and the edges of the screen to prevent it from being too close to the screen limits.
+
+<br>
+<br>
+
+### 🟤 Replace this:
+
+- Because i no longer want it to be positioned at the center center of the screen `/ 2`
+
