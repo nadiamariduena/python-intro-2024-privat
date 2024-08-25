@@ -15,22 +15,27 @@
 
 <br>
 
-https://www.fffuel.co/sssvg/
+
 
 <br>
 
+🟢 play with this values: `-3 -41 782 877` , **here**: https://www.fffuel.co/sssvg/
+
 ```javascript
 // SVG
-<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="-3 -41 782 877" xmlns="http://www.w3.org/2000/svg">
   <rect x="200" y="200" width="400" height="400" fill="#EACF44"></rect>
 </svg>
 ```
 #### output
 
-<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
-  <rect x="200" y="200" width="400" height="400" fill="#EACF44"></rect>
-</svg>
 
+
+[<img src="../svg_generator_coords_00.gif"/>]()
+
+
+<br>
+<br>
 
 
 ### 🟧 Here’s a comparison of how SVG and Pygame handle drawing:
@@ -185,7 +190,7 @@ https://github.com/user-attachments/assets/dbb1c275-2270-4f98-a11e-fffcb1b8270d
 <br>
 
 
-[<img src="cubic_bezier_01.png"/>](https://jesperkiledal.com/blog/understanding-cubic-bezier-curve-svg/)
+[<img src="../cubic_bezier_01.png"/>](https://jesperkiledal.com/blog/understanding-cubic-bezier-curve-svg/)
 
 
 <br>
