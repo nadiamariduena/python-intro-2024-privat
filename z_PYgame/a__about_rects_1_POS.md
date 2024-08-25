@@ -347,3 +347,28 @@ https://github.com/user-attachments/assets/62429f35-074b-457a-b238-e2a2656d422f
 
 https://github.com/user-attachments/assets/328f60ea-967d-42c5-bc0e-2cfbeddcdd63
 
+
+
+
+<br>
+
+## 🟤 Here’s a comparison to clarify:
+
+<br>
+
+### 🟦  Pygame's center Argument
+
+
+- - **Example:**
+
+- -  `kop.get_frect(center=(0, 30))`
+
+- - #### Purpose:
+
+- -  This sets the center of the rectangle to the coordinates `(0, 30)`.
+
+- - It **defines where the center** of the **rectangle** should be positioned on the screen.
+
+
+<br>
+
