@@ -396,3 +396,30 @@ https://github.com/user-attachments/assets/328f60ea-967d-42c5-bc0e-2cfbeddcdd63
 **Coordinate System:** Both use coordinate systems to define positions.
 
 - Pygame uses 2D coordinates (x, y), while Three.js uses 3D coordinates (x, y, z).
+
+<br>
+
+## 🟢 Differences
+
+**Context:** In Pygame, setting the center affects the position of 2D shapes on the screen.
+
+- - In Three.js, lookAt affects the camera’s view direction in a 3D environment.
+
+
+**Impact:** Changing the center moves the object relative to the screen or window.
+
+- - Changing the `lookAt` alters the camera's viewpoint, which affects the perspective and composition of the 3D scene.
+
+> #### 📌 So, while they are used in different contexts and for different purposes, both concepts are about positioning or orienting elements relative to some reference point
+
+
+<br>
+<br>
+<br>
+
+---
+
+<br>
+
+
+## 🟡 PADDING:
