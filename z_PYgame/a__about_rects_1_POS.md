@@ -547,3 +547,9 @@ player_rect.left  += 0.1
 # 🔴 Important:
 
 - The animation is working because we are using **`Frect`** INSTEAD of the `Rect`
+
+## `frect`
+
+```python
+player_rect = player_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+```
