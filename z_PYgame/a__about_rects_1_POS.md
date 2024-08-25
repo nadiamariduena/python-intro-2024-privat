@@ -604,3 +604,21 @@ object.position.x += 0.1; // Smooth movement
 <br>
 
 #### 🟧 Both systems (PYGAME &Threjs) rely on floating-point precision to enable smooth animations and precise transformations, albeit in different contexts and implementations.
+
+<br>
+<br>
+<br>
+
+## 🟡 Condition 🧶
+
+### To stop the plane within the limits of the window
+
+- **As long** as the **right edge** of the rectangle is **within** the **window's width** (  it hasn't reached or exceeded the window’s edge) `if player_rect.right < WINDOW_WIDTH` , the rectangle **will continue to move to the right**.
+
+<br>
+
+```python
+    if player_rect.right < WINDOW_WIDTH:
+        player_rect.left  += 0.1
+
+```
