@@ -579,3 +579,12 @@ player_rect = player_surf.get_rect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
 <br>
 
 [<img src="./frect-anim_2.gif"/>]( )
+
+<br>
+
+### 🟠 But What happens if you remove the `0` from the `0.01` of this line: `player_rect.left  += 0.1`
+
+[<img src="./frect-anim_3.gif"/>]( )
+
+<br>
+<br>
