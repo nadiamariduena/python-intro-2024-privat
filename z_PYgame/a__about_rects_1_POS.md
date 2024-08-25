@@ -553,3 +553,17 @@ player_rect.left  += 0.1
 ```python
 player_rect = player_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
 ```
+
+> - - -  **Frect** with floating-point values allows for smooth animations because you can increment positions by fractions (like 0.25), enabling gradual movement.
+
+<br>
+
+
+[<img src="./frect-anim_1.gif"/>]( )
+
+
+
+
+<br>
+
+### 🔴 If you use `Rect` instead, the animation will not work:
