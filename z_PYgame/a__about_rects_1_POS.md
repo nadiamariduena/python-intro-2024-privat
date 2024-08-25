@@ -372,3 +372,11 @@ https://github.com/user-attachments/assets/328f60ea-967d-42c5-bc0e-2cfbeddcdd63
 
 <br>
 
+
+### 🟧 Three.js's `camera.lookAt()`
+
+- - **Example:**
+
+ `camera.lookAt(new THREE.Vector3(0, 0, 0));`
+
+- - #### Purpose:
