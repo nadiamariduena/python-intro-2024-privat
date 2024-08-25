@@ -38,8 +38,11 @@ pygame.draw.line(screen, WHITE, [10, 100], [630, 100], 5)
 
 <br>
 
->It's slightly different from using absolute positioning, but the concept is similar  [read more | DRAW_line-POS-ABSOl](./z_DRAW_line-POS-ABSOl_1.md)
+>It's slightly different from using absolute positioning, but the concept is similar
 
+#### [read more | DRAW_line-POS-ABSOl](./z_DRAW_line-POS-ABSOl_1.md)
+
+<br>
 <br>
 <br>
 

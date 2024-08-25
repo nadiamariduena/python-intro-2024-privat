@@ -3,7 +3,9 @@
 ## 🟠 Rects & Frects
 
 
-- -  Read more [a__about_rects](../a__about_rects.md)
+- -  Read More [a__about_rects](../a__about_rects.md)
+
+- - - Read More [rect Position & animation](../a__about_rects_1_POS.md)
 
 <br>
 
