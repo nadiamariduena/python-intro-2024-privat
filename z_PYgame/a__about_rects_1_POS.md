@@ -582,9 +582,19 @@ player_rect = player_surf.get_rect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
 
 <br>
 
-### 🟠 But What happens if you remove the `0` from the `0.01` of this line: `player_rect.left  += 0.1`
+### 🟠 But What happens if you remove the `0` from the `0.01` of this line: `player_rect.left  += 0.1` and add only `1`, like so: `player_rect.left  += 1` , or if you add `0.06` , just play with the values
 
-[<img src="./frect-anim_3.gif"/>]( )
+
+```python
+   if player_rect.right < WINDOW_WIDTH:
+        # player_rect.left  += 1
+        player_rect.left  += 0.1
+        # player_rect.left  += 0.06
+
+```
+
+[<img src="./frect-anim_3__fast.gif"/>]( )
+
 
 <br>
 <br>
