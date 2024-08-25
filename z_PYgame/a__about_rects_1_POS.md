@@ -119,3 +119,68 @@ kop_rect = kop.get_frect(center=(0, 30))
  <br>
 
 ### 🔴 Not Moving the Entire Cube:
+
+- - This does not mean that the entire object (or cube) is being moved to (0,0).
+
+> - - - #### 🌈 Instead, it means that the position of the rectangle's center is set to (0,0).
+
+ - - #### The overall object’s position is still relative to where it was before; only its internal alignment within the parent or coordinate system is adjusted so that its center is at the specified point.
+
+<br>
+<br>
+
+## 🟡 Other Options
+
+```python
+# Create a rectangle with different positioning options
+center_rect = player_surf.get_rect(center=(100, 100))
+topleft_rect = player_surf.get_rect(topleft=(50, 50))
+topright_rect = player_surf.get_rect(topright=(200, 50))
+bottomleft_rect = player_surf.get_rect(bottomleft=(50, 200))
+bottomright_rect = player_surf.get_rect(bottomright=(200, 200))
+midtop_rect = player_surf.get_rect(midtop=(100, 30))
+midbottom_rect = player_surf.get_rect(midbottom=(100, 200))
+midleft_rect = player_surf.get_rect(midleft=(30, 100))
+midright_rect = player_surf.get_rect(midright=(200, 100))
+```
+
+
+
+
+
+<br>
+<br>
+
+
+## 🟦 Play with the above table
+
+## 🟤 `topleft & topright`
+
+- notice the behavior of the cube using the same positioning but using a different property (example: topleft)
+
+```python
+kop_rect = kop.get_frect(topleft=(0, 120))
+# or
+kop_rect = kop.get_frect(topright=(0, 120))
+```
+
+https://github.com/user-attachments/assets/1e85ca4d-91b9-4814-89c5-a8eed17cae3f
+
+
+<br>
+<br>
+
+## 🟤 `midbottom & midtop`
+
+- change the values accordingly
+
+```python
+# change the values accordingly
+kop_rect = kop.get_frect(midbottom=(40, 30))
+kop_rect = kop.get_frect(midtop=(40, 30))
+```
+
+
+https://github.com/user-attachments/assets/a3150afc-dfb7-4074-85ca-e63fc8838d3d
+
+
