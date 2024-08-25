@@ -436,5 +436,48 @@ https://github.com/user-attachments/assets/328f60ea-967d-42c5-bc0e-2cfbeddcdd63
 
 ### 🟤 Replace this:
 
-- Because i no longer want it to be positioned at the center center of the screen `/ 2`
+- Because i no longer want it to be positioned at the **center center** of the **screen/window**  **`/ 2`**
 
+
+```python
+player_rect = player_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+```
+<br>
+
+### 🟤 Add the padding
+
+- 10px from the
+
+```python
+player_rect = player_surf.get_frect(bottomright=(WINDOW_WIDTH -10, WINDOW_HEIGHT -10))
+```
+<br>
+
+
+[<img src="frect_position_padding-opt_1.jpg"/>](  )
+
+<br>
+
+### 🟤 Another Example:
+
+```python
+player_rect = player_surf.get_frect(bottomright=(WINDOW_WIDTH -10, WINDOW_HEIGHT -320))
+```
+
+[<img src="frect_position_padding-opt_2.jpg"/>](  )
+
+<br>
+<br>
+
+<br>
+
+### Lets bring it back to the center
+
+```python
+player_rect = player_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+```
+
+<br>
+<br>
+
+## 🟠 Updating individual points of the rectangle
