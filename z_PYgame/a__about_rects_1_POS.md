@@ -423,3 +423,10 @@ https://github.com/user-attachments/assets/328f60ea-967d-42c5-bc0e-2cfbeddcdd63
 
 
 ## 🟡 PADDING:
+
+### What if I want the plane to be positioned at the bottom right of the screen instead of the center?
+
+
+**Padding:**
+
+- -  **Add** space between the plane and the edges of the screen to prevent it from being too close to the screen limits.
