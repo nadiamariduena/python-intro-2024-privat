@@ -481,3 +481,43 @@ player_rect = player_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2)
 <br>
 
 ## 🟠 Updating individual points of the rectangle
+
+
+#### 🔴 Remember: Inside of the rectangle, we have Tuples and integers
+
+[<img src="./rect__points.png"/>](https://youtu.be/8OMghdHP-zs?si=9bnV1doH88xy5ZMK&t=3007)
+
+<br>
+<br>
+
+## Positioning the rect to the left
+
+- 🔴 Knowing that our plane rect is positioned already at the center center **(x,y)** of the **screen/window**, we can position it again based on this  ` / 2` positioning
+
+<br>
+
+ #### 🟢 1. center center of the screen
+
+```python
+player_rect = player_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+ ```
+
+<br>
+
+ #### 🟢 2. add a value more to the step 1. from above
+
+ - Grab the `player_rect` variable containing the **center center** positioning `(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))`
+
+ <br>
+
+ - Use it it within the WHILE  loop, and add it a value, once you add a value you know that its going to be on the **X axis**
+
+```python
+player_rect.left = 100
+```
+
+<br>
+<br>
+<br>
+
+# 🟡 Animation
