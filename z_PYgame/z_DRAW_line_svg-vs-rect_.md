@@ -108,7 +108,7 @@ Both use similar concepts for drawing shapes.
 
 ## SVG
 
-[<img src="svg_shape_00.png"/>]()
+[<img src="../svg_shape_00.png"/>]()
 
 
 ```bash
