@@ -622,3 +622,11 @@ object.position.x += 0.1; // Smooth movement
         player_rect.left  += 0.1
 
 ```
+
+
+
+ [<img src="./frect-anim_4.gif"/>]( )
+
+ <br>
+
+ - - ###  🌈 the code ensures that the rectangle moves to the right by small increments (`0.1 units`) as long as its right edge is within the window's width. Once it reaches or exceeds the window's width, the rectangle stops moving.
