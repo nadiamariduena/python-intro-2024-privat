@@ -567,3 +567,15 @@ player_rect = player_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2)
 <br>
 
 ### 🔴 If you use `Rect` instead, the animation will not work:
+
+## `rect`
+
+```python
+player_rect = player_surf.get_rect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+```
+
+> - - -  **Rect** **does not support** such fine-grained control, making animations less smooth when only whole numbers are used.
+
+<br>
+
+[<img src="./frect-anim_2.gif"/>]( )
