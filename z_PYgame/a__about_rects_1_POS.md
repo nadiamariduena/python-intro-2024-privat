@@ -595,3 +595,12 @@ player_rect = player_surf.get_rect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
 - `Frect` allows for floating-point values (like `0.25`), which lets you animate the rectangle smoothly.
 
 > - - ####  `Rect` only works with whole numbers and does not support smooth animations.
+
+### 🟦 Threejs Similarities:
+
+```javascript
+object.position.x += 0.1; // Smooth movement
+```
+<br>
+
+#### 🟧 Both systems (PYGAME &Threjs) rely on floating-point precision to enable smooth animations and precise transformations, albeit in different contexts and implementations.
