@@ -380,3 +380,19 @@ https://github.com/user-attachments/assets/328f60ea-967d-42c5-bc0e-2cfbeddcdd63
  `camera.lookAt(new THREE.Vector3(0, 0, 0));`
 
 - - #### Purpose:
+
+- - This method orients the camera to **look at** the `point (0, 0, 0)` in the 3D space.
+
+-  - It determines which part of the scene is visible through the camera.
+
+<br>
+<br>
+
+## 🟢 Similarities
+
+**Positioning:** Both involve specifying a position or point of interest. In Pygame, it’s where a 2D object (like a rectangle) is centered. In Three.js, it’s where the camera is directed.
+
+
+**Coordinate System:** Both use coordinate systems to define positions.
+
+- Pygame uses 2D coordinates (x, y), while Three.js uses 3D coordinates (x, y, z).
