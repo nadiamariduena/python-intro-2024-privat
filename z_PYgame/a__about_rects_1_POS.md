@@ -184,3 +184,155 @@ kop_rect = kop.get_frect(midtop=(40, 30))
 https://github.com/user-attachments/assets/a3150afc-dfb7-4074-85ca-e63fc8838d3d
 
 
+
+
+
+<br>
+<br>
+
+### 🌈 the code
+
+```python
+
+
+import pygame
+import os
+from random import randint
+
+
+pygame.init()
+script_dir = os.path.dirname(__file__)
+
+
+
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
+display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+pygame.display.set_caption("Space shooter")
+
+
+#while loop related
+running = True
+surf = pygame.Surface((100,200))
+# animation related
+x = 100
+
+# img's path
+image_paths = {
+    'player': os.path.join(script_dir, '..', 'images', 'player.png'),
+    'star': os.path.join(script_dir, '..', 'images', 'star.png')
+}
+
+# ----- 🌈 the cube example ------
+kop = pygame.Surface((50, 50))
+kop.fill("orange")
+# 🟠 Observe the behavior of the topleft and topright with the same value, 0 for the X axis, 120 Y axis , check the videos
+
+kop_rect = kop.get_frect(center=(0, 30))
+# -------------------
+
+player_surf = pygame.image.load(image_paths['player']).convert_alpha()
+
+# (WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2)
+# Will pos the plane at the center of the screen/window
+player_rect = player_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+
+
+
+
+# start
+star_surf = pygame.image.load(image_paths['star']).convert_alpha()
+# star pos
+star_positions = [(randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)) for i in range(20)]
+
+
+
+while running:
+    for event in pygame.event.get():
+       if event.type == pygame.QUIT:
+            running = False
+
+
+
+ # FILL the window with a red color
+ # player = pygame.Rect((300, 250, 50, 50))
+ # https://pyga.me/docs/ref/pygame.html
+
+ # 7 --- DRAW the game ----
+ # list of colors: https://pyga.me/docs/ref/color_list.html
+    display_surface.fill("lavenderblush2")
+
+
+    # ----- 🌈 the cube example ------
+    # has nothing to do with the project
+    display_surface.blit(kop, kop_rect )
+    #------------------
+
+    for pos in star_positions:
+        display_surface.blit(star_surf, pos)
+
+    # x += 0.1
+
+    display_surface.blit(player_surf, player_rect)
+    pygame.display.update()
+
+
+
+pygame.quit()
+```
+<br>
+<br>
+
+
+## 🟦 Position the plane in the middle
+
+- You can manually calculate the center of the window by dividing the width and height by 2:
+
+
+
+```python
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
+# Center X-coordinate: 1280 / 2 = 640
+# Center Y-coordinate: 720 / 2 = 360
+```
+
+### And then implementing it here:
+
+```python
+# before
+player_rect = player_surf.get_frect(center=(0,0))
+
+# after
+player_rect = player_surf.get_frect(center=(1280 / 2, 640 / 2))
+```
+<br>
+
+
+https://github.com/user-attachments/assets/62429f35-074b-457a-b238-e2a2656d422f
+
+<br>
+
+## 🟠 A Better Approach
+
+
+ **Instead of hardcoding** the **center coor**dinates, **use the window dimensions** directly.
+
+ > - -  #### 🟤 This ensures that if you resize the window, the position of your plane will remain centered without additional adjustments.
+
+
+```python
+# (WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2)
+# Will pos the plane at the center of the screen/window
+player_rect = player_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+```
+
+https://github.com/user-attachments/assets/62429f35-074b-457a-b238-e2a2656d422f
+
+
+<br>
+<br>
+
+### 🟣 QUESTION: so the `center =` or `topleft` etc... is similar to the `camera.lookAt(new THREE.Vector3(0, 0, 0));` in threejs
+
+#### ✅ chatgpt:
+
+ **Yes, in a way**, setting the center in Pygame is conceptually **similar to** using **`camera.lookAt(new THREE.Vector3(0, 0, 0));`** **in Three.js**.
