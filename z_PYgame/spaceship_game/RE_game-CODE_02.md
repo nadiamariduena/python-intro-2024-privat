@@ -300,3 +300,493 @@ player_rect = player_surf.get_frect(center = (0, 0))
 display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 ```
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+### 🟦 But what if i wanted to position it at `top-left` or `middle` or `bottom-right` of the screen with also some padding in each side, like in the img below?
+
+<br>
+
+[<img src="../position_spaceship__1.png"/>](https://youtu.be/8OMghdHP-zs?si=04YfiUzL7Gt5JOsv&t=2845)
+
+
+<br>
+<br>
+
+## 👾 Before start
+
+- remove the animation: `x += 0.1`
+
+<br>
+<br>
+
+## 🟦 Rectangle:  use `Frect`
+
+### To position it in specific places we will use the `frect`
+
+#### ⚫ [a__about_rects_1_POSITIONING](../a__about_rects_1_POS.md)
+
+<br>
+
+
+### 🟠 STEPS:
+
+- Create a **new variable**, call it: **player_rect**
+
+- We will place the **center point** of the `rectangle` at position `0,0` (which give us the top left of the window). Don't confuse this **center** with the position of the entire cube, its a position **within** on the cube
+
+```python
+
+player_rect = player_surf.get_frect(center = (0,0))
+
+```
+
+[<img src="../nomove-entirecube_instead_it-points-at-center-of-thecube.gif"/>](  )
+
+> - - #### Look at: 🔴 the center blue dot, that is the center i am talking about, this center can be changed to topleft, bottomright etc (check the opstions below)
+
+<br>
+<br>
+
+## 🟠 While LOOP:
+
+- Within the `While loop` and then the `for loop` **remove** the hardcoded position
+
+```python
+# before
+    display_surface.blit(player_surf, (x,150))
+
+# after
+    display_surface.blit(player_surf, player_rect)
+```
+
+
+## Test it
+
+#### 🔴 err
+
+- if you get this:
+
+```python
+pygame 2.6.0 (SDL 2.28.4, Python 3.7.14)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Traceback (most recent call last):
+  File "main.py", line 28, in <module>
+    player_rect = player_surf.get_frect(center = (0,0))
+AttributeError:
+'pygame.surface.Surface'
+object has no attribute 'get_frect' 🔴
+```
+
+<br>
+
+### 🌈 Check if your environment is activated
+
+- `source .venv/bin/activate`
+
+- once activated, run the `python main.py`
+
+
+<br>
+
+#### Output
+
+
+https://github.com/user-attachments/assets/4b9ca2e0-7f5c-44bb-bf26-39299b9f186a
+
+<br>
+
+- 🌈 As you can notice, we can only see **half of the plane**, and that is because we specified it to be, at the **center point** `(center =` of the **rectangle**.
+
+```python
+player_rect = player_surf.get_frect(center = (0,0))
+```
+
+<br>
+<br>
+
+
+### 🟡 Options
+
+```python
+# Create a rectangle with different positioning options
+center_rect = player_surf.get_rect(center=(100, 100))
+topleft_rect = player_surf.get_rect(topleft=(50, 50))
+topright_rect = player_surf.get_rect(topright=(200, 50))
+bottomleft_rect = player_surf.get_rect(bottomleft=(50, 200))
+bottomright_rect = player_surf.get_rect(bottomright=(200, 200))
+midtop_rect = player_surf.get_rect(midtop=(100, 30))
+midbottom_rect = player_surf.get_rect(midbottom=(100, 200))
+midleft_rect = player_surf.get_rect(midleft=(30, 100))
+midright_rect = player_surf.get_rect(midright=(200, 100))
+```
+
+<br>
+<br>
+
+```python
+
+import pygame
+import os
+from random import randint
+
+
+pygame.init()
+script_dir = os.path.dirname(__file__)
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
+display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+pygame.display.set_caption("Space shooter")
+
+
+#while loop related
+running = True
+surf = pygame.Surface((100,200))
+# animation related
+x = 100
+
+# img's path
+image_paths = {
+    'player': os.path.join(script_dir, '..', 'images', 'player.png'),
+    'star': os.path.join(script_dir, '..', 'images', 'star.png')
+}
+
+
+player_surf = pygame.image.load(image_paths['player']).convert_alpha()
+
+
+# --------- just example ---------
+# has nothing to do with the project
+kop = pygame.Surface((50, 50))
+kop.fill("orange")
+# 🟠 Observe the behavior of the topleft and topright with the same value, 0 for the X axis, 120 Y axis , check the videos
+
+kop_rect = kop.get_frect(topleft=(0, 30))
+# --------------
+
+
+player_rect = player_surf.get_frect(center=(0,0))
+
+
+
+# start
+star_surf = pygame.image.load(image_paths['star']).convert_alpha()
+# star pos
+star_positions = [(randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)) for i in range(20)]
+
+
+
+while running:
+    for event in pygame.event.get():
+       if event.type == pygame.QUIT:
+            running = False
+
+
+ # FILL the window with a red color
+ # player = pygame.Rect((300, 250, 50, 50))
+ # https://pyga.me/docs/ref/pygame.html
+
+ # 7 --- DRAW the game ----
+ # list of colors: https://pyga.me/docs/ref/color_list.html
+    display_surface.fill("lavenderblush2")
+
+
+
+
+# --------- just example ---------
+# has nothing to do with the project
+    display_surface.blit(kop, kop_rect )
+    #------------------
+
+    for pos in star_positions:
+        display_surface.blit(star_surf, pos)
+
+    # x += 0.1
+
+    display_surface.blit(player_surf, player_rect)
+    pygame.display.update()
+
+
+
+pygame.quit()
+```
+
+<br>
+<br>
+<br>
+
+## 🟡 Position the plane `🛩️` in the middle of the screen/window
+
+<br>
+
+#### 🟫 option 1.
+
+- 🟤 You can manually calculate the center of the window by dividing the width and height by 2:
+
+
+
+```python
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
+# Center X-coordinate: 1280 / 2 = 640
+# Center Y-coordinate: 720 / 2 = 360
+```
+
+### And then implementing it here:
+
+```python
+# before
+player_rect = player_surf.get_frect(center=(0,0))
+
+# after
+player_rect = player_surf.get_frect(center=(1280 / 2, 640 / 2))
+```
+<br>
+
+
+https://github.com/user-attachments/assets/62429f35-074b-457a-b238-e2a2656d422f
+
+<br>
+
+#### 🟫 option 2.
+
+## 🟠 A Better Approach
+
+
+
+
+- **Instead of hardcoding** the **center coor**dinates, **use the window dimensions** directly.
+
+ > - -  #### 🟤 This ensures that if you resize the window, the position of your plane will remain centered without additional adjustments.
+
+
+```python
+# (WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2)
+# Will pos the plane at the center of the screen/window
+player_rect = player_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+```
+
+https://github.com/user-attachments/assets/62429f35-074b-457a-b238-e2a2656d422f
+
+<br>
+<br>
+<br>
+
+---
+
+<br>
+
+
+## 🟡 PADDING:
+
+### What if I want the plane to be positioned at the bottom right of the screen instead of the center?
+
+
+**Padding:**
+
+- -  **Add** space between the plane and the edges of the screen to prevent it from being too close to the screen limits.
+
+<br>
+<br>
+
+### 🟤 Replace this:
+
+- Because i no longer want it to be positioned at the center center of the screen `/ 2`
+
+
+```python
+player_rect = player_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+```
+<br>
+
+### 🟤 Add the padding
+
+- 10px from the
+
+```python
+player_rect = player_surf.get_frect(bottomright=(WINDOW_WIDTH -10, WINDOW_HEIGHT -10))
+```
+<br>
+
+
+[<img src="../frect_position_padding-opt_1.jpg"/>](  )
+
+<br>
+
+### 🟤 Another Example:
+
+```python
+player_rect = player_surf.get_frect(bottomright=(WINDOW_WIDTH -10, WINDOW_HEIGHT -320))
+```
+
+[<img src="../frect_position_padding-opt_2.jpg"/>](  )
+
+<br>
+<br>
+
+<br>
+
+### Lets bring it back to the center
+
+```python
+player_rect = player_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+```
+
+<br>
+<br>
+
+## 🟠 Updating individual points of the rectangle
+
+[50:07](https://youtu.be/8OMghdHP-zs?si=9bnV1doH88xy5ZMK&t=3007)
+
+#### 🔴 Remember: Inside of the rectangle, we have Tuples and integers
+
+[<img src="../rect__points.png"/>](https://youtu.be/8OMghdHP-zs?si=9bnV1doH88xy5ZMK&t=3007)
+
+<br>
+<br>
+
+## Positioning the rect to the left
+
+- 🔴 Knowing that our plane rect is positioned already at the center center (x,y) of the screen/window, we can position it again based on this  ` / 2` positioning
+
+<br>
+
+ #### 🟢 1. center center of the screen
+
+```python
+player_rect = player_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+ ```
+
+<br>
+
+ #### 🟢 2. add a value more to the step 1. from above
+
+ - Grab the `player_rect` variable containing the **center center** positioning `(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))`
+
+ <br>
+
+ - Use it it within the WHILE  loop, and add it a value, once you add a value you know that its going to be on the **X axis**
+
+```python
+player_rect.left = 100
+```
+
+<br>
+<br>
+<br>
+
+# 🟡 Animation
+
+### To make the plane  <u>go from one side the other</u>
+
+- within the while loop, replace this: `player_rect.left = 100`
+
+```python
+player_rect.left  += 0.1
+```
+#### 🟤 Notice how the `plane ✈️`  starts from the <u>center center</u>  of the screen
+
+[<img src="../frect-anim_0.gif"/>]( )
+
+
+
+<br>
+<br>
+<br>
+
+# 🔴 Important:
+
+- The animation is working because we are using **`Frect`** INSTEAD of the `Rect`
+
+## `frect`
+
+```python
+player_rect = player_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+```
+
+> - - -  **Frect** with floating-point values allows for smooth animations because you can increment positions by fractions (like 0.25), enabling gradual movement.
+
+<br>
+
+
+[<img src="../frect-anim_1.gif"/>]( )
+
+
+
+
+<br>
+
+### 🔴 If you use Rect instead, the animation will not work:
+
+## `rect`
+
+```python
+player_rect = player_surf.get_rect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+```
+
+> - - -  **Rect** does not support such fine-grained control, making animations less smooth when only whole numbers are used.
+
+<br>
+
+[<img src="../frect-anim_2.gif"/>]( )
+
+<br>
+
+### 🟠 But What happens if you remove the `0` from the `0.01` of this line: `player_rect.left  += 0.1` and add only `1`, like so: `player_rect.left  += 1` , or if you add `0.06` , just play with the values
+
+
+```python
+   if player_rect.right < WINDOW_WIDTH:
+        # player_rect.left  += 1
+        player_rect.left  += 0.1
+        # player_rect.left  += 0.06
+
+```
+
+[<img src="../frect-anim_3__fast.gif"/>]( )
+
+
+<br>
+<br>
+
+## 🌈 Why This Happens:
+
+
+- `Frect` allows for floating-point values (like `0.25`), which lets you animate the rectangle smoothly.
+
+> - - ####  `Rect` only works with whole numbers and does not support smooth animations.
+
+### 🟦 Threejs Similarities:
+
+```javascript
+object.position.x += 0.1; // Smooth movement
+```
+
+
+#### Both systems (PYGAME &Threjs) rely on floating-point precision to enable smooth animations and precise transformations, albeit in different contexts and implementations.
+
+<br>
+<br>
+
+
+### 🟦Condition to stop the plane within the limits of the window
+
+- **As long** as the **right edge** of the rectangle is **within** the **window's width** (  it hasn't reached or exceeded the window’s edge) `if player_rect.right < WINDOW_WIDTH` , the rectangle **will continue to move to the right**.
+
+<br>
+
+```python
+    if player_rect.right < WINDOW_WIDTH:
+        player_rect.left  += 0.1
+
+```
+
+
+
+ [<img src="frect-anim_4.gif"/>]( )
+
+ - - ####  🌈 the code ensures that the rectangle moves to the right by small increments (`0.1 units`) as long as its right edge is within the window's width. Once it reaches or exceeds the window's width, the rectangle stops moving.
