@@ -156,7 +156,7 @@ https://github.com/user-attachments/assets/dbb1c275-2270-4f98-a11e-fffcb1b8270d
 
 ##  🟠 Understanding the Cubic Bézier Curve in SVG
 
-[<img src="cubic_bezier_00.png"/>](https://jesperkiledal.com/blog/understanding-cubic-bezier-curve-svg/)
+[<img src="../cubic_bezier_00.png"/>](https://jesperkiledal.com/blog/understanding-cubic-bezier-curve-svg/)
 
 > SOURCE: https://jesperkiledal.com/blog/understanding-cubic-bezier-curve-svg/
 
