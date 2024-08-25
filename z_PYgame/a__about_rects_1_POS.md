@@ -336,3 +336,14 @@ https://github.com/user-attachments/assets/62429f35-074b-457a-b238-e2a2656d422f
 #### ✅ chatgpt:
 
  **Yes, in a way**, setting the center in Pygame is conceptually **similar to** using **`camera.lookAt(new THREE.Vector3(0, 0, 0));`** **in Three.js**.
+
+ <br>
+
+- - 🌈 **Both determine how an object is positioned or oriented relative to the scene**.
+
+<br>
+
+[min: 2:14 | ThreeJS - camera.lookAt VS OrbitControls](https://youtu.be/PcHW02QA5d4?si=TlCN5I8430t9jHjj)
+
+https://github.com/user-attachments/assets/328f60ea-967d-42c5-bc0e-2cfbeddcdd63
+
