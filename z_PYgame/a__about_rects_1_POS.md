@@ -521,3 +521,29 @@ player_rect.left = 100
 <br>
 
 # 🟡 Animation
+
+### To make the plane  <u>go from one side the other</u>
+
+<br>
+
+- within the while loop, replace this: `player_rect.left = 100` with the below:
+
+```python
+player_rect.left  += 0.1
+```
+
+<br>
+
+### 🟤 Notice how the `plane ✈️`  starts from the <u>center center</u>  of the screen
+
+[<img src="./frect-anim_0.gif"/>]( )
+
+
+
+<br>
+<br>
+<br>
+
+# 🔴 Important:
+
+- The animation is working because we are using **`Frect`** INSTEAD of the `Rect`
