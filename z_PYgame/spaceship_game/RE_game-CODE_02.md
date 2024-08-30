@@ -811,3 +811,8 @@ object.position.x += 0.1; // Smooth movement
 
  - Import a laser and place it in the bottom left with 20 pixels padding to the left and bottom
 
+ - Make the player bounce from left to right
+
+
+<br>
+<br>
