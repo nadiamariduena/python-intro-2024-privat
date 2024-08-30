@@ -812,3 +812,9 @@ while running:
 
 <br>
 <br>
+
+### 4. 🧶 But what if i add 1 instead of 60
+
+- In contrast, setting ✋ `clock.tick(1)` reduces the frame rate to 1 frame per second.
+
+- - **This** drastic **change means that each frame is significantly longer**, so you need to adjust the multiplier to maintain a similar movement speed.
