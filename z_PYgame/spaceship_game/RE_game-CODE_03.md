@@ -843,3 +843,23 @@ while running:
 
 ```
 
+
+### 6. 🟡 As you can see, its running at 1 frame per second
+
+[<img src="../fps__2.gif"/>]( )
+
+###  Visual Impact of Frame Rate:
+
+
+- - With `clock.tick(60)`, the player moves smoothly with smaller incremental changes because the frame rate is higher.
+
+- - However, when you switch to `clock.tick(1)`, the game updates only once per second, so you need to multiply by a larger number to move the player a reasonable distance within that single frame.
+
+As a result, the movement appears much more pronounced with `clock.tick(1)` compared to clock.tick(60). Here’s a visual representation of how this affects the game:
+
+<br>
+<br>
+
+<br>
+
+### 🟠 Before continuing with the vectors and delta, this is what we have
