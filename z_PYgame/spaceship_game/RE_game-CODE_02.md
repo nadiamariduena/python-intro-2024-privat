@@ -834,3 +834,19 @@ laser_surf = pygame.image.load(image_paths['laser']).convert_alpha()
 ```python
 meteor_rect = meteor_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
 ```
+
+
+#### 🟫 Within the WHile loop
+
+```python
+    # player
+    display_surface.blit(player_surf, player_rect)
+    # meteor
+    display_surface.blit(meteor_surf, meteor_rect)
+    # laser
+    display_surface.blit(laser_surf, laser_rect)
+
+    pygame.display.update()
+
+pygame.quit()
+```
