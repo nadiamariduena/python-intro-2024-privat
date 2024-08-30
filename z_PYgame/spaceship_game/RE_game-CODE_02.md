@@ -824,3 +824,13 @@ meteor_surf = pygame.image.load(image_paths['meteor']).convert_alpha()
 
 # ---
 laser_surf = pygame.image.load(image_paths['laser']).convert_alpha()
+
+```
+
+#### 🟫 Position the METEOR
+
+- I will position the laser after this
+
+```python
+meteor_rect = meteor_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+```
