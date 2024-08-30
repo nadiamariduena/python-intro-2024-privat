@@ -41,3 +41,19 @@
     #     player_rect.left  += 2
 ```
 <br>
+
+### 🌈 Focus on the X axis
+
+[<img src="../lefttoright_0_pos_frect.gif"/>]( )
+
+
+
+## 🟠 Explanation
+
+<br>
+
+### `player_rect.x += player_direction * 0.4`
+
+`player_rect.x +=`
+
+-  - **updates** the **x-coordinate** of the `player_rect` **by adding this calculated amount**.
