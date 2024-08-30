@@ -816,3 +816,8 @@ object.position.x += 0.1; // Smooth movement
 
 <br>
 <br>
+
+### 🟤 Import a meteor and place it at the center of the screen
+
+```python
+meteor_surf = pygame.image.load(image_paths['meteor']).convert_alpha()
