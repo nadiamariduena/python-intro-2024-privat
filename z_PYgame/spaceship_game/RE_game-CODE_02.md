@@ -821,3 +821,6 @@ object.position.x += 0.1; // Smooth movement
 
 ```python
 meteor_surf = pygame.image.load(image_paths['meteor']).convert_alpha()
+
+# ---
+laser_surf = pygame.image.load(image_paths['laser']).convert_alpha()
