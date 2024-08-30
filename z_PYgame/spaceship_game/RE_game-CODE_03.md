@@ -57,3 +57,6 @@
 `player_rect.x +=`
 
 -  - **updates** the **x-coordinate** of the `player_rect` **by adding this calculated amount**.
+
+> #### This effectively moves the player rectangle horizontally on the screen based on the direction and speed of movement.
+
