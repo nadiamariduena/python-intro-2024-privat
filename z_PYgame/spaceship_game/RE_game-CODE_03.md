@@ -94,3 +94,22 @@
 ## 2. 🌈🦄 Now I want to check if the player is OUTSIDE of the window
 
 <br>
+
+- Means that the player reaches the right edge and is now out of the window
+
+```python
+if player_rect.right > WINDOW_WIDTH or player_rect.left < 0:
+
+        player_direction *= -1
+```
+<br>
+
+
+[<img src="../lefttoright_1_pos_frect.gif"/>]( )
+
+## 🟠 Explanation
+
+<br>
+
+## 🫐 `if player_rect.right > WINDOW_WIDTH or player_rect.left < 0:`
+<br>
