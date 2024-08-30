@@ -809,3 +809,5 @@ object.position.x += 0.1; // Smooth movement
 
  - Import a meteor and place it in the center of the screen
 
+ - Import a laser and place it in the bottom left with 20 pixels padding to the left and bottom
+
