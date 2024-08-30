@@ -159,3 +159,14 @@ if player_rect.right > WINDOW_WIDTH or player_rect.left < 0:
 - - **If** `player_direction` **was `-1`**,
 
 - - - **it becomes** `1`.
+
+> #### This effectively ✋ <u>*changes*  the plane's movement direction when it hits either boundary</u>.
+
+
+<br>
+<br>
+
+### 🟢 In other words
+
+- The player_direction starts at 1 , moves the player to the right, and once it hits the edge, it changes to -1 to move the player to the left.
+
