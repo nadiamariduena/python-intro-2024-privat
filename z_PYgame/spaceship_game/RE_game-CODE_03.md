@@ -71,3 +71,9 @@
  > - - - (moving the player right).
 
  <br>
+
+ 🟤 **If** `player_direction` is **negative -=**,
+
+ - - `player_rect.x` **will be decreased**
+
+ > - - - (moving the player left).
