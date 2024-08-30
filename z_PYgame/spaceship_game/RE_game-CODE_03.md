@@ -481,3 +481,10 @@ pygame.quit()
 
 
 <br>
+
+### Three.js
+
+> #### Similarly, in Three.js, a clock can be used to manage time-based animations and updates, providing consistent timing for rendering and interactions.
+
+<br>
+
