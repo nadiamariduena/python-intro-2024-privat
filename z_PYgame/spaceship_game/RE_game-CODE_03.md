@@ -543,3 +543,12 @@ Monitor Capabilities: The refresh rate of your monitor can limit your FPS. For e
 
 - - 🔴 Hardware Constraints: 🔴 The performance of your CPU, GPU, and other components can affect your achievable FPS.
 
+
+<br>
+<br>
+
+
+## 🟡 Exercise: FPS (frames per second)
+
+ FPS tracking and display the FPS on the screen.
+
