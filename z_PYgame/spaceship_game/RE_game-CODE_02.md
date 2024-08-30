@@ -805,3 +805,7 @@ object.position.x += 0.1; // Smooth movement
 
 
  ## 🟠 Exercise
+
+
+ - Import a meteor and place it in the center of the screen
+
