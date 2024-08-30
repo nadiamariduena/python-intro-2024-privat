@@ -488,3 +488,13 @@ pygame.quit()
 
 <br>
 
+
+#### Check the video: [GTA 5 FPS COMPARISON 1 FPS VS 10 FPS VS 30 FPS VS 60 FPS VS 100 FPS](https://youtu.be/ESLdzYs8Bj4?si=i0TkZpuE1tY0U4tw)
+
+
+<br>
+<br>
+
+
+### 🟦 Understanding FPS (frames per second) helps you gauge how smoothly your game or application is running.
+
