@@ -552,3 +552,20 @@ Monitor Capabilities: The refresh rate of your monitor can limit your FPS. For e
 
  FPS tracking and display the FPS on the screen.
 
+
+### 🟤 Move the cube with the below keys:
+
+- 🟠 a,d,w,s
+
+```python
+ # Move the player based on key presses
+    if key[pygame.K_a]:
+        player.move_ip(-1, 0)
+    elif key[pygame.K_d]:
+        player.move_ip(1, 0)
+    elif key[pygame.K_w]:
+        player.move_ip(0, -1)
+    elif key[pygame.K_s]:
+        player.move_ip(0, 1)
+```
+<br>
