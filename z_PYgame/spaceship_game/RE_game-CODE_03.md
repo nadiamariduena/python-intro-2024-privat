@@ -131,3 +131,7 @@ if player_rect.right > WINDOW_WIDTH or player_rect.left < 0:
 ### 🟤 `or`:
 
 - - This `logical operator` **ensures** that **if either** boundary **condition** is `true`
+
+ > - - - ####  (i.e., the plane is **either** at the **right** edge **or left edge** of the window),
+
+- - **the action inside** the `if` **block will be executed**.
