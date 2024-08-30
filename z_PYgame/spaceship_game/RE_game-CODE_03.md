@@ -113,3 +113,7 @@ if player_rect.right > WINDOW_WIDTH or player_rect.left < 0:
 
 ## 🫐 `if player_rect.right > WINDOW_WIDTH or player_rect.left < 0:`
 <br>
+
+### 🟤  `player_rect.right > WINDOW_WIDTH:`
+
+- -  **This** condition **checks** `if` **the right edge** of the `player_rect` **has moved beyond the  `right` ➡️ edge** of the **screen.**
