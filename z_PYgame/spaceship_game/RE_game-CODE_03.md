@@ -77,3 +77,20 @@
  - - `player_rect.x` **will be decreased**
 
  > - - - (moving the player left).
+
+<br>
+
+####   🟤 `player_direction * 0.4`
+
+- - calculates the amount to move the player horizontally.
+
+
+
+
+<br>
+<br>
+<br>
+
+## 2. 🌈🦄 Now I want to check if the player is OUTSIDE of the window
+
+<br>
