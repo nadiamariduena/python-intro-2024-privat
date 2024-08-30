@@ -829,3 +829,17 @@ while running:
 ```
 
 <br>
+
+### 6. 🧶 Adjusting Movement:
+
+
+- - The `clock.tick(1)` sets the **frame rate** to **1** frame per second.
+
+
+```python
+    # - * 0.4: calculates the amount to move the player horizontally
+    player_rect.x += player_direction * 100
+    # if player x direction negative -=, then it will be decreased -, hence will move to the left
+
+```
+
