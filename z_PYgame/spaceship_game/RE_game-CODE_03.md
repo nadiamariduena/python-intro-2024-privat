@@ -60,3 +60,14 @@
 
 > #### This effectively moves the player rectangle horizontally on the screen based on the direction and speed of movement.
 
+
+ <br>
+<br>
+
+ 🟤 **If** `player_direction` is **positive +=**,
+
+ - - `player_rect.x` **will be increased**
+
+ > - - - (moving the player right).
+
+ <br>
