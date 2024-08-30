@@ -135,3 +135,17 @@ if player_rect.right > WINDOW_WIDTH or player_rect.left < 0:
  > - - - ####  (i.e., the plane is **either** at the **right** edge **or left edge** of the window),
 
 - - **the action inside** the `if` **block will be executed**.
+
+<br>
+
+```python
+if player_rect.right > WINDOW_WIDTH or player_rect.left < 0:
+
+        player_direction *= -1
+```
+
+### 🍊 `player_direction *= -1:`
+
+- -  This line reverses the direction of movement.
+
+<br>
