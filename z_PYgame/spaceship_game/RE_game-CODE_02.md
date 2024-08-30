@@ -850,3 +850,12 @@ meteor_rect = meteor_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2)
 
 pygame.quit()
 ```
+
+
+## 💥 Laser position
+
+### 🟤 Import a laser and place it at the bottom left with 20 pixels padding to the left and bottom
+
+```python
+laser_rect = laser_surf.get_frect(bottomleft=(20, WINDOW_HEIGHT - 10))
+```
