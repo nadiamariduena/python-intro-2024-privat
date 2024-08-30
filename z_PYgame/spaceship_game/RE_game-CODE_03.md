@@ -125,3 +125,9 @@ if player_rect.right > WINDOW_WIDTH or player_rect.left < 0:
 ### 🟤  `player_rect.left < 0:`
 
  - - **This** condition **checks** `if` **the left edge** of the `player_rect` **has moved beyond the ⬅️`left` edge** of the window.
+
+ > - - - #### 🍨 If it has, the plane has reached the left boundary.
+
+### 🟤 `or`:
+
+- - This `logical operator` **ensures** that **if either** boundary **condition** is `true`
