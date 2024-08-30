@@ -149,3 +149,13 @@ if player_rect.right > WINDOW_WIDTH or player_rect.left < 0:
 - -  This line reverses the direction of movement.
 
 <br>
+
+- - **If** `player_direction` **was `1`** (moving right),
+
+- - - **it becomes `-1`** (moving left).
+
+<br>
+
+- - **If** `player_direction` **was `-1`**,
+
+- - - **it becomes** `1`.
