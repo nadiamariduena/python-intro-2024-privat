@@ -2,6 +2,8 @@
 ## 🟡 ANIMATION
 
 
-- move the plane from right to left & viceversa
+- move the plane from right to left &  vice versa
 
+- clock
 
+ - - FPS (frames per second)
