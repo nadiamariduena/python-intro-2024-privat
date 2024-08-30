@@ -976,4 +976,4 @@ pygame.quit()
 <br>
 <br>
 
-## 🟡   Make the player bounce  [from left to right: go to page ➡️](https://github.com/nadiamariduena/python-games-01/blob/master/0_SPACESHIP-game/RE_game-CODE_03.md)
+## 🟡   Make the player bounce  [from left to right: go to page ➡️]( )
