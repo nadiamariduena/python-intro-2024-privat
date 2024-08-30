@@ -476,3 +476,8 @@ pygame.quit()
 
 
 <br>
+
+- - 🟤 By setting a specific frame rate, the clock prevents the game from running too fast or too slow.
+
+
+<br>
