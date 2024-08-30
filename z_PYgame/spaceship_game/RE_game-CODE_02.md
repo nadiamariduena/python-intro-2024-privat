@@ -861,3 +861,8 @@ laser_rect = laser_surf.get_frect(bottomleft=(20, WINDOW_HEIGHT - 10))
 ```
 
 - **bottomleft** of the screen, 20px padding, i see it more like 20px away from the 0 origin of the left (20px away from the left edge of the screen.), and -10 away from the bottom
+
+
+<br>
+
+[<img src="../position_bottomleft20__.png"/>]( )
