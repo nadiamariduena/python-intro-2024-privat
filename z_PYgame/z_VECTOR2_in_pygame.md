@@ -163,3 +163,114 @@ center_vector = Vector2(player_rect.center)
 
 
 <br>
+
+### 🟤 Update
+
+- Adds the movement vector to center_vector, updating its position.
+
+```python
+center_vector += movement
+```
+
+<br>
+
+### 🟤 Assignment:
+
+- Sets the updated position back to the rectangle.
+
+
+
+```python
+player_rect.center = center_vector
+```
+
+<br>
+<br>
+<br>
+
+
+
+<br>
+
+## 🟨 On the code
+
+### 👾 Here’s how you can update the rectangle's position using a Vector2:
+
+
+- This Pygame script creates a visual demonstration of how the Vector2 class from Pygame's math module can be used to handle and update the position of an object (in this case, a rectangle) within a Cartesian coordinate system.
+
+
+
+```python
+import pygame
+from pygame.math import Vector2
+
+# Initialize Pygame
+pygame.init()
+
+# Screen dimensions
+width, height = 800, 600
+screen = pygame.display.set_mode((width, height))
+pygame.display.set_caption("Vector2 Example with Cartesian Grid")
+
+# Colors
+WHITE = (255, 255, 255)
+GRAY = (200, 200, 200)
+RED = (255, 0, 0)
+BLUE = (0, 0, 255)
+
+# Create a rectangle
+rect_width, rect_height = 50, 50
+player_rect = pygame.Rect(100, 100, rect_width, rect_height)
+
+# Convert the rectangle's center to a vector
+center_vector = Vector2(player_rect.center)
+
+# Movement vector
+movement = Vector2(20, -10)
+
+# Main loop
+running = True
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+    # Clear the screen
+    screen.fill(WHITE)
+
+    # Draw grid
+    for x in range(0, width, 50):
+        pygame.draw.line(screen, GRAY, (x, 0), (x, height), 1)
+    for y in range(0, height, 50):
+        pygame.draw.line(screen, GRAY, (0, y), (width, y), 1)
+
+    # Draw axes
+    pygame.draw.line(screen, RED, (width // 2, 0), (width // 2, height), 2)  # X-axis (Red)
+    pygame.draw.line(screen, BLUE, (0, height // 2), (width, height // 2), 2)  # Y-axis (Blue)
+
+    # Draw the rectangle
+    pygame.draw.rect(screen, RED, player_rect)
+
+    # Update the vector position
+    center_vector += movement
+    player_rect.center = center_vector
+
+    # Refresh the display
+    pygame.display.flip()
+
+    # Control frame rate
+    pygame.time.Clock().tick(30)
+
+pygame.quit()
+
+```
+
+<br>
+
+[<img src="vector_0_tut.gif"/>]( )
+
+<br>
+
+
+<br>
