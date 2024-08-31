@@ -294,3 +294,7 @@ TypeError: invalid rect assignment 🔴
 - -  **returns a tuple** representing the `center position (x, y)` **of the rectangle**
 
 <br>
+
+- - 🔴 **In Python, tuples are immutable**, meaning their values cannot be changed once they are created.
+
+<br>
