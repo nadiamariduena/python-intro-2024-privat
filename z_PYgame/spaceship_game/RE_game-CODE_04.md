@@ -614,3 +614,18 @@ player_direction = pygame.math.Vector2(20, -10 )
     player_rect.y -= 10 # UP or down anim, depending of the values
 
 ```
+
+<br>
+
+#### 🟤  for this
+
+```python
+    # vector
+    player_rect.center += player_direction
+
+    pygame.display.update()
+
+
+
+pygame.quit()
+```
