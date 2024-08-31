@@ -277,3 +277,5 @@ TypeError: invalid rect assignment 🔴
 - - In Pygame, the center attribute of a Rect object is a property that represents the center point of the rectangle.
 
 <br>
+
+- - This property is not directly mutable via operations like addition or subtraction with a tuple.
