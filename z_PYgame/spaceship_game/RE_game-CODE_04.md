@@ -303,3 +303,13 @@ TypeError: invalid rect assignment 🔴
 
 
 <br>
+
+### Direct Assignment Issue:
+
+**Pygame's Rect** `object` **does not allow direct assignment** or modification of its attributes through mathematical operations on their values.
+
+#### 🔴 You need to use explicit assignments to update the position.
+
+
+<br>
+<br>
