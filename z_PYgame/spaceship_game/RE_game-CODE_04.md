@@ -242,3 +242,10 @@ player_rect.center += (20, -10)
 
 -  - Represents the center point of the rectangle.
 
+
+#### `(20, -10)`:
+
+-  - Moves the rectangle’s center by 20 pixels to the right and 10 pixels up.
+
+<br>
+<br>
