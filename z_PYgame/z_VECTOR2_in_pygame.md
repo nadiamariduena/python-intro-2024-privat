@@ -72,3 +72,33 @@ scaled_lst = lst * 2  # Duplicates the list
 <br>
 
 **List Operation:** Repeats the entire list without altering individual elements.
+
+<br>
+
+### 🍯 Summary:
+
+**Vectors:** When multiplied by a scalar, each component of the vector is scaled, resulting in Vector2(8, 4) from Vector2(4, 2) when scaled by 2.
+
+
+**Lists:** Multiplying a list by a number duplicates the entire list, resulting in [4, 2, 4, 2] from [4, 2].
+
+
+
+<br>
+
+[<img src="vector_multiplication_0.gif"/>](https://youtu.be/fNk_zzaMoSs?si=JBdbdHGBhV7Ih5y9)
+
+
+**WATCH** the video from the above img: [Vectors | Chapter 1, Essence of linear algebra](https://youtu.be/fNk_zzaMoSs?si=JBdbdHGBhV7Ih5y9)
+
+
+
+https://github.com/user-attachments/assets/4b72d2c1-2ef0-4982-a86c-9d1a165c2a14
+
+
+
+
+
+<br>
+<br>
+<br>
