@@ -498,3 +498,10 @@ vector(4,2) *2 = vector(8,4)
 
 
 <br>
+
+## 🟡 Lets modify the code
+
+- 🟤 **inside** of the `player_direction` we have a value of **`-1`**
+
+
+
