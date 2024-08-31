@@ -603,3 +603,14 @@ pygame-ce 2.3.2
 player_direction = pygame.math.Vector2(20, -10 )
 #20 X, - 10Y axis
 ```
+
+#### 🟤  2. Now go to the loop and replace this 2 lines:
+
+```python
+    # it will be multiplied by 100px every single frame
+    player_rect.x += 20 #✋
+    #  if player x direction positive +=, then it will be increased +, hence will move to the right.
+    # -------------
+    player_rect.y -= 10 # UP or down anim, depending of the values
+
+```
