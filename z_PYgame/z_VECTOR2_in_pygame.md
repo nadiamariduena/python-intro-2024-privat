@@ -66,3 +66,9 @@ scaled_lst = lst * 2  # Duplicates the list
 
 ### 🟠  Key Difference
 
+
+**Vector Operation:** Affects each component of the vector individually, scaling them according to the scalar value.
+
+<br>
+
+**List Operation:** Repeats the entire list without altering individual elements.
