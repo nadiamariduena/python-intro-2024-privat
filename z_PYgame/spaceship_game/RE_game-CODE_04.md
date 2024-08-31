@@ -279,3 +279,12 @@ TypeError: invalid rect assignment 🔴
 <br>
 
 - - This property is not directly mutable via operations like addition or subtraction with a tuple.
+
+> - - #### ✋ It’s a special attribute that Pygame manages internally, and you can’t use operators like `+=` to modify it directly.
+
+<br>
+
+### 🔴 Why This Error Occurs
+
+
+#### 🟫 Tuple Operations Not Allowed:
