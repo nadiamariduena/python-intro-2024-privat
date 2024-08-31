@@ -485,5 +485,16 @@ scaled_lst = lst * 2  # Duplicates the list
 - So the difference here is noticeable
 
 ```python
-vector(4,2) *2= vector(8,4)
+vector(4,2) *2 = vector(8,4)
 ```
+
+- You can also add 2 vectors together, and then get the sum of the individual number
+
+<br>
+
+- #### 🟤 Finally, what is important to us, is that you can add a vector to the Tuple position of a rectangle
+
+- - That way we change BOTH: `x` and `y` at the same time
+
+
+<br>
