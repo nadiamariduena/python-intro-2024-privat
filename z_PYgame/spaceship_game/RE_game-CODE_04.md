@@ -44,3 +44,15 @@
 ### 🟠 Modify this line
 
 
+
+```python
+
+    # if player x direction positive +=, then it will be increased +, hence will move to the right.
+    player_rect.x += player_direction * 100
+    # if player x direction negative -=, then it will be decreased -, hence will move to the left
+
+
+    # - * 0.4 or *100: calculates the amount to move the player horizontally
+```
+
+### 🟠   for the below, as i only want to move the player in one direction
