@@ -259,3 +259,11 @@ player_rect.center += (20, -10)
 ## 🔴  error:
 
 - We have an invalid **rect** assignment 🤔
+
+>An its because we cannot add a tuple() or a list[] to a tuple position inside of the rectangle
+
+```python
+ File "main_0_fps.py", line 92, in <module>
+    player_rect.center += (20, -10)
+TypeError: invalid rect assignment 🔴
+```
