@@ -273,3 +273,7 @@ TypeError: invalid rect assignment 🔴
 ## 🧶 Why Does player_rect.center += (20, -10) Result in an Error?
 
 #### Immutable Assignment:
+
+- - In Pygame, the center attribute of a Rect object is a property that represents the center point of the rectangle.
+
+<br>
