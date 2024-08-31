@@ -441,3 +441,49 @@ scaled_lst = lst * 2  # Duplicates the list
 # 🔴 Result: [4, 2, 4, 2]
 
 ```
+<br>
+
+
+### 🟠  Key Difference
+
+
+**Vector Operation:** Affects each component of the vector individually, scaling them according to the scalar value.
+
+<br>
+
+**List Operation:** Repeats the entire list without altering individual elements.
+
+<br>
+
+### 🍯 Summary:
+
+**Vectors:** When multiplied by a scalar, each component of the vector is scaled, resulting in `Vector2(8, 4)` from Vector2(4, 2) when scaled by 2.
+
+<br>
+
+**Lists:** Multiplying a list by a number duplicates the entire list, resulting in `[4, 2, 4, 2]`  **from** `[4, 2]`.
+
+<br>
+<br>
+<br>
+<br>
+
+# 🟦 🌻 Tutorial explanation
+
+<br>
+
+- 🟤 If you multiply a **vector** by a number
+
+- 🟤 And then you multiply BOTH numbers inside of that VECTOR
+
+
+
+> #### 🟤 If you were to do all of the above into a LIST, you would simply DUPLICATE all of the values Solution [Go to duplicated values](#duplicated_values)
+
+<br>
+
+- So the difference here is noticeable
+
+```python
+vector(4,2) *2= vector(8,4)
+```
