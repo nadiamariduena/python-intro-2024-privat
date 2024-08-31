@@ -341,3 +341,14 @@ player_rect.center = (new_center_x, new_center_y)
 <br>
 
 ### 2. 🟣 tutorial approach: VECTORS
+
+- -  ✋ Using a vector can be a good solution to handle position updates more flexibly and avoid the issues you encountered with directly modifying **the** `center` attribute of a `Rect` **object**.
+
+
+
+<br>
+<br>
+
+### 🟧 Using a Vector for Position Updates
+
+ Here’s a detailed explanation of how and why using a vector helps:
