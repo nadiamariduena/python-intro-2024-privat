@@ -341,3 +341,20 @@ movement = Vector2(20, -10)
 
 > - - #### This vector will be added to `center_vector` to update the rectangle’s position.
 
+
+<br>
+<br>
+
+## 🟡 How Vector2 Helps:
+
+
+<br>
+
+##  🔶 Simplifies Arithmetic Operations:
+
+Vector2 makes it easier to perform arithmetic operations on positions.
+
+- - Instead of manually updating x and y coordinates separately, you can add or subtract Vector2 instances directly.
+
+- - This is more intuitive and less error-prone.
+
