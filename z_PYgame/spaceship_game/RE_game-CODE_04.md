@@ -198,3 +198,9 @@ player_rect.y += 10
 > #### 🟠 In this part of the game development, we are dealing with updating the position of our player’s rectangle.
 
 <br>
+
+[<img src="../fps_up_anim_1.gif"/>]( )
+
+
+<br>
+<br>
