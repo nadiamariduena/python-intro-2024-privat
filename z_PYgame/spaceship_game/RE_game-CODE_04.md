@@ -267,3 +267,9 @@ player_rect.center += (20, -10)
     player_rect.center += (20, -10)
 TypeError: invalid rect assignment 🔴
 ```
+
+<br>
+
+## 🧶 Why Does player_rect.center += (20, -10) Result in an Error?
+
+#### Immutable Assignment:
