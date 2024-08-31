@@ -31,3 +31,9 @@
 ### 🟨 `Vectors` can be thought of as `lists` with `two` values: `x and y`, `representing coordinates in a 2D` space.
 
 <br>
+
+### 🟤 Vector Multiplication
+
+**Multiplying a Vector by a Number:**
+
+- -  When you multiply a vector by a ✋ `scalar` **(a single number)**, each component of the vector is multiplied by that number.
