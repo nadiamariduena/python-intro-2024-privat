@@ -314,3 +314,12 @@ rect_width, rect_height = 50, 50
 player_rect = pygame.Rect(100, 100, rect_width, rect_height)
 ```
 <br>
+
+#### 🟢 Vector Initialization:
+
+- - - `center_vector` is created as a **Vector2** instance, initialized with the center position of player_rect.
+
+```python
+# Convert the rectangle's center to a vector
+center_vector = Vector2(player_rect.center)
+```
