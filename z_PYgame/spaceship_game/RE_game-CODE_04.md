@@ -56,3 +56,10 @@
 ```
 
 ### 🟠   for the below, as i only want to move the player in one direction
+
+```python
+    # it will be multiplied by 100px every single frame
+    player_rect.x += 100
+    #  if player x direction positive +=, then it will be increased +, hence will move to the right.
+    # -------------
+```
