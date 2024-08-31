@@ -20,3 +20,14 @@
 ### 🟠 Vectors are mathematical objects used to represent quantities with both magnitude and direction.
 
 - -  In 2D space, a vector has two components: `x (horizontal) and y (vertical)`.
+
+> - -  #### 🟢 Operations like addition, subtraction, and scaling (multiplying by a scalar) are performed element-wise("element-wise" means that each component of the vector is operated on individually.).
+
+#### 🍊 Vectors simplify calculations and transformations in graphics and physics by managing direction and distance efficiently.
+
+
+<br>
+
+### 🟨 `Vectors` can be thought of as `lists` with `two` values: `x and y`, `representing coordinates in a 2D` space.
+
+<br>
