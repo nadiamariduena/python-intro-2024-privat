@@ -231,3 +231,14 @@ player_rect.y += 10
 player_rect.center += (20, -10)
 ```
 
+
+
+
+<br>
+
+### Explanation:
+
+#### `player_rect.center`:
+
+-  - Represents the center point of the rectangle.
+
