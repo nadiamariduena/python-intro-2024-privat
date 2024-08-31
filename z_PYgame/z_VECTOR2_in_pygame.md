@@ -274,3 +274,43 @@ pygame.quit()
 
 
 <br>
+
+#### Look at the coordinates for the `y` axis, that is why when i change (in the video) the value within the `clock.tick()` to +10 instead of -10, it goes to the bottom
+
+
+
+[<img src="vector_0_tut.png"/>]( )
+
+https://www.pygame.org/docs/ref/math.html
+
+
+<br>
+<br>
+
+
+
+<br>
+
+
+
+## 🎠 Purpose
+
+### Visualize Position Updates:
+
+The main goal is to illustrate how position updates work when using vectors.
+
+- - The code shows a rectangle moving on a grid, with its position updated each frame using vector arithmetic.
+
+<br>
+
+### 🌈 Understanding the code (just some key points)
+
+#### Rectangle Setup:
+
+- - - player_rect is initialized as a rectangle with a starting position of (100, 100) and size 50x50.
+
+```python
+rect_width, rect_height = 50, 50
+player_rect = pygame.Rect(100, 100, rect_width, rect_height)
+```
+<br>
