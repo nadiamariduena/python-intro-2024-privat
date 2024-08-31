@@ -18,3 +18,5 @@
 
 
 ### 🟠 Vectors are mathematical objects used to represent quantities with both magnitude and direction.
+
+- -  In 2D space, a vector has two components: `x (horizontal) and y (vertical)`.
