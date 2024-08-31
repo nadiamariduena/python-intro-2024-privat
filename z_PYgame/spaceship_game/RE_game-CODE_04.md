@@ -531,3 +531,9 @@ player_direction = pygame.math.Vector2( )
 - - 🔴  When you create a new Vector2 object **without any parameters**, like here: `Vector2()`
 
 <br>
+
+- -  <u>it defaults to `[0, 0]`</u>, , **which represents the origin in a 2D coor**dinate system.
+
+<br>
+
+
