@@ -523,3 +523,11 @@ player_direction = pygame.math.Vector2( )
 
 <br>
 <br>
+
+## 🟠 Initialization of Vector2:
+
+####  `pygame.math.Vector2()`
+
+- - 🔴  When you create a new Vector2 object **without any parameters**, like here: `Vector2()`
+
+<br>
