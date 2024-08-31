@@ -37,3 +37,15 @@
 **Multiplying a Vector by a Number:**
 
 - -  When you multiply a vector by a ✋ `scalar` **(a single number)**, each component of the vector is multiplied by that number.
+
+```python
+vector = Vector2(4, 2)  # A vector with x = 4 and y = 2
+scaled_vector = vector * 2  # Multiply both x and y by 2
+# 4 x 2 = 8
+# 2 x 2 = 4
+
+# 👍 output of the multiplication
+# This results in a new vector: Vector2(8, 4)
+
+
+```
