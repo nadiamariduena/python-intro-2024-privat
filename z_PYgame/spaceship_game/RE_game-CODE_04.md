@@ -352,3 +352,17 @@ player_rect.center = (new_center_x, new_center_y)
 ### 🟧 Using a Vector for Position Updates
 
  Here’s a detailed explanation of how and why using a vector helps:
+
+ <br>
+
+## 🟢 Why Use a Vector?
+
+
+### 🔴 Mutable and Flexible:
+
+
+
+- - #### Read More here: [z_VECTOR2_in_pygame](../z_VECTOR2_in_pygame.md)
+
+
+<br>
