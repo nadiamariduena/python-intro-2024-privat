@@ -313,3 +313,31 @@ TypeError: invalid rect assignment 🔴
 
 <br>
 <br>
+
+## 🌈 Solutions
+
+### 1. ✅ chatgpt approach:
+
+- -  Instead of trying to add to `player_rect.center` directly, `you should calculate the new center position` and `then assign it back to the center` attribute.
+
+  Here’s how you can do it:
+
+```python
+# Moves the rectangle to the right by 20 pixels
+# Increases the x-coordinate, moving the rectangle to the right.
+
+# Calculate the new center position
+new_center_x = player_rect.centerx + 20
+
+new_center_y = player_rect.centery - 10
+# Moves the rectangle down by 10 pixels
+# Increases the y-coordinate, moving the rectangle down.
+
+# Update the center attribute with the new position
+player_rect.center = (new_center_x, new_center_y)
+
+```
+
+<br>
+
+### 2. 🟣 tutorial approach: VECTORS
