@@ -537,3 +537,52 @@ player_direction = pygame.math.Vector2( )
 <br>
 
 
+
+```python
+#   -----  move right to left loop
+#🤚 VECTOR
+player_direction = pygame.math.Vector2( )
+#20 X, - 10Y axis
+```
+
+<br>
+
+
+<br>
+<br>
+
+## 🟢 Test it
+
+- 🟤 Before testing it, check that you are inside the environment, then activate it (otherwise you will get an error)
+
+- 🟤 hide `player_rect.center += (20, -10) # hide this`
+
+<br>
+
+```python
+    #🤚
+    # 🔴 player_rect.center += (20, -10) # hide this
+    # -----------
+    pygame.display.update()
+
+pygame.quit()
+```
+
+<br>
+
+- 🟤 When you will run the code, you will see the animation but in your terminal your will have this:
+
+```python
+pygame-ce 2.3.2
+(SDL 2.26.5, Python 3.7.14)
+
+# ✋ the below is what i care
+[0, 0]
+
+```
+<br>
+
+###  🟧 But what does the [0,0] stands for ?
+
+> ### The output [0, 0] you’re seeing in the console is related to the `pygame.math.Vector2` object you’ve initialized.
+
