@@ -298,3 +298,8 @@ TypeError: invalid rect assignment 🔴
 - - 🔴 **In Python, tuples are immutable**, meaning their values cannot be changed once they are created.
 
 <br>
+
+- - 🔴  The operation `player_rect.center += (20, -10)` **attempts to modify** this **tuple directly**, which is **not allowed because tuples do not support** in-place modification.
+
+
+<br>
