@@ -249,3 +249,13 @@ player_rect.center += (20, -10)
 
 <br>
 <br>
+
+### 🟦 If we tried to execute this, it will raise an error:
+
+```python
+player_rect.center += (20, -10)
+```
+
+## 🔴  error:
+
+- We have an invalid **rect** assignment 🤔
