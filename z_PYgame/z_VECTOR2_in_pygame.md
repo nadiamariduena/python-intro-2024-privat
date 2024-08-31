@@ -323,3 +323,21 @@ player_rect = pygame.Rect(100, 100, rect_width, rect_height)
 # Convert the rectangle's center to a vector
 center_vector = Vector2(player_rect.center)
 ```
+
+> - - - #### This allows for more convenient manipulation of the rectangle’s position.
+
+<br>
+
+
+
+#### 🟡 🎠 Movement Vector:
+
+- -  **movement** is a `Vector2` **representing the change in** `position: (20, -10)`.
+
+```python
+# Movement vector
+movement = Vector2(20, -10)
+```
+
+> - - #### This vector will be added to `center_vector` to update the rectangle’s position.
+
