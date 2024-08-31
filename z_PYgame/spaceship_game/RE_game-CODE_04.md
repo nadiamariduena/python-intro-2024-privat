@@ -288,3 +288,9 @@ TypeError: invalid rect assignment 🔴
 
 
 #### 🟫 Tuple Operations Not Allowed:
+
+`player_rect.center`
+
+- -  **returns a tuple** representing the `center position (x, y)` **of the rectangle**
+
+<br>
