@@ -586,3 +586,20 @@ pygame-ce 2.3.2
 
 > ### The output [0, 0] you’re seeing in the console is related to the `pygame.math.Vector2` object you’ve initialized.
 
+
+
+ - - <u>**it defaults to** `[0, 0]`</u>, , **which represents the origin in a 2D coor**dinate system.
+
+<br>
+<br>
+
+## 🟡 Add some value to the Vector2()
+
+#### 🟤 1. add this `20, -10`
+
+```python
+#   -----  move right to left loop
+#🤚 VECTOR
+player_direction = pygame.math.Vector2(20, -10 )
+#20 X, - 10Y axis
+```
