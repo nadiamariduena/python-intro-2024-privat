@@ -505,3 +505,21 @@ vector(4,2) *2 = vector(8,4)
 
 
 
+
+
+
+- 🟤 **Replace** the **`1`** value for the **`math.vector2`**
+
+<br>
+
+
+```python
+# before
+player_direction = 1
+
+# ✋ after
+player_direction = pygame.math.Vector2( )
+```
+
+<br>
+<br>
