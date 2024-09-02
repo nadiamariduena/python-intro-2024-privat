@@ -397,6 +397,17 @@ player_rect.center = (new_center_x, new_center_y)
 
 ### Vectors are mathematical objects used to represent quantities with both magnitude and direction.
 
+
+<br>
+<br>
+
+> 🔴 **Do not confuse** the terms "vector norm" (length of vector), "normal vector" (perpendicular vector) and "normalized vector" (unit-length vector). [**READ MORE:** Normal Vector](https://mathworld.wolfram.com/NormalVector.html#:~:text=The%20unit%20vector%20obtained%20by,(perpendicular%20vector)%20and%20%22normalized)
+
+
+
+<br>
+<br>
+
 - -  In 2D space, a vector has two components: `x (horizontal) and y (vertical)`.
 
 > - -  #### 🟢 Operations like addition, subtraction, and scaling (multiplying by a scalar) are performed element-wise("element-wise" means that each component of the vector is operated on individually.).
