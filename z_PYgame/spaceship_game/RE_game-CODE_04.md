@@ -1049,3 +1049,22 @@ player_direction = pygame.math.Vector2(2, -1)
 
 ## 🌽 Explanation:
 
+<br>
+
+🟤 **Movement per Frame:**
+
+- -  This tells us how many pixels the object moves each frame (which is 10 pixels in the example).
+
+🟤 **Frames per Second:**
+
+- -  This shows how many frames are displayed every second (30, 60, or 120 in the example).
+
+🟤 **Actual Movement (Pixels per Second):**
+
+- -  This calculates how far the object moves each second by multiplying the movement per frame by the number of frames per second.
+
+<br>
+
+### 🌞 🐝 So, if the object moves 10 pixels each frame:
+
+<br>
