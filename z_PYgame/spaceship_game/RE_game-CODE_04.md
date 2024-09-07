@@ -615,7 +615,11 @@ player_direction = pygame.math.Vector2(20, -10 )
 #20 X, - 10Y axis
 ```
 
-#### 🟤  2. Now go to the loop and replace this 2 lines:
+<br>
+
+#### 🟤  2. Now go to the loop to `UPDATE`.
+
+- Replace this 2 lines:
 
 ```python
     # it will be multiplied by 100px every single frame
@@ -628,15 +632,18 @@ player_direction = pygame.math.Vector2(20, -10 )
 
 <br>
 
-#### 🟤  for this
+### 🟤  For this
+
+<br>
+
+The  `player_rect.center += player_direction` is **crucial** in updating the position of the **player's sprite**  in your space shooter game.
+
+> - - [ReadMore: SPRITE](../z__SYNTAX_.md)
 
 ```python
-    # vector
-    player_rect.center += player_direction
-
-    pygame.display.update()
-
-
-
-pygame.quit()
+player_rect.center += player_direction
 ```
+
+<br>
+
+### 🟤 Let's break down its role and purpose within the context of the code:
