@@ -1292,3 +1292,14 @@ while running:
 <br>
 
  [<img src="../result_of__clock.get_fps_dt.gif"/>]( )
+
+ <br>
+ <br>
+
+
+### 🟡 Output Explanation:
+
+### 250k FPS:
+
+- - Seeing FPS values in the range of 250k or higher indicates that your game is rendering frames extremely quickly, 🌈 likely as fast as the system's hardware allows.
+
