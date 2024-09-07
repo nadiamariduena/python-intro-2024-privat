@@ -753,3 +753,14 @@ player_direction = pygame.math.Vector2(20, -10)
 print(player_direction * 2)
 # -----  move right to left loop  ---
 ```
+
+
+## 🟤 Purpose
+
+<br>
+
+## Vector Multiplication:
+
+> - - **`player_direction`** is a **pygame.math.Vector2 object initialized** with the values `(20, -10)`, which represents a direction and speed vector for your player.
+
+
