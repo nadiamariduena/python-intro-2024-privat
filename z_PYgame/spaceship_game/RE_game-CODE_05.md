@@ -1,5 +1,5 @@
 
-## 🟡 ANIMATION 3.
+# 🟡 ANIMATION 3.
 
 - **tutorial:** [Master Python by making 5 games [the new ultimate introduction to pygame]](https://youtu.be/8OMghdHP-zs?si=G58LCaSdWH6sYseA)
 
@@ -7,7 +7,7 @@
 <br>
 <br>
 
-# 🟠 Make the player move
+## 🟠 Make the player move
 
 ### Make the player ship bounce around the window like the old DVD logo
 
