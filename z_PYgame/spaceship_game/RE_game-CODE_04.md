@@ -1265,6 +1265,7 @@ while running:
 
 - - 🔴 When you call clock.tick() without any arguments, it does not attempt to regulate the frame rate.
 
+> - - #### Instead, it simply returns the time in milliseconds since the last call to clock.tick().
 
 
 <br>
