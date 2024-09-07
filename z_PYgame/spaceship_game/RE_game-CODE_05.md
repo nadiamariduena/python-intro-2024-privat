@@ -81,3 +81,7 @@ player_direction = pygame.math.Vector2(1, 1)
 #### output
 
 [<img src="../X-Y_axis_prevent-going-out-screen_0.gif"/>]()
+
+<br>
+
+- - 🔴 To handle the bouncing effect when the player reaches the edges of the window, we'll use individual if statements **rather than `elif`**.
