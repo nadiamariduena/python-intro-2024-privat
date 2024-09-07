@@ -1460,3 +1460,4 @@ player_rect.center += player_direction * player_speed * dt
 
 **Similarly**, the line of code `player_rect.center += player_direction * player_speed * dt` **acts like the mangroves.**
 
+> -  #### It balances the movement speed of the player relative to the time that has passed between frames.
