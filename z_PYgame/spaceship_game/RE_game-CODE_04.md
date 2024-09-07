@@ -1088,3 +1088,17 @@ player_direction = pygame.math.Vector2(2, -1)
 
 <br>
 
+
+```python
+# ✋ AFTER
+player_direction = pygame.math.Vector2(1, 0)
+#
+#🤚 BEFORE
+player_direction = pygame.math.Vector2(2, -1) # This vector represents the direction and speed at which the player is moving:
+```
+### Once you replace that, ADD `10` to the player speed
+
+```python
+# player speed
+player_speed = 10
+```
