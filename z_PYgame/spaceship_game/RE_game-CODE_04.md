@@ -1419,3 +1419,8 @@ player_rect.center += player_direction * player_speed
 <br>
 
 ### 🟠 Updated Code (With Delta Time)
+
+```python
+player_rect.center += player_direction * player_speed * dt
+```
+
