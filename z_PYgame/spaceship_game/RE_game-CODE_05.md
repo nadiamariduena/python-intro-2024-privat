@@ -35,7 +35,3 @@ player_direction = pygame.math.Vector2(1, 0)
 
 - The player will move towards the bottom of the screen because we're adding **1** to the `y-axis` with the direction (1, **1**).
 
-```python
-player_direction = pygame.math.Vector2(1, 1)
-
-```
