@@ -1193,3 +1193,10 @@ while running:
 
 
  [<img src="../deltatime_0_of8-9.gif"/>](https://youtu.be/8OMghdHP-zs?si=gTv0eNs-iEZJf0tF)
+
+
+<br>
+
+
+### 🟢 As you can notice on the image, we are getting the delta time of `8` or `9`
+
