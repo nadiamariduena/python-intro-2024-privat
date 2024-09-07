@@ -52,3 +52,10 @@
 
 <br>
 <br>
+
+# 🫐 🟡 How It’s Achieved
+
+- 🔴 (I’ll show you a simple example of how delta is useful soon. For now, just check out the information below)
+
+<br>
+<br>
