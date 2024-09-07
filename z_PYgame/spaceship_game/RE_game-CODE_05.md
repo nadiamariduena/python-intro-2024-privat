@@ -202,10 +202,22 @@ if player_rect.right => WINDOW_WIDTH or player_rect.left <= 0:
 ## 🔴 Analysis of the Issue
 
 
-### 🟤 Stuck in Corners:
+### ✅ chatgpt:
+
+### Stuck in Corners:
 
 **Reason:**
 
 - - When the player is moving quickly and hits a corner, the boundary conditions might be checked only once per frame.
 
 > #### If the player's movement causes them to overlap both horizontal and vertical edges in a single frame, they might get stuck because both conditions are true simultaneously.
+
+<br>
+
+## 🟤 Speed Issues:
+
+**Reason:**
+
+- -  Higher speeds can cause the player to skip over boundary checks. If the player moves too quickly, they might cross multiple boundary conditions in a single frame, resulting in unpredictable behavior.
+
+
