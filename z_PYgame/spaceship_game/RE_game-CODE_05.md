@@ -293,3 +293,22 @@ if player_rect.bottom >= WINDOW_HEIGHT:
 
 
  ```
+
+ <br>
+ <br>
+
+ ---
+
+
+ <br>
+
+ <br>
+ <br>
+
+ # 🟡 🧶 getting input
+
+- 🟦 In this section we will learn how to move the **player** with either the **mouse** or with the **keyboard**
+
+<br>
+<br>
+
