@@ -1204,3 +1204,18 @@ while running:
 
  [<img src="../calcs_fps.gif"/>](https://youtu.be/8OMghdHP-zs?si=gTv0eNs-iEZJf0tF)
 
+
+
+<br>
+<br>
+
+
+## 🔴 Behavior Without a Frame Rate Limit: `clock.tick()`
+
+
+  We will observe the behavior of these 2:
+
+**1.** dt = clock.tick()
+
+**2.** print(clock.get_fps())
+
