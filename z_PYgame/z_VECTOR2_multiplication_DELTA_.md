@@ -366,3 +366,10 @@ pygame.quit()
 #### `clock.tick(60)`: Controls the speed of the game and gives time in milliseconds.
 
 <br>
+
+`/ 1000.0`: Converts milliseconds to seconds.
+
+<br>
+
+
+`delta_time`: Tells you how much time has passed since the last frame, so you can move things at a consistent rate.
