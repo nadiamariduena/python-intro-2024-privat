@@ -650,3 +650,13 @@ player_rect.center += player_direction
 
 
 This **`player_rect.center += player_direction`** updates the position of the player's sprite by adding the `player_direction` **vector** to the current center position of **`player_rect`**.
+
+ <br>
+
+The `+=` **operator** 🟠
+
+- - - Modifies `player_rect.center` **in-place, so the player's position changes according to `player_direction`**.
+
+<br>
+
+### 🟠 Purpose>
