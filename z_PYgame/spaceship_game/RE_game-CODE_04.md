@@ -743,3 +743,13 @@ pygame.quit()
 ## To Debug
 
 - Add this line `print(player_direction * 2)` to below code
+
+```python
+
+#🤚 VECTOR
+player_direction = pygame.math.Vector2(20, -10)
+
+# 🟠
+print(player_direction * 2)
+# -----  move right to left loop  ---
+```
