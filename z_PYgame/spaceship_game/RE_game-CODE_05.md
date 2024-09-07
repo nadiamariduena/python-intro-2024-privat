@@ -138,3 +138,5 @@ player_direction = pygame.math.Vector2(1, 1)
 ### 1.   Stuck in Corners
 
 The approach used in class, which matches my implementation, may result in a bug where the ship/player gets stuck in the corners of the screen.
+
+[<img src="../X-Y_axis_prevent-going-out-screen_possible_bug_0.gif"/>]()
