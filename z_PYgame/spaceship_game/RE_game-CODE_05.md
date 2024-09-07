@@ -128,3 +128,12 @@ player_direction = pygame.math.Vector2(1, 1)
 #### output
 
 [<img src="../X-Y_axis_prevent-going-out-screen_1.gif"/>]()
+
+
+<br>
+<br>
+
+### 🟡 Possible bugs
+
+### 1.   Stuck in Corners
+
