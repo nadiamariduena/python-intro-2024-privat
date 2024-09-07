@@ -1367,3 +1367,11 @@ while running:
 dt = clock.tick() / 1000 # Converts milliseconds to seconds
 
 ```
+
+<br>
+<br>
+
+
+### 🟠 Next
+
+- - **Incorporate** `dt` into the calculation by multiplying it with the movement formula:
