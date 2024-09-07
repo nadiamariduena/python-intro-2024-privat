@@ -659,4 +659,8 @@ The `+=` **operator** 🟠
 
 <br>
 
-### 🟠 Purpose>
+### 🟠 Purpose
+
+**Movement:**
+
+- -  The primary purpose of this line is **to move** the **player's** sprite.
