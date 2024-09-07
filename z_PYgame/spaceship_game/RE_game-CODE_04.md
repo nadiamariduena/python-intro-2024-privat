@@ -991,3 +991,15 @@ player_rect.center += player_direction * player_speed
 🔴 By doing that, you can separate the player direction: `player_direction` and `player_speed` 🟡 By adding `player_direction * player_speed` **to** `player_rect.center`, **you’re** effectively **moving the player’s position** by `(20, -10)` **pixels each frame**.
 
 [<img src="../speed_direction_0.gif"/>]()
+
+
+
+#### Here's what happens:
+
+- -  The player moves 2 units to the right and 1 unit up each frame, which can be described by the coordinates `(2, -1)`.
+
+
+```python
+#  VECTOR
+player_direction = pygame.math.Vector2(2, -1)
+```
