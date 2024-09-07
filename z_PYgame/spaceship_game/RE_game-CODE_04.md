@@ -1466,14 +1466,15 @@ player_rect.center += player_direction * player_speed * dt
 <br>
 <br>
 
-### Movement Speed
 
- 🌞 **`player_direction * player_speed` represents the intended movement speed**, analogous to the energy of the tsunami waves.
+### 🌞 `player_direction * player_speed`
+
+- - **Represents the intended movement speed**, analogous to the energy of the tsunami waves.
 
  <br>
- <br>
 
-> ### 🌞 🏰 `dt` is like the mangroves:
+
+### 🌞 🏰 `dt` is like the mangroves:
 
   it **adjusts or scales** the movement based on how much time has passed since the last frame, just as mangroves reduce the impact of the waves.
 
