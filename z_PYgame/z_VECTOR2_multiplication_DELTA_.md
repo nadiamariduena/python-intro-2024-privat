@@ -360,3 +360,9 @@ pygame.quit()
 #### This is because the movement is adjusted according to the actual time passed, not just the number of frames.
 
 <br>
+
+## 🟦 Summary
+
+#### `clock.tick(60)`: Controls the speed of the game and gives time in milliseconds.
+
+<br>
