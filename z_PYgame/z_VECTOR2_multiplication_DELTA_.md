@@ -336,3 +336,9 @@ pygame.quit()
 
 
 ### 💅 🌪️ Imagine a game where you want to move a character forward.
+
+- - 🦄 If you want the character to move 100 pixels per second, you need to know how much time has passed to move it correctly.
+
+<br>
+
+#### If `delta_time` is `0.016` **seconds**, you know that 16 milliseconds have passed since the last frame.
