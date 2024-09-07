@@ -220,4 +220,13 @@ if player_rect.right => WINDOW_WIDTH or player_rect.left <= 0:
 
 - -  Higher speeds can cause the player to skip over boundary checks. If the player moves too quickly, they might cross multiple boundary conditions in a single frame, resulting in unpredictable behavior.
 
+<br>
+<br>
 
+## 🟧  Alternative Solution for Boundary Handling
+
+```python
+    if player_rect.bottom >= WINDOW_HEIGHT:
+        player_rect.bottom = WINDOW_HEIGHT
+        player_direction.y = -1
+```
