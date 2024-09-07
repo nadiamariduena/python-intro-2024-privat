@@ -917,3 +917,14 @@ For instance, rather than using larger values like `20 and -10`, you can **simpl
 #🤚 VECTOR
 player_direction = pygame.math.Vector2(2, -1)
 ```
+
+
+<br>
+<br>
+
+## 🟤 Initialization: `(2, -1)`
+
+<br>
+
+**🟦 player_direction:**
+
