@@ -1451,3 +1451,10 @@ player_rect.center += player_direction * player_speed * dt
 
 [<img src="../mangrobe_example.gif"/>](https://youtu.be/4HDQRduj5f8?si=PGg0a9RKeQYEGpHz)
 
+<br>
+<br>
+
+## 🟦 Similarity
+
+### 🟠 Movement Calculation and Delta Time (dt):
+
