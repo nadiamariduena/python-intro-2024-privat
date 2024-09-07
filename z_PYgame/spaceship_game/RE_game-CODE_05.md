@@ -47,3 +47,16 @@ player_direction = pygame.math.Vector2(1, 1)
 ```python
   dt = clock.tick() / 1000
 ```
+
+<br>
+<br>
+
+
+
+
+## 🌈 Conditional: for directions: `X,Y`
+
+
+
+### 🟫 Basic Condition: Implement Bouncing Behavior for Player at Window Edges
+
