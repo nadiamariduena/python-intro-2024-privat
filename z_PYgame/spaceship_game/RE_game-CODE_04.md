@@ -981,3 +981,10 @@ player_speed = 10
 <br>
 
 - - 🔴 This means that in each frame, the player should move 20 units to the right and 10 units up.
+
+
+
+
+```python
+player_rect.center += player_direction * player_speed
+```
