@@ -1219,3 +1219,13 @@ while running:
 
 **2.** print(clock.get_fps())
 
+<br>
+
+### 🟤 1. `dt = clock.tick()`
+
+####  If i let this: `dt = clock.tick(120)`  <u>empty</u> like so:
+
+- `dt = clock.tick()`, the rate is going to be from `0 or 1`
+
+
+### 🟤 2.  `clock.get_fps()`
