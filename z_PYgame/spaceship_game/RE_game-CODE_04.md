@@ -686,3 +686,8 @@ The `+=` **operator** 🟠
 
 pygame.quit()
 ```
+
+## 🟤 Summary
+
+
+- - The `player_rect.center += player_direction` **ensures** that the **player's sprite moves consistently across the screen based** <u>on the direction and speed specified by player_direction.</u>
