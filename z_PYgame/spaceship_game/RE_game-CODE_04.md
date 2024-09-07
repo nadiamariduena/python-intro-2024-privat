@@ -983,8 +983,9 @@ player_speed = 10
 - - 🔴 This means that in each frame, the player should move 20 units to the right and 10 units up.
 
 
-
-
 ```python
 player_rect.center += player_direction * player_speed
 ```
+<br>
+
+🔴 By doing that, you can separate the player direction: `player_direction` and `player_speed` 🟡 By adding `player_direction * player_speed` **to** `player_rect.center`, **you’re** effectively **moving the player’s position** by `(20, -10)` **pixels each frame**.
