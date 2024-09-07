@@ -262,3 +262,32 @@ pygame.quit()
 
 ## 🟡 🫐 Explanation
 
+
+
+### `delta_time = clock.tick(60) / 1000.0`
+
+### 🟦 🟠 60 means we want the game to run at a maximum of 60 frames per second (FPS)
+
+<br>
+
+### What it does:
+
+- - This part of the code is used to control the speed of the game loop.
+
+- - 🔴 It tells the computer to wait until enough time has passed to make sure the game doesn’t run too fast.
+
+- - - 🟠 Here, **60** means we want the game to run at a maximum of 60 frames per second (FPS).
+
+<br>
+
+### What it returns:
+
+### 🟢 `clock.tick(60)`:
+
+- -  gives us the **time in milliseconds** (**a thousandths** of a second) that has passed since the last time this line was executed.
+
+> #### 🟤 So, if `clock.tick(60)` returns 16, it means 16 milliseconds have passed.
+
+<br>
+
+### 🟢 `/ 1000.0`:
