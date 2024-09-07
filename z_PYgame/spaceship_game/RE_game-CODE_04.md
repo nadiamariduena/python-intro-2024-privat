@@ -1458,3 +1458,5 @@ player_rect.center += player_direction * player_speed * dt
 
 ### 🟠 Movement Calculation and Delta Time (dt):
 
+**Similarly**, the line of code `player_rect.center += player_direction * player_speed * dt` **acts like the mangroves.**
+
