@@ -200,3 +200,65 @@ pygame.quit()
 
 [<img src="./0_frame_rate_independence_.gif"/>]( )
 
+
+<br>
+<br>
+<br>
+<br>
+
+
+## 🟦 Let’s focus on a simple example
+
+
+
+```python
+import pygame
+
+# Initialize pygame
+pygame.init()
+
+# Set up the display surface
+screen = pygame.display.set_mode((800, 600))
+pygame.display.set_caption("Frame Rate Independence Example")
+
+# Create a clock object to manage frame rate
+clock = pygame.time.Clock()
+
+# Example player setup
+player_rect = pygame.Rect(100, 100, 50, 50)  # Example player rectangle
+player_direction = pygame.math.Vector2(2, -1)  # Movement direction
+player_speed = 10  # Speed
+
+running = True
+while running:
+    # Calculate delta time (seconds since last frame)
+    delta_time = clock.tick(60) / 1000.0  # Cap the frame rate at 60 FPS
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+    # Update player position based on delta time
+    movement = player_direction * player_speed * delta_time
+    player_rect.center += movement
+
+    # Clear the screen
+    screen.fill("lavenderblush2")
+
+    # Draw the player
+    pygame.draw.rect(screen, (255, 0, 0), player_rect)  # Draw a red player rectangle
+
+    # Update the display
+    pygame.display.update()
+
+pygame.quit()
+
+```
+[<img src="./frame_rate_0.gif"/>]( )
+
+
+<br>
+<br>
+
+## 🟡 🫐 Explanation
+
