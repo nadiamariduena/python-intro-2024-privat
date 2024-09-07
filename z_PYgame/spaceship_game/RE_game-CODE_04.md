@@ -1346,5 +1346,6 @@ while running:
 
 ### 🟠 🫐 `rect.center += direction * speed * dt`
 
+- By incorporating this line of code, we ensure that movement calculations are consistent regardless of the frame rate.
 
 <br>
