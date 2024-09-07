@@ -1187,3 +1187,9 @@ while running:
 # frame is taking, which should be close to 8 milliseconds
 #  if you’re running at 120 FPS.
 ```
+### 🟤 output
+
+- check the console
+
+
+ [<img src="../deltatime_0_of8-9.gif"/>](https://youtu.be/8OMghdHP-zs?si=gTv0eNs-iEZJf0tF)
