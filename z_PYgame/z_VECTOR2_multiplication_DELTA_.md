@@ -342,3 +342,15 @@ pygame.quit()
 <br>
 
 #### If `delta_time` is `0.016` **seconds**, you know that 16 milliseconds have passed since the last frame.
+
+
+<br>
+
+- **To move the character**, you use `speed * delta_time`.
+
+<br>
+
+- - #### 🌈 If the **speed is** `100 pixels per second`, **then you move** the **character by** `100 * 0.016` **pixels**, `which is 1.6 pixels` **for this frame**.
+
+
+<br>
