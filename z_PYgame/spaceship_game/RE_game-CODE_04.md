@@ -1003,3 +1003,20 @@ player_rect.center += player_direction * player_speed
 #  VECTOR
 player_direction = pygame.math.Vector2(2, -1)
 ```
+
+<br>
+<br>
+
+<br>
+
+---
+
+<br>
+<br>
+
+<br>
+
+
+# 🟦 FRAME Rate independence
+
+- Frame rate independence is a concept in game development that ensures the game's behavior and movement remain consistent regardless of the frame rate.
