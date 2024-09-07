@@ -1411,3 +1411,11 @@ player_rect.center += player_direction * player_speed
 - - 🟫  In this version, the player moves a set distance every frame.
 
 > - - #### If the frame rate changes, the movement can become uneven or jumpy.
+
+#### 🔴 This means the player’s speed might not feel consistent.
+
+
+<br>
+<br>
+
+### 🟠 Updated Code (With Delta Time)
