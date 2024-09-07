@@ -354,3 +354,9 @@ pygame.quit()
 
 
 <br>
+
+> #### 🟧 By using `delta_time`, you make sure the character moves smoothly and at the same speed, `whether the game is running at 30 FPS or 60 FPS`.
+
+#### This is because the movement is adjusted according to the actual time passed, not just the number of frames.
+
+<br>
