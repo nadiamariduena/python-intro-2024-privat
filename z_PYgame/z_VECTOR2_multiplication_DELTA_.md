@@ -19,3 +19,18 @@
 ### Consistent Experience Across Different Systems:
 
 <br>
+
+- - 🟤**Different systems** may run games at different frame rates.
+
+<br>
+
+- - 🔴 **Frame rate independence ensures that** the game behaves the same way on a high-end system running at 120 FPS and on a lower-end system running at 30 FPS.
+
+<br>
+<br>
+
+# 🫐 🟡 Why It Matters
+
+### Consistent Experience Across Different Systems:
+
+<br>
