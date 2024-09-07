@@ -1488,3 +1488,7 @@ player_rect.center += player_direction * player_speed * dt
 - - #### the `delta` time `(dt)` in your code balances the movement speed.
 
 - - #### 👾👾 It adjusts the movement proportionally to the elapsed time, ensuring consistent gameplay regardless of frame rate fluctuations.
+
+<br>
+<br>
+<br>
