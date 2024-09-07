@@ -73,3 +73,8 @@ player_direction = pygame.math.Vector2(1, 1)
     if player_rect.bottom > WINDOW_HEIGHT:
         player_direction.y *= -1
 
+        #   X axis
+    if player_rect.right > WINDOW_WIDTH:
+        player_direction.x *= -1
+```
+
