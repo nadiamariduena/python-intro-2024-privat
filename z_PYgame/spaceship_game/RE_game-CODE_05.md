@@ -156,9 +156,10 @@ Increasing the speed, for example, from `player_speed = 300` **to** `1000`, can 
 
  ## 🌈 Short-Term Solution
 
- - The teacher might not go into much detail about this, but they recommend using it if the other option isn’t working for you.
+ - This solution might also have some issues (the teacher will use it anyway, but I’ll ask ChatGPT for more details).
 
- #### To address these issues, adjust the  conditions as follows:
+
+ ### To address these issues, adjust the  conditions as follows:
 
 <br>
 
@@ -186,3 +187,8 @@ if player_rect.right > WINDOW_WIDTH or player_rect.left < 0:
 if player_rect.right => WINDOW_WIDTH or player_rect.left <= 0:
         player_direction.x *= -1
 ```
+
+
+<br>
+
+### 🌈 The teacher might not go into much detail about this, but they recommend using it if the other option isn’t working for you.
