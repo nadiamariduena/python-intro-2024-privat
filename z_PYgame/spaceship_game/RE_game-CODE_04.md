@@ -1380,3 +1380,8 @@ dt = clock.tick() / 1000 # Converts milliseconds to seconds
 # before changes
 player_rect.center += player_direction * player_speed
 
+# after changes
+player_rect.center += player_direction * player_speed * dt
+```
+
+<br>
