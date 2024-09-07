@@ -110,3 +110,5 @@ player_direction = pygame.math.Vector2(1, 1)
 
 
 > #### 🌈 Based on what we covered in Lesson 3, I've come up with the following solution to make the player bounce off the window edges.
+
+- - This code **checks** if the player has hit the `top/bottom` **or** `left/right` boundaries and reverses the direction accordingly.
