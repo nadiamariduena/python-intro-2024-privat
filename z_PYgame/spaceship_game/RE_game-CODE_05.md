@@ -63,5 +63,17 @@ player_direction = pygame.math.Vector2(1, 1)
 >We already saw something like this in [Lesson 3](./RE_game-CODE_03.md)
 
 <br>
+<br>
 
-### 🟠 `if` statements rather than `elif`
+## 🟠 `if` statements rather than `elif`
+
+```python
+
+        #  Y axis
+    if player_rect.bottom > WINDOW_HEIGHT:
+        player_direction.y *= -1
+
+        #   X axis
+    if player_rect.right > WINDOW_WIDTH:
+        player_direction.x *= -1
+```
