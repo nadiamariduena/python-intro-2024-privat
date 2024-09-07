@@ -1254,5 +1254,20 @@ while running:
 
 - `dt = clock.tick()`, the rate is going to be from `0 or 1`
 
+<br>
+
+ ```python
+while running:
+    dt = clock.tick()
+    print(dt)
+
+```
+
+- - 🔴 When you call clock.tick() without any arguments, it does not attempt to regulate the frame rate.
+
+
+
+<br>
+<br>
 
 ### 🟤 2.  `clock.get_fps()`
