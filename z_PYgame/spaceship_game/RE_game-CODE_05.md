@@ -208,3 +208,4 @@ if player_rect.right => WINDOW_WIDTH or player_rect.left <= 0:
 
 - - When the player is moving quickly and hits a corner, the boundary conditions might be checked only once per frame.
 
+> #### If the player's movement causes them to overlap both horizontal and vertical edges in a single frame, they might get stuck because both conditions are true simultaneously.
