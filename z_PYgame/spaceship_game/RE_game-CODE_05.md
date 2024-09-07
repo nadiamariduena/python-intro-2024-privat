@@ -39,3 +39,11 @@ player_direction = pygame.math.Vector2(1, 0)
 player_direction = pygame.math.Vector2(1, 1)
 
 ```
+
+<br>
+
+### 🟤 remove the test values from the `clock.tick(120)` , leave it empty
+
+```python
+  dt = clock.tick() / 1000
+```
