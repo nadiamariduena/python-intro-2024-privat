@@ -1375,3 +1375,8 @@ dt = clock.tick() / 1000 # Converts milliseconds to seconds
 ### 🟠 Next
 
 - - **Incorporate** `dt` into the calculation by multiplying it with the movement formula:
+
+```python
+# before changes
+player_rect.center += player_direction * player_speed
+
