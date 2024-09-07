@@ -140,3 +140,13 @@ player_direction = pygame.math.Vector2(1, 1)
 The approach used in class, which matches my implementation, may result in a bug where the ship/player gets stuck in the corners of the screen.
 
 [<img src="../X-Y_axis_prevent-going-out-screen_possible_bug_0.gif"/>]()
+
+<br>
+
+### 2.  Speed Issues
+
+Increasing the speed, for example, from `player_speed = 300` **to** `1000`, can lead to unexpected `behavior` **where the player moves erratically or skips over edges**.
+
+ ## 🟧 🟣 What is happening?
+
+
