@@ -969,3 +969,8 @@ This **is a `scalar` value** `(10)` that **represents how fast the player moves.
 player_speed = 10
 ```
 
+<br>
+
+## 🟧 Update
+
+#### `player_direction * player_speed:` This operation scales the direction vector by the speed.
