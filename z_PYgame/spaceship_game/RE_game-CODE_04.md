@@ -1322,3 +1322,29 @@ while running:
 ### Regulated Frame Rate:
 
 - - Use `clock.tick(target_fps)` to set and control the frame rate, ensuring that the FPS values are within a useful and manageable range for performance evaluation.
+
+
+<br>
+<br>
+
+---
+
+<br>
+
+
+
+<br>
+
+<br>
+<br>
+
+
+# 🟡 Independent of the Frame rate
+
+<br>
+<br>
+
+### 🟠 🫐 `rect.center += direction * speed * dt`
+
+
+<br>
