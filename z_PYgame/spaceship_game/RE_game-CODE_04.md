@@ -1310,3 +1310,11 @@ while running:
 - **recap**
 
 - - - Without a target frame rate, `clock.tick()` does not regulate the frame rate. This means your game can run as fast as possible, leading to extremely high FPS values. **This is not useful for practical game performance monitoring.**
+
+<br>
+
+
+### Practical FPS:
+
+- - **Aim for FPS values** in the range of `30 to 120`, depending on your game’s requirements and target hardware.
+
