@@ -315,3 +315,7 @@ pygame.quit()
 ### 💥 When you write `delta_time = clock.tick(60) / 1000.0`, 🐻 you’re doing two things:
 
 <br>
+
+### 1. 🫐 Control the Speed:
+
+  You are making sure the game doesn’t run faster than 60 frames per second.
