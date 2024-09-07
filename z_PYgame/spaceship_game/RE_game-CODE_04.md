@@ -1068,3 +1068,23 @@ player_direction = pygame.math.Vector2(2, -1)
 ### 🌞 🐝 So, if the object moves 10 pixels each frame:
 
 <br>
+
+> #### At 30 frames per second, it moves 10 * 30 = 300 pixels per second.
+
+
+> #### At 60 frames per second, it moves 10 * 60 = 600 pixels per second.
+
+> #### At 120 frames per second, it moves 10 * 120 = 1200 pixels per second.
+
+#### This helps us understand how changing the frame rate affects the speed of the movement.
+
+
+<br>
+<br>
+
+## 🍊 Let's try it on the code
+
+- - I want the player to only move to the right only, and to the **Y** (up down) nothing
+
+<br>
+
