@@ -1484,3 +1484,5 @@ player_rect.center += player_direction * player_speed * dt
 
 ###  🔴Just as mangroves balance and mitigate the impact of tsunami waves...
 
+- - #### the `delta` time `(dt)` in your code balances the movement speed.
+
