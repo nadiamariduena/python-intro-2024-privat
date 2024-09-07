@@ -61,3 +61,7 @@ player_direction = pygame.math.Vector2(1, 1)
 ### 🟫 Basic Condition: Implement Bouncing Behavior for Player at Window Edges
 
 >We already saw something like this in [Lesson 3](./RE_game-CODE_03.md)
+
+<br>
+
+### 🟠 `if` statements rather than `elif`
