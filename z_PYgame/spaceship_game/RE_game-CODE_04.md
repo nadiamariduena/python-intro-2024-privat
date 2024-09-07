@@ -974,3 +974,6 @@ player_speed = 10
 ## 🟧 Update
 
 #### `player_direction * player_speed:` This operation scales the direction vector by the speed.
+
+
+> - - #### 🔴 *For a direction* `vector (2, -1)` *and a speed of* `10`, *the result* of this *multiplication is* `(20, -10).`
