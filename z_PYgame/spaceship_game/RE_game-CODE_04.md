@@ -1240,6 +1240,8 @@ while running:
 ## 🔴 Behavior Without a Frame Rate Limit: `clock.tick()`
 
 
+<br>
+
   We will observe the behavior of these 2:
 
 **1.** dt = clock.tick()
@@ -1247,8 +1249,9 @@ while running:
 **2.** print(clock.get_fps())
 
 <br>
+<br>
 
-### 🟤 1. `dt = clock.tick()`
+## 🟤 1. `dt = clock.tick()`
 
 ####  If i let this: `dt = clock.tick(120)`  <u>empty</u> like so:
 
@@ -1273,4 +1276,19 @@ while running:
 <br>
 <br>
 
-### 🟤 2.  `clock.get_fps()`
+## 🟤 2.  `clock.get_fps()`
+
+
+```python
+while running:
+    dt = clock.tick()
+    print(clock.get_fps())
+```
+
+<br>
+
+> #### 🔴 result of the clock.get_fps() and the print(dt)
+
+<br>
+
+ [<img src="../result_of__clock.get_fps_dt.gif"/>]( )
