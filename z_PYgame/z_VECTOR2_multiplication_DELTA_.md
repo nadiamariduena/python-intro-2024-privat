@@ -291,3 +291,27 @@ pygame.quit()
 <br>
 
 ### 🟢 `/ 1000.0`:
+
+#### Why we divide by 1000 ?:
+
+- - The number we get from clock.tick(60) is in **milliseconds**.
+
+- - - There are 1000 milliseconds in one second, so to convert milliseconds to seconds, we divide by 1000.
+
+<br>
+
+**Result:**
+
+###   🌈 Dividing by 1000 changes the time from milliseconds to seconds.
+
+- - 🔴 For example, **if `clock.tick(60)` returns 16 milliseconds**, then `16 / 1000.0` **equals 0.016 seconds**.
+
+<br>
+
+## 🍯  Putting It All Together 🐝
+
+<br>
+
+### 💥 When you write `delta_time = clock.tick(60) / 1000.0`, 🐻 you’re doing two things:
+
+<br>
