@@ -85,3 +85,7 @@ player_direction = pygame.math.Vector2(1, 1)
 <br>
 
 - - 🔴 To handle the bouncing effect when the player reaches the edges of the window, we'll use individual if statements **rather than `elif`**.
+
+<br>
+
+> - -  - 🔴 **This approach ensures** that **each condition** is **evaluated independently**, allowing for more precise control over the player's movement and bouncing mechanics.
