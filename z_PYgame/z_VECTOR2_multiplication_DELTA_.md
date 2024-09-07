@@ -319,3 +319,9 @@ pygame.quit()
 ### 1. 🫐 Control the Speed:
 
   You are making sure the game doesn’t run faster than 60 frames per second.
+
+  - - This is useful to keep the game speed consistent on different computers.
+
+### 2. 🫐 Measure Elapsed Time:
+
+  You’re finding out how much time has passed since the last frame.
