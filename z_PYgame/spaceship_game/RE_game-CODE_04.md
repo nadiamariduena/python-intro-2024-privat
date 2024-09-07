@@ -1024,3 +1024,10 @@ player_direction = pygame.math.Vector2(2, -1)
 <br>
 
 - -   🟠  Essentially, it means that the speed and smoothness of animations and movements are <u>**not directly tied to how many frames per second (FPS) the game is running at**</u> 🔴 .
+
+<br>
+<br>
+
+ ## 🫐 🔴 Why It Matters ?
+
+ - Read More [DELTA| Why It Matters](../z_VECTOR2_multiplication_DELTA_.md)
