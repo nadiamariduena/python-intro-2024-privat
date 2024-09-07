@@ -1318,3 +1318,7 @@ while running:
 
 - - **Aim for FPS values** in the range of `30 to 120`, depending on your game’s requirements and target hardware.
 
+
+### Regulated Frame Rate:
+
+- - Use `clock.tick(target_fps)` to set and control the frame rate, ensuring that the FPS values are within a useful and manageable range for performance evaluation.
