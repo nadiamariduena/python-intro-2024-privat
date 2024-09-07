@@ -1108,3 +1108,52 @@ player_speed = 10
 ### 🔴 Try experimenting with different speeds and clock settings.
 
 > - - I’ve tested how the player’s speed changes by adjusting the clock.tick(10) line to different numbers, like 5, 60, or 120. Play around with these settings and see how they impact the player’s movement!
+
+
+```python
+
+#🤚 VECTOR
+player_direction = pygame.math.Vector2(1, 0) # I want the player to only move to the right only, and to the **Y** (up down) nothing
+
+
+
+# player speed
+player_speed = 10
+# -----  move right to left loop  ---
+
+while running:
+
+
+    clock.tick(10) #✋ check the table
+
+
+    for event in pygame.event.get():
+       if event.type == pygame.QUIT:
+            running = False
+
+    display_surface.fill("lavenderblush2")
+
+
+    for pos in star_positions:
+        display_surface.blit(star_surf, pos)
+
+
+   # player
+    display_surface.blit(player_surf, player_rect)
+
+    # meteor
+    display_surface.blit(meteor_surf, meteor_rect)
+    # laser
+    display_surface.blit(laser_surf, laser_rect)
+
+
+    # VECTOR multiplication
+    player_rect.center += player_direction * player_speed
+
+
+    pygame.display.update()
+
+
+
+pygame.quit()
+```
