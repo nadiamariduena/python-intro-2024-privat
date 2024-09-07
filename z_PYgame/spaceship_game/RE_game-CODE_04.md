@@ -1460,4 +1460,13 @@ player_rect.center += player_direction * player_speed * dt
 
 **Similarly**, the line of code `player_rect.center += player_direction * player_speed * dt` **acts like the mangroves.**
 
-> -  #### It balances the movement speed of the player relative to the time that has passed between frames.
+
+ 🌈 It balances the movement speed of the player relative to the time that has passed between frames.
+
+<br>
+<br>
+
+### Movement Speed
+
+ 🌞 **`player_direction * player_speed` represents the intended movement speed**, analogous to the energy of the tsunami waves.
+
