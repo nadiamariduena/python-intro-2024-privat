@@ -944,3 +944,13 @@ player_direction = pygame.math.Vector2(2, -1)
 <br>
 
 > #### 🟤 Remove the multiplication print `print(player_direction * 2)` and add the speed with value of 10, we will be using this variable within the LOOP
+
+
+
+<br>
+<br>
+
+## 🌈  `player_speed`:
+
+
+This **is a `scalar` value** `(10)` that **represents how fast the player moves.**
