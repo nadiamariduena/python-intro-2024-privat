@@ -89,3 +89,24 @@ player_direction = pygame.math.Vector2(1, 1)
 <br>
 
 > - -  - 🔴 **This approach ensures** that **each condition** is **evaluated independently**, allowing for more precise control over the player's movement and bouncing mechanics.
+
+#### with ELIF
+
+```python
+
+        #  Y axis
+    if player_rect.bottom > WINDOW_HEIGHT:
+        player_direction.y *= -1
+
+        #   X axis
+    elif player_rect.right > WINDOW_WIDTH:
+        player_direction.x *= -1
+```
+
+<br>
+<br>
+
+### 🟠 Before the Teacher Continues, Here's My Approach Based on  [Lesson 3](./RE_game-CODE_03.md)
+
+
+> #### 🌈 Based on what we covered in Lesson 3, I've come up with the following solution to make the player bounce off the window edges.
