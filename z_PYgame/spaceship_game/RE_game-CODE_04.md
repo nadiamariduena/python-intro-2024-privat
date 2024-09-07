@@ -1231,6 +1231,7 @@ while running:
 
  If it takes **longer than 16** milliseconds per frame, like **`30`** milliseconds or more, then your game or animation might start to look choppy or slow down.
 
+ - - This is because it means you're getting fewer frames per second, which can make things less smooth.
 
 <br>
 <br>
