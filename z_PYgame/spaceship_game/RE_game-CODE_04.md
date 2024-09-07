@@ -1200,3 +1200,5 @@ while running:
 
 ### 🟢 As you can notice on the image, we are getting the delta time of `8` or `9`
 
+🌈 🧸  **SHORT Output Explanation:** If you see values like 8 or 9, it means that each frame is taking about 8 or 9 milliseconds to render.
+
