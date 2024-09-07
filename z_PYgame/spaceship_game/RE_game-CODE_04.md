@@ -1102,3 +1102,9 @@ player_direction = pygame.math.Vector2(2, -1) # This vector represents the direc
 # player speed
 player_speed = 10
 ```
+
+<br>
+
+### 🔴 Try experimenting with different speeds and clock settings.
+
+> - - I’ve tested how the player’s speed changes by adjusting the clock.tick(10) line to different numbers, like 5, 60, or 120. Play around with these settings and see how they impact the player’s movement!
