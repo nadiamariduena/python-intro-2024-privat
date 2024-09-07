@@ -691,3 +691,51 @@ pygame.quit()
 
 
 - - The `player_rect.center += player_direction` **ensures** that the **player's sprite moves consistently across the screen based** <u>on the direction and speed specified by player_direction.</u>
+
+
+
+
+```python
+# -----  move right to left loop  ---
+# VECTOR
+# 🟡
+player_direction = pygame.math.Vector2(20, -10)
+# -----  move right to left loop  ---
+
+while running:
+
+
+    clock.tick(60) #✋
+
+
+    for event in pygame.event.get():
+       if event.type == pygame.QUIT:
+            running = False
+
+    display_surface.fill("lavenderblush2")
+
+
+    for pos in star_positions:
+        display_surface.blit(star_surf, pos)
+
+
+   # player
+    display_surface.blit(player_surf, player_rect)
+
+    # meteor
+    display_surface.blit(meteor_surf, meteor_rect)
+    # laser
+    display_surface.blit(laser_surf, laser_rect)
+
+    # 🟡 vector
+    player_rect.center += player_direction
+
+    pygame.display.update()
+
+
+
+pygame.quit()
+```
+
+<br>
+<br>
