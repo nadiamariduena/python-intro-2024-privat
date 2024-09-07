@@ -1386,4 +1386,6 @@ player_rect.center += player_direction * player_speed * dt
 
 <br>
 
-> #### 🌈 By multiplying `player_speed` by `dt`, you ensure that the movement is consistent, regardless of how fast the game is running.
+ ### 🌈 By multiplying `player_speed` by `dt`, you ensure that the movement is consistent, regardless of how fast the game is running.
+
+ - - This way, the player moves at the same speed in real time, even if the frame rate changes.
