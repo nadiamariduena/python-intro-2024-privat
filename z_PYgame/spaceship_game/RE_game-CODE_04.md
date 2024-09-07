@@ -952,8 +952,20 @@ player_direction = pygame.math.Vector2(2, -1)
 
 ## 🌈  `player_speed`:
 
+ ```python
+# player speed
+player_speed = 10
+```
+
+
 
 This **is a `scalar` value** `(10)` that **represents how fast the player moves.**
 
 
 > - - 🫐 **It scales the** `player_direction` **vector**, effectively **determining how far** the `player` **moves** <u>in a single frame.</u>
+
+ ```python
+# player speed
+player_speed = 10
+```
+
