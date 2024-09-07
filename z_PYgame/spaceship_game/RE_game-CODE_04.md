@@ -977,3 +977,7 @@ player_speed = 10
 
 
 > - - #### 🔴 *For a direction* `vector (2, -1)` *and a speed of* `10`, *the result* of this *multiplication is* `(20, -10).`
+
+<br>
+
+- - 🔴 This means that in each frame, the player should move 20 units to the right and 10 units up.
