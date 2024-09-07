@@ -1446,5 +1446,7 @@ player_rect.center += player_direction * player_speed * dt
 
 - - Engineers use mangroves to absorb and slow down the impact of tsunami waves, reducing their destructive force when they reach the shore.
 
+- -  This natural **barrier helps balance the energy of the waves, making their impact less severe**.
+
 
 
