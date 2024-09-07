@@ -928,3 +928,6 @@ player_direction = pygame.math.Vector2(2, -1)
 
 **🟦 player_direction:**
 
+ `pygame.math.Vector2` **object initialized to** `(2, -1)`.
+
+
