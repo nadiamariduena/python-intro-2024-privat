@@ -1303,3 +1303,10 @@ while running:
 
 - - Seeing FPS values in the range of 250k or higher indicates that your game is rendering frames extremely quickly, 🌈 likely as fast as the system's hardware allows.
 
+
+
+- - - #### 🟤 Extremely high and indicates no frame rate limitation. / No Frame Rate Capping:
+
+- **recap**
+
+- - - Without a target frame rate, `clock.tick()` does not regulate the frame rate. This means your game can run as fast as possible, leading to extremely high FPS values. **This is not useful for practical game performance monitoring.**
