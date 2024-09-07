@@ -59,3 +59,26 @@
 
 <br>
 <br>
+
+## 🟡 DELTA
+
+- recap
+
+#### To achieve frame rate independence, you typically need to use the concept of delta time.
+
+
+-  - **DELTA is a way to measure how much time has passed since the last frame** (or screen update) in a game.
+
+> - - #### This helps in making sure that the game moves the same way regardless of how fast or slow the computer is running the game.
+
+<br>
+
+- - 🟦  **Delta** time refers to the time elapsed since the last frame.
+
+> - - - ###  🧸 By incorporating delta time into your movement calculations, you ensure that movement is <u>based on real time rather than the number of frames.</u>
+
+
+
+<br>
+<br>
+<br>
