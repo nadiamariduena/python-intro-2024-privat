@@ -1172,3 +1172,18 @@ pygame.quit()
 
 >🟤 `DT` is short for delta time
 
+- Here, dt is set to the time it took to render the last frame in milliseconds. (open the terminal and check the values you have there)
+
+```python
+
+while running:
+
+    dt = clock.tick(120)
+    print(dt)
+
+#
+#
+# - 🔴 By printing dt, you can see how long each
+# frame is taking, which should be close to 8 milliseconds
+#  if you’re running at 120 FPS.
+```
