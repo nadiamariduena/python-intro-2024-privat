@@ -1044,6 +1044,8 @@ player_direction = pygame.math.Vector2(2, -1)
 
   [<img src="../table_to_visualize_framerate_0.png"/>](https://youtu.be/8OMghdHP-zs?si=i6Cb2AIXkD7yMHnt&t=4565)
 
+  - As mentioned earlier, this method isn’t ideal. Instead, we should use delta time to ensure smooth and consistent movement, regardless of frame rate changes.
+
   <br>
 
 
