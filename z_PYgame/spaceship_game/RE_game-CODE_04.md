@@ -647,3 +647,6 @@ player_rect.center += player_direction
 <br>
 
 ### 🟤 Let's break down its role and purpose within the context of the code:
+
+
+This **`player_rect.center += player_direction`** updates the position of the player's sprite by adding the `player_direction` **vector** to the current center position of **`player_rect`**.
