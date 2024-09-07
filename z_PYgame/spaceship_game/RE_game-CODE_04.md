@@ -1385,3 +1385,5 @@ player_rect.center += player_direction * player_speed * dt
 ```
 
 <br>
+
+> #### 🌈 By multiplying `player_speed` by `dt`, you ensure that the movement is consistent, regardless of how fast the game is running.
