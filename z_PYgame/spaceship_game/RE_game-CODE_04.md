@@ -1157,3 +1157,18 @@ while running:
 
 pygame.quit()
 ```
+<br>
+
+### 🔴 This approach is useful for testing and seeing different outcomes, but it’s not exactly what we need.
+
+<br>
+<br>
+<br>
+
+
+# 🟡 Delta Time (dt)
+
+### 🟦 Adding the DELTA time to out code
+
+>🟤 `DT` is short for delta time
+
