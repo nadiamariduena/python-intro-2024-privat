@@ -150,3 +150,5 @@ Increasing the speed, for example, from `player_speed = 300` **to** `1000`, can 
  ## 🟧 🟣 What is happening?
 
 
+[<img src="../X-Y_axis_prevent-going-out-screen_possible_bug_1.gif"/>]()
+
