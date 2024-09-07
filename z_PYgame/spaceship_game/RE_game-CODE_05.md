@@ -192,3 +192,16 @@ if player_rect.right => WINDOW_WIDTH or player_rect.left <= 0:
 <br>
 
 ### 🌈 The teacher might not go into much detail about this, but they recommend using it if the other option isn’t working for you.
+
+
+<br>
+<br>
+
+
+
+## 🔴 Analysis of the Issue
+
+
+### 🟤 Stuck in Corners:
+
+**Reason:**
