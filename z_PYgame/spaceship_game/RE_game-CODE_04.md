@@ -668,3 +668,21 @@ The `+=` **operator** 🟠
 <br>
 
 - - - Each frame, the player's position is updated by adding the `player_direction` **vector** to its current position. This results in the player moving in the direction specified by player_direction.
+
+
+<br>
+
+**Animation:**
+
+- -  This **`player_rect.center += player_direction`** continuously updates the player's position as long as the game is running, which is essential for creating smooth movement and animation in the game.
+
+```python
+    # vector
+    # ✋
+    player_rect.center += player_direction
+
+
+    pygame.display.update()
+
+pygame.quit()
+```
