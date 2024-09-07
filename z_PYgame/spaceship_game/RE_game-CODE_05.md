@@ -205,3 +205,6 @@ if player_rect.right => WINDOW_WIDTH or player_rect.left <= 0:
 ### 🟤 Stuck in Corners:
 
 **Reason:**
+
+- - When the player is moving quickly and hits a corner, the boundary conditions might be checked only once per frame.
+
