@@ -1221,6 +1221,11 @@ while running:
 
  The best time for rendering each frame is usually **under 16 milliseconds.**
 
+ - - This is because `16` milliseconds means you’re hitting 60 frames per second (fps), which is smooth and looks great 💅.
+
+ <br>
+
+
 <br>
 <br>
 
