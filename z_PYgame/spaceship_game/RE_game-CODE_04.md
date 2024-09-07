@@ -1252,7 +1252,9 @@ while running:
 
 ####  If i let this: `dt = clock.tick(120)`  <u>empty</u> like so:
 
-- `dt = clock.tick()`, the rate is going to be from `0 or 1`
+- `dt = clock.tick()`, the rate is going to be from `0 or 1`.
+
+- - Indicates we are getting a frame rate from about a 1000 frames per second or even more
 
 <br>
 
