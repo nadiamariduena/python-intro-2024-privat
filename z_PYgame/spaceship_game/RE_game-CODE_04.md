@@ -664,3 +664,7 @@ The `+=` **operator** 🟠
 **Movement:**
 
 - -  The primary purpose of this line is **to move** the **player's** sprite.
+
+<br>
+
+- - - Each frame, the player's position is updated by adding the `player_direction` **vector** to its current position. This results in the player moving in the direction specified by player_direction.
