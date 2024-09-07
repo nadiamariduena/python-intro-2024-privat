@@ -82,3 +82,121 @@
 <br>
 <br>
 <br>
+
+## 🧶 Here’s how you can modify your game loop to incorporate `delta` time:
+
+<br>
+
+### 🟩 Track Elapsed Time:
+
+<br>
+
+- - **Calculate the time** that has passed since the last frame.
+
+<br>
+
+### 🟩 Adjust Movement Based on Time:
+
+
+```python
+import pygame
+
+# Initialize pygame
+pygame.init()
+
+# Set up the display surface
+screen = pygame.display.set_mode((800, 600))
+pygame.display.set_caption("Frame Rate Independence Example")
+
+# Create a clock object to manage frame rate
+clock = pygame.time.Clock()
+
+# Font setup
+font = pygame.font.Font(None, 36)  # Use a default font and set the size to 36
+
+
+#------------🟥
+# Example player setup
+player_rect = pygame.Rect(100, 100, 50, 50)  # Example player rectangle
+player_direction = pygame.math.Vector2(2, -1)  # Movement direction
+player_speed = 100  # Speed in pixels per second
+
+
+#------------🟦
+# Box to visualize frame rate independence
+box_rect = pygame.Rect(400, 300, 50, 50)  # Box position and size
+box_direction = pygame.math.Vector2(-1, 2)  # Movement direction of the box
+box_speed = 50  # Speed in pixels per second
+
+
+
+
+# Timing variables
+player_last_update = pygame.time.get_ticks()
+box_last_update = pygame.time.get_ticks()
+
+
+player_update_interval = 1000 / 60  # Player updates at 60 FPS
+box_update_interval = 1000 / 30  # Box updates at 30 FPS
+
+# Frame rate counters
+player_frame_count = 0
+box_frame_count = 0
+player_time_accumulator = 0
+box_time_accumulator = 0
+
+running = True
+while running:
+    # Handle events
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+    # Calculate delta time
+    delta_time = clock.tick(60) / 1000.0  # Cap the frame rate at 60 FPS
+
+    # Update player position based on delta time
+    player_time_accumulator += delta_time
+    if player_time_accumulator >= player_update_interval / 1000.0:
+        player_movement = player_direction * player_speed * delta_time
+        player_rect.center += player_movement
+        player_time_accumulator = 0
+        player_frame_count += 1
+
+    # Update box position based on delta time
+    box_time_accumulator += delta_time
+    if box_time_accumulator >= box_update_interval / 1000.0:
+        box_movement = box_direction * box_speed * delta_time
+        box_rect.topleft += box_movement
+        box_time_accumulator = 0
+        box_frame_count += 1
+
+    # Clear the screen
+    screen.fill((255, 255, 255))  # White background
+
+    # Draw the player
+    pygame.draw.rect(screen, (255, 0, 0), player_rect)  # Draw a red player rectangle
+
+    # Draw the moving box
+    pygame.draw.rect(screen, (0, 0, 255), box_rect)  # Draw a blue box
+
+    # Render the frame rate text
+    frame_rate_text = font.render(f"Player FPS: {player_frame_count}", True, (0, 0, 0))
+    box_rate_text = font.render(f"Box FPS: {box_frame_count}", True, (0, 0, 0))
+
+    # Draw the text to the screen
+    screen.blit(frame_rate_text, (10, 10))  # Draw player frame rate in the top-left corner
+    screen.blit(box_rate_text, (10, 50))  # Draw box frame rate below player frame rate
+
+    # Update the display
+    pygame.display.update()
+
+pygame.quit()
+
+
+```
+
+### output
+
+[<img src="./0_frame_rate_independence_.gif"/>]( )
+
