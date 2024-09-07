@@ -230,3 +230,66 @@ if player_rect.right => WINDOW_WIDTH or player_rect.left <= 0:
         player_rect.bottom = WINDOW_HEIGHT
         player_direction.y = -1
 ```
+
+<br>
+
+### ✅ CHATGPT:
+
+- - 🌈  The long-term **solution** you provided  **addresses the issue of the player getting stuck in corners** and erratic behavior at high speeds in a different way. **But there are a few issues to address**
+
+
+<br>
+
+
+
+- - 🌈 The **condition should check** `if` the `player_rect.top` **is less than or equal to 0**, which **means the player has moved past the top edge**.
+
+#### 🔴 incorrect
+
+```python
+
+
+    if player_rect.bottom >= WINDOW_HEIGHT:
+        player_rect.bottom = WINDOW_HEIGHT
+        player_direction.y = -1
+
+    if player_rect.top >= WINDOW_HEIGHT:
+        player_rect.top = WINDOW_HEIGHT
+        player_direction.y = -1
+
+        # the 2 below dont work
+
+    if player_rect.left >= WINDOW_WIDTH:
+        player_rect.left = WINDOW_WIDTH
+        player_direction.x = -1
+
+    if player_rect.right >= WINDOW_WIDTH:
+        player_rect.right = WINDOW_WIDTH
+        player_direction.x = -1
+```
+
+### ✅ correct
+
+ ```python
+if player_rect.bottom >= WINDOW_HEIGHT:
+        player_rect.bottom = WINDOW_HEIGHT
+        player_direction.y *= -1
+
+    # Top boundary
+    if player_rect.top <= 0:
+        player_rect.top = 0
+        player_direction.y *= -1
+
+    # Right boundary
+    if player_rect.right >= WINDOW_WIDTH:
+        player_rect.right = WINDOW_WIDTH
+        player_direction.x *= -1
+
+    # Left boundary
+    if player_rect.left <= 0:
+        player_rect.left = 0
+        player_direction.x *= -1
+
+
+
+ ```
