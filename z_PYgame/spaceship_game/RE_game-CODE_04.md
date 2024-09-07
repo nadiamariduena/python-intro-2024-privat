@@ -1449,4 +1449,5 @@ player_rect.center += player_direction * player_speed * dt
 - -  This natural **barrier helps balance the energy of the waves, making their impact less severe**.
 
 
+[<img src="../mangrobe_example.gif"/>](https://youtu.be/4HDQRduj5f8?si=PGg0a9RKeQYEGpHz)
 
