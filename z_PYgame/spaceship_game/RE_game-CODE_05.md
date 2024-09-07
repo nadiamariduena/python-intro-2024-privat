@@ -159,3 +159,18 @@ Increasing the speed, for example, from `player_speed = 300` **to** `1000`, can 
  - The teacher might not go into much detail about this, but they recommend using it if the other option isn’t working for you.
 
  #### To address these issues, adjust the  conditions as follows:
+
+<br>
+
+
+ ### 🟤 Y axis
+
+ ```python
+# before
+if player_rect.bottom > WINDOW_HEIGHT or player_rect.top <= 0:
+          player_direction.y *= -1
+
+# after
+if player_rect.bottom >= WINDOW_HEIGHT or player_rect.top < 0:
+          player_direction.y *= -1
+ ```
