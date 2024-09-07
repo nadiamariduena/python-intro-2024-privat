@@ -1213,6 +1213,13 @@ while running:
 
  - A number like 8 or 9 milliseconds can be good, but it depends on what you're aiming for!
 
+ <br>
+
+ ### 🚀 🌞 Best Rendering Scenario
+
+ #### Ideal Time:
+
+ The best time for rendering each frame is usually **under 16 milliseconds.**
 
 <br>
 <br>
