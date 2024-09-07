@@ -739,3 +739,7 @@ pygame.quit()
 
 <br>
 <br>
+
+## To Debug
+
+- Add this line `print(player_direction * 2)` to below code
