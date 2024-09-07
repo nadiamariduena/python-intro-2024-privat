@@ -1349,3 +1349,21 @@ while running:
 - By incorporating this line of code, we ensure that movement calculations are consistent regardless of the frame rate.
 
 <br>
+
+ [<img src="../delta_time_TABLE_1.png"/>]( )
+
+ <br>
+
+ - back to the code
+
+
+## 🟡 Adjust Movement with Delta Time
+
+
+### 🟤 To calculate `dt`:
+
+
+```python
+dt = clock.tick() / 1000 # Converts milliseconds to seconds
+
+```
