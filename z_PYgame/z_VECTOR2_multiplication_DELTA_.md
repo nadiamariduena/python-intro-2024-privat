@@ -325,3 +325,14 @@ pygame.quit()
 ### 2. 🫐 Measure Elapsed Time:
 
   You’re finding out how much time has passed since the last frame.
+
+- - - This time is measured in seconds, so it’s easier to use in calculations to move objects smoothly.
+
+
+<br>
+<br>
+
+### Example
+
+
+### 💅 🌪️ Imagine a game where you want to move a character forward.
