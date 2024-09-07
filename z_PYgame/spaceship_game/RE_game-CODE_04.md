@@ -1202,3 +1202,5 @@ while running:
 
 🌈 🧸  **SHORT Output Explanation:** If you see values like 8 or 9, it means that each frame is taking about 8 or 9 milliseconds to render.
 
+ [<img src="../calcs_fps.gif"/>](https://youtu.be/8OMghdHP-zs?si=gTv0eNs-iEZJf0tF)
+
