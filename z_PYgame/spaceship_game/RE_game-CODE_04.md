@@ -931,3 +931,10 @@ player_direction = pygame.math.Vector2(2, -1)
  `pygame.math.Vector2` **object initialized to** `(2, -1)`.
 
  - -  **It represents** both the **direction and speed** of the **player's movement**.
+
+ <br>
+
+
+ ### 🌈 In vector terms , `(2, -1)`  means
+
+  - #### the 🦄 player moves 2 units horizontally (to the right) and -1 unit vertically (upwards) per frame.
