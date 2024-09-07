@@ -1206,6 +1206,12 @@ while running:
 
  [<img src="../calcs_fps.gif"/>](https://youtu.be/8OMghdHP-zs?si=gTv0eNs-iEZJf0tF)
 
+<br>
+
+
+ ## 🟡 Is 8 or 9 Good for Rendering?
+
+ - A number like 8 or 9 milliseconds can be good, but it depends on what you're aiming for!
 
 
 <br>
