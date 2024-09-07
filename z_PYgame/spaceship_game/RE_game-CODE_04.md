@@ -938,3 +938,9 @@ player_direction = pygame.math.Vector2(2, -1)
  ### 🌈 In vector terms , `(2, -1)`  means
 
   - #### the 🦄 player moves 2 units horizontally (to the right) and -1 unit vertically (upwards) per frame.
+
+
+<br>
+<br>
+
+> #### 🟤 Remove the multiplication print `print(player_direction * 2)` and add the speed with value of 10, we will be using this variable within the LOOP
