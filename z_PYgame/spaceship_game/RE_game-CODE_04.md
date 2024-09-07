@@ -1424,3 +1424,4 @@ player_rect.center += player_direction * player_speed
 player_rect.center += player_direction * player_speed * dt
 ```
 
+- - 🟫  To adjust for different frame rates and ensure consistent movement, multiply the speed by dt
