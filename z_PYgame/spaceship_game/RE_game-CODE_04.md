@@ -903,3 +903,17 @@ while running:
 
 pygame.quit()
 ```
+
+<br>
+<br>
+<br>
+
+
+## 🟩 When you use `player_direction * 2`, you're essentially adding 🔴 very small increments.
+
+For instance, rather than using larger values like `20 and -10`, you can **simplify** by using **smaller**, more manageable numbers:
+
+```python
+#🤚 VECTOR
+player_direction = pygame.math.Vector2(2, -1)
+```
