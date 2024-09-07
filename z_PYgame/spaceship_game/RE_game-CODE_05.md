@@ -174,3 +174,15 @@ if player_rect.bottom > WINDOW_HEIGHT or player_rect.top <= 0:
 if player_rect.bottom >= WINDOW_HEIGHT or player_rect.top < 0:
           player_direction.y *= -1
  ```
+
+  ### 🟤 X axis
+
+```python
+# before
+if player_rect.right > WINDOW_WIDTH or player_rect.left < 0:
+        player_direction.x *= -1
+
+# after
+if player_rect.right => WINDOW_WIDTH or player_rect.left <= 0:
+        player_direction.x *= -1
+```
