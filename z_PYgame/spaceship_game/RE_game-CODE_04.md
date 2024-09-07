@@ -763,4 +763,8 @@ print(player_direction * 2)
 
 > - - **`player_direction`** is a **pygame.math.Vector2 object initialized** with the values `(20, -10)`, which represents a direction and speed vector for your player.
 
+> - - **Multiplying this vector by 2** (player_direction * 2) scales the vector by a factor of 2.
 
+> - - - The result is a new vector (40, -20).
+
+<br>
