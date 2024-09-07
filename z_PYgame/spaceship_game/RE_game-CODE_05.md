@@ -152,3 +152,10 @@ Increasing the speed, for example, from `player_speed = 300` **to** `1000`, can 
 
 [<img src="../X-Y_axis_prevent-going-out-screen_possible_bug_1.gif"/>]()
 
+<br>
+
+ ## 🌈 Short-Term Solution
+
+ - The teacher might not go into much detail about this, but they recommend using it if the other option isn’t working for you.
+
+ #### To address these issues, adjust the  conditions as follows:
