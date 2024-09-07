@@ -1031,3 +1031,21 @@ player_direction = pygame.math.Vector2(2, -1)
  ## 🫐 🔴 Why It Matters ?
 
  - Read More [DELTA| Why It Matters](../z_VECTOR2_multiplication_DELTA_.md)
+
+ <br>
+ <br>
+ <br>
+
+ ## 🟠 Movement Speed vs. Frame Rate: A Simple Breakdown
+
+
+ #### The image shows how the speed of movement changes based on the frame rate in Pygame.
+
+
+  [<img src="../table_to_visualize_framerate_0.png"/>](https://youtu.be/8OMghdHP-zs?si=i6Cb2AIXkD7yMHnt&t=4565)
+
+  <br>
+
+
+## 🌽 Explanation:
+
