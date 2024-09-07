@@ -1225,6 +1225,12 @@ while running:
 
  <br>
 
+ ### 🌩️   When to Worry
+
+ #### Too Slow:
+
+ If it takes **longer than 16** milliseconds per frame, like **`30`** milliseconds or more, then your game or animation might start to look choppy or slow down.
+
 
 <br>
 <br>
