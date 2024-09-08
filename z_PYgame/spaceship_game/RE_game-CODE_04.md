@@ -1820,3 +1820,9 @@ display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 
  - -  🔴 the time it takes to render each frame (dt) can be influenced by the size of the window.
 
+## Summary
+
+
+`clock.tick(120)`: Sets the target frame rate to 120 FPS. It does not change based on window size but tries to maintain the specified frame rate by adjusting the timing between frames.
+
+
