@@ -246,12 +246,14 @@ player_rect.y += 10
 
 ### 2. Update Coordinates Simultaneously
 
-- For a single operation that updates both x and y:
+- Now We want to update both the x and y coordinates simultaneously using a single operation:
+
 
 ```python
 player_rect.center += (20, -10)
-
 ```
+
+>Above: we are grabbing one of the **tuple()** `points` inside of the rectangle
 
 <br>
 
@@ -286,24 +288,7 @@ player_rect.y += 10
 
 
 
-### 🟧 1. We want to update, both the `x` and `y` coordinates:
 
-
-
-```python
-player_rect.x += 20
-player_rect.y += 10
-
-```
-
-### 🟠 2. Now We want to update both the x and y coordinates simultaneously using a single operation:
-
-
-- Here below we are grabbing one of the tuple() points inside of the rectangle
-
-```python
-player_rect.center += (20, -10)
-```
 
 
 
