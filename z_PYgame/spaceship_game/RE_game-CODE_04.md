@@ -4,32 +4,74 @@
 
 - Up & down animation
 
-- delta
-
-- vectors
-
-- - Vector Multiplication
-
-- - 🔴 (very important) Why do we need vectors if we have lists?
 
 
 
+
+
+
+
+<br>
+
+
+###  🟡 Vectors
+
+
+- - - **Vectors** [Go to section](#Vectors_about)
+
+
+- - - **Why vectors if we have lists?:** First Understand this error: [Go to section](#why_vectors_if_we_have_lists)
+
+
+<br>
+
+- - -  **Why use a Vector**  [Go to section](#why_use_a_vector_)
+
+- - - **Vector Multiplication:** Multiplying a Vector by a Number [Go to section](#multiplying_a_vector_)
+
+<br>
+
+
+- - 🟠 **Vector Init** [Go to section](#Init_of_Vector2)
+
+
+
+<br>
+
+ <br>
+
+
+### 🟡 Delta time
+
+- - -  **Delta time:** [Go to section](#delta_time_)
+
+- - -   **Independent of the Frame rate:**  [Go to section](#independent_frame_rate_)
+
+- - - **Window size does affect DELTA time?:** [Go to section](#windowSize_affect_delta_)
+
+
+
+
+
+<!-- <a name="delta_time_"></a> -->
 
 <br>
 <br>
 
 <br>
 
-### 🟦 Vectors & Delta
-
-- using vectors to store a direction, including **DELTA** to make the movement frame rate independent
 
 
 <br>
 
-### 🟠 At the moment I'm using the below code to move the player left & right, but i no longer want to do that, so lets remove the below
+## 🟠 Moving the Player
 
 
+### 🟤  Currently, the code below handles the player's left and right movement, but we’re going to change this.
+
+- - For now, let's remove this section,**as we’ll revisit it later when we cover `delta` time**:
+
+<br>
 
 ```python
     # Continuously check if the player's rectangle has moved past the window's boundaries.
@@ -41,21 +83,19 @@
     # Reverse the movement direction by multiplying `player_direction` by -1 to make the plane move in the opposite direction.
 ```
 
-### 🟠 Modify this line
 
 
+### 🟠 Update This Line
+
+- - Change the following line to achieve the new movement behavior:
 
 ```python
-
-    # if player x direction positive +=, then it will be increased +, hence will move to the right.
     player_rect.x += player_direction * 100
-    # if player x direction negative -=, then it will be decreased -, hence will move to the left
-
-
-    # - * 0.4 or *100: calculates the amount to move the player horizontally
 ```
 
-### 🟠   for the below, as i only want to move the player in one direction
+### 🟠  Replace It With This Code
+
+- - Use this updated line to move the player in one direction:
 
 ```python
     # it will be multiplied by 100px every single frame
@@ -162,10 +202,6 @@ while running:
     #  if player x direction positive +=, then it will be increased +, hence will move to the right.
     # -------------
 
-
-
-
-
     pygame.display.update()
 
 
@@ -181,20 +217,63 @@ pygame.quit()
 
 <br>
 
-### 🧶 Up & down animation
+## 🧶 🟡 Basic Animation: Updating Coordinates Along X and Y Axes
 
-- BASIC: for the basic **up animation** we will need 2 lines:
+
+In the steps Below, we’re learning how to move a rectangle in two directions: right and down.
+
+- - **First**, we update the x and y coordinates separately to move the rectangle.
+
+- - **Then**, we use a single line to update both coordinates at once.
+
+> ####  This approach makes the movement smoother and more efficient, allowing for simultaneous adjustments.
+
+<br>
+
+## 🟤 Steps
+
+<br>
+
+### 1. Update Both x and y Coordinates
+
+- To move the rectangle both right and down, use:
 
 ```python
 player_rect.x += 20
-# Moves the rectangle to the right by 20 pixels
-# Increases the x-coordinate, moving the rectangle to the right.
-
-
 player_rect.y += 10
-# Moves the rectangle down by 10 pixels
-# Increases the y-coordinate, moving the rectangle down.
+
 ```
+
+### 2. Update Coordinates Simultaneously
+
+- For a single operation that updates both x and y:
+
+```python
+player_rect.center += (20, -10)
+
+```
+
+<br>
+
+## In Detail
+
+#### 🔶 `X`: Moves the rectangle to the right by `20 pixels`
+
+- - Increases the x-coordinate, moving the rectangle to the right.
+
+```python
+ player_rect.x += 20
+```
+
+#### 🔶 `Y`: Moves the rectangle down by 10 pixels
+
+- - Increases the y-coordinate, moving the rectangle down.
+
+```python
+player_rect.y += 10
+```
+<br>
+
 > #### 🟠 In this part of the game development, we are dealing with updating the position of our player’s rectangle.
 
 <br>
@@ -217,11 +296,6 @@ player_rect.y += 10
 
 ```
 
-
-
-
-
-
 ### 🟠 2. Now We want to update both the x and y coordinates simultaneously using a single operation:
 
 
@@ -236,7 +310,9 @@ player_rect.center += (20, -10)
 
 <br>
 
-### Explanation:
+## 🧶 Explanation:
+
+<br>
 
 #### `player_rect.center`:
 
@@ -274,14 +350,21 @@ TypeError: invalid rect assignment 🔴
 
 #### Immutable Assignment:
 
-- - In Pygame, the center attribute of a Rect object is a property that represents the center point of the rectangle.
+- - In `Pygame`, the center attribute of a Rect object is a property that represents the center point of the rectangle.
 
 <br>
 
 - - This property is not directly mutable via operations like addition or subtraction with a tuple.
 
-> - - #### ✋ It’s a special attribute that Pygame manages internally, and you can’t use operators like `+=` to modify it directly.
+> - - #### ✋ It’s a special attribute that `Pygame` manages internally, and you can’t use operators like `+=` to modify it directly.
 
+<br>
+<br>
+<br>
+
+
+
+<br>
 <br>
 
 ### 🔴 Why This Error Occurs
@@ -339,90 +422,162 @@ player_rect.center = (new_center_x, new_center_y)
 ```
 
 <br>
+<br>
+<br>
 
-### 2. 🟣 tutorial approach: VECTORS
+<a name="Vectors_about"></a>
 
-- -  ✋ Using a vector can be a good solution to handle position updates more flexibly and avoid the issues you encountered with directly modifying **the** `center` attribute of a `Rect` **object**.
+<br>
+
+## 🟡 VECTORS
+
+### 2.  Tutorial approach: VECTORS
+
+ ✋ Using a vector can be a good solution to handle position updates more flexibly and avoid the issues you encountered with directly modifying **the** `center` attribute of a `Rect` **object**.
+
+<br>
+
+> - - -  🔴 Do not confuse the terms "vector norm" (length of vector), "normal vector" (perpendicular vector) and "normalized vector" (unit-length vector). [**READ MORE:** Normal Vector](https://mathworld.wolfram.com/NormalVector.html#:~:text=The%20unit%20vector%20obtained%20by,(perpendicular%20vector)%20and%20%22normalized)
 
 
 
 <br>
 <br>
 
-### 🟧 Using a Vector for Position Updates
+## 🟠 About: VECTORS
 
- Here’s a detailed explanation of how and why using a vector helps:
+#### Read More here: [z_VECTOR2_in_pygame](../z_VECTOR2_in_pygame.md)
 
- <br>
+<br>
+
+  🟤 Vectors are mathematical objects used to represent quantities with both magnitude and direction.
+
+<br>
+
+
+### 🟤 In `2D` space, a vector has two components: `x (horizontal) and y (vertical)`.
+
+> -   #### 🟢 Operations like addition, subtraction, and scaling (multiplying by a scalar) are performed element-wise("element-wise" means that each component of the vector is operated on individually.).
+
+<br>
+
+-  Vectors simplify calculations and transformations in graphics and physics by managing direction and distance efficiently.
+
+<br>
+
+### `Vectors` can be thought of as `lists` with `two` values: `x and y`, `representing coordinates in a 2D` space.
+
+
+<br>
+<br>
+
+---
+
+
+
+
+
+ <a name="why_use_a_vector_"></a>
 
 ## 🟢 Why Use a Vector?
 
 
-### 🔴 Mutable and Flexible:
+#### 🔴 Mutable and Flexible:
 
 
+**Tuples vs. Vectors:** While tuples are immutable (meaning `you can't change their values once they’re created`), vectors (like pygame.math.Vector2 in Pygame) are mutable.
 
-- - #### Read More here: [z_VECTOR2_in_pygame](../z_VECTOR2_in_pygame.md)
+**Mutability Advantage:** This `mutability allows` you to easily perform arithmetic operations such as addition or subtraction directly on vectors.
 
-
-<br>
-
-
-- - ###  `tuples, vectors...`
-
-- - **Unlike** `tuples`, **vectors** (often represented as `pygame.math.Vector2` in Pygame) **are mutable.**
-
-<br>
-
-- -  #### 🟡 This means you can easily perform arithmetic operations like addition or subtraction on them.
-
-<br>
-
-### 🟠 Simplified Math Operations:
-
-- - 🔴 With vectors, **<u>you can perform vector arithmetic directly</u>** , which is more intuitive and flexible **compared to handling separate `x` and `y`** values.
-
-
-
-<br>
-<br>
-<br>
-
-
-<br>
-
-# 🟡 VECTORS
-
-- Read More here: [z_VECTOR2_in_pygame](../z_VECTOR2_in_pygame.md)
-
-### Vectors are mathematical objects used to represent quantities with both magnitude and direction.
-
-
-<br>
-<br>
-
-> 🔴 **Do not confuse** the terms "vector norm" (length of vector), "normal vector" (perpendicular vector) and "normalized vector" (unit-length vector). [**READ MORE:** Normal Vector](https://mathworld.wolfram.com/NormalVector.html#:~:text=The%20unit%20vector%20obtained%20by,(perpendicular%20vector)%20and%20%22normalized)
+- - This flexibility simplifies tasks like updating positions or directions in your animation.
 
 
 
 <br>
 <br>
 
-- -  In 2D space, a vector has two components: `x (horizontal) and y (vertical)`.
+---
 
-> - -  #### 🟢 Operations like addition, subtraction, and scaling (multiplying by a scalar) are performed element-wise("element-wise" means that each component of the vector is operated on individually.).
+##   🌈 Vectors & Delta Time
 
-  Vectors simplify calculations and transformations in graphics and physics by managing direction and distance efficiently.
+### 🍨 Why Vectors Instead of Rects?
 
+#### Delta Time:
 
+To ensure that movement remains smooth and consistent across different frame rates, we use delta time—the amount of time that has passed since the last frame.
 
-
-### `Vectors` can be thought of as `lists` with `two` values: `x and y`, `representing coordinates in a 2D` space.
+- - Delta time helps make the player’s movement frame rate-independent, meaning the speed of movement won’t vary with changes in the frame rate.
 
 <br>
 
+## Vectors for Delta Time:
+
+#### Flexibility in Movement:
+
+**Vectors** (such as `pygame.math.Vector2`) are designed to handle both direction and magnitude in a single, easy-to-manage object.
+
+- -  This makes it simple to update the player's position by performing vector arithmetic (e.g., adding a direction vector to the current position).
+Smooth Animation:
+
+> #### When using vectors, `you can easily scale movement based on delta time`.
+
+- - - For example, if you want the player to move 100 pixels per second, you can multiply the movement vector by delta time to achieve consistent speed regardless of the frame rate.
+
 <br>
 
+⚠️**For instance**, `if` **delta time is** `0.016` seconds (for a 60 FPS frame rate), moving the player involves adding direction * speed * dt to the player’s position vector.
+
+<br>
+<br>
+
+### 🟠 Using a Vector for Position Updates
+
+
+#### 🔴 Advantages Over Rects:
+
+<br>
+
+**Rects or FRects** in Pygame are primarily used for defining and managing rectangular areas or  💥 **[hit boxes](https://youtu.be/4BURZ5WTIKg?feature=shared)** , such as for collision detection and layout purposes.
+
+-  They are great for handling the boundaries of objects but are not as effective for managing smooth, frame rate-independent movement.
+
+> - - -  While they can store position data, they are not as well-suited for handling movement and direction calculations, especially when incorporating delta time.
+
+<br>
+
+**Updating position with Rect** `involves manually adjusting the x and y coordinates` and handling movement calculations separately.
+
+- - This can become cumbersome when trying to maintain smooth, frame rate-independent movement.
+
+
+**Vectors simplify this process** by allowing you to update both x and y coordinates simultaneously with a single operation. This makes it easier to implement consistent movement and direction changes.
+
+
+
+
+
+<br>
+<br>
+
+
+
+
+### 🟤 Math Operations
+
+> - - 🟠 Simplified Math Operations:
+
+> - -  With vectors, **<u>you can perform vector arithmetic directly</u>** , which is more intuitive and flexible **compared to handling separate `x` and `y`** values.
+
+> - - ##### Read More here: [z_VECTOR2_in_pygame](../z_VECTOR2_in_pygame.md)
+
+
+<br>
+<br>
+
+
+<br>
+
+<a name="multiplying_a_vector_"></a>
 
 ## 🟡 Multiplying a Vector by a Number:
 
@@ -479,6 +634,8 @@ scaled_lst = lst * 2  # Duplicates the list
 <br>
 <br>
 
+
+
 # 🟦 🌻 Tutorial explanation
 
 <br>
@@ -487,13 +644,18 @@ scaled_lst = lst * 2  # Duplicates the list
 
 - 🟤 And then you multiply BOTH numbers inside of that VECTOR
 
+<br>
 
 
-> #### 🟤 If you were to do all of the above into a LIST, you would simply DUPLICATE all of the values Solution [Go to duplicated values](#duplicated_values)
+<a name="why_vectors_if_we_have_lists"></a>
+
+
+
+#### 🔴 If you were to do all of the above into a LIST, you would simply DUPLICATE all of the values Solution [Go to duplicated values](#duplicated_values)
 
 <br>
 
-- So the difference here is noticeable
+- 🟢 So the difference here is noticeable
 
 ```python
 vector(4,2) *2 = vector(8,4)
@@ -514,11 +676,6 @@ vector(4,2) *2 = vector(8,4)
 
 - 🟤 **inside** of the `player_direction` we have a value of **`-1`**
 
-
-
-
-
-
 - 🟤 **Replace** the **`1`** value for the **`math.vector2`**
 
 <br>
@@ -533,6 +690,10 @@ player_direction = pygame.math.Vector2( )
 ```
 
 <br>
+<br>
+
+<a name="Init_of_Vector2"></a>
+
 <br>
 
 ## 🟠 Initialization of Vector2:
@@ -638,7 +799,7 @@ player_direction = pygame.math.Vector2(20, -10 )
 
 The  `player_rect.center += player_direction` is **crucial** in updating the position of the **player's sprite**  in your space shooter game.
 
-> - - [ReadMore: SPRITE](../z__SYNTAX_.md)
+
 
 ```python
 player_rect.center += player_direction
@@ -1167,6 +1328,8 @@ pygame.quit()
 <br>
 <br>
 
+<a name="delta_time_"></a>
+
 
 # 🟡 Delta Time (dt)
 
@@ -1337,6 +1500,9 @@ while running:
 
 <br>
 <br>
+
+<a name="independent_frame_rate_"></a>
+
 
 
 # 🟡 Independent of the Frame rate
@@ -1623,3 +1789,18 @@ while running:
 
 pygame.quit()
  ```
+
+
+
+ <br>
+ <br>
+
+ ---
+
+ <br>
+ <br>
+
+ <a name="windowSize_affect_delta_"></a>
+
+
+## 🟣 Question: Window size does affect DELTA time ?
