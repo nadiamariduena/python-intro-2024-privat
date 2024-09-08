@@ -1828,3 +1828,5 @@ display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 
 `Delta Time (dt)`: Reflects how long the last frame took to render. This can be affected by the window size because a larger window increases the rendering workload, potentially increasing dt.
 
+
+#### So, while `clock.tick()` itself is not directly influenced by window size, the time it reports (dt) can be affected by how demanding rendering is, which includes factors like window size.
