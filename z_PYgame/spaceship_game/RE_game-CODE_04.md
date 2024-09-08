@@ -2,15 +2,26 @@
 ## 🟡 ANIMATION 2.
 
 
-- Up & down animation
+- **tutorial:** [Master Python by making 5 games [the new ultimate introduction to pygame]](https://youtu.be/8OMghdHP-zs?si=G58LCaSdWH6sYseA)
+
+
+<br>
+<br>
+
+### 🧶 Moving the Player
+
+-  - - **recap** [Go to section](#recap_)
 
 
 
 
+### 🧶 Up & down animation
+- - - **Basic Animation: Updating Coordinates Along X and Y Axes:** [Go to section](#Up_and_down_animation_)
 
 
+<!-- <a name="recap_"></a> -->
 
-
+<br>
 <br>
 
 
@@ -53,16 +64,19 @@
 
 
 
-<!-- <a name="delta_time_"></a> -->
-
-<br>
-<br>
-
-<br>
-
 
 
 <br>
+<br>
+
+<br>
+
+
+
+<br>
+
+
+<a name="recap_"></a>
 
 ## 🟠 Moving the Player
 
@@ -216,6 +230,8 @@ pygame.quit()
 
 
 <br>
+
+<a name="Up_and_down_animation_"></a>
 
 ## 🧶 🟡 Basic Animation: Updating Coordinates Along X and Y Axes
 
@@ -1937,6 +1953,8 @@ Increasing the speed, for example, from `player_speed = 300` **to** `1000`, can 
 
 <br>
 
+<a name="back_condition_"></a>
+
  ## 🌈 Short-Term Solution
 
  - This solution might also have some issues (the teacher will use it anyway, but I’ll ask ChatGPT for more details).
@@ -1970,7 +1988,15 @@ if player_rect.right > WINDOW_WIDTH or player_rect.left < 0:
 if player_rect.right => WINDOW_WIDTH or player_rect.left <= 0:
         player_direction.x *= -1
 ```
+🟡
 
+```python
+if player_rect.bottom >= WINDOW_HEIGHT or player_rect.top < 0:
+          player_direction.y *= -1
+
+if player_rect.right => WINDOW_WIDTH or player_rect.left <= 0:
+        player_direction.x *= -1
+```
 
 <br>
 
