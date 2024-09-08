@@ -1830,3 +1830,11 @@ display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 
 
 #### So, while `clock.tick()` itself is not directly influenced by window size, the time it reports (dt) can be affected by how demanding rendering is, which includes factors like window size.
+
+ <br>
+ <br>
+ <br>
+
+
+
+###  🟦   [  go to page ➡️]( )
