@@ -1815,3 +1815,8 @@ display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
  ### ✅ chatgpt:
 
  - - #### Yes, the window size can indeed affect the delta time (dt).
+
+ - -   🔴 While the `clock.tick()` method itself does not directly depend on the window size...
+
+ - -  🔴 the time it takes to render each frame (dt) can be influenced by the size of the window.
+
