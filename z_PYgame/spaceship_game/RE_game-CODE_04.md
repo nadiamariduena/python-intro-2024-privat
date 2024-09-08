@@ -1791,15 +1791,15 @@ pygame.quit()
  ```
 
 
-
+ <br>
+ <br>
  <br>
  <br>
 
  ---
 
- <br>
- <br>
-<br>
+
+
 
  <a name="windowSize_affect_delta_"></a>
 
