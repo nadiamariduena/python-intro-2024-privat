@@ -599,7 +599,7 @@ scaled_vector = vector * 2  # Multiply both x and y by 2
 
 **In Lists:**
 
-- - 🔴 Multiplying a list by a number duplicates the entire list, but does not operate on its individual elements.
+#### 🔴 Multiplying a list by a number duplicates the entire list, but does not operate on its individual elements.
 
 ```python
 lst = [4, 2]
@@ -651,7 +651,7 @@ scaled_lst = lst * 2  # Duplicates the list
 
 
 
-#### 🔴 If you were to do all of the above into a LIST, you would simply DUPLICATE all of the values Solution [Go to duplicated values](#duplicated_values)
+### ⚫ 🔴 If you were to do all of the above into a LIST, you would simply DUPLICATE all of the values Solution [Go to duplicated values](#duplicated_values)
 
 <br>
 
