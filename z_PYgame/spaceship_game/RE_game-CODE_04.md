@@ -1799,8 +1799,19 @@ pygame.quit()
 
  <br>
  <br>
+<br>
 
  <a name="windowSize_affect_delta_"></a>
 
 
 ## 🟣 Question: Window size does affect DELTA time ?
+
+
+ ```python
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
+display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+ ```
+
+ ### ✅ chatgpt:
+
+ - - #### Yes, the window size can indeed affect the delta time (dt).
