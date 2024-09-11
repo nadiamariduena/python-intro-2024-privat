@@ -31,3 +31,11 @@ Features procedurally generated dungeons and levels, offering varied challenges 
 
 #### Procedural generation and AI can work together to create complex and interesting game worlds.
 
+-  - While procedural generation focuses on creating content, AI can manage how that content is interacted with or responded to, creating a richer experience.
+
+#### If you’re interested in how procedural generation works, it often involves techniques like:
+
+### ✅ Noise Functions:
+
+- -  Algorithms like Perlin noise generate natural-looking terrain and textures.
+
