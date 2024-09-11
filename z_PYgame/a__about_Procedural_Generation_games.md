@@ -43,4 +43,8 @@ Features procedurally generated dungeons and levels, offering varied challenges 
 
 - -  Define rules for generating structures, landscapes, or creatures.
 
+###   ✅ Randomization:
+
+- - Introduces variability to keep content fresh and unpredictable.
+Overall, procedural generation is a powerful tool that allows developers to create expansive, diverse, and engaging worlds with less manual content creation.
 
