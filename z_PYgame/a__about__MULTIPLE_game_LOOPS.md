@@ -16,3 +16,5 @@
 
 
 ### 🟣 Question: In game development, especially with big and complex games, I’m wondering if it’s okay to use more than one game loop?
+
+### ✅ chatgpt: Using multiple game loops in a single game is generally not a common practice, especially in large and complex games.
