@@ -641,3 +641,18 @@ if event.type == pygame.KEYDOWN:
  ### 🔴 Make Sure You're in the Correct Environment:
 
 >Verify that you are running your code in the correct **environment** to avoid errors.
+
+ ### 🟤 Test the Key Event Handling:
+
+>Add the below to see if it detects key presses:
+
+```python
+# 🌈 Event Handling Section
+    for event in pygame.event.get():
+       if event.type == pygame.QUIT:
+            running = False
+       if event.type == pygame.KEYDOWN:
+        print("key down")
+```
+
+### 🟦  This will print "key down" every time a key is pressed, allowing you to confirm that your key event handling is working.
