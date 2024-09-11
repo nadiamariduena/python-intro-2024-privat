@@ -331,4 +331,15 @@ In Pygame, `the event loop is responsible for handling various events`, such as 
 <br>
 <br>
 
+## 🫐 🟡 When to Use the Event Loop
+
+
+
+<br>
+<br>
+
+<br>
+<br>
+<br>
+
 ---
