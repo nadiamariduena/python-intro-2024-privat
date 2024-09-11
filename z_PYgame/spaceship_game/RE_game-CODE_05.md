@@ -776,4 +776,12 @@ if event.type == pygame.MOUSEMOTION:
 
 To get and print the position of the mouse when it moves, **you can use the `event.pos` attribute**.
 
+ Here’s how you can do it:
 
+```python
+# This checks if the event is a mouse movement event.
+if event.type == pygame.MOUSEMOTION:
+   print(event.pos)
+
+# event.pos: This attribute contains the current position of the mouse. It is a tuple with two values: the x and y coordinates of the mouse pointer relative to the top-left corner of the window.
+```
