@@ -739,3 +739,25 @@ if event.type == pygame.KEYDOWN:
        if event.type == pygame.KEYDOWN and event.key == pygame.K_1:
             print(1)
 ```
+
+
+<br>
+<br>
+<br>
+
+<br>
+
+---
+
+
+<a name="Handling_MOUSE_Motion_"></a>
+
+# 🟡 Handling MOUSE Motion
+
+<br>
+
+## 🫐 🟠 `pygame.MOUSEMOTION`
+
+<br>
+
+- **To detect when the mouse is moving**, you can check for the `pygame.MOUSEMOTION` **event**.
