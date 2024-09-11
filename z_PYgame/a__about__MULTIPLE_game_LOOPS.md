@@ -236,3 +236,29 @@ Yes, using a multi-loop approach in games can be quite useful, especially when *
  - - Yes, you’re referring to games with procedurally generated levels or worlds, which use algorithms to create content dynamically rather than relying on pre-designed assets. These games can offer vast, varied experiences due to their ability to generate new content on the fly.
 
  The game you're thinking of from Guildford, England, is likely Minecraft. Although Minecraft isn't exclusively procedurally generated—it combines procedural generation with player-created content—it is renowned for its use of procedural generation to create its expansive and diverse worlds.
+
+ ### 🟣 I wasn’t thinking of that game. I might have confused the city where the game was developed, which I believe is Guildford. The game I was referring to is `No Man’s Sky`.
+
+  #### ✅ chatgpt:
+
+  - - **No Man’s Sky**  was developed by Hello Games, which is based in the UK, but the company is located in Farnham, Surrey
+
+<br>
+
+### 🧶 Read More here: [a__about_Procedural_Generation_games](./a__about_Procedural_Generation_games.md)
+
+<br>
+<br>
+<br>
+
+---
+
+<br>
+
+
+<a name="single_event_loop_"></a>
+
+
+
+## 🟡 Challenges with a Single Event Loop
+
