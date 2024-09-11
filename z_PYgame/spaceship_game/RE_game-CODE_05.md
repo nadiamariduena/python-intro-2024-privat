@@ -719,3 +719,15 @@ if event.type == pygame.KEYDOWN:
 ### `event.type == pygame.KEYDOWN`:
 
 - - This checks if a key press event has occurred.
+
+### `event.key == pygame.K_1`:
+
+- - This checks if the specific key pressed is the 1 key on the keyboard.
+
+<br>
+
+### `print(1)`:
+
+- - **If both conditions are true** (the event is a key press and the key is 1), it prints 1 to the terminal.
+
+### Putting It All Together
