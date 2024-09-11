@@ -624,3 +624,20 @@ while running:
 ### To start working with key events, you can use `event.type` <u>to check if a key has been pressed</u> .
 
 - For testing purposes, you can add a **print statement** to see if it's working:
+
+
+<br>
+
+```python
+if event.type == pygame.KEYDOWN:
+   print("key down")
+```
+
+
+##  🟦  Here's how to set it up:
+
+
+
+ ### 🔴 Make Sure You're in the Correct Environment:
+
+>Verify that you are running your code in the correct **environment** to avoid errors.
