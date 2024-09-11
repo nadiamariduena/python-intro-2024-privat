@@ -43,3 +43,9 @@
 - - Each game loop adds its own overhead.
 
 - - 📌 **Depending on how they are implemented, they might lead to performance issues**, such as **increased CPU usage or frame rate** drops, especially if they are not well optimized.
+
+### 🟨 Consistency:
+
+- - 📌 **Ensuring that all game loops are in sync can be challenging.**
+
+- - - For example, if one loop updates game logic while another handles rendering, you might encounter issues with timing and consistency.
