@@ -623,3 +623,4 @@ while running:
 
 ### To start working with key events, you can use `event.type` <u>to check if a key has been pressed</u> .
 
+- For testing purposes, you can add a **print statement** to see if it's working:
