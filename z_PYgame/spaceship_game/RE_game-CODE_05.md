@@ -151,3 +151,8 @@
 
 # 🟧 Input?
 
+In programming, **"input"** refers to any data or signal that comes from a user or device and is used by the program to perform actions.
+
+
+
+- - When you move a player with the keyboard or mouse, the program is receiving data (the key presses or mouse movements) from the user.
