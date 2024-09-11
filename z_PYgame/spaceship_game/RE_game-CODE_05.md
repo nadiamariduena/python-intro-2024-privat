@@ -188,3 +188,10 @@ In programming, **"input"** refers to any data or signal that comes from a user 
 
 - - **This method allows** for more organized and flexible control handling.
 
+
+
+## 🟠 2. Checking Button States
+
+<a name="event-based-and-continuous-checking_"></a>
+
+### 🫐 There are two main ways to check for input in Pygame:
