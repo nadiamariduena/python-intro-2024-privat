@@ -319,3 +319,7 @@ In Pygame, `the event loop is responsible for handling various events`, such as 
 
 
 <br>
+
+- - **If you hold down a button** and use the `event` loop to **capture input**, you **only get one capture** of **that action**.
+
+
