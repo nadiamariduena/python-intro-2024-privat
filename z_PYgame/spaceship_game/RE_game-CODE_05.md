@@ -195,3 +195,12 @@ In programming, **"input"** refers to any data or signal that comes from a user 
 <a name="event-based-and-continuous-checking_"></a>
 
 ### 🫐 There are two main ways to check for input in Pygame:
+
+- 🍍 event-based and
+
+- 🍍 continuous checking.
+
+<br>
+<br>
+<br>
+<br>
