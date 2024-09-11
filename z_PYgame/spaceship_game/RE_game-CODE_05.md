@@ -620,3 +620,6 @@ while running:
 <br>
 
 ## 🫐 🟠 `event.type`
+
+### To start working with key events, you can use `event.type` <u>to check if a key has been pressed</u> .
+
