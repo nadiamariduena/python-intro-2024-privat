@@ -36,6 +36,7 @@ You're playing a video game where you have to press buttons to make things happe
 
 ### 🟠 2. Constant polling, when referring to a loop that checks conditions or states repeatedly..
 
+- - is indeed similar to using a for loop or a while loop to check input states or other conditions on each iteration. This is a common pattern in game development and other real-time applications where continuous monitoring is required.
 
 <br>
 <br>
