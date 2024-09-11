@@ -543,3 +543,10 @@ while running:
 ```
 <br>
 
+##   for event in `pygame.event.get():`:
+
+-  - 🟧 This loop **goes through each event** in the list.
+
+<br>
+
+
