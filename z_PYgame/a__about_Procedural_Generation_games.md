@@ -39,3 +39,8 @@ Features procedurally generated dungeons and levels, offering varied challenges 
 
 - -  Algorithms like Perlin noise generate natural-looking terrain and textures.
 
+### 🧶 Rule-Based Systems:
+
+- -  Define rules for generating structures, landscapes, or creatures.
+
+
