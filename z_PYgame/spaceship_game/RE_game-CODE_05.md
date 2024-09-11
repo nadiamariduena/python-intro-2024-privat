@@ -323,3 +323,12 @@ In Pygame, `the event loop is responsible for handling various events`, such as 
 - - **If you hold down a button** and use the `event` loop to **capture input**, you **only get one capture** of **that action**.
 
 
+
+- - **In contrast, using** `pygame.key` **to check for button presses** will give you continuous input, which is useful for moving objects on the screen.
+
+
+<br>
+<br>
+<br>
+
+---
