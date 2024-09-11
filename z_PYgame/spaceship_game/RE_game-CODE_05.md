@@ -209,3 +209,12 @@ In programming, **"input"** refers to any data or signal that comes from a user 
 ## 🟢 Event Loop Input:
 
   **This method reacts to specific events**, such as a button press or release.
+
+> - - #### However, it only detects when an action occurs, not if a button remains pressed.
+
+
+
+
+## 🟢 Continuous Checking:
+
+**For smoother and more responsive controls**, you can continuously check the state of buttons or keys.
