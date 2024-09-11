@@ -195,3 +195,36 @@ Yes, using a multi-loop approach in games can be quite useful, especially when *
 - Simulate physics.
 
 - Manage game logic.
+
+## UI Loop
+
+**Purpose:** This loop focuses on rendering and updating the user interface elements.
+
+**Frequency:** This loop could run at a different rate, such as syncing with the display refresh rate (e.g., 60 Hz), to ensure smooth and responsive UI updates.
+
+### Tasks:
+
+- Render HUD elements.
+
+- Update menu screens.
+
+- Handle user input for UI interactions.
+
+- Networking Loop
+
+**Purpose:** This loop is dedicated to network communication and keeping all players' game states in sync.
+
+**Frequency:** This loop might operate at a separate frequency to handle network packets and communication effectively.
+
+#### Tasks:
+
+- Send and receive network packets.
+
+- Update the game state based on network messages.
+
+- Handle network latency and synchronization issues.
+
+<br>
+<br>
+
+### 🟣 It sounds like you're referring to games with levels or worlds that are generated dynamically as you progress.
