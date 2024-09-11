@@ -8,7 +8,7 @@
 
 - 🧶 Challenges with a Single Event Loop: [Go to section](#single_event_loop_)
 
-- 🧶 Using `pygame.key` and `pygame.mouse` for Better Flexibility: [Go to section](#pygame_key_and_pygame_mouse_)
+
 
 
 <br>
@@ -261,4 +261,16 @@ Yes, using a multi-loop approach in games can be quite useful, especially when *
 
 
 ## 🟡 Challenges with a Single Event Loop
+
+
+### With only one event loop available, keeping track of and handling multiple events simultaneously can get messy.
+
+> #### In a complex game, this can lead to issues with organization and readability, making it harder to manage different aspects of input handling.
+
+<br>
+<br>
+
+---
+
+<br>
 
