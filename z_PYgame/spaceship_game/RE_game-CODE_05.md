@@ -162,3 +162,7 @@ In programming, **"input"** refers to any data or signal that comes from a user 
 ### 🟤 Here’s a simplified breakdown:
 
 **Keyboard Input:** When you press a key, the program receives that key press as input. It then uses this input to move the player or perform other actions.
+
+**Mouse Input:** When you move the mouse or click, the program receives this as input and can use it to control the player or interact with objects.
+
+> #### 🟩 In both cases, the term "input" describes the data or commands being sent from the user to the program, which then processes that data to produce a response or action in the game.
