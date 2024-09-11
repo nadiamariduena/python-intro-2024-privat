@@ -555,4 +555,10 @@ while running:
 
 <br>
 
+###   `running = False`:
+
+- -  🟧 If a quit event is detected, this line stops the while running: loop, which ends the game.
+
+
+
 
