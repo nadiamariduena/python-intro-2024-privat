@@ -204,3 +204,8 @@ In programming, **"input"** refers to any data or signal that comes from a user 
 <br>
 <br>
 <br>
+
+
+## 🟢 Event Loop Input:
+
+  **This method reacts to specific events**, such as a button press or release.
