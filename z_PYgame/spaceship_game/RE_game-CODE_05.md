@@ -798,3 +798,5 @@ for event in pygame.event.get():
     if event.type == pygame.MOUSEMOTION:
         print(event.pos)
 ```
+
+> 🟦 This allows you to see the exact coordinates of the mouse pointer in real-time, which can be **useful for tasks like tracking mouse movement or implementing interactive features**. (Think about the drawing pen of the google site)
