@@ -25,3 +25,7 @@ You're playing a video game where you have to press buttons to make things happe
 
 <br>
 <br>
+
+### 🟠 1. Constant polling, also known as "continuous polling,"
+
+- - 📌  is a method of **checking the state** of input devices **(like keyboard keys, mouse buttons, or game controllers on every iteration of the game loop.)**
