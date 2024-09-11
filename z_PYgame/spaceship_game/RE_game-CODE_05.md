@@ -761,3 +761,13 @@ if event.type == pygame.KEYDOWN:
 <br>
 
 - **To detect when the mouse is moving**, you can check for the `pygame.MOUSEMOTION` **event**.
+
+#### Here's how you can do it:
+
+```python
+if event.type == pygame.MOUSEMOTION:
+   print("mouse is moving")
+```
+> The pygame.MOUSEMOTION event type is triggered whenever the mouse moves within the window.
+
+<br>
