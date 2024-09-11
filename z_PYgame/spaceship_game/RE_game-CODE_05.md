@@ -549,4 +549,10 @@ while running:
 
 <br>
 
+###    `if event.type == pygame.QUIT:`:
+
+- -  🟧 This checks if the event is a quit event, which usually happens when you close the game window.
+
+<br>
+
 
