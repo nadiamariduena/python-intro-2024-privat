@@ -232,3 +232,7 @@ Yes, using a multi-loop approach in games can be quite useful, especially when *
  - - I think they are known as "procedurally generated levels" or "procedurally generated worlds," and they're often created using algorithms or AI (i dont know much about it but i saw it once and i found it really interesting). I believe there’s a well-known game from England (not sure again).
 
  #### ✅ chatgpt:
+
+ - - Yes, you’re referring to games with procedurally generated levels or worlds, which use algorithms to create content dynamically rather than relying on pre-designed assets. These games can offer vast, varied experiences due to their ability to generate new content on the fly.
+
+ The game you're thinking of from Guildford, England, is likely Minecraft. Although Minecraft isn't exclusively procedurally generated—it combines procedural generation with player-created content—it is renowned for its use of procedural generation to create its expansive and diverse worlds.
