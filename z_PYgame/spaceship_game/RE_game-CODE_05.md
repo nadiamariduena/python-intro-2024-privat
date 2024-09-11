@@ -707,3 +707,10 @@ if event.type == pygame.KEYDOWN:
 ### 🟩 To check for specific   `key presses`,  you can use `event.key` in combination with `event.type`.
 
 
+
+ - 🟢 Here’s an example of how to detect if the `1` key is pressed:
+
+```python
+ if event.type == pygame.KEYDOWN and event.key == pygame.K_1:
+            print(1)
+```
