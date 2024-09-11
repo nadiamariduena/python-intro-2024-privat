@@ -522,3 +522,5 @@ pygame.quit()
 ## 🫐 🟠 `pygame.event.get():`
 
 This **gets a list of all the events that have happened since the last frame**.
+
+- - Events can be things like keyboard presses, mouse movements, or system messages.
