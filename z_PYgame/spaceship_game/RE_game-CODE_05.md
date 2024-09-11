@@ -218,3 +218,16 @@ In programming, **"input"** refers to any data or signal that comes from a user 
 ## 🟢 Continuous Checking:
 
 **For smoother and more responsive controls**, you can continuously check the state of buttons or keys.
+
+> - - #### This approach allows your game to detect and respond to inputs at all times, ensuring a more fluid gameplay experience.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+---
