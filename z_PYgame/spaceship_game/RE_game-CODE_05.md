@@ -284,3 +284,15 @@ In Pygame, `the event loop is responsible for handling various events`, such as 
 <br>
 
 ### 🧶 🟨 Here’s a detailed breakdown of the considerations and best practices: [MULTIPLE_game_LOOPS](../a__about__MULTIPLE_game_LOOPS.md)
+
+
+
+### 🟤 Also:
+
+- Challenges  [with a Single Event Loop:](../a__about__MULTIPLE_game_LOOPS.md)
+
+- [Polling](../a__about__Btn-Events__polling.md)
+
+- Using  [`pygame.key` and `pygame.mouse` for Better Flexibility:](../a__about__MULTIPLE_game_LOOPS.md)
+
+- Procedural Games [a__about_Procedural_Generation_games](../a__about_Procedural_Generation_games.md)
