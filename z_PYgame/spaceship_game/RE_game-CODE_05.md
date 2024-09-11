@@ -231,3 +231,12 @@ In programming, **"input"** refers to any data or signal that comes from a user 
 
 
 ---
+
+
+
+<a name="Event-Loop-limitations_"></a>
+
+# 🫐 🟠 Event Loop limitations
+
+### 🟣 The teacher explained that we can only use a single event loop, which might become quite cumbersome in complex games.
+
