@@ -816,3 +816,14 @@ for event in pygame.event.get():
 ### When the mouse moves, the player’s position updates to match the mouse's location.
 
 <br>
+
+- In this part of the code, we’re using the mouse position to control the player's position:
+
+```python
+if event.type == pygame.MOUSEMOTION:
+    #  print("mouse is moving")
+    #  print(event.pos)
+    player_rect.center = event.pos
+
+```
+<br>
