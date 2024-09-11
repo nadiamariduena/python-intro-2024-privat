@@ -125,3 +125,29 @@
 
 ### 🌈 In this lesson, we’ll focus on how to handle user inputs such as keyboard and mouse events to create interactive gameplay.
 
+- - #### We'll refine our understanding of capturing and responding to user actions, which is crucial for making engaging and responsive games.
+
+<br>
+
+#### 🟦 What You’ll Learn:
+
+- - - How to detect and respond to keyboard inputs.
+
+- - - How to track and use mouse movements and clicks.
+
+- - - How to handle various other events that can occur in your game.
+
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+
+---
+
+<a name="input_in_game_programming_"></a>
+
+# 🟧 Input?
+
