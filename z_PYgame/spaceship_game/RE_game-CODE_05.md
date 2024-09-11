@@ -514,3 +514,11 @@ pygame.quit()
 #  🟡 Understanding the Event Handling Section
 
 ### ⚫ RECAP lesson
+
+<br>
+
+
+
+## 🫐 🟠 `pygame.event.get():`
+
+This **gets a list of all the events that have happened since the last frame**.
