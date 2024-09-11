@@ -154,3 +154,14 @@ When you said:
 > - - Using multiple game loops in a single game is generally not a common practice, especially in large and complex games. The traditional approach is to use a single game loop that handles all aspects of the game’s update and rendering processes. However, there are some scenarios where a multi-loop approach might be considered, such as managing different game states or systems independently.
 
 #### Do you have a game example where you handle multi-loop approach might be considered, such as managing different game states
+
+### ✅ chatgpt:
+
+Yes, using a multi-loop approach in games can be quite useful, especially when **dealing with different game states or subsystems that need to operate independently.**
+
+> #### Here’s an example of how a multi-loop approach might be used in a game:
+
+
+**Example:**
+
+### 🟠  Strategy Game with Multiple Systems
