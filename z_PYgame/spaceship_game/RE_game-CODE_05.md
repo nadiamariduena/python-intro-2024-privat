@@ -166,3 +166,22 @@ In programming, **"input"** refers to any data or signal that comes from a user 
 **Mouse Input:** When you move the mouse or click, the program receives this as input and can use it to control the player or interact with objects.
 
 > #### 🟩 In both cases, the term "input" describes the data or commands being sent from the user to the program, which then processes that data to produce a response or action in the game.
+
+
+
+<br>
+<br>
+
+<br>
+<br>
+
+---
+
+<a name="best-way-to-get-input_"></a>
+
+## 🟠 1. Choosing the Best Way to Get Input
+
+
+#### 🟤 When it comes to handling input,  `integrating input checks with classes` is often the most efficient approach.
+
+
