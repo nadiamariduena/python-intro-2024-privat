@@ -244,3 +244,11 @@ In programming, **"input"** refers to any data or signal that comes from a user 
 
 <br>
 <br>
+
+## ⚠️ Understanding the Event Loop
+
+In Pygame, `the event loop is responsible for handling various events`, such as key presses, mouse movements, and other user interactions.
+
+<br>
+
+> ### 📌   However, it's important to know that `Pygame` supports `only a single event loop per program`  .
