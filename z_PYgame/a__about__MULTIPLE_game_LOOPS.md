@@ -32,3 +32,8 @@
 ## 🎠 Considerations for Using Multiple Game Loops 🎪
 
 
+
+
+### 🟨 Complexity:
+
+- - Multiple game loops can significantly increase the complexity of your code. Managing the synchronization between different loops and ensuring they interact correctly can become cumbersome.
