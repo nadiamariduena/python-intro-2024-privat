@@ -228,3 +228,7 @@ Yes, using a multi-loop approach in games can be quite useful, especially when *
 <br>
 
 ### 🟣 It sounds like you're referring to games with levels or worlds that are generated dynamically as you progress.
+
+ - - I think they are known as "procedurally generated levels" or "procedurally generated worlds," and they're often created using algorithms or AI (i dont know much about it but i saw it once and i found it really interesting). I believe there’s a well-known game from England (not sure again).
+
+ #### ✅ chatgpt:
