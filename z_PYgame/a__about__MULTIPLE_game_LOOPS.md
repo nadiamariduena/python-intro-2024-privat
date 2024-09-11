@@ -135,3 +135,22 @@ For tasks that need to run concurrently, such as loading resources or handling n
 
 
 ### 🔴 Conclusion 🔴
+
+#### In summary, while it is technically possible to use multiple game loops, it is usually not advisable due to the added complexity and potential performance issues.
+
+- Instead, focusing on a single main game loop and leveraging modular design, asynchronous tasks, and event-driven systems will generally provide a more manageable and efficient approach to game development.
+
+
+<br>
+<br>
+
+---
+
+
+### 🟣 QUESTION:
+
+When you said:
+
+> - - Using multiple game loops in a single game is generally not a common practice, especially in large and complex games. The traditional approach is to use a single game loop that handles all aspects of the game’s update and rendering processes. However, there are some scenarios where a multi-loop approach might be considered, such as managing different game states or systems independently.
+
+#### Do you have a game example where you handle multi-loop approach might be considered, such as managing different game states
