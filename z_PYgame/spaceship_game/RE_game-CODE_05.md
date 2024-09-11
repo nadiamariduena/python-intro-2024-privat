@@ -566,3 +566,37 @@ while running:
 > ### 🌈 this section is used <u>to check if the player has closed the game window and then stop the game loop</u>  when that happens.
 
 
+
+<br>
+<br>
+<br>
+<br>
+
+---
+
+<br>
+
+##  🟡 <u>Removing Player Movement</u>  section
+
+
+
+
+## 🟦 Before moving forward, let's remove the player movement logic from the while loop.
+
+```python
+
+    if player_rect.bottom >= WINDOW_HEIGHT or player_rect.top <= 0:
+          player_direction.y *= -1
+
+    if player_rect.right >= WINDOW_WIDTH or player_rect.left <= 0:
+        player_direction.x *= -1
+    # ---------
+
+    player_rect.center += player_direction * player_speed * dt
+```
+
+<br>
+
+
+<br>
+
