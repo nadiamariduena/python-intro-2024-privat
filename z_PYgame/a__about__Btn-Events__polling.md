@@ -35,3 +35,9 @@ You're playing a video game where you have to press buttons to make things happe
 <br>
 
 ### 🟠 2. Constant polling, when referring to a loop that checks conditions or states repeatedly..
+
+
+<br>
+<br>
+
+
