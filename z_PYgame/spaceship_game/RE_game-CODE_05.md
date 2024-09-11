@@ -785,3 +785,16 @@ if event.type == pygame.MOUSEMOTION:
 
 # event.pos: This attribute contains the current position of the mouse. It is a tuple with two values: the x and y coordinates of the mouse pointer relative to the top-left corner of the window.
 ```
+
+
+### 🟤 Putting It in Context
+
+Here’s how to use it in your event handling loop:
+
+```python
+for event in pygame.event.get():
+    if event.type == pygame.QUIT:
+        running = False
+    if event.type == pygame.MOUSEMOTION:
+        print(event.pos)
+```
