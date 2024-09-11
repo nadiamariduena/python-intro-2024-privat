@@ -20,3 +20,8 @@ You're playing a video game where you have to press buttons to make things happe
 ### 🟣 But constant checking is going to cause performance issues?
 
 ### ✅  chatgpt:
+
+- - Great question! **Constantly checking** for new events, like your friend constantly watching the door, **can indeed impact performance if not handled properly**. However, in practice, Pygame and other game development libraries are designed to handle event polling efficiently.
+
+<br>
+<br>
