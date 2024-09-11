@@ -296,3 +296,22 @@ In Pygame, `the event loop is responsible for handling various events`, such as 
 - Using  [`pygame.key` and `pygame.mouse` for Better Flexibility:](../a__about__MULTIPLE_game_LOOPS.md)
 
 - Procedural Games [a__about_Procedural_Generation_games](../a__about_Procedural_Generation_games.md)
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+---
+
+
+## 🟡 `Event`Loop and Input Handling
+
+<a name="_Event_Loop_and_Input_Handling_"></a>
+
+## 🫐 Understanding the `Event` Loop and Input Handling
+
