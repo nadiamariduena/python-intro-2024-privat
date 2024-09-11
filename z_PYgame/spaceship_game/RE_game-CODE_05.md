@@ -680,3 +680,7 @@ if event.type == pygame.KEYDOWN:
        if event.type == pygame.KEYDOWN:
             print(event.key)
 ```
+
+- 🟡 When you press different keys, the terminal will display different numbers, each representing a specific key.
+
+
