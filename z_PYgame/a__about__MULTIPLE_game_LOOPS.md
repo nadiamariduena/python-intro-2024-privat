@@ -87,3 +87,9 @@ Typically, a single main game loop handles game updates, rendering, and input pr
 ### Modular Design:
 
 - - 🌈 Instead of multiple game loops, consider breaking down your game into modular components or systems that are updated and rendered in a single loop. For example:
+
+### Entity-Component System (ECS):
+
+- - Use an ECS architecture to manage game entities and their components.
+
+### Scene Management:
