@@ -731,3 +731,11 @@ if event.type == pygame.KEYDOWN:
 - - **If both conditions are true** (the event is a key press and the key is 1), it prints 1 to the terminal.
 
 ### Putting It All Together
+
+```python
+    for event in pygame.event.get():
+       if event.type == pygame.QUIT:
+            running = False
+       if event.type == pygame.KEYDOWN and event.key == pygame.K_1:
+            print(1)
+```
