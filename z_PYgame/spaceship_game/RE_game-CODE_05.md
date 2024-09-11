@@ -684,3 +684,26 @@ if event.type == pygame.KEYDOWN:
 - 🟡 When you press different keys, the terminal will display different numbers, each representing a specific key.
 
 
+
+<br>
+<br>
+<br>
+
+<br>
+
+---
+
+
+<a name="Handling_Specific_Key_Presses_"></a>
+
+# 🟡 Handling Specific Key Presses
+
+<br>
+
+## 🫐 🟠 `pygame.K_1`
+
+<br>
+
+### 🟩 To check for specific   `key presses`,  you can use `event.key` in combination with `event.type`.
+
+
