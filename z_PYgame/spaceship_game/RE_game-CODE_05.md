@@ -771,3 +771,9 @@ if event.type == pygame.MOUSEMOTION:
 > The pygame.MOUSEMOTION event type is triggered whenever the mouse moves within the window.
 
 <br>
+
+## 🟡 Printing the Mouse Position
+
+To get and print the position of the mouse when it moves, **you can use the `event.pos` attribute**.
+
+
