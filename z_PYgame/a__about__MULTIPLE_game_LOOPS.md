@@ -179,3 +179,19 @@ Yes, using a multi-loop approach in games can be quite useful, especially when *
 <br>
 
 ### 🌈World Simulation Loop
+
+**Purpose:**
+
+- - This loop handles the core game mechanics and updates the game world based on player input and AI decisions.
+
+**Frequency:** This loop might run at a fixed time step, such as 30 times per second, to ensure consistent simulation updates.
+
+**Tasks:**
+
+- Process player input.
+
+- Update AI behaviors.
+
+- Simulate physics.
+
+- Manage game logic.
