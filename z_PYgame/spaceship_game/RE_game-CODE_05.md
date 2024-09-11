@@ -667,6 +667,10 @@ if event.type == pygame.KEYDOWN:
 
 <br>
 
+- -  🟫 **When you run the code**, you'll notice numbers appearing in your terminal.
+
+- -  🟫 **These numbers correspond** to different keys on the keyboard.
+
 
 
 ```python
