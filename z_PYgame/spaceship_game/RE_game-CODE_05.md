@@ -184,4 +184,7 @@ In programming, **"input"** refers to any data or signal that comes from a user 
 
 #### 🟤 When it comes to handling input,  `integrating input checks with classes` is often the most efficient approach.
 
+- - **By incorporating input methods** into your game classes, you can easily manage and access player controls throughout your code.
+
+- - **This method allows** for more organized and flexible control handling.
 
