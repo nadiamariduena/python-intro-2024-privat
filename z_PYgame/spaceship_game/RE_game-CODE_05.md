@@ -257,3 +257,17 @@ In Pygame, `the event loop is responsible for handling various events`, such as 
 
 >**This can become a limitation**, especially in more complex games where managing multiple events might lead to a cluttered and difficult-to-maintain codebase.
 
+
+<br>
+<br>
+<br>
+
+---
+
+
+
+
+# 🟡 Using Multiple Loops?
+
+> #### 🟣 Question: In game development, especially with big and complex games, I’m wondering if it’s okay to use more than one game loop?
+
