@@ -5,3 +5,8 @@
 
 <br>
 
+### 🟧 Procedural generation is a common technique in many games, not just Minecraft.
+
+#### Here are some other notable examples:
+
+### 🟤 No Man’s Sky:
