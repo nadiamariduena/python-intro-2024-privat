@@ -108,3 +108,20 @@
 
 - - -  Using **KEY PRESSED with a variable** and WHY? [Go to section](#get_pressed_with_variable_)
 
+
+<br>
+<br>
+<br>
+<br>
+ <br>
+
+ ---
+
+
+
+##  🌟 Lesson 5: Mastering User Input and Events 🌟
+
+<br>
+
+### 🌈 In this lesson, we’ll focus on how to handle user inputs such as keyboard and mouse events to create interactive gameplay.
+
