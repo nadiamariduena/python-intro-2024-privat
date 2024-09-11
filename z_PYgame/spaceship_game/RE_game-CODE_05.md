@@ -600,3 +600,23 @@ while running:
 
 <br>
 
+
+
+<br>
+<br>
+<br>
+
+---
+
+
+
+<a name="Handling_Key_Events_"></a>
+
+# 🟡 Handling Key Events
+
+## Event Type & Event Key:
+
+
+<br>
+
+## 🫐 🟠 `event.type`
