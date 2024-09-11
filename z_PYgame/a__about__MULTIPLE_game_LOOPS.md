@@ -70,3 +70,12 @@
 Typically, a single main game loop handles game updates, rendering, and input processing.
 
 ### This loop is often structured as follows:
+
+#### Process Input:
+
+- - Handle user inputs such as keyboard and mouse events.
+
+### Update:
+
+- - 🌈 Update the game logic, including physics, AI, and game state.
+
