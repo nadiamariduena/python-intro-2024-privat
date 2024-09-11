@@ -10,3 +10,10 @@
 #### Here are some other notable examples:
 
 ### 🟤 No Man’s Sky:
+
+Uses procedural generation to create an entire universe with billions of planets, each with unique ecosystems, landscapes, and creatures.
+
+[No Man's Sky - Procedural Generation - How it all works](https://www.youtube.com/watch?v=AFISmcAigfY)
+
+<br>
+
