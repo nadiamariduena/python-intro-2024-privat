@@ -524,3 +524,22 @@ pygame.quit()
 This **gets a list of all the events that have happened since the last frame**.
 
 - - Events can be things like keyboard presses, mouse movements, or system messages.
+
+
+<br>
+
+```python
+while running:
+    # DELTA time
+    dt = clock.tick(120) / 1000
+    # print(dt)
+
+
+    # 🔴 Event Handling Section
+    for event in pygame.event.get():
+       if event.type == pygame.QUIT:
+            running = False
+    # ---
+```
+<br>
+
