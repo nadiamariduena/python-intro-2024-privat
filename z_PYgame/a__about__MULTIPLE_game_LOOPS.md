@@ -79,3 +79,11 @@ Typically, a single main game loop handles game updates, rendering, and input pr
 
 - - 🌈 Update the game logic, including physics, AI, and game state.
 
+
+### Render:
+
+- - Draw the game world and user interface.
+
+### Modular Design:
+
+- - 🌈 Instead of multiple game loops, consider breaking down your game into modular components or systems that are updated and rendered in a single loop. For example:
