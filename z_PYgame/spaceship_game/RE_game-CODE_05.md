@@ -656,3 +656,14 @@ if event.type == pygame.KEYDOWN:
 ```
 
 ### 🟦  This will print "key down" every time a key is pressed, allowing you to confirm that your key event handling is working.
+
+<br>
+<br>
+<br>
+
+## 🫐 🟠 `event.key`
+
+### 🟢 To see which key is pressed, you can print `event.key`.
+
+<br>
+
