@@ -50,3 +50,61 @@
 
 
 
+<br>
+<br>
+
+
+
+<!-- <a name="_Event_Loop_and_Input_Handling_"></a> -->
+
+#### 🟧 `Event`Loop and Input Handling
+
+
+- -  (theory) `Event`Loop and Input Handling [Go to section](#_Event_Loop_and_Input_Handling_)
+
+<br>
+
+- - - **Understanding the** `Event` Loop and Input Handling  [Go to section](#Understanding_the_Event_Handling_Section_)
+
+
+
+- - - **(recap)** Understanding the Event Handling Section [Go to section](#Understanding_the_Event_Handling_Section_)
+
+
+
+- - - - **Remove** the `Player Movement section`  [Go to section](#remove_Player_Movement_section_)
+
+<br>
+
+
+#### 🟧 Handling Key Events:
+
+- -  - Handling Key Events: [Go to section](#Handling_Key_Events_)
+
+- - - -  **Event key**
+
+- - - -  **Event type**
+
+<br>
+
+- - - Handling Specific Key Presses  [Go to section](#Handling_Specific_Key_Presses_)
+
+- - - Handling **MOUSE Motion**  [Go to section](#Handling_MOUSE_Motion_)
+
+
+- - -  👾 **Tracking Mouse Movement** to Control the Player  [Go to section](#Tracking_mouse_motion_)
+
+<br>
+
+
+#### 🟧 Using Input Outside the Event Loop
+
+- -  - **`pygame.mouse.get_pos()`:** [Go to section](#get_position_)
+
+- - -  **`pygame.mouse.get_pressed()`:** [Go to section](#get_pressed_)
+
+
+- - -   **Other events** [Go to section](#other_events_)
+
+- - -  Using **KEY PRESSED with a variable** and WHY? [Go to section](#get_pressed_with_variable_)
+
