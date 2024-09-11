@@ -315,3 +315,7 @@ In Pygame, `the event loop is responsible for handling various events`, such as 
 
 ## 🫐 Understanding the `Event` Loop and Input Handling
 
+#### 🟧 When using the EVENT loop, you are checking for specific actions, like a button press, rather than constantly checking if the button is pressed.
+
+
+<br>
