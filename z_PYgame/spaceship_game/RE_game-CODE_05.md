@@ -338,7 +338,7 @@ In Pygame, `the event loop is responsible for handling various events`, such as 
 
 #### 🟤 For instance, it's essential for accessing touch input or the mouse wheel.
 
-
+However, **remember that your game needs to be structured around the event loop**, but this approach is manageable with practice.
 
 <br>
 <br>
