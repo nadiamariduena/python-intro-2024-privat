@@ -165,3 +165,17 @@ Yes, using a multi-loop approach in games can be quite useful, especially when *
 **Example:**
 
 ### 🟠  Strategy Game with Multiple Systems
+
+#### Game Overview
+
+- - Imagine a real-time strategy game where you have several distinct systems that need to be updated and rendered independently:
+
+📌**World Simulation Loop:** Manages the main game world, including the game state, physics, AI, and player interactions.
+
+**UI Loop:** Handles user interface elements, such as menus, HUD (heads-up display), and player feedback.
+
+**Networking Loop:** Manages network communication for multiplayer aspects, including synchronization of game state between clients.
+
+<br>
+
+### 🌈World Simulation Loop
