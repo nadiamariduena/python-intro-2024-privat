@@ -667,3 +667,12 @@ if event.type == pygame.KEYDOWN:
 
 <br>
 
+
+
+```python
+    for event in pygame.event.get():
+       if event.type == pygame.QUIT:
+            running = False
+       if event.type == pygame.KEYDOWN:
+            print(event.key)
+```
