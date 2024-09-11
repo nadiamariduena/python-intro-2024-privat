@@ -37,3 +37,9 @@
 ### 🟨 Complexity:
 
 - - Multiple game loops can significantly increase the complexity of your code. Managing the synchronization between different loops and ensuring they interact correctly can become cumbersome.
+
+### 🟨 Performance:
+
+- - Each game loop adds its own overhead.
+
+- - 📌 **Depending on how they are implemented, they might lead to performance issues**, such as **increased CPU usage or frame rate** drops, especially if they are not well optimized.
