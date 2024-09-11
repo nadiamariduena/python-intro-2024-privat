@@ -17,3 +17,17 @@ Uses procedural generation to create an entire universe with billions of planets
 
 <br>
 
+
+### 🟤 Spelunky:
+
+Generates new cave layouts each time you play, providing a fresh experience with each run.
+
+### 🟤 The Binding of Isaac:
+
+Features procedurally generated dungeons and levels, offering varied challenges and layouts for each playthrough.
+
+
+### 🟦 Procedural Generation and AI
+
+#### Procedural generation and AI can work together to create complex and interesting game worlds.
+
