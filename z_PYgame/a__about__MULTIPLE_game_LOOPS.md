@@ -63,3 +63,10 @@
 
 
 ## 🌴 Best Practices 🥥
+
+
+### Use a Single Main Game Loop:
+
+Typically, a single main game loop handles game updates, rendering, and input processing.
+
+### This loop is often structured as follows:
