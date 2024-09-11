@@ -834,3 +834,7 @@ if event.type == pygame.MOUSEMOTION:
 
 - - This checks if the event is a mouse movement event
 
+#### 🟤 `player_rect.center = event.pos`:
+
+-  - This line sets the center of the player rectangle (player_rect) to the current mouse position (event.pos).
+
