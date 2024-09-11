@@ -252,3 +252,8 @@ In Pygame, `the event loop is responsible for handling various events`, such as 
 <br>
 
 > ### 📌   However, it's important to know that `Pygame` supports `only a single event loop per program`  .
+
+
+
+>**This can become a limitation**, especially in more complex games where managing multiple events might lead to a cluttered and difficult-to-maintain codebase.
+
