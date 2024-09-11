@@ -489,5 +489,28 @@ while running:
 
 pygame.quit()
 ```
+
+
 <br>
 <br>
+<br>
+
+
+<br>
+<br>
+
+---
+
+[1:32:06](https://youtu.be/8OMghdHP-zs?si=yroN_cRZQzF6iL6h&t=5526)
+
+- check also other type of events [EVENTS pygame](https://www.pygame.org/docs/ref/event.html)
+
+
+<br>
+<br>
+
+<a name="Understanding_the_Event_Handling_Section_"></a>
+
+#  🟡 Understanding the Event Handling Section
+
+### ⚫ RECAP lesson
