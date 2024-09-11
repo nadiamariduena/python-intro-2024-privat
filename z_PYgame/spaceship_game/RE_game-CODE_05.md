@@ -827,3 +827,10 @@ if event.type == pygame.MOUSEMOTION:
 
 ```
 <br>
+
+#### Explanation
+
+#### 🟤 if `event.type == pygame.MOUSEMOTION:`:
+
+- - This checks if the event is a mouse movement event
+
