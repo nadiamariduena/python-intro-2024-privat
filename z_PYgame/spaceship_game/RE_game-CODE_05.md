@@ -561,4 +561,8 @@ while running:
 
 
 
+  ## In summary:
+
+> ### 🌈 this section is used <u>to check if the player has closed the game window and then stop the game loop</u>  when that happens.
+
 
