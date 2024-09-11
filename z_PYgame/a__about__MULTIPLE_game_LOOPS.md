@@ -49,3 +49,17 @@
 - - 📌 **Ensuring that all game loops are in sync can be challenging.**
 
 - - - For example, if one loop updates game logic while another handles rendering, you might encounter issues with timing and consistency.
+
+### 🟨 State Management:
+
+- - **Managing different game states and transitions can be tricky.**
+
+
+- - -  If each loop is responsible for different states or components, you need to ensure that they interact seamlessly.
+
+<br>
+<br>
+
+
+
+## 🌴 Best Practices 🥥
