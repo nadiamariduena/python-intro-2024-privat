@@ -305,3 +305,11 @@ class Player(pygame.sprite.Sprite):
   <br>
 
  🟤 **Purpose:** This line `class Player(pygame.sprite.Sprite)` defines a new class called **Player**.
+
+ <br>
+
+
+- - 💥 It inherits from `pygame.sprite.Sprite`, which is a built-in Pygame class designed to make working with game objects easier.
+
+<br>
+
