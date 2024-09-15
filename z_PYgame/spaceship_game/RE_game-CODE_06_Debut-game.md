@@ -40,8 +40,6 @@
 ## 🟦 Key features of sprites include:
 
 
-
-
 <br>
 
 **Layering:**
@@ -65,3 +63,15 @@
 - -  Sprites can be animated by displaying a sequence of images (frames) in rapid succession to create the illusion of movement.
 
 
+<br>
+<br>
+<br>
+
+---
+
+
+
+## 🟡 Moving Forward: Building Your Space Shooter with Classes and Sprites
+
+
+Now we're ready to move into the exciting phase of building our game.
