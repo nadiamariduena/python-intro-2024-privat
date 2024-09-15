@@ -27,3 +27,7 @@
 
 
 >  -  ✋ The term originated from early computer graphics where sprites were small, movable graphics elements, like a character or an item, which could be manipulated independently of the background.
+
+<br>
+
+- - **Sprites are usually used in 2D games**, where they are drawn over a static or dynamically changing background.
