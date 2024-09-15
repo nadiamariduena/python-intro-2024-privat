@@ -1973,3 +1973,9 @@ If you don’t adjust for this, the player will move faster diagonally than when
 
 > - - #### 🔴 When you normalize a vector, you ensure that moving in any direction (including diagonally) results in the same speed as moving straight in one direction.
 
+<br>
+
+### 🟫 So to fix the issue
+
+
+- - you need to **"normalize"** the `player_direction vector.`
