@@ -1673,3 +1673,5 @@ player_direction.x = int(keys[pygame.K_RIGHT])
 ### 🟡 the conditional logic happens when `keys[pygame.K_RIGHT]` evaluates whether the right arrow key is pressed.
 
 ### 🐦‍⬛ `int()` is the function doing the conversion.
+
+- - `int()`  converts the boolean value (True or False) into an integer (1 or 0 respectively).
