@@ -1864,3 +1864,4 @@ pygame.quit()
 
 - -  - 🔺 This time, **the values you'll see jump from (`0, 0`) to around `424.26406871192853`**
 
+> - - -  #### 👾 What’s happening here is that without normalization, the diagonal movement makes the vector length longer than when moving straight in one direction, causing this unexpected jump in values.
