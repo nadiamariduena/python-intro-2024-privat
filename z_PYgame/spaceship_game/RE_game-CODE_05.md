@@ -1210,3 +1210,9 @@ get_pressed()` **every time** you need to check the state of the keys.
 
 #### 🟠 Now that we have explored the most commonly used events, we can continue with more advanced input handling techniques.
 
+```python
+keys = pygame.key.get_pressed()
+if keys[pygame.K_1]:
+    print(1)
+
+```
