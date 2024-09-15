@@ -1888,5 +1888,11 @@ pygame.quit()
 
 - - - When you move diagonally (e.g., **pressing the `up and left` arrows simultaneously**), the speed is inconsistent due to how 🟩 **vector** magnitudes work.
 
+### Currently I have the below on Speed
+
+```python
+#🟡 actual movement
+player_speed = 300
+```
 
 <br>
