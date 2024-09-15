@@ -93,6 +93,12 @@ We’ll define classes for different elements of our game.
 
 
 
+### 🧸 Using Sprites:
+
+We’ll use `pygame.sprite.Sprite` to create these classes.
+
+> #### This class helps us by automatically providing the Surface and Rect attributes and making it easier to manage updates and interactions.
+
 
 <br>
 <br>
