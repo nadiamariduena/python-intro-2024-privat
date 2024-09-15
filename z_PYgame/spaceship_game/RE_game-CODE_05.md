@@ -1115,3 +1115,90 @@ The **output will be a tuple like `(dx, dy)`** where **dx** is the horizontal mo
 ### 🟩 There are many different events in Pygame that you can use to interact with your game. For now, we'll focus on the ones we've covered
 
 - 🌴 check also other type of events [EVENTS pygame](https://www.pygame.org/docs/ref/event.html)
+
+
+
+### 🟠 Here's a list of other events you might want to explore on your own:
+
+
+#### 🟨 Commonly Used Pygame Events:
+
+<br>
+
+`pygame.QUIT`: Triggered when the user closes the window.
+
+`pygame.KEYDOWN`: Triggered when a key is pressed.
+
+`pygame.KEYUP`: Triggered when a key is released.
+
+`pygame.MOUSEBUTTONDOWN`: Triggered when a mouse button is pressed.
+
+`pygame.MOUSEBUTTONUP`: Triggered when a mouse button is released.
+
+`pygame.MOUSEMOTION`: Triggered when the mouse is moved.
+
+<br>
+
+#### 🟨 Other Events You Can Test:
+
+
+`pygame.ACTIVEEVENT`: Triggered when the window gains or loses focus.
+
+`pygame.JOYAXISMOTION`: Triggered when a joystick axis changes.
+
+`pygame.JOYBALLMOTION`: Triggered when a joystick ball moves.
+
+`pygame.JOYHATMOTION`: Triggered when a joystick hat changes.
+
+`pygame.JOYBUTTONDOWN`: Triggered when a joystick button is pressed.
+
+`pygame.JOYBUTTONUP:` Triggered when a joystick button is released.
+
+`pygame.VIDEORESIZE`: Triggered when the window is resized.
+
+`pygame.USEREVENT`: A custom event that you can define in your program.
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+---
+
+# 🟫 Let's Continue:
+
+
+## 🟡 key.get_pressed()
+
+🟦 Using ` pygame.key.get_pressed()`
+
+### We’re going to use `pygame.key.get_pressed()` <u>to check which keys are currently being pressed</u> .
+
+  We'll **assign its value to a variable** for easier access.
+
+```bash
+keys = pygame.key.get_pressed()
+```
+
+
+
+### 🟠 Why Do We Do This?
+
+#### 🟤 Convenience:
+
+- - **By storing the result** in a **variable** (`keys`), **you avoid repeatedly calling** `pygame.key.
+get_pressed()` **every time** you need to check the state of the keys.
+
+> #### This makes your code cleaner and more efficient.
+
+<br>
+<br>
+
+
+<br>
+<br>
+
+---
