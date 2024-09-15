@@ -1884,6 +1884,8 @@ pygame.quit()
 
 - - #### 🟦 Related to the <u>diagonal movement</u>  speed:
 
+- - #### 🔴 The issue you're encountering is related to the diagonal movement speed.
+
 
 
 <br>
