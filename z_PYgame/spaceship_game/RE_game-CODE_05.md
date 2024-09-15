@@ -1023,3 +1023,25 @@ while running:
 
 <br>
 <br>
+
+## 🫐 🟡 How It Works:
+
+### `pygame.mouse.get_pressed()` returns a tuple with three values:
+
+```bash
+True or False for whether the left mouse button is pressed.
+True or False for whether the middle mouse button is pressed.
+True or False for whether the right mouse button is pressed.
+```
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+---
+
+
