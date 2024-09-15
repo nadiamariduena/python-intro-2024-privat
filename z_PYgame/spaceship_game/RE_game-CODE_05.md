@@ -1864,4 +1864,13 @@ pygame.quit()
 
 - -  - 🔺 This time, **the values you'll see jump from (`0, 0`) to around `424.26406871192853`**
 
+<br>
+
 > - - -  #### 👾 What’s happening here is that without normalization, the diagonal movement makes the vector length longer than when moving straight in one direction, causing this unexpected jump in values.
+
+<br>
+
+## 🫐 🟡  SPEED inconsistency
+
+
+ Now that I’ve implemented movement for the X and Y axes, I’m noticing an inconsistency with the speed.
