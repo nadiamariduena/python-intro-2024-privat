@@ -1659,7 +1659,7 @@ player_direction.x = int(keys[pygame.K_RIGHT])
 <br>
 <br>
 
->### ⚠️  If you’re familiar with JavaScript and React, there’s no direct equivalent for this line.
+>### ⚠️  If you’re familiar with JavaScript and React, there’s no direct equivalent for this line:
 
 ```python
 player_direction.x = int(keys[pygame.K_RIGHT])
@@ -1675,3 +1675,8 @@ player_direction.x = int(keys[pygame.K_RIGHT])
 ### 🐦‍⬛ `int()` is the function doing the conversion.
 
 - - `int()`  converts the boolean value (True or False) into an integer (1 or 0 respectively).
+
+
+<br>
+
+- - - #### 🟫 In Python, True is equivalent to 1 and False is equivalent to 0. Therefore, `int(keys[pygame.K_RIGHT])` gives 1 if the key is pressed and 0 if it is not.
