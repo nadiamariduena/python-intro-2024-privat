@@ -1979,3 +1979,12 @@ If you don’t adjust for this, the player will move faster diagonally than when
 
 
 - - you need to **"normalize"** the `player_direction vector.`
+
+<br>
+
+
+### 🌈 The below line: normalizes the `player_direction` vector ✋ to ensure consistent speed in all directions.
+
+```python
+player_direction = player_direction.normalize() if player_direction else player_direction
+```
