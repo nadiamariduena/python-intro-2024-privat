@@ -1056,3 +1056,12 @@ True or False for whether the right mouse button is pressed.
 <br>
 
 ### 🟤 How It Works:
+
+#### `pygame.mouse.get_rel()` returns a tuple with two values:
+
+- The change in the x-direction.
+
+- The change in the y-direction.
+
+### 🟢 This tells you how far the mouse has moved from its last position.
+
