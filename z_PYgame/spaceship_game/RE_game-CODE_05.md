@@ -1377,4 +1377,10 @@ You should typically include it inside the game loop but outside the event handl
 
 
 
+###  🌈 **Why?**
+
+- -  Since both values are 0, you can simplify it to: `player_direction = pygame.math.Vector2(0)`
+
+### 🔴 This means the player starts with no movement in any direction.
+
 
