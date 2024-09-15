@@ -1756,3 +1756,9 @@ pygame.quit()
 <br>
 <br>
 <br>
+
+## 🟡 Move X: LEFT & RIGHT
+
+### 🟩 🟡 This line controls the horizontal movement of the player character by setting
+
+
