@@ -908,3 +908,23 @@ while running:
 - - The `pygame.event.get()` **loop** handles events like key presses and mouse movements, but you can also access input data outside this loop.
 
 #### Direct Input Access:
+
+- - By using `pygame.mouse.get_pos()`, you can get the current position of the mouse anywhere in your code, not just inside the event loop. This can be useful for tasks that need continuous access to mouse position or other inputs.
+
+#### Testing It:
+
+- - The example code prints the current mouse position every frame.
+
+>This lets you see where the mouse is located on the screen, even if you’re not handling mouse motion events directly within the loop.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+---
+
+## 🟡 Visualizing Mouse Coordinates
+
