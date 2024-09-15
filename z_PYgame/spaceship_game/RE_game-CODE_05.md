@@ -1858,5 +1858,9 @@ pygame.quit()
 
 - - 🟡 2. Then, **Try pressing up and left at the same time**
 
+<br>
 
+### 🔴 Issue
+
+- -  - 🔺 This time, **the values you'll see jump from (`0, 0`) to around `424.26406871192853`**
 
