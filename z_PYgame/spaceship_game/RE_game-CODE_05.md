@@ -1908,3 +1908,11 @@ player_speed = 300
 - Understanding the Speed Calculation:
 
 <br>
+
+🟨 **Moving `left or right` only affects `player_direction.x`, and similarly**, moving **up or down only affects `player_direction.y`**.
+
+> - - - In both cases, the **speed is simply** `player_speed * dt`.
+
+<br>
+
+### 🫐 🟡 Diagonal Movement:
