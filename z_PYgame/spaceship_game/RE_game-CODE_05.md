@@ -1252,3 +1252,7 @@ if keys[pygame.K_1]:
 If the "1" key is pressed, this line prints the number 1 to the terminal.
 
 <br>
+
+## 🟠 Why Use `pygame.key.get_pressed()`?
+
+#### Real-time Input Checking:
