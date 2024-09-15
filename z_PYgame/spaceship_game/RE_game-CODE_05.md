@@ -841,3 +841,70 @@ if event.type == pygame.MOUSEMOTION:
 <br>
 
 > ### 🌈 This means that as you move the mouse, the player will follow the mouse pointer.
+
+
+
+<br>
+<br>
+
+### 🔴 Next Step: Hide the Code Below
+
+- This code was just to demonstrate it's usage.
+
+#### You can hide it for now:
+
+
+
+```python
+        if event.type == pygame.KEYDOWN and event.key == pygame.K_1:
+            print(1)
+        if event.type == pygame.MOUSEMOTION:
+            #  print("mouse is moving")
+            #  print(event.pos)
+             player_rect.center == event.pos
+```
+
+
+
+<br>
+
+---
+
+<br>
+<br>
+
+ <a name="get_position_"></a>
+
+ ## 🫐 🟠 `pygame.mouse.get_pos()`
+
+
+
+## 🌈 Accessing Mouse Position Outside the Event Loop
+
+> #### 🟤 Use pygame.mouse.get_pos() to directly retrieve the current position of the mouse cursor
+
+
+```python
+while running:
+    #🤚 DELTA time
+    # frame rate / division
+    dt = clock.tick() / 1000
+    # print(dt)
+
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+    #  🔴 the line below, is out of the  EVENT loop "for event in"
+    print(pygame.mouse.get_pos())
+```
+
+## 🟤 Explanation
+
+
+#### Event Loop:
+
+- - The `pygame.event.get()` **loop** handles events like key presses and mouse movements, but you can also access input data outside this loop.
+
+#### Direct Input Access:
