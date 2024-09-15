@@ -1997,3 +1997,13 @@ player_direction = player_direction.normalize() if player_direction else player_
 
 - - To monitor and debug the player’s movement, you should calculate and display the magnitude of the `player_direction vector.`
 
+<br>
+
+> #### 🟡 This allows you to see the vector's length in the terminal, which helps in understanding how the direction and speed are being processed:
+
+<br>
+
+```python
+
+print((player_direction * player_speed).magnitude())
+```
