@@ -1988,3 +1988,12 @@ If you don’t adjust for this, the player will move faster diagonally than when
 ```python
 player_direction = player_direction.normalize() if player_direction else player_direction
 ```
+<br>
+<br>
+
+## 🟨 Debugging:
+
+#### 🟢 🌍 Adding Magnitude for Debugging
+
+- - To monitor and debug the player’s movement, you should calculate and display the magnitude of the `player_direction vector.`
+
