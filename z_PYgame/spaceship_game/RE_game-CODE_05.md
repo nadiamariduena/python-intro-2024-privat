@@ -1109,3 +1109,9 @@ The **output will be a tuple like `(dx, dy)`** where **dx** is the horizontal mo
 <br>
 
 ---
+
+# 🌈 Other Pygame Events
+
+### 🟩 There are many different events in Pygame that you can use to interact with your game. For now, we'll focus on the ones we've covered
+
+- 🌴 check also other type of events [EVENTS pygame](https://www.pygame.org/docs/ref/event.html)
