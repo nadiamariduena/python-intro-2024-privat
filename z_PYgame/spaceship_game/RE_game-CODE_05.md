@@ -1065,3 +1065,47 @@ True or False for whether the right mouse button is pressed.
 
 ### 🟢 This tells you how far the mouse has moved from its last position.
 
+
+```python
+while running:
+    #🤚 DELTA time
+    # frame rate / division
+    dt = clock.tick() / 1000
+    # print(dt)
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+    # Print the mouse movement since the last frame
+    print(pygame.mouse.get_rel())
+
+```
+<br>
+
+### 🟠 What You’ll See:
+
+The **output will be a tuple like `(dx, dy)`** where **dx** is the horizontal movement and **dy** is the vertical movement.
+
+###  🧶For example:
+
+- - **`(5, -3)`** means the mouse moved 5 pixels to the right and 3 pixels up.
+
+<br>
+
+- - **`(-2, 7)`** means the mouse moved 2 pixels to the left and 7 pixels down.
+
+
+- - **`(0, 0)`** means the mouse hasn’t moved since the last frame.
+
+
+####  🌈This is particularly useful for creating smooth and responsive mouse interactions, like dragging or camera control in games.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+---
