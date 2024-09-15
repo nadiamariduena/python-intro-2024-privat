@@ -1383,4 +1383,37 @@ You should typically include it inside the game loop but outside the event handl
 
 ### 🔴 This means the player starts with no movement in any direction.
 
+<br>
+<br>
 
+### 2. 🫐 🟠 Change the Speed
+
+#### Next, we need to adjust the player’s speed. Change this line:
+
+- from this: `player_speed = 1000` to this: `player_speed = 300`
+
+<br>
+<br>
+
+
+### 3. 🫐 🟠 Handle Movement with Keys
+
+
+### 🟩 Conditional: `player_direction.x = 1`
+
+<br>
+
+### Now let’s make the player move with keyboard input.
+
+- - **Add this** to check if the key 1 is pressed and set the direction:
+
+- - #### 🌈 This code checks if the 1 key is pressed and, if so, sets the player’s movement direction along the x-axis.
+
+<br>
+
+```python
+    keys = pygame.key.get_pressed()
+    if keys[pygame.K_1]:
+    #     print(1)
+        player_direction.x = 1
+```
