@@ -1949,3 +1949,24 @@ In your game, `player_direction` **controls** how the player moves.
 <br>
 
 > **For example**, if `player_direction.x` is **1** and `player_direction.y` is **1**, it means the player is moving diagonally (both right and up).
+
+
+<br>
+<br>
+
+
+
+### 🔴 Diagonal Speed Problem:
+
+#### When you move diagonally, you’re combining movement in both X and Y directions.
+
+- - This creates a diagonal vector, which is longer than moving straight in just one direction.
+
+If you don’t adjust for this, the player will move faster diagonally than when moving in a single direction.
+
+<br>
+<br>
+
+## 🟢 Why Normalization Fixes the Issue
+
+- - 💥 **Normalizing means adjusting the vector** so that its length (or magnitude) is consistent.
