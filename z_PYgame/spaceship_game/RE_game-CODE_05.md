@@ -1202,3 +1202,11 @@ get_pressed()` **every time** you need to check the state of the keys.
 <br>
 
 ---
+
+### 🟦 As we saw it previously: `get_pressed()`
+
+
+<br>
+
+#### 🟠 Now that we have explored the most commonly used events, we can continue with more advanced input handling techniques.
+
