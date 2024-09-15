@@ -1879,3 +1879,11 @@ pygame.quit()
 ## 🔴 speed isn’t right:
 
 - - When pressing left and right, the speed behaves as expected. However, when pressing the up and left arrows simultaneously, the speed isn’t right.
+
+
+
+- - #### 🟦 Related to the <u>diagonal movement</u>  speed:
+
+
+
+<br>
