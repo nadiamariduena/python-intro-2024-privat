@@ -1901,3 +1901,10 @@ player_speed = 300
 
 ## 🫐 🟡<u>VECTOR</u>: Understanding the relationship between the X and Y components of the movement vector
 
+
+
+### 🫐 🟠 Single Axis Movement:
+
+- Understanding the Speed Calculation:
+
+<br>
