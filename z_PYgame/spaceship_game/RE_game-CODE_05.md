@@ -1896,3 +1896,8 @@ player_speed = 300
 ```
 
 <br>
+<br>
+<br>
+
+## 🫐 🟡<u>VECTOR</u>: Understanding the relationship between the X and Y components of the movement vector
+
