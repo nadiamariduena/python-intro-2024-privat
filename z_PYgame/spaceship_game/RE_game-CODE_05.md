@@ -1664,3 +1664,8 @@ player_direction.x = int(keys[pygame.K_RIGHT])
 ```python
 player_direction.x = int(keys[pygame.K_RIGHT])
 ```
+
+<br>
+<br>
+
+### 🟡 the conditional logic happens when `keys[pygame.K_RIGHT]` evaluates whether the right arrow key is pressed.
