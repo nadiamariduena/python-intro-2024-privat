@@ -1886,6 +1886,7 @@ pygame.quit()
 
 - - #### 🔴 The issue you're encountering is related to the diagonal movement speed.
 
+- - - When you move diagonally (e.g., **pressing the `up and left` arrows simultaneously**), the speed is inconsistent due to how 🟩 **vector** magnitudes work.
 
 
 <br>
