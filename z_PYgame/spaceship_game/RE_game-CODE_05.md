@@ -1313,3 +1313,11 @@ This method **only detects key presses when the KEYDOWN event is registered**, w
 
 - - You will see the output only when the event loop processes a new KEYDOWN event.
 
+<br>
+<br>
+
+### 2. 🌈 Key Press Handling Outside the Event Loop
+
+#### What Happens:
+
+- - 🍦 This code **checks the state of all keys in the keys array provided by `pygame.key.get_pressed()`**, which **tells** you **whether each key is currently pressed or not**.
