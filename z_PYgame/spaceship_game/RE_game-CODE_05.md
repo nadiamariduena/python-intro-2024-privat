@@ -1785,3 +1785,78 @@ pygame.quit()
 <br>
 <br>
 <br>
+
+
+## 🟡 Move X: UP & DOWN
+
+### 🟩 🟡 This line controls the vertical movement of the player character by setting
+
+
+
+```python
+ player_direction.y = int(keys[pygame.K_DOWN]) - int(keys[pygame.K_UP])
+
+```
+### like so:
+
+```python
+##20 X, - 10Y axis
+#🤚 VECTOR
+player_direction = pygame.math.Vector2(0) # This vector represents the direction and speed at which the player is moving:
+# player speed
+#🟡 actual movement
+player_speed = 300
+
+
+
+while running:
+    #🤚 DELTA time
+    # frame rate / division
+    dt = clock.tick() / 1000
+    # print(dt)
+
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+        # if event.type == pygame.KEYDOWN and event.key == pygame.K_1:
+        #     print(1)
+
+
+    # print(pygame.mouse.get_pos())
+   # ---------KEY  ---------
+    keys = pygame.key.get_pressed()
+
+    # LEFT & RIGHT
+    player_direction.x = int(keys[pygame.K_RIGHT]) - int(keys[pygame.K_LEFT])
+    # DOWN & UP
+    player_direction.y = int(keys[pygame.K_DOWN]) - int(keys[pygame.K_UP])
+
+    player_rect.center += player_direction * player_speed * dt
+    # -----------------
+    # -----------------
+    display_surface.fill("lavenderblush2")
+
+    for pos in star_positions:
+        display_surface.blit(star_surf, pos)
+
+    display_surface.blit(player_surf, player_rect)
+    display_surface.blit(meteor_surf, meteor_rect)
+    display_surface.blit(laser_surf, laser_rect)
+
+    pygame.display.update()
+
+
+
+pygame.quit()
+```
+<br>
+
+## 🟩 Test it:
+
+- - 🟡 1. **Press** (up, down, left and right), notice the values in your console
+
+- - 🟡 2. Then, **Try pressing up and left at the same time**
+
+
+
