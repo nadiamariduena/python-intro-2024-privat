@@ -963,3 +963,24 @@ WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
 
 
 
+
+### 🟤 What You’ll See in the Terminal
+
+
+**Initially**, the coordinates may all be `(0, 0)` if the mouse is at the top-left.
+
+
+- - 🌈 As you move the mouse, you'll see coordinates change accordingly, such as `(600, 300)` or `(1279, 151)` when nearing the right edge.
+
+
+#### Example Output
+
+```python
+(0, 0)
+(0, 0)
+...
+(1279, 151)
+(1279, 151)
+... etc
+```
+> #### 🟦 This helps you understand how the mouse position updates in real-time, giving you insight into how to use these coordinates in your game development projects.
