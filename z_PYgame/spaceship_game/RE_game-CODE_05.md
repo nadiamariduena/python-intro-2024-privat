@@ -984,3 +984,42 @@ WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
 ... etc
 ```
 > #### 🟦 This helps you understand how the mouse position updates in real-time, giving you insight into how to use these coordinates in your game development projects.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+---
+
+
+<a name="get_pressed_"></a>
+
+
+
+## 🫐 🟠  `pygame.mouse.get_pressed()`
+
+#### In addition to tracking the mouse position, you can also check if any mouse buttons are being pressed.
+
+- - The function `pygame.mouse.get_pressed()` helps with this.
+
+
+```python
+while running:
+    #🤚 DELTA time
+    # frame rate / division
+    dt = clock.tick() / 1000
+    # print(dt)
+
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+    print(pygame.mouse.get_pressed())
+```
+
+<br>
+<br>
