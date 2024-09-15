@@ -1874,3 +1874,8 @@ pygame.quit()
 
 
  Now that I’ve implemented movement for the X and Y axes, I’m noticing an inconsistency with the speed.
+
+
+## 🔴 speed isn’t right:
+
+- - When pressing left and right, the speed behaves as expected. However, when pressing the up and left arrows simultaneously, the speed isn’t right.
