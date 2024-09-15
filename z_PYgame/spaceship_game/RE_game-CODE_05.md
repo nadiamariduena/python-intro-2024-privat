@@ -1297,3 +1297,12 @@ Additionally, if you hold down the "1" key, the number 1 will keep printing repe
 - - When you press the "1" key, it detects the KEYDOWN event and prints 1 to the console.
 
 - - 🔴 **If you hold down the "1" key**, the number 1 **will be printed only once** because the event loop only detects each key press as an event.
+
+```python
+for event in pygame.event.get():
+    if event.type == pygame.QUIT:
+        running = False
+    if event.type == pygame.KEYDOWN and event.key == pygame.K_1:
+        print(1)
+
+```
