@@ -1927,5 +1927,9 @@ player_speed = 300
 - - it means that both the X and Y components of the movement vector are active (i.e., not zero) or non-zero (1,2) instead of (0,0).
 
 
+- - #### 🟤 Diagonal movement combines both directions, which results in the player moving at a speed that is the diagonal vector's magnitude.
+
+#### 🥥 🌴 This magnitude is longer than either axis individually due to the Pythagorean theorem.
+
 <br>
 <br>
