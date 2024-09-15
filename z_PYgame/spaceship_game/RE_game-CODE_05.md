@@ -942,3 +942,24 @@ The **`pygame.mouse.get_pos()`** function returns the mouse coordinates relative
 ```python
 WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
 ```
+
+
+<br>
+
+>  - #### 🟦 When you test the code, you’ll see different mouse coordinates printed to the terminal based on where the mouse is on the screen.
+
+#### Here's what to expect:
+
+- **Top Left Corner:** Near the top-left of the screen, you will see coordinates close to `(0, 0)`.
+
+
+<br>
+
+- **Middle of the Screen:** As you move the mouse towards the middle, you'll notice coordinates like `(600, 300)`, depending on your screen size and resolution.
+
+<br>
+
+- **Right Edge of the Screen:** Near the right edge of the screen, you will see coordinates close to (1279, y). For example, if 1279 is the x-coordinate, 151 might be the y-coordinate.
+
+
+
