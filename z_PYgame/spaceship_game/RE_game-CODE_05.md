@@ -1680,3 +1680,7 @@ player_direction.x = int(keys[pygame.K_RIGHT])
 <br>
 
 - - - #### 🟫 In Python, True is equivalent to 1 and False is equivalent to 0. Therefore, `int(keys[pygame.K_RIGHT])` gives 1 if the key is pressed and 0 if it is not.
+
+<br>
+
+> - - -  🔴 **This conversion itself acts as a condition**, so **you avoid** explicit **if statements** by relying on this built-in boolean-to-integer conversion.
