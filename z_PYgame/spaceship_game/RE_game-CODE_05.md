@@ -1230,3 +1230,13 @@ if keys[pygame.K_1]:
 #### 🔴 each position corresponds to a key
 
 - -  - `pygame.key.get_pressed()` **returns a list of boolean values**, where **each position corresponds to a key** on the keyboard. If a key is pressed, its value is True; otherwise, it's False.
+
+<br>
+<br>
+
+
+
+### `if keys[pygame.K_1]:`:
+
+  Here, `pygame.K_1` represents the **`"1"` key on the keyboard**.
+
