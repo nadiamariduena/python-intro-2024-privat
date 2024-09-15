@@ -1506,3 +1506,5 @@ pygame.quit()
 ###   When you run the code, pressing the 1 key will move the player to the right,
 
 - - 🔴 **but it might continue moving uncontrollably.**
+
+- - -  That’s because we haven’t added logic to stop the movement or handle other directions yet. You’ll need to add more key checks to handle stopping or changing directions.
