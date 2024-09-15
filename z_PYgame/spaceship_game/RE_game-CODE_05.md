@@ -1634,7 +1634,9 @@ pygame.quit()
 
 - - 🌈 **Instead of** writing a **full `if-else`** statement **to set** `player_direction.x`, **you can directly convert the boolean value** from `keys[pygame.K_RIGHT]` **to an integer**.
 
-> #### This way, player_direction.x will be 1 if the right key is pressed, and 0 otherwise.
+<br>
+
+> #### This way, `player_direction.x` will be 1 if the right key is pressed, and 0 otherwise.
 
 
 ### 🟠 USE THIS:
@@ -1652,4 +1654,13 @@ player_direction.x = int(keys[pygame.K_RIGHT])
         player_direction.x = 1
     else:
         player_direction.x = 0
+```
+
+<br>
+<br>
+
+>### ⚠️  If you’re familiar with JavaScript and React, there’s no direct equivalent for this line.
+
+```python
+player_direction.x = int(keys[pygame.K_RIGHT])
 ```
