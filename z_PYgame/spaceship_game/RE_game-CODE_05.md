@@ -1337,3 +1337,4 @@ if keys[pygame.K_1]:
 
 > **If this code is outside the event loop, it might not work as expected**because it relies on the loop that handles the game events.
 
+You should typically include it inside the game loop but outside the event handling to ensure it gets checked every frame.
