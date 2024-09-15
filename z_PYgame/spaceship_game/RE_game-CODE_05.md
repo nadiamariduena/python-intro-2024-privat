@@ -1709,3 +1709,50 @@ This function **returns a sequence (like a list) of boolean values** representin
 #### This converts the boolean value (True or False) into an integer (1 or 0 respectively).
 
 - - 🔴 In Python, True is equivalent to `1` and False is equivalent to `0`. Therefore, `int(keys[pygame.K_RIGHT])` gives `1` if the key is pressed and 0 if it is not.
+
+
+<br>
+
+```python
+while running:
+    #🤚 DELTA time
+    # frame rate / division
+    dt = clock.tick() / 1000
+    # print(dt)
+
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+        # if event.type == pygame.KEYDOWN and event.key == pygame.K_1:
+        #     print(1)
+
+
+    # print(pygame.mouse.get_pos())
+   # ---------KEY  ---------
+    keys = pygame.key.get_pressed()
+
+    player_direction.x = int(keys[pygame.K_RIGHT])
+
+    player_rect.center += player_direction * player_speed * dt
+    # -----------------
+    # -----------------
+    display_surface.fill("lavenderblush2")
+
+    for pos in star_positions:
+        display_surface.blit(star_surf, pos)
+
+    display_surface.blit(player_surf, player_rect)
+    display_surface.blit(meteor_surf, meteor_rect)
+    display_surface.blit(laser_surf, laser_rect)
+
+    pygame.display.update()
+
+
+
+pygame.quit()
+```
+
+<br>
+<br>
+<br>
