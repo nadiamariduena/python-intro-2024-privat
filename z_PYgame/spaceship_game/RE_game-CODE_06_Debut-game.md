@@ -31,3 +31,7 @@
 <br>
 
 - - **Sprites are usually used in 2D games**, where they are drawn over a static or dynamically changing background.
+
+<br>
+
+>  #### In more modern contexts, the term can also apply to certain 3D games where elements are rendered in a 2D manner, such as icons, HUD elements, or particle effects.
