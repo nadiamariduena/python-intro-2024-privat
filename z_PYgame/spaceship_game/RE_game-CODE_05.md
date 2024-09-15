@@ -1501,3 +1501,8 @@ pygame.quit()
 <br>
 
 ## 🔴 Problem:
+
+
+###   When you run the code, pressing the 1 key will move the player to the right,
+
+- - 🔴 **but it might continue moving uncontrollably.**
