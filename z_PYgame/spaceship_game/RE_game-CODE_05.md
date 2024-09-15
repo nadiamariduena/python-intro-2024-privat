@@ -1546,3 +1546,21 @@ pygame.quit()
 <br>
 <br>
 <br>
+
+
+## 🫐 🟡 Key Press Handling and Movement
+
+ ## 🟢 Move to the RIGHT
+
+ <br>
+
+## `player_direction.x = 0`
+
+
+
+#### 🍊 This code checks if the `1` key is pressed. `If it is`, `player_direction.x` is set to 1, moving the player right.
+
+<br>
+
+- - If the key is not pressed, player_direction.x is set to 0, stopping horizontal movement. The line with 0 ensures that the player stops moving when the key is released.
+
