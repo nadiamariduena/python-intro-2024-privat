@@ -1342,9 +1342,15 @@ You should typically include it inside the game loop but outside the event handl
 
 ## 🫐 Key Differences:
 
-#### Event Loop Method:
+### 🟤 Event Loop Method:
 
 -  - Detects key presses as discrete events.
 
 -  - Prints 1 only once per key press event.
 
+
+### 🟤 State Check Method:
+
+- - Continuously checks if the key is pressed.
+
+- - Prints 1 continuously as long as the key is held down.
