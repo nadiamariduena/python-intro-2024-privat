@@ -1590,3 +1590,41 @@ pygame.quit()
 ### 🟡 Key Not Pressed (else):
 
 - - 🟧 When the 1 key is not pressed, `player_direction.x is set to 0`.
+
+
+<br>
+<br>
+
+### 🟡 Using the the ARROWS `K_RIGHT`
+
+- You will have the same effect
+
+```python
+   # ---------KEY  ---------
+    keys = pygame.key.get_pressed()
+    if keys[pygame.K_RIGHT]:
+    #     print(1)
+        player_direction.x = 1
+    else:
+        player_direction.x = 0
+
+    player_rect.center += player_direction * player_speed * dt
+    # ------------------
+
+```
+
+<br>
+<br>
+
+<br>
+<br>
+
+
+
+
+# 🫐 🟡 Making it cleaner
+
+## 🟢 Move to Right
+
+
+###  You can use a more concise method to handle key input.
