@@ -1243,3 +1243,6 @@ if keys[pygame.K_1]:
   - - **We check the value** at **this position** in the keys list to see if the **"1" key is pressed**.
 
 <br>
+
+- - **If the value is** `True` (meaning the "1" key is being pressed), the condition evaluates to True, and the code inside the **if statement will run**.
+
