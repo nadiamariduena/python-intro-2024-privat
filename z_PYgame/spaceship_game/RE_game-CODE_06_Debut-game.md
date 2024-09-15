@@ -75,3 +75,22 @@
 
 
 Now we're ready to move into the exciting phase of building our game.
+
+
+<br>
+<br>
+
+
+## 🟡 Why Use Classes:
+
+### 🟤 Organization:
+
+ As our game grows, our code can become messy.
+
+- - - #### Classes help keep things tidy by grouping related data and functions together.
+
+> #### This makes it easier to manage and understand.
+
+<br>
+
+<br>
