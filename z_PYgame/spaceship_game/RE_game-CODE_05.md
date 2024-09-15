@@ -1332,3 +1332,8 @@ if keys[pygame.K_1]:
     print(1)
 
 ```
+
+### 🔴 Limitations:
+
+> **If this code is outside the event loop, it might not work as expected**because it relies on the loop that handles the game events.
+
