@@ -99,6 +99,11 @@ We’ll use `pygame.sprite.Sprite` to create these classes.
 
 > #### This class helps us by automatically providing the Surface and Rect attributes and making it easier to manage updates and interactions.
 
+<br>
+
+### 🍯 Building the Game Loop:
+
+> #### 🐝 We’ll integrate our sprite classes into the main game loop, updating and drawing each sprite, handling collisions, and managing game states.
 
 <br>
 <br>
