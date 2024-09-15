@@ -1045,3 +1045,14 @@ True or False for whether the right mouse button is pressed.
 ---
 
 
+<a name="get_rel_"></a>
+
+
+
+## 🫐 🟠  `pygame.mouse.get_rel()`
+
+#### When you need to track how much the mouse has moved since the last frame, `pygame.mouse.get_rel()` is the function to use. It provides the relative movement of the mouse.
+
+<br>
+
+### 🟤 How It Works:
