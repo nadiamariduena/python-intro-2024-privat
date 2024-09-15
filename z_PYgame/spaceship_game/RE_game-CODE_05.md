@@ -1684,3 +1684,19 @@ player_direction.x = int(keys[pygame.K_RIGHT])
 <br>
 
 > - - -  🔴 **This conversion itself acts as a condition**, so **you avoid** explicit **if statements** by relying on this built-in boolean-to-integer conversion.
+
+<br>
+<br>
+
+
+
+## 🫐 🟡Understanding keys and int in Pygame
+
+
+## ⚫  <u>Recap</u>
+
+### 🟠 `pygame.key.get_pressed()`:
+
+This function **returns a sequence (like a list) of boolean values** representing the state of every key on the keyboard.
+
+
