@@ -100,3 +100,11 @@ We’ll create specific classes for different game elements like the player, ene
 - - #### 🟦 Each class will handle its own behavior and properties, making the code modular and easier to maintain.
 
 <br>
+<br>
+
+
+<br>
+
+### 🟢 Why Use the `pygame.sprite.Sprite` Class:
+
+#### 🟠 Built-In Features:
