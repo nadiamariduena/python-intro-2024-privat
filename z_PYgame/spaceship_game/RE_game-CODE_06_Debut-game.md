@@ -23,4 +23,7 @@
 #### 🟦 In gaming, a "sprite" refers to a two-dimensional image or animation that is integrated into a larger scene, typically representing objects or characters.
 
 
-<br>
+
+
+
+>  -  ✋ The term originated from early computer graphics where sprites were small, movable graphics elements, like a character or an item, which could be manipulated independently of the background.
