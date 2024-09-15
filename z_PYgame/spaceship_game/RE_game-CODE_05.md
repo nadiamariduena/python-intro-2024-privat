@@ -1276,3 +1276,7 @@ if keys[pygame.K_1]:
 - When you run this code, pressing any key will not produce any visible output.
 
 > #### However, if you press the "1" key on your keyboard, you will see the number 1 printed in the console.
+
+Additionally, if you hold down the "1" key, the number 1 will keep printing repeatedly as long as the key is held down
+
+<br>
