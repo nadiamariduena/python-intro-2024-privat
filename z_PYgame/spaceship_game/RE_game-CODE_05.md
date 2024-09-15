@@ -1508,3 +1508,41 @@ pygame.quit()
 - - 🔴 **but it might continue moving uncontrollably.**
 
 - - -  That’s because we haven’t added logic to stop the movement or handle other directions yet. You’ll need to add more key checks to handle stopping or changing directions.
+
+
+## 🍊 Comparing
+
+### Before
+
+```python
+    #---
+    if player_rect.bottom >= WINDOW_HEIGHT or player_rect.top <= 0:
+          player_direction.y *= -1
+
+    if player_rect.right >= WINDOW_WIDTH or player_rect.left <= 0:
+        player_direction.x *= -1
+    # ---------
+    # vector
+    # The line below updates the position of the player's sprite by adding the player_direction vector to the current center position of player_rect
+    player_rect.center += player_direction * player_speed * dt
+
+```
+
+### After
+
+
+```python
+    # ---------KEY  ---------
+    keys = pygame.key.get_pressed()
+    if keys[pygame.K_1]:
+    #     print(1)
+        player_direction.x = 1
+
+    player_rect.center += player_direction * player_speed * dt
+    # ------------------
+```
+
+
+<br>
+<br>
+<br>
