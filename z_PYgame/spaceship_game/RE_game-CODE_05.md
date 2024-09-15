@@ -1216,3 +1216,13 @@ if keys[pygame.K_1]:
     print(1)
 
 ```
+
+<br>
+
+## 🟤 Explanation
+
+
+
+### `keys = pygame.key.get_pressed()`:
+
+#### 🟡 This line retrieves the current state of all keyboard keys.
