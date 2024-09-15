@@ -2061,3 +2061,9 @@ while running:
 - - #### If the player is not moving (player_direction is (0, 0)), it simply keeps the direction as (0, 0).
 
 
+<br>
+<br>
+
+---
+
+### Next section we will be talking about the "sprites"
