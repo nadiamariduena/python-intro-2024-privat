@@ -1306,3 +1306,10 @@ for event in pygame.event.get():
         print(1)
 
 ```
+
+#### 🔴 Limitations:
+
+This method **only detects key presses when the KEYDOWN event is registered**, which **means you won't see continuous output if the key is held down**.
+
+- - You will see the output only when the event loop processes a new KEYDOWN event.
+
