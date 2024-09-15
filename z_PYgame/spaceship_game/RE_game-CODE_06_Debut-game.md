@@ -22,16 +22,46 @@
 
 #### 🟦 In gaming, a "sprite" refers to a two-dimensional image or animation that is integrated into a larger scene, typically representing objects or characters.
 
-
-
-
-
 >  -  ✋ The term originated from early computer graphics where sprites were small, movable graphics elements, like a character or an item, which could be manipulated independently of the background.
 
-<br>
-
-- - **Sprites are usually used in 2D games**, where they are drawn over a static or dynamically changing background.
 
 <br>
 
->  #### In more modern contexts, the term can also apply to certain 3D games where elements are rendered in a 2D manner, such as icons, HUD elements, or particle effects.
+- - Sprites are usually used in 2D games, where they are drawn over a static or dynamically changing background.
+
+<br>
+
+> - - #### In more modern contexts, the term can also apply to certain 3D games where elements are rendered in a 2D manner, such as icons, HUD elements, or particle effects.
+
+
+<br>
+<br>
+
+## 🟦 Key features of sprites include:
+
+
+
+
+<br>
+
+**Layering:**
+
+ #### Sprites can be layered over or under other sprites and backgrounds to create complex scenes.
+
+
+- - - **Sprites are a fundamental concept in game development**, especially for classic and indie games, due to their simplicity and versatility.
+
+<br>
+
+**Transparency:**
+
+- - Sprites often have transparent backgrounds so they can blend seamlessly with the game environment.
+
+
+
+
+**Animation:**
+
+- -  Sprites can be animated by displaying a sequence of images (frames) in rapid succession to create the illusion of movement.
+
+
