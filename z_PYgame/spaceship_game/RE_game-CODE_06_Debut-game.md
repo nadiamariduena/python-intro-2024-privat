@@ -107,4 +107,12 @@ We’ll create specific classes for different game elements like the player, ene
 
 ### 🟢 Why Use the `pygame.sprite.Sprite` Class:
 
-#### 🟠 Built-In Features:
+<br>
+
+### 🟠 Built-In Features:
+
+
+
+The `pygame.sprite.Sprite` class provides **built-in methods and properties** that simplify working with game objects.
+
+> #### Each sprite has a Surface (the image) and a Rect (the rectangle defining its position and size).
