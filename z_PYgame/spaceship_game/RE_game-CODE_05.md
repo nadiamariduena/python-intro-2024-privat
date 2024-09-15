@@ -1280,3 +1280,12 @@ if keys[pygame.K_1]:
 Additionally, if you hold down the "1" key, the number 1 will keep printing repeatedly as long as the key is held down
 
 <br>
+
+
+## 🟡 Differences
+
+### 1. 🌈 Key Press Handling Inside the Event Loop
+
+<br>
+
+- - 🍦 This code **checks for key events** (such as pressing keys) **in the `for event`** in `pygame.event.get()` **loop**.
