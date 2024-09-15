@@ -932,3 +932,7 @@ while running:
 <a name="pos_coordinates_visualization_"></a>
 
 ### When you test your code, you'll see different mouse coordinates in the terminal.
+
+#### 🟤  Here’s how it works:
+
+The **`pygame.mouse.get_pos()`** function returns the mouse coordinates relative to the window.
