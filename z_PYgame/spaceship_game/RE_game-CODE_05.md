@@ -2034,3 +2034,30 @@ while running:
     print((player_direction * player_speed).magnitude())
 
 ```
+
+<br>
+
+
+
+## 💥 How It Works:
+
+#### 🟤 `player_direction.normalize():`
+
+**Normalize:**
+
+- -  **This method adjusts** the `player_direction` **vector** so that its **length** is **1**, **keeping the direction but making sure** the `speed` is **consistent.**
+
+<br>
+
+#### 🟤 `if player_direction`:
+
+#### This checks if player_direction is not zero (i.e., ✋ the player is moving).
+
+`If player_direction is (0, 0)` **(no movement)**, normalization is not applied because dividing by zero would cause an error.
+
+
+#### 🟤 `else player_direction`:
+
+- - #### If the player is not moving (player_direction is (0, 0)), it simply keeps the direction as (0, 0).
+
+
