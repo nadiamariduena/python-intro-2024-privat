@@ -936,3 +936,9 @@ while running:
 #### 🟤  Here’s how it works:
 
 The **`pygame.mouse.get_pos()`** function returns the mouse coordinates relative to the window.
+
+> - #### These coordinates range from `(0, 0) in the top-left corner to (1280, 720) in the bottom-right corner`, corresponding to the dimensions defined in the WINDOW_WIDTH and WINDOW_HEIGHT variables:
+
+```python
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
+```
