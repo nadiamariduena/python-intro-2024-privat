@@ -1642,3 +1642,14 @@ pygame.quit()
 ```python
 player_direction.x = int(keys[pygame.K_RIGHT])
 ```
+
+
+### 🟠 INSTEAD of this:
+
+```python
+    if keys[pygame.K_RIGHT]:
+    #     print(1)
+        player_direction.x = 1
+    else:
+        player_direction.x = 0
+```
