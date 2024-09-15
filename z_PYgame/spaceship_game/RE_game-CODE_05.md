@@ -1562,5 +1562,31 @@ pygame.quit()
 
 <br>
 
-- - If the key is not pressed, player_direction.x is set to 0, stopping horizontal movement. The line with 0 ensures that the player stops moving when the key is released.
+- - If the key is not pressed, player_direction.x is set to 0, stopping horizontal movement.
 
+> #### The line with 0 ensures that the player stops moving when the key is released.
+
+<br>
+
+### Using the `K_1`
+
+```python
+   # ---------KEY  ---------
+    keys = pygame.key.get_pressed()
+    if keys[pygame.K_1]:
+    #     print(1)
+        player_direction.x = 1
+    else:
+        player_direction.x = 0
+
+    player_rect.center += player_direction * player_speed * dt
+    # ------------------
+
+```
+## 🔴 Output
+
+> - - Try pressing 1 and then 0 from your computer , this also stop it
+
+### 🟡 Key Not Pressed (else):
+
+- - 🟧 When the 1 key is not pressed, `player_direction.x is set to 0`.
