@@ -282,3 +282,26 @@ The `pygame.sprite.Sprite` class provides **built-in methods and properties** th
 By inheriting from `pygame.sprite.Sprite`, our game objects automatically gain these features.
 
 - - This makes it easier to handle drawing, updating, and collision detection.
+
+<br>
+<br>
+<br>
+<br>
+
+---
+
+
+
+
+## 1) 🟡 create the first class
+
+```python
+class Player(pygame.sprite.Sprite):
+    def __init__(self):
+        super().__init__()
+
+```
+
+  <br>
+
+ 🟤 **Purpose:** This line `class Player(pygame.sprite.Sprite)` defines a new class called **Player**.
