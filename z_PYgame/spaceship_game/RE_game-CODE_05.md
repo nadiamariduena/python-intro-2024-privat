@@ -1916,3 +1916,16 @@ player_speed = 300
 <br>
 
 ### 🫐 🟡 Diagonal Movement:
+
+
+<br>
+
+#### When moving diagonally (e.g., up and left), both `player_direction.x and player_direction.y` are non-zero ✋.
+
+> #### In the context of movement,
+
+- - it means that both the X and Y components of the movement vector are active (i.e., not zero) or non-zero (1,2) instead of (0,0).
+
+
+<br>
+<br>
