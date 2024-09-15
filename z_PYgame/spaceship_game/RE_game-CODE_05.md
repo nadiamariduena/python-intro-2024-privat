@@ -1933,3 +1933,19 @@ player_speed = 300
 
 <br>
 <br>
+
+
+## 🟡 Normalization
+
+### Why Normalization Matters
+
+#### 🔴 Vector Issue | Movement Components:
+
+In your game, `player_direction` **controls** how the player moves.
+
+- - **It has two parts:** `player_direction.x` (horizontal) and `player_direction.y` (vertical).
+
+
+<br>
+
+> **For example**, if `player_direction.x` is **1** and `player_direction.y` is **1**, it means the player is moving diagonally (both right and up).
