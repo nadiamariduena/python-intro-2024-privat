@@ -1479,3 +1479,25 @@ pygame.quit()
 ## 🟡What’s Happening:
 
 #### 🟢 `player_direction = pygame.math.Vector2(0)`
+
+
+- -  initializes the player’s movement to zero.
+
+
+#### 🟢 `player_speed = 300`
+
+- -  sets a reasonable speed for the player.
+
+
+#### 🟢 `keys[pygame.K_1]`
+
+- -  checks if the 1 key is pressed and moves the player right if it is.
+
+
+#### 🟢 `player_rect.center += player_direction * player_speed * dt`
+
+- -  updates the player’s position, ensuring smooth movement even if the frame rate changes.
+
+<br>
+
+## 🔴 Problem:
