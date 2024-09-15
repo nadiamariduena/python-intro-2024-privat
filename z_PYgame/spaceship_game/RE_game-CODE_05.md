@@ -1628,3 +1628,8 @@ pygame.quit()
 
 
 ###  You can use a more concise method to handle key input.
+
+
+<br>
+
+- - 🌈 **Instead of** writing a **full `if-else`** statement **to set** `player_direction.x`, **you can directly convert the boolean value** from `keys[pygame.K_RIGHT]` **to an integer**.
