@@ -928,3 +928,7 @@ while running:
 
 ## 🟡 Visualizing Mouse Coordinates
 
+
+<a name="pos_coordinates_visualization_"></a>
+
+### When you test your code, you'll see different mouse coordinates in the terminal.
