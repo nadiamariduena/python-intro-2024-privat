@@ -93,4 +93,10 @@ Now we're ready to move into the exciting phase of building our game.
 
 <br>
 
+### 🟤 Structure:
+
+We’ll create specific classes for different game elements like the player, enemies, and other objects.
+
+- - #### 🟦 Each class will handle its own behavior and properties, making the code modular and easier to maintain.
+
 <br>
