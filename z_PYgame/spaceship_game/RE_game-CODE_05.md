@@ -1344,5 +1344,7 @@ You should typically include it inside the game loop but outside the event handl
 
 #### Event Loop Method:
 
+-  - Detects key presses as discrete events.
 
+-  - Prints 1 only once per key press event.
 
