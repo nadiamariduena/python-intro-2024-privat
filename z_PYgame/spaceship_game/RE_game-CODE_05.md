@@ -1475,3 +1475,7 @@ pygame.quit()
 ```
 
 
+
+## 🟡What’s Happening:
+
+#### 🟢 `player_direction = pygame.math.Vector2(0)`
