@@ -1354,3 +1354,27 @@ You should typically include it inside the game loop but outside the event handl
 - - Continuously checks if the key is pressed.
 
 - - Prints 1 continuously as long as the key is held down.
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+---
+
+# 🟡 🫐 Movement Concepts
+
+
+ ## 1. 🫐 🟠 Update the Direction
+
+- - First, let’s adjust how we set the player's direction. Change this line:
+
+<br>
+
+**From this**: `player_direction = pygame.math.Vector2(1, 1)` **to this**:  `player_direction = pygame.math.Vector2(0, 0)`.
+
+
+
+
