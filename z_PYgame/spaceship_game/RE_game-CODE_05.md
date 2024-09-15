@@ -1325,3 +1325,10 @@ This method **only detects key presses when the KEYDOWN event is registered**, w
 <br>
 
 - - 🔴 When the "1" key is held down, **it will continuously print 1 to the console** because `pygame.key.get_pressed()` returns a snapshot of the current state of all keys every frame.
+
+```python
+keys = pygame.key.get_pressed()
+if keys[pygame.K_1]:
+    print(1)
+
+```
