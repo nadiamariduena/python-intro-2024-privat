@@ -1766,3 +1766,19 @@ pygame.quit()
 
 ```
 
+
+### 🟨 Explanation:
+
+
+
+🟤 **Subtraction (-)**: Subtracts the integer value of the left key state from the right key state.
+
+<br>
+
+🟢 **Result:** If only the right key is pressed, player_direction.x will be 1.
+
+
+
+<br>
+<br>
+<br>
