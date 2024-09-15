@@ -76,7 +76,25 @@
 
 Now we're ready to move into the exciting phase of building our game.
 
+<br>
 
+<br>
+
+## 🟢🫐  What We’ll Be Doing
+
+###  💥 Creating Game Classes:
+
+We’ll define classes for different elements of our game.
+
+> #### For example:
+
+- -  a Player class for the player character, an Enemy class for enemies, and so on. Each class will manage its own behavior and properties.
+
+
+
+
+
+<br>
 <br>
 <br>
 
