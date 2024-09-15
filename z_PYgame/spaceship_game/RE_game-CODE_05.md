@@ -1240,3 +1240,6 @@ if keys[pygame.K_1]:
 
   Here, `pygame.K_1` represents the **`"1"` key on the keyboard**.
 
+  - - **We check the value** at **this position** in the keys list to see if the **"1" key is pressed**.
+
+<br>
