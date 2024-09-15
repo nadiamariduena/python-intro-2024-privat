@@ -1777,7 +1777,10 @@ pygame.quit()
 
 🟢 **Result:** If only the right key is pressed, player_direction.x will be 1.
 
+> - - #### 🌈 If only the left key is pressed, it will be -1. If both or neither are pressed, it results in 0.
 
+
+🟢 **Purpose**: This line effectively sets player_direction.x to 1, -1, or 0 based on whether the right or left arrow keys are pressed, allowing for movement in both directions.
 
 <br>
 <br>
