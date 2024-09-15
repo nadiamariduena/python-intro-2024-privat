@@ -1417,3 +1417,61 @@ You should typically include it inside the game loop but outside the event handl
     #     print(1)
         player_direction.x = 1
 ```
+<br>
+<br>
+
+### 4. 🫐 🟠 Movement with `dt`
+
+#### To ensure smooth movement regardless of the frame rate, we need to use dt (delta time). Bring back this line:
+
+```bash
+player_rect.center += player_direction * player_speed * dt
+```
+
+
+## 🫐 🟡 Putting It All Together
+
+
+### Here’s how everything fits into your game loop:
+
+## a) Initialization:
+
+```python
+player_direction = pygame.math.Vector2(0)  # Start with no movement
+player_speed = 300  # Set the speed
+
+```
+## b) Main Loop:
+
+```python
+while running:
+    dt = clock.tick() / 1000  # Get time since last frame
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+    # ✋ ---------
+    keys = pygame.key.get_pressed()
+    if keys[pygame.K_1]:
+        player_direction.x = 1  # Move right when '1' is pressed
+
+    player_rect.center += player_direction * player_speed * dt  # Update player position
+    # ✋ ---------
+
+    # Draw everything
+    display_surface.fill("lavenderblush2")
+    for pos in star_positions:
+        display_surface.blit(star_surf, pos)
+
+    display_surface.blit(player_surf, player_rect)
+    display_surface.blit(meteor_surf, meteor_rect)
+    display_surface.blit(laser_surf, laser_rect)
+
+    pygame.display.update()
+
+pygame.quit()
+
+```
+
+
