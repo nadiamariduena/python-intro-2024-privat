@@ -1699,4 +1699,13 @@ player_direction.x = int(keys[pygame.K_RIGHT])
 
 This function **returns a sequence (like a list) of boolean values** representing the state of every key on the keyboard.
 
+<br>
 
+
+#### 🔴 For instance, `keys[pygame.K_RIGHT]` <u>is True `if` the right arrow key is pressed</u>  , 🔴 and False otherwise.
+
+### 🟠 `int(keys[pygame.K_RIGHT])`:
+
+#### This converts the boolean value (True or False) into an integer (1 or 0 respectively).
+
+- - 🔴 In Python, True is equivalent to `1` and False is equivalent to `0`. Therefore, `int(keys[pygame.K_RIGHT])` gives `1` if the key is pressed and 0 if it is not.
