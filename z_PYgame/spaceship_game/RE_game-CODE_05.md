@@ -1761,4 +1761,8 @@ pygame.quit()
 
 ### 🟩 🟡 This line controls the horizontal movement of the player character by setting
 
+```python
+    player_direction.x = int(keys[pygame.K_RIGHT]) - int(keys[pygame.K_LEFT])
+
+```
 
