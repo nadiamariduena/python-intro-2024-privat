@@ -313,3 +313,7 @@ class Player(pygame.sprite.Sprite):
 
 <br>
 
+
+#### 🟤 Why `pygame.sprite.Sprite`:
+
+**By inheriting from** `pygame.sprite.Sprite`, ✋ our **Player class automatically gets some useful features**, like handling its own image and position (using Surface and Rect).
