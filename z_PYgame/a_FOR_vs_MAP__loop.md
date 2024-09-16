@@ -141,3 +141,16 @@ The vertices array in `Three.js` **geometries** <u>is not just a simple array bu
 
 <br>
 <br>
+
+### 🫐 🟡 Why `map` May Cause Issues
+
+
+ #### 1. 🟫 Creates a New Array:
+
+   The `map` function returns a new array with the transformed vertices, but Three.js’s internal mechanisms are expecting the original vertices array to be updated.
+
+> - - ####  By replacing it with a new array, you could break the link between Three.js and the geometry’s vertex data.
+
+<br>
+
+#### 🔴 If you attempt to use `map` to replace the `for` loop:
