@@ -264,3 +264,47 @@ pygame.quit()
 > - - #### This loop also applies the convert_alpha() method to each image to handle transparency.
 
 <br>
+
+```python
+
+#🟨 1 imgs -----
+script_dir = os.path.dirname(__file__)
+#🟨 2 img's path
+image_paths = {
+    'player': os.path.join(script_dir, '..', 'images', 'player.png'),
+    'star': os.path.join(script_dir, '..', 'images', 'star.png'),
+    'meteor': os.path.join(script_dir, '..', 'images', 'meteor.png'),
+    'laser': os.path.join(script_dir, '..', 'images', 'laser.png')
+
+}
+
+#🟨 3 INIT the images dictionary
+images = {}
+
+
+# ---------
+#🟨 4 LOOP alpha convert
+# Load images and handle errors
+# 🟢 Notice how we grab the dictionary "image_paths"
+
+for key, path_imgs in image_paths.items():
+    try:
+        #LOAD and CONVERT the image in one step
+        images[key] = pygame.image.load(path_imgs).convert_alpha()
+
+    except pygame.error as img_item:
+
+        print(f"Failed to load image '{path_imgs}': {img_item}")
+        # Fall img IF LOAD fails
+        images[key] = pygame.Surface((50,50)) # square
+        images[key].fill((249, 255, 51 )) # yellow acid
+
+
+```
+
+>   #### 🟢 Notice how we grab the dictionary "image_paths" in step 4
+
+<br>
+
+### 🟩 💥 If you plan to use the dictionary, be aware of the following:
+
