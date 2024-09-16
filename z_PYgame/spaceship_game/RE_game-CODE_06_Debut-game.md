@@ -329,3 +329,15 @@ class Player(pygame.sprite.Sprite):
 - - It’s called when a new instance of Player is created.
 
 #### 🟤 It initializes the object and sets up its attributes.
+
+<br>
+
+```python
+    def __init__(self):
+        super().__init__()
+
+```
+
+### 🍯 `super().__init__()`:
+
+**Purpose:** This line calls the `__init__` **method of the parent class** `(pygame.sprite.Sprite)`.
