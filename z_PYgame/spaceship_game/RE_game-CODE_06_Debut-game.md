@@ -477,3 +477,5 @@ You’ve heard correctly in many modern  React and JavaScript contexts.
   **Using `map` over `for` loops for rendering lists of components in React is generally recommended for several reasons**:
 
 - - - 🟡 **Immutability:** map does not mutate the original array but returns a new array, aligning with functional programming principles and making your code easier to reason about.
+
+- - - **Inline Rendering:** With map, you can directly embed the logic for rendering lists of components within the JSX, which keeps your component logic more compact and expressive.
