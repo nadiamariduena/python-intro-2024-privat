@@ -435,3 +435,12 @@ class Player(pygame.sprite.Sprite):
         self.image = pygame.image.load(join('images', 'player.png',)).convert_alpha()
         self.rect
 ```
+
+<br>
+<br>
+<br>
+
+---
+
+
+### 🌈 🧸 In my project, my code differs from the tutorial due to my use of a dictionary to manage image imports.
