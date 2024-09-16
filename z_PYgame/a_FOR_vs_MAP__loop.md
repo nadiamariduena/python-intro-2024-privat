@@ -108,3 +108,13 @@ startAnimationLoop = () => {
 
 ### 🧶 Your code example for animating a mesh in Three.js relies on updating vertices of a geometry during each frame.
 
+
+#### 🟩 In this case, switching from a for loop to map could indeed introduce issues. Here’s why:
+
+<br>
+
+### 🟡 Current Code Analysis
+
+
+
+**In your `startAnimationLoop` method**, you’re using a for loop to iterate over the vertices of the mesh’s geometry to apply noise and update their positions.
