@@ -421,3 +421,7 @@ class Player(pygame.sprite.Sprite):
         self.rect
 ```
 
+<br>
+<br>
+
+### 🟡 But if you are following the  [tutorial | 1:57:26](https://youtu.be/8OMghdHP-zs?si=PmVQXMiJDKqBUPIE&t=7046) structure, then use the below
