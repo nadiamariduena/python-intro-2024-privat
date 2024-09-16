@@ -543,3 +543,4 @@ For complex operations, optimizing code through profiling and targeted improveme
 >  ####  Instead of calling `convert_alpha()` multiple times for each image, `we handle it in a single loop` when loading the images.
 
 
+####  Read More: [convert_&_convertalpha_](../RE_game_import_imgs_in_dictionary.md)
