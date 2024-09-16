@@ -370,3 +370,5 @@ class Player(pygame.sprite.Sprite):
 ```
 
 #### 🟤 `self.image`
+
+**Purpose:** This **attribute will hold the image (or surface)** that represents the player on the screen.
