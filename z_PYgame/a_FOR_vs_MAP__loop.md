@@ -154,3 +154,48 @@ The vertices array in `Three.js` **geometries** <u>is not just a simple array bu
 <br>
 
 #### 🔴 If you attempt to use `map` to replace the `for` loop:
+
+```javascript
+this.cube.geometry.vertices = this.cube.geometry.vertices.map((p) => {
+  p.normalize().multiplyScalar(
+    1 + 0.3 * this.noise.perlin3(
+      p.x * spikes + this.animationSpeed,
+      p.y * spikes,
+      p.z * spikes
+    )
+  );
+  return p;
+});
+
+```
+
+<br>
+
+ ### 2. 🟫  Potential Issues:
+
+🔴 This change can lead to issues with **how Three.js updates the mesh and could potentially cause performance problems or rendering artifacts**.
+
+
+
+### 3. 🟫 Recommended Approach
+
+#### Stick with the for loop for the following reasons:
+
+**Direct Updates:** ✋ You’re directly updating each vertex in place, which is required for the Three.js renderer to correctly interpret and render the updated geometry.
+
+<br>
+
+### 4. 🟫 Consistency:
+
+> - - #### Using for loops ensures that the updates to the vertex positions are applied correctly and consistently, as expected by Three.js.
+
+
+<br>
+
+### Summary
+
+In your case, using a for loop is the appropriate approach for updating vertices in Three.js, especially for animation purposes.
+
+> - - The map function is better suited for scenarios where you need to create new arrays based on existing data without modifying the original data directly.
+
+----
