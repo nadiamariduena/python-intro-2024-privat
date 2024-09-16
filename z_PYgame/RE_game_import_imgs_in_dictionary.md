@@ -242,3 +242,15 @@ pygame.quit()
 > #### This reduces the amount of redundant computation and improves efficiency.
 
 <br>
+
+
+#### 🟩 Improved Performance:
+
+- - While `convert_alpha()` itself is not highly computationally expensive, handling it in a loop avoids unnecessary repeated calls and keeps the code streamlined.
+
+> #### This becomes particularly beneficial as the number of images increases.
+
+<br>
+<br>
+<br>
+<br>
