@@ -330,3 +330,31 @@ for key, path_imgs in image_paths.items():
 - - Focus on the `images` **variable**, which carries the alpha data from the loop described earlier.
 
 > #### 🔴 Remember, `images` is declared as `images = {}` and is subsequently used in the for loop to handle the alpha conversion.
+
+```python
+
+
+#--------------- CLASS
+class Player(pygame.sprite.Sprite):
+    def __init__(self):
+        super().__init__()
+        try:
+            self.image = images['player']
+        except KeyError:
+            print("Player image not found in images dictionary.")
+
+
+
+            self.image = pygame.Surface((50, 50))
+            self.image.fill((0, 56, 175 ))  # BLUE Klein
+
+        self.rect = self.image.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+
+
+
+# Create PLAYER class instance
+player = Player()
+#--------------- CLASS
+```
+
+
