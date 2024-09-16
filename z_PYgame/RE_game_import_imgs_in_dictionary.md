@@ -358,3 +358,13 @@ player = Player()
 ```
 
 
+
+<br>
+<br>
+
+## 🟠 3. STEP: Adding Additional Images
+
+
+### 🟤 In this final step, we'll load and prepare other game images using the same loop.
+
+> #### Although these images are not directly used in the Player class, they are essential for other parts of the game.
