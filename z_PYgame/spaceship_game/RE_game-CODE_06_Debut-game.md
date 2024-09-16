@@ -356,4 +356,10 @@ class Player(pygame.sprite.Sprite):
 
 ---
 
+
 <br>
+<br>
+
+## 🟨 🫐 Img & Rect
+
+- **Add** the following **to the `class`**
