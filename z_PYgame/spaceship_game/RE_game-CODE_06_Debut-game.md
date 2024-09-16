@@ -363,3 +363,10 @@ class Player(pygame.sprite.Sprite):
 ## 🟨 🫐 Img & Rect
 
 - **Add** the following **to the `class`**
+
+```python
+        self.image
+        self.rect
+```
+
+#### 🟤 `self.image`
