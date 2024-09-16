@@ -512,3 +512,14 @@ You’ve heard correctly in many modern  React and JavaScript contexts.
 > #### 🍦 Performance differences are usually minimal for small to medium-scale tasks.
 
 For complex operations, optimizing code through profiling and targeted improvements is more effective than relying solely on map or for loops.
+
+
+<br>
+<br>
+<br>
+
+
+
+### 🟩 💥 If you plan to use the dictionary as I do, be aware of the following:
+
+### 🔴 Potential Issues:
