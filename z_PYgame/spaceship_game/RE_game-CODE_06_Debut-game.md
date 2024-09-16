@@ -530,4 +530,16 @@ For complex operations, optimizing code through profiling and targeted improveme
 
 ####  Read More: [RE_game_import_imgs_in_dictionary](../RE_game_import_imgs_in_dictionary.md)
 
+<br>
+
+---
+
+
+
+### 🟡 <u>LOOP alpha </u>/ But We can always make the code better
+
+###  WHY?
+
+>  ####  Instead of calling `convert_alpha()` multiple times for each image, `we handle it in a single loop` when loading the images.
+
 
