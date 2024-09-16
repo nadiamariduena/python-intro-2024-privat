@@ -523,3 +523,5 @@ For complex operations, optimizing code through profiling and targeted improveme
 ### 🟩 💥 If you plan to use the dictionary as I do, be aware of the following:
 
 ### 🔴 Potential Issues:
+
+- Consider adding **error handling** around image loading to catch issues like missing files:
