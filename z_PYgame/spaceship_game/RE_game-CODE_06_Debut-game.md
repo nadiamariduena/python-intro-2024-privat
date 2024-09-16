@@ -450,3 +450,21 @@ class Player(pygame.sprite.Sprite):
  ####  🟤(threejs)
 
 > - - By grouping image assets in a dictionary (arrays in Javascript), I can efficiently handle multiple model parts and animations, or any other use cases.
+
+
+<br>
+<br>
+
+---
+
+ # 🟡 For vs map
+
+ ### Performance issues
+
+ <br>
+
+<a name="for_loop_for_some_situations_"></a>
+
+ ### 🟣 Question: I've read that <u>using for loops can be less efficient for certain situations and that map might be a better alternative</u> . Does this apply to `Pygame` as well?
+
+ #### ✅ chatgpt:
