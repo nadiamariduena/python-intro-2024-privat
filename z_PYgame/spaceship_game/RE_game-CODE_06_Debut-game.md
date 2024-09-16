@@ -492,3 +492,16 @@ You’ve heard correctly in many modern  React and JavaScript contexts.
 #### 2. 🟣 QUESTION: "I’m not entirely sure, ✋ but I seem to recall that using map in this code might lead to animation issues. Could you explain why using map instead of a for loop could have potential consequences?
 
 #### 🌈 Read More here: [a_FOR_vs_MAP__loop](../a_FOR_vs_MAP__loop.md)
+
+<br>
+<br>
+<br>
+
+----
+
+🟫 **PYTHON: pygame**
+
+ **In Pygame**, using `for` **loops** is generally **acceptable and often necessary** for tasks like iterating over game objects or handling events.
+
+ <br>
+
