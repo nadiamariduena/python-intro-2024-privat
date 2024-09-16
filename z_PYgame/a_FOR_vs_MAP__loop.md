@@ -118,3 +118,26 @@ startAnimationLoop = () => {
 
 
 **In your `startAnimationLoop` method**, you’re using a for loop to iterate over the vertices of the mesh’s geometry to apply noise and update their positions.
+
+### 🟤 This is necessary because:
+
+### 🟧 Direct Mutation:
+
+🔴 You’re directly modifying each vertex in the vertices array, which is crucial for creating the animation effect.
+
+- - 🔴 **The map** function **creates a new array based on the transformation applied to each item**, **which doesn’t directly mutate the original array but instead creates a new one.**
+
+> - - #### 🔴 👾 This is not suitable for your use case where direct mutation of vertices is required.
+
+<br>
+
+### 🟧 Vertex Array:
+
+The vertices array in `Three.js` **geometries** <u>is not just a simple array but a special objec</u> t that the renderer and other parts of Three.js interact with.
+
+<br>
+
+>  🔴 The **`direct`** manipulation in a **`for`** loop **ensures that the updates are applied directly to the vertices** that `Three.js` uses for rendering.
+
+<br>
+<br>
