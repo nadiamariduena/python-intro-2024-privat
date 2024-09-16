@@ -490,3 +490,5 @@ You’ve heard correctly in many modern  React and JavaScript contexts.
 #### 1. 🟣 QUESTION: `for` loop also cause issues with certain animations in threejs, is that right?
 
 #### 2. 🟣 QUESTION: "I’m not entirely sure, ✋ but I seem to recall that using map in this code might lead to animation issues. Could you explain why using map instead of a for loop could have potential consequences?
+
+#### 🌈 Read More here: [a_FOR_vs_MAP__loop](../a_FOR_vs_MAP__loop.md)
