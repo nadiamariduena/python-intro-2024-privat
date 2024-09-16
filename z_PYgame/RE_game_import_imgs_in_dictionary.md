@@ -319,3 +319,14 @@ for key, path_imgs in image_paths.items():
  🟤 **Ensure that** `script_dir` is correctly set to the directory where your script is located.
 
  <br>
+
+- - -  🔺**Using** `os.path.abspath` [os.path.html](https://docs.python.org/3/library/os.path.html) or `os.path.dirname(__file__)` **helps to determine the script's directory**.
+
+
+<br>
+
+## 🟠 2. STEP: Next, we’ll integrate the loop information into the class
+
+- - Focus on the `images` **variable**, which carries the alpha data from the loop described earlier.
+
+> #### 🔴 Remember, `images` is declared as `images = {}` and is subsequently used in the for loop to handle the alpha conversion.
