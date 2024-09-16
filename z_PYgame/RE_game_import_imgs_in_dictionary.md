@@ -368,3 +368,152 @@ player = Player()
 ### 🟤 In this final step, we'll load and prepare other game images using the same loop.
 
 > #### Although these images are not directly used in the Player class, they are essential for other parts of the game.
+
+```python
+# Create PLAYER class instance
+player = Player()
+#--------------- CLASS
+
+# Define other surfaces
+meteor_surf = images['meteor']
+laser_surf = images['laser']
+star_surf = images['star']
+```
+
+<br>
+<br>
+
+# The code
+
+```python
+
+import pygame
+import os
+from random import randint
+
+#------------- INIT
+pygame.init()
+# -------------
+
+
+# SCREEN
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
+display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+# TEXT screen
+pygame.display.set_caption("Space shooter")
+
+
+
+
+# imgs -----
+script_dir = os.path.dirname(__file__)
+# img's path
+image_paths = {
+    'player': os.path.join(script_dir, '..', 'images', 'player.png'),
+    'star': os.path.join(script_dir, '..', 'images', 'star.png'),
+    'meteor': os.path.join(script_dir, '..', 'images', 'meteor.png'),
+    'laser': os.path.join(script_dir, '..', 'images', 'laser.png')
+
+}
+
+# INIT the images dictionary
+images = {}
+
+# Load images and handle errors
+# Notice how we grab the dictionary "image_paths"
+for key, path_imgs in image_paths.items():
+    try:
+        #LOAD and CONVERT the image in one step
+        images[key] = pygame.image.load(path_imgs).convert_alpha()
+
+    except pygame.error as img_item:
+
+        print(f"Failed to load image '{path_imgs}': {img_item}")
+        # Fall img IF LOAD fails
+        images[key] = pygame.Surface((50,50)) # square
+        images[key].fill((249, 255, 51 )) # yellow acid
+
+
+#--------------- CLASS
+class Player(pygame.sprite.Sprite):
+    def __init__(self):
+        super().__init__()
+        try:
+
+            self.image = images['player']
+        except KeyError:
+            print("Player image not found in images dictionary.")
+
+
+            # Handle the failure (e.g., set a default image or exit)
+            #  ---- 🔴 create a red square as a fallback/ shape red in case the img doesnt load --
+            self.image = pygame.Surface((50, 50))  # Example fallback surface
+            self.image.fill((0, 56, 175 ))  # BLUE Klein
+
+        self.rect = self.image.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+
+
+
+# Create PLAYER class instance
+player = Player()
+#--------------- CLASS
+
+# Define other surfaces
+meteor_surf = images['meteor']
+laser_surf = images['laser']
+star_surf = images['star']
+
+
+#----
+# (WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2)
+# Will pos the plane or whatever at the center of the screen/window
+# -----
+
+meteor_rect = meteor_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+
+laser_rect = laser_surf.get_frect(bottomleft=(20, WINDOW_HEIGHT - 10))
+
+
+star_positions = [(randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)) for i in range(20)]
+
+
+
+
+
+#CLOCK:  FPS (frame per second)
+clock = pygame.time.Clock()
+
+#while loop related
+running = True
+
+
+while running:
+    # DELTA time
+    # frame rate / division
+    dt = clock.tick() / 1000
+    # print(dt)
+
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+
+    # -----------------
+    # -----------------
+    display_surface.fill("lavenderblush2")
+
+    for pos in star_positions:
+        display_surface.blit(star_surf, pos)
+
+    # display_surface.blit(player_surf, player_rect)
+    display_surface.blit(meteor_surf, meteor_rect)
+    display_surface.blit(laser_surf, laser_rect)
+
+    pygame.display.update()
+
+
+
+pygame.quit()
+
+```
