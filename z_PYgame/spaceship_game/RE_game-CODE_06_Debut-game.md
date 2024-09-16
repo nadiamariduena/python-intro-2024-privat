@@ -505,3 +505,4 @@ You’ve heard correctly in many modern  React and JavaScript contexts.
 
  <br>
 
+ - - - 🔴 **While map can be useful for applying functions to sequences, it doesn't always fit** well with Pygame's need for explicit iteration and real-time processing.
