@@ -506,3 +506,9 @@ You’ve heard correctly in many modern  React and JavaScript contexts.
  <br>
 
  - - - 🔴 **While map can be useful for applying functions to sequences, it doesn't always fit** well with Pygame's need for explicit iteration and real-time processing.
+
+ <br>
+
+> #### 🍦 Performance differences are usually minimal for small to medium-scale tasks.
+
+For complex operations, optimizing code through profiling and targeted improvements is more effective than relying solely on map or for loops.
