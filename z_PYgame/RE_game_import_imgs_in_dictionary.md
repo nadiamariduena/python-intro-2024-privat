@@ -254,3 +254,13 @@ pygame.quit()
 <br>
 <br>
 <br>
+
+## 🟠 1. STEP: Images Dictionary:
+
+<br>
+
+- - 🌈  The images **dictionary is initialized as** `images = {}` **and is populated in a loop with images loaded from file paths.**
+
+> - - #### This loop also applies the convert_alpha() method to each image to handle transparency.
+
+<br>
