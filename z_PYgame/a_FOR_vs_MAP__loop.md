@@ -55,3 +55,56 @@ Yes, that's correct. In Three.js, 🔴 **using for loops in certain scenarios ca
 
 #### 🟣 QUESTION: "I’m not entirely sure, ✋ but I seem to recall that using map in this code might lead to animation issues. Could you explain why using map instead of a for loop could have potential consequences?"
 
+```javascript
+
+addCustomSceneObjects = () => {
+  // INIT Perlin:
+  this.noise = new Perlin();
+  // https://rexrainbow.github.io/phaser3-rex-notes/docs/site/perlin/
+
+  const loader = new THREE.TextureLoader();
+  this.geometry = new THREE.SphereGeometry(50, 50, 50, 50);
+  this.material = new THREE.MeshBasicMaterial({
+    color: 0x000000,
+    wireframe: true,
+   });
+
+
+  this.cube = new THREE.Mesh(this.geometry, this.material);
+  this.scene.add(this.cube);
+
+  this.cube.rotation.set(-0.1, 0, 0);
+
+};
+
+
+startAnimationLoop = () => {
+  this.animationSpeed = performance.now() * 0.001;
+
+  //      The waves
+  var spikes = 2;
+//   🔴 FOR instead of MAP
+  for (
+    var eachVertice = 0;
+    eachVertice < this.cube.geometry.vertices.length;
+    eachVertice++
+  ) {
+    var p = this.cube.geometry.vertices[eachVertice];
+    p.normalize().multiplyScalar(
+      1 +
+        0.3 *
+          this.noise.perlin3(
+            p.x * spikes + this.animationSpeed,
+            p.y * spikes,
+            p.z * spikes
+          )
+    );
+  }
+
+};
+```
+
+<br>
+
+### 🧶 Your code example for animating a mesh in Three.js relies on updating vertices of a geometry during each frame.
+
