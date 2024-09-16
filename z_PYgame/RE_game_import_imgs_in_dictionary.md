@@ -308,3 +308,14 @@ for key, path_imgs in image_paths.items():
 
 ### 🟩 💥 If you plan to use the dictionary, be aware of the following:
 
+
+<br>
+
+### 🔴 Potential Issues:
+
+
+#### 💥 File Paths:
+
+ 🟤 **Ensure that** `script_dir` is correctly set to the directory where your script is located.
+
+ <br>
