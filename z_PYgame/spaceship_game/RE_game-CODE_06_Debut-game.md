@@ -969,3 +969,10 @@ all_sprites = pygame.sprite.Group()
 ```
 ### 🟤 2. Add Sprites to the Group
 
+- -  In your game loop (WHILE), you'll use the group’s **draw** and **update** `methods`:
+
+```python
+all_sprites.draw(display_surface) # Renders all sprites, which is your game window.
+all_sprites.update() # Refreshes the display to show the updated frame
+
+```
