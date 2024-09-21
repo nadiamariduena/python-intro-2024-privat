@@ -50,3 +50,18 @@
 **Reintroduced Movement Logic:** We copied the key direction input code into the update() method of the Player class to enable smooth navigation.
 
 **Normalized the Direction Vector:** We ensured that the direction vector is normalized, which helps maintain consistent speed, especially when multiple keys are pressed.
+
+**Defined the Speed Variable:** We set a speed variable to control how fast the player moves, enhancing the responsiveness of the gameplay.
+
+**Incorporated Delta Time:** We integrated delta time (dt) to ensure that movement remains fluid and consistent across different frame rates, improving the overall game experience.
+
+<br>
+<br>
+
+#### ⚫ Global Accessibility
+
+**Explored Global Accessibility of Delta Time (dt):** We discussed how dt can be accessed globally and its implications for our code.
+
+-  **Global Scope** to access Delta Time:  ( 🔺 **not a good practice in some scenarios**)
+
+<br>
