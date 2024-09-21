@@ -524,3 +524,18 @@ class Player(pygame.sprite.Sprite):
 - - **Integrate the image into** the `Player` **class** to represent the sprite visually.
 
 - - Define a rectangle around the sprite to manage its position and handle collisions.
+
+
+
+<br>
+<br>
+
+### 🟧 Add the following to the `class`:
+
+```python
+        self.image
+        self.rect
+```
+
+### Like so:
+
