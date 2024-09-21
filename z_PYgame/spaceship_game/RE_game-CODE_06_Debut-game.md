@@ -100,3 +100,21 @@
 ---
 
 <br>
+
+
+<a name="What_We_ve_Accomplished"></a>
+
+
+# 🟡 Before Starting:
+
+
+### 🟩  <u>What We’ve Accomplished: </u>
+
+
+
+#### 🟠 Handling Inputs:
+
+
+<br>
+<br>
+<br>
