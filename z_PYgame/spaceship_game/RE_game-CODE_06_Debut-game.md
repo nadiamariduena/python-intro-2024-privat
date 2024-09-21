@@ -1189,3 +1189,25 @@ super().__init__(*groups)
 > #### If you’re just testing with a single group, you might get away with super().__init__(groups) if groups is already a single object or just a single group.
 
 ### 🔴However, for handling multiple groups, the asterisk is essential.
+
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+## 🟦 Moving Forward:
+
+
+### 🟠 Now that `we’ve updated the code by adding the group to the Player class` and passing it to `super()`,  the sprite is properly attached to the group and can be managed as an instance, as shown below:
+
+```python
+class Player(pygame.sprite.Sprite):
+    def __init__(self, groups):
+        super().__init__(groups)
+        try:
+```
+
+
