@@ -229,3 +229,16 @@ self.rect = self.image.get_frect(center=(randint(0, WINDOW_WIDTH), y))
 randint(0, WINDOW_HEIGHT)
 ```
 
+
+
+
+### 🟠 Implementation in the __init__ Method
+
+- - Combine these concepts to set the star's rectangle as follows:
+
+#### In the `__init__` method, set the star's rectangle using:
+
+```python
+self.rect = self.image.get_frect(center=(randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)))
+
+```
