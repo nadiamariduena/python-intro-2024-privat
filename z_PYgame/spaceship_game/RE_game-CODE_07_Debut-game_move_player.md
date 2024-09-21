@@ -980,3 +980,7 @@ pygame.quit()
 >This function may not be supported in the latest versions of Pygame, so it's essential to understand why.
 
 <br>
+
+- 🟣 **QUESTION:**  Is `get_just_pressed()` from an Older Version?
+
+- ✅ **chatgpt:** Yes, `pygame.key.get_just_pressed()` is a function that was part of older versions of Pygame, but it might not work as expected in more recent versions.
