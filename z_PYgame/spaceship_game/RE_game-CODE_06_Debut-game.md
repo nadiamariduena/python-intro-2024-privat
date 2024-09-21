@@ -384,3 +384,21 @@ By inheriting from `pygame.sprite.Sprite`, our game objects automatically gain t
 
 > - - #### 🟤 This makes it easier to handle drawing, updating, and collision detection.
 
+
+
+---
+
+<br>
+<br>
+<br>
+
+
+
+<br>
+<br>
+<br>
+
+## 🟦 Moving Forward:
+
+ <a name="Creating_the_Initial_class"></a>
+
