@@ -988,3 +988,24 @@ all_sprites.update() # Refreshes the display to show the updated frame
 
 - -  Renders all sprites onto the `display_surface`, which is your game window.
 
+- - ###  In your main loop, add the following lines to draw your sprites:
+
+
+
+```python
+    # all_sprites.update() # OPTION
+   all_sprites.draw(display_surface)
+   # Draw sprites on the display surface
+
+    pygame.display.update()
+pygame.quit()
+```
+
+
+<br>
+
+### 🟤 4. Test
+
+ **If you test it now, you won’t see anything** 👎
+
+- -  Because the **sprites are not being added to the all_sprites group**.
