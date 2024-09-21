@@ -530,3 +530,435 @@ self.rect.center += self.direction * self.speed * dt
 
 - - To set the **speed**, add the following line in the `__init__` method of the `Player` class:
 
+
+
+```python
+self.speed = 300
+```
+<br>
+
+### 🔴 Place it right after initializing the direction vector:
+
+
+```python
+        self.direction = pygame.Vector2()
+        self.speed = 300
+
+    def update(self):
+```
+> ### This ensures that your player has a defined speed for movement calculations!
+
+<br>
+<br>
+<br>
+
+# 🟠 Current Code
+
+### Before we proceed, let’s take a look at the current state of the code.
+
+
+
+> ### Here’s the latest version of the code:
+
+
+<details>
+<summary> <h4> 🟦 🟡Click to unfold the CODE with DT changes</h4> </summary>
+
+<br>
+
+```python
+import pygame
+import os
+from random import randint
+
+#------------- INIT
+pygame.init()
+# -------------
+
+
+# SCREEN
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
+display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+# TEXT screen
+pygame.display.set_caption("Space shooter")
+
+
+
+
+#🟨 imgs -----
+script_dir = os.path.dirname(__file__)
+# img's path
+image_paths = {
+    'player': os.path.join(script_dir, '..', 'images', 'player.png'),
+    'star': os.path.join(script_dir, '..', 'images', 'star.png'),
+    'meteor': os.path.join(script_dir, '..', 'images', 'meteor.png'),
+    'laser': os.path.join(script_dir, '..', 'images', 'laser.png')
+
+}
+
+# INIT the images dictionary
+images = {}
+
+#Load images and handle errors
+# Notice how we grab the dictionary "image_paths"
+for key, path_imgs in image_paths.items():
+    try:
+        #LOAD and CONVERT the image in one step
+        images[key] = pygame.image.load(path_imgs).convert_alpha()
+
+    except pygame.error as img_item:
+
+        print(f"Failed to load image '{path_imgs}': {img_item}")
+        # Fall img IF LOAD fails
+        images[key] = pygame.Surface((50,50)) # square
+        images[key].fill((249, 255, 51 )) # yellow acid
+
+
+
+class Player(pygame.sprite.Sprite):
+    def __init__(self, groups):
+        super().__init__(groups)
+        try:
+            # self.image = pygame.image.load(image_paths['player']).convert_alpha()
+            self.image = images['player']
+        except KeyError:
+            print("Player image not found in images dictionary.")
+            # Handle the failure (e.g., set a default image or exit)
+            #  ---- 🔴 create a red square as a fallback/ shape red in case the img doesnt load --
+            self.image = pygame.Surface((50, 50))  # Example fallback surface
+            self.image.fill((0, 56, 175 ))  # BLUE Klein
+
+        self.rect = self.image.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+
+        self.direction = pygame.Vector2()
+        self.speed = 300
+
+    def update(self, dt):
+        keys = pygame.key.get_pressed()
+        # INT:  `int()` is the function doing the conversion. int converts this boolean value into an integer. In Python, True is equivalent to 1 and False is equivalent to 0. Therefore, int(keys[pygame.K_RIGHT]) gives 1 if the key is pressed, and 0 if it is not
+        self.direction.x = int(keys[pygame.K_RIGHT]) - int(keys[pygame.K_LEFT])
+        self.direction.y = int(keys[pygame.K_DOWN]) - int(keys[pygame.K_UP])
+
+
+        # to normalize the vector, after the issue when pressing top and left at the same time
+        self.direction = self.direction.normalize() if self.direction else self.direction
+        #    print("shipt is being updated")
+
+        # Update the player position with speed and delta time
+        self.rect.center += self.direction * self.speed * dt
+
+
+
+
+        # print(pygame.mouse.get_pos())
+        # #MAGNITUDE
+        # print((player_direction * player_speed).magnitude())
+
+
+all_sprites = pygame.sprite.Group()
+# Create PLAYER class instance
+player = Player(all_sprites)
+# all_sprites.add(player)
+
+
+
+
+# IMAGES out of the class
+
+# meteor_surf = pygame.image.load(image_paths['meteor']).convert_alpha()
+# laser_surf = pygame.image.load(image_paths['laser']).convert_alpha()
+
+# Define other surfaces
+meteor_surf = images['meteor']
+laser_surf = images['laser']
+star_surf = images['star']
+
+
+
+# (WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2)
+# Will pos the plane at the center of the screen/window
+# player_rect = player_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+meteor_rect = meteor_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+
+laser_rect = laser_surf.get_frect(bottomleft=(20, WINDOW_HEIGHT - 10))
+
+# start
+# star_surf = pygame.image.load(image_paths['star']).convert_alpha()
+# star pos
+star_positions = [(randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)) for i in range(20)]
+
+# 1. -----  move right to left loop  ---
+
+#
+##20 X, - 10Y axis
+#🤚 VECTOR
+# player_direction = pygame.math.Vector2() # This vector represents the direction and speed at which the player is moving:
+# player speed
+#🟡 actual movement
+# player_speed = 300
+# -----  move right to left loop  ---
+
+
+
+
+#✋ CLOCK:  FPS (frame per second)
+clock = pygame.time.Clock()
+
+#while loop related
+running = True
+
+
+while running:
+    #🤚 DELTA time
+    # frame rate / division
+    dt = clock.tick() / 1000
+    # print(dt)
+
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+
+
+
+    # -----------------
+    # -----------------
+
+    # 🟨 UPDATE sprite group
+    all_sprites.update(dt)
+
+
+    display_surface.fill("lavenderblush2")
+
+    for pos in star_positions:
+        display_surface.blit(star_surf, pos)
+
+    # display_surface.blit(player_surf, player_rect)
+    display_surface.blit(meteor_surf, meteor_rect)
+    display_surface.blit(laser_surf, laser_rect)
+
+    # display_surface.blit(player.image, player.rect)
+    # surface.blit(sprite.image, sprite.rect)
+    # all_sprites.update()
+    all_sprites.draw(display_surface)
+
+    pygame.display.update()
+
+
+
+pygame.quit()
+```
+
+ <br>
+</details>
+
+<details>
+<summary> <h4> 🟡 Click to unfold the CODE without DT changes</h4> </summary>
+
+
+
+<br>
+
+
+
+```python
+
+import pygame
+import os
+from random import randint
+
+#------------- INIT
+pygame.init()
+# -------------
+
+
+# SCREEN
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
+display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+# TEXT screen
+pygame.display.set_caption("Space shooter")
+
+
+
+
+#🟨 imgs -----
+script_dir = os.path.dirname(__file__)
+# img's path
+image_paths = {
+    'player': os.path.join(script_dir, '..', 'images', 'player.png'),
+    'star': os.path.join(script_dir, '..', 'images', 'star.png'),
+    'meteor': os.path.join(script_dir, '..', 'images', 'meteor.png'),
+    'laser': os.path.join(script_dir, '..', 'images', 'laser.png')
+
+}
+
+# INIT the images dictionary
+images = {}
+
+#Load images and handle errors
+# Notice how we grab the dictionary "image_paths"
+for key, path_imgs in image_paths.items():
+    try:
+        #LOAD and CONVERT the image in one step
+        images[key] = pygame.image.load(path_imgs).convert_alpha()
+
+    except pygame.error as img_item:
+
+        print(f"Failed to load image '{path_imgs}': {img_item}")
+        # Fall img IF LOAD fails
+        images[key] = pygame.Surface((50,50)) # square
+        images[key].fill((249, 255, 51 )) # yellow acid
+
+
+
+class Player(pygame.sprite.Sprite):
+    def __init__(self, groups):
+        super().__init__(groups)
+        try:
+            # self.image = pygame.image.load(image_paths['player']).convert_alpha()
+            self.image = images['player']
+        except KeyError:
+            print("Player image not found in images dictionary.")
+            # Handle the failure (e.g., set a default image or exit)
+            #  ---- 🔴 create a red square as a fallback/ shape red in case the img doesnt load --
+            self.image = pygame.Surface((50, 50))  # Example fallback surface
+            self.image.fill((0, 56, 175 ))  # BLUE Klein
+
+        self.rect = self.image.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+
+        self.direction = pygame.Vector2()
+        self.speed = 300
+
+    def update(self):
+        keys = pygame.key.get_pressed()
+        # INT:  `int()` is the function doing the conversion. int converts this boolean value into an integer. In Python, True is equivalent to 1 and False is equivalent to 0. Therefore, int(keys[pygame.K_RIGHT]) gives 1 if the key is pressed, and 0 if it is not
+        self.direction.x = int(keys[pygame.K_RIGHT]) - int(keys[pygame.K_LEFT])
+        self.direction.y = int(keys[pygame.K_DOWN]) - int(keys[pygame.K_UP])
+
+
+        # to normalize the vector, after the issue when pressing top and left at the same time
+        self.direction = self.direction.normalize() if self.direction else self.direction
+        #    print("shipt is being updated")
+
+        # Update the player position with speed and delta time
+        self.rect.center += self.direction * self.speed * dt
+
+
+
+
+        # print(pygame.mouse.get_pos())
+        # #MAGNITUDE
+        # print((player_direction * player_speed).magnitude())
+
+
+all_sprites = pygame.sprite.Group()
+# Create PLAYER class instance
+player = Player(all_sprites)
+# all_sprites.add(player)
+
+
+
+
+# IMAGES out of the class
+
+# meteor_surf = pygame.image.load(image_paths['meteor']).convert_alpha()
+# laser_surf = pygame.image.load(image_paths['laser']).convert_alpha()
+
+# Define other surfaces
+meteor_surf = images['meteor']
+laser_surf = images['laser']
+star_surf = images['star']
+
+
+
+# (WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2)
+# Will pos the plane at the center of the screen/window
+# player_rect = player_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+meteor_rect = meteor_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+
+laser_rect = laser_surf.get_frect(bottomleft=(20, WINDOW_HEIGHT - 10))
+
+# start
+# star_surf = pygame.image.load(image_paths['star']).convert_alpha()
+# star pos
+star_positions = [(randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)) for i in range(20)]
+
+# 1. -----  move right to left loop  ---
+
+#
+##20 X, - 10Y axis
+#🤚 VECTOR
+# player_direction = pygame.math.Vector2() # This vector represents the direction and speed at which the player is moving:
+# player speed
+#🟡 actual movement
+# player_speed = 300
+# -----  move right to left loop  ---
+
+
+
+
+#✋ CLOCK:  FPS (frame per second)
+clock = pygame.time.Clock()
+
+#while loop related
+running = True
+
+
+while running:
+    #🤚 DELTA time
+    # frame rate / division
+    dt = clock.tick() / 1000
+    # print(dt)
+
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+
+
+
+    # -----------------
+    # -----------------
+
+    # 🟨 UPDATE sprite group
+    all_sprites.update()
+
+
+    display_surface.fill("lavenderblush2")
+
+    for pos in star_positions:
+        display_surface.blit(star_surf, pos)
+
+    # display_surface.blit(player_surf, player_rect)
+    display_surface.blit(meteor_surf, meteor_rect)
+    display_surface.blit(laser_surf, laser_rect)
+
+    # display_surface.blit(player.image, player.rect)
+    # surface.blit(sprite.image, sprite.rect)
+    # all_sprites.update()
+    all_sprites.draw(display_surface)
+
+    pygame.display.update()
+
+
+
+pygame.quit()
+```
+
+ <br>
+</details>
+
+
+
+
+<br>
+<br>
+
+<br>
+<br>
+
+## 🟦 Moving Forward:
+
+## 🔶 Step 8: Final Touches Before Creating the `Star Class`
