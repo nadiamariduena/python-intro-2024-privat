@@ -581,3 +581,16 @@ class Player(pygame.sprite.Sprite):
         self.image = pygame.image.load(image_paths['player']).convert_alpha()
         self.rect
 ```
+
+
+### 🟠 But if you are following the  [tutorial | 1:57:26](https://youtu.be/8OMghdHP-zs?si=PmVQXMiJDKqBUPIE&t=7046) structure, then use the below
+
+```python
+class Player(pygame.sprite.Sprite):
+
+
+    def __init__(self):
+        super().__init__()
+        self.image = pygame.image.load(join('images', 'player.png',)).convert_alpha()
+        self.rect
+```
