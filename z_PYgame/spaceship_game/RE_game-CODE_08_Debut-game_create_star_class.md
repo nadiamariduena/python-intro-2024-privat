@@ -377,3 +377,30 @@ player = Player(all_sprites)
 <br>
 
  - -   This centralized **`group`allows us to manage all sprites collectively updating and drawing them in a single call** .
+
+ > #### It simplifies code maintenance and improves efficiency, ensuring our game runs smoothly as the number of objects increases.
+
+
+ <br>
+<br>
+<br>
+<br>
+
+---
+
+[2:12:00](https://youtu.be/8OMghdHP-zs?si=MbEixie5ucL7wma6&t=7920)
+
+
+## 🟫  Step 7.  Performance issue related to loading the surface multiple times
+
+
+
+<br>
+<br>
+
+🟣 **QUESTION:** The teacher mentioned that when we use a for loop to create 20 stars, **we are essentially rendering the star surface 20 times.** Is this correct?
+
+<br>
+
+✅ **CHATGPT:** When we use a for loop to create 20 stars in Pygame, **we are indeed instantiating 20 separate Star objects**.
+
