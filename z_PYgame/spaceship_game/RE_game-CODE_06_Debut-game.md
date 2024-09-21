@@ -425,3 +425,9 @@ class Player(pygame.sprite.Sprite):
 > - - #### This line `class Player(pygame.sprite.Sprite)` defines a new class called **Player**.
 
 > - - ####  It inherits from `pygame.sprite.Sprite`, which is a built-in Pygame class designed to make working with game objects easier.
+
+<br>
+
+## 🟧 Why `pygame.sprite.Sprite`:
+
+**By inheriting from** `pygame.sprite.Sprite`, ✋ our **`Player` class automatically gets some useful features**, like handling its own image and position (using Surface and Rect).
