@@ -512,3 +512,8 @@ class Player(pygame.sprite.Sprite):
         self.rect
 ```
 
+
+<br>
+
+> ### 🟤 In this section, we will enhance the Player class by incorporating an image and a rectangle to define its visual appearance and boundary.
+
