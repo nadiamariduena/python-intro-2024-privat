@@ -930,3 +930,12 @@ group.draw(surface)  # Draws all sprites in the group on the specified surface
 ```
 
 
+🟫 **Updating:** You can update all sprites in a group at once.
+
+```python
+group.update(args)  # Calls the update method on every sprite in the group with the given arguments
+
+```
+
+
+
