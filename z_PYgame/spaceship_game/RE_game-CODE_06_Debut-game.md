@@ -313,3 +313,23 @@ pygame.quit()
 #### 🟢 Building Your Space Shooter with `Classes and Sprites`
 
 
+
+<br>
+
+<a name="Classes_"></a>
+
+## 💥  <u>Classes</u>
+
+<br>
+
+### 🟢  Why Use Classes:
+
+
+
+#### 🟤 Organization:
+
+ As our game grows, our code can become messy.
+
+>  - #### Classes help keep things tidy by grouping related data and functions together.
+
+> #### This makes it easier to manage and understand.
