@@ -291,3 +291,14 @@ star_positions = [(randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)) for i in
 ###  In this step, we'll implement a `for` loop to `generate` our `star sprites` efficiently.
 
 > #### 🌟 By initializing all stars at once, we maintain performance and avoid unnecessary processing in the main game loop.
+
+### 🟢 Implementation Example
+
+#### Here’s how the star creation will look in code:
+
+```python
+for i in range(20):
+    Star(all_sprites)
+
+```
+
