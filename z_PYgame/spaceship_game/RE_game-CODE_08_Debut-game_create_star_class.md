@@ -558,3 +558,9 @@ for key, path_imgs in image_paths.items():
 - - This means that by the time you create the stars, the images are already in memory.
 
 <br>
+
+### 🟧 Clarification
+
+**Initial Loading:**
+
+The for loop you provided **<u>loads the images once </u> into** the `images` **dictionary**.
