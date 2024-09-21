@@ -473,3 +473,7 @@ Star(all_sprites, star_surf)
 
 > - - #### 🌈 Instead of loading the star image multiple times, you do it just once and reuse it wherever needed.
 
+> - - #### This not only reduces redundancy—making your code cleaner—but also boosts performance because loading an image is a relatively expensive operation.
+
+<br>
+
