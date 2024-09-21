@@ -463,3 +463,9 @@ star_surf = pygame.image.load(join('images', 'star.png')).convert_alpha()
 ```
 
 - 🟤 **b)**  **Next, pass this `star_surf` variable when creating instances** of the Star class:
+
+```python
+Star(all_sprites, star_surf)
+```
+## 🟩 The Advantages of Managing Images in One Place
+
