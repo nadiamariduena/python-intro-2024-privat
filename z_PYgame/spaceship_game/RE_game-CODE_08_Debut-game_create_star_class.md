@@ -302,3 +302,36 @@ for i in range(20):
 
 ```
 
+<br>
+<br>
+
+## 🟧 Key Considerations
+
+### 🟤 Remove the Previous Star Creation Loop
+
+#### First, eliminate any previous loops that were creating stars within the while loop.
+
+```python
+# REMOVE the below 🔴 ------
+    # for pos in star_positions:
+    #     display_surface.blit(star_surf, pos)
+# -------------------
+
+
+    display_surface.blit(meteor_surf, meteor_rect)
+    display_surface.blit(laser_surf, laser_rect)
+
+    # ---- sprites ----
+    all_sprites.draw(display_surface)
+
+
+
+    pygame.display.update()
+
+pygame.quit()
+```
+
+<br>
+
+> - - #### ⚫ This change is crucial because `generating stars continuously in the main loop can lead to performance issues` and clutter the visual output.
+
