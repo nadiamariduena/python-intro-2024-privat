@@ -1279,3 +1279,19 @@ player = Player(all_sprites)
 
 ###  Options for update() in Sprite Groups
 
+
+- -  🟤 Basic Update Without Arguments **&** 🟦  Update with Arguments.
+
+<br>
+
+### 🟥  Read More: [s_sprite UPDATE & update with args](..//s_sprite_UPDATE_&_update-with_args_.md)
+
+
+
+---
+
+
+<br>
+<br>
+<br>
+<br>
