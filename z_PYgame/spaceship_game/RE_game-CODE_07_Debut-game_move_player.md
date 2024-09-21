@@ -114,3 +114,10 @@
 ##  🟠 Transforming the Player Class for Smooth Movement!
 
 <br>
+
+### 🧶 Step 1:
+
+### 💥 Move the Logic into the `Player` Class
+
+
+- - -   **Instead of having movement** logic <u>in the main loop (WHILE loop)</u> , let’s **encapsulate it in the Player class!** This will make our code cleaner and more organized.
