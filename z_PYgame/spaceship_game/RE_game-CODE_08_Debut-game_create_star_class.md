@@ -454,3 +454,12 @@ player = Player(all_sprites)
 ## 🟠 1. Tutorial solution:
 
 - 🟤 **a)**  First, **create a variable named `star_surf`** to store the star image.
+
+- - Load the image and convert it for optimal rendering:
+
+```python
+star_surf = pygame.image.load(join('images', 'star.png')).convert_alpha()
+
+```
+
+- 🟤 **b)**  **Next, pass this `star_surf` variable when creating instances** of the Star class:
