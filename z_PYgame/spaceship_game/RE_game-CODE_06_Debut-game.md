@@ -872,3 +872,18 @@ pygame.quit()
 display_surface.blit(player.image, player.rect)
 ```
 > #### 🟤 🔺 This method does not take advantage of Pygame's built-in sprite management and can make your code harder to maintain and extend.
+
+
+
+
+<br>
+<br>
+
+## 🟠 To Display the Sprite, you could use:
+
+```python
+surface.blit(sprite.image, sprite.rect)
+```
+
+## 👎 Alternative, But Still Not Ideal:
+
