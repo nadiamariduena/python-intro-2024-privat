@@ -335,3 +335,9 @@ pygame.quit()
 
 > - - #### ⚫ This change is crucial because `generating stars continuously in the main loop can lead to performance issues` and clutter the visual output.
 
+#### We want to create our stars once at the beginning to streamline the rendering process.
+
+<br>
+
+
+## 🟧 Position the `Player` Instantiation Correctly
