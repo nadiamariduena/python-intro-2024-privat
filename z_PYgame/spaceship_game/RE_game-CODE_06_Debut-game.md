@@ -371,3 +371,8 @@ We’ll create specific classes for different game elements like the player, ene
 
 ## 🟠  Built-In Features:
 
+ ⚫ recap:
+
+The `pygame.sprite.Sprite` **class provides built-in methods and properties** that simplify working with game objects.
+
+
