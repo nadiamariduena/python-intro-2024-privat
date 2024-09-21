@@ -19,3 +19,8 @@ class Player(pygame.sprite.Sprite):
 ```
 <br>
 
+### 2. 🌴 🟧 We can move on to incorporating the `update()` method for the sprite group within the main game loop.
+
+#### Adding `update()` to the `While` Loop
+
+- - **Next, we need to add `all_sprites.update()` to our while loop** to ensure that all sprites in the group are updated each frame.
