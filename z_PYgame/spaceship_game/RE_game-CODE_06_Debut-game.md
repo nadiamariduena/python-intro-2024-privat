@@ -359,4 +359,5 @@ We’ll create specific classes for different game elements like the player, ene
 
 > - - #### In contrast, `pygame.sprite.Sprite` is a specialized class from the Pygame library designed for managing and rendering game objects.
 
+> - - #### 🟤  `pygame.sprite.Sprite` comes with **built-in functionality for** position, image handling, and collision detection, <u>whereas a generic Class requires custom implementation for these features. Essentially, pygame.sprite</u> .
 
