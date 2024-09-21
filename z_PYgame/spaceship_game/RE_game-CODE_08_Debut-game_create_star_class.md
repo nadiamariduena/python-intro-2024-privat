@@ -604,3 +604,18 @@ for key, path_imgs in image_paths.items():
 ```
 
 > #### By using a dictionary to store these images, you can easily access them later without the overhead of reloading.
+
+#### 🟠 This means that when you create instances of Star or other sprites, they reference the already loaded images, leading to smoother performance.
+
+#### 🟠 Additionally, handling potential loading errors ensures your game can gracefully fall back on default assets, maintaining a robust experience. Overall, this method keeps your code clean and optimized for better performance.
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+## 🟦 Moving Forward:
+
+### 🟤 Before we continue, let’s take a look at the current state of the code.
