@@ -316,3 +316,13 @@ clock = pygame.time.Clock()
 
 ### To ensure smooth movement, it’s important to normalize the direction vector:
 
+
+
+```python
+       player_direction = player_direction.normalize() if player_direction else player_direction
+```
+
+> 🔴 **Remember to add this line**; otherwise, we may encounter the same issue we faced earlier, where the values become erratic if both the up and left keys are pressed simultaneously.
+
+ #### Normalizing the direction vector prevents faster diagonal movement by ensuring that the player’s speed remains consistent, regardless of the input direction. This helps maintain a smooth and predictable gameplay experience.
+
