@@ -477,3 +477,6 @@ Star(all_sprites, star_surf)
 
 <br>
 
+### 🟦 Think of it like this:
+
+if you had to go grocery shopping every time you wanted a snack, you'd waste a lot of time.
