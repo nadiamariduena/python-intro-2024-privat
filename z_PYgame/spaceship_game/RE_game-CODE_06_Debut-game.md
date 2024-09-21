@@ -683,3 +683,8 @@ For complex operations, optimizing code through profiling and targeted improveme
 
 - - Although **the tutorial does not cover this approach**, my experience with **Three.js** ✋ taught me that organizing assets in this way can be beneficial.
 
+ #### Why?
+
+> - - By grouping image assets in a dictionary (arrays in Javascript), I can efficiently handle multiple model parts and animations, or any other use cases.
+
+<br>
