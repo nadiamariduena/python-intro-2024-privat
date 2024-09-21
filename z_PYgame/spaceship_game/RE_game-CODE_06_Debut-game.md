@@ -261,4 +261,29 @@ while running:
 
 pygame.quit()
 ```
+---
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<a name="What_is_a_SPRITE?_"></a>
+
+
+
+#  🟠  <u>What is a SPRITE?</u>
+
+[1:54:37](https://youtu.be/8OMghdHP-zs?si=_tFF1DTbYRBdkw9e&t=6877)
+
+#### In gaming, a "sprite" refers to a two-dimensional image or animation that is integrated into a larger scene, typically representing objects or characters.
+
+
+
+
+---
