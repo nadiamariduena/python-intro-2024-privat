@@ -1590,7 +1590,18 @@ while running:
 pygame.quit()
 ```
 
+
 <br>
 <br>
 
 ---
+
+## 🟦   Moving Forward:
+
+### 🟤 Let’s Recreate Our Previous Movements!
+
+🟥 In the upcoming steps, we will reintroduce the movement logic that allows the player to navigate smoothly.
+
+<br>
+
+<!-- ###  [ NEXT ➡️ ]() -->
