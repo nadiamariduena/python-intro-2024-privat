@@ -56,3 +56,23 @@ while True:
 
 #### `all_sprites.update():`
 
+
+
+**Purpose:** Typically used to handle game logic like movement, animations, or state changes for each sprite.
+
+  > #### Each sprite’s update() method is responsible for updating its own state.
+
+<br>
+
+```python
+    # 🟨 UPDATE sprite group
+    all_sprites.update()
+
+
+    display_surface.fill("lavenderblush2")
+
+    for pos in star_positions:
+        display_surface.blit(star_surf, pos)
+```
+
+<br>
