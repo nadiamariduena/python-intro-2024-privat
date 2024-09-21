@@ -839,3 +839,34 @@ display_surface.blit(player.image, player.rect)
 <br>
 
 [1:58:53](https://youtu.be/8OMghdHP-zs?si=mQbabPYogwnMD3q9&t=7133):
+
+
+<br>
+
+### 🟤 Example in Context::
+
+```bash
+   display_surface.blit(player.image, player.rect)
+    pygame.display.update()
+pygame.quit()
+```
+<br>
+
+
+<br>
+<br>
+
+
+
+<a name="DirectlyBlittingSprites_"></a>
+
+
+
+## 🟠  Why This Direct Approach Isn't Ideal for Sprites
+
+###  <u>Directly blitting</u>  the sprite’s image and rectangle to the surface is functional, but it's not the recommended approach when working with sprites.
+
+```python
+display_surface.blit(player.image, player.rect)
+```
+> ### 🟤 🔺 This method does not take advantage of Pygame's built-in sprite management and can make your code harder to maintain and extend.
