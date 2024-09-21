@@ -571,3 +571,13 @@ class Player(pygame.sprite.Sprite):
 ## 🟧 Different Structure
 
 > ####  If you're using a code structure <u>where all images are managed via a dictionary</u>  `image_paths['player']` (as in My code), follow the approach below:
+
+```python
+class Player(pygame.sprite.Sprite):
+
+
+    def __init__(self):
+        super().__init__()
+        self.image = pygame.image.load(image_paths['player']).convert_alpha()
+        self.rect
+```
