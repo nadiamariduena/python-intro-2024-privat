@@ -821,3 +821,21 @@ player = Player()
 ```
 
 <br>
+
+### 🟤 Within the game loop:
+
+- - Within the game loop, add the following code to draw the player sprite on the screen:
+
+
+```python
+display_surface.blit(player.image, player.rect)
+```
+<br>
+
+## BLIT
+
+> #### This line uses `blit` to draw the player's image at the location specified by player.rect, ensuring the player appears in the correct spot on the screen.
+
+<br>
+
+[1:58:53](https://youtu.be/8OMghdHP-zs?si=mQbabPYogwnMD3q9&t=7133):
