@@ -287,3 +287,29 @@ pygame.quit()
 
 
 ---
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+## 🟦 Moving Forward:
+
+
+<a name="Classes_and_Sprites_"></a>
+
+
+## 🫐 🟡 <u>Classes and Sprites</u>
+
+<br>
+
+#### 🟢 Building Your Space Shooter with `Classes and Sprites`
+
+
