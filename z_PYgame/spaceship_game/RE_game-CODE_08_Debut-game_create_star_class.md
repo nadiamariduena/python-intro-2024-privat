@@ -444,3 +444,13 @@ player = Player(all_sprites)
 ## 🌈 Solution
 
 #### Import the `Surface` before we are creating the `Star`
+
+<br>
+
+[2:12:23](https://youtu.be/8OMghdHP-zs?si=Mxu_alNnM31TIn_m&t=7943)
+
+<br>
+
+## 🟠 1. Tutorial solution:
+
+- 🟤 **a)**  First, **create a variable named `star_surf`** to store the star image.
