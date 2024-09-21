@@ -24,3 +24,35 @@ class Player(pygame.sprite.Sprite):
 #### Adding `update()` to the `While` Loop
 
 - - **Next, we need to add `all_sprites.update()` to our while loop** to ensure that all sprites in the group are updated each frame.
+
+#### Example Loop Integration:
+
+```python
+while True:
+    all_sprites.update()
+    # Update all sprites in the group
+
+    display_surface.fill("lavenderblush2")
+    # Clear the screen with a color
+
+    all_sprites.draw(display_surface)
+    # Draw all sprites on the display surface
+
+    pygame.display.update()
+    # Refresh the screen
+
+```
+
+<br>
+<br>
+
+## 🫐 🟡 In-Depth:
+
+### 🧶 Understanding update()
+
+
+
+> #### This line below, calls the `update()` method `on every sprite`  <u>in the all_sprites group.</u>
+
+#### `all_sprites.update():`
+
