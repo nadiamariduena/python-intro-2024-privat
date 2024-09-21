@@ -242,3 +242,16 @@ randint(0, WINDOW_HEIGHT)
 self.rect = self.image.get_frect(center=(randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)))
 
 ```
+
+### This means each star will be placed in a random location when it is created, ensuring a varied and dynamic visual experience while keeping performance optimized.
+
+<br>
+<br>
+<br>
+<br>
+
+---
+
+##  🟠 Why Random Positions Before the Game Runs?
+
+#### Generating random positions before the game starts prevents stars from moving on every frame.
