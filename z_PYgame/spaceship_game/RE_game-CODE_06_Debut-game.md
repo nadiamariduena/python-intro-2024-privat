@@ -745,3 +745,15 @@ for key, path_imgs in image_paths.items():
 **Add the Image to the Surface:** We will integrate an image into the Player class by assigning it to the sprite’s surface, enabling visual representation in the game.
 
 **Comment and Reorganize the Code:** We will review and update the code, adding comments for clarity and reorganizing it to improve structure and readability.
+
+<br>
+
+## 🟠 Adding the Image to the Surface
+
+### Image Assignment in the Code
+In this part, we'll assign an image to the Player class using the **self.image attribute**.
+
+```python
+ self.image = images['player']
+```
+
