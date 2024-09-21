@@ -255,3 +255,20 @@ self.rect = self.image.get_frect(center=(randint(0, WINDOW_WIDTH), randint(0, WI
 ##  🟠 Why Random Positions Before the Game Runs?
 
 #### Generating random positions before the game starts prevents stars from moving on every frame.
+
+> #### By calculating their positions only once, we enhance performance and maintain a static background, allowing players to focus on the action without distracting movement.
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+
+ ## 🟫 Step 5. remove the previous line
+
+ #### `star_positions = [(randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)) for i in range(20)]`
+
+ - - Finally,  **remove the previous line that generated star_positions entirely.**
+
