@@ -1338,3 +1338,8 @@ class Player(pygame.sprite.Sprite):
  > - - #### 💥 it's actually calling the update method I created in the Player class.
 
 
+ > - - #### That method gets executed for each `sprite` in the `all_sprites` group during each frame of the game.
+
+ #### So, every time the game updates, it’s using the update function from the player class!
+
+<br>
