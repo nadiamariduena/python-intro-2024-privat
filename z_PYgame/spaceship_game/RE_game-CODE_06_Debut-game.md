@@ -341,3 +341,20 @@ We’ll create specific classes for different game elements like the player, ene
 
 - - #### Each class will handle its own behavior and properties, making the code modular and easier to maintain.
 
+
+
+<br>
+<br>
+
+
+## 🟦 Moving Forward:
+
+<br>
+
+<a name="Classes_vs_pygameClasses_"></a>
+
+## 💥 <u>Class vs `pygame.sprite.Sprite` Class</u>
+
+### The primary difference is that a general Class is a fundamental building block in Python, defining objects with attributes and methods.
+
+
