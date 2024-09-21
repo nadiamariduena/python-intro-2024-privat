@@ -76,3 +76,21 @@ while True:
 ```
 
 <br>
+
+## 🟠 Options for update() in Sprite Groups
+
+
+
+### 🟦 Basic Update Without Arguments:
+
+```python
+group.update()  # Calls update() on every sprite in the group
+```
+
+- - **This will call the `update()` method on each** sprite in the group without passing any additional arguments.
+
+- - **Each sprite’s `update()` method should be defined** to handle whatever updates are needed (e.g., movement, animation).
+
+<br>
+
+### 🟦  Update with Arguments:
