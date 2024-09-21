@@ -1201,7 +1201,7 @@ super().__init__(*groups)
 ## 🟦 Moving Forward:
 
 
-### 🟠 Now that `we’ve updated the code by adding the group to the Player class` and passing it to `super()`,  the sprite is properly attached to the group and can be managed as an instance, as shown below:
+### 🟠 Now that <u>we’ve updated the code by adding the group to the Player class and passing it to</u> `super()`, 🔺 the sprite is properly attached to the group and can be managed as an instance, as shown below:
 
 ```python
 class Player(pygame.sprite.Sprite):
@@ -1214,7 +1214,9 @@ class Player(pygame.sprite.Sprite):
 
 ### 🟠 We can proceed to modify the code as follows:
 
-**Remove the line:** `all_sprites.add(player)`
+<br>
+
+#### 🟠 Remove the line:  `all_sprites.add(player)`
 
 <br>
 
@@ -1255,4 +1257,20 @@ all_sprites.add(player)
 all_sprites = pygame.sprite.Group()
 player = Player(all_sprites)
 ```
+
+---
+
+
+<br>
+<br>
+<br>
+<br>
+
+## 🟦 Moving Forward:
+
+
+## 🟠 Update()
+
+> ####  You can pass arguments to the update() method of the group.
+
 
