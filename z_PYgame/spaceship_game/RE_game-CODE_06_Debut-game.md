@@ -135,3 +135,11 @@ We’ve **implemented smooth movement mechanics for the player**, ensuring consi
 
 > #### For example, a Player class for the player character, an Enemy class for enemies, and so on. Each class will manage its own behavior and properties.
 
+####  💥 Using Sprites:
+
+We’ll use `pygame.sprite.Sprite` to create these classes.
+
+> #### This class helps us by automatically providing the Surface and Rect attributes and making it easier to manage updates and interactions.
+
+
+
