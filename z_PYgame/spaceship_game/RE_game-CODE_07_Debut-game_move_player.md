@@ -203,3 +203,12 @@ all_sprites = pygame.sprite.Group()
 
 
 ```
+
+
+> - - #### This allows the player to respond to key presses in real-time, enabling smooth movement. By placing it in the update method, we ensure that the player’s movement is updated every time the game loop runs.
+
+<br>
+<br>
+
+## 🔶 3. Add the Direction Vector in the Player Class Initialization
+
