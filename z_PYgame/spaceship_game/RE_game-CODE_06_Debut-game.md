@@ -1211,3 +1211,9 @@ class Player(pygame.sprite.Sprite):
 ```
 
 
+
+### 🟠 We can proceed to modify the code as follows:
+
+**Remove the line:** `all_sprites.add(player)`
+
+<br>
