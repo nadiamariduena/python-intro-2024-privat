@@ -427,3 +427,12 @@ player = Player(all_sprites)
 #### 🌈 If the image is successfully loaded the first time, all subsequent instances will reuse that same surface.
 
 > - - #### This means you aren't actually loading the image into memory 20 times, but you are referencing the same loaded surface for each star.
+
+> - - This is efficient because it prevents redundant loading and keeps memory usage optimized.
+
+<br>
+
+### 🔴 💥 Potential Issues:
+
+#### 🔺 If there were an error in loading the image (e.g., if the file path was incorrect), 🔺 <u>each failed attempt would result in creating a new surface (the yellow rectangle in your code) for that star</u> .
+
