@@ -402,3 +402,19 @@ By inheriting from `pygame.sprite.Sprite`, our game objects automatically gain t
 
  <a name="Creating_the_Initial_class"></a>
 
+
+
+## Init:
+
+### 🟠 The teacher will start by creating the initial class and incorporating the `pygame.sprite.Sprite class.`
+
+
+
+#### 🟤 1)  <u>Create the Initial Class</u>
+
+```python
+class Player(pygame.sprite.Sprite):
+    def __init__(self):
+        super().__init__()
+
+```
