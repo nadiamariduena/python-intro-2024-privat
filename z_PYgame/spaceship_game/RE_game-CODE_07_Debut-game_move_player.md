@@ -492,3 +492,16 @@ all_sprites.update(dt)
 
 > - - - This is done by modifying the method signature to accept dt as an argument. Here’s how it changes:
 
+```python
+# Before
+def update(self):
+# After
+def update(self, dt):
+
+```
+
+> #### 🟧 By doing this, we’re making the delta time accessible within the player’s update logic, which is essential for calculating movement speed effectively. This flexibility allows us to create a more responsive gaming experience.
+
+<br>
+
+### 🟫 Step 3: Utilize dt for Smooth Movement
