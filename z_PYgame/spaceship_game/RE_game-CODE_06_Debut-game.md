@@ -458,3 +458,8 @@ class Player(pygame.sprite.Sprite):
 
 #### 🟤 It initializes the object and sets up its attributes.
 
+```python
+    def __init__(self):
+        super().__init__()
+
+```
