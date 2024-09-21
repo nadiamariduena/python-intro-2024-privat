@@ -473,3 +473,11 @@ class Player(pygame.sprite.Sprite):
 
 - - This line calls the `__init__` **method of the parent class** `(pygame.sprite.Sprite)`.
 
+
+**Why:**
+
+- - It ensures that the Player class inherits and sets up any initial functionality provided by pygame.sprite.Sprite.
+
+<br>
+
+---
