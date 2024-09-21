@@ -629,3 +629,14 @@ class Player(pygame.sprite.Sprite):
 - - - **Inline Rendering:** With map, you can directly embed the logic for rendering lists of components within the JSX, which keeps your component logic more compact and expressive.
 
 - - - **Avoid Side Effects:** map avoids the potential for side effects that could arise from modifying external variables or arrays, which is something to be cautious about when using for loops.
+
+
+<br>
+
+
+
+#### 1.  QUESTION: `for` loop also cause issues with certain animations in threejs, is that right?
+
+#### 2.  QUESTION: "I’m not entirely sure, ✋ but I seem to recall that using map in this code might lead to animation issues. Could you explain why using map instead of a for loop could have potential consequences?
+
+#### 🟫 Read More: [a_FOR_vs_MAP__loop](../a_FOR_vs_MAP__loop.md)
