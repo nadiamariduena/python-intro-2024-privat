@@ -1026,3 +1026,8 @@ pygame.quit()
 
 - -  To ensure that sprites appear on the screen when using `all_sprites.draw(display_surface)`, **you need to add each sprite to the `all_sprites` group** during the sprite's initialization.
 
+- - - #####  ⬛ Forgot about: Constructor? `__init__` [a_CONSTRUCTOR](../../b_CONSTRUCTOR.md)
+
+- - - This is done by passing all_sprites to `super().__init__(all_sprites)` in the sprite class constructor.
+
+
