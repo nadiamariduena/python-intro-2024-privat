@@ -1273,4 +1273,9 @@ player = Player(all_sprites)
 
 > ####  You can pass arguments to the update() method of the group.
 
+- - These arguments are then **passed to each sprite’s `update()` method**.
+
+<br>
+
+###  Options for update() in Sprite Groups
 
