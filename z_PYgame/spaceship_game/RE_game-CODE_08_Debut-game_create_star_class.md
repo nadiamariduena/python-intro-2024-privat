@@ -197,3 +197,15 @@ star_positions = [(randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)) for i in
 ## 🔴 But Now, We Don’t Have to Do That Anymore!
 
 **By moving the random positioning logic into the `Star class`**, we can create each star in a random location directly in the __init__ method.
+
+#### Extract the random position code:
+
+```python
+randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
+
+```
+
+<br>
+
+
+## 🟫 Step 4.  Integrate Random Positioning into the Star Class
