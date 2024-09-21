@@ -404,3 +404,7 @@ player = Player(all_sprites)
 
 ✅ **CHATGPT:** When we use a for loop to create 20 stars in Pygame, **we are indeed instantiating 20 separate Star objects**.
 
+> - - #### Each star requires its own image and surface, which can lead to increased memory usage.
+
+> - - #### Additionally, if rendering is involved, the graphics pipeline processes each star individually, potentially impacting performance.
+
