@@ -1184,3 +1184,8 @@ super().__init__(*groups)
 
  <br>
 
+### 🟤 If you’re just testing
+
+> #### If you’re just testing with a single group, you might get away with super().__init__(groups) if groups is already a single object or just a single group.
+
+### 🔴However, for handling multiple groups, the asterisk is essential.
