@@ -403,3 +403,16 @@ while running:
 > ### 🌐 This means you can use dt in any class, including the Player class, to ensure consistent movement speed.
 
 <br>
+
+- - By multiplying the player’s movement by dt, you account for variations in frame rates.
+
+-  - This ensures that the player's speed remains the same, regardless of how fast or slow the game runs. Essentially, dt helps make your game smoother and more reliable across different hardware!
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+---
