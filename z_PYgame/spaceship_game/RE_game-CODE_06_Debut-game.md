@@ -864,9 +864,11 @@ pygame.quit()
 
 ## 🟠  Why This Direct Approach Isn't Ideal for Sprites
 
-###  <u>Directly blitting</u>  the sprite’s image and rectangle to the surface is functional, but it's not the recommended approach when working with sprites.
+####  <u>Directly blitting</u>  the sprite’s image and rectangle to the surface is functional, but it's not the recommended approach when working with sprites.
+
+<br>
 
 ```python
 display_surface.blit(player.image, player.rect)
 ```
-> ### 🟤 🔺 This method does not take advantage of Pygame's built-in sprite management and can make your code harder to maintain and extend.
+> #### 🟤 🔺 This method does not take advantage of Pygame's built-in sprite management and can make your code harder to maintain and extend.
