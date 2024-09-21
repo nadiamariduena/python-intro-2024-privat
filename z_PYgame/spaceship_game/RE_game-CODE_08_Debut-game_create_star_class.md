@@ -548,3 +548,13 @@ for key, path_imgs in image_paths.items():
         images[key] = pygame.Surface((50,50)) # square
         images[key].fill((249, 255, 51 )) # yellow acid
 ```
+
+<br>
+
+#### ✅ CHATGPT:
+
+#### 🌈 you've correctly loaded the images in a separate loop before creating the Star instances.
+
+- - This means that by the time you create the stars, the images are already in memory.
+
+<br>
