@@ -104,3 +104,11 @@ group.update()  # Calls update() on every sprite in the group
 group.update(arg1, arg2)
 # Calls update() on every sprite with additional arguments
 ```
+
+> #### ✋ You can pass arguments to the update() method of the group. These arguments are then passed to each sprite’s update() method.
+
+
+<br>
+<br>
+
+### The updated() code
