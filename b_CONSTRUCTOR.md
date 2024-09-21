@@ -53,3 +53,20 @@ print(person1.name) # output: Alice
 print(person1.age) # output: 30
 
 ```
+
+<br>
+<br>
+<br>
+
+
+
+
+<a name="constructor_playful_"></a>
+
+## 🧸 Playful explanation:
+
+### Imagine you’ve got a toy 🏭 factory where you can create different types of toy robots 🤖.
+
+**Each** robot **comes with** its own **special features** like `color, size, and abilities`.
+
+<br>
