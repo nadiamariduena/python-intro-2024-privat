@@ -212,3 +212,26 @@ all_sprites = pygame.sprite.Group()
 
 ## 🔶 3. Add the Direction Vector in the Player Class Initialization
 
+
+- - **Before we do this**, remember that we previously grouped/**HIDE the direction vector with the speed** definition:
+
+
+```python
+##20 X, - 10Y axis
+# VECTOR
+# player_direction = pygame.math.Vector2() # This vector represents the direction and speed at which the player is moving:
+# player speed
+# actual movement
+# player_speed = 300
+# -----  move right to left loop  ---
+
+
+
+
+#✋ CLOCK:  FPS (frame per second)
+clock = pygame.time.Clock()
+```
+<br>
+<br>
+
+## 🟠 Now, Include the Direction Vector in the Player Class
