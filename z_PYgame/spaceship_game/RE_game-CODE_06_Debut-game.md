@@ -1115,3 +1115,8 @@ class Player(pygame.sprite.Sprite):
 <br>
 
 ---
+
+
+### 🌈  In this updated version, you pass the groups argument to the `__init__` method of your sprite.
+
+<br>
