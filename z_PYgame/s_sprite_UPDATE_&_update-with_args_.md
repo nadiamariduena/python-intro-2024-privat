@@ -94,3 +94,13 @@ group.update()  # Calls update() on every sprite in the group
 <br>
 
 ### 🟦  Update with Arguments:
+
+
+ **`group.update(arg1, arg2)`:**
+
+- - -  #### Calls update() on every sprite with additional arguments
+
+```python
+group.update(arg1, arg2)
+# Calls update() on every sprite with additional arguments
+```
