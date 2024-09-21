@@ -688,3 +688,13 @@ For complex operations, optimizing code through profiling and targeted improveme
 > - - By grouping image assets in a dictionary (arrays in Javascript), I can efficiently handle multiple model parts and animations, or any other use cases.
 
 <br>
+
+### 🟠 If you plan to use the dictionary as I do, be aware of the following:
+
+###  Potential Issues:
+
+- - - Consider adding **error handling** around image loading to catch issues like missing files.
+
+### 🟠 Why Managing Images in a Dictionary is Beneficial in Game Development
+
+- - - ####   Read More: [RE_game_import_imgs_in_dictionary](./RE_game_import_imgs_in_dictionary.md)
