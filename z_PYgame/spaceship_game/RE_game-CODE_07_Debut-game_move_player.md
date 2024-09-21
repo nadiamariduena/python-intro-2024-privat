@@ -294,3 +294,25 @@ clock = pygame.time.Clock()
         player_direction.x = int(keys[pygame.K_RIGHT]) - int(keys[pygame.K_LEFT])
         player_direction.y = int(keys[pygame.K_DOWN]) - int(keys[pygame.K_UP])
 ```
+<br>
+<br>
+
+### Once you’ve pasted them, modify `player_direction` to `self.direction` for both lines:
+
+
+```python
+        self.direction.x = int(keys[pygame.K_RIGHT]) - int(keys[pygame.K_LEFT])
+        self.direction.y = int(keys[pygame.K_DOWN]) - int(keys[pygame.K_UP])
+```
+
+<br>
+
+> #### 🟫 This ensures that the player’s movement direction is now stored in the self.direction vector, allowing for more organized and efficient handling of movement within the Player class.
+
+<br>
+<br>
+
+## 🔶 5. Normalize the Direction Vector
+
+### To ensure smooth movement, it’s important to normalize the direction vector:
+
