@@ -1125,3 +1125,14 @@ class Player(pygame.sprite.Sprite):
 
 <br>
 
+> #### By making this change, you can easily manage which groups your sprite is part of when creating it, improving the organization of your game objects.
+
+<br>
+<br>
+<br>
+
+---
+
+
+
+<a name="ASTERISK_"></a>
