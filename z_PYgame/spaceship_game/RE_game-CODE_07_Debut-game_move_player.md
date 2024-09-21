@@ -121,3 +121,42 @@
 
 
 - - -   **Instead of having movement** logic <u>in the main loop (WHILE loop)</u> , let’s **encapsulate it in the Player class!** This will make our code cleaner and more organized.
+
+<br>
+
+### 🧶 Step 2:
+
+### 💥 `Update` the `Player` Class
+
+> - - - ####   We’ll modify the Player class to include the movement logic directly in its `update()` method.
+
+- - ####  This way, we can call it easily from our main game loop.
+
+<br>
+<br>
+<br>
+<br>
+
+#### [2:04:10](https://youtu.be/8OMghdHP-zs?si=lDJzumH66g9rAMgc&t=7450)
+
+## 🟠 Here’s How We’ll Do It:
+
+### Add Movement Logic:
+
+- - **Incorporate `key` presses to control the player’s** direction and **normalize** the **vector**.
+
+
+### Update Position:
+
+- - Adjust the player’s position based on the calculated direction and speed.
+
+<br>
+<br>
+
+## 🟫 STEPS
+
+<br>
+
+## 🔶 1.  Move the Movement Logic
+
+- - **Take the entire commented section** related to movement from the `WHILE` loop and paste it below the **`def update` method** in the `Player` class.
