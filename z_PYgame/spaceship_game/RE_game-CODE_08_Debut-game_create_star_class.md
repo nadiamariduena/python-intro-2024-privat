@@ -65,3 +65,23 @@
 -  **Global Scope** to access Delta Time:  ( 🔺 **not a good practice in some scenarios**)
 
 <br>
+
+#### ⚫ `Issues with get_just_pressed()`
+
+**Identified Issues with get_just_pressed():** We recognized that using pygame.key.get_just_pressed() might lead to errors in recent Pygame versions and noted this as a caution for future lessons.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+---
+
+<a name="What_We_will_Be_Doing_"></a>
+
+## 🫐 🟠 <u>What We’ll Be Doing </u>
+
+<br>
