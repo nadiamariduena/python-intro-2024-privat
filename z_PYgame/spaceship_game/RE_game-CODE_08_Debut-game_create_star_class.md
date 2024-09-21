@@ -482,3 +482,23 @@ Star(all_sprites, star_surf)
 if you had to go grocery shopping every time you wanted a snack, you'd waste a lot of time.
 
 - - Instead, you grab everything in one go and have it on hand! This approach not only saves resources but also makes it easier to manage changes.
+
+> #### If you decide to update the star image later, you only need to do it in one place.
+
+Your game runs smoother and stays more organized, allowing you to focus on creating exciting gameplay instead of getting bogged down in repetitive tasks.
+
+Plus, a tidy codebase is easier to read, making collaboration and future updates a breeze!
+
+<br>
+
+- 🟤 **c)** Integrate the Star Surface into the Star Class
+
+
+- - Now, we want to enhance our Star class by passing the star surface directly as an argument.
+
+
+#### This allows for better organization and performance.
+
+**Modify the Constructor:** Update the Star class to accept the star surface as an additional parameter: `(self, groups,star):`.
+
+
