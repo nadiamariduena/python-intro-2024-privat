@@ -469,3 +469,7 @@ Star(all_sprites, star_surf)
 ```
 ## 🟩 The Advantages of Managing Images in One Place
 
+#### By centralizing your image handling, you simplify your code.
+
+> - - #### 🌈 Instead of loading the star image multiple times, you do it just once and reuse it wherever needed.
+
