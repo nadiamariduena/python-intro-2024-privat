@@ -279,3 +279,18 @@ clock = pygame.time.Clock()
 > - - #### It also provides flexibility for future enhancements, like adding acceleration or new movement features.
 
 - - Overall, it sets a solid foundation for effective movement handling in the game.
+
+
+<br>
+<br>
+
+## 🔶 4. Update the Direction Lines (`x,y`) in the `update()` Method
+
+- After completing the previous steps, **copy the x and y direction lines** and **paste** them **into the** `def update()` **method**:
+
+<br>
+
+```python
+        player_direction.x = int(keys[pygame.K_RIGHT]) - int(keys[pygame.K_LEFT])
+        player_direction.y = int(keys[pygame.K_DOWN]) - int(keys[pygame.K_UP])
+```
