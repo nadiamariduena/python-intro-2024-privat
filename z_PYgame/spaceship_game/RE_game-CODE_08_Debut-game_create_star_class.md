@@ -150,3 +150,44 @@ In this lesson, we will focus on enhancing our game by implementing a `Star clas
 ## 🟫 Step 1. Create the Star Class
 
 #### Start by defining a new class for our stars that inherits from `pygame.sprite.Sprite`.
+
+<br>
+<br>
+
+
+
+## 🟫 Step 2. Initialize the Star Class
+
+#### Inside the Star class, create an __init__ method to initialize each star.
+
+<br>
+
+ - - Here, **you'll load the star image** and **set its rectangle (rect)** for positioning.
+
+
+
+> - - ####  This setup ensures that each star has its own properties and can be individually controlled, making your code cleaner and more organized.
+
+
+<br>
+<br>
+
+## 🟫 Step 3. Create 20 Star Sprites in Random Positions
+
+- - **Instead of generating star positions** in the **main** game **loop**,  we’ll generate them during the initialization of each star.
+
+#### Previously, we used:
+
+
+```python
+# before
+star_positions = [(randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)) for i in range(20)]
+
+
+# and on the WHILE loop
+#
+  display_surface.fill("lavenderblush2")
+    for pos in star_positions:
+        display_surface.blit(star_surf, pos)
+```
+
