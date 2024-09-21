@@ -1008,7 +1008,7 @@ pygame.quit()
 
  **If you test it now, you won’t see anything** 👎
 
-- -  Because the **sprites are not being added to the all_sprites group**.
+- -  Because the **sprites are not being added to the `all_sprites` group**.
 
 - Make sure to attach sprites to the group in their class initialization to ensure they are managed and drawn correctly.
 
@@ -1017,3 +1017,12 @@ pygame.quit()
 
 
 ## 🟦 Moving Forward:
+
+
+<a name="AddingSpritestotheGroup_"></a>
+
+## 🟡 Adding Sprites to the Group
+
+
+- -  To ensure that sprites appear on the screen when using `all_sprites.draw(display_surface)`, **you need to add each sprite to the `all_sprites` group** during the sprite's initialization.
+
