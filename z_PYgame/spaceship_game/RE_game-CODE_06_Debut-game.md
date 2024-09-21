@@ -780,3 +780,24 @@ In this part, we'll assign an image to the Player class using the **self.image a
 
 - -  #### 🟤 By using `self.image.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))`, we create a rectangle that centers the sprite in the window.
 
+
+<br>
+
+```python
+class Player(pygame.sprite.Sprite):
+    def __init__(self):
+        super().__init__()
+        try:
+            # self.image = pygame.image.load(image_paths['player']).convert_alpha()
+            self.image = images['player']
+        except KeyError:
+            print("Player image not found in images dictionary.")
+            # Handle the failure (e.g., set a default image or exit)
+            #  ----  create a red square as a fallback/ shape red in case the img doesnt load --
+            self.image = pygame.Surface((50, 50))  # Example fallback surface
+            self.image.fill((0, 56, 175 ))  # BLUE Klein
+
+
+        # 🔴
+        self.rect = self.image.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+```
