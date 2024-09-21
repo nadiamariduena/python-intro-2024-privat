@@ -513,3 +513,20 @@ def update(self, dt):
 ```python
 self.rect.center += self.direction * self.speed * dt
 ```
+
+<br>
+
+---
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+## 🟦 Moving Forward:
+
+## 🔶 7. Define the Speed Variable:
+
+- - To set the **speed**, add the following line in the `__init__` method of the `Player` class:
+
