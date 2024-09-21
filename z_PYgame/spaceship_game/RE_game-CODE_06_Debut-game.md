@@ -114,6 +114,11 @@
 
 #### 🟠 Handling Inputs:
 
+We’ve successfully set up code to manage **keyboard and mouse inputs**, allowing us to control the player and interact with the game world effectively.
+
+#### 🟠 Player Movement:
+
+We’ve **implemented smooth movement mechanics for the player**, ensuring consistent **speed and responsiveness**, even with **diagonal movements**.
 
 <br>
 <br>
