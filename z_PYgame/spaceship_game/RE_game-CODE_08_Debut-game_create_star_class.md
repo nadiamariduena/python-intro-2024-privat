@@ -421,3 +421,7 @@ player = Player(all_sprites)
 - - If the image is loaded successfully, it uses that surface for all star instances.
 
 <br>
+
+**Efficiency Considerations:**
+
+#### 🌈 If the image is successfully loaded the first time, all subsequent instances will reuse that same surface.
