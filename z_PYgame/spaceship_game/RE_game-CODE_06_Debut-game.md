@@ -539,3 +539,13 @@ class Player(pygame.sprite.Sprite):
 
 ### Like so:
 
+```python
+class Player(pygame.sprite.Sprite):
+
+
+    def __init__(self):
+        super().__init__()
+        self.image # (we will be adding the img here)
+        self.rect
+```
+> if you are following the  [tutorial | 1:57:26](https://youtu.be/8OMghdHP-zs?si=PmVQXMiJDKqBUPIE&t=7046) structure, then use the above.
