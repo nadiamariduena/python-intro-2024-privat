@@ -939,3 +939,27 @@ group.update(args)  # Calls the update method on every sprite in the group with 
 
 
 
+🟫 **Flexibility:**  You can loop over sprites and use them in other methods, which makes it easy to sort and manage them logically.
+
+
+<br>
+<br>
+<br>
+
+
+## 🟦 Moving Forward:
+
+<a name="GettingStartedwithSpriteGroups_"></a>
+
+### 🟠 Sprite Group
+
+- Getting Started with SpriteGroups
+
+<br>
+<br>
+
+###  Setting Up a `Sprite Group`
+
+### 🟤 1. Create the Sprite Group
+
+This line initializes a new sprite group called all_sprites.
