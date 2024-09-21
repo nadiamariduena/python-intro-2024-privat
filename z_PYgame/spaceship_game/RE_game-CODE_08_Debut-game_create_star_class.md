@@ -564,3 +564,11 @@ for key, path_imgs in image_paths.items():
 **Initial Loading:**
 
 The for loop you provided **<u>loads the images once </u> into** the `images` **dictionary**.
+
+- - This is **efficient** because **it only attempts to load each image a single time**, ensuring that your assets are ready to be used.
+
+<br>
+
+## Conclusion
+
+✅ CHATGPT: Your approach is efficient because you're loading all images once at the beginning, which minimizes memory usage and loading times during gameplay.
