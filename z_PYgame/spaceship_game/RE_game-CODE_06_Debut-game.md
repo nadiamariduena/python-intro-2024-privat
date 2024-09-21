@@ -697,4 +697,4 @@ For complex operations, optimizing code through profiling and targeted improveme
 
 ### 🟠 Why Managing Images in a Dictionary is Beneficial in Game Development
 
-- - - ####   Read More: [RE_game_import_imgs_in_dictionary](./RE_game_import_imgs_in_dictionary.md)
+- - - ####   Read More: [RE_game_import_imgs_in_dictionary](../RE_game_import_imgs_in_dictionary.md)
