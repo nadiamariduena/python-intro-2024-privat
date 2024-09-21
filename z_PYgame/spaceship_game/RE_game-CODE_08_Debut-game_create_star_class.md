@@ -480,3 +480,5 @@ Star(all_sprites, star_surf)
 ### 🟦 Think of it like this:
 
 if you had to go grocery shopping every time you wanted a snack, you'd waste a lot of time.
+
+- - Instead, you grab everything in one go and have it on hand! This approach not only saves resources but also makes it easier to manage changes.
