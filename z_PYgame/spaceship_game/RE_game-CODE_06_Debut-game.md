@@ -74,3 +74,29 @@
 
 <br>
 <br>
+
+### 🟠 Adding Sprites to the Group
+
+- -  [Go to section](#AddingSpritestotheGroup_)
+
+- - - ### 🟤 Init: Asterisk `*`
+
+- -  - - Adding **groups** when initializing the Class: `super().__init__(*groups)`: [ ⤵️ Go to section](#ASTERISK_)
+
+> - - - - the asterisk (*) means "unpack the elements" and is essential for properly passing the groups to the parent class's __init__ method.
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+---
+
+<br>
