@@ -963,3 +963,9 @@ group.update(args)  # Calls the update method on every sprite in the group with 
 ### 🟤 1. Create the Sprite Group
 
 This line initializes a new sprite group called all_sprites.
+
+```python
+all_sprites = pygame.sprite.Group()
+```
+### 🟤 2. Add Sprites to the Group
+
