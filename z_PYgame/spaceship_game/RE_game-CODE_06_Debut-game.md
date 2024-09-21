@@ -672,3 +672,14 @@ For complex operations, optimizing code through profiling and targeted improveme
 <br>
 
 ## 🟦 Moving Forward:
+
+
+
+<a name="dictionary_to_manage_img_imports_"></a>
+
+## <u>Dictionary</u>
+
+### 🟧 In my project, my code differs from the tutorial due to my use of a dictionary to manage image imports.
+
+- - Although **the tutorial does not cover this approach**, my experience with **Three.js** ✋ taught me that organizing assets in this way can be beneficial.
+
