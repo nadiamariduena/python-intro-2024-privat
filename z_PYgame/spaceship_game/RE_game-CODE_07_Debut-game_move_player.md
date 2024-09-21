@@ -962,3 +962,11 @@ pygame.quit()
 ## 🟦 Moving Forward:
 
 ## 🔶 Step 8: Final Touches Before Creating the `Star Class`
+
+<br>
+
+### 🔴  The Issue with `get_just_pressed()`
+
+<a name="get_just_pressed_"></a>
+
+- ####  In the upcoming part of the lesson, the teacher will demonstrate the use of `get_just_pressed()`, but be aware that this might lead to an error:
