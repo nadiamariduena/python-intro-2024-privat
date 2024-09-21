@@ -428,3 +428,54 @@ while running:
 ### 🟫 <u>Another thing to keep in mind</u>  is that delta time (dt) is defined in the global scope, making it accessible within the Player class as well.
 
 <br>
+
+> ####  *Global Scope*  ( 🟥 accessible but its not a good practice,  <u>check the solution here </u>  [Go to section](#Global_Accessibility_solution) )
+
+<br>
+
+```python
+    def update(self):
+        keys = pygame.key.get_pressed()
+        self.direction.x = int(keys[pygame.K_RIGHT]) - int(keys[pygame.K_LEFT])
+        self.direction.y = int(keys[pygame.K_DOWN]) - int(keys[pygame.K_UP])
+
+        self.direction = self.direction.normalize() if self.direction else self.direction
+
+        # SPEED ✋
+        self.rect.center += self.direction * self.speed * dt
+
+all_sprites = pygame.sprite.Group()
+```
+
+
+# 🔴 2) Important: The SPEED Variable Needs to Be Defined
+
+- **Keep in mind that the speed variable doesn’t exist yet**, so we need to create it.
+
+Recall that we previously had the speed defined, but we’ve moved away from that implementation:
+
+```python
+# We are no longer using the below, but it serves as a reminder of what we had before
+# ----- move right to left loop ---
+
+# VECTOR
+# player_direction = pygame.math.Vector2()  # This vector represented the direction and speed of the player
+
+# ✋ player speed
+# player_speed = 300  # Speed of the player
+
+```
+
+<br>
+<br>
+
+<a name="Global_Accessibility_solution"></a>
+
+# 🟡 Solution
+
+### 🟫 Step 1: Pass the dt Parameter
+
+- - **First, we will modify the while loop to include the `dt`** parameter when updating our sprite group.
+
+> - - - By doing this, we ensure that each sprite has access to the time elapsed, which is crucial for calculating movement accurately. Here’s the updated line:
+
