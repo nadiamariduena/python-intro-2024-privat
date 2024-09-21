@@ -418,3 +418,9 @@ class Player(pygame.sprite.Sprite):
         super().__init__()
 
 ```
+
+
+### Purpose:
+
+> - - #### This line `class Player(pygame.sprite.Sprite)` defines a new class called **Player**.
+
