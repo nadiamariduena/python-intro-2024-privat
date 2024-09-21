@@ -1009,3 +1009,11 @@ pygame.quit()
  **If you test it now, you won’t see anything** 👎
 
 - -  Because the **sprites are not being added to the all_sprites group**.
+
+- Make sure to attach sprites to the group in their class initialization to ensure they are managed and drawn correctly.
+
+<br>
+<br>
+
+
+## 🟦 Moving Forward:
