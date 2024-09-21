@@ -80,3 +80,12 @@ print(person1.age) # output: 30
 -  **When you give the factory** a **set of instructions (or ingredients)**, it **builds** the **robot exactly how you want it**.
 
 <br>
+
+**In Python**, we have **something similar** ✋ **called a constructor** ✋ it’s a special method in a class called `__init__`.
+
+- - **When you create an instance of a class** (`which is like asking the toy factory to make a new robot` 🤖), **the `__init__` method is called automatically** to set up that instance **with its initial features**.
+
+<br>
+
+
+### Here’s how it works with a simple example:
