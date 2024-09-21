@@ -463,3 +463,13 @@ class Player(pygame.sprite.Sprite):
         super().__init__()
 
 ```
+
+
+<br>
+
+#### `super().__init__()`:
+
+**Purpose:**
+
+- - This line calls the `__init__` **method of the parent class** `(pygame.sprite.Sprite)`.
+
