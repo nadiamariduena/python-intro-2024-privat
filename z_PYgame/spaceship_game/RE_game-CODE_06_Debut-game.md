@@ -1301,3 +1301,36 @@ player = Player(all_sprites)
 ## 🟦 Moving Forward:
 
 ### 🟠 After the teacher added the `update()` call within the while loop (as discussed above), 🔴 `you will need to create the update method in the Player class that is linked to that call`.
+
+<br>
+
+```python
+    def update(self):
+        print("shipt is being updated")
+```
+
+### Like so:
+
+```python
+class Player(pygame.sprite.Sprite):
+    def __init__(self, groups):
+        super().__init__(groups)
+        try:
+
+            self.image = images['player']
+        except KeyError:
+            print("Player image not found in images dictionary.")
+
+            self.image = pygame.Surface((50, 50))  # Example fallback surface
+            self.image.fill((0, 56, 175 ))  # BLUE Klein
+
+        self.rect = self.image.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+
+    # ---- 🟡 UPDATE METHOD
+    def update(self):
+        print("shipt is being updated")
+```
+
+<br>
+
+ ### 🌈 The update in the while loop isn’t a method by itself;
