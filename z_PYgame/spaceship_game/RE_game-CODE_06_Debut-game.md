@@ -143,3 +143,6 @@ We’ll use `pygame.sprite.Sprite` to create these classes.
 
 
 
+####  💥 Building the Game Loop:
+
+> ####  We’ll integrate our sprite classes into the main game loop, updating and drawing each sprite, handling collisions, and managing game states.
