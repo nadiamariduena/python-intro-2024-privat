@@ -358,3 +358,15 @@ clock = pygame.time.Clock()
 ## 🔶 6. `DeltaTime:` Integrate Speed Calculations into Player Dynamics!
 
 #### The line `player_rect.center += self.direction * player_speed * dt` dynamically updates the player’s position by combining the direction vector with the speed and the time elapsed since the last frame.
+
+```python
+# before
+player_rect.center += player_direction * player_speed * dt
+# after
+self.rect.center += self.direction * self.speed * dt
+
+```
+
+> #### This ensures that movement is smooth and responsive, adapting to player input in real time.
+
+> - - - #### 🔴 Without this calculation, your player would remain stationary, missing out on all the action happening around them. Curious about how this simple equation keeps the game alive? Let’s explore the magic of motion!
