@@ -1334,3 +1334,7 @@ class Player(pygame.sprite.Sprite):
 <br>
 
  ### 🌈 The update in the while loop isn’t a method by itself;
+
+ > - - #### 💥 it's actually calling the update method I created in the Player class.
+
+
