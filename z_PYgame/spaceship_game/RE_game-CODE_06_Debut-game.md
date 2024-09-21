@@ -517,3 +517,10 @@ class Player(pygame.sprite.Sprite):
 
 > ### 🟤 In this section, we will enhance the Player class by incorporating an image and a rectangle to define its visual appearance and boundary.
 
+<br>
+
+### This involves the following steps:
+
+- - **Integrate the image into** the `Player` **class** to represent the sprite visually.
+
+- - Define a rectangle around the sprite to manage its position and handle collisions.
