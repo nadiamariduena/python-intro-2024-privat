@@ -436,3 +436,11 @@ player = Player(all_sprites)
 
 #### 🔺 If there were an error in loading the image (e.g., if the file path was incorrect), 🔺 <u>each failed attempt would result in creating a new surface (the yellow rectangle in your code) for that star</u> .
 
+> #### This could lead to unnecessary memory usage if many stars failed to load the intended image.
+
+
+<br>
+
+## 🌈 Solution
+
+#### Import the `Surface` before we are creating the `Star`
