@@ -70,3 +70,13 @@ print(person1.age) # output: 30
 **Each** robot **comes with** its own **special features** like `color, size, and abilities`.
 
 <br>
+
+## 🌈 Now...
+
+### Let’s think of a constructor as the magical recipe or blueprint the factory uses to make each robot.
+
+<br>
+
+-  **When you give the factory** a **set of instructions (or ingredients)**, it **builds** the **robot exactly how you want it**.
+
+<br>
