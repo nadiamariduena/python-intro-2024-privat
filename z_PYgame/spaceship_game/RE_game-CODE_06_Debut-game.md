@@ -1079,3 +1079,16 @@ class Player(pygame.sprite.Sprite):
 <br>
 
 - - 🔴 This is done by **passing these groups as an argument to the `__init__` constructor method** of your sprite class.
+
+> - -  #### 🦄 Then, you can forward these groups to the parent class using `super()`.
+
+
+
+- - #### 🟤 By modifying the `__init__` method to accept and pass groups to the parent class via `super()`, you ensure that your sprite is properly added to those groups upon creation.
+
+
+<br>
+
+### 🟧  Here's how you can do it:
+
+###  Before
