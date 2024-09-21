@@ -425,3 +425,5 @@ player = Player(all_sprites)
 **Efficiency Considerations:**
 
 #### 🌈 If the image is successfully loaded the first time, all subsequent instances will reuse that same surface.
+
+> - - #### This means you aren't actually loading the image into memory 20 times, but you are referencing the same loaded surface for each star.
