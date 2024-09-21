@@ -982,3 +982,9 @@ all_sprites.update() # Refreshes the display to show the updated frame
 <br>
 <br>
 
+### 3. 🟤 Draw sprites on the display surface
+
+**`all_sprites.draw(display_surface)`:**
+
+- -  Renders all sprites onto the `display_surface`, which is your game window.
+
