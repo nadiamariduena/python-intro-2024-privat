@@ -28,13 +28,13 @@
 <br>
 <br>
 
-<!-- ### 🟦 Final Touches Before Creating the `Star Class`
+### 🟦 Final Touches Before Creating the `Star Class`
 
 - - - The **Issue with `get_just_pressed()`** [Go to section](#get_just_pressed_)
 
 
 
-> -  - - - 🔺  In the upcoming part of the lesson, the teacher will demonstrate the use of `get_just_pressed()`, but be aware that this might lead to an error: -->
+> -  - - - 🔺  In the upcoming part of the lesson, the teacher will demonstrate the use of `get_just_pressed()`, but be aware that this might lead to an error:
 
 
 <br>
