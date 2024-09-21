@@ -415,3 +415,5 @@ player = Player(all_sprites)
 ## 🟦 Explanation
 
 🟠 **Surface Loading:**
+
+**When you create an instance of the `Star` class**, **the `__init__` method runs**, which attempts to load the star image from the images dictionary.
