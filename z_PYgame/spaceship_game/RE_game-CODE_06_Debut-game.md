@@ -441,3 +441,4 @@ class Player(pygame.sprite.Sprite):
 > ### In this section, we will provide a comprehensive explanation of each part of the Player class.
 
 <br>
+
