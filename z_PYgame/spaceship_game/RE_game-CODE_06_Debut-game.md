@@ -498,3 +498,17 @@ class Player(pygame.sprite.Sprite):
 <br>
 <br>
 <br>
+
+## 🟦 Moving Forward:
+
+<a name="Img_and_Rect_"></a>
+
+### 🟠  <u>`Img & Rect`</u> :
+
+### Adding Image and Rectangle to the Sprite
+
+```python
+        self.image
+        self.rect
+```
+
