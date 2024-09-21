@@ -530,3 +530,21 @@ Plus, a tidy codebase is easier to read, making collaboration and future updates
 #### 🟣 QUESTION:
 
   **Since my previous code already includes a `for` loop to load images** from the `image_paths` dictionary and handle errors, should I be concerned about loading the surface 20 times?
+
+> - - #### 🟨 The loop ensures each image is only loaded once, and if there's an error, it provides a fallback surface. Does this mean I don't need additional implementation to prevent redundant loading?
+
+```python
+# Load images and handle errors
+# Notice how we grab the dictionary "image_paths"
+for key, path_imgs in image_paths.items():
+    try:
+        #LOAD and CONVERT the image in one step
+        images[key] = pygame.image.load(path_imgs).convert_alpha()
+
+    except pygame.error as img_item:
+
+        print(f"Failed to load image '{path_imgs}': {img_item}")
+        # Fall img IF LOAD fails
+        images[key] = pygame.Surface((50,50)) # square
+        images[key].fill((249, 255, 51 )) # yellow acid
+```
