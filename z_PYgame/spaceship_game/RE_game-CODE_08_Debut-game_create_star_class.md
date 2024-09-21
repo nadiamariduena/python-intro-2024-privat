@@ -98,3 +98,9 @@ In this lesson, we will focus on enhancing our game by implementing a `Star clas
 
 🟤 **Define the Star Class:**
 
+
+- - We will create a new class for our stars that inherits from `pygame.sprite.Sprite`, laying the foundation for our star objects.
+
+🟤 **Initialize the Star Class:**
+
+- - Inside the `Star` class, we will set up an `__init__` method to load the star image and define its rectangle for positioning, ensuring each star has its own properties.
