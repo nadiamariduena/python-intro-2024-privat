@@ -454,3 +454,7 @@ class Player(pygame.sprite.Sprite):
 
  - - This is the constructor method for the `Player` **class**.
 
+- - It’s called when a new instance of Player is created.
+
+#### 🟤 It initializes the object and sets up its attributes.
+
