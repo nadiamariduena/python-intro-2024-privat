@@ -920,3 +920,6 @@ While this alternative is similar, **it also bypasses Pygame's sprite groups and
  <br>
  <br>
 
+### 🟧 Key Benefits of Sprite Groups:
+
+🟫 **Drawing:**  You can draw all sprites in a group onto a surface with a single command.
