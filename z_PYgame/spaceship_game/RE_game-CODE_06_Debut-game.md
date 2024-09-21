@@ -1217,3 +1217,20 @@ class Player(pygame.sprite.Sprite):
 **Remove the line:** `all_sprites.add(player)`
 
 <br>
+
+
+```python
+all_sprites = pygame.sprite.Group()
+# Create PLAYER class instance
+player = Player()
+all_sprites.add(player)
+
+```
+### 🟠 Replace it with:
+
+```python
+all_sprites = pygame.sprite.Group()
+player = Player(all_sprites)
+```
+
+
