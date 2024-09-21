@@ -481,3 +481,20 @@ class Player(pygame.sprite.Sprite):
 <br>
 
 ---
+
+
+
+> #### 🟣 Question: `Super()` is like mitosis (not technically)?
+
+> #### ✅ chatgpt: Yes, that’s a good way to think about it in a broad sense! While `super()` and [mitosis](https://youtu.be/skPOXcVvS5c?si=69yX-O8AKtoqkPe-)  are not technically the same, the analogy of a "division of a parent" works for understanding the concept of inheritance and initialization in object-oriented programming.
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
