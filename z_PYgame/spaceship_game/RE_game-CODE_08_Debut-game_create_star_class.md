@@ -272,3 +272,10 @@ self.rect = self.image.get_frect(center=(randint(0, WINDOW_WIDTH), randint(0, WI
 
  - - Finally,  **remove the previous line that generated star_positions entirely.**
 
+```python
+star_positions = [(randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)) for i in range(20)]
+
+```
+
+ > #### This change simplifies the code and ensures that each star's position is set when it is created, eliminating unnecessary calculations during the game loop.
+
