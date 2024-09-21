@@ -209,3 +209,23 @@ randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
 
 
 ## 🟫 Step 4.  Integrate Random Positioning into the Star Class
+
+#### In this step, we’ll focus on assigning random `x and y` positions for each star using the `get_frect method`.
+
+
+
+
+### 🟠 Handling the X and Y Axes
+
+#### For the X-axis, we’ll use:
+
+```python
+self.rect = self.image.get_frect(center=(randint(0, WINDOW_WIDTH), y))
+
+```
+#### For the Y-axis, we’ll include:
+
+```python
+randint(0, WINDOW_HEIGHT)
+```
+
