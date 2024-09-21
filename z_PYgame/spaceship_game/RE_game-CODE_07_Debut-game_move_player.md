@@ -160,3 +160,36 @@
 ## 🔶 1.  Move the Movement Logic
 
 - - **Take the entire commented section** related to movement from the `WHILE` loop and paste it below the **`def update` method** in the `Player` class.
+
+- like so:
+
+```python
+    def update(self):
+        print("shipt is being updated")
+
+      # ---------KEY  ---------
+    # keys = pygame.key.get_pressed()
+
+    # player_direction.x = int(keys[pygame.K_RIGHT]) - int(keys[pygame.K_LEFT])
+    # # `int()` is the function doing the conversion. int converts this boolean value into an integer. In Python, True is equivalent to 1 and False is equivalent to 0. Therefore, int(keys[pygame.K_RIGHT]) gives 1 if the key is pressed and 0 if it is not
+    # player_direction.y = int(keys[pygame.K_DOWN]) - int(keys[pygame.K_UP])
+
+    # # to normalize the vector, after the issue when pressing top and left at the same time
+    # player_direction = player_direction.normalize() if player_direction else player_direction
+
+
+    # player_rect.center += player_direction * player_speed * dt
+    # print(pygame.mouse.get_pos())
+
+    # #MAGNITUDE
+    # print((player_direction * player_speed).magnitude())
+
+
+all_sprites = pygame.sprite.Group()
+```
+
+<br>
+<br>
+
+
+## 🔶 2. Insert the line `keys = pygame.key.get_pressed()` inside the `def update` method of the `Player` class.
