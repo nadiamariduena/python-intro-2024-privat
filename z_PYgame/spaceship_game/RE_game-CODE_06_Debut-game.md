@@ -52,3 +52,11 @@
 
 <br>
 <br>
+
+### 🟠 Blitting Sprites
+
+**Directly Blitting Sprites:** Why It’s Not Ideal  [Go to section](#DirectlyBlittingSprites_)
+
+> - - -  Direct blitting requires manual management of each sprite's position and updates, which can become cumbersome and error-prone.
+
+<br>
