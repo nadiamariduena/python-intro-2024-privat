@@ -801,3 +801,23 @@ class Player(pygame.sprite.Sprite):
         # 🔴
         self.rect = self.image.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
 ```
+
+
+
+<br>
+<br>
+
+
+## 🟠  Integrating the Player Class into Your Game
+
+
+###  Adding the Player to the Display Surface
+
+```python
+# PLAYER class instance
+# with this you can go to the while loop and DRAW the player
+# remember: this player is carrying the img etc
+player = Player()
+```
+
+<br>
