@@ -338,3 +338,23 @@ clock = pygame.time.Clock()
 <br>
 
 ### 🔶 Make sure your update() method looks like this:
+
+```python
+    def update(self):
+        keys = pygame.key.get_pressed()
+
+        self.direction.x = int(keys[pygame.K_RIGHT]) - int(keys[pygame.K_LEFT])
+        self.direction.y = int(keys[pygame.K_DOWN]) - int(keys[pygame.K_UP])
+
+
+        #NORMALIZE ✋
+        self.direction = self.direction.normalize() if self.direction else self.direction
+        #    print("shipt is being updated")
+```
+
+<br>
+<br>
+
+## 🔶 6. `DeltaTime:` Integrate Speed Calculations into Player Dynamics!
+
+#### The line `player_rect.center += self.direction * player_speed * dt` dynamically updates the player’s position by combining the direction vector with the speed and the time elapsed since the last frame.
