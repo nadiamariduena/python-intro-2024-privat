@@ -502,3 +502,20 @@ Plus, a tidy codebase is easier to read, making collaboration and future updates
 **Modify the Constructor:** Update the Star class to accept the star surface as an additional parameter: `(self, groups,star):`.
 
 
+ ```python
+ # BEFORE
+ class Star(pygame.sprite.Sprite):
+    def __init__(self, groups):
+
+
+
+# AFTER
+ class Star(pygame.sprite.Sprite):
+    def __init__(self, groups,star):
+             super().__init__(groups)
+             try:
+
+             self.image = surf
+ ```
+
+ > #### By implementing this change, we ensure that each star instance directly references the pre-loaded surface, improving efficiency and keeping our code organized!
