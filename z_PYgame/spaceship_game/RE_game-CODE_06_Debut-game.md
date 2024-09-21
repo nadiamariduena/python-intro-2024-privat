@@ -333,3 +333,8 @@ pygame.quit()
 >  - #### Classes help keep things tidy by grouping related data and functions together.
 
 > #### This makes it easier to manage and understand.
+
+
+#### 🟤 Structure:
+
+We’ll create specific classes for different game elements like the player, enemies, and other objects.
