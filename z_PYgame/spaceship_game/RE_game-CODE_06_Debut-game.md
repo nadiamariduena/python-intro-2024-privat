@@ -564,3 +564,4 @@ class Player(pygame.sprite.Sprite):
 
 **Purpose:** This **attribute will be used to store the rectangle** (or bounding box) around the player’s image.
 
+**Why:** `self.rect` helps with positioning the player on the screen and handling collisions. It’s also a placeholder here and will be set up later.
