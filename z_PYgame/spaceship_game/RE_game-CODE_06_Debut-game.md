@@ -757,3 +757,18 @@ In this part, we'll assign an image to the Player class using the **self.image a
  self.image = images['player']
 ```
 
+
+
+
+##  Why?
+
+- - **To ensure the sprite is correctly positioned on the screen**, `self.rect` defines the sprite's rectangular area.
+
+
+<br>
+
+### 🟤 Assigning the `ìmage`
+
+```python
+  self.rect = self.image.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2)) , explain it in 5 lines
+```
