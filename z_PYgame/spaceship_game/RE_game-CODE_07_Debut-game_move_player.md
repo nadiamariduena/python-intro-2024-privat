@@ -970,3 +970,13 @@ pygame.quit()
 <a name="get_just_pressed_"></a>
 
 - ####  In the upcoming part of the lesson, the teacher will demonstrate the use of `get_just_pressed()`, but be aware that this might lead to an error:
+
+```python
+      recent_keys = pygame.key.get_just_pressed()
+        if recent_keys[pygame.K_SPACE]:
+            print('fire laser')
+
+```
+>This function may not be supported in the latest versions of Pygame, so it's essential to understand why.
+
+<br>
