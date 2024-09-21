@@ -30,3 +30,25 @@
 
 - - Dictionary **to manage image imports**  [Go to section](#dictionary_to_manage_img_imports_)
 
+
+
+  - - -   **LOOP  alpha** Instead of calling `convert_alpha()` multiple times for each image, `we handle it in a single loop` when loading the images. [Go to section](#LOOP_ALPHA_)
+
+
+
+
+<br>
+<br>
+
+
+
+### ⚫ `For` Loops
+
+-  - **for loops can be less efficient** for certain situations [Go to section](#for_loop_for_some_situations_)
+
+<br>
+<br>
+
+
+<br>
+<br>
