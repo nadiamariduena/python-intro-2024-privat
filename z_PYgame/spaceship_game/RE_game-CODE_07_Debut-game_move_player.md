@@ -370,3 +370,36 @@ self.rect.center += self.direction * self.speed * dt
 > #### This ensures that movement is smooth and responsive, adapting to player input in real time.
 
 > - - - #### 🔴 Without this calculation, your player would remain stationary, missing out on all the action happening around them. Curious about how this simple equation keeps the game alive? Let’s explore the magic of motion!
+
+<br>
+<br>
+<br>
+
+---
+
+
+<a name="Global_Accessibility_of_DT"></a>
+
+<br>
+
+# 🟧  Global Accessibility of Delta Time (dt)
+
+### 💥 DT  parameter
+
+**To improve the way our player moves**, we’ll **incorporate the dt parameter**, which represents the time elapsed since the last frame.
+
+
+
+> - - - #### The `delta time (dt)` variable is calculated in the main game loop, making it globally accessible throughout the entire program.
+
+```python
+while running:
+    #🤚 DELTA time
+    # frame rate / division
+    dt = clock.tick() / 1000
+```
+<br>
+
+> ### 🌐 This means you can use dt in any class, including the Player class, to ensure consistent movement speed.
+
+<br>
