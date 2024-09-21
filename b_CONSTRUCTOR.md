@@ -23,3 +23,6 @@
 
 <br>
 
+Here's a breakdown of its purpose and usage:
+
+**Initialization:** The primary purpose of a constructor is to initialize the newly created object with any necessary initial values. This typically involves setting the initial state of instance variables (also known as attributes) within the object.
