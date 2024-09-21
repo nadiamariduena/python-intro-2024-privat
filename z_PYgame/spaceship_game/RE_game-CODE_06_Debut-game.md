@@ -366,3 +366,8 @@ We’ll create specific classes for different game elements like the player, ene
 > - - #### Sprite simplifies game development by providing predefined methods and attributes tailored for game development.
 
 
+
+<br>
+
+## 🟠  Built-In Features:
+
