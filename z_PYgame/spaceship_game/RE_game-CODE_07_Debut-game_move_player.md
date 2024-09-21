@@ -479,3 +479,16 @@ Recall that we previously had the speed defined, but we’ve moved away from tha
 
 > - - - By doing this, we ensure that each sprite has access to the time elapsed, which is crucial for calculating movement accurately. Here’s the updated line:
 
+```python
+# 🟨 UPDATE sprite group
+all_sprites.update(dt)
+```
+
+<br>
+
+### 🟫 Step 2: Capture dt in the Player Class
+
+- - **Next**, we need to **capture the `dt parameter` in the `update()` method of the `Player class`**.
+
+> - - - This is done by modifying the method signature to accept dt as an argument. Here’s how it changes:
+
