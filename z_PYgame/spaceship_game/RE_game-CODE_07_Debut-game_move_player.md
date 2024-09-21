@@ -235,3 +235,19 @@ clock = pygame.time.Clock()
 <br>
 
 ## 🟠 Now, Include the Direction Vector in the Player Class
+
+- - In the `__init__` **method** of the `Player` **class**, add the following line: `self.direction = pygame.Vector2()`
+
+<br>
+
+```python
+        self.rect = self.image.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+
+        # ✋
+        self.direction = pygame.Vector2()
+
+    def update(self):
+```
+<br>
+
+## 🟫 self.direction = pygame.Vector2()
