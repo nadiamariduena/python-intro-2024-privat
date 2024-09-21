@@ -976,3 +976,9 @@ all_sprites.draw(display_surface) # Renders all sprites, which is your game wind
 all_sprites.update() # Refreshes the display to show the updated frame
 
 ```
+
+> ####  This draws and updates all sprites in the all_sprites group on the display_surface.
+
+<br>
+<br>
+
