@@ -1243,3 +1243,16 @@ player = Player(all_sprites)
 
 - -  In the original code, after creating a Player instance, you explicitly add it to the `all_sprites` **group** using `all_sprites.add(player)`.
 
+> - -  ####  🔴 This approach requires separate management of adding sprites to the group, which can be less organized.
+
+```python
+# before
+all_sprites = pygame.sprite.Group()
+player = Player()
+all_sprites.add(player)
+# --------
+# after
+all_sprites = pygame.sprite.Group()
+player = Player(all_sprites)
+```
+
