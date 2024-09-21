@@ -1092,3 +1092,26 @@ class Player(pygame.sprite.Sprite):
 ### 🟧  Here's how you can do it:
 
 ###  Before
+
+- In the below version, the sprite isn’t assigned to any groups because the __init__ method doesn’t take any arguments for groups.
+
+```python
+
+class Player(pygame.sprite.Sprite):
+    def __init__(self):
+        super().__init__()
+
+```
+###  After:
+
+```python
+class Player(pygame.sprite.Sprite):
+    def __init__(self, groups):
+        super().__init__(*groups)
+        # 🔴 NOTICE the asterisk
+        # we will talk about it after this
+```
+
+<br>
+
+---
