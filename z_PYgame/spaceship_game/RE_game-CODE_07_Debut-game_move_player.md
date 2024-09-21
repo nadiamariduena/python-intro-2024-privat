@@ -326,3 +326,15 @@ clock = pygame.time.Clock()
 
  #### Normalizing the direction vector prevents faster diagonal movement by ensuring that the player’s speed remains consistent, regardless of the input direction. This helps maintain a smooth and predictable gameplay experience.
 
+
+<br>
+
+- Don't forget to replace the **player_direction** for **self**
+
+```python
+      self.direction = self.direction.normalize() if self.direction else self.direction
+```
+
+<br>
+
+### 🔶 Make sure your update() method looks like this:
