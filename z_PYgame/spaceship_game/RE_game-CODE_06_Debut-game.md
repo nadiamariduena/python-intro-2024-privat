@@ -772,3 +772,11 @@ In this part, we'll assign an image to the Player class using the **self.image a
 ```python
   self.rect = self.image.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2)) , explain it in 5 lines
 ```
+#### This step is crucial because it aligns the image on the surface, allowing accurate positioning and rendering of the sprite in the game.
+
+<br>
+
+### 🟤 Centering
+
+- -  #### 🟤 By using `self.image.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))`, we create a rectangle that centers the sprite in the window.
+
