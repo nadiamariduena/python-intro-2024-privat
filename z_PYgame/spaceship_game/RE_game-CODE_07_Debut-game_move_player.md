@@ -193,3 +193,13 @@ all_sprites = pygame.sprite.Group()
 
 
 ## 🔶 2. Insert the line `keys = pygame.key.get_pressed()` inside the `def update` method of the `Player` class.
+
+>The **purpose of adding** `keys = pygame.key.get_pressed()` **inside** the **def update** method **is to continuously check the current state** of the **keyboard** during each frame.
+
+```python
+    def update(self):
+        keys = pygame.key.get_pressed()
+        # print("shipt is being updated")
+
+
+```
