@@ -898,3 +898,8 @@ While this alternative is similar, **it also bypasses Pygame's sprite groups and
 
 ##  <u>Benefits of Using Sprite Groups</u>
 
+- - **Using sprite groups allows for more** advanced features like batch drawing and collision detection, making your game code cleaner and more scalable.
+
+<br>
+<br>
+<br>
