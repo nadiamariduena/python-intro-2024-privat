@@ -408,3 +408,10 @@ player = Player(all_sprites)
 
 > - - #### Additionally, if rendering is involved, the graphics pipeline processes each star individually, potentially impacting performance.
 
+#### This means we are rendering the star surface 20 times. So, yes, the teacher's statement about charging 20 times for the surface is correct.
+
+<br>
+
+## 🟦 Explanation
+
+🟠 **Surface Loading:**
