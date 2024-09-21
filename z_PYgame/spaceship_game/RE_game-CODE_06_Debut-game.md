@@ -903,3 +903,14 @@ While this alternative is similar, **it also bypasses Pygame's sprite groups and
 <br>
 <br>
 <br>
+
+
+## 🟠 Why Use Sprite Groups?
+
+<br>
+
+🟤 **Efficiency:**  Games often have many sprites.
+
+> #### Pygame sprite groups are designed to handle large numbers of sprites efficiently.
+
+<br>
