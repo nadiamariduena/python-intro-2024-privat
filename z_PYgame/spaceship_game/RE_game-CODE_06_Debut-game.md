@@ -20,17 +20,13 @@
 
 - - - 🟫 **Class VS `pygame.sprite.Sprite` Class** [Go to section](#Classes_vs_pygameClasses_)
 
-
-
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
 <br>
 
----
+- -  `INIT`: Creating the Initial class [Go to section](#Creating_the_Initial_class)
+
+- -  `Img & Rect`:  Adding Image and Rectangle to the Sprite [Go to section](#Img_and_Rect_)
 
 <br>
+
+- - Dictionary **to manage image imports**  [Go to section](#dictionary_to_manage_img_imports_)
+
