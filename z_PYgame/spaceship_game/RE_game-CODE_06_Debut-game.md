@@ -1295,3 +1295,9 @@ player = Player(all_sprites)
 <br>
 <br>
 <br>
+
+
+
+## 🟦 Moving Forward:
+
+### 🟠 After the teacher added the `update()` call within the while loop (as discussed above), 🔴 `you will need to create the update method in the Player class that is linked to that call`.
