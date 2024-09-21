@@ -123,3 +123,15 @@ We’ve **implemented smooth movement mechanics for the player**, ensuring consi
 <br>
 <br>
 <br>
+
+
+<a name="What_We_will_Be_Doing_"></a>
+
+## 🫐🟡 <u>What We’ll Be Doing </u>
+
+####  💥 Creating Game Classes:
+
+  We’ll define classes for different elements of our game.
+
+> #### For example, a Player class for the player character, an Enemy class for enemies, and so on. Each class will manage its own behavior and properties.
+
