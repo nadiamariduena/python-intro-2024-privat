@@ -416,3 +416,15 @@ while running:
 <br>
 
 ---
+
+<a name="Global_Accessibility_of_DT_not_good_inthis_situation"></a>
+
+
+# 🔴 1) Important: Delta Time Accessibility
+
+
+<br>
+
+### 🟫 <u>Another thing to keep in mind</u>  is that delta time (dt) is defined in the global scope, making it accessible within the Player class as well.
+
+<br>
