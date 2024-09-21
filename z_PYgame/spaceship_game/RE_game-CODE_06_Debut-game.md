@@ -1233,4 +1233,13 @@ all_sprites = pygame.sprite.Group()
 player = Player(all_sprites)
 ```
 
+<br>
+
+## Why?
+
+
+
+###  🟧 Removing all_sprites.add(player):
+
+- -  In the original code, after creating a Player instance, you explicitly add it to the `all_sprites` **group** using `all_sprites.add(player)`.
 
