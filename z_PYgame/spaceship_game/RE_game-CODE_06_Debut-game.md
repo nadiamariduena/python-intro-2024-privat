@@ -887,3 +887,5 @@ surface.blit(sprite.image, sprite.rect)
 
 ## 👎 Alternative, But Still Not Ideal:
 
+While this alternative is similar, **it also bypasses Pygame's sprite groups and other features designed to manage multiple sprites efficiently**.
+
