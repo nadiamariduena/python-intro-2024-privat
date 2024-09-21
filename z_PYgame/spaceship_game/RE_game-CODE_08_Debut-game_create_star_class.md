@@ -519,3 +519,14 @@ Plus, a tidy codebase is easier to read, making collaboration and future updates
  ```
 
  > #### By implementing this change, we ensure that each star instance directly references the pre-loaded surface, improving efficiency and keeping our code organized!
+
+<br>
+<br>
+<br>
+<br>
+
+### 🟠 2. My solution:
+
+#### 🟣 QUESTION:
+
+  **Since my previous code already includes a `for` loop to load images** from the `image_paths` dictionary and handle errors, should I be concerned about loading the surface 20 times?
