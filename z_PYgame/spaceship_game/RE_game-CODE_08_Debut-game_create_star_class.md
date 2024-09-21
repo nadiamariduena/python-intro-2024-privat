@@ -85,3 +85,16 @@
 ## 🫐 🟠 <u>What We’ll Be Doing </u>
 
 <br>
+
+## 🟨  Creating and Optimizing the Star Class
+
+In this lesson, we will focus on enhancing our game by implementing a `Star class` with efficient image handling and sprite management.
+
+
+
+###  Summary of Today's Lesson:
+
+<br>
+
+🟤 **Define the Star Class:**
+
