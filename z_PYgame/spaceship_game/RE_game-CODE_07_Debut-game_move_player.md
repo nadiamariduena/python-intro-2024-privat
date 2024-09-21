@@ -505,3 +505,11 @@ def update(self, dt):
 <br>
 
 ### 🟫 Step 3: Utilize dt for Smooth Movement
+
+- -  With `dt` now available in our `update()` **method**, we can use it to update the player’s position based on speed and direction.
+
+> #### This line of code allows us to calculate how far the player should move in that frame:
+
+```python
+self.rect.center += self.direction * self.speed * dt
+```
