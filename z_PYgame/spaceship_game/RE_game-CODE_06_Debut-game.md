@@ -444,3 +444,13 @@ class Player(pygame.sprite.Sprite):
 
 
 - - This **includes** the **purpose and functionality of the** `__init__` **"constructor" method**, **as well as how it interacts** with the `pygame.sprite.Sprite` **class to initialize the Player** object.
+
+
+<br>
+
+### `def __init__(self)`:
+
+ **Purpose:**
+
+ - - This is the constructor method for the `Player` **class**.
+
