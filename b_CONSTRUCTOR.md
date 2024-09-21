@@ -89,3 +89,30 @@ print(person1.age) # output: 30
 
 
 ### Here’s how it works with a simple example:
+
+```python
+# 🤖
+class Robot:
+    def __init__(self, color, size):
+        self.color = color  # This sets the color of the robot
+        self.size = size    # This sets the size of the robot
+
+    def describe(self):
+        return f"This robot is {self.color} and {self.size}."
+
+# Create a new robot with specific features
+my_robot = Robot("red", "large")
+
+# Use the robot’s describe method to show its features
+print(my_robot.describe())  # Output: This robot is red and large.
+
+```
+
+ ### In this example,
+
+ -  **Robot** 🤖 is like our toy factory.
+
+ - - 🟡 When we make a new robot with Robot("red", "large"),
+
+ <br>
+
