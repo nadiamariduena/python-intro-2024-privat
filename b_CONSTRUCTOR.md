@@ -114,5 +114,13 @@ print(my_robot.describe())  # Output: This robot is red and large.
 
  - - 🟡 When we make a new robot with Robot("red", "large"),
 
+ - - - #### 🟩 Python calls the `__init__` constructor method to set up our robot with a red color and large size.
+
+ <br>
+
+ > ### 🌈🦄  So, just like you’d use a recipe to make a toy robot with certain features, the `__init__` method is the recipe Python uses to set up new objects with their initial values!
+
+
+
  <br>
 
