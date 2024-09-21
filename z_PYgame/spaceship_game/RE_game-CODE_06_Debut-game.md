@@ -549,3 +549,14 @@ class Player(pygame.sprite.Sprite):
         self.rect
 ```
 > if you are following the  [tutorial | 1:57:26](https://youtu.be/8OMghdHP-zs?si=PmVQXMiJDKqBUPIE&t=7046) structure, then use the above.
+
+
+
+<br>
+
+### 🟤 `self.image`
+
+**Purpose:** This **attribute will hold the image (or surface)** that represents the player on the screen.
+
+**Why:** We need this to visually display the player. It’s a placeholder here and will be assigned a value later.
+
