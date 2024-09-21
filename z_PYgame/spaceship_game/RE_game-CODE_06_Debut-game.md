@@ -357,4 +357,6 @@ We’ll create specific classes for different game elements like the player, ene
 
 ### The primary difference is that a general Class is a fundamental building block in Python, defining objects with attributes and methods.
 
+> - - #### In contrast, `pygame.sprite.Sprite` is a specialized class from the Pygame library designed for managing and rendering game objects.
+
 
