@@ -279,3 +279,15 @@ star_positions = [(randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)) for i in
 
  > #### This change simplifies the code and ensures that each star's position is set when it is created, eliminating unnecessary calculations during the game loop.
 
+<br>
+<br>
+<br>
+<br>
+
+## 🟫  Step 6. Now to Actually Create the Stars:
+
+<br>
+
+###  In this step, we'll implement a `for` loop to `generate` our `star sprites` efficiently.
+
+> #### 🌟 By initializing all stars at once, we maintain performance and avoid unnecessary processing in the main game loop.
