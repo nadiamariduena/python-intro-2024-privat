@@ -257,3 +257,17 @@ clock = pygame.time.Clock()
 > - - ####  This **allows for easy calculations of position based on user input, simplifying movement logic**.
 
 > - - #### Using a vector enables smooth diagonal movement and ensures consistent speed.
+
+```python
+        self.rect = self.image.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+
+        # ✋
+        self.direction = pygame.Vector2()
+
+    def update(self):
+```
+<br>
+
+## 🟫 self.direction = pygame.Vector2()
+
+**`self.direction = pygame.Vector2()` initializes a vector to manage the player's movement direction**.
