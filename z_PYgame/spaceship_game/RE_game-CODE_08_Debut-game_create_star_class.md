@@ -341,3 +341,22 @@ pygame.quit()
 
 
 ## 🟧 Position the `Player` Instantiation Correctly
+
+#### 🟤 Ensure that the line creating the player instance `(player = Player(all_sprites))` is placed after the star creation loop.
+
+```python
+all_sprites = pygame.sprite.Group()
+# Create PLAYER class instance
+#
+for i in range(20):
+    Star(all_sprites)
+## the player line below, has to be positioned under the Star(all_sprites), otherwise the star will appear on top of the player and it doesnt look good
+player = Player(all_sprites)
+
+
+```
+
+<br>
+
+> - - #### 🌈 This ordering is important because if the player is instantiated first, stars may appear visually on top of the player, which disrupts the intended layering of game elements.
+
