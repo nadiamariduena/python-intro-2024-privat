@@ -538,3 +538,9 @@ To create a more balanced game play experience, we need to introduce a delay bet
             print('fire laser')
             self.can_shoot = False
 ```
+<br>
+
+## Explanation:
+
+###   `self.can_shoot = False`:
+
