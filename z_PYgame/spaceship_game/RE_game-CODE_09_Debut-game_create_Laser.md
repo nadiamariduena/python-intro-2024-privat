@@ -933,6 +933,12 @@ class Player(pygame.sprite.Sprite):
 
 #### 🟤 `current_time - self.laser_shoot_time`
 
+- - **calculates how much time has passed** since the player last fired a laser.
+
+#### Subtracts the time stored
+
+- - - This **uses the current time** (from `pygame.time.get_ticks()`) and **subtracts the time stored in** `self.laser_shoot_time`, <u>which is when the player last shot.</u>
+
 
 
  <br>
