@@ -963,5 +963,13 @@ class Player(pygame.sprite.Sprite):
 
 ### 🟩 Unlocking the Shooting Ability:
 
+- #### `If` the condition is `true`
+
+> #### (enough time has passed),
+
+- #### then `self.can_shoot` is set to `True`.
+
+
+> ####  ✅  This effectively "unlocks" the ability for the player to shoot again!
 
 <br>
