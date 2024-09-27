@@ -458,3 +458,7 @@ To create a more balanced game play experience, we need to introduce a delay bet
 ```
 
 ## Explanation of Each Line:
+
+#### 🔶 `self.can_shoot = True:`
+
+-  - This boolean variable controls whether the player can shoot.
