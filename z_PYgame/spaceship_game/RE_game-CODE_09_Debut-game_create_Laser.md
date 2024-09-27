@@ -513,3 +513,13 @@ To create a more balanced game play experience, we need to introduce a delay bet
 ```
 
 
+
+## Explanation
+
+### 🔴  `self.can_shoot`:
+
+> - - ###  This additional condition **ensures that the laser only fires 🔫 if** `self.can_shoot` is **True**.
+
+
+
+
