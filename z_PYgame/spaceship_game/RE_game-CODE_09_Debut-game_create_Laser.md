@@ -68,3 +68,5 @@
 
 
 > - - #### 🔫 Just like any high-tech weapon, it can’t fire continuously without overheating.
+
+> - - #### 🧊 After each shot, we’ll enforce a brief cooldown period before it can fire again 🥶.
