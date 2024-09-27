@@ -490,7 +490,18 @@ To create a more balanced game play experience, we need to introduce a delay bet
 - -  The below is what we currently have:
 
 ```python
+# --------- CURRENT CODE -------
         recent_keys = pygame.key.get_pressed()
         if recent_keys[pygame.K_SPACE]:
             print('fire laser')
 ```
+
+<br>
+<br>
+<br>
+
+## 🥥 🔫  Let's Begin!
+
+### 🟦 Conditional Firing:Shoot When Permitted:
+
+#### In the `Player` Class, within the  <u>update()</u>  function, enhance the condition `if recent_keys[pygame.K_SPACE]` by appending and `self.can_shoot`: to it.
