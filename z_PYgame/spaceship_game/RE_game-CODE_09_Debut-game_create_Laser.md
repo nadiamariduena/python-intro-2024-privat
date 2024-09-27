@@ -245,3 +245,13 @@ trigger for spawning/generating meteors.
 
 - - - When checking if the laser can fire again, compare the current time to the recorded time to see if enough time has passed.
 
+
+
+<br>
+<br>
+
+## Steps
+
+## 🟧 1. Create the timer event
+
+#### The below two lines, set up a mechanism to regularly create or manage "meteor" events in your game loop, helping to control game dynamics over time.
