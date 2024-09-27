@@ -448,3 +448,13 @@ To create a more balanced game play experience, we need to introduce a delay bet
 ### 🟤 Step 1: Setting Up the Timer
 
 #### Inside the Player class, add the following lines:
+
+```python
+        # 🥶 cooldown
+        self.can_shoot = True
+        self.laser_shoot_time = 0
+        self.cooldown_duration = 400
+        # -------------
+```
+
+## Explanation of Each Line:
