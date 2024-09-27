@@ -992,4 +992,200 @@ if current_time - self.laser_shoot_time >= self.cooldown_duration:
 
 
 <br>
+
+
+
+## 🟢 Testing it
+
+
+```python
+
+import pygame
+import os
+from random import randint
+
+#------------- INIT
+pygame.init()
+# -------------
+
+
+# SCREEN
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
+display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+# TEXT screen
+pygame.display.set_caption("Space shooter")
+
+
+
+
+#🟨 imgs -----
+script_dir = os.path.dirname(__file__)
+# img's path
+image_paths = {
+    'player': os.path.join(script_dir, '..', 'images', 'player.png'),
+    'star': os.path.join(script_dir, '..', 'images', 'star.png'),
+    'meteor': os.path.join(script_dir, '..', 'images', 'meteor.png'),
+    'laser': os.path.join(script_dir, '..', 'images', 'laser.png')
+
+}
+
+# INIT the images dictionary
+images = {}
+
+# Load images and handle errors
+# Notice how we grab the dictionary "image_paths"
+for key, path_imgs in image_paths.items():
+    try:
+        #LOAD and CONVERT the image in one step
+        images[key] = pygame.image.load(path_imgs).convert_alpha()
+
+    except pygame.error as img_item:
+
+        print(f"Failed to load image '{path_imgs}': {img_item}")
+        # Fall img IF LOAD fails
+        images[key] = pygame.Surface((50,50)) # square
+        images[key].fill((249, 255, 51 )) # yellow acid
+
+
+
+class Player(pygame.sprite.Sprite):
+    def __init__(self, groups):
+        super().__init__(groups)
+        try:
+
+            self.image = images['player']
+        except KeyError:
+            print("Player image not found in images dictionary.")
+            # Handle the failure (e.g., set a default image or exit)
+            #  ---- 🔴 create a red square as a fallback/ shape red in case the img doesnt load --
+            self.image = pygame.Surface((50, 50))  # Example fallback surface
+            self.image.fill((0, 56, 175 ))  # BLUE Klein
+
+        self.rect = self.image.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+
+        self.direction = pygame.Vector2()
+        self.speed = 300
+
+        # 🥶 cooldown
+        self.can_shoot = True
+        self.laser_shoot_time = 0
+        self.cooldown_duration = 2000
+
+
+    def laser_timer(self):
+        if not self.can_shoot:
+            current_time = pygame.time.get_ticks()
+            # print(current_time)
+            if current_time - self.laser_shoot_time >= self.cooldown_duration:
+                self.can_shoot = True
+
+    def update(self, dt):
+        keys = pygame.key.get_pressed()
+        # INT:  `int()` is the function doing the conversion. int converts this boolean value into an integer. In Python, True is equivalent to 1 and False is equivalent to 0. Therefore, int(keys[pygame.K_RIGHT]) gives 1 if the key is pressed, and 0 if it is not
+        self.direction.x = int(keys[pygame.K_RIGHT]) - int(keys[pygame.K_LEFT])
+        self.direction.y = int(keys[pygame.K_DOWN]) - int(keys[pygame.K_UP])
+
+
+        # to normalize the vector, after the issue when pressing top and left at the same time
+        self.direction = self.direction.normalize() if self.direction else self.direction
+        #    print("shipt is being updated")
+
+        # Update the player position with speed and delta time
+        self.rect.center += self.direction * self.speed * dt
+
+        recent_keys = pygame.key.get_pressed()
+        if recent_keys[pygame.K_SPACE] and self.can_shoot:
+            print('fire laser')
+            self.can_shoot = False
+            self.laser_shoot_time = pygame.time.get_ticks()
+
+        # Call the Laser_timer function from line 74
+        self.laser_timer()
+
+
+
+
+
+
+class Star(pygame.sprite.Sprite):
+    def __init__(self, groups):
+        super().__init__(groups)
+        try:
+
+            self.image = images['star']
+        except KeyError:
+            print("Star image not found in images dictionary.")
+
+            self.image = pygame.Surface((70, 50))
+            self.image.fill((241, 183, 0 )) # yellow
+
+        self.rect = self.image.get_frect(center = (randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)))
+
+
+all_sprites = pygame.sprite.Group()
+# Create PLAYER class instance
+# all stars, without this you will only see 1 star, if i add it here
+for i in range(20):
+    Star(all_sprites)
+## the player line below, has to be positioned under the Star(all_sprites), otherwise the star will appear on top of the player and it doesnt look good
+player = Player(all_sprites)
+
+
+
+
+# IMAGES out of the class
+# Define other surfaces
+meteor_surf = images['meteor']
+laser_surf = images['laser']
+star_surf = images['star']
+
+
+
+# center of the screen for the 2 items below
+meteor_rect = meteor_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+laser_rect = laser_surf.get_frect(bottomleft=(20, WINDOW_HEIGHT - 10))
+
+
+# CLOCK:
+#FPS (frame per second)
+clock = pygame.time.Clock()
+
+
+# CUSTOM EVENTS /timer
+meteor_event = pygame.event.custom_type()
+pygame.time.set_timer(meteor_event, 500)
+
+
+running = True
+while running:
+    # DELTA time
+    # frame rate / division
+    dt = clock.tick() / 1000
+    # print(dt)
+
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+        if event.type == meteor_event:
+            print('create meteor 🪨')
+
+
+    # ---- update ---------
+    # check the update() function within the PLAYER Class
+    # 🟨 UPDATE sprite group
+    all_sprites.update(dt)
+
+
+    # DRAW the game ------
+    display_surface.fill("lavenderblush2")
+    # sprites
+    all_sprites.draw(display_surface)
+    # DRAW the game ------
+
+
+    pygame.display.update()
+
+pygame.quit()
+```
 <br>
