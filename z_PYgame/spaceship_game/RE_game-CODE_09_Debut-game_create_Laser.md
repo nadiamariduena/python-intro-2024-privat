@@ -1658,3 +1658,12 @@ class Laser(pygame.sprite.Sprite):
 
 - -  **you can change the condition** to something like `self.rect.bottom < 210`.
 
+> - - #### This way, lasers will stay visible longer, allowing you to observe their movement before they get removed.
+
+```python
+         if self.rect.bottom < 210:
+            self.kill()
+
+```
+
+<br>
