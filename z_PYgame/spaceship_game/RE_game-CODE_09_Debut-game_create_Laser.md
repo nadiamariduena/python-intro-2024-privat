@@ -255,3 +255,12 @@ trigger for spawning/generating meteors.
 ## 🟧 1. Create the timer event
 
 #### The below two lines, set up a mechanism to regularly create or manage "meteor" events in your game loop, helping to control game dynamics over time.
+
+```python
+meteor_event = pygame.event.custom_type()
+pygame.time.set_timer(meteor_event, 500)
+```
+
+
+
+#### 🟤 `meteor_event = pygame.event.custom_type():`
