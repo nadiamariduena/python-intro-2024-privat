@@ -805,3 +805,13 @@ class Star(pygame.sprite.Sprite):python
 ## 🟨 One-time Trigger vs. Continuous Check:
 
 - - 🔶 **The first block** of code (the laser firing) only runs when you press **SPACE** and can shoot.
+
+```python
+        if recent_keys[pygame.K_SPACE] and self.can_shoot:
+            print('fire laser')
+            self.can_shoot = False
+            self.laser_shoot_time = pygame.time.get_ticks()
+
+        # Call the Laser_timer function from line 74
+        self.laser_timer()
+```
