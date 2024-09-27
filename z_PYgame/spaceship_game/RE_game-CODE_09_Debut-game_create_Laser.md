@@ -1635,3 +1635,19 @@ class Laser(pygame.sprite.Sprite):
 
 - - ### You might not see them in action.
 
+
+```python
+    # 🔫 moving LASER bullets
+    def update(self, dt):
+        self.rect.centery -= 400 * dt
+        if self.rect.bottom < 0:
+            self.kill()
+
+```
+<br>
+<br>
+<br>
+
+---
+
+
