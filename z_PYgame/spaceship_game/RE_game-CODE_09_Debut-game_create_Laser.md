@@ -462,3 +462,5 @@ To create a more balanced game play experience, we need to introduce a delay bet
 #### 🔶 `self.can_shoot = True:`
 
 -  - This boolean variable controls whether the player can shoot.
+
+> - - #### By default, it's set to True, meaning the player can shoot lasers initially.
