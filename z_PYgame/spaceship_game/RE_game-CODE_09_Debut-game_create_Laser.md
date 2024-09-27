@@ -922,3 +922,17 @@ class Player(pygame.sprite.Sprite):
                 self.can_shoot = True
 ```
 <br>
+
+### 🟧 Let’s take a closer look at the added conditional in the `laser_timer` function
+
+ <br>
+
+#### 🟢 Checking the Time Since Last Shot:
+
+
+
+#### 🟤 `current_time - self.laser_shoot_time`
+
+
+
+ <br>
