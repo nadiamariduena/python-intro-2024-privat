@@ -834,3 +834,69 @@ class Star(pygame.sprite.Sprite):python
 
 - - while the timer is checking a state (it keeps checking if shooting is allowed or not).
 
+
+
+### 🌈 Summary
+
+> #### 🔫 So, in short, the laser firing happens once per key press, while the laser timer runs continuously to monitor the cooldown state.
+
+```python
+class Player(pygame.sprite.Sprite):
+    def __init__(self, groups):
+        super().__init__(groups)
+        try:
+
+            self.image = images['player']
+        except KeyError:
+            print("Player image not found in images dictionary.")
+
+            self.image = pygame.Surface((50, 50))
+            self.image.fill((0, 56, 175 ))
+
+        self.rect = self.image.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+
+        self.direction = pygame.Vector2()
+        self.speed = 300
+
+        # 🥶 cooldown
+        self.can_shoot = True
+        self.laser_shoot_time = 0
+        self.cooldown_duration = 400
+
+
+    # 🟡
+    def laser_timer(self):
+        if not self.can_shoot:
+            # 🟡
+            current_time = pygame.time.get_ticks()
+            print(current_time)
+
+    # 🟡
+    def update(self, dt):
+        keys = pygame.key.get_pressed()
+
+        self.direction.x = int(keys[pygame.K_RIGHT]) - int(keys[pygame.K_LEFT])
+        self.direction.y = int(keys[pygame.K_DOWN]) - int(keys[pygame.K_UP])
+
+        self.direction = self.direction.normalize() if self.direction else self.direction
+
+        self.rect.center += self.direction * self.speed * dt
+
+        recent_keys = pygame.key.get_pressed()
+        if recent_keys[pygame.K_SPACE] and self.can_shoot:
+            print('fire laser')
+            self.can_shoot = False
+
+            # 🟡
+            self.laser_shoot_time = pygame.time.get_ticks()
+
+        # Call the Laser_timer function from line 74
+        self.laser_timer()
+
+```
+
+> ###   This difference allows your game to have responsive controls while still managing the shooting logic effectively!
+
+---
+
+<br>
