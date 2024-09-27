@@ -404,3 +404,11 @@ When you press the `SPACE key`, you'll notice that the console displays **print(
 <br>
 
 > - - #### 👾 There should be some KIND of delay between different  laser shots, one thing we can do, is to create a timer inside the Player class.
+
+<br>
+<br>
+
+
+### 🟦 💥 Delay between different  laser shots:
+
+To create a more balanced game play experience, we need to introduce a delay between laser shots.
