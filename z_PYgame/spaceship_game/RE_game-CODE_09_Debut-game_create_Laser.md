@@ -1925,3 +1925,9 @@ pygame.quit()
 
 
 </details>
+
+
+<br>
+<br>
+
+### Next section we will be talking about the "Meteors"
