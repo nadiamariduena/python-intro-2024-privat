@@ -596,3 +596,11 @@ In the upcoming steps, we will utilize `self.laser_shoot_time` to **check if** t
 ### 🟤 Step 2: Implementing the Function
 
 - - Add the following code to define the function:
+
+```python
+def laser_timer(self):
+    if not self.can_shoot:
+        current_time = pygame.time.get_ticks()
+        print(current_time)
+
+```
