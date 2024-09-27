@@ -220,3 +220,17 @@ trigger for spawning/generating meteors.
 
 
 <br>
+
+## 🟧 Custom `Timer` with `Pygame`
+
+#### 🟢 Pygame has a <u>useful feature</u>  that tracks the time since your game started.
+
+
+
+### Here’s how to leverage it:
+
+<br>
+
+#### 🔶 Capture Game Time:
+
+- - #### Use `pygame.time.get_ticks()` to retrieve the total milliseconds since the game began.
