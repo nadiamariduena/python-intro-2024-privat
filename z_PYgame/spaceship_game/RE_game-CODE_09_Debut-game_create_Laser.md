@@ -346,3 +346,11 @@ while running:
 ### 🟩 Why This Happens?
 
 > #### The below line is placed inside the `event loop`, which <u>runs for every event Pygame detects</u> .
+
+- -  **Since `pygame.time.set_timer(meteor_event, 500)` sends a new `meteor_event` every `500` milliseconds**, it **gets processed every time** the **event loop iterates** and **finds it**.
+
+```python
+if event.type == meteor_event:
+    print('create meteor 🪨')
+```
+<br>
