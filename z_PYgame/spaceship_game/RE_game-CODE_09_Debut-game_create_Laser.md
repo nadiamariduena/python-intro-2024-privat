@@ -942,3 +942,26 @@ class Player(pygame.sprite.Sprite):
 
 
  <br>
+
+ <br>
+
+## 🟩 Comparing to the Cooldown Duration:
+
+#### 🟤 `>= self.cooldown_duration`
+
+
+
+>**checks if the time elapsed is greater than or equal to the cooldown period** we set (400 milliseconds).
+
+
+
+#### This means we’re asking:
+
+> #### 🧶 “Has enough time passed since the last shot?”
+
+<br>
+
+### 🟩 Unlocking the Shooting Ability:
+
+
+<br>
