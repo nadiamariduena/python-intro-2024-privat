@@ -1668,6 +1668,8 @@ class Laser(pygame.sprite.Sprite):
 
 <br>
 
+[<img src="./laser_firing_test_2__destroy-bullet-after-reaching-edge.gif"/>]( )
+
 
 <br>
 
