@@ -149,3 +149,14 @@
 
 - - To generate meteors at regular intervals, we need a timer that ticks every X seconds.
 
+
+
+### Here’s how to set it up:
+
+
+
+### 🟫 Create an Event:
+
+<br>
+
+**Define a Meteor Event:** This event will signal when it's time to create a meteor.
