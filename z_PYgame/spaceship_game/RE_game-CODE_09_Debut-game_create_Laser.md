@@ -761,3 +761,31 @@ class Star(pygame.sprite.Sprite):python
 
  - `if` Statement Allows **One-Time Triggering** for Laser Fire
 
+ ```python
+
+        if recent_keys[pygame.K_SPACE] and self.can_shoot:
+            print('fire laser')
+            self.can_shoot = False
+            self.laser_shoot_time = pygame.time.get_ticks()
+
+        # Call the Laser_timer function from line 74
+        self.laser_timer()
+```
+
+
+### 🟤 However this code below is running continuously
+
+
+```python
+
+    def laser_timer(self):
+        if not self.can_shoot:
+            current_time = pygame.time.get_ticks()
+            print(current_time)
+```
+
+<br>
+<br>
+<br>
+
+---
