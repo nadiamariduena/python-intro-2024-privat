@@ -1235,9 +1235,8 @@ pygame.quit()
 
 <br>
 
-> - - ### 🟩 It initializes with a specified surface and position, and it includes error handling for missing images, falling back to a default acid yellow rectangle if the image isn’t found.
 
-<br>
+
 
 
 #### teacher's version
@@ -1250,3 +1249,28 @@ class Laser(pygame.sprite.Sprite):
         self.rect = self.image.get_frect(midbottom = pos)
 ```
 <br>
+
+> - - ### 🟩 It initializes with a specified surface and position, and it includes error handling for missing images, falling back to a default acid yellow rectangle if the image isn’t found.
+
+
+<br>
+
+#### my version:
+
+```python
+class Laser(pygame.sprite.Sprite):
+    def __init__(self, surf, pos, groups):
+        super().__init__(groups)
+        #
+        try:
+
+            self.image = surf
+        except KeyError:
+            print("Laser image not found in images dictionary.")
+            self.image = pygame.Surface((80, 50))  # Example fallback surface
+            self.image.fill((255, 238, 72))  # Acid yellow
+
+        # Set the position of the laser
+        self.rect = self.image.get_frect(midbottom = pos)
+
+```
