@@ -1473,3 +1473,28 @@ class Laser(pygame.sprite.Sprite):
 
 
 ```
+
+
+<br>
+<br>
+<br>
+
+## 🟧 What’s Happening Here?
+
+   #### In the `update()` function (of the Laser), the line `self.rect.centery -= 400 * dt` moves the laser `upwards` ⬆️ on the screen.
+
+<br>
+<br>
+
+## 🟫 Here’s how it works:
+
+### 🟤 `self.rect.centery:`
+
+
+- -  **This `centery` (y axis),  refers to** the **vertical** center position of the laser.
+
+> - - - By adjusting this value, we can control how high or low the laser appears on the screen.
+
+<br>
+
+
