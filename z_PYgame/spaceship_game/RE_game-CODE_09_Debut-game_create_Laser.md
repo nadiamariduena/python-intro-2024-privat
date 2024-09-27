@@ -1418,3 +1418,17 @@ class Player(pygame.sprite.Sprite):
 <br>
 <br>
 <br>
+
+
+[2:26:06](https://youtu.be/8OMghdHP-zs?si=wVhHMcjYgK6G3ATS&t=8766)
+
+## 🟦 Moving Forward:
+
+
+
+## 🟡 Activating Laser Movement
+
+####  Now we’ll focus on getting our laser bullets to speed.
+
+- - 🚀 We’ll Create a function that manages their movement seamlessly.
+
