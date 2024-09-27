@@ -362,3 +362,11 @@ if event.type == meteor_event:
 🟤 **Ensure Controlled Frequency:**
 
  -  🔺 You may want to **limit the creation to once per timer event**.
+
+> - - - #### This way, it doesn't flood the console every frame.
+
+<br>
+
+🟤 **Implement a Meteor Spawn Function:**
+
+ -  **Instead of just printing** to the **console, you can replace that line with actual code that spawns a meteor in your game**.
