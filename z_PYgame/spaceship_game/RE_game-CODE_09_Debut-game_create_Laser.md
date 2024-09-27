@@ -1651,3 +1651,4 @@ class Laser(pygame.sprite.Sprite):
 ---
 
 
+# 🟠 Adjusting for Visibility:
