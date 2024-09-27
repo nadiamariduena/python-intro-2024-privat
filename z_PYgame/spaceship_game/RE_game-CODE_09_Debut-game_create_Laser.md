@@ -723,3 +723,25 @@ self.laser_shoot_time = pygame.time.get_ticks()
 In subsequent logic (likely in the `laser_timer` function), you will compare `current_time` (obtained during the cooldown check) to `self.laser_shoot_time`.
 
 🔴 This comparison will help **determine whether enough time** has **passed since the last** shot, **allowing you to reset `self.can_shoot` to `True` when the cooldown period has elapsed**.
+
+
+
+<br>
+
+
+```python
+# WITHIN the Payer Class, update() function
+if recent_keys[pygame.K_SPACE] and self.can_shoot:
+            print('fire laser')
+            self.can_shoot = False
+
+
+            self.laser_shoot_time = pygame.time.get_ticks()
+
+        self.laser_timer()
+
+#---------
+class Star(pygame.sprite.Sprite):python
+```
+
+<br>
