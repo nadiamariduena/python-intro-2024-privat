@@ -900,3 +900,25 @@ class Player(pygame.sprite.Sprite):
 ---
 
 <br>
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+## 🟦 Moving Forward:
+
+## 🟡 Resetting the Shot: The Cooldown Logic
+
+<br>
+
+### 🟤 Step 1. Add the below lines within the `laser_timer` function:
+
+```python
+     if current_time - self.laser_shoot_time >= self.cooldown_duration:
+                self.can_shoot = True
+```
+<br>
