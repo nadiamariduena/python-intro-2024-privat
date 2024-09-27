@@ -604,3 +604,11 @@ def laser_timer(self):
         print(current_time)
 
 ```
+### 🟤 Step 3: Call the Function
+
+Now, call this function inside the update() method:
+
+```python
+self.laser_timer()
+```
+
