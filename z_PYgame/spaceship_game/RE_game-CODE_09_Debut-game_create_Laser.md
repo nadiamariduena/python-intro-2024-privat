@@ -1597,3 +1597,9 @@ class Laser(pygame.sprite.Sprite):
 ### 🔴 Conditional
 
 ### Using a Conditional to Destroy Sprites:
+
+- - #### As the laser moves, we can check if it has exited the upper boundary of the window.
+
+```python
+        if self.rect.bottom < 0:
+```
