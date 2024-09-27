@@ -1688,7 +1688,7 @@ class Laser(pygame.sprite.Sprite):
 
 
 <details>
-<summary> <h4> 🟦 🟡Click to unfold the CODE with DT changes</h4>
+<summary> <h4> 🟦 🟡Click to unfold the CODE with the laser changes</h4>
 
 
 </summary>
