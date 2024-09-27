@@ -1294,3 +1294,9 @@ if recent_keys[pygame.K_SPACE] and self.can_shoot:
     self.can_shoot = False
     self.laser_shoot_time = pygame.time.get_ticks()
 ```
+
+
+<br>
+
+## 🟤 3.  Printing <u>LASER Instance 🔫</u>
+
