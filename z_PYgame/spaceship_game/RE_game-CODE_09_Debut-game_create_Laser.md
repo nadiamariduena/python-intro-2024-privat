@@ -1564,3 +1564,26 @@ class Laser(pygame.sprite.Sprite):
 
 > - - #### 🟨Once it crosses the top of the screen, it’s no longer needed.
 
+
+```python
+        💥  ← has already crossed the edge/screen
++--------------------+
+|        🇼all            |
+|         ^          |   ← Laser moves upward
+|         |          |
+|         |          |
+|         |          |
+|         |          |
+|       [🔫Laser]    |   ← Laser sprite
+|                    |
+|                    |
+|                    |
+|--------------------|   ← Game Window (screen)
+|                    |
+|                    |
+|                    |
++--------------------+
+
+# When the laser crosses the top of the window, it's no longer needed!
+
+```
