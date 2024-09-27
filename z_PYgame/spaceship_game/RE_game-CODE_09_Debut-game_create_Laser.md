@@ -789,3 +789,14 @@ class Star(pygame.sprite.Sprite):python
 <br>
 
 ---
+
+
+### 🟣 How do the two pieces of code behave differently, even though they are both inside the `update()` function?
+
+#### 🟣 <u>why they differentiate in behavior?</u>
+
+<br>
+
+
+## 🟫 Why the Difference?
+
