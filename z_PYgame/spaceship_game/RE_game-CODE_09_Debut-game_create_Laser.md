@@ -288,3 +288,14 @@ pygame.time.set_timer(meteor_event, 500)
 running = True
 while running:
 ```
+
+>##### recap: `Pygame` has a built-in system for handling events (like key presses, mouse movements, etc.), and this allows you to define your own events that can be triggered at specific times or conditions in your game.
+
+
+
+##  Now add it to the loop:
+
+### 🟧 Integrating  <u>Custom Events</u>: `Creating Meteors`
+
+
+### `if event.type == meteor_event:`
