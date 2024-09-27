@@ -523,3 +523,11 @@ To create a more balanced game play experience, we need to introduce a delay bet
   - - #### 👾  If the player tries to shoot during the cooldown period, this condition will 👾  prevent the laser from firing.
 
 
+<br>
+<br>
+<br>
+
+
+## 🟡 Implementing the 🧊 Cooldown Logic
+
+- **Next**, we need to set `self.can_shoot` to **False** when the player fires a laser 🔫.
