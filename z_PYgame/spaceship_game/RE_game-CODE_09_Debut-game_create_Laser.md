@@ -1503,3 +1503,6 @@ class Laser(pygame.sprite.Sprite):
 ### 🟤 `400 * dt:`
 
 > - - #### This is where the magic happens! 🪄 The **400 represents the speed** of the **laser** in pixels per second, while **dt** (delta time) ensures that the movement is smooth and consistent, regardless of the frame rate.
+
+- - - #### This way, if the game runs slower or faster, the laser still moves at the same speed.
+
