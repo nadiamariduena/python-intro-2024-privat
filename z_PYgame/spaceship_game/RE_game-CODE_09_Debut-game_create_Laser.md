@@ -39,3 +39,21 @@
 # 🟡 What We will Be Doing
 
 ###    Now that our `Player` and `Star` Classes are in place, we’re ready to level up our game  with `two key mechanics that Depend on timing`:
+
+
+
+<br>
+
+> - - #### 💥 Laser cooldowns
+
+
+
+> - - #### 🪨 meteor generating
+
+
+---
+
+<br>
+ <br>
+
+
