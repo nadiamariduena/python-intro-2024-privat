@@ -551,12 +551,13 @@ To create a more balanced game play experience, we need to introduce a delay bet
 <br>
 <br>
 
+---
 
 ##   🏁 Remember:
 
 ### As we mentioned previously:
 
-<br>
+
 
 #### 🔶 `self.laser_shoot_time = 0`:
 
@@ -567,3 +568,17 @@ To create a more balanced game play experience, we need to introduce a delay bet
 - - This sets the cooldown period to `400 milliseconds`.
 
 > - - #### 🔴  After firing a laser, the <u>player must wait  this amount of time before they can shoot again</u> .
+
+---
+
+<br>
+<br>
+
+
+
+## 🟨 Next Steps
+
+### `self.laser_shoot_time`
+
+In the upcoming steps, we will utilize `self.laser_shoot_time` to **check if** the **cooldown** duration has elapsed, allowing the player to shoot again.
+
