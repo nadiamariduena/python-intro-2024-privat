@@ -1522,3 +1522,8 @@ class Laser(pygame.sprite.Sprite):
 
 > ### 💥 it's essential to consider what happens when the game runs for an extended period.
 
+<br>
+
+### 🟩 The Accumulation of Laser Sprites:
+
+> - - #### 🔺 Every time the player fires a laser, a new sprite is created.
