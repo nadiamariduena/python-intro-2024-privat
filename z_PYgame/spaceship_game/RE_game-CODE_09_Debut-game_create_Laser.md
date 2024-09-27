@@ -396,3 +396,11 @@ In our `Player` **class**, specifically in the `update()` **function**, we curre
 #### 🎋 🐦‍⬛ Observing the Behavior
 
 When you press the `SPACE key`, you'll notice that the console displays **print('fire laser')** for every single tap.
+
+> - - #### This means your player is `firing lasers as fast` as you can press the key!
+
+> - - 🔺 While this may seem correct, it’s not quite how we want our game to function.
+
+<br>
+
+> - - #### 👾 There should be some KIND of delay between different  laser shots, one thing we can do, is to create a timer inside the Player class.
