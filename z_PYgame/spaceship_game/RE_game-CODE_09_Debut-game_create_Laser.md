@@ -65,3 +65,6 @@
 <br>
 
 ## 🟩 1. Laser Cooldown logic
+
+
+> - - #### 🔫 Just like any high-tech weapon, it can’t fire continuously without overheating.
