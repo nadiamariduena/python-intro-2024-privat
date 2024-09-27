@@ -1328,3 +1328,8 @@ if recent_keys[pygame.K_SPACE] and self.can_shoot:
 ```
 
 <br>
+<br>
+
+## 🟤 4. Test the implementation to verify that lasers are firing correctly and enhance gameplay.
+
+- check that you are inside your `.venv` and its activated, then run the code, move left right top bottom and use the space bar simultaniously
