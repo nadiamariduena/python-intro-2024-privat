@@ -1233,3 +1233,20 @@ pygame.quit()
 
 - - ####   The Laser class is meant to create a laser projectile 🔫.
 
+<br>
+
+> - - ### 🟩 It initializes with a specified surface and position, and it includes error handling for missing images, falling back to a default acid yellow rectangle if the image isn’t found.
+
+<br>
+
+
+#### teacher's version
+
+```python
+class Laser(pygame.sprite.Sprite):
+    def __init__(self, surf, pos, groups):
+        super().__init__(groups)
+        self.image = surf
+        self.rect = self.image.get_frect(midbottom = pos)
+```
+<br>
