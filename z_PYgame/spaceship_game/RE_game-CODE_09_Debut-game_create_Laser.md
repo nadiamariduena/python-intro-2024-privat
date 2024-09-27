@@ -1587,3 +1587,13 @@ class Laser(pygame.sprite.Sprite):
 # When the laser crosses the top of the window, it's no longer needed!
 
 ```
+
+<br>
+
+
+
+## 🟡 Here’s how we can handle this efficiently:
+
+### 🔴 Conditional
+
+### Using a Conditional to Destroy Sprites:
