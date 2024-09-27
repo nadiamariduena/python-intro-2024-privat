@@ -1623,3 +1623,9 @@ class Laser(pygame.sprite.Sprite):
             self.kill()
 
 ```
+
+<br>
+<br>
+
+### 🟢 Testing the Removal/KILLING of the Sprite/bullet
+
