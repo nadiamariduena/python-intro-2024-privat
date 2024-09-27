@@ -1675,4 +1675,6 @@ class Laser(pygame.sprite.Sprite):
 
 - - **Create a Laser Sprite:** The Laser class handles the laser's appearance and movement.
 
+- - **Move and Check Position:** The update method updates the position and checks if the laser is off-screen.
+
 
