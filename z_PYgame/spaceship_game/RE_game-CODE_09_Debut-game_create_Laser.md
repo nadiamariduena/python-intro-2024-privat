@@ -1667,3 +1667,12 @@ class Laser(pygame.sprite.Sprite):
 ```
 
 <br>
+
+
+<br>
+
+### Summary
+
+- - **Create a Laser Sprite:** The Laser class handles the laser's appearance and movement.
+
+
