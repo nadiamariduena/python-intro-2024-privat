@@ -57,3 +57,11 @@
  <br>
 
 
+
+
+
+# 🟡 Steps to Implement the Key Mechanics
+
+<br>
+
+## 🟩 1. Laser Cooldown logic
