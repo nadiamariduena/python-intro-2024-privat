@@ -1212,6 +1212,10 @@ pygame.quit()
 
 - - 🔶 **Replace the current placeholder** code that prints "fire laser" with an instance of the Laser class when the space bar is pressed.
 
+- - 🔶 **Ensure the laser fires from the player's position**, incorporating the shooting cooldown.
+
+- - 🔶 Test the implementation to verify that lasers are firing correctly and enhance gameplay.
+
 
 
 
