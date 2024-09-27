@@ -354,3 +354,7 @@ if event.type == meteor_event:
     print('create meteor 🪨')
 ```
 <br>
+
+## 🟧 What You Should Do?
+
+### To manage meteor creation properly:
