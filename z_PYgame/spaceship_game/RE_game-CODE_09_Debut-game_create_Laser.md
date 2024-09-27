@@ -1629,3 +1629,9 @@ class Laser(pygame.sprite.Sprite):
 
 ### 🟢 Testing the Removal/KILLING of the Sprite/bullet
 
+### 🟤 Initial Test:
+
+> - - ####  If you test the code now, the lasers might disappear too quickly because you're checking if they go above the top edge **`(0 pixels)`**.
+
+- - ### You might not see them in action.
+
