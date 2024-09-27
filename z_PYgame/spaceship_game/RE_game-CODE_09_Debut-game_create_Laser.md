@@ -592,3 +592,7 @@ In the upcoming steps, we will utilize `self.laser_shoot_time` to **check if** t
 ```python
     def laser_timer(self):
 ```
+
+### 🟤 Step 2: Implementing the Function
+
+- - Add the following code to define the function:
