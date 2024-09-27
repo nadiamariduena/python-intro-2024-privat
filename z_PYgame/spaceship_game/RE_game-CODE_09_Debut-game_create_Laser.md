@@ -329,3 +329,14 @@ while running:
 <br>
 
 ### 🟢 How It Contributes to the Event System
+
+#### Linking Events to Actions:
+
+- - **By adding this line within the event loop**, we create a direct link between the timer set for `meteor_event` and the action of creating a meteor. Every time the timer triggers, the game recognizes it as an event and responds accordingly.
+
+
+
+
+<br>
+
+### 🟩 In the video, you may have noticed that the console shows "create meteor 🪨" printed continuously during the game.
