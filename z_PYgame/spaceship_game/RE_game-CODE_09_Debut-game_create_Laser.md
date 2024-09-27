@@ -1286,3 +1286,11 @@ class Laser(pygame.sprite.Sprite):
 
 - - We will replace this with creating an instance of the Laser class.
 
+  <br>
+
+```python
+if recent_keys[pygame.K_SPACE] and self.can_shoot:
+    print('fire laser')
+    self.can_shoot = False
+    self.laser_shoot_time = pygame.time.get_ticks()
+```
