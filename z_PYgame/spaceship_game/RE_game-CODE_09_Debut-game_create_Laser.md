@@ -1497,4 +1497,7 @@ class Laser(pygame.sprite.Sprite):
 
 <br>
 
+### 🟤 `-=:` The minus sign means we're moving the laser up. So, if we decrease the center position, it goes higher on the screen.
 
+
+### 🟤 `400 * dt:`
