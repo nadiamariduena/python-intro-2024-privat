@@ -370,3 +370,12 @@ if event.type == meteor_event:
 🟤 **Implement a Meteor Spawn Function:**
 
  -  **Instead of just printing** to the **console, you can replace that line with actual code that spawns a meteor in your game**.
+
+<br>
+<br>
+
+## Laser 🚀
+
+### 🟦 Enhancing Laser Functionality
+
+In our `Player` **class**, specifically in the `update()` **function**, we currently have this line of code:
