@@ -170,3 +170,9 @@
 
 <br>
 
+
+
+##  🟢  2. Laser:
+
+
+### 🔴 For the laser 🧊 cooldown, we’ll need a different type of timer:
