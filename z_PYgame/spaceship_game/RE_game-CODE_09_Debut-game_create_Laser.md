@@ -1445,3 +1445,31 @@ class Player(pygame.sprite.Sprite):
         # centery because we only want to move 1 point
         self.rect.centery -= 400 * dt
 ```
+
+
+### 🟤 it should look like this:
+
+```python
+# 🔫 LASER ---------
+class Laser(pygame.sprite.Sprite):
+    def __init__(self, surf, pos, groups):
+        super().__init__(groups)
+
+        try:
+            self.image = surf
+        except KeyError:
+            print("Laser image not found in images dictionary.")
+            self.image = pygame.Surface((80, 50))
+            self.image.fill((255, 238, 72))  # Acid yellow
+
+
+        # Set the position of the laser
+        self.rect = self.image.get_frect(midbottom = pos)
+
+    # 🔫 moving LASER bullets
+    def update(self, dt):
+        # centery because we only want to move 1 point
+        self.rect.centery -= 400 * dt
+
+
+```
