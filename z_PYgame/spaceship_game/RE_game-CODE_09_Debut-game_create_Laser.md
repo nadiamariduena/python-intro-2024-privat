@@ -133,3 +133,12 @@
 - Spawn a meteor every X seconds 🪨
 
 - Implement a cooldown for the laser 💥
+
+> #### These two tasks will require different approaches, so let’s dive into each one!
+
+
+
+<br>
+
+
+
