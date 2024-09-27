@@ -301,3 +301,12 @@ while running:
 ### `if event.type == meteor_event:`
 
 - -  This line **checks if the current event being processed is the custom `meteor_event`** that we defined earlier.
+
+- - **If it is**, the code executes the print statement, indicating that a meteor should be created.
+
+```python
+
+        if event.type == meteor_event:
+            print('create meteor 🪨')
+```
+
