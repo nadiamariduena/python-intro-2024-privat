@@ -713,3 +713,9 @@ self.laser_shoot_time = pygame.time.get_ticks()
 ### 🟧 Tracking the Last Shot Time:
 
 - - By setting `self.laser_shoot_time` to the current ticks, this variable will now represent the exact moment when the player last fired a laser.
+
+> ### This is crucial for managing the cooldown period effectively.
+
+<br>
+
+### 🟧 Enabling Cooldown Logic:
