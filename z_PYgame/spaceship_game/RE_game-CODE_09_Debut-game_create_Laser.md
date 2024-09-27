@@ -129,3 +129,7 @@
 
 
 #### We’ll be using time in two main ways:
+
+- Spawn a meteor every X seconds 🪨
+
+- Implement a cooldown for the laser 💥
