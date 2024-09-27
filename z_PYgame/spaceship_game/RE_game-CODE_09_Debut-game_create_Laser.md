@@ -358,3 +358,7 @@ if event.type == meteor_event:
 ## 🟧 What You Should Do?
 
 ### To manage meteor creation properly:
+
+🟤 **Ensure Controlled Frequency:**
+
+ -  🔺 You may want to **limit the creation to once per timer event**.
