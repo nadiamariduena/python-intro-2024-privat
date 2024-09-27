@@ -240,3 +240,8 @@ trigger for spawning/generating meteors.
 <br>
 
 #### 🔶 Implement the Cooldown Logic:
+
+- - When the laser is fired, record the current time.
+
+- - - When checking if the laser can fire again, compare the current time to the recorded time to see if enough time has passed.
+
