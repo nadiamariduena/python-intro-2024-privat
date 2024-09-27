@@ -274,3 +274,17 @@ This line creates a new custom event in Pygame, which is assigned to the variabl
  This line **sets a timer** for the custom **event** defined in the previous line.
 
  - - The **timer will trigger** the `meteor_event` **every 500 milliseconds (or half a second)**.
+
+- - This is **useful for creating** regular occurrences in your game, like spawning meteors or other actions at fixed intervals.
+
+
+
+```python
+# CUSTOM EVENTS /timer
+meteor_event = pygame.event.custom_type()
+pygame.time.set_timer(meteor_event, 500)
+
+
+running = True
+while running:
+```
