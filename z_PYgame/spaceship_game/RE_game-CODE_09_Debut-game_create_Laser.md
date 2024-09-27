@@ -1189,3 +1189,13 @@ while running:
 pygame.quit()
 ```
 <br>
+
+<br>
+<br>
+<br>
+
+## 🟦 Moving Forward:
+
+## 🟡 Adding Laser Functionality
+
+- In this section, we plan to optimize game  through the integration of 💥 laser 🔫 firing upon pressing the space bar.
