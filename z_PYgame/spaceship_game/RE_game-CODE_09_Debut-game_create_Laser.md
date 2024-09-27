@@ -1677,4 +1677,5 @@ class Laser(pygame.sprite.Sprite):
 
 - - **Move and Check Position:** The update method updates the position and checks if the laser is off-screen.
 
+- - **Efficient Resource Management:** Using the kill method helps keep your game running smoothly by removing unnecessary sprites.
 
