@@ -800,3 +800,8 @@ class Star(pygame.sprite.Sprite):python
 
 ## 🟫 Why the Difference?
 
+
+
+## 🟨 One-time Trigger vs. Continuous Check:
+
+- - 🔶 **The first block** of code (the laser firing) only runs when you press **SPACE** and can shoot.
