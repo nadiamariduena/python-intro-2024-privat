@@ -745,3 +745,19 @@ class Star(pygame.sprite.Sprite):python
 ```
 
 <br>
+<br>
+<br>
+
+
+<br>
+
+## 🟡 Laser Fire logic Explained
+
+### 🍭 Single Trigger Logic vs. Ongoing Timer
+
+
+
+ #### 🟤 Note:
+
+ - `if` Statement Allows **One-Time Triggering** for Laser Fire
+
