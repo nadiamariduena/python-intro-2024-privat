@@ -1333,3 +1333,11 @@ if recent_keys[pygame.K_SPACE] and self.can_shoot:
 ## 🟤 4. Test the implementation to verify that lasers are firing correctly and enhance gameplay.
 
 - check that you are inside your `.venv` and its activated, then run the code, move left right top bottom and use the space bar simultaniously
+
+
+### 🟧 Output
+
+-  - The player is unable to fire lasers continuously
+
+
+- - - Players must wait 2 seconds between shots, promoting strategic timing and balanced gameplay by preventing rapid fire.
