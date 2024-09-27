@@ -690,3 +690,17 @@ class Star(pygame.sprite.Sprite):
 
 - - This function retrieves the current time in milliseconds since Pygame was initialized.
 
+<br>
+<br>
+<br>
+
+## 🟡 Marking the Moment of the Last Laser Shot
+
+- This line **updates the `self.laser_shoot_time` variable with the current time in milliseconds since** Pygame was initialized, captured by `pygame.time.get_ticks().`
+
+
+<br>
+
+```python
+self.laser_shoot_time = pygame.time.get_ticks()
+```
