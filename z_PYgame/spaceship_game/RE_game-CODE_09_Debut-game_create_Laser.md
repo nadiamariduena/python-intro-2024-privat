@@ -343,9 +343,13 @@ while running:
 
 - - ✋ **This behavior occurs** because the `meteor_event` is being **triggered repeatedly at every frame, not just once every 500** milliseconds.
 
+<br>
+
 ### 🟩 Why This Happens?
 
 > #### The below line is placed inside the `event loop`, which <u>runs for every event Pygame detects</u> .
+
+<br>
 
 - -  **Since `pygame.time.set_timer(meteor_event, 500)` sends a new `meteor_event` every `500` milliseconds**, it **gets processed every time** the **event loop iterates** and **finds it**.
 
@@ -353,6 +357,7 @@ while running:
 if event.type == meteor_event:
     print('create meteor 🪨')
 ```
+<br>
 <br>
 
 ## 🟧 What You Should Do?
@@ -412,3 +417,25 @@ When you press the `SPACE key`, you'll notice that the console displays **print(
 ### 🟦 💥 Delay between different  laser shots:
 
 To create a more balanced game play experience, we need to introduce a delay between laser shots.
+
+> - - #### This will give each shot some weight and prevent the player from spamming the fire button.
+
+
+
+
+
+[2:17:43](https://youtu.be/8OMghdHP-zs?si=HE6UH-f8_j_fne-L&t=8263)
+
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+## 🟦 Moving Forward:
+
+## 🟡 Create a timer inside the `Player` class
+
+> - - #### Implement a timer in the Player class to control how frequently the player can shoot lasers.
