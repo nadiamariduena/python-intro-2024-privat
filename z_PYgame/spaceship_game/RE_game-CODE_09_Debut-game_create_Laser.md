@@ -93,3 +93,5 @@
 
 ##  🟩 2. Meteor Spawning System
 
+
+- -    we’re going to **implement a meteor** spawning **system** that **creates new meteors** at regular intervals.
