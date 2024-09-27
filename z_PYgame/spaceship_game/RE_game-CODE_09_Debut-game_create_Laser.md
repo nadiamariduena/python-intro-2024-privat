@@ -1341,3 +1341,80 @@ if recent_keys[pygame.K_SPACE] and self.can_shoot:
 
 
 - - - Players must wait 2 seconds between shots, promoting strategic timing and balanced gameplay by preventing rapid fire.
+
+
+<br>
+
+
+<br>
+
+
+
+
+```python
+class Player(pygame.sprite.Sprite):
+    def __init__(self, groups):
+        super().__init__(groups)
+        try:
+
+            self.image = images['player']
+        except KeyError:
+            print("Player image not found in images dictionary.")
+            # Handle the failure (e.g., set a default image or exit)
+            #  ---- 🔴 create a red square as a fallback/ shape red in case the img doesnt load --
+            self.image = pygame.Surface((50, 50))  # Example fallback surface
+            self.image.fill((0, 56, 175 ))  # BLUE Klein
+
+        self.rect = self.image.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+
+        self.direction = pygame.Vector2()
+        self.speed = 300
+
+        # 🥶 cooldown
+        self.can_shoot = True
+        self.laser_shoot_time = 0
+        self.cooldown_duration = 2000
+
+
+    def laser_timer(self):
+        if not self.can_shoot:
+            current_time = pygame.time.get_ticks()
+            # print(current_time)
+            if current_time - self.laser_shoot_time >= self.cooldown_duration:
+                self.can_shoot = True
+
+    def update(self, dt):
+        keys = pygame.key.get_pressed()
+        # INT:  `int()` is the function doing the conversion. int converts this boolean value into an integer. In Python, True is equivalent to 1 and False is equivalent to 0. Therefore, int(keys[pygame.K_RIGHT]) gives 1 if the key is pressed, and 0 if it is not
+        self.direction.x = int(keys[pygame.K_RIGHT]) - int(keys[pygame.K_LEFT])
+        self.direction.y = int(keys[pygame.K_DOWN]) - int(keys[pygame.K_UP])
+
+
+        # to normalize the vector, after the issue when pressing top and left at the same time
+        self.direction = self.direction.normalize() if self.direction else self.direction
+        #    print("shipt is being updated")
+
+        # Update the player position with speed and delta time
+        self.rect.center += self.direction * self.speed * dt
+
+        recent_keys = pygame.key.get_pressed()
+        if recent_keys[pygame.K_SPACE] and self.can_shoot:
+            # print('fire laser')
+            Laser(laser_surf, self.rect.midtop, all_sprites)
+            self.can_shoot = False
+            self.laser_shoot_time = pygame.time.get_ticks()
+
+        # Call the Laser_timer function from line 74
+        self.laser_timer()
+
+```
+
+
+ <br>
+
+---
+
+
+<br>
+<br>
+<br>
