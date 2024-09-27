@@ -817,3 +817,17 @@ class Star(pygame.sprite.Sprite):python
 ```
 
 - - 🔶 **In contrast**, the `laser_timer` function keeps running as long as the game is updating, checking the shooting state each frame.
+
+```python
+  def laser_timer(self):
+        if not self.can_shoot:
+            current_time = pygame.time.get_ticks()
+            print(current_time)
+```
+
+
+
+
+## 🟨 Event vs. State:
+
+- - 🟤 Firing lasers is an event (it happens once when you press a button),
