@@ -1603,3 +1603,7 @@ class Laser(pygame.sprite.Sprite):
 ```python
         if self.rect.bottom < 0:
 ```
+
+
+> - - #### 🟢 If it has, we simply remove it from the game to free up resources. This keeps the game running smoothly and efficiently!
+
