@@ -477,3 +477,12 @@ To create a more balanced game play experience, we need to introduce a delay bet
 > - - #### 🔴  After firing a laser, the <u>player must wait  this amount of time before they can shoot again</u> .
 
 <br>
+<br>
+<br>
+<br>
+
+## 🟦 Moving Forward:
+
+## 🟡 Integrating the Timer in the `update()` Function
+
+#### Now, let’s modify the  `shooting condition` within the `update()` function.
