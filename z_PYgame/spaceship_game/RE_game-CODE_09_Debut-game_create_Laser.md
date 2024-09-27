@@ -101,3 +101,26 @@
 > - - This **Laser Class** will define the laser's properties, including its appearance, movement, and interactions with other game elements.
 
 
+
+
+
+
+
+
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+#### [2:14:14](https://youtu.be/8OMghdHP-zs?si=3rY3VNpwAeH26EiE&t=8054)
+
+<br>
+
+## 🟦 Moving Forward:
+
+<br>
+
+# 🟡  Timing Techniques
