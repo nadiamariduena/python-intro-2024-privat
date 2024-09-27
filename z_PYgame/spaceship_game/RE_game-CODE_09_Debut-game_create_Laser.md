@@ -215,3 +215,8 @@ trigger for spawning/generating meteors.
 
 
 ### Initialize the Timer:
+
+- - Use `pygame.time.set_timer(event, milliseconds)` to set up your timer. This will allow your event to fire every X seconds.
+
+
+<br>
