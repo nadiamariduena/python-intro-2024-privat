@@ -531,3 +531,10 @@ To create a more balanced game play experience, we need to introduce a delay bet
 ## 🟡 Implementing the 🧊 Cooldown Logic
 
 - **Next**, we need to set `self.can_shoot` to **False** when the player fires a laser 🔫.
+
+```python
+        recent_keys = pygame.key.get_pressed()
+        if recent_keys[pygame.K_SPACE] and self.can_shoot:
+            print('fire laser')
+            self.can_shoot = False
+```
