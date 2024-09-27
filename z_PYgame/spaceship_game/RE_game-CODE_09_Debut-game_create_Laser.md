@@ -464,3 +464,8 @@ To create a more balanced game play experience, we need to introduce a delay bet
 -  - This boolean variable controls whether the player can shoot.
 
 > - - #### By default, it's set to True, meaning the player can shoot lasers initially.
+
+
+#### 🔶 `self.laser_shoot_time = 0`:
+
+- - This variable will keep track of the time since the last laser was fired. It starts at 0 milliseconds.
