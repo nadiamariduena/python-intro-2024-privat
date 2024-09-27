@@ -124,3 +124,8 @@
 <br>
 
 # 🟡  Timing Techniques
+
+### As we continue to build our game, we need to manage time effectively.
+
+
+#### We’ll be using time in two main ways:
