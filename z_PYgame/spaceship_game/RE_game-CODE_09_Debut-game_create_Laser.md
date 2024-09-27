@@ -614,6 +614,9 @@ self.laser_timer()
 
 ### 🟤 Step 4: Placement of the Function
 
+- - The `laser_timer` function should be positioned at the top of the update() function.
+
+#### Here’s how your structure should look:
 
 ```python
 class Player(pygame.sprite.Sprite):
