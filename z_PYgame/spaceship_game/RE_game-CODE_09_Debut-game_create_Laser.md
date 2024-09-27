@@ -1221,3 +1221,15 @@ pygame.quit()
 
 <br>
 <br>
+
+##  🔫  Let's Begin!
+
+<br>
+
+### 🟤 1. Create the `Laser Class`:
+
+- - #### Printing the laser when user presses `space` bar
+
+
+- - ####   The Laser class is meant to create a laser projectile 🔫.
+
