@@ -1274,3 +1274,15 @@ class Laser(pygame.sprite.Sprite):
         self.rect = self.image.get_frect(midbottom = pos)
 
 ```
+
+<br>
+
+
+
+## 🟤 2. Integrating Laser Functionality
+
+
+#### Right now, the code prints "fire laser" when the space bar is pressed.
+
+- - We will replace this with creating an instance of the Laser class.
+
