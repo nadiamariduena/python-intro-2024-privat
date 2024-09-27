@@ -544,3 +544,5 @@ To create a more balanced game play experience, we need to introduce a delay bet
 
 ###   `self.can_shoot = False`:
 
+  This line **changes** the shooting **status to** `False` **as soon as the player fires**.
+
