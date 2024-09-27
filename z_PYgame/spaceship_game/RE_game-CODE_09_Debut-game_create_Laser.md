@@ -268,3 +268,7 @@ pygame.time.set_timer(meteor_event, 500)
 This line creates a new custom event in Pygame, which is assigned to the variable `meteor_event`.
 
  <br>
+
+ #### 🟤 `pygame.time.set_timer(meteor_event, 500)`:
+
+ This line **sets a timer** for the custom **event** defined in the previous line.
