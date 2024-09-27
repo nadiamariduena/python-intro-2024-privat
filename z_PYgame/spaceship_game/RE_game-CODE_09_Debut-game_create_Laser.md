@@ -1532,3 +1532,5 @@ class Laser(pygame.sprite.Sprite):
 
 <br>
 
+
+### 🟩  Performance Impact:
