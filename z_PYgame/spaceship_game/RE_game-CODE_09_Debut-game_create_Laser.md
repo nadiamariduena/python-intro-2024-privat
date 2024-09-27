@@ -547,3 +547,17 @@ To create a more balanced game play experience, we need to introduce a delay bet
   This line **changes** the shooting **status to** `False` **as soon as the player fires**.
 
 > ### 🛑 It means the player cannot shoot again until the cooldown duration has passed.
+
+<br>
+<br>
+
+
+##   🏁 Remember:
+
+### As we mentioned previously:
+
+<br>
+
+#### 🔶 `self.laser_shoot_time = 0`:
+
+- - This variable will keep track of the time since the last laser was fired. It starts at 0 milliseconds.
