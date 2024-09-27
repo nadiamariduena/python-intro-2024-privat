@@ -95,3 +95,5 @@
 
 
 - -    we’re going to **implement a meteor** spawning **system** that **creates new meteors** at regular intervals.
+
+> - -  ####   We’ll use Pygame’s timing functions to control the spawn rate—this means every few seconds, a meteor will appear on the screen, adding intensity to your gameplay.
