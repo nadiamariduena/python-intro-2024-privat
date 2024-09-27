@@ -1210,6 +1210,10 @@ pygame.quit()
 
 - - 🔶 **Define the Laser class** to create laser projectiles with proper image handling and positioning.
 
+- - 🔶 **Replace the current placeholder** code that prints "fire laser" with an instance of the Laser class when the space bar is pressed.
+
+
+
 
 <br>
 <br>
