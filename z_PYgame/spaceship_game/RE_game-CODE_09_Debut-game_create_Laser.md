@@ -1432,3 +1432,16 @@ class Player(pygame.sprite.Sprite):
 
 - - 🚀 We’ll Create a function that manages their movement seamlessly.
 
+
+<br>
+
+### 🟤 Create the `Update()` function
+
+- Within the Laser class, add the following:
+
+```python
+   # 🔫 moving LASER bullets
+    def update(self, dt):
+        # centery because we only want to move 1 point
+        self.rect.centery -= 400 * dt
+```
