@@ -187,3 +187,7 @@
 
 - - When the laser is fired, record the current time. 🔺 This will be our starting point.
 
+
+#### Measure Time Passed  :
+
+- - To check if the laser can fire again, measure the time that has passed since that starting point.
