@@ -310,3 +310,22 @@ while running:
             print('create meteor 🪨')
 ```
 
+
+
+
+### 🟧 2. add it within the `while` loop
+
+```python
+running = True
+while running:
+    dt = clock.tick() / 1000
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+        if event.type == meteor_event:
+            print('create meteor 🪨')
+```
+<br>
+
+### 🟢 How It Contributes to the Event System
