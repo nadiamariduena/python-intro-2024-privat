@@ -673,3 +673,21 @@ class Player(pygame.sprite.Sprite):
 #---------
 class Star(pygame.sprite.Sprite):
 ```
+
+<br>
+
+## 🟢  Explanation
+
+
+
+### `laser_timer`
+
+- - checks if the player is currently in a cooldown state (self.can_shoot is False).
+
+
+
+### `pygame.time.get_ticks()`:
+
+- - This function retrieves the current time in milliseconds since Pygame was initialized.
+
+> #### The teacher printed this value to track how much time has passed since the player last shot a laser.
