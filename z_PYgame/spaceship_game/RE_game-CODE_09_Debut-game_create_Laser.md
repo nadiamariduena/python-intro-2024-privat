@@ -1551,3 +1551,12 @@ class Laser(pygame.sprite.Sprite):
 <br>
 <br>
 <br>
+
+
+
+## 🟦 Moving Forward:
+
+### 🟡 Managing Off-Screen Lasers
+
+#### 🎠 Imagine your game window like a digital stage where the action unfolds.
+
