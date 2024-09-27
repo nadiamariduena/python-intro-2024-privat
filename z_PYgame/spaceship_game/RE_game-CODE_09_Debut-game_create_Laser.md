@@ -379,3 +379,20 @@ if event.type == meteor_event:
 ### 🟦 Enhancing Laser Functionality
 
 In our `Player` **class**, specifically in the `update()` **function**, we currently have this line of code:
+
+```python
+        recent_keys = pygame.key.get_pressed()
+        if recent_keys[pygame.K_SPACE]:
+            print('fire laser')
+```
+
+### 🟦 to Test it, temporarily hide our debugging line for meteor creation::
+
+```python
+ # loop
+        if event.type == meteor_event:
+            print('create meteor 🪨')
+```
+#### 🎋 🐦‍⬛ Observing the Behavior
+
+When you press the `SPACE key`, you'll notice that the console displays **print('fire laser')** for every single tap.
