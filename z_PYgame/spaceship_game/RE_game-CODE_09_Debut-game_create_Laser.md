@@ -582,3 +582,8 @@ To create a more balanced game play experience, we need to introduce a delay bet
 
 In the upcoming steps, we will utilize `self.laser_shoot_time` to **check if** the **cooldown** duration has elapsed, allowing the player to shoot again.
 
+<br>
+
+### 🟤 Step 1: Create the Timer Function
+
+- - Create a new function within the `Player` class and name it `laser_timer`.
