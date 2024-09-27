@@ -520,6 +520,6 @@ To create a more balanced game play experience, we need to introduce a delay bet
 
 > - - ###  This additional condition **ensures that the laser only fires 🔫 if** `self.can_shoot` is **True**.
 
-
+  - - #### 👾  If the player tries to shoot during the cooldown period, this condition will 👾  prevent the laser from firing.
 
 
