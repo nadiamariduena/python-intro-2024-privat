@@ -1652,3 +1652,9 @@ class Laser(pygame.sprite.Sprite):
 
 
 # 🟠 Adjusting for Visibility:
+
+
+### 🟤To see the laser bullets in action before they're destroyed
+
+- -  **you can change the condition** to something like `self.rect.bottom < 210`.
+
