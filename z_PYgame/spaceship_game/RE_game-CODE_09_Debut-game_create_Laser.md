@@ -182,3 +182,8 @@
 #### Short Duration Timer:
 
 - - This timer will activate briefly each time the laser fires, creating a short cooldown period.
+
+#### Get a Starting Point  :
+
+- - When the laser is fired, record the current time. 🔺 This will be our starting point.
+
