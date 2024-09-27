@@ -160,3 +160,6 @@
 <br>
 
 **Define a Meteor Event:** This event will signal when it's time to create a meteor.
+
+**🟤 Set a Timer:** Establish a countdown timer that triggers the meteor event at the specified interval.
+<br>
