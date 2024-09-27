@@ -1561,3 +1561,6 @@ class Laser(pygame.sprite.Sprite):
 #### 🎠 Imagine your game window like a digital stage where the action unfolds.
 
 > - - ### 🟨 When the player shoots a laser, it travels upward.
+
+> - - #### 🟨Once it crosses the top of the screen, it’s no longer needed.
+
