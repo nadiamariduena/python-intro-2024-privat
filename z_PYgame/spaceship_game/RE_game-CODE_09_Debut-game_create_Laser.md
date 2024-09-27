@@ -1607,3 +1607,19 @@ class Laser(pygame.sprite.Sprite):
 
 > - - #### 🟢 If it has, we simply remove it from the game to free up resources. This keeps the game running smoothly and efficiently!
 
+
+
+```python
+            self.kill()
+```
+### Like so:
+
+
+```python
+    # 🔫 moving LASER bullets
+    def update(self, dt):
+        self.rect.centery -= 400 * dt
+        if self.rect.bottom < 0:
+            self.kill()
+
+```
