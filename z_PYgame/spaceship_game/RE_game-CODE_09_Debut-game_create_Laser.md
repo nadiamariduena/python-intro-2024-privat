@@ -1198,4 +1198,18 @@ pygame.quit()
 
 ## 🟡 Adding Laser Functionality
 
-- In this section, we plan to optimize game  through the integration of 💥 laser 🔫 firing upon pressing the space bar.
+- In this section, we plan to optimize game  through the integration of   laser 🔫 firing upon pressing the space bar.
+
+<br>
+
+
+
+### 🟢 Summary of Steps to Implement Laser Functionality
+
+<br>
+
+- - 🔶 **Define the Laser class** to create laser projectiles with proper image handling and positioning.
+
+
+<br>
+<br>
