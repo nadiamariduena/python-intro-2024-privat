@@ -612,3 +612,61 @@ Now, call this function inside the update() method:
 self.laser_timer()
 ```
 
+### 🟤 Step 4: Placement of the Function
+
+
+```python
+class Player(pygame.sprite.Sprite):
+    def __init__(self, groups):
+        super().__init__(groups)
+        try:
+
+            self.image = images['player']
+        except KeyError:
+            print("Player image not found in images dictionary.")
+
+            self.image = pygame.Surface((50, 50))
+            self.image.fill((0, 56, 175 ))
+
+        self.rect = self.image.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+
+        self.direction = pygame.Vector2()
+        self.speed = 300
+
+        # 🥶 cooldown
+        self.can_shoot = True
+        self.laser_shoot_time = 0
+        self.cooldown_duration = 400
+
+
+    def laser_timer(self):
+        if not self.can_shoot:
+            current_time = pygame.time.get_ticks()
+            print(current_time)
+
+
+    # UPDATE -----------
+    def update(self, dt):
+        keys = pygame.key.get_pressed()
+
+        self.direction.x = int(keys[pygame.K_RIGHT]) - int(keys[pygame.K_LEFT])
+        self.direction.y = int(keys[pygame.K_DOWN]) - int(keys[pygame.K_UP])
+
+
+        self.direction = self.direction.normalize() if self.direction else self.direction
+
+
+
+        self.rect.center += self.direction * self.speed * dt
+
+        recent_keys = pygame.key.get_pressed()
+        if recent_keys[pygame.K_SPACE] and self.can_shoot:
+            print('fire laser')
+            self.can_shoot = False
+
+        # CALLING
+        self.laser_timer()
+
+#---------
+class Star(pygame.sprite.Sprite):
+```
