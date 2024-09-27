@@ -1540,3 +1540,14 @@ class Laser(pygame.sprite.Sprite):
 #### While you might not see them zipping around, these invisible sprites still consume processing power.
 
 > - - #### 🔺 This can lead to inefficiencies, slowing down the game and affecting overall performance.
+
+#### 🟠 In a simple game like yours, this may not pose a significant problem, but in more complex games, it could become a serious issue.
+
+
+---
+
+
+<br>
+<br>
+<br>
+<br>
