@@ -1300,3 +1300,31 @@ if recent_keys[pygame.K_SPACE] and self.can_shoot:
 
 ## 🟤 3.  Printing <u>LASER Instance 🔫</u>
 
+
+
+> ### Replace the existing code block with the following to create a Laser instance:
+
+
+
+
+
+```python
+# before
+
+    if recent_keys[pygame.K_SPACE] and self.can_shoot:
+        print('fire laser')
+        self.can_shoot = False
+        self.laser_shoot_time = pygame.time.get_ticks()
+
+
+    self.laser_timer()
+
+# after
+      if recent_keys[pygame.K_SPACE] and self.can_shoot:
+            # print('fire laser')
+            Laser(laser_surf, self.rect.midtop, all_sprites)
+            self.can_shoot = False
+            self.laser_shoot_time = pygame.time.get_ticks()
+```
+
+<br>
