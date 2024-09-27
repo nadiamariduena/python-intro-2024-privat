@@ -234,3 +234,9 @@ trigger for spawning/generating meteors.
 #### 🔶 Capture Game Time:
 
 - - #### Use `pygame.time.get_ticks()` to retrieve the total milliseconds since the game began.
+
+> #### This will help you create a custom timer that you can use for your laser cooldown.
+
+<br>
+
+#### 🔶 Implement the Cooldown Logic:
