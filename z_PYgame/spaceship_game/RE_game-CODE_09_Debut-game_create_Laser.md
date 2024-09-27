@@ -831,3 +831,6 @@ class Star(pygame.sprite.Sprite):python
 ## 🟨 Event vs. State:
 
 - - 🟤 Firing lasers is an event (it happens once when you press a button),
+
+- - while the timer is checking a state (it keeps checking if shooting is allowed or not).
+
