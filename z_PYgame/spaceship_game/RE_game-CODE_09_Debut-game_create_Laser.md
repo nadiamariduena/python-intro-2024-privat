@@ -1681,7 +1681,20 @@ class Laser(pygame.sprite.Sprite):
 
 - - **Efficient Resource Management:** Using the kill method helps keep your game running smoothly by removing unnecessary sprites.
 
-#### Code
+ <br>
+ <br>
+
+
+
+
+<details>
+<summary> <h4> 🟦 🟡Click to unfold the CODE with DT changes</h4>
+
+
+</summary>
+
+<br>
+
 
 ```python
 
@@ -1908,3 +1921,7 @@ while running:
 pygame.quit()
 
 ```
+
+
+
+</details>
