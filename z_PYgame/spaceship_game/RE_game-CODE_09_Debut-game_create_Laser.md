@@ -587,3 +587,8 @@ In the upcoming steps, we will utilize `self.laser_shoot_time` to **check if** t
 ### 🟤 Step 1: Create the Timer Function
 
 - - Create a new function within the `Player` class and name it `laser_timer`.
+
+
+```python
+    def laser_timer(self):
+```
