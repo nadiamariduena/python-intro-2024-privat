@@ -1506,3 +1506,19 @@ class Laser(pygame.sprite.Sprite):
 
 - - - #### This way, if the game runs slower or faster, the laser still moves at the same speed.
 
+
+<br>
+<br>
+<br>
+<br>
+
+---
+
+
+
+## 🔴 Important Considerations
+
+### 🟨 Be Cautious of Excess Laser Sprites!
+
+> ### 💥 it's essential to consider what happens when the game runs for an extended period.
+
