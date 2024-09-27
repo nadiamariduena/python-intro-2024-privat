@@ -209,3 +209,9 @@
 
 
 ### Set Up Your Event:
+
+- - Start by defining an event that we’ll
+trigger for spawning/generating meteors.
+
+
+### Initialize the Timer:
