@@ -342,3 +342,7 @@ while running:
 ### 🟩 In the video, you may have noticed that the console shows "create meteor 🪨" printed continuously during the game.
 
 - - ✋ **This behavior occurs** because the `meteor_event` is being **triggered repeatedly at every frame, not just once every 500** milliseconds.
+
+### 🟩 Why This Happens?
+
+> #### The below line is placed inside the `event loop`, which <u>runs for every event Pygame detects</u> .
