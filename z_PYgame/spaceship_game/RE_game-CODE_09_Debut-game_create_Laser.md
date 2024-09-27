@@ -142,3 +142,10 @@
 
 
 
+
+## 🟡 Different Approaches for Different Tasks
+
+### 🟢 1.   Meteors:
+
+- - To generate meteors at regular intervals, we need a timer that ticks every X seconds.
+
