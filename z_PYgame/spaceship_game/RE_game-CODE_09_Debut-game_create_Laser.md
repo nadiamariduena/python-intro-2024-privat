@@ -76,3 +76,6 @@
 - - ###  🎯 Effective Timing Strategies
 
 - - **Timing is Key:** Utilize Pygame’s timing functions to synchronize meteor spawns and manage laser cooldowns effectively.
+
+> -  - - Mastering shot timing becomes essential as you fend off meteors while monitoring your laser’s firing rate.
+
