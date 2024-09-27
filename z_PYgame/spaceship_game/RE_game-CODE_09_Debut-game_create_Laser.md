@@ -1930,4 +1930,4 @@ pygame.quit()
 <br>
 <br>
 
-### Next section we will be talking about the "Meteors"
+### 🌈 Next section we will be talking about the "Meteors"
