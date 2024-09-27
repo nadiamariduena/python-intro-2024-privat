@@ -191,3 +191,14 @@
 #### Measure Time Passed  :
 
 - - To check if the laser can fire again, measure the time that has passed since that starting point.
+
+> #### Ensure it meets the cooldown requirement before allowing another shot.
+
+
+
+
+<br>
+<br>
+<br>
+
+---
