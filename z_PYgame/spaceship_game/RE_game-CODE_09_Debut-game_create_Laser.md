@@ -439,3 +439,12 @@ To create a more balanced game play experience, we need to introduce a delay bet
 ## 🟡 Create a timer inside the `Player` class
 
 > - - #### Implement a timer in the Player class to control how frequently the player can shoot lasers.
+
+>- - - - #### 🦩 This will ensure a more strategic and enjoyable game experience by preventing rapid, uncontrolled firing.
+
+<br>
+<br>
+
+### 🟤 Step 1: Setting Up the Timer
+
+#### Inside the Player class, add the following lines:
