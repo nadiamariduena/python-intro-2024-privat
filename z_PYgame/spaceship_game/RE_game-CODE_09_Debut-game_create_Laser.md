@@ -704,3 +704,12 @@ class Star(pygame.sprite.Sprite):
 ```python
 self.laser_shoot_time = pygame.time.get_ticks()
 ```
+
+
+<br>
+
+## 🟢 Explanation of Its Functionality
+
+### 🟧 Tracking the Last Shot Time:
+
+- - By setting `self.laser_shoot_time` to the current ticks, this variable will now represent the exact moment when the player last fired a laser.
