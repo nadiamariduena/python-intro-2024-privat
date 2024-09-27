@@ -79,3 +79,17 @@
 
 > -  - - Mastering shot timing becomes essential as you fend off meteors while monitoring your laser’s firing rate.
 
+
+
+> - -  -    We'll make sure meteors appear at the right moment  and   control how often the laser can shoot.
+
+
+
+
+
+
+
+
+
+##  🟩 2. Meteor Spawning System
+
