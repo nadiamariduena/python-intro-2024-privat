@@ -163,3 +163,10 @@
 
 **🟤 Set a Timer:** Establish a countdown timer that triggers the meteor event at the specified interval.
 <br>
+
+#### 🟫 Capture the Event:
+
+- - ✋ In the event loop of your game, we’ll listen for this meteor event and generate a new meteor whenever it occurs.
+
+<br>
+
