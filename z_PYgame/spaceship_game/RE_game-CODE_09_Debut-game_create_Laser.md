@@ -815,3 +815,5 @@ class Star(pygame.sprite.Sprite):python
         # Call the Laser_timer function from line 74
         self.laser_timer()
 ```
+
+- - 🔶 **In contrast**, the `laser_timer` function keeps running as long as the game is updating, checking the shooting state each frame.
