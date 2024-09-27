@@ -180,3 +180,5 @@
 <br>
 
 #### Short Duration Timer:
+
+- - This timer will activate briefly each time the laser fires, creating a short cooldown period.
