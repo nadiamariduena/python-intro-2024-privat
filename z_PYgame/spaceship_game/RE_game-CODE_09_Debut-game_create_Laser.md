@@ -486,3 +486,11 @@ To create a more balanced game play experience, we need to introduce a delay bet
 ## 🟡 Integrating the Timer in the `update()` Function
 
 #### Now, let’s modify the  `shooting condition` within the `update()` function.
+
+- -  The below is what we currently have:
+
+```python
+        recent_keys = pygame.key.get_pressed()
+        if recent_keys[pygame.K_SPACE]:
+            print('fire laser')
+```
