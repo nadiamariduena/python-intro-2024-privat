@@ -719,3 +719,6 @@ self.laser_shoot_time = pygame.time.get_ticks()
 <br>
 
 ### 🟧 Enabling Cooldown Logic:
+
+In subsequent logic (likely in the `laser_timer` function), you will compare `current_time` (obtained during the cooldown check) to `self.laser_shoot_time`.
+
