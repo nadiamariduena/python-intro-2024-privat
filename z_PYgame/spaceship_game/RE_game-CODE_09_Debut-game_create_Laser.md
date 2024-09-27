@@ -70,3 +70,9 @@
 > - - #### 🔫 Just like any high-tech weapon, it can’t fire continuously without overheating.
 
 > - - #### 🧊 After each shot, we’ll enforce a brief cooldown period before it can fire again 🥶.
+
+<br>
+
+- - ###  🎯 Effective Timing Strategies
+
+- - **Timing is Key:** Utilize Pygame’s timing functions to synchronize meteor spawns and manage laser cooldowns effectively.
