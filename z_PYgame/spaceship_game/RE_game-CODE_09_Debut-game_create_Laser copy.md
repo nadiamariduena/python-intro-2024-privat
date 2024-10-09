@@ -10,6 +10,23 @@
 
 
 
+<!--
+
+
+#### 🟨 create the meteor class
+
+- - create the meteor class [Go to section](#create_class_)
+
+
+- - -  #### 🟨 create the event
+
+- - - - create the event to make the meteor appear [Go to section](#event_meteor_1_)
+
+<br>
+
+
+ -->
+
 <br>
 <br>
 
