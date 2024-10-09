@@ -228,3 +228,17 @@ class Meteor(pygame.sprite.Sprite):
 
 - - #### 🏁 When a `meteor_event` is triggered, we create a new `Meteor` instance using `meteor_surf`, specifying its position and adding it to the sprite group.
 
+> #### This step is crucial for bringing meteors into the game, allowing them to appear on the screen.
+
+```python
+# 🧶 GAME LOOP ----
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+        # METEOR event ----
+        if event.type == meteor_event:
+            # print('create meteor 🪨')
+            Meteor(meteor_surf, (400,500),all_sprites)
+
+
+```
