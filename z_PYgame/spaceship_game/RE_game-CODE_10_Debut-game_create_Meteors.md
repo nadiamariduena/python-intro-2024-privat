@@ -256,3 +256,10 @@ After implementing **step 4**, run the game to see the meteors appear on the scr
 
 
 <br>
+<br>
+
+
+## 🟧 7. Customize the Meteor Position
+
+### 🟤 Define the Position Coordinates
+
