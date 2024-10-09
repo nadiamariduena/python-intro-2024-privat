@@ -191,3 +191,5 @@
 
 In this step, we set the**meteor's image** using the provided surface.
 
+- - If the image **isn’t found, we create a fallback** surface. We also define the **position** of the meteor using its rectangle.
+
