@@ -138,3 +138,52 @@ This refers to the current instance of the Player class.
 <br>
 
 
+### 🍭 surf 🖼️
+
+This corresponds to laser_surf, which is the surface you want the Laser to use.
+
+> - - #### 🌞 It’s the image that you’ve loaded for the laser.
+
+
+<br>
+
+### 🍭 pos:
+
+This is `self.rect.midtop`, which provides the position where the laser will be created.
+
+>  - - #### It uses the player’s current position (specifically the midpoint of the top edge of the player’s rectangle).
+
+
+<br>
+
+### 🍭 groups:
+
+> - - #### This refers to all_sprites, which is the group you want the laser instance to be added to.
+
+- - This allows the laser to be part of the sprite management system for updates and drawing.
+
+
+<br>
+
+### 🍭 pos:
+
+This is `self.rect.midtop`, which provides the position where the laser will be created.
+
+>  - - #### It uses the player’s current position (specifically the midpoint of the top edge of the player’s rectangle).
+
+
+<br>
+
+### 🍭 groups:
+
+> - - #### This refers to all_sprites, which is the group you want the laser instance to be added to.
+
+- - This allows the laser to be part of the sprite management system for updates and drawing.
+
+---
+
+<br>
+<br>
+
+## 🟦 Moving Forward:
+
