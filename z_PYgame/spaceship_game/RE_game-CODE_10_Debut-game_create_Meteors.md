@@ -226,3 +226,5 @@ class Meteor(pygame.sprite.Sprite):
 
 ### In this step, we listen for events in the game `loop`.
 
+- - #### 🏁 When a `meteor_event` is triggered, we create a new `Meteor` instance using `meteor_surf`, specifying its position and adding it to the sprite group.
+
