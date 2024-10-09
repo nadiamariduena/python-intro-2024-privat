@@ -185,5 +185,9 @@
  <br>
  <br>
 
- ## 🟦 Moving Forward:
+## 🟦 Moving Forward:
+
+## 🟧 4.  Set the Image and Position
+
+In this step, we set the**meteor's image** using the provided surface.
 
