@@ -51,6 +51,8 @@
 
 <br>
 
+### 🟤 This will involve using Python's random module, specifically the `range() and uniform()` functions, to control the position and speed of the meteors as they appear and move downwards.
+
 
 
 <br>
