@@ -263,3 +263,8 @@ After implementing **step 4**, run the game to see the meteors appear on the scr
 
 ### 🟤 Define the Position Coordinates
 
+To position the meteor accurately, we need to customize the **coordinates:**
+
+```python
+(400,500)
+```
