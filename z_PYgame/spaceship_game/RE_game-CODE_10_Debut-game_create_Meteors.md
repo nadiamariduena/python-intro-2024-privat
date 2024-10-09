@@ -268,3 +268,30 @@ To position the meteor accurately, we need to customize the **coordinates:**
 ```python
 (400,500)
 ```
+
+
+### 🟤   X and Y Coordinates
+
+The coordinates correspond to the X and Y positions on the screen:
+
+```python
+# x
+randint(0, WINDOW_WIDTH),
+#y
+randint(0, WINDOW_HEIGHT)
+```
+<br>
+
+### 🟤  Randomize the Position
+We can generate random X and Y values like this:
+
+```python
+x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
+```
+
+<br>
+
+### 🟤  Update Meteor Creation
+
+> #### Now, let’s replace the hardcoded position with our randomized values
+
