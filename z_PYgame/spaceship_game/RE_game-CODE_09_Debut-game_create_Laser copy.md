@@ -106,9 +106,21 @@ class Meteor(pygame.sprite.Sprite):
 
 
 
-> 🟢 **Read more** about the **parameters**: `(self, surf, pos, groups)`
+### 🟤 Parameters: (self, surf, pos, groups)
 
 
+These parameters will help us **specify** the meteor's **surface, position**, and the **sprite group it belongs** to.
+
+```python
+#🪨 METEOR
+class Meteor(pygame.sprite.Sprite):
+    def __init__(self, surf, pos, groups):
+        super().__init__(groups)
+
+        try:
+            self.image = surf
+```
+<br>
 
 
 
