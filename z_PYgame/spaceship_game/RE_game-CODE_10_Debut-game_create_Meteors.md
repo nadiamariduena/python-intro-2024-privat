@@ -182,8 +182,9 @@
 
  ---
 
- <br>
- <br>
+<br>
+<br>
+<br>
 
 ## 🟦 Moving Forward:
 
@@ -214,7 +215,14 @@ class Meteor(pygame.sprite.Sprite):
 
 
 <br>
+<br>
+<br>
 
 <a name="event_meteor_1_"></a>
 
 ## 🟧 5. Handle Meteor Events
+
+
+
+### In this step, we listen for events in the game `loop`.
+
