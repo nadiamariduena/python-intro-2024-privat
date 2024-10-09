@@ -295,3 +295,13 @@ x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
 
 > #### Now, let’s replace the hardcoded position with our randomized values
 
+```python
+# BEFORE
+
+            Meteor(meteor_surf, (400,500),all_sprites)
+
+# AFTER --------
+
+            Meteor(meteor_surf, (x, y),all_sprites)
+```
+<br>
