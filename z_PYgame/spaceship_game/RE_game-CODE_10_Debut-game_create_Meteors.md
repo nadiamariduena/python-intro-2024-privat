@@ -242,3 +242,14 @@ class Meteor(pygame.sprite.Sprite):
 
 
 ```
+
+<br>
+
+## 🟧 6. Test It Out!
+
+After implementing **step 4**, run the game to see the meteors appear on the screen.
+
+
+
+
+<br>
