@@ -121,8 +121,19 @@ class Meteor(pygame.sprite.Sprite):
             self.image = surf
 ```
 <br>
+<br>
 
+<br>
 
+---
+
+### ⚫ RECAP:
+
+### 🍭 self:
+
+This refers to the current instance of the Player class.
+
+> - - ####  When you call `Laser(laser_surf, self.rect.midtop, all_sprites)`, self is implicitly passed when invoking methods from the Player instance.
 
 <br>
 
