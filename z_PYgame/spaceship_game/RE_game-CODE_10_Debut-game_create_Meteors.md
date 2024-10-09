@@ -249,6 +249,9 @@ class Meteor(pygame.sprite.Sprite):
 
 After implementing **step 4**, run the game to see the meteors appear on the screen.
 
+> #### You should now see the meteor in action!
+
+[<img src="../meteor_1_class.gif"/>]()
 
 
 
