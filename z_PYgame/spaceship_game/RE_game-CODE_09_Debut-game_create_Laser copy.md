@@ -27,8 +27,25 @@
 
  -->
 
+
 <br>
 <br>
+<br>
+<br>
+
+---
+
+<br>
+
+
+# 🟡 What We will Be Doing
+
+<a name="What_We_will_Be_Doing_"></a>
+
+
+## 🫐 🟡 Adding Meteor Rains to Our Space Shooter
+
+### In this lesson, we will be focusing on adding meteors to our space shooter game.
 
 
 <br>
