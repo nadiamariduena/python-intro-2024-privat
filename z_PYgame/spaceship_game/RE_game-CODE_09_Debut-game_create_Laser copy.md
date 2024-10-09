@@ -61,18 +61,32 @@
 
 - You'll learn how to detect when a meteor hits the player’s spaceship and how to handle those collisions (either) by taking damage or ending the game.
 
-
-<br>
-<br>
-<br>
-<br>
-<br>
-
 ---
 
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
+# 🟦 Let's Start:
+
+
+## 🟡 Steps to Implement the *Key* LOGIC
+
+
+<a name="create_class_"></a>
+
+
+<br>
+
+### 🟧 1. Create the 🪨METEOR  class
+
+```python
+class Meteor(pygame.sprite.Sprite):
+```
 
 
 
