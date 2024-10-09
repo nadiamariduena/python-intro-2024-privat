@@ -193,3 +193,28 @@ In this step, we set the**meteor's image** using the provided surface.
 
 - - If the image **isn’t found, we create a fallback** surface. We also define the **position** of the meteor using its rectangle.
 
+```python
+#🪨 METEOR
+class Meteor(pygame.sprite.Sprite):
+    def __init__(self, surf, pos, groups):
+        super().__init__(groups)
+
+        try:
+            self.image = surf
+        except KeyError:
+            print("Meteor image not found in images dictionary.")
+            self.image = pygame.Surface((80, 50))
+            self.image.fill((255, 238, 72))  # Acid yellow
+
+
+        # Set the position of the laser
+        self.rect = self.image.get_frect(center = pos)
+        # meteor_rect = meteor_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+```
+
+
+<br>
+
+<a name="event_meteor_1_"></a>
+
+## 🟧 5. Handle Meteor Events
