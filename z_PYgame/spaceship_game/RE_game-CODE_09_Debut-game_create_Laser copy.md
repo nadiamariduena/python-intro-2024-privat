@@ -53,6 +53,13 @@
 
 ### 🟤 This will involve using Python's random module, specifically the `range() and uniform()` functions, to control the position and speed of the meteors as they appear and move downwards.
 
+<br>
+
+## 🟡 NEXT
+
+###  After completing this lesson, we'll also be ready to tackle meteor collisions!
+
+- You'll learn how to detect when a meteor hits the player’s spaceship and how to handle those collisions (either) by taking damage or ending the game.
 
 
 <br>
