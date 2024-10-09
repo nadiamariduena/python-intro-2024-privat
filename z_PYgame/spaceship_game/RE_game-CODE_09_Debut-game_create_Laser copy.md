@@ -88,6 +88,16 @@
 class Meteor(pygame.sprite.Sprite):
 ```
 
+### 🟧 2.  Now Create a Meteor for Every Meteor event
+
+Here, we set up the `constructor` for the **Meteor** class.
+
+- In the next step We’ll pass all necessary **parameters** to define the meteor's behavior and appearance.
+
+```python
+class Meteor(pygame.sprite.Sprite):
+    def __init__(self, )
+```
 
 
 
