@@ -47,6 +47,11 @@
 
 ### In this lesson, we will be focusing on adding meteors to our space shooter game.
 
+> -  ### Specifically, we will set up a system where meteors fall from the top of the screen, <u>creating obstacles for the player to avoid</u> 💥.
+
+<br>
+
+
 
 <br>
 <br>
