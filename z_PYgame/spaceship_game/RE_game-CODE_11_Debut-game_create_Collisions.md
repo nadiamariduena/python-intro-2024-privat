@@ -140,3 +140,32 @@
 ### 🟨 We’ll begin by testing point-based collision detection.
 
 - This will lay the groundwork for understanding how collision checks work and why we need more precise control in our case.
+
+
+
+---
+
+<br>
+<br>
+
+
+<br>
+<br>
+
+
+
+## 🟦 Let's Get Started!!
+
+<a name="Setting_Up_Rectangle_Collisions"></a>
+
+## 🟡 1.  <u>Setting Up Rectangle Collisions</u>
+
+### 🟫 We’ll begin by creating some rectangle collision checks.
+
+
+ 🟤 `Right now`, we have the following line of code for our player:
+
+```python
+player = Player(all_sprites)
+```
+> **REMEMBER:** The line player = Player(all_sprites) creates the player character and adds it to the `all_sprites` group.
