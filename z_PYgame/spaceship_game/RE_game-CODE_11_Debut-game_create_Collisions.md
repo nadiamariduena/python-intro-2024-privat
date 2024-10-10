@@ -1288,3 +1288,21 @@ pygame.quit()
 ## 🟡 10. Checking the collision between the `lasers and the meteors`
 
 <br>
+
+### 🧶 1.  First we need to access to all of the lasers
+
+- - Go to the `player` class: `class Player(pygame.sprite.Sprite):`
+
+
+<br>
+
+### 🧶 2.  Inside the update() function of the player class, we create lasers when the player presses the spacebar:
+
+```python
+if recent_keys[pygame.K_SPACE] and self.can_shoot:
+            #print('fire laser')
+             # 🟡 Laser SURF
+            Laser(laser_surf, self.rect.midtop, all_sprites)
+
+```
+>  **RECAP** `Laser()` is called with the laser surface (laser_surf), the position where the laser is fired (`self.rect.midtop`), and `all_sprites` (**a group containing all sprites** for easy management and drawing).
