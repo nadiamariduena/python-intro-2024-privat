@@ -322,3 +322,12 @@ test_rect = pygame.Frect()
 test_rect = pygame.FRect(0, 0, 300, 600)
 ```
 <br>
+
+### 🟤 Explanation
+
+
+
+#### `0, 0` are the `x and y` coordinates for the `top-left` corner of the rectangle.
+
+> #### `300` is the `width`, and `600` is the height
+
