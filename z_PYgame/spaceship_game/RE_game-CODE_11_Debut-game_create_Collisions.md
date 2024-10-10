@@ -1652,3 +1652,9 @@ for laser in laser_sprites:
 
 ### The `laser.kill()` line removes the laser sprite from the game after it collides with a meteor.
 
+```python
+if collided_sprites:
+    laser.kill()
+    #laser.kill() removes the laser sprite from the game, effectively destroying it.
+```
+
