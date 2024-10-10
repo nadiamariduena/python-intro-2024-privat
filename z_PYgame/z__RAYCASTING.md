@@ -147,3 +147,30 @@
 #### 🔴 Both methods help make games fun and interactive, but `raycasting gives you more control` and a better way to see what’s really happening in the game world!
 
 <br>
+<br>
+
+## 🟡 Raycasting can be implemented in various programming languages and game development environments.
+
+### Here are some popular ones:
+
+
+#### 1. Unity (C#)
+Unity has built-in physics and raycasting functions. You can easily cast rays to detect collisions with objects in 3D space using C#.
+
+#### 2. Unreal Engine (Blueprints / C++)
+Unreal Engine offers raycasting through both its visual scripting system (Blueprints) and C++. You can use it for line-of-sight checks and detecting intersections with objects.
+
+#### 3. Godot (GDScript)
+Godot has built-in methods for raycasting, which you can use in 2D or 3D games. GDScript makes it easy to implement raycasting for collision detection.
+
+#### 4. Processing (Java)
+Processing is great for visual arts and can be used to implement raycasting in simple games. It uses Java, making it accessible for beginners.
+
+#### 🌈 5. JavaScript (HTML5/Canvas)
+In web development, you can implement raycasting using JavaScript with HTML5 canvas. Many online tutorials demonstrate how to create raycasting effects in browser-based games.
+
+#### 6. GameMaker Studio (GML)
+GameMaker uses its own scripting language (GML) and allows you to implement raycasting for various game mechanics, like line-of-sight checks.
+
+#### 7. Phaser (JavaScript)
+Phaser is a popular HTML5 game framework that lets you create 2D games and supports raycasting techniques through custom code.
