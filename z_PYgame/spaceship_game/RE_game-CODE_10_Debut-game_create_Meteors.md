@@ -437,3 +437,12 @@ x, y = randint(0, WINDOW_WIDTH), randint(-200, -100)
                 |                    |
                 +--------------------+
 ```
+
+<br>
+
+
+
+
+
+### 🟤 `-200`: the meteor can start as high as 200 pixels above the top of the window.
+
