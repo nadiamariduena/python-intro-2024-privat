@@ -328,3 +328,18 @@ x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
 [<img src="../meteor_3_class.gif"/>]()
 
 <br>
+<br>
+
+## 🟧 8.  Animate the Meteor
+
+### To animate the meteor, we’ll add an update() function to the Meteor class, similar to what we did for the laser:
+
+
+
+```python
+class Meteor(pygame.sprite.Sprite):
+    def __init__(self, surf, pos, groups):
+        # .. more code here (related to the init)
+
+    def update(self, dt):
+```
