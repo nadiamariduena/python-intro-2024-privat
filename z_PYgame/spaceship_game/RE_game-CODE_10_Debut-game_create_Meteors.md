@@ -778,3 +778,10 @@ self.speed = randint(400, 500)
 - - 🔴 By using randint(400, 500), each meteor gets a random speed within that range. This means that **some meteors will move faster than others**, creating variety in how quickly they fall.
 
 <br>
+<br>
+
+### Output
+
+
+[<img src="../random_direction_for_the_meteor-leftright_2.gif"/>]()
+
