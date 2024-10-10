@@ -749,3 +749,6 @@ self.direction = pygame.Vector2(uniform(-0.5, 0.5), 1)
 
 ###  This `sets the Y direction to a fixed value of 1`, meaning the meteor will always `move downward`.
 
+### 🧶 Why Fixed Y Direction?:
+
+>#### By keeping the Y direction consistent, we ensure that all meteors fall from the top of the screen downwards, which maintains the core gameplay mechanic.
