@@ -1821,4 +1821,20 @@ def collitions():
 
 #### This means the meteors might disappear (since you’re handling the collision), but the game won’t actually stop until the loop starts a new frame.
 
+---
+
 <br>
+
+<br>
+<br>
+
+## 🟡 13. Clash between the 2 `running` variables
+
+<br>
+
+### When we’re working with a variable like `running` in the <u>collision function</u>, it can cause confusion because we have `two` <u>running </u> variables:
+
+-  one inside the `function` and
+
+- one in the `while` loop.
+
