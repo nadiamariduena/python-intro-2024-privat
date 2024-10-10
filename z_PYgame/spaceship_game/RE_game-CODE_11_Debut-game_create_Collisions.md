@@ -1661,3 +1661,7 @@ if collided_sprites:
 > #### This ensures that the laser is no longer drawn or updated, simulating that the laser is destroyed on impact.
 
 
+<br>
+
+### Does It Keep the Collided Data in the List?
+
