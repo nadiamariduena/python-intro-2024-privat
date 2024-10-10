@@ -635,3 +635,5 @@ player = Player(all_sprites)
 meteor_sprites = pygame.sprite.Group()
 ```
 
+> - - This way, we can easily manage and check collisions between the player and only the meteor sprites.
+
