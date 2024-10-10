@@ -705,3 +705,19 @@ pygame.Vector2(x, y)
 from random import randint, uniform
 ```
 > This imports the uniform function, which we will use to generate random floating-point values for the meteor's X direction.
+
+
+<br>
+<br>
+
+### 🟤 Step 2: Setting the Random `X Direction`
+
+- **Next**, when you create a new meteor, assign a random value to its X direction:
+
+```python
+self.direction = pygame.Vector2(uniform(-0.5, 0.5), 1)
+```
+<br>
+
+## 🟩 Breakdown of the Code:
+
