@@ -1598,3 +1598,5 @@ pygame.sprite.spritecollide(laser, meteor_sprites,  True)
 
 ## 🧶 8. Storing Collided Data:
 
+### Save Laser and Meteor in a `collided_sprites` List for Later Processing
+
