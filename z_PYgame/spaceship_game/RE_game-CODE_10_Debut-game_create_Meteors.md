@@ -467,8 +467,7 @@ x, y = randint(0, WINDOW_WIDTH), randint(-200, -100)
 
 #### 🟢 1.  Destroy Every Meteor Sprite
 
-- - We want each meteor sprite to disappear after 2 seconds.
+>  We want each meteor sprite to disappear after 2 seconds.
 
-> - - ### This way, they vanish before they reach the bottom of the screen.
+> - - #### This way, they vanish before they reach the bottom of the screen.
 
-> - - #### To do this, we’ll add the following line:
