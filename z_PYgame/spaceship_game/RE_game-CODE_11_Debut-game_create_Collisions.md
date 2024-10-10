@@ -1334,3 +1334,8 @@ if recent_keys[pygame.K_SPACE] and self.can_shoot:
 >#### 🔴 💡 Note: The `laser_sprites group doesn't exist yet`, but we'll create it!
 
 <br>
+
+### 🫐  How to Assign a `Laser to the Group`
+
+#### When we create a laser, we add it to the group using the Laser() function.
+
