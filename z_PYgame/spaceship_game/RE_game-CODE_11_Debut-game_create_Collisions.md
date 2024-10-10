@@ -1461,3 +1461,8 @@ laser_sprites = pygame.sprite.Group()
 - - The teacher gave this example for checking collisions between the player and meteor sprites:
 
 
+```python
+collision_sprites =  pygame.sprite.spritecollide(player, meteor_sprites, True)
+if collision_sprites:
+    print(collision_sprites[0])
+```
