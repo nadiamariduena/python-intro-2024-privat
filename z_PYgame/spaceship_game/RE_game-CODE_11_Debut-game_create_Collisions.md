@@ -1580,3 +1580,12 @@ pygame.sprite.spritecollide(laser, meteor_sprites,  True)
 
 
 >  #### The laser might hit a meteor, but it will continue to exist and move, which isn't realistic for most games.
+
+
+<br>
+
+```python
+ for laser in laser_sprites:
+        pygame.sprite.spritecollide(laser, meteor_sprites,  True)
+
+```
