@@ -667,3 +667,10 @@ pygame.Vector2(x, y)
 <br>
 <br>
 <br>
+
+
+## 🟧 14. `uniform`
+
+### `uniform` function to generate a random floating-point number for the `X` direction
+
+
