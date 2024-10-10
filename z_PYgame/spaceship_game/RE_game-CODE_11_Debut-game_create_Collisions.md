@@ -1879,3 +1879,12 @@ while running:
 ### They’re two different variables.
 
 ---
+
+
+<br>
+
+### 🟣 Question:
+
+**So, in other words:**
+
+> #### the `running` of the `while loop` will clash with the `false` command that is being `called` inside that same `while` loop?
