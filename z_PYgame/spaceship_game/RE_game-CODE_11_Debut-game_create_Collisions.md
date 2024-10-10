@@ -1554,3 +1554,22 @@ pygame.sprite.spritecollide(laser, meteor_sprites,  True)
 [<img src="../laser_collision__0.gif"/>]( )
 
 ### 🌈 🔴 WORKS But its not ideal Yet!!
+
+
+
+<br>
+<br>
+
+
+
+<br>
+
+## 🧶 7. Meteor Removed, But Laser Remains in the Sprite Group
+
+
+
+### Why is this line not ideal?
+
+```python
+pygame.sprite.spritecollide(laser, meteor_sprites,  True)
+```
