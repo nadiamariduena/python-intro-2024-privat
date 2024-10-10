@@ -850,4 +850,12 @@ self.rect.center += self.direction * self.speed * dt
 
 <br>
 
-- #### Finally, multiplying by `dt` ✋ ensures the movement is smooth and consistent, regardless of frame rate.
+### Finally, multiplying by `dt` ✋ ensures the movement is smooth and consistent, regardless of frame rate.
+
+
+
+<br>
+
+### Output
+
+[<img src="../random_direction_for_the_meteor-leftright_0.gif"/>]()
