@@ -192,3 +192,11 @@ player.rect.collidepoint()
 ```
 > ####  This line checks if the player's rectangle is colliding with a specific point. To do this, we need to provide two values: the x and y coordinates.
 
+
+
+### 🟫 The correct usage looks like this:
+
+
+```python
+player.rect.collidepoint(x,y)
+```
