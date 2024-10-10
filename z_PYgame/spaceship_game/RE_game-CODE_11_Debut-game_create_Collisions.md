@@ -1666,3 +1666,9 @@ if collided_sprites:
 ### Does It Keep the Collided Data in the List?
 
 -  🔴 Yes, the `collided_sprites` still holds the meteors that collided with the laser, but now the laser itself is also removed from the game when a collision happens.
+
+<br>
+
+
+> #### The list collided_sprites still holds the meteor data, but the laser is removed from the `laser_sprites` group by `laser.kill`().
+
