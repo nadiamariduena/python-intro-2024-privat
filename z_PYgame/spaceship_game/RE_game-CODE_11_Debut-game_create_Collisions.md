@@ -637,3 +637,12 @@ meteor_sprites = pygame.sprite.Group()
 
 > - - This way, we can easily manage and check collisions between the player and only the meteor sprites.
 
+<br>
+<br>
+
+## 🟡 5. two groups:
+
+###  Once you create the second sprite: `meteor_sprites = pygame.sprite.Group()`, modify the below (within the game loop):
+
+
+
