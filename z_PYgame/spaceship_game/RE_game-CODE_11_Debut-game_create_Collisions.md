@@ -104,3 +104,5 @@
 
 >Before diving into the full group collision logic, we’ll run some tests.
 
+- 🔴 **Don’t skip** this step it’s important because **it will help you understand why we don’t use certain collision methods** in our game.
+
