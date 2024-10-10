@@ -1902,6 +1902,8 @@ while running:
 <br>
 <br>
 
+#### [22:52:29](https://youtu.be/8OMghdHP-zs?si=vhqUy5AYVuGJYgc4&t=10347)
+
 ## 🟡 13. Using a Global Variable to Stop the Game
 
 ### 🟢 Why Use global?
