@@ -655,3 +655,8 @@ Meteor(meteor_surf, (x,y),all_sprites)
 Meteor(meteor_surf, (x,y),(all_sprites, meteor_sprites) )
 ```
 
+### Explanation
+
+**First Sprite Group `(all_sprites)`:** This group is used for updating and displaying all game objects.
+
+**Second Sprite Group `(meteor_sprites)`:** This group specifically holds all meteor objects, making it easier to manage and identify them.
