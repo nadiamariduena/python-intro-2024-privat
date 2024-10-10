@@ -356,16 +356,23 @@ test_rect = pygame.FRect(0, 0, 300, 600)
 
 ### 🟤 Step 1: Setting Up Collision Checks
 
-### 🟥 Now that we have our `test_rect` ready, it’s time to check for collisions in the game loop.
+#### 🟥 Now that we have our `test_rect` ready, it’s time to check for collisions in the game loop.
 
 > 💡 This is where we see if the player is touching the obstacle.
 
 <br>
 
-### Add the Collision Check:
+#### Add the Collision Check:
 
 -  Start by adding this line to your game loop:
 
 ```python
 print(player.rect.colliderect())
 ```
+
+<br>
+
+### 🟤 Step 2: Checking Against `test_rect`
+
+
+**Next**, we need to **specify which rectangle we’re checking** for collisions with.
