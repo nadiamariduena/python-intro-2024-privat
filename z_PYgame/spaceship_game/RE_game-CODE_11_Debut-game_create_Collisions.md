@@ -338,3 +338,17 @@ test_rect = pygame.FRect(0, 0, 300, 600)
 - - The top-left corner starts at (0, 0), and it stretches down to the right to cover an area of 300 pixels wide and 600 pixels tall.
 
 [<img src="../collision_00.png"/>](https://youtu.be/8OMghdHP-zs?si=HU-cBP4aClqzp9OP&t=9678)
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+## 🟦 Moving Forward:
+
+<a name="collide-rect_inthegameloop"></a>
+
+## 🟡 2.   <u>`colliderect` in the Game Loop</u>
+
