@@ -1710,3 +1710,20 @@ if collided_sprites:
 
 - We’ll move the collision logic into a separate function to keep the game loop clean and organized.
 
+
+```python
+collision_sprites =  pygame.sprite.spritecollide(player, meteor_sprites, True)
+    if collision_sprites:
+        print(collision_sprites[0])
+
+    for laser in laser_sprites:
+        collided_sprites = pygame.sprite.spritecollide(laser, meteor_sprites,  True)
+        if collided_sprites:
+            laser.kill()
+
+```
+
+<br>
+<br>
+
+## 🟤 1. Create the Collision Function
