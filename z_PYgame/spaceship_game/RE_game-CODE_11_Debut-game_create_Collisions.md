@@ -460,9 +460,19 @@ while running:
 
 pygame.quit()
 ```
+
+<br>
+<br>
+<br>
+
 ---
 
-<br>
-<br>
+## 🟠 Understanding Collision Limitations
 
-<br>
+
+
+### When we talk about collisions in Pygame, it's important to know how they work.
+
+🌈 Pygame is like a helper that checks if things are touching each other, but it has some limitations.
+
+
