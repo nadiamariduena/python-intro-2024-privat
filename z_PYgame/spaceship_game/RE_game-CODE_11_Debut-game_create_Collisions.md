@@ -331,3 +331,7 @@ test_rect = pygame.FRect(0, 0, 300, 600)
 
 > #### `300` is the `width`, and `600` is the height
 
+### 🟧 Visualize It:
+
+> You can think of the rectangle like a box on the screen.
+
