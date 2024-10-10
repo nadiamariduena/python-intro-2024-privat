@@ -393,3 +393,10 @@ print(player.rect.colliderect(test_rect ))
 
 
 ### 🟠 Test It Out
+
+### Move the Player
+
+#### 🟢 Move the player sprite around the screen.
+
+- Now, move the player sprite around.
+
