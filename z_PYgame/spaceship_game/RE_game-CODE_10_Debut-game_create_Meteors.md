@@ -487,3 +487,11 @@ self.start_time = pygame.time.get_ticks()
 ```
 
 <br>
+
+### 🟠 Explanation:
+
+-  - **Here**, `pygame.time.get_ticks()` gives us the current time in milliseconds since the game started.
+
+> - - #### By saving this time in self.start_time, we can track how long the meteor has been alive.
+
+<br>
