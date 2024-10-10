@@ -628,3 +628,8 @@ class Meteor(pygame.sprite.Sprite):
 
 - - #### To give each meteor its own direction, we’ll use `pygame.Vector2()`.
 
+- - This tool is perfect for defining movement because it allows us to represent both the direction and speed of the meteor as a single object.
+
+```python
+pygame.Vector2(x, y)
+```
