@@ -578,3 +578,5 @@ class Meteor(pygame.sprite.Sprite):
 ### 🔴 Why Is This Important?
 
 #### This code helps control how long things stay in the game.
+
+- - - It’s like having rules in a game: if you follow them, everything works smoothly!
