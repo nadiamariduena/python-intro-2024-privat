@@ -315,3 +315,5 @@ test_rect = pygame.Frect()
 
 ### 🟠 Create a rectangle with specified position and size
 
+- - 🌈 Within the parentheses, we will be using the `left top width and height`
+
