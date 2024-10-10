@@ -354,3 +354,11 @@ class Meteor(pygame.sprite.Sprite):
     def update(self, dt):
         self.rect.centery += 400 * dt
 ```
+
+<br>
+<br>
+
+
+## 🟦 Moving Forward:
+
+### 🟧 10. Right now, when we create a meteor, it appears at a random position within the entire window. For example:
