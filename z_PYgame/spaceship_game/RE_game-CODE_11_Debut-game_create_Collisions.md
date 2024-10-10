@@ -1497,3 +1497,5 @@ if collision_sprites:
 
 ## 🧶 5. loop through  each laser🔫
 
+**a)** 🔴 <u>We need to loop through each laser</u> in the `laser_sprites` **group**: `laser_sprites = pygame.sprite.Group()` which **contains all active laser sprites created** during gameplay.
+
