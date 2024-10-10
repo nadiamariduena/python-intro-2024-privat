@@ -612,3 +612,13 @@ class Meteor(pygame.sprite.Sprite):
 - #### the meteors are moving in a straight line down the screen (watch the above img).
 
 > - - ####  This can get a bit boring because they all follow the same path.
+
+
+<br>
+
+### 🟤 What We Want to Do?:
+
+####  <u> We want each meteor to move in a different direction! </u>
+
+- This will make the game more exciting and fun to play.
+
