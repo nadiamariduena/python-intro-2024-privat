@@ -806,3 +806,6 @@ self.rect.centery += 400 * dt
 
 > #### We need to `update the meteor's position` by using its `center`.
 
+- To do this, we will <u>multiply</u> `self.direction` by `self.speed` and then by `dt`.
+
+#### This will help us calculate how far the meteor should move in that frame.
