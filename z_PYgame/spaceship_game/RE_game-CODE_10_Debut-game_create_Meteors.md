@@ -599,3 +599,15 @@ class Meteor(pygame.sprite.Sprite):
 ### Output
 
 [<img src="../start_METEOR_from_a__random_pos_at_the_top_2.gif"/>]()
+
+
+<br>
+<br>
+<br>
+
+## 🟧 13. Giving Meteors a Direction
+
+### 🟤 Right Now:
+
+- #### the meteors are moving in a straight line down the screen (watch the above img).
+
