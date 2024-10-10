@@ -1841,3 +1841,17 @@ def collitions():
 > #### 🔴 These two variables are not the same unless we tell Python they should be connected. This is where the global keyword comes in.
 
 <br>
+
+## The Problem:
+
+### In your `collision` function, you have this:
+
+```python
+def collitions():
+    collision_sprites =  pygame.sprite.spritecollide(player,
+    if collision_sprites:
+        print(collision_sprites[0])
+
+        # 🟡
+        running = False # 🔴 This 'running' is local to this function
+```
