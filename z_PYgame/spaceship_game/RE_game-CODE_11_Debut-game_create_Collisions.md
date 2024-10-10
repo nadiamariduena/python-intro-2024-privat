@@ -204,3 +204,16 @@ player.rect.collidepoint(x,y)
 ### 🟫 For example, you can test with:
 
 
+```python
+player.rect.collidepoint(100, 200)
+```
+
+
+
+### 🟫 To see the result, add this line:
+
+
+```python
+ print(player.rect.collidepoint((100, 200)))
+```
+
