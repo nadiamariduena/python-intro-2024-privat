@@ -841,3 +841,7 @@ self.rect.center += self.direction * self.speed * dt
 - #### `self.direction * self.speed * dt:`
 
   This calculates the change in position for that frame.
+
+- -  The `self.direction` vector gives the direction of movement.
+
+<br>
