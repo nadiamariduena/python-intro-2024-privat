@@ -1957,3 +1957,7 @@ def collisions():
 <br>
 
 ##  How It Works:
+
+
+### 🟧 To connect these two variables (`the one inside the function and the one in the loop`), we add global running inside the collision function like this:
+
