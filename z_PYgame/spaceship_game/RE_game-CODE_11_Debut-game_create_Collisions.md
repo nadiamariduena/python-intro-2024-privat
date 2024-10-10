@@ -827,3 +827,15 @@ pygame.time.set_timer(meteor_event, 50)
   ####  This is the interval in milliseconds between each event trigger.
 
 > - -  #### 🟧In this case, the value 50 means the `meteor_event` will be triggered every `50` milliseconds. This interval determines how often new meteors are spawned.
+
+<br>
+
+- **Smaller values** (e.g., **20 or 30**) will result in more frequent meteor spawns.
+
+- **Larger values** (e.g., **100 or 200**) will result in fewer meteor spawns over time
+
+```python
+pygame.time.set_timer(meteor_event, 100)  # Spawns a meteor every 100 milliseconds
+
+```
+
