@@ -1368,6 +1368,8 @@ Laser(laser_surf, self.rect.midtop, all_sprites)
 
  🔴 Without a `laser_sprites` group, lasers wouldn't be grouped together for updates or drawing.
 
+>  ####  We need this to handle all lasers in one place for efficient rendering and collision detection.
+
 
 
 <br>
