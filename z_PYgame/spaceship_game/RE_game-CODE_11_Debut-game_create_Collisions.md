@@ -1,5 +1,5 @@
 
- # 🟡 SPRITES 5.
+ # 🟡 SPRITES 6.
 
  <br>
 
@@ -10,6 +10,7 @@
 
 
 
+ <!--
 
 
  #### 🟨 create the meteor class
@@ -24,7 +25,7 @@
  <br>
 
 
-
+  -->
 
 
  <br>
