@@ -1635,4 +1635,11 @@ if collision_sprites:
     print(collision_sprites[0])
 
 # Loop through each laser in the laser_sprites group.
-# This is where we check for collisions
+# This is where we check for collisions between each individual laser and the meteor sprites.
+for laser in laser_sprites:
+
+    # Check if the laser collided with any meteor, and remove the meteor (True argument).
+    # This will return a list of meteors that collided with the laser.
+    collided_sprites = pygame.sprite.spritecollide(laser, meteor_sprites, True)
+
+```
