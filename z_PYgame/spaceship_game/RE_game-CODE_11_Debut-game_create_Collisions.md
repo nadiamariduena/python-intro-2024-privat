@@ -1359,3 +1359,15 @@ Laser(laser_surf, self.rect.midtop, all_sprites)
 # AFTER ✋
  Laser(laser_surf, self.rect.midtop, (all_sprites, laser_sprites))
 ```
+
+
+<br>
+
+
+### 🫐 🟡 Why It’s Necessary?:
+
+ 🔴 Without a `laser_sprites` group, lasers wouldn't be grouped together for updates or drawing.
+
+
+
+<br>
