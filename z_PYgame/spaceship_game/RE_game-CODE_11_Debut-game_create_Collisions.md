@@ -493,3 +493,25 @@ pygame.quit()
 <br>
 
 **The Ball:** This is like your player character.
+
+**The Wall:** This represents an obstacle in the game.
+
+<br>
+
+### 🟤 What Happens When the Ball Hits the Wall?
+
+When you roll the ball towards the wall, you want to know if it touches the wall.
+
+-  `Pygame` can tell us when the ball (the player) is touching the wall. It says, “The ball is hitting the wall!”
+
+
+
+###  The Limitation
+
+>  However, just knowing that the ball is touching the wall doesn’t stop it from going through.
+
+###  Rule
+
+>  To make it realistic, you need to add a rule: **“If the ball touches the wall, it should stop moving forward!**”
+
+<br>
