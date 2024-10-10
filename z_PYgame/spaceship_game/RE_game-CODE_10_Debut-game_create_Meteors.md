@@ -355,6 +355,12 @@ class Meteor(pygame.sprite.Sprite):
         self.rect.centery += 400 * dt
 ```
 
+#### This code moves an object vertically (up or down) on the screen.
+
+- - `self.rect.centery` is the **center** of the object.
+
+
+<br>
 <br>
 <br>
 
