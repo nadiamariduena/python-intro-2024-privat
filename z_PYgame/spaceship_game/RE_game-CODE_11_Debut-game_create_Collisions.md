@@ -300,3 +300,6 @@ pygame.quit()
 
 >    Checking if two rectangles are touching, we say 'we’re looking at if they overlap'
 
+<br>
+
+[2:41:18](https://youtu.be/8OMghdHP-zs?si=HU-cBP4aClqzp9OP&t=9678)
