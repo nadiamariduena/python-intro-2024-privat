@@ -343,3 +343,14 @@ class Meteor(pygame.sprite.Sprite):
 
     def update(self, dt):
 ```
+<br>
+<br>
+
+## 🟧 9. Make the meteors move 👾
+
+#### Now, let’s implement the movement logic inside the update() method:
+
+```python
+    def update(self, dt):
+        self.rect.centery += 400 * dt
+```
