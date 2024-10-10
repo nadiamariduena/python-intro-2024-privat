@@ -317,3 +317,8 @@ test_rect = pygame.Frect()
 
 - - 🌈 Within the parentheses, we will be using the `left top width and height`
 
+```python
+# within the parentheses, we will be using the "left top width and height"
+test_rect = pygame.FRect(0, 0, 300, 600)
+```
+<br>
