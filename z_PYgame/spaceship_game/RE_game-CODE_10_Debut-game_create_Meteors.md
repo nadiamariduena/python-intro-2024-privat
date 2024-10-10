@@ -448,3 +448,5 @@ x, y = randint(0, WINDOW_WIDTH), randint(-200, -100)
 
 - - - When it **begins** up here, it’s completely **hidden from view**. This way, players have a moment to see the meteor as it starts to fall down.
 
+### 🟤 `-100`: This number is the highest point where the meteor can start.
+
