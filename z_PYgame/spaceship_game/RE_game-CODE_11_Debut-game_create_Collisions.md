@@ -1937,3 +1937,23 @@ global running
         running = False  # 🟡 Now this will stop the game by setting the global 'running' to False
 
 ```
+
+
+#### like so:
+
+```python
+def collisions():
+    global running  # 🟡 This makes 'running' refer to the global variable
+    collision_sprites = pygame.sprite.spritecollide(player, meteor_sprites, False)
+
+    if collision_sprites:
+        print(collision_sprites[0])
+        running = False  # 🟡 Now this will stop the game by setting the global 'running' to False
+
+```
+
+<br>
+<br>
+<br>
+
+##  How It Works:
