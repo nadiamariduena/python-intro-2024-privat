@@ -1764,3 +1764,8 @@ all_sprites = pygame.sprite.Group()
 
 ## 🟤 3. Add the Collision Call within  the Game Loop
 
+### Call the function
+
+> ####  Now that the collision logic is in its own function, you can call it inside the game loop.
+
+-   This keeps your main loop clean and easier to read.
