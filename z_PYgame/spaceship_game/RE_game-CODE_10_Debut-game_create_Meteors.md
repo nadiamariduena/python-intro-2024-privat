@@ -569,3 +569,4 @@ class Meteor(pygame.sprite.Sprite):
 
 - - **If it is**, we use `self.kill()` **to remove the meteor**.
 
+> #### 🌈 It’s like saying, “If 2 seconds have passed since the meteor was created, make it disappear!”
