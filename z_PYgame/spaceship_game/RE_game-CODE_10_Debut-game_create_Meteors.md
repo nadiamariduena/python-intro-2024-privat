@@ -386,3 +386,4 @@ x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
 
 > - - #### 🟢 Specifically, we want them to start from a random position at the top, which means `adjusting the Y coordinate` to be a `bit higher than the window's top edge`.
 
+- In other words, we want to be in a position `randomly` **between -200 & -100**
