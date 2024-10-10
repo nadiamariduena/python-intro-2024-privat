@@ -537,3 +537,11 @@ This means that while Pygame helps you see when two objects are touching, <u>you
 
 
 - ### What is Raycasting?
+
+-  - Why Use Raycasting?
+
+-  - -  Comparing to Rectangle Collisions
+
+#### 🟩 Read More: [z__RAYCASTING](../z__RAYCASTING.md)
+
+---
