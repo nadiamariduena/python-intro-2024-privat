@@ -592,4 +592,7 @@ This setup creates a challenge when we want to check for collisions between the 
 
 **Difficult Separation:**
 
-#
+#### 🔴 When all sprites are in one group, it becomes hard to differentiate between them.
+
+> #### 🔴 If we want to check if a meteor hits the player, we need a way to isolate those two specific sprites from the others in the group.
+
