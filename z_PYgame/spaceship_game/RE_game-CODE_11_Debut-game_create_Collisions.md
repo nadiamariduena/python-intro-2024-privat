@@ -1437,3 +1437,9 @@ laser_sprites = pygame.sprite.Group()
 
 - - -  🟤 `laser_sprites` for all laser sprites.
 
+>  This setup allows us to **check if any of the laser sprites are colliding with the meteor sprites** using efficient group-based collision detection.
+
+
+---
+
+<br>
