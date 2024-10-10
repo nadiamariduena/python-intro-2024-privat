@@ -1344,3 +1344,7 @@ if recent_keys[pygame.K_SPACE] and self.can_shoot:
 >- - - By adding `laser_sprites` as an argument in `Laser()`, each laser will be added to this group when created.
 
 #### 🌈 Here's how you do it:
+
+```python
+Laser(laser_surf, self.rect.midtop, (all_sprites, laser_sprites))
+```
