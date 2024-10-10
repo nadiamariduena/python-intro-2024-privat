@@ -130,3 +130,20 @@
 
 **Creating Realism:** It makes the game feel more real by helping players see what’s around them.
 
+
+
+
+#### 🔴 Check this: sec 0:26 [Creating a DOOM (Wolfenstein) - style 3D Game in Python](https://youtu.be/ECqUrT7IdqQ?si=iOOHTdKK_o7TG772)
+<br>
+
+## 🟡 Comparing to Rectangle Collisions
+
+> #### While Pygame’s rectangle collisions check if two boxes are touching, raycasting sends out those rays to see what’s in front of you.
+
+- - 🧸 It’s like looking ahead and saying, **“There’s a wall there!”** 🍯
+
+<br>
+
+#### 🔴 Both methods help make games fun and interactive, but `raycasting gives you more control` and a better way to see what’s really happening in the game world!
+
+<br>
