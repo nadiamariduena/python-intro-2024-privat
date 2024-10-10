@@ -644,5 +644,8 @@ meteor_sprites = pygame.sprite.Group()
 
 ###  Once you create the second sprite: `meteor_sprites = pygame.sprite.Group()`, modify the below (within the game loop):
 
+- Instead of managing just one sprite, we now want to organize everything into two groups:
+
+
 
 
