@@ -169,3 +169,6 @@
 player = Player(all_sprites)
 ```
 > **REMEMBER:** The line player = Player(all_sprites) creates the player character and adds it to the `all_sprites` group.
+
+>- - - This means the **player** will be **part of the game**, can **be seen on the screen**, and will **move or change** every time the **game updates**.
+
