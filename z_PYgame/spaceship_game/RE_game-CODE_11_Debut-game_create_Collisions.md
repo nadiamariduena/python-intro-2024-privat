@@ -1896,3 +1896,12 @@ while running:
 - However, when the false command is called from within the loop, it changes the condition to false, which interrupts the loop's execution.
 
 >#### 🔴 This creates a conflict, as the loop is trying to keep running, but the false command is telling it to stop.
+
+
+<br>
+<br>
+<br>
+
+## 🟡 13. Using a Global Variable to Stop the Game
+
+### 🟢 Why Use global?
