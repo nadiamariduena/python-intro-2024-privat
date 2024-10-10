@@ -1708,3 +1708,5 @@ if collided_sprites:
 
 ### Structuring the Code with a Collision Function
 
+- We’ll move the collision logic into a separate function to keep the game loop clean and organized.
+
