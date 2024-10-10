@@ -400,3 +400,6 @@ print(player.rect.colliderect(test_rect ))
 
 - Now, move the player sprite around.
 
+- - When you reach the **(0, 0)** position with the arrow, check the console.
+
+> #### It should display "TRUE" when the player’s rectangle overlaps with the test_rect.
