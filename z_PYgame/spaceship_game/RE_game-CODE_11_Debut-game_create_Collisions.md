@@ -920,3 +920,10 @@ collision_sprites =  pygame.sprite.spritecollide(player, meteor_sprites, True)
 ```
 
 🟤 `collision_sprites = pygame.sprite.spritecollide(player, meteor_sprites, True):`
+
+- - - This function **checks if** the **player** sprite **collides with any sprites in** the `meteor_sprites` group.
+
+<br>
+
+ 🟤 The third argument `(True)` **removes the meteors from the group once they collide.**
+
