@@ -111,3 +111,12 @@
 ### 🟡  <u>Differences Between collidepoint and colliderect</u>
 
 <a name="Differences_Between_collidepoint_and_colliderect"></a>
+
+
+
+### 🟢 collidepoint:
+
+- - Checks if a **specific point** (like (100, 200)) is inside the player's rectangle.
+
+> #### It’s great for **precise checks**, like seeing if the player clicked on an object.
+
