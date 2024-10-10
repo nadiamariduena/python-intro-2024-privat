@@ -402,4 +402,12 @@ print(player.rect.colliderect(test_rect ))
 
 - - When you reach the **(0, 0)** position with the arrow, check the console.
 
-> #### It should display "TRUE" when the player’s rectangle overlaps with the test_rect.
+<br>
+
+> #### It should display "TRUE" (on the console) when the player’s rectangle overlaps with the `test_rect`.
+
+### 🔴 This shows that the two rectangles are colliding!
+
+[<img src="../collision_sprite_1.gif"/>]( )
+
+<br>
