@@ -1466,3 +1466,8 @@ collision_sprites =  pygame.sprite.spritecollide(player, meteor_sprites, True)
 if collision_sprites:
     print(collision_sprites[0])
 ```
+<br>
+
+> 🟤 **Explanation:** This works perfectly when you want to check if the player `(a single sprite)` collides with any meteor sprites.
+
+#### If the collision happens, it will print the first meteor sprite that collided.
