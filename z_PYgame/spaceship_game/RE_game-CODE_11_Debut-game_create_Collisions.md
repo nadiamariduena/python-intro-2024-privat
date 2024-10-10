@@ -1819,6 +1819,6 @@ def collitions():
 
  - -  #### The loop will still complete the current frame before it checks the running variable in the next frame.
 
-
+#### This means the meteors might disappear (since you’re handling the collision), but the game won’t actually stop until the loop starts a new frame.
 
 <br>
