@@ -1905,3 +1905,15 @@ while running:
 ## 🟡 13. Using a Global Variable to Stop the Game
 
 ### 🟢 Why Use global?
+
+> ### To fix this and make sure the `running` in the function changes the `running` in the main game loop, we use the global keyword.
+
+<br>
+<br>
+
+- 🟦 **1. Add** the line below within the collision() function
+
+```python
+# in that way these 2 will connect
+global running
+```
