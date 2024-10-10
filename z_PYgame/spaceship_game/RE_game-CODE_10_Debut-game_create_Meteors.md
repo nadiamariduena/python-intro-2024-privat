@@ -633,3 +633,17 @@ class Meteor(pygame.sprite.Sprite):
 ```python
 pygame.Vector2(x, y)
 ```
+
+
+
+<br>
+<br>
+<br>
+
+---
+
+## ⚫ Recap `Vector2()`:
+
+
+### What is `pygame.Vector2()`?
+
