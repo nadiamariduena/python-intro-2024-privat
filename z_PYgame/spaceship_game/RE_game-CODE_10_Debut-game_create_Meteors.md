@@ -368,3 +368,17 @@ x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
 ```
 
 > #### 👎 This means the user can see the meteor immediately as it appears in a visible area of the screen.
+
+
+
+
+
+<br>
+<br>
+
+## 🟧 11. Adjusting the Y Position
+
+
+
+#### 🟤 This means the user can see the meteor immediately as it appears in a visible area of the screen.
+
