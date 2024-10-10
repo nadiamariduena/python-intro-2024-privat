@@ -42,3 +42,10 @@
 > #### What It Is: You can use rectangles to check for collisions.
 
 - - Each game object (like our meteors and player) can be represented as a rectangle.
+
+<br>
+
+**How It Works:** A rectangle can check for collisions in `three ways`:
+
+
+<br>
