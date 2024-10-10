@@ -545,3 +545,37 @@ This means that while Pygame helps you see when two objects are touching, <u>you
 #### 🟩 Read More: [z__RAYCASTING](../z__RAYCASTING.md)
 
 ---
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+## 🟦 Moving Forward:
+
+## 🟡 3.  Next Step: Remove the test:
+
+
+```python
+# remove the below:
+test_rect = pygame.FRect(0,0, 300, 600)
+    print(player.rect.colliderect(test_rect))
+```
+
+<br>
+
+
+#### [2:42:40](https://youtu.be/8OMghdHP-zs?si=48T5ZXAtPyjJ7RUp&t=9760)
+
+
+<a name="Checking_meteor_Collisions_within_the_Player"></a>
+
+### 🟠 Checking Meteor Collisions within the Player
+
