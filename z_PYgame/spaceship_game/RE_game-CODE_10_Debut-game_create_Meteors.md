@@ -682,3 +682,19 @@ pygame.Vector2(x, y)
 <br>
 
 >   #### 🌈 This will allow each meteor to have a unique horizontal movement, enhancing the game’s excitement and unpredictability.
+
+
+<br>
+<br>
+
+>
+
+### 🟦 Let’s get started!
+
+###  <u>Continuing with Randomizing the X Value</u>
+
+<br>
+
+### 🟤 Step 1: Importing the Function
+
+
