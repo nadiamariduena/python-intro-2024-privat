@@ -495,3 +495,7 @@ self.start_time = pygame.time.get_ticks()
 > - - #### By saving this time in self.start_time, we can track how long the meteor has been alive.
 
 <br>
+
+### 🟤 Lifetime
+
+- **Defining Lifetime:** Next, we set how long the meteor should live before it disappears.
