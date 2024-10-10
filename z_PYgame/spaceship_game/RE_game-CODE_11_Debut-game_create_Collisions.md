@@ -136,3 +136,7 @@
 
 <br>
 <br>
+
+### 🟨 We’ll begin by testing point-based collision detection.
+
+- This will lay the groundwork for understanding how collision checks work and why we need more precise control in our case.
