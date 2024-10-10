@@ -446,3 +446,5 @@ x, y = randint(0, WINDOW_WIDTH), randint(-200, -100)
 
 ### 🟤 `-200`: the meteor can start as high as 200 pixels above the top of the window.
 
+- - - When it **begins** up here, it’s completely **hidden from view**. This way, players have a moment to see the meteor as it starts to fall down.
+
