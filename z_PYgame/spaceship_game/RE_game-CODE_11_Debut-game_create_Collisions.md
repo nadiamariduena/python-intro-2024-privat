@@ -1315,3 +1315,6 @@ if recent_keys[pygame.K_SPACE] and self.can_shoot:
 
 ### 🧶 3. Assigning the Laser to the `laser_sprites` Group
 
+
+### 🫐  What is the `laser_sprites` Group?
+
