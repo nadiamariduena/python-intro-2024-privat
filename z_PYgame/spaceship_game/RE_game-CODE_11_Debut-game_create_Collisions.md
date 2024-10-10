@@ -1788,3 +1788,13 @@ pygame.quit()
 [<img src="../laser_collision__0.gif"/>]( )
 
 ---
+
+
+
+<br>
+<br>
+<br>
+
+## 🟡 11. Ending the Game When a Meteor Hits the Player
+
+
