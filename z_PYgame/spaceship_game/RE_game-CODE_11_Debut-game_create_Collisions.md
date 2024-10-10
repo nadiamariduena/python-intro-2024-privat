@@ -1612,3 +1612,7 @@ collided_sprites = pygame.sprite.spritecollide(laser, meteor_sprites,
 #### It stores the collided sprites:
 
 > #### It returns a `list` of all meteors that collided with the laser, which you can then process.
+
+-  **You can use this list to do more** than just remove the meteors:
+
+
