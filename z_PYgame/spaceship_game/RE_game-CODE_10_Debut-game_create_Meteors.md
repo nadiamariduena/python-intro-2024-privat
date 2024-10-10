@@ -673,4 +673,5 @@ pygame.Vector2(x, y)
 
 ### `uniform` function to generate a random floating-point number for the `X` direction
 
+- -  ### Now that `we have established a direction for our meteors` using `pygame.Vector2(x, 1)`, <u>we need to make the X value dynamic</u>.
 
