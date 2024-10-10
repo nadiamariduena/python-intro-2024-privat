@@ -567,3 +567,5 @@ class Meteor(pygame.sprite.Sprite):
 
 <br>
 
+- - **If it is**, we use `self.kill()` **to remove the meteor**.
+
