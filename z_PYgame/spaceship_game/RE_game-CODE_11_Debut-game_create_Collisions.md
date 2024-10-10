@@ -56,3 +56,12 @@
 
 - - - **With a List of Rectangles:** See if a rectangle intersects with any rectangle in a list.
 
+
+
+<br>
+
+### Pygame offers several methods to check for collisions.
+
+#### Common Collision Methods
+
+> 🟤 Although there are quiet a few variations, check the  [documentation](https://www.pygame.org/docs/ref/rect.html)
