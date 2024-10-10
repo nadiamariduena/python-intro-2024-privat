@@ -1621,5 +1621,5 @@ collided_sprites = pygame.sprite.spritecollide(laser, meteor_sprites,
 - - We can also trigger other actions, like **playing a sound** 🔊 effect (a laser blast or meteor **explosion** 💥), **updating the score**, or showing a **special effect** (like a flash on the screen).
 
 
-
+#### By keeping track of the collided sprites, we have the flexibility to make the game respond in more ways when a collision happens.
 
