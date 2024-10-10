@@ -529,4 +529,11 @@ class Meteor(pygame.sprite.Sprite):
             self.image.fill((255, 238, 72))  # Acid yellow
 
 
+        # Set the position of the laser
+        self.rect = self.image.get_frect(center = pos)
+
+        # Timer 🟡
+        self.start_time = pygame.time.get_ticks()
+        # duration
+        self.lifetime = 2000
 ```
