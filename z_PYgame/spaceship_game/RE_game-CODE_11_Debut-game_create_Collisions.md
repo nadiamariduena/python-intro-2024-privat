@@ -839,3 +839,19 @@ pygame.time.set_timer(meteor_event, 100)  # Spawns a meteor every 100 millisecon
 
 ```
 
+
+---
+
+<br>
+<br>
+<br>
+
+## 🟦 Moving Forward:
+
+
+## 🟡 8.  Conditional | `if` Statement to Check for Collisions
+
+- first we will just print it:
+
+#### Instead of simply printing the list of collided sprites, you would typically use an `if statement` to check if collisions occurred and then take action, like displaying a message or triggering an event.
+
