@@ -1331,3 +1331,6 @@ if recent_keys[pygame.K_SPACE] and self.can_shoot:
 
 > - - Instead of treating each laser separately, the group lets us manage them all at once.
 
+>#### 🔴 💡 Note: The `laser_sprites group doesn't exist yet`, but we'll create it!
+
+<br>
