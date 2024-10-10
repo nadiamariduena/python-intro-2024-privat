@@ -217,3 +217,10 @@ player.rect.collidepoint(100, 200)
  print(player.rect.collidepoint((100, 200)))
 ```
 
+
+
+### 🟧 Test it
+
+- -  Move the player sprite around(With the arrow)
+
+> - - #### If you move the player with the arrow and position it in the `top-left` corner of the screen `(but
