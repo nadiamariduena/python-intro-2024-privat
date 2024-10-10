@@ -704,3 +704,4 @@ pygame.Vector2(x, y)
 ```python
 from random import randint, uniform
 ```
+> This imports the uniform function, which we will use to generate random floating-point values for the meteor's X direction.
