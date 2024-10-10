@@ -812,3 +812,18 @@ pygame.sprite.spritecollide(player, meteor_sprites, True)
 > ####  When the player collides with a meteor, the meteor vanishes ( 🔺 note: the laser feature is not yet functional).
 
 [<img src="../spritecollision__01__3args_to_TRUE.gif"/>]( )
+
+
+### 🟫 Remember
+
+#### You can change the amount of meteors here:
+
+```python
+pygame.time.set_timer(meteor_event, 50)
+```
+
+###  🟤 `50:`
+
+  ####  This is the interval in milliseconds between each event trigger.
+
+> - -  #### 🟧In this case, the value 50 means the `meteor_event` will be triggered every `50` milliseconds. This interval determines how often new meteors are spawned.
