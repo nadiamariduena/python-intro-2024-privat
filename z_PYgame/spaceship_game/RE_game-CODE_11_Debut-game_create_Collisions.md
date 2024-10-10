@@ -127,3 +127,12 @@
 > #### It’s better for situations where you want to know if two objects (like the player and an obstacle) are touching or intersecting.
 
 <br>
+
+### 🟤 Why Use Each Method?
+
+**Use `collidepoint` when** you want to check for interactions with specific points. This is often used for **mouse clicks or similar events**.
+
+**Use `colliderect` when** dealing with larger objects or sprites, as it helps you determine if they are physically colliding.
+
+<br>
+<br>
