@@ -1815,4 +1815,10 @@ def collitions():
 
 #### The game loop runs repeatedly, checking for events, updating game logic, and drawing on the screen every frame.
 
+> - If you set `running = False` during a frame, it won’t stop the loop for that frame.
+
+ - -  #### The loop will still complete the current frame before it checks the running variable in the next frame.
+
+
+
 <br>
