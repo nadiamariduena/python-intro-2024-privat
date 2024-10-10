@@ -503,3 +503,6 @@ self.start_time = pygame.time.get_ticks()
 ```python
 self.lifetime = 2000
 ```
+> #### 🟠 Explanation:
+
+This line means the meteor will last for 2000 milliseconds, or 2 seconds.
