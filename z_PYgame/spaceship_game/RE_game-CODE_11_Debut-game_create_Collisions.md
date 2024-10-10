@@ -290,6 +290,7 @@ pygame.quit()
 ## ⚫ <u>`colliderect`</u>
 
 
+#### [2:41:18](https://youtu.be/8OMghdHP-zs?si=HU-cBP4aClqzp9OP&t=9678)
 
 ## Using `colliderect` method for Rectangle Collisions instead of `collidepoint`
 
@@ -302,4 +303,9 @@ pygame.quit()
 
 <br>
 
-[2:41:18](https://youtu.be/8OMghdHP-zs?si=HU-cBP4aClqzp9OP&t=9678)
+
+
+### 🟠 Create a Test Rectangle
+
+> #### We'll create a test rectangle to demonstrate the purpose of colliderect in action.
+
