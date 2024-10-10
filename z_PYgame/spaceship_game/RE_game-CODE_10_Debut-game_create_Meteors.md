@@ -561,3 +561,5 @@ class Meteor(pygame.sprite.Sprite):
 
 - - - `pygame.time.get_ticks()`: This part gives us the current time in milliseconds (like counting how many seconds have gone by since the game started).
 
+- - - `self.start_time`: This is the time when the meteor was created. We saved it earlier, so we know when it started.
+
