@@ -1517,3 +1517,6 @@ for laser in laser_sprites:
 
 ## 🧶 6. Now that we have our <u>lasers grouped</u>  in `laser_sprites`, we can check when they collide with meteors.
 
+###  This is where collision detection comes in!
+
+> - #### 🟩 We can use pygame.sprite.spritecollide() to check if a laser hits a meteor.
