@@ -927,3 +927,18 @@ collision_sprites =  pygame.sprite.spritecollide(player, meteor_sprites, True)
 
  🟤 The third argument `(True)` **removes the meteors from the group once they collide.**
 
+
+
+> - - #### The function returns a list of collided meteor sprites (`collision_sprites`).
+
+
+```python
+if collision_sprites:
+    print(collision_sprites[0])
+```
+
+#### 🟤 `if collision_sprites:`:
+
+- -  This checks **if there is at least one** meteor in the `collision_sprites list`.
+
+- - **If the list is not empty** (i.e., **if the player hit at least one meteor**), the game goes to the next step.
