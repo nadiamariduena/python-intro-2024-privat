@@ -806,3 +806,9 @@ pygame.sprite.spritecollide(🔺 player, 🔺meteor_sprites, 🔺False)
 ```python
 pygame.sprite.spritecollide(player, meteor_sprites, True)
 ```
+
+### As demonstrated in the image:
+
+> ####  When the player collides with a meteor, the meteor vanishes ( 🔺 note: the laser feature is not yet functional).
+
+[<img src="../spritecollision__01__3args_to_TRUE.gif"/>]( )
