@@ -1672,3 +1672,11 @@ if collided_sprites:
 
 > #### The list collided_sprites still holds the meteor data, but the laser is removed from the `laser_sprites` group by `laser.kill`().
 
+ #### the code
+
+ ```python
+
+  collision_sprites =  pygame.sprite.spritecollide(player, meteor_sprites, True)
+
+    if collision_sprites:
+        print(collision_sprites[0])
