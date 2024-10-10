@@ -1512,3 +1512,8 @@ for laser in laser_sprites:
 
 <br>
 <br>
+
+
+
+## 🧶 6. Now that we have our <u>lasers grouped</u>  in `laser_sprites`, we can check when they collide with meteors.
+
