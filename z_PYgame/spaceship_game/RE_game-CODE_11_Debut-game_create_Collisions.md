@@ -603,3 +603,15 @@ This setup creates a challenge when we want to check for collisions between the 
 #### 🔴 If all sprites are in one spot, collision detection isn’t as fast.
 
 > - 🔴 We may end up checking collisions between the player and stars or other irrelevant sprites, which is not what we want!
+
+```python
+# SPRITES  ------
+all_sprites = pygame.sprite.Group()
+
+for i in range(20):
+    Star(all_sprites)
+
+player = Player(all_sprites)
+
+# -----------------
+```
