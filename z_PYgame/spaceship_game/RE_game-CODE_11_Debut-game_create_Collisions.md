@@ -1440,6 +1440,24 @@ laser_sprites = pygame.sprite.Group()
 >  This setup allows us to **check if any of the laser sprites are colliding with the meteor sprites** using efficient group-based collision detection.
 
 
----
-
 <br>
+
+
+
+## 🟨 🫐 Checking Collisions:
+
+###  <u>Group vs Individual</u>
+
+
+#### 🟣  The teacher mentioned wanting to check every single laser.
+
+- ✅ **chatgpt:** This is correct! We don’t want to check all lasers at once using `groupcollide`(), which compares entire groups.
+
+
+
+
+#### 🟤 a) Colliding Player with Meteor (Example)
+
+- - The teacher gave this example for checking collisions between the player and meteor sprites:
+
+
