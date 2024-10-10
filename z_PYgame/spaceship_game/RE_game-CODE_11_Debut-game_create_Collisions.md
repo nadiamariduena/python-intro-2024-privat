@@ -1761,3 +1761,6 @@ all_sprites = pygame.sprite.Group()
 ```
 
 <br>
+
+## 🟤 3. Add the Collision Call within  the Game Loop
+
