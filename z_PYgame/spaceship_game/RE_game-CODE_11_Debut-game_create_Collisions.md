@@ -1976,6 +1976,7 @@ def collisions():
 
 ### 🌈 Output
 
-- As shown in the image below, when a meteor touches the player, the screen closes.
+- As shown in the image below, when a meteor touches the player, the `screen closes`.
 
 
+[<img src="../meteor-laser_collision_global-running.gif"/>]( )
