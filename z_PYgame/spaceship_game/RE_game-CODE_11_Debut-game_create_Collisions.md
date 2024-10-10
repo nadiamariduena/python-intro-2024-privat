@@ -356,3 +356,5 @@ test_rect = pygame.FRect(0, 0, 300, 600)
 
 ### 🟤 Step 1: Setting Up Collision Checks
 
+### 🟥 Now that we have our `test_rect` ready, it’s time to check for collisions in the game loop.
+
