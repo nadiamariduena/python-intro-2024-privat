@@ -801,3 +801,8 @@ self.rect.centery += 400 * dt
  - - #### 🔴 While this effectively controls vertical movement, it doesn’t account for any horizontal motion.
 
 <br>
+
+### 🌈 Solution
+
+> #### We need to `update the meteor's position` by using its `center`.
+
