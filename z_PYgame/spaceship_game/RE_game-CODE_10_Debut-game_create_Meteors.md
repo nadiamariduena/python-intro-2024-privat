@@ -798,4 +798,6 @@ self.rect.centery += 400 * dt
 ```
 >**Explanation:** This line moves the meteor downward at a speed of 400 pixels per second, scaled by dt (delta time).
 
+ - - #### 🔴 While this effectively controls vertical movement, it doesn’t account for any horizontal motion.
+
 <br>
