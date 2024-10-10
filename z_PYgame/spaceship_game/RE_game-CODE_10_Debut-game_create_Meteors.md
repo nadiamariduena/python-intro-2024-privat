@@ -828,3 +828,10 @@ self.rect.centery += 400 * dt
 # AFTER
 self.rect.center += self.direction * self.speed * dt
 ```
+<br>
+
+### 🟠 What This Does:
+
+```python
+self.rect.center += self.direction * self.speed * dt
+```
