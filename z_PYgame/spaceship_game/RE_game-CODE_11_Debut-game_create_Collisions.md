@@ -1700,3 +1700,11 @@ if collided_sprites:
 <br>
 <br>
 <br>
+
+
+## 🟦 Moving Forward:
+
+## 🟡 11.  Collision Function
+
+### Structuring the Code with a Collision Function
+
