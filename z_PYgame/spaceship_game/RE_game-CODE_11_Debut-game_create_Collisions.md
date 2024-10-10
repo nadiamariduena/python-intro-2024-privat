@@ -1551,3 +1551,6 @@ pygame.sprite.spritecollide(laser, meteor_sprites,  True)
 
 >  #### 🍭Similarly, when a laser hits a meteor, the meteor vanishes as well.
 
+[<img src="../laser_collision__0.gif"/>]( )
+
+### 🌈 🔴 WORKS But its not ideal Yet!!
