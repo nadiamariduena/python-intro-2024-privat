@@ -1589,3 +1589,5 @@ pygame.sprite.spritecollide(laser, meteor_sprites,  True)
         pygame.sprite.spritecollide(laser, meteor_sprites,  True)
 
 ```
+
+#### 🔴 `Both` the laser and the meteor should be removed when they collide, and this line doesn't account for that.
