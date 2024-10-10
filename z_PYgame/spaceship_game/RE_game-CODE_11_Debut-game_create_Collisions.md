@@ -228,3 +228,5 @@ player.rect.collidepoint(100, 200)
 <br>
 
 [<img src="../collision_sprite_0.gif"/>]()
+
+> - ###  This confirms that the collision detection is working!
