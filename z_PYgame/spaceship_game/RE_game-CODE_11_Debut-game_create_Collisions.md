@@ -411,3 +411,58 @@ print(player.rect.colliderect(test_rect ))
 [<img src="../collision_sprite_1.gif"/>]( )
 
 <br>
+
+
+```python
+test_rect = pygame.FRect(0,0, 300, 600)
+
+
+running = True
+while running:
+    # DELTA time
+    # frame rate / division
+    dt = clock.tick() / 1000
+    # print(dt)
+
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+        if event.type == meteor_event:
+            # print('create meteor 🪨')
+            # x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
+            x, y = randint(0, WINDOW_WIDTH), randint(-200, -100)
+
+            Meteor(meteor_surf, (x,y),all_sprites)
+
+
+    # ---- update ---------
+    # check the update() function within the PLAYER Class
+    # 🟨 UPDATE sprite group
+    all_sprites.update(dt)
+
+
+    # DRAW the game ------
+    display_surface.fill("lavenderblush2")
+    # sprites
+    all_sprites.draw(display_surface)
+    # DRAW the game ------
+
+
+    # 💥 Collision
+    # This one is checking if the rectangle is colliding with any point
+    # player.rect.collidepoint(100 es x, 200 es y)
+    # If you position it in the `top-left` corner of the screen `(but not exactly in the middle or at the top)`, you should see the printed output change to True when it collides with the point (100, 200)
+    # print(player.rect.collidepoint((100, 200)))
+    print(player.rect.colliderect(test_rect))
+
+    pygame.display.update()
+
+pygame.quit()
+```
+---
+
+<br>
+<br>
+
+<br>
