@@ -1435,3 +1435,5 @@ laser_sprites = pygame.sprite.Group()
 
 - - - 🟤 `meteor_sprites` for all meteor sprites and ...
 
+- - -  🟤 `laser_sprites` for all laser sprites.
+
