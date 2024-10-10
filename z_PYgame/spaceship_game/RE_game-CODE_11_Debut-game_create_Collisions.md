@@ -519,3 +519,13 @@ When you roll the ball towards the wall, you want to know if it touches the wall
 ### 🟤 Why Is This Important?
 
 This means that while Pygame helps you see when two objects are touching, <u>you need to add your own rules to make sure the ball (or player) behaves correctly in the game world</u> .
+
+<br>
+<br>
+
+## 🟣 QUESTIONS: Is this similar to raycasting?
+
+### ✅ chatgpt:
+
+💥 Yes, it's somewhat similar to raycasting!
+
