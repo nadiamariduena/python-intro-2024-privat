@@ -563,3 +563,7 @@ class Meteor(pygame.sprite.Sprite):
 
 - - - `self.start_time`: This is the time when the meteor was created. We saved it earlier, so we know when it started.
 
+- -  - `self.lifetime`: This is the time we set for how long we want the meteor to live (in our case, 2000 milliseconds, or 2 seconds).
+
+<br>
+
