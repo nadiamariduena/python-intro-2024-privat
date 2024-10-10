@@ -942,3 +942,27 @@ if collision_sprites:
 - -  This checks **if there is at least one** meteor in the `collision_sprites list`.
 
 - - **If the list is not empty** (i.e., **if the player hit at least one meteor**), the game goes to the next step.
+
+<br>
+
+#### 🟤 `print(collision_sprites[0])`:
+
+- - This tries to print the first meteor in the list.
+
+<br>
+<br>
+
+
+
+## 🟧 Explanation of the Output:
+
+- When you see output like:
+
+```python
+<Meteor Sprite(in 0 groups)>
+<Meteor Sprite(in 0 groups)>
+<Meteor Sprite(in 0 groups)>
+<Meteor Sprite(in 0 groups)>
+```
+#### 🟫 It means that the `collision_sprites` <u>list </u> contains several meteor sprite objects, <u> but they are no longer part of any active sprite groups</u> because of the `True` argument used in `pygame.sprite.spritecollide()`.
+
