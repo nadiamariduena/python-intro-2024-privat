@@ -622,3 +622,9 @@ class Meteor(pygame.sprite.Sprite):
 
 - This will make the game more exciting and fun to play.
 
+
+
+### 🟤 How We Do It:
+
+- - #### To give each meteor its own direction, we’ll use `pygame.Vector2()`.
+
