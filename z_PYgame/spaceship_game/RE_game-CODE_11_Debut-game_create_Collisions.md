@@ -376,3 +376,16 @@ print(player.rect.colliderect())
 
 
 **Next**, we need to **specify which rectangle we’re checking** for collisions with.
+
+
+```python
+# ✋ Add the rectangle we just created as an argument to the colliderect method:
+print(player.rect.colliderect(test_rect ))
+```
+
+<br>
+
+### 🟤 Step 3: Understand What’s Happening
+
+#### By doing this, we are asking the program: `“Is the player’s rectangle touching the test_rect?”`
+
