@@ -279,3 +279,20 @@ while running:
 
 pygame.quit()
 ```
+
+
+<br>
+<br>
+<br>
+
+<a name="collide__rect"></a>
+
+## ⚫ <u>`colliderect`</u>
+
+
+
+## Using `colliderect` method for Rectangle Collisions instead of `collidepoint`
+
+
+## 🫐 🟡  What is colliderect?
+
