@@ -1419,6 +1419,13 @@ Laser(laser_surf, self.rect.midtop, all_sprites)
 
 #### To check if any laser sprite 🔫 collides with any meteor sprite 🪨, we need to use group collision detection.
 
+#### Here's how it's done:
 
+- Position it above the `for i in range(20):`
 
-<br>
+```python
+# laser collision (final phase)
+laser_sprites = pygame.sprite.Group()
+#This `group` (In the above line ) will contain all of the laser sprites in your game.
+
+```
