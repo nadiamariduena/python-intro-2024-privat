@@ -544,3 +544,8 @@ class Meteor(pygame.sprite.Sprite):
 ### 🟧 Update Function:
 
 - Now, we’ll add a conditional statement in the update function to check if the meteor should disappear.
+
+```python
+    if pygame.time.get_ticks() - self.start_time >= self.lifetime:
+        self.kill()
+```
