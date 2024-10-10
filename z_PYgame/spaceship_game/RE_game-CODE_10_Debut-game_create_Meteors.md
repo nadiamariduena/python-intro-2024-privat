@@ -399,3 +399,7 @@ x, y = randint(0, WINDOW_WIDTH), randint(-200, -100)
 
 [<img src="../start_METEOR_from_a__random_pos_at_the_top.gif"/>]()
 
+<br>
+
+### 🔴 Understanding the `Position Values` By setting the `Y position randomly` between `-200 and -100`, we achieve the following:
+
