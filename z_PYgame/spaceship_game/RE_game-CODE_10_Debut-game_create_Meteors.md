@@ -647,3 +647,5 @@ pygame.Vector2(x, y)
 
 ### What is `pygame.Vector2()`?
 
+### 🟧 `pygame.Vector2(x, y)`: This function creates a vector, which is like an <u>arrow that points in a specific direction</u> .
+
