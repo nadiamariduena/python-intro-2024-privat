@@ -679,3 +679,6 @@ pygame.Vector2(x, y)
 
 - - 🌈 To achieve this, we’ll use the uniform function to generate a random floating-point number for the X direction.
 
+<br>
+
+>   #### 🌈 This will allow each meteor to have a unique horizontal movement, enhancing the game’s excitement and unpredictability.
