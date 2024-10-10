@@ -1329,3 +1329,5 @@ if recent_keys[pygame.K_SPACE] and self.can_shoot:
 
 #### By assigning the lasers to the `laser_sprites` group, we can easily keep track of them throughout the game.
 
+> - - Instead of treating each laser separately, the group lets us manage them all at once.
+
