@@ -1499,3 +1499,11 @@ if collision_sprites:
 
 **a)** 🔴 <u>We need to loop through each laser</u> in the `laser_sprites` **group**: `laser_sprites = pygame.sprite.Group()` which **contains all active laser sprites created** during gameplay.
 
+
+```python
+#FOR EACH laser
+for laser in laser_sprites:
+# We loop through each laser in the 'laser_sprites' group
+# and use spritecollide() to check for collisions with the meteors.
+
+```
