@@ -487,3 +487,9 @@ pygame.quit()
 
 
 ### 🧸   `A Ball and a Wall` 🧶
+
+> #### Imagine you’re playing with a bouncy ball in a room:
+
+<br>
+
+**The Ball:** This is like your player character.
