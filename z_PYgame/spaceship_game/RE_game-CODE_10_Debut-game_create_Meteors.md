@@ -701,3 +701,6 @@ pygame.Vector2(x, y)
 
 -  **First**, make sure you have the following **import statement** at the top of your app file:
 
+```python
+from random import randint, uniform
+```
