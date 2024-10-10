@@ -1349,3 +1349,13 @@ if recent_keys[pygame.K_SPACE] and self.can_shoot:
 Laser(laser_surf, self.rect.midtop, (all_sprites, laser_sprites))
 ```
 ### This makes it easy to manage the lasers, update their <u>positions</u>, check for collisions, and draw them to the screen.
+
+
+```python
+#BEFORE
+Laser(laser_surf, self.rect.midtop, all_sprites)
+
+
+# AFTER ✋
+ Laser(laser_surf, self.rect.midtop, (all_sprites, laser_sprites))
+```
