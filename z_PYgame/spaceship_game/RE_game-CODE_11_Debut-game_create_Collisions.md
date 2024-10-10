@@ -1961,3 +1961,21 @@ def collisions():
 
 ### 🟧 To connect these two variables (`the one inside the function and the one in the loop`), we add global running inside the collision function like this:
 
+```python
+def collisions():
+    global running  # 🟡 This makes 'running' refer to the global variable
+    collision_sprites = pygame.sprite.spritecollide(player, meteor_sprites, False)
+
+    if collision_sprites:
+        print(collision_sprites[0])
+        running = False  # 🟡 Now this will stop the game by setting the global 'running' to False
+
+```
+
+<br>
+
+### 🌈 Output
+
+- As shown in the image below, when a meteor touches the player, the screen closes.
+
+
