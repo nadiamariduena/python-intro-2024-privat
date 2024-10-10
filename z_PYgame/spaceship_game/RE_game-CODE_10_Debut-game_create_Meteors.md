@@ -845,3 +845,9 @@ self.rect.center += self.direction * self.speed * dt
 - -  The `self.direction` vector gives the direction of movement.
 
 <br>
+
+-  - Multiplying by `self.speed` adjusts how fast the meteor moves.
+
+<br>
+
+- #### Finally, multiplying by `dt` ✋ ensures the movement is smooth and consistent, regardless of frame rate.
