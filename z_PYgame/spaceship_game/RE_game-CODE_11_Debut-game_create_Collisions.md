@@ -8,6 +8,153 @@
 
 
 
+## INTRO
+
+
+
+<br>
+
+### 🟡 Collisions
+
+- - #### INTRO| There are `two main ways to handle collisions` in Pygame:
+
+- - -  **INTRO|** `Rectangle Collisions & Sprite Collisions`: [Go to section](#two_ways_to_handle_collisions)
+
+
+<br>
+
+- - #### 🟤  Setting Up Rectangle Collisions
+
+- - #### We’ll begin by creating some rectangle collision checks.
+
+- - - `COLLIDEPOINT` : [Go to section](#collide_point)
+
+- - - `COLLIDERECT` : [Go to section](#collide__rect)
+
+<br>
+
+- - #### 🟤  Differences Between `collidepoint` and `colliderect`
+
+- - - **collidepoint checks** if a specific point (x, y) lies within the bounds of a rectangle, while **colliderect checks** if two rectangles intersect or overlap.
+
+- - - ##### READ MORE [Go to section](#Differences_Between_collidepoint_and_colliderect)
+
+<br>
+<br>
+
+### STEPS:
+
+#### 🟠 1. Setting Up Rectangle Collisions [Go to section](#Setting_Up_Rectangle_Collisions)
+
+
+
+####  🟠 2. `colliderect` in the Game Loop [Go to section](#collide-rect_inthegameloop)
+
+
+- - -    **Setting Up Collision Checks** Now that we have our `test_rect` ready, it’s time to check for collisions in the game loop.
+
+- -  **Understanding Collision Limitations**
+
+- - -  💥 (Raycasting) [Go to section](#about_raycasting)
+
+
+
+#### 🟠 3.  Next Step: Remove the test:
+
+
+
+
+
+- -   **Checking Meteor Collisions within the Player:** [Go to section](#Checking_meteor_Collisions_within_the_Player)
+
+- - - - **Understanding the Problem:** Currently, we have all our sprites like `meteors, stars, and the player grouped together` in a single sprite group. **This setup creates a challenge** when we want to check for collisions between the player and the meteors.
+
+
+<br>
+
+#### 🟠 4.  Creating Separate Sprite Groups
+
+- - **Create another sprite:** To solve this issue, we’ll create a separate sprite group for the meteors
+
+
+
+#### 🟠 5. two Groups:
+
+- -  Once you create the second sprite: `meteor_sprites = pygame.sprite.Group()`, modify the game. Instead of managing just one sprite, we now want to organize everything into `two groups`
+
+
+
+#### 🟠 6.  Collisions with `spritecollide()`
+
+- - - The `spritecollide()` function checks if two objects (like your spaceship  and the 🪨 meteor) are touching or overlapping.
+
+
+
+#### 🟠 7. Provide at least 3 arguments
+
+- - Next: Now that `pygame.sprite.spritecollide()` is in the game loop
+
+
+
+#### 🟠 8.  Conditional | `if` Statement to Check for Collisions
+
+- **TESTS** first we will just print it
+
+
+
+#### 🟠 9. Tracking Player's  `Meteor Collisions` and Removing Them
+
+-  - **Collision Detected:** First Meteor in the List Printed
+
+<br>
+
+
+### 🟠 10. Checking the collision between the `lasers and the meteors`
+
+
+
+- - #### 1)  First we need to access to all of the lasers
+
+- - #### 2). Inside the update() function of the player class, we create lasers when the player presses the spacebar
+
+
+- - #### 3). While there, Assign the Laser to the `laser_sprites` Group()
+
+ - - - - - 🔺  Note: The `laser_sprites group doesn't exist yet`, but we'll create it!
+
+
+- - #### 4). Create the `laser_sprites` GROUP
+
+- - - To check if any laser sprite   collides with any meteor sprite  , we need to use group collision detection.
+
+
+- - - **Checking Collisions:** <u>Group vs Individual</u>
+
+- - - - The teacher mentioned We don’t want to check all lasers at once using `groupcollide`(), which compares entire groups.
+
+
+
+
+
+- - #### 5) loop through  each laser🔫
+
+- - - To do this, <u>we need to loop through each laser in the `laser_sprites` group</u>
+
+
+
+- - #### 6) lasers grouped
+
+- -  - Now that we have our lasers grouped in `laser_sprites`, we can check when they collide with meteors.
+
+-  - - -   we can easily check if a laser hits a meteor, and if so, take action (like removing the meteor or the laser).
+
+
+<br>
+
+---
+
+<br>
+
 <br>
 <br>
 <br>
