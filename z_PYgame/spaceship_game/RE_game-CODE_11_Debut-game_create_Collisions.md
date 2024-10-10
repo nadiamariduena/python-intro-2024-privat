@@ -1339,3 +1339,4 @@ if recent_keys[pygame.K_SPACE] and self.can_shoot:
 
 #### When we create a laser, we add it to the group using the Laser() function.
 
+>#### This happens by including the `laser_sprites` group in the function's arguments.
