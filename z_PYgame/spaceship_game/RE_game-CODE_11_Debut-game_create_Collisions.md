@@ -476,3 +476,14 @@ pygame.quit()
 🌈 Pygame is like a helper that checks if things are touching each other, but it has some limitations.
 
 
+
+### 🟤 What Does `Pygame` Collisions Do?
+
+>Pygame’s collision system mainly looks for overlaps between rectangles.
+
+<br>
+
+🟨 **Example:**
+
+
+### 🧸   `A Ball and a Wall` 🧶
