@@ -551,6 +551,13 @@ class Meteor(pygame.sprite.Sprite):
 ```
 
 
-### Explanation:
+###  🟤 Explanation:
 
 - This line **checks** `if` the `current time` **minus** the time when the meteor started (`self.start_time`) is greater than or equal to `self.lifetime`.
+
+
+
+### 🟤 Understanding Each Part:
+
+- - - `pygame.time.get_ticks()`: This part gives us the current time in milliseconds (like counting how many seconds have gone by since the game started).
+
