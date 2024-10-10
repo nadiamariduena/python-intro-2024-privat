@@ -785,3 +785,14 @@ self.speed = randint(400, 500)
 
 [<img src="../random_direction_for_the_meteor-leftright_2.gif"/>]()
 
+<br>
+<br>
+<br>
+
+## 🟡 Go to the Meteor class, within the `Update()` function:
+
+### This is what we currently have to update the position:
+
+```python
+self.rect.centery += 400 * dt
+```
