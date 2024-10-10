@@ -1525,3 +1525,5 @@ for laser in laser_sprites:
 pygame.sprite.spritecollide(laser, meteor_sprites,  True)
 ```
 
+###   🧸 🍯 If a collision is detected, we can take action (e.g., remove the meteor or the laser).
+
