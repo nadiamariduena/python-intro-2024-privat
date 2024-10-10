@@ -596,3 +596,10 @@ This setup creates a challenge when we want to check for collisions between the 
 
 > #### 🔴 If we want to check if a meteor hits the player, we need a way to isolate those two specific sprites from the others in the group.
 
+<br>
+
+**Collision Logic:**
+
+#### 🔴 If all sprites are in one spot, collision detection isn’t as fast.
+
+> - 🔴 We may end up checking collisions between the player and stars or other irrelevant sprites, which is not what we want!
