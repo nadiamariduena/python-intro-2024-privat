@@ -359,6 +359,9 @@ class Meteor(pygame.sprite.Sprite):
 
 - - `self.rect.centery` is the **center** of the object.
 
+- - `400 * dt` makes the **object move 400 pixels** per **second**.
+
+
 
 <br>
 <br>
