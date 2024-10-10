@@ -1507,3 +1507,8 @@ for laser in laser_sprites:
 # and use spritecollide() to check for collisions with the meteors.
 
 ```
+
+### 🌈 This is a better choice, as we want to handle each laser individually, and potentially take different actions depending on the results.
+
+<br>
+<br>
