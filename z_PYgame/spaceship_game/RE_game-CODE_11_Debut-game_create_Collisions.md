@@ -1892,3 +1892,6 @@ while running:
 ### ✅ chatgpt: Exactly! You’ve got it.
 
 #### The while loop is designed to continue running as long as a certain condition remains true.
+
+- However, when the false command is called from within the loop, it changes the condition to false, which interrupts the loop's execution.
+
