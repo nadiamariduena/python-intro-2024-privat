@@ -1643,3 +1643,12 @@ for laser in laser_sprites:
     collided_sprites = pygame.sprite.spritecollide(laser, meteor_sprites, True)
 
 ```
+
+
+<br>
+<br>
+
+## 🧶 9. Killing the Laser After a Collision
+
+### The `laser.kill()` line removes the laser sprite from the game after it collides with a meteor.
+
