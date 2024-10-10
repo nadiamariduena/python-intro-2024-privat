@@ -660,3 +660,10 @@ pygame.Vector2(x, y)
 
 - - - If we use `pygame.Vector2(0, 1)`, the meteor will move down.
 
+- -  - If we use `pygame.Vector2(1, 1)`, it will move diagonally down and to the right!
+
+---
+
+<br>
+<br>
+<br>
