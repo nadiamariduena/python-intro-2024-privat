@@ -733,5 +733,5 @@ self.direction = pygame.Vector2(uniform(-0.5, 0.5), 1)
 
 ### 🟢 `uniform(-0.5, 0.5)`:
 
-- - ####  Generates a random floating-point number between -0.5 and 0.5 for the X direction.
+-   Generates a random floating-point number between -0.5 and 0.5 for the X direction.
 
