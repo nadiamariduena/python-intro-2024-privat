@@ -1601,3 +1601,11 @@ pygame.sprite.spritecollide(laser, meteor_sprites,  True)
 ### Save Laser and Meteor in a `collided_sprites` List for Later Processing
 
 #### By storing the collided data in a `list`, we can easily manage what happens after the collision, like removing both the laser and meteor or triggering special effects.
+
+<br>
+
+### 🟤 This version is more ideal because:
+
+```python
+collided_sprites = pygame.sprite.spritecollide(laser, meteor_sprites,
+```
