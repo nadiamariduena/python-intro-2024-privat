@@ -1807,3 +1807,14 @@ pygame.quit()
 
 Goal: When a meteor hits the player, we want to end the game.
 
+
+<br>
+<br>
+<br>
+
+## 🟡 11. Ending the Game When a Meteor Hits the Player
+
+Goal: When a meteor hits the player, we want to end the game.
+
+- We would usually set `running = False` to stop the game, but doing that right away doesn't work as expected.
+
