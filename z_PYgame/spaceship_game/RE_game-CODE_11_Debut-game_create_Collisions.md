@@ -1838,3 +1838,6 @@ def collitions():
 
 - one in the `while` loop.
 
+> #### 🔴 These two variables are not the same unless we tell Python they should be connected. This is where the global keyword comes in.
+
+<br>
