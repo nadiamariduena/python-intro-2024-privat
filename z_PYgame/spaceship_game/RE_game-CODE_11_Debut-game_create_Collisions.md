@@ -1919,3 +1919,5 @@ while running:
 # in that way these 2 will connect
 global running
 ```
+
+#### 🔴 When you use `global running`, you’re telling Python that you want to refer to the same running variable that's outside the function (the one in the while loop).
