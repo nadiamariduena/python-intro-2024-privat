@@ -223,4 +223,8 @@ player.rect.collidepoint(100, 200)
 
 - -  Move the player sprite around(With the arrow)
 
-> - - #### If you move the player with the arrow and position it in the `top-left` corner of the screen `(but
+> - - #### If you move the player with the arrow and position it in the `top-left` corner of the screen `(but not exactly in the middle or at the top)`, <u>you should see the printed output change to True </u> when it collides with the point (100, 200).
+
+<br>
+
+[<img src="../collision_sprite_0.gif"/>]()
