@@ -796,3 +796,6 @@ self.speed = randint(400, 500)
 ```python
 self.rect.centery += 400 * dt
 ```
+>**Explanation:** This line moves the meteor downward at a speed of 400 pixels per second, scaled by dt (delta time).
+
+<br>
