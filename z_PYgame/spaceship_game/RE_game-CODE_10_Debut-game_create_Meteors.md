@@ -721,3 +721,6 @@ self.direction = pygame.Vector2(uniform(-0.5, 0.5), 1)
 
 ## 🟩 Breakdown of the Code:
 
+### 🟢 `pygame.Vector2(...)`:
+
+- - This creates a new vector that represents the direction the meteor will move.
