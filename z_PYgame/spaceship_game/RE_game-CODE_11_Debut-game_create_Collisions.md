@@ -120,3 +120,10 @@
 
 > #### It’s great for **precise checks**, like seeing if the player clicked on an object.
 
+### 🟢 colliderect:
+
+#### Checks if two rectangles overlap.
+
+> #### It’s better for situations where you want to know if two objects (like the player and an obstacle) are touching or intersecting.
+
+<br>
