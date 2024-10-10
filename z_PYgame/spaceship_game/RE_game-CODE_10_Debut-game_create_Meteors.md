@@ -835,3 +835,9 @@ self.rect.center += self.direction * self.speed * dt
 ```python
 self.rect.center += self.direction * self.speed * dt
 ```
+
+### This line updates the meteor's position based on its direction and speed.
+
+- #### `self.direction * self.speed * dt:`
+
+  This calculates the change in position for that frame.
