@@ -910,3 +910,13 @@ if pygame.sprite.spritecollide(player, meteor_sprites, True):
     if collision_sprites:
         print(collision_sprites[0])
 ```
+
+<br>
+
+## 🟧 What's Happening:
+
+```python
+collision_sprites =  pygame.sprite.spritecollide(player, meteor_sprites, True)
+```
+
+🟤 `collision_sprites = pygame.sprite.spritecollide(player, meteor_sprites, True):`
