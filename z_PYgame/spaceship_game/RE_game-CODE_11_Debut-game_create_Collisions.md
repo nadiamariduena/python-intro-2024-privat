@@ -1871,3 +1871,6 @@ while running:
 <br>
 
 ---
+
+🟤 The `while` **running**: loop will keep going as long as running is True.
+
