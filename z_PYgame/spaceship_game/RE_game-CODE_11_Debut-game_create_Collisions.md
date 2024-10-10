@@ -1874,3 +1874,8 @@ while running:
 
 🟤 The `while` **running**: loop will keep going as long as running is True.
 
+🟤But the `running = False` **inside the function** doesn’t actually change the running in the loop.
+
+### They’re two different variables.
+
+---
