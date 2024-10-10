@@ -777,3 +777,19 @@ pygame.sprite.spritecollide(🔺 player, 🔺meteor_sprites, 🔺False)
 
 - - 🟤  **The group of sprites to check against** (like enemies or obstacles).
 
+### To FALSE
+
+#### 🔴 For now, let’s leave it as False so we can see the collision but not destroy the meteor right away.
+
+---
+
+<br>
+
+ ## 🟠 Test it
+
+### Pay attention to the console!
+
+- You'll see a message every time your player crashes into a meteor.
+
+
+[<img src="../spritecollision__01__3args.gif"/>]( )
