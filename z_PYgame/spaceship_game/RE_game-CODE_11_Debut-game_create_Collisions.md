@@ -775,3 +775,5 @@ pygame.sprite.spritecollide(🔺 player, 🔺meteor_sprites, 🔺False)
 
 - -  🟤 **The sprite you're checking for collisions** (like your player character).
 
+- - 🟤  **The group of sprites to check against** (like enemies or obstacles).
+
