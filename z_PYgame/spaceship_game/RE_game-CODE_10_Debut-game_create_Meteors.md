@@ -390,3 +390,12 @@ x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
 
 ```python
 x, y = randint(0, WINDOW_WIDTH), randint(-200, -100)
+```
+
+<br>
+
+### 🟩 Output
+
+
+[<img src="../start_METEOR_from_a__random_pos_at_the_top.gif"/>]()
+
