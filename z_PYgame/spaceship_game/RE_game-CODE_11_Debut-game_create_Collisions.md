@@ -800,3 +800,9 @@ pygame.sprite.spritecollide(🔺 player, 🔺meteor_sprites, 🔺False)
 ## 🟠 Remove from GROUP
 
  The third argument, when set to True, instructs Pygame to **remove the meteor sprites from the `meteor_sprites` group upon collision**.
+
+>This is why, as shown in the image below, the meteor disappears when it collides with the player.
+
+```python
+pygame.sprite.spritecollide(player, meteor_sprites, True)
+```
