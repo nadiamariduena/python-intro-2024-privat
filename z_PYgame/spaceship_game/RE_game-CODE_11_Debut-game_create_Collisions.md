@@ -529,3 +529,11 @@ This means that while Pygame helps you see when two objects are touching, <u>you
 
 💥 Yes, it's somewhat similar to raycasting!
 
+ <br>
+
+ <br><a name="about_raycasting"></a>
+
+ ## 🫐 🟠 Raycasting
+
+
+- ### What is Raycasting?
