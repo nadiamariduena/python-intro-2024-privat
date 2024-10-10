@@ -1921,3 +1921,5 @@ global running
 ```
 
 #### 🔴 When you use `global running`, you’re telling Python that you want to refer to the same running variable that's outside the function (the one in the while loop).
+
+- **Without global**, Python treats the running inside the function as a new, local variable.
