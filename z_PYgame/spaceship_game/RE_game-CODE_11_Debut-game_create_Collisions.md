@@ -759,3 +759,9 @@ pygame.sprite.spritecollide()
 
 ## 🟡 7.  Provide at least 3 arguments to the function:
 
+
+ **Next:** Now that `pygame.sprite.spritecollide()` is in the game loop, Provide at least 3 arguments to the function
+
+```python
+pygame.sprite.spritecollide(🔺 player, 🔺meteor_sprites, 🔺False)
+```
