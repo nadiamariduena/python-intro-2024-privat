@@ -1277,3 +1277,14 @@ pygame.quit()
 <br>
 <br>
 <br>
+
+
+<br>
+<br>
+<br>
+
+## 🟦 Moving Forward:
+
+## 🟡 10. Checking the collision between the `lasers and the meteors`
+
+<br>
