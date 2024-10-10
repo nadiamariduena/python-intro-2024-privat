@@ -1573,3 +1573,8 @@ pygame.sprite.spritecollide(laser, meteor_sprites,  True)
 ```python
 pygame.sprite.spritecollide(laser, meteor_sprites,  True)
 ```
+
+
+🟤 **In this approach**, The meteors are removed from the `meteor_sprites` group after a collision, but the laser remains in the `laser_sprites` group (not affected.).
+
+
