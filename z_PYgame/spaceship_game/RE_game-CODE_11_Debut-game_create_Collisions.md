@@ -1923,3 +1923,17 @@ global running
 #### 🔴 When you use `global running`, you’re telling Python that you want to refer to the same running variable that's outside the function (the one in the while loop).
 
 - **Without global**, Python treats the running inside the function as a new, local variable.
+
+<br>
+<br>
+
+🟦 **2. NEXT:**
+
+- - Now replace the print (you can still keep it for debugging)
+
+```python
+    if collision_sprites:
+        print(collision_sprites[0])
+        running = False  # 🟡 Now this will stop the game by setting the global 'running' to False
+
+```
