@@ -362,6 +362,9 @@ class Meteor(pygame.sprite.Sprite):
 - - `400 * dt` makes the **object move 400 pixels** per **second**.
 
 
+- - `dt` **adjusts the movement** based on how fast the game is running.
+
+> #### This ensures smooth, consistent movement regardless of frame rate.
 
 <br>
 <br>
