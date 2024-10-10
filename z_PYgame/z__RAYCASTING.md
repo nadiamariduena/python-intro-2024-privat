@@ -111,3 +111,22 @@
 > - - - #### If they touch something, it means there’s an obstacle in the way!
 
 <br>
+
+### 🟤 Making Decisions:
+
+> - - #### 🌈 Once we know what the rays hit, we can make choices. For example, if a ray hits a wall, we can stop the player from moving through it, just like in our previous collision example!
+
+<br>
+<br>
+
+
+## 🟡 Why Use Raycasting?
+
+### 🟢 Raycasting is really useful for:
+
+**Detecting Walls:** It helps the game know when the player is too close to a wall.
+
+**Finding Enemies:** You can check if an enemy is in sight or not.7
+
+**Creating Realism:** It makes the game feel more real by helping players see what’s around them.
+
