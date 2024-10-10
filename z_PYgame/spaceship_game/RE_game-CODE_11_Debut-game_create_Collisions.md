@@ -1980,3 +1980,13 @@ def collisions():
 
 
 [<img src="../meteor-laser_collision_global-running.gif"/>]( )
+
+
+
+### In Summary:
+
+- **Without global**, the `running = False` **inside the collision()** function only changes the local variable in that function.
+
+- **By adding `global running`**, <u>Python understands that you're referring to the running variable outside the function</u>  , which is connected to the game loop.
+
+#### This is how you link the running variable in the function with the one in the game loop.
