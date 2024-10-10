@@ -647,5 +647,11 @@ meteor_sprites = pygame.sprite.Group()
 - Instead of managing just one sprite, we now want to organize everything into two groups:
 
 
+```python
+# BEFORE
+Meteor(meteor_surf, (x,y),all_sprites)
 
+# AFTER
+Meteor(meteor_surf, (x,y),(all_sprites, meteor_sprites) )
+```
 
