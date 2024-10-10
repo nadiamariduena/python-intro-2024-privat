@@ -86,3 +86,28 @@
 <br>
 
 <a name="RAYCASTING_"></a>
+
+## 🟡 What is <u>Raycasting</u> ?
+
+> #### Imagine you’re playing a game where you need to see if there’s something in front of you, like a wall or an enemy.
+
+#### Raycasting is a way to check what’s in the way, just like shining a flashlight!
+
+
+<br>
+
+## 🟠 How Does It Work?
+
+### 🟤 Casting Rays:
+
+- - Think of it like sending out straight lines (or rays) from your player. These rays travel forward in the direction you’re looking.
+
+<br>
+
+### 🟤 Checking for Obstacles:
+
+- - As these rays travel, they check if they hit anything like a wall or a tree.
+
+> - - - #### If they touch something, it means there’s an obstacle in the way!
+
+<br>
