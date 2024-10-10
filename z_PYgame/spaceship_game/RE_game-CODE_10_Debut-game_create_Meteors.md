@@ -767,3 +767,6 @@ self.speed = randint(400, 500)
 ### 🟤 What This Does:
 
 #### This assigns a random speed to the meteor between 400 and 500 pixels per second.
+
+
+- If the speed is set to 400, the meteor will move 400 pixels down the screen in one second.
