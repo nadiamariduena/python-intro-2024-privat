@@ -1532,3 +1532,17 @@ pygame.sprite.spritecollide(laser, meteor_sprites,  True)
 ### like so
 
 **b)** 🔴  <u>For each laser</u>, use `spritecollide()` to check for collisions with meteors.
+
+```python
+   # a For each laser in the laser_sprites group, the code checks for collisions between that laser and all meteors in the meteor_sprites group.
+    for laser in laser_sprites:
+        # b If a collision is detected, the meteor is removed from the group (True tells the function to remove the colliding sprite).
+        pygame.sprite.spritecollide(laser, meteor_sprites,  True)
+        # c This allows individual lasers to interact with meteors, removing both if they collide.
+
+```
+
+
+
+<br>
+<br>
