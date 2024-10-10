@@ -537,3 +537,10 @@ class Meteor(pygame.sprite.Sprite):
         # duration
         self.lifetime = 2000
 ```
+
+
+### Conditional
+
+### 🟧 Update Function:
+
+- Now, we’ll add a conditional statement in the update function to check if the meteor should disappear.
