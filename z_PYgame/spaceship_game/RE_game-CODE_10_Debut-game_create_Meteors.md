@@ -809,3 +809,9 @@ self.rect.centery += 400 * dt
 - To do this, we will <u>multiply</u> `self.direction` by `self.speed` and then by `dt`.
 
 #### This will help us calculate how far the meteor should move in that frame.
+
+<br>
+<br>
+<br>
+
+## 🟧 16. New Direction and Position Update:
