@@ -1846,12 +1846,3 @@ def collitions():
 
 ### In your `collision` function, you have this:
 
-```python
-def collitions():
-    collision_sprites =  pygame.sprite.spritecollide(player,
-    if collision_sprites:
-        print(collision_sprites[0])
-
-        # 🟡
-        running = False # 🔴 This 'running' is local to this function
-```
