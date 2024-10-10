@@ -1468,6 +1468,13 @@ if collision_sprites:
 ```
 <br>
 
-> 🟤 **Explanation:** This works perfectly when you want to check if the player `(a single sprite)` collides with any meteor sprites.
+ > 🟤 **Explanation:** This works perfectly when you want to check if the player `(a single sprite)` collides with any meteor sprites.
 
 #### If the collision happens, it will print the first meteor sprite that collided.
+
+
+<br>
+<br>
+
+## 🔴 Instead of using the above,
+
