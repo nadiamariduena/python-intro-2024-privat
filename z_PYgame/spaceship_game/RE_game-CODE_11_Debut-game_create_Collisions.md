@@ -1769,3 +1769,22 @@ all_sprites = pygame.sprite.Group()
 > ####  Now that the collision logic is in its own function, you can call it inside the game loop.
 
 -   This keeps your main loop clean and easier to read.
+
+
+```python
+    all_sprites.update(dt)
+    # 💥 💥
+    collitions()
+
+    # DRAW the game ------
+    display_surface.fill("lavenderblush2")
+    # sprites
+    all_sprites.draw(display_surface)
+    # DRAW the game ------
+    pygame.display.update()
+
+pygame.quit()
+```
+[<img src="../laser_collision__0.gif"/>]( )
+
+---
