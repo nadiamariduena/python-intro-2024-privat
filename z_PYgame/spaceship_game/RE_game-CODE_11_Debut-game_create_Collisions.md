@@ -701,3 +701,53 @@ The teacher mentioned that when you create a sprite, you're getting a return val
 
 > - #### keeping a reference makes things smoother. Otherwise, it’s fine to create it directly.
 
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+## 🟦 Moving Forward:
+
+
+
+
+## 🟡 6.  Collisions with `spritecollide()`
+
+### Add the `spritecollide()` within your game loop:
+
+```python
+pygame.sprite.spritecollide()
+```
+####  How it should look like:
+
+```bash
+  #  UPDATE sprite group
+    all_sprites.update(dt)
+    # --------- collision ✋
+    pygame.sprite.spritecollide()
+    #---------- collision
+```
+
+
+### 🟧 The `spritecollide()` function checks if two objects (like your spaceship  and the 🪨 meteor) are touching or overlapping.
+
+
+
+> #### Think of sprites as individual objects in your game, like your player or meteors.
+
+<br>
+
+- - -  When **two** sprites (such as your player and a meteor) come into contact, we say they collide.
+
+<br>
+
+- - -  Instead of manually checking each sprite's position, `spritecollide()` automatically compares the `hitboxes` of sprites in a `group`, making collision detection much faster and easier.
+
+<br>
+
+- -  - #### 💡 When a collision happens, you can decide what should happen next (like destroying the meteor "enemies", collecting items or causing some damage to the spaceship.)
