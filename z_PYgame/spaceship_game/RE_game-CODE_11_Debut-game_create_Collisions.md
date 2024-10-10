@@ -84,3 +84,23 @@
 ### `spritecollide()`
 
 >##### Check the  [documentation](https://www.pygame.org/docs/ref/sprite.html)
+
+
+---
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+## ⬛ Before Moving on
+
+### 💡 Before Implementing Group Collision Logic:
+
+>Before diving into the full group collision logic, we’ll run some tests.
+
