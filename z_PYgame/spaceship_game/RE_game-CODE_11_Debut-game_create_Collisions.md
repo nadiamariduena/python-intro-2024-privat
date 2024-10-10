@@ -1674,9 +1674,29 @@ if collided_sprites:
 
  #### the code
 
+
  ```python
 
   collision_sprites =  pygame.sprite.spritecollide(player, meteor_sprites, True)
 
     if collision_sprites:
         print(collision_sprites[0])
+
+
+    # a For each laser in the laser_sprites group, the code checks for collisions between that laser and all meteors in the meteor_sprites group.
+    for laser in laser_sprites:
+        # b If a collision is detected, the meteor is removed from the group (True tells the function to remove the colliding sprite).
+        collided_sprites = pygame.sprite.spritecollide(laser, meteor_sprites,  True)
+        # c This allows individual lasers to interact with meteors, removing both if they collide.
+        if collided_sprites:
+            laser.kill()
+            #laser.kill() removes the laser sprite from the game, effectively destroying it.
+```
+
+
+---
+
+<br>
+<br>
+<br>
+<br>
