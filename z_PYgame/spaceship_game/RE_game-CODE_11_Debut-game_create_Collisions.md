@@ -1658,3 +1658,6 @@ if collided_sprites:
     #laser.kill() removes the laser sprite from the game, effectively destroying it.
 ```
 
+> #### This ensures that the laser is no longer drawn or updated, simulating that the laser is destroyed on impact.
+
+
