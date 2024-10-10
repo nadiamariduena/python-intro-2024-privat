@@ -1616,3 +1616,7 @@ collided_sprites = pygame.sprite.spritecollide(laser, meteor_sprites,
 -  **You can use this list to do more** than just remove the meteors:
 
 
+- - `For example`, we can also **remove the laser** 🔫, because it hit the meteor 🪨.
+
+
+
