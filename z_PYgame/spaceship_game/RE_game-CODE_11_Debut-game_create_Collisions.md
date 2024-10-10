@@ -1520,3 +1520,8 @@ for laser in laser_sprites:
 ###  This is where collision detection comes in!
 
 > - #### 🟩 We can use pygame.sprite.spritecollide() to check if a laser hits a meteor.
+
+```python
+pygame.sprite.spritecollide(laser, meteor_sprites,  True)
+```
+
