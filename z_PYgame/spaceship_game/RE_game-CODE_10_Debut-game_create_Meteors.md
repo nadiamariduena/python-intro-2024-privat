@@ -473,4 +473,17 @@ x, y = randint(0, WINDOW_WIDTH), randint(-200, -100)
 
 > - - #### To do this, we’ll add the following line:
 
-- Destroy every  meteor sprite after 2 seconds (we want the rocks to vanish before they reach the edge of the bottom of the screen), we will be doing it by adding the below line:
+- **Destroy every  meteor** sprite **after 2 seconds** (we want the rocks to vanish before they reach the edge of the bottom of the screen), we will be doing it by adding the below line:
+
+
+
+#### 🟤 Timer
+
+- First, we need to set up the timer:
+
+```python
+# This line tells us when the TIMER should start
+self.start_time = pygame.time.get_ticks()
+```
+
+<br>
