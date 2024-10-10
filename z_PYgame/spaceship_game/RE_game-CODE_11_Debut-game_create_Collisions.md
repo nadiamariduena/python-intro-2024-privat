@@ -1484,3 +1484,10 @@ if collision_sprites:
 
 #### 🟤 b) Checking Each Laser Against Meteor Group
 
+>### Since you want to check each laser against the meteor group individually, you need to `loop` over <u>every laser sprite in the `laser_sprites` group</u> .
+
+---
+
+<br>
+<br>
+<br>
