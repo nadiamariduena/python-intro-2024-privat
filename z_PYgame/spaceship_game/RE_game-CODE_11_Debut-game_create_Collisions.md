@@ -1429,3 +1429,9 @@ laser_sprites = pygame.sprite.Group()
 #This `group` (In the above line ) will contain all of the laser sprites in your game.
 
 ```
+### Explanation:
+
+#### 🟨 We create two groups:
+
+- - - 🟤 `meteor_sprites` for all meteor sprites and ...
+
