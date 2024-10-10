@@ -1373,3 +1373,41 @@ Laser(laser_surf, self.rect.midtop, all_sprites)
 
 
 <br>
+
+
+```python
+    def update(self, dt):
+        #  --- KEYS / ARROWS:
+        keys = pygame.key.get_pressed()
+        self.direction.x = int(keys[pygame.K_RIGHT]) - int(keys[pygame.K_LEFT])
+        self.direction.y = int(keys[pygame.K_DOWN]) - int(keys[pygame.K_UP])
+
+        self.direction = self.direction.normalize() if self.direction else self.direction
+        self.rect.center += self.direction * self.speed * dt
+
+        #  --- KEYS /  space bar
+        recent_keys = pygame.key.get_pressed()
+        if recent_keys[pygame.K_SPACE] and self.can_shoot:
+            print('fire laser')
+
+            # 🔴 Laser SURF
+            #Laser(laser_surf, self.rect.midtop, all_sprites)
+            Laser(laser_surf, self.rect.midtop, (all_sprites, laser_sprites))
+            # final phase: By adding `laser_sprites` as an argument in `Laser()`, each laser will be added to this group: (all_sprites, laser_sprites) when created.
+
+            # The player is unable to fire lasers continuously
+            self.can_shoot = False
+            self.laser_shoot_time = pygame.time.get_ticks()
+
+        # Call the Laser_timer function from line 74
+        self.laser_timer()
+
+# STAR ---------
+```
+
+<br>
+<br>
+<br>
+<br>
+
+----
