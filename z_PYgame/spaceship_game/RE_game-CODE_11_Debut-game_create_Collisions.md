@@ -1618,5 +1618,8 @@ collided_sprites = pygame.sprite.spritecollide(laser, meteor_sprites,
 
 - - `For example`, we can also **remove the laser** 🔫, because it hit the meteor 🪨.
 
+- - We can also trigger other actions, like **playing a sound** 🔊 effect (a laser blast or meteor **explosion** 💥), **updating the score**, or showing a **special effect** (like a flash on the screen).
+
+
 
 
