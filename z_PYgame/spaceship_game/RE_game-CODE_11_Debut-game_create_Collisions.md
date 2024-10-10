@@ -1320,3 +1320,4 @@ if recent_keys[pygame.K_SPACE] and self.can_shoot:
 
 > #### Before we can start shooting lasers, we need to make sure they're all properly organized in a special group called `laser_sprites`.
 
+>This will allow us to control the lasers more easily, like **checking if they hit something**, moving them around, or simply drawing them on the screen.
