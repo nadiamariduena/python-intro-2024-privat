@@ -580,3 +580,17 @@ class Meteor(pygame.sprite.Sprite):
 #### This code helps control how long things stay in the game.
 
 - - - It’s like having rules in a game: if you follow them, everything works smoothly!
+
+<br>
+<br>
+
+### 🟦 Putting It All Together
+
+
+```python
+    def update(self, dt):
+        self.rect.centery += 400 * dt
+        if pygame.time.get_ticks() - self.start_time >= self.lifetime:
+            self.kill()
+
+```
