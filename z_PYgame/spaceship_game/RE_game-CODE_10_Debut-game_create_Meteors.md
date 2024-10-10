@@ -362,3 +362,9 @@ class Meteor(pygame.sprite.Sprite):
 ## 🟦 Moving Forward:
 
 ### 🟧 10. Right now, when we create a meteor, it appears at a random position within the entire window. For example:
+
+```python
+x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
+```
+
+> #### 👎 This means the user can see the meteor immediately as it appears in a visible area of the screen.
