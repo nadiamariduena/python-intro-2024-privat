@@ -1491,3 +1491,9 @@ if collision_sprites:
 <br>
 <br>
 <br>
+
+
+## 🟦 Moving Forward:
+
+## 🧶 5. loop through  each laser🔫
+
