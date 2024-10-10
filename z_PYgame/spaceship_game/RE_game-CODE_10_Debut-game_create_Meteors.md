@@ -594,3 +594,8 @@ class Meteor(pygame.sprite.Sprite):
             self.kill()
 
 ```
+<br>
+
+### Output
+
+[<img src="../start_METEOR_from_a__random_pos_at_the_top_2.gif"/>]()
