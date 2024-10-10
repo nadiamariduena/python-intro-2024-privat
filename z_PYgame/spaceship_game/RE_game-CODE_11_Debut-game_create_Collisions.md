@@ -1318,3 +1318,5 @@ if recent_keys[pygame.K_SPACE] and self.can_shoot:
 
 ### 🫐  What is the `laser_sprites` Group?
 
+> #### Before we can start shooting lasers, we need to make sure they're all properly organized in a special group called `laser_sprites`.
+
