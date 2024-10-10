@@ -49,3 +49,5 @@
 
 
 <br>
+
+- - - **With a Single Point:** Determine if a specific point is inside the rectangle.
