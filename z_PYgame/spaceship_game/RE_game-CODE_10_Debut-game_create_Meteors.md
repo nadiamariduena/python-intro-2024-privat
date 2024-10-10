@@ -726,3 +726,12 @@ self.direction = pygame.Vector2(uniform(-0.5, 0.5), 1)
 - - This creates a new vector that represents the direction the meteor will move.
 
 > - - A vector is like an arrow that has both direction and length.
+
+
+<br>
+<br>
+
+### 🟢 `uniform(-0.5, 0.5)`:
+
+- - ####  Generates a random floating-point number between -0.5 and 0.5 for the X direction.
+
