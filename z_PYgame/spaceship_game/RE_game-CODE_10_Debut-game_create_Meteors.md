@@ -652,3 +652,9 @@ pygame.Vector2(x, y)
 - `x` is how far to the side (left or right).
 
 - `y` is how far up or down.
+
+
+### 🌈 🟡 For example:
+
+- - - If we use `pygame.Vector2(1, 0)`, the meteor will move to the right.
+
