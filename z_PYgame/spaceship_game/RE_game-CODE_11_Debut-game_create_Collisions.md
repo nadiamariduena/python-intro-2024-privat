@@ -1411,3 +1411,14 @@ Laser(laser_surf, self.rect.midtop, all_sprites)
 <br>
 
 ----
+
+
+## 🟦 Moving Forward:
+
+## 🧶 4. Create the `laser_sprites` GROUP
+
+#### To check if any laser sprite 🔫 collides with any meteor sprite 🪨, we need to use group collision detection.
+
+
+
+<br>
