@@ -515,3 +515,7 @@ When you roll the ball towards the wall, you want to know if it touches the wall
 >  To make it realistic, you need to add a rule: **“If the ball touches the wall, it should stop moving forward!**”
 
 <br>
+
+### 🟤 Why Is This Important?
+
+This means that while Pygame helps you see when two objects are touching, <u>you need to add your own rules to make sure the ball (or player) behaves correctly in the game world</u> .
