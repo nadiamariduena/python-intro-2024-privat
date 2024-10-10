@@ -1741,3 +1741,23 @@ def collitions():
 <br>
 
 ## 🟤 2. Add the Collision logic within the Function
+
+
+
+```python
+
+def collitions():
+    collision_sprites =  pygame.sprite.spritecollide(player, meteor_sprites, True)
+        if collision_sprites:
+            print(collision_sprites[0])
+
+        for laser in laser_sprites:
+            collided_sprites = pygame.sprite.spritecollide(laser, meteor_sprites,  True)
+            if collided_sprites:
+                laser.kill()
+
+# SPRITES  ------
+all_sprites = pygame.sprite.Group()
+```
+
+<br>
