@@ -751,3 +751,11 @@ pygame.sprite.spritecollide()
 <br>
 
 - -  - #### 💡 When a collision happens, you can decide what should happen next (like destroying the meteor "enemies", collecting items or causing some damage to the spaceship.)
+
+<br>
+<br>
+
+#### [2:48:39](https://youtu.be/8OMghdHP-zs?si=yXNLSoF6OmRhHmIw&t=10119)
+
+## 🟡 7.  Provide at least 3 arguments to the function:
+
