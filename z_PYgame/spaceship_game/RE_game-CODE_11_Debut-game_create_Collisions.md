@@ -768,3 +768,10 @@ pygame.sprite.spritecollide(🔺 player, 🔺meteor_sprites, 🔺False)
 >**REMEMBER:** We’re checking if the player sprite collides with meteor sprites.
 
 - <u>The three arguments are: the player, the meteor group, and True/False to remove the colliding sprites.</u>
+
+### 🟤 Explanation of the Arguments
+
+<br>
+
+- -  🟤 **The sprite you're checking for collisions** (like your player character).
+
