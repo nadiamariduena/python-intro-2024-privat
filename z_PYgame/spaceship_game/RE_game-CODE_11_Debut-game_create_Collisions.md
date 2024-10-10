@@ -1858,3 +1858,16 @@ def collitions():
 
 
 The `running = False` **inside** the `collision()` **function** <u>only affects the function itself</u> , not the running variable in the while loop that controls the game.
+
+
+### The `while` loop:
+
+```python
+running = True
+while running:
+    # game code here
+```
+
+<br>
+
+---
