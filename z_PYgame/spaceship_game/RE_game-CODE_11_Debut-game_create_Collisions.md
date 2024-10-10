@@ -297,3 +297,6 @@ pygame.quit()
 ## 🫐 🟡  What is colliderect?
 
 > ####  The `colliderect` method is useful when you want to see if two rectangles overlap, rather than just checking if a point is inside a rectangle.
+
+>    Checking if two rectangles are touching, we say 'we’re looking at if they overlap'
+
