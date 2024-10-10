@@ -450,3 +450,20 @@ x, y = randint(0, WINDOW_WIDTH), randint(-200, -100)
 
 ### 🟤 `-100`: This number is the highest point where the meteor can start.
 
+---
+
+<br>
+<br>
+<br>
+<br>
+
+## 🟧 12. CUSTOMIZE the 🪨 meteor class
+
+[2:32:42](https://youtu.be/8OMghdHP-zs?si=1-IlXIXDaRiQOLef&t=9162)
+
+
+
+### In this customization, we want to do two things:
+
+#### 🟢 1.  Destroy Every Meteor Sprite
+
