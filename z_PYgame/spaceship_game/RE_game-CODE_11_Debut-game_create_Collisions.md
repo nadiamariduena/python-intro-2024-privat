@@ -51,3 +51,8 @@
 <br>
 
 - - - **With a Single Point:** Determine if a specific point is inside the rectangle.
+
+- - - **With Another Rectangle:** Check if two rectangles overlap.
+
+- - - **With a List of Rectangles:** See if a rectangle intersects with any rectangle in a list.
+
