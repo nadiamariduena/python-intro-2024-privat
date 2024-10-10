@@ -885,3 +885,28 @@ if pygame.sprite.spritecollide(player, meteor_sprites, True):
 ```
 >### Only prints the message "HITTING 💥" when a collision actually happens.
 
+
+- - **It does not print** the list of collided meteors **but instead triggers an action** (like a visual effect, sound, or other game mechanics) when a collision occurs.
+
+---
+
+
+<br>
+<br>
+
+<br>
+<br>
+<br>
+
+## 🟦 Moving Forward:
+
+
+## 🟡 9. Tracking Player's 🪨 `Meteor Collisions` and Removing Them
+
+- **Collision Detected:** First Meteor in the List Printed
+
+```python
+    collision_sprites =  pygame.sprite.spritecollide(player, meteor_sprites, True)
+    if collision_sprites:
+        print(collision_sprites[0])
+```
