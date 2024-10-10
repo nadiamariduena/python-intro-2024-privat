@@ -1730,3 +1730,4 @@ collision_sprites =  pygame.sprite.spritecollide(player, meteor_sprites, True)
 
 ### Place this function right after the meteor class definition.
 
+- The function will handle all collision-related logic.
