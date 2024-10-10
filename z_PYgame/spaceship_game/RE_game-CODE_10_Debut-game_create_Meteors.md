@@ -649,3 +649,6 @@ pygame.Vector2(x, y)
 
 ### 🟧 `pygame.Vector2(x, y)`: This function creates a vector, which is like an <u>arrow that points in a specific direction</u> .
 
+- `x` is how far to the side (left or right).
+
+- `y` is how far up or down.
