@@ -966,3 +966,10 @@ if collision_sprites:
 ```
 #### 🟫 It means that the `collision_sprites` <u>list </u> contains several meteor sprite objects, <u> but they are no longer part of any active sprite groups</u> because of the `True` argument used in `pygame.sprite.spritecollide()`.
 
+### `True`:
+
+> - - - #### instructs Pygame to remove the meteor sprites from the `meteor_sprites` **group upon collision**.
+
+
+
+- - - #### After removal, the meteor sprites are still part of the list (collision_sprites), but they are no longer in any sprite groups.
