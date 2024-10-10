@@ -172,3 +172,9 @@ player = Player(all_sprites)
 
 >- - - This means the **player** will be **part of the game**, can **be seen on the screen**, and will **move or change** every time the **game updates**.
 
+<br>
+
+>- - - The `all_sprites` group helps manage everything in the game (so all sprites can be drawn to the screen and updated together, like moving, changing images, or detecting collisions).
+
+<br>
+<br>
