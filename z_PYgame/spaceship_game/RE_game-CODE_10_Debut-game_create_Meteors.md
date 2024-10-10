@@ -698,3 +698,6 @@ pygame.Vector2(x, y)
 ### 🟤 Step 1: Importing the Function
 
 
+
+-  **First**, make sure you have the following **import statement** at the top of your app file:
+
