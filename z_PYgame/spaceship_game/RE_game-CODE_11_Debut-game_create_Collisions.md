@@ -1306,3 +1306,12 @@ if recent_keys[pygame.K_SPACE] and self.can_shoot:
 
 ```
 >  **RECAP** `Laser()` is called with the laser surface (laser_surf), the position where the laser is fired (`self.rect.midtop`), and `all_sprites` (**a group containing all sprites** for easy management and drawing).
+
+
+<br>
+<br>
+
+# Group()
+
+### 🧶 3. Assigning the Laser to the `laser_sprites` Group
+
