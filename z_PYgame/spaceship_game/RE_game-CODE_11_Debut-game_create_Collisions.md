@@ -855,3 +855,13 @@ pygame.time.set_timer(meteor_event, 100)  # Spawns a meteor every 100 millisecon
 
 #### Instead of simply printing the list of collided sprites, you would typically use an `if statement` to check if collisions occurred and then take action, like displaying a message or triggering an event.
 
+```python
+    if pygame.sprite.spritecollide(player, meteor_sprites, True):
+        print("HTTING 💥")
+```
+<br>
+
+## 🟠 Difference Compared to the Previous Line:
+
+### 🟤 Previous Line:
+
