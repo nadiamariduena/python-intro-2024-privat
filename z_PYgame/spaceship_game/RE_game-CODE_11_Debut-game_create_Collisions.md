@@ -873,3 +873,15 @@ pygame.time.set_timer(meteor_event, 100)  # Spawns a meteor every 100 millisecon
 
 -  - It prints all collisions that occur at that moment.
 
+<br>
+
+### 🟤 New Line with if Statement:
+
+
+
+```python
+if pygame.sprite.spritecollide(player, meteor_sprites, True):
+
+```
+>### Only prints the message "HITTING 💥" when a collision actually happens.
+
