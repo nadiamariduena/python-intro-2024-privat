@@ -815,3 +815,16 @@ self.rect.centery += 400 * dt
 <br>
 
 ## 🟧 16. New Direction and Position Update:
+
+### We want to enhance this by updating the meteor’s position using both its X and Y directions.
+
+- Modify the below
+
+
+```python
+# BEFORE
+self.rect.centery += 400 * dt
+
+# AFTER
+self.rect.center += self.direction * self.speed * dt
+```
