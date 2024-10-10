@@ -335,3 +335,5 @@ test_rect = pygame.FRect(0, 0, 300, 600)
 
 > You can think of the rectangle like a box on the screen.
 
+- - The top-left corner starts at (0, 0), and it stretches down to the right to cover an area of 300 pixels wide and 600 pixels tall.
+
