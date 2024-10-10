@@ -1478,3 +1478,9 @@ if collision_sprites:
 
 ## 🔴 Instead of using the above,
 
+- #### we want to check each individual `laser` against a group of meteor sprites.
+
+<br>
+
+#### 🟤 b) Checking Each Laser Against Meteor Group
+
