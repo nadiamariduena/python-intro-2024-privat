@@ -190,3 +190,5 @@ player = Player(all_sprites)
 ```python
 player.rect.collidepoint()
 ```
+> ####  This line checks if the player's rectangle is colliding with a specific point. To do this, we need to provide two values: the x and y coordinates.
+
