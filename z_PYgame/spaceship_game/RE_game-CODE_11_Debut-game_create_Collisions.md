@@ -793,3 +793,10 @@ pygame.sprite.spritecollide(🔺 player, 🔺meteor_sprites, 🔺False)
 
 
 [<img src="../spritecollision__01__3args.gif"/>]( )
+
+
+
+
+## 🟠 Remove from GROUP
+
+ The third argument, when set to True, instructs Pygame to **remove the meteor sprites from the `meteor_sprites` group upon collision**.
