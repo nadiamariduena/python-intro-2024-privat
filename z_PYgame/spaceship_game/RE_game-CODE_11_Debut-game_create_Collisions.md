@@ -65,3 +65,22 @@
 #### Common Collision Methods
 
 > 🟤 Although there are quiet a few variations, check the  [documentation](https://www.pygame.org/docs/ref/rect.html)
+
+<br>
+<br>
+
+
+
+## 🟩 Way 2: <u>Sprite Collisions</u>
+
+
+
+
+**What It Is:** Sprite collisions focus on checking interactions between individual sprites (like our meteors) and groups of sprites.
+
+**How It Works:** You can easily check if one sprite collides with any other sprite in a group, which is useful for detecting collisions in complex scenes.
+
+
+### `spritecollide()`
+
+>##### Check the  [documentation](https://www.pygame.org/docs/ref/sprite.html)
