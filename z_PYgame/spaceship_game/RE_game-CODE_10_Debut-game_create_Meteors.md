@@ -539,7 +539,7 @@ class Meteor(pygame.sprite.Sprite):
 ```
 
 
-### Conditional
+### 🔴 Conditional
 
 ### 🟧 Update Function:
 
@@ -549,3 +549,8 @@ class Meteor(pygame.sprite.Sprite):
     if pygame.time.get_ticks() - self.start_time >= self.lifetime:
         self.kill()
 ```
+
+
+### Explanation:
+
+- This line **checks** `if` the `current time` **minus** the time when the meteor started (`self.start_time`) is greater than or equal to `self.lifetime`.
