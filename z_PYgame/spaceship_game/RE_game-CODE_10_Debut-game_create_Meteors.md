@@ -304,4 +304,27 @@ x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
 
             Meteor(meteor_surf, (x, y),all_sprites)
 ```
+[<img src="../meteor_2_class.gif"/>]()
+
+<br>
+
+
+> ### 🟧 Update the event handling to create meteors at random positions:
+
+```python
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+
+        # --------- METEOR ----------
+        if event.type == meteor_event:
+            # print('create meteor 🪨')
+            x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
+            Meteor(meteor_surf, (x,y),all_sprites)
+```
+
+
+[<img src="../meteor_3_class.gif"/>]()
+
 <br>
