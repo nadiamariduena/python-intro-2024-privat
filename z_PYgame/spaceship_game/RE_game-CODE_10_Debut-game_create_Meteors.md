@@ -499,3 +499,7 @@ self.start_time = pygame.time.get_ticks()
 ### 🟤 Lifetime
 
 - **Defining Lifetime:** Next, we set how long the meteor should live before it disappears.
+
+```python
+self.lifetime = 2000
+```
