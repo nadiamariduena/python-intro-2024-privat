@@ -389,3 +389,7 @@ print(player.rect.colliderect(test_rect ))
 
 #### By doing this, we are asking the program: `“Is the player’s rectangle touching the test_rect?”`
 
+> - - - #### If they overlap, this line will return True, and you’ll see it printed in the console.
+
+
+### 🟠 Test It Out
