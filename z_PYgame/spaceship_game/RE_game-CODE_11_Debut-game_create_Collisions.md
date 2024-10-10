@@ -1623,3 +1623,10 @@ collided_sprites = pygame.sprite.spritecollide(laser, meteor_sprites,
 
 #### By keeping track of the collided sprites, we have the flexibility to make the game respond in more ways when a collision happens.
 
+
+
+```python
+# Check for collisions between the player sprite and meteor sprites.
+# This will remove the meteors (third argument is True) that collide with the player.
+collision_sprites = pygame.sprite.spritecollide(player, meteor_sprites, True)
+
