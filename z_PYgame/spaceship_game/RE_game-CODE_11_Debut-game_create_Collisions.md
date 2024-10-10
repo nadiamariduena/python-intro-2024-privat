@@ -178,3 +178,15 @@ player = Player(all_sprites)
 
 <br>
 <br>
+
+
+<a name="collide_point"></a>
+
+## ⚫ <u>`collidepoint`</u>
+
+ 🟤 `Next`, go to your **game loop** and add the following line to check for collisions:
+
+
+```python
+player.rect.collidepoint()
+```
