@@ -973,3 +973,6 @@ if collision_sprites:
 
 
 - - - #### After removal, the meteor sprites are still part of the list (collision_sprites), but they are no longer in any sprite groups.
+
+
+#### 🔴 That’s why the output shows the meteors as `<Meteor Sprite(in 0 groups)>`, indicating that while they exist in memory (they're still sprite objects), they're no longer part of the `meteor_sprites` group or any other sprite groups.
