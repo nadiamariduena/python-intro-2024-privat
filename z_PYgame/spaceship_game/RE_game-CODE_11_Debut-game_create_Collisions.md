@@ -579,3 +579,17 @@ test_rect = pygame.FRect(0,0, 300, 600)
 
 ### 🟠 Checking Meteor Collisions within the Player
 
+<br>
+
+### 🟤Understanding the Problem:
+
+#### 🔴 Currently, we have all our sprites like `meteors, stars, and the player grouped together` in a single sprite group.
+
+This setup creates a challenge when we want to check for collisions between the player and the meteors.
+
+
+### 🌈 Why Is This a Problem?
+
+**Difficult Separation:**
+
+#
