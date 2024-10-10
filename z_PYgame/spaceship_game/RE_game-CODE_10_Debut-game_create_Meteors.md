@@ -382,3 +382,5 @@ x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
 
 #### 🟤 This means the user can see the meteor immediately as it appears in a visible area of the screen.
 
+> ### To avoid that, we want to create the meteors above the visible area of the screen.
+
