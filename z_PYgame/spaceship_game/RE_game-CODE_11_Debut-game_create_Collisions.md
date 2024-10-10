@@ -1888,3 +1888,7 @@ while running:
 **So, in other words:**
 
 > #### the `running` of the `while loop` will clash with the `false` command that is being `called` inside that same `while` loop?
+
+### ✅ chatgpt: Exactly! You’ve got it.
+
+#### The while loop is designed to continue running as long as a certain condition remains true.
