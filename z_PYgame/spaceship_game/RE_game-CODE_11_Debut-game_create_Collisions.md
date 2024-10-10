@@ -588,21 +588,19 @@ test_rect = pygame.FRect(0,0, 300, 600)
 This setup creates a challenge when we want to check for collisions between the player and the meteors.
 
 
-### 🌈 Why Is This a Problem?
+### 🔴 Why Is This a Problem?
 
 **Difficult Separation:**
 
-#### 🔴 When all sprites are in one group, it becomes hard to differentiate between them.
+####   When all sprites are in one group, it becomes hard to differentiate between them.
 
-> #### 🔴 If we want to check if a meteor hits the player, we need a way to isolate those two specific sprites from the others in the group.
+> ####   If we want to check if a meteor hits the player, we need a way to isolate those two specific sprites from the others in the group.
 
 <br>
 
 **Collision Logic:**
 
-#### 🔴 If all sprites are in one spot, collision detection isn’t as fast.
-
-> - 🔴 We may end up checking collisions between the player and stars or other irrelevant sprites, which is not what we want!
+####   If all sprites are in one spot, collision detection isn’t as fast.
 
 ```python
 # SPRITES  ------
@@ -615,3 +613,25 @@ player = Player(all_sprites)
 
 # -----------------
 ```
+
+> - 🔴 We may end up checking collisions between the player and stars or other irrelevant sprites, which is not what we want!
+
+
+
+<br>
+<br>
+
+# 🟦  Solution:
+
+### 🔴 Creating Separate Sprite Groups
+
+
+
+## 🟡 4. Create another sprite
+
+- To solve this issue, we’ll create a separate **sprite group for the meteors**.
+
+```bash
+meteor_sprites = pygame.sprite.Group()
+```
+
