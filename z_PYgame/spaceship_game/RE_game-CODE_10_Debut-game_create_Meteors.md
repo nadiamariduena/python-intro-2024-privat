@@ -471,3 +471,6 @@ x, y = randint(0, WINDOW_WIDTH), randint(-200, -100)
 
 > - - #### This way, they vanish before they reach the bottom of the screen.
 
+> - - #### To do this, we’ll add the following line:
+
+- Destroy every  meteor sprite after 2 seconds (we want the rocks to vanish before they reach the edge of the bottom of the screen), we will be doing it by adding the below line:
