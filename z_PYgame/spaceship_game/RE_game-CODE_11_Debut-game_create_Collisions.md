@@ -309,3 +309,9 @@ pygame.quit()
 
 > #### We'll create a test rectangle to demonstrate the purpose of colliderect in action.
 
+```python
+test_rect = pygame.Frect()
+```
+
+### 🟠 Create a rectangle with specified position and size
+
