@@ -1800,3 +1800,19 @@ Goal: When a meteor hits the player, we want to end the game.
 
 - We would usually set `running = False` to stop the game, but doing that right away doesn't work as expected.
 
+```python
+def collitions():
+    collision_sprites =  pygame.sprite.spritecollide(player,
+    if collision_sprites:
+        print(collision_sprites[0])
+        running = False #🔴 not good
+```
+
+<br>
+
+### 🔴 Why It Doesn't Work
+
+
+#### The game loop runs repeatedly, checking for events, updating game logic, and drawing on the screen every frame.
+
+<br>
