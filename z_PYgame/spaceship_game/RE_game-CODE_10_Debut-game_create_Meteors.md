@@ -763,3 +763,7 @@ self.direction = pygame.Vector2(uniform(-0.5, 0.5), 1)
 ```python
 self.speed = randint(400, 500)
 ```
+
+### 🟤 What This Does:
+
+#### This assigns a random speed to the meteor between 400 and 500 pixels per second.
