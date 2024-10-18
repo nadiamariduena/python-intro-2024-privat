@@ -26,3 +26,13 @@
 #### In this lesson, you’ll learn how to display the score on the screen and update it as the game progresses.
 
 ---
+
+<br>
+<br>
+<br>
+
+##  🟦 Lets get started:
+
+### 🟤 1. Create a Function to Display the Score
+
+> #### To show the score on the screen, we first need to create a function dedicated to displaying the score.
