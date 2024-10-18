@@ -691,3 +691,94 @@ self.frame_index += 5 * dt
 ```
 
 <br><br>
+
+### 🔴  <u>Why This Approach Doesn’t Work?</u>
+
+### The problem with this approach:
+
+ `self.frame_index` must always be an integer. **This means it can only hold whole numbers (`like 0, 1, 2, etc`.), 🔴 not fractions or decimals.**
+
+> ####   When we multiply `5 * dt`, we may end up with a decimal value.  For example, **if** `dt is 0.1`, **then `5 * dt` would equal 0.5**.
+
+> #### 🔴 **If we add `0.5` to `self.frame_index`, it would turn into a non-integer value**, which is not allowed.
+
+<br>
+
+## 🫐 Current Code (Before Testing):
+
+- Here is the current code for the `AnimateExplosion` class:
+
+```python
+class AnimateExplosion(pygame.sprite.Sprite):
+    def __init__(self, frames,pos, groups):
+        super().__init__(groups)
+        try:
+            self.frames = frames
+            self.frame_index = 0
+            self.image = self.frames[self.frame_index]
+
+
+        except KeyError:
+            print("Star image not found in images dictionary.")
+
+        self.rect = self.image.get_frect(center = pos)
+
+    def update(self, dt):
+        self.frame_index += 5 * dt
+        self.image = self.frames[self.frame_index]
+```
+### 🟧Output
+
+###  If you execute the code, you will observe that the game halts and the screen closes as soon as we hit a meteor.
+
+<br>
+
+
+## 🌈 Solution
+
+
+
+### Ensuring the Frame Index is an Integer `int`
+
+ To ensure that `self.frame_index` remains an integer, we need to adjust how we increase it.
+
+ <br>
+
+ ##  `int()`
+
+<!-- ###   🟨 One common approach is to use the `int() function` <u>to convert the result to an integer</u>
+
+>#### This way, we can ensure that our frame index is always a valid integer, allowing our animation to work correctly. -->
+
+
+### 🟨 A common method to ensure our frame index is a valid integer is by utilizing the int() function.
+
+> #### By converting the result to an integer, we guarantee that our animation operates smoothly without any errors.
+
+- To incorporate this into your code, you can modify it as follows:
+
+```python
+        # self.image = self.frames[self.frame_index]
+        self.image = self.frames[int(self.frame_index)]
+```
+
+#### Here’s how the updated code looks in context:
+
+
+
+
+```python
+    def update(self, dt):
+        self.frame_index += 5 * dt
+
+        # self.image = self.frames[self.frame_index]
+        self.image = self.frames[int(self.frame_index)]
+```
+
+<br>
+
+### 🟩 Summary
+
+#### In summary, while the idea of incrementing `self.frame_index` with `5 * dt` is a good start for controlling animation speed, we need to ensure that `self.frame_index` stays an integer.
+
+<br>
