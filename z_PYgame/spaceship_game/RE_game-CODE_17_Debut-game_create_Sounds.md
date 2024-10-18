@@ -156,3 +156,52 @@ game_music = pygame.mixer.Sound(join('../audio', 'game_music.wav'))
 
 ## 🟡 6.  Playing the Explosion Sound on Collision
 
+
+> ### 🟧 To play the explosion sound when a laser hits a meteor, you have <u>two options</u> .
+
+<br>
+
+#### Let's go through the first one:
+
+### 🟤  1.Modify the collision() Function:
+
+ - ####  Within the existing loop that checks for collisions, add the line:
+
+> - - 💥 `explosion_sound.play()` to play the explosion sound.
+
+
+#### Here’s how you can do it:
+
+
+
+```python
+def collisions():
+    global running  # Refers to the global variable 'running'
+
+    # Check for collisions between the player sprite and meteor sprites.
+    # The third argument is True, which removes colliding meteors.
+    collision_sprites = pygame.sprite.spritecollide(player, meteor_sprites, True)
+
+    # If any collisions occur, print the first meteor that collided.
+    if collision_sprites:
+        running = False
+
+    # Check for collisions between lasers and meteors.
+    for laser in laser_sprites:
+        # If a collision is detected, the meteor is removed from the group.
+        collided_sprites = pygame.sprite.spritecollide(laser, meteor_sprites, True)
+
+        # Handle the collision if it occurs.
+        if collided_sprites:
+            laser.kill()  # Remove the laser sprite from the game.
+            AnimateExplosion(explosion_frames, laser.rect.midtop, all_sprites)
+
+            # 💥 SOUND
+            explosion_sound.play()  # Play the explosion sound.
+
+```
+
+<br>
+
+## 🟡 7. You can also play the explosion sound by moving the line into the `AnimateExplosion` class.
+
