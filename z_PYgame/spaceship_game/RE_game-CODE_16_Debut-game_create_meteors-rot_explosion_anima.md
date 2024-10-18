@@ -512,3 +512,182 @@ To create an animation, we need to display different images from our collection 
 ```python
  self.image = frames[0]
 ```
+
+>### However, using a fixed index like [0] means we will always show the first frame of the animation.
+
+- - #### 🔴 This approach does not allow the animation to change or progress,
+
+- - which is crucial for creating a dynamic and engaging visual effect.
+
+> - -  #### 🔴   Instead, we want to change the index over time so that different frames are displayed in sequence, creating the illusion of movement.
+
+
+<br>
+
+### 🟧 Implementing the Update Method
+
+### `update()`
+
+#### To enable the animation to progress, we need to implement an `update()` method in the `AnimateExplosion()` class.
+
+- This method will be responsible for updating the displayed frame at regular intervals.
+
+- #### It will require two parameters: self (to refer to the instance of the class) and dt (which represents the time since the last update).
+
+We define the `update()` method like this:
+
+
+
+```python
+def update(self, dt):
+```
+<br>
+
+## 🟧 Updating the Current Frame
+
+Inside the `update()` method, we will **assign a new image** to `self.image` **based on a frame index** that we will manage.
+
+#### 🔴 This index will change over time to cycle through the frames.
+
+For example, you might think of it like this:
+
+```python
+self.image = frames[index]
+```
+#### 🔴 However, we need to ensure that index updates correctly to show different frames rather than being stuck at a single value.
+
+<br>
+
+## 🟧 Storing All Frames
+
+### <u>Before we can cycle through the frames</u> , we must store them in an attribute.
+
+- **This allows us to easily access the frames** in the `update()` method.
+
+> #### We do this by assigning the frames to an attribute like this:
+
+```python
+self.frames = frames
+```
+
+<br>
+
+
+## 🟧 Keeping Track of the Current Frame Index
+
+### To manage which frame we are currently displaying, we will create an attribute called `frame_index`.
+
+- This will start at **zero**, **indicating** that **we begin with** the **first** frame:
+
+```python
+self.frame_index = 0
+```
+
+### Now we can combine these pieces to initialize the class properly:
+
+```python
+self.frames = frames
+self.frame_index = 0
+self.image = self.frames[self.frame_index]
+```
+### 🟤 Updating the Image Reference
+
+**Next,** we need to replace the initial image assignment:
+
+#### replace this:
+
+```python
+self.image = frames[0]
+```
+
+#### 🟤 For this:
+
+```python
+self.image = self.frames[self.frame_index]
+```
+
+#### 🟤 We should also make the same update in the update() method:
+
+```python
+def update(self, dt):
+    self.image = self.frames[self.frame_index]
+```
+
+<br>
+
+## 🌈 Final Structure of the AnimateExplosion Class
+
+### The complete structure of the AnimateExplosion class would look like this:
+
+```python
+class AnimateExplosion(pygame.sprite.Sprite):
+    def __init__(self, frames, pos, groups):
+        super().__init__(groups)
+        try:
+            self.frames = frames  # Store the frames
+            self.frame_index = 0  # Initialize frame index
+
+            self.image = self.frames[self.frame_index]
+            # Set the initial image
+        except KeyError:
+            print("Star image not found in images dictionary.")  # Handle error
+
+        self.rect = self.image.get_frect(center=pos)
+        # Set the position
+
+    def update(self, dt):
+        self.image = self.frames[self.frame_index]
+        # Update the image based on the frame index
+
+```
+### Before
+
+```python
+class AnimateExplosion(pygame.sprite.Sprite):
+    def __init__(self, frames,pos, groups):
+        super().__init__(groups)
+        try:
+            self.frames = frames
+            self.frame_index = 0
+            self.image = frames[0] 🔴
+
+
+        except KeyError:
+            print("Star image not found in images dictionary.")
+
+        self.rect = self.image.get_frect(center = pos)
+
+    def update(self, dt):
+        self.image = frames[index]
+
+```
+
+
+<br>
+<br>
+
+## 🟠 10. Updating the Frame Index
+
+### Incrementing the Frame Index
+
+### To make the animation progress, we want to change the `frame_index` each time the `update()` method runs.
+
+- - One way to do this is by adding a value to `self.frame_index`.
+
+#### For example, we might write:
+
+```python
+self.frame_index += 5 * dt
+
+```
+### This line attempts to increase the `frame_index` based on the time that has passed since the last update (represented by dt).
+
+  🟤 <u>The idea is that as time passes</u>  , the index will increase, allowing different frames to be shown in the animation.
+
+```python
+    def update(self, dt):
+        self.frame_index += 5 * dt
+        self.image = self.frames[self.frame_index]
+```
+
+<br><br>
