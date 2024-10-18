@@ -66,3 +66,30 @@ laser_sound = pygame.mixer.Sound('your_file_path_here')
 # AUDIO
 laser_sound = pygame.mixer.Sound(join('../audio', 'laser.wav'))
 ```
+
+> Make sure the file path matches where your audio files are stored.
+
+<br>
+<br>
+
+## 🟡 3. Play the Sound
+
+**Now** that we have the sound set up, it's time to **play it** when an **event happens**, like s**hooting a laser**.
+
+#### Find the part of your code where the laser is created.
+
+> - - This is typically in the player class. You want to add the sound to the function that handles shooting.
+
+#### Here’s how to do it in your `update()` function:
+
+```python
+if recent_keys[pygame.K_SPACE] and self.can_shoot:
+    # Create the laser instance
+    Laser(laser_surf, self.rect.midtop, (all_sprites, laser_sprites))
+
+    self.can_shoot = False
+    self.laser_shoot_time = pygame.time.get_ticks()
+
+    # PLAY SOUND
+    laser_sound.play()
+```
