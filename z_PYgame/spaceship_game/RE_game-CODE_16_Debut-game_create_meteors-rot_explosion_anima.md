@@ -1036,3 +1036,480 @@ This approach will allow us to start and stop the explosion based on player inte
 #### 🟤  Define a Trigger Condition:
 
 > #### We need to establish `when the explosion should start and when it should stop`.
+
+-  - #### This could be based on the frame index reaching the end of the explosion frames.
+
+<br>
+
+- #### replace the below line:
+
+```python
+self.image = self.frames[int(self.frame_index) % len(self.frames)]
+```
+- #### for the conditional:
+
+```python
+if self.frame_index < len(self.frames):
+    self.image = self.frames[int(self.frame_index)]
+else:
+    self.kill()  # Stop the explosion animation
+```
+
+
+### Explanation of the Code:
+
+🟫 1. `if self.frame_index < len(self.frames):`
+
+#### This conditional checks if `self.frame_index` is less than the total number of frames. `If true`, it updates `self.image` to the current frame.
+
+<br>
+
+🟫 2. `self.image = self.frames[int(self.frame_index)]`
+
+<br>
+
+> - - #### 🔴 If `self.frame_index` is equal to or exceeds the number of frames, the explosion animation ends by calling self.kill(), which removes the explosion object from the game.
+
+🟫 3. `self.kill() `
+
+<br>
+<br>
+
+### Current code
+
+```python
+#💥
+class AnimateExplosion(pygame.sprite.Sprite):
+    def __init__(self, frames,pos, groups):
+        super().__init__(groups)
+        try:
+            self.frames = frames
+            self.frame_index = 0
+            self.image = self.frames[self.frame_index]
+
+
+        except KeyError:
+            print("Star image not found in images dictionary.")
+
+        self.rect = self.image.get_frect(center = pos)
+
+    def update(self, dt):
+        self.frame_index += 5 * dt
+
+
+        # NO: self.image = self.frames[self.frame_index]
+        # ALSO NO: self.image = self.frames[int(self.frame_index)]
+        print(self.frame_index)
+
+        if self.frame_index < len(self.frames):
+            self.image = self.frames[int(self.frame_index)]
+        else:
+            self.kill()
+
+        # self.image = self.frames[int(self.frame_index) % len(self.frames)]
+
+
+
+```
+
+### Output
+
+[<img src="../explosion_anima__solved_with_modulo-operator.gif"/>]( )
+
+### code
+
+```python
+
+import pygame
+import os
+from os.path import join
+from random import randint, uniform
+
+
+#------------- INIT
+pygame.init()
+# -------------
+
+
+# SCREEN
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
+display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+# TEXT screen
+pygame.display.set_caption("Space shooter")
+
+
+
+
+
+#🟨 imgs -----
+script_dir = os.path.dirname(__file__)
+# img's path
+image_paths = {
+    'player': os.path.join(script_dir, '..', 'images', 'player.png'),
+    'star': os.path.join(script_dir, '..', 'images', 'star.png'),
+    'meteor': os.path.join(script_dir, '..', 'images', 'meteor.png'),
+    'laser': os.path.join(script_dir, '..', 'images', 'laser.png')
+
+}
+
+# INIT the images dictionary
+images = {}
+
+# Load images and handle errors
+# Notice how we grab the dictionary "image_paths"
+for key, path_imgs in image_paths.items():
+    try:
+        #LOAD and CONVERT the image in one step
+        images[key] = pygame.image.load(path_imgs).convert_alpha()
+
+    except pygame.error as img_item:
+
+        print(f"Failed to load image '{path_imgs}': {img_item}")
+        # Fall img IF LOAD fails
+        images[key] = pygame.Surface((50,50)) # square
+        images[key].fill((249, 255, 51 )) # yellow acid
+# ---------
+
+# IMAGES out of the class
+# Define other surfaces
+meteor_surf = images['meteor']
+laser_surf = images['laser']
+star_surf = images['star']
+# -----------------------
+
+#------------------------
+# Load explosion images
+
+# explosion_frames = [pygame.image.load(join('images', 'explosion', f'{i}.png')).convert_alpha() for i in range(21)]
+# explosion_frames = [join('images', 'explosion', f'{i}.png') for i in range(1, 21)]
+
+# Load explosion frames
+explosion_frames = []
+for i in range(21):
+    path = os.path.join(script_dir, '..', 'images', 'explosion', f'{i}.png')
+    try:
+        explosion_frames.append(pygame.image.load(path).convert_alpha())
+    except pygame.error as e:
+        print(f"Failed to load explosion image '{path}': {e}")
+        # Optionally add a fallback surface if needed
+        explosion_frames.append(pygame.Surface((50, 50)).fill((255, 0, 0)))  # Red square as fallback
+
+print(explosion_frames)
+
+
+# ----------
+# FONT
+font = pygame.font.Font(join('../fonts', 'NeutralFace-Bold.otf'), 30)
+# font = pygame.font.Font('../../FONT/NeutralFace-Bold.otf', 20)
+
+
+
+
+
+
+#🤵 PLAYER ---------
+class Player(pygame.sprite.Sprite):
+    def __init__(self, groups):
+        super().__init__(groups)
+        try:
+
+            self.image = images['player']
+        except KeyError:
+            print("Player image not found in images dictionary.")
+            # Handle the failure (e.g., set a default image or exit)
+            #  ---- 🔴 create a red square as a fallback/ shape red in case the img doesnt load --
+            self.image = pygame.Surface((50, 50))  # Example fallback surface
+            self.image.fill((0, 56, 175 ))  # BLUE Klein
+
+        self.rect = self.image.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+
+        self.direction = pygame.Vector2()
+        self.speed = 300
+
+        # 🥶 cooldown
+        self.can_shoot = True
+        self.laser_shoot_time = 0
+        self.cooldown_duration = 400
+
+    def laser_timer(self):
+        if not self.can_shoot:
+
+            current_time = pygame.time.get_ticks()
+            # print(current_time)
+            if current_time - self.laser_shoot_time >= self.cooldown_duration:
+                self.can_shoot = True
+
+    def update(self, dt):
+        keys = pygame.key.get_pressed()
+
+        #  --- KEYS / ARROWS:  -----
+        self.direction.x = int(keys[pygame.K_RIGHT]) - int(keys[pygame.K_LEFT])
+        self.direction.y = int(keys[pygame.K_DOWN]) - int(keys[pygame.K_UP])
+
+
+        # to normalize the vector, after the issue when pressing top and left at the same time
+        self.direction = self.direction.normalize() if self.direction else self.direction
+        #    print("shipt is being updated")
+
+        # Update the player position with speed and delta time
+        self.rect.center += self.direction * self.speed * dt
+
+        #  --- KEYS /  space bar
+        recent_keys = pygame.key.get_pressed()
+        if recent_keys[pygame.K_SPACE] and self.can_shoot:
+            #print('fire laser')
+            # 🟡 Laser SURF 🟡
+            Laser(laser_surf, self.rect.midtop, (all_sprites, laser_sprites))
+            # final phase: By adding `laser_sprites` as an argument in `Laser()`, each laser will be added to this group when created.
+
+            # The player is unable to fire lasers continuously
+            self.can_shoot = False
+            self.laser_shoot_time = pygame.time.get_ticks()
+
+        # Call the Laser_timer function from line 74
+        self.laser_timer()
+
+
+
+#🌟 STAR ---------
+class Star(pygame.sprite.Sprite):
+    def __init__(self, groups):
+        super().__init__(groups)
+        try:
+
+            self.image = images['star']
+        except KeyError:
+            print("Star image not found in images dictionary.")
+
+            self.image = pygame.Surface((70, 50))
+            self.image.fill((241, 183, 0 )) # yellow
+
+        self.rect = self.image.get_frect(center = (randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)))
+
+# 🔫 LASER ---------
+class Laser(pygame.sprite.Sprite):
+    def __init__(self, surf, pos, groups):
+        super().__init__(groups)
+
+        try:
+            self.image = surf
+        except KeyError:
+            print("Laser image not found in images dictionary.")
+            self.image = pygame.Surface((80, 50))
+            self.image.fill((255, 238, 72))  # Acid yellow
+
+
+        # Set the position of the laser
+        self.rect = self.image.get_frect(midbottom = pos)
+
+    # 🔫 moving LASER bullets
+    def update(self, dt):
+        # centery because we only want to move 1 point
+        self.rect.centery -= 400 * dt
+
+
+        # conditional: to see if the laser bullet is off the window (not visible anymore), we want to destroy the sprite
+        if self.rect.bottom < 0:
+            self.kill()
+
+#🪨 METEOR
+class Meteor(pygame.sprite.Sprite):
+    def __init__(self, surf, pos, groups):
+        super().__init__(groups)
+
+        try:
+
+            # 1 rotation
+            self.original_surf = surf
+
+            self.image = surf
+        except KeyError:
+            print("Meteor image not found in images dictionary.")
+            self.image = pygame.Surface((80, 50))
+            self.image.fill((255, 238, 72))  # Acid yellow
+
+
+        # Set the position of the laser
+        self.rect = self.image.get_frect(center = pos)
+        # meteor_rect = meteor_surf.get_frect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
+        self.start_time = pygame.time.get_ticks()
+        self.lifetime = 3000 # lower than 3000 the user will be able to see the rocks fading
+
+        self.direction = pygame.Vector2(uniform(-0.5, 0.5), 1)
+        self.speed = randint(400, 500)
+
+        # 2 rotation
+        self.rotation_speed = randint(40,100)
+        #3
+        self.rotation = 0
+
+
+    def update(self, dt):
+        #self.rect.centery += 400 * dt
+        self.rect.center += self.direction * self.speed * dt
+        if pygame.time.get_ticks() - self.start_time >= self.lifetime:
+            self.kill()
+
+        # 4
+        self.rotation += self.rotation_speed * dt
+
+        # 5
+        self.image = pygame.transform.rotozoom(self.original_surf, self.rotation, 1 )
+
+        # 6
+        self.rect = self.image.get_frect(center = self.rect.center)
+
+
+#💥
+class AnimateExplosion(pygame.sprite.Sprite):
+    def __init__(self, frames,pos, groups):
+        super().__init__(groups)
+        try:
+            self.frames = frames
+            self.frame_index = 0
+            self.image = self.frames[self.frame_index]
+
+
+        except KeyError:
+            print("Star image not found in images dictionary.")
+
+        self.rect = self.image.get_frect(center = pos)
+
+    def update(self, dt):
+        self.frame_index += 5 * dt
+
+
+        # NO: self.image = self.frames[self.frame_index]
+        # ALSO NO: self.image = self.frames[int(self.frame_index)]
+        print(self.frame_index)
+
+        if self.frame_index < len(self.frames):
+            self.image = self.frames[int(self.frame_index)]
+        else:
+            self.kill()
+
+
+
+
+# 💥 🪨 METEOR & LASER collitions LOGIC
+
+def collitions():
+
+    global running  # 🟡 This makes 'running' refer to the global variable
+
+
+    # Check for collisions between the player sprite and meteor sprites.
+    # (third argument is True) This will remove the meteors that collide with the player.
+    collision_sprites =  pygame.sprite.spritecollide(player, meteor_sprites, True)
+
+    # If there are any collisions (i.e., a meteor collided with the player), print the first meteor that collided.
+    if collision_sprites:
+        # print(collision_sprites[0])
+        running = False
+
+
+    # a For each laser in the laser_sprites group, the code checks for collisions between that laser and all meteors in the meteor_sprites group.
+    for laser in laser_sprites:
+        # b If a collision is detected, the meteor is removed from the group (True tells the function to remove the colliding sprite).
+        collided_sprites = pygame.sprite.spritecollide(laser, meteor_sprites,  True)
+        # c This allows individual lasers to interact with meteors, removing both if they collide.
+        if collided_sprites:
+            laser.kill()
+            #laser.kill() removes the laser sprite from the game, effectively destroying it.
+            AnimateExplosion(explosion_frames, laser.rect.midtop,all_sprites)
+
+# SCORE
+
+def display_score():
+    current_time = pygame.time.get_ticks() // 100
+    text_surf = font.render(str(current_time), True, (255,255,255))
+    # text_rect = text_surf.get_frect(midbottom = (x,y))
+    text_rect = text_surf.get_frect(midbottom = (WINDOW_WIDTH / 2, WINDOW_HEIGHT -50))
+    display_surface.blit(text_surf, text_rect)
+    # BOX around padding, here you will have padding as inflate
+    pygame.draw.rect(display_surface, (240,240,240), text_rect.inflate(28, 30).move(0,-2), 5,10)
+
+
+
+# SPRITES  ------
+all_sprites = pygame.sprite.Group()
+
+# Second sprite 2:42:40
+#https://youtu.be/8OMghdHP-zs?si=hrzM_sFtk8LEG8vq&t=9768
+# Why create a second sprite when handling collision during the final phase of the game?: If all sprites are in one spot, collision detection isn’t as fast
+meteor_sprites = pygame.sprite.Group()
+
+
+
+# laser collision (final phase)
+laser_sprites = pygame.sprite.Group()
+
+# Create PLAYER class instance
+# all stars, without this you will only see 1 star, if i add it here
+for i in range(20):
+    Star(all_sprites)
+## the player line below, has to be positioned under the Star(all_sprites), otherwise the star will appear on top of the player and it doesnt look good
+player = Player(all_sprites)
+
+
+# CLOCK:
+#FPS (frame per second)
+clock = pygame.time.Clock()
+
+
+# CUSTOM EVENTS /timer
+meteor_event = pygame.event.custom_type()
+pygame.time.set_timer(meteor_event, 500)
+
+
+running = True
+while running:
+    # DELTA time
+    # frame rate / division
+    dt = clock.tick() / 1000
+    # print(dt)
+
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+        if event.type == meteor_event:
+            # print('create meteor 🪨')
+            # x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
+            x, y = randint(0, WINDOW_WIDTH), randint(-200, -100)
+
+            Meteor(meteor_surf, (x,y),(all_sprites, meteor_sprites))
+
+
+    # ---- update ---------
+    # check the update() function within the PLAYER Class
+    # 🟨 UPDATE sprite group
+    all_sprites.update(dt)
+
+    # look for the function collisions in line 205
+    collitions()
+
+
+
+    # DRAW the game ------
+    display_surface.fill("#2a0822")
+    # sprites
+    all_sprites.draw(display_surface)
+    # DRAW the game ------
+
+    # TEXT
+    #display_surface.blit(text_surf, (0, 0))  # Blit the text at position (x, y)
+    display_score()
+
+    pygame.display.update()
+
+pygame.quit()
+```
+
+
+---
+
+<br>
+<br>
+
+### Next step: Sounds
