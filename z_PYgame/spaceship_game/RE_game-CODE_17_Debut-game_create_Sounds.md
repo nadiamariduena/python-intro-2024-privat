@@ -46,3 +46,23 @@ laser_sound = pygame.mixer.Sound('your_file_path_here')
 - Rewind the sound
 
 - Adjust the volume
+
+
+#### For more details, check out the Pygame documentation on the mixer, which explains how sound and music work in Pygame:
+
+[Documentation](https://www.pygame.org/docs/ref/mixer.html)
+
+<br>
+<br>
+
+
+## 🟡 2. Import the Sound Files
+
+**Next**, we need to import the sound files into our code. Make sure you have your audio files ready in the **audio folder**.
+
+#### Here’s how to import a sound file:
+
+```python
+# AUDIO
+laser_sound = pygame.mixer.Sound(join('../audio', 'laser.wav'))
+```
