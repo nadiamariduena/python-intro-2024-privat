@@ -184,7 +184,7 @@ self.image = pygame.transform.grayscale(self.image)
 <br>
 
 
-# 🟡 Rotating the plane continuously
+## 🟡 Rotating the plane continuously
 
 #### 🔴  Before applying this logic to the meteors, we will first observe its behavior with the player.
 
@@ -509,7 +509,7 @@ class Player(pygame.sprite.Sprite):
 
 [3:28:18](https://youtu.be/8OMghdHP-zs?si=uGeQ5ilR2hMWIvPi&t=12498)
 
-# 🟡  <u>Make the Meteors rotate</u>
+## 🟡  <u>Make the Meteors rotate</u>
 
 
 ###  By assigning a random rotation speed to each meteor and smoothly rotating their texture during gameplay, we enhance the visual effects and make the meteors more engaging.
