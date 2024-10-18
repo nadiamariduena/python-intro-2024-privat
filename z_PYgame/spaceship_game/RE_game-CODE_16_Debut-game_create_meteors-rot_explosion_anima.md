@@ -230,3 +230,14 @@ print(explosion_frames)
 ```
 
 <br>
+
+### 🟫 Differences Explained
+
+
+**Method 1:** This creates a list of numbers (`1 to 20`).
+
+- - - It doesn't tell you where the images are located, **just their numbers**.
+
+<br>
+
+**Method 2:** This creates a list of complete **paths to the image files** (like `images/explosion/1.png`).
