@@ -18,3 +18,11 @@
 > #### So far, we’ve worked on important things like handling collisions and even setting up text colors.
 
 > #### Now, it’s time to bring everything together by adding a score that keeps track of how well the player is doing.
+
+<br>
+
+### 🟠 A score will make the game more exciting by rewarding players for shooting down enemies or surviving for longer.
+
+#### In this lesson, you’ll learn how to display the score on the screen and update it as the game progresses.
+
+---
