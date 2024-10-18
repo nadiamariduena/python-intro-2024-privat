@@ -74,3 +74,7 @@ def display_score():
 #### 🟧 To keep track of time within your game or application, it is essential to capture the number of milliseconds since pygame was initialized.
 
 > ####  This is where `pygame.time.get_ticks()` comes in.
+
+### `current_time = pygame.time.get_ticks()`
+
+#### This line gets the current time in milliseconds (thousandths of a second) since the game started.
