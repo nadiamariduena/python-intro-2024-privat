@@ -129,3 +129,30 @@ laser_sound.set_volume(0.5)
 
 <br>
 
+
+
+### 🟧 Make sure to position this code right after you load the sound file to ensure the volume setting takes effect:
+
+```python
+# AUDIO
+laser_sound = pygame.mixer.Sound(join('../audio', 'laser.wav'))
+laser_sound.set_volume(0.5)
+
+```
+
+<br>
+<br>
+
+## 🟡 5. lets import all the other sounds
+
+```python
+explosion_sound = pygame.mixer.Sound(join('../audio', 'explosion.wav'))
+damage_sound = pygame.mixer.Sound(join('../audio', 'damage.ogg'))
+
+game_music = pygame.mixer.Sound(join('../audio', 'game_music.wav'))
+```
+
+<br>
+
+## 🟡 6.  Playing the Explosion Sound on Collision
+
