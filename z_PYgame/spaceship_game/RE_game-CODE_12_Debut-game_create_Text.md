@@ -1,5 +1,5 @@
 
-# 🟡 SPRITES 5.
+# 🟡 SPRITES 7.
 
 - TEXT
 
