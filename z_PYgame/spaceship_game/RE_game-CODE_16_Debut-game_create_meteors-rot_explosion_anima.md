@@ -196,3 +196,37 @@ try:
 
 ### 🟩 You can create a list of the explosion image paths in two ways. Here’s the first method:
 
+
+
+```python
+# Load explosion images
+explosion_frames = [i for i in range(21)] # Creates a list from 1 to 20
+print(explosion_frames)
+```
+🔴 **Check your console:** you should see the numbers 1 through 20, confirming that the images are ready to be used!
+
+#### output
+
+```bash
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+```
+
+<br>
+
+#### 🟩 However, there’s another way that directly gives you the file paths for the images:
+
+```python
+from os.path import join
+
+# Method 2: Create paths to the explosion images
+explosion_frames = [join('images', 'explosion', f'{i}.png') for i in range(1, 21)]
+print(explosion_frames)
+```
+
+### output
+
+```python
+['images/explosion/0.png', 'images/explosion/1.png', 'images/explosion/2.png', 'images/explosion/3.png', 'images/explosion/4.png', 'images/explosion/5.png', 'images/explosion/6.png', 'images/explosion/7.png', 'images/explosion/8.png', 'images/explosion/9.png', 'images/explosion/10.png', 'images/explosion/11.png', 'images/explosion/12.png', 'images/explosion/13.png', 'images/explosion/14.png', 'images/explosion/15.png', 'images/explosion/16.png', 'images/explosion/17.png', 'images/explosion/18.png', 'images/explosion/19.png', 'images/explosion/20.png']
+```
+
+<br>
