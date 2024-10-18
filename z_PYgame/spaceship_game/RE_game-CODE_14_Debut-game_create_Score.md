@@ -879,3 +879,12 @@ self.rotation_speed = randint(20, 50)  # Assign a random rotation speed for each
 <br>
 
 ### 🟤 Step 3: Update the Meteor's Position
+
+
+#### Now, let’s ensure the meteor moves across the screen just like before.
+
+> - - ####  We’ll maintain the movement logic, where the meteor updates its position based on its direction and speed.
+
+- -  This is important for the meteor to move while also rotating.
+
+#### 🟢 Where to place this: Inside the update method of the meteor class.
