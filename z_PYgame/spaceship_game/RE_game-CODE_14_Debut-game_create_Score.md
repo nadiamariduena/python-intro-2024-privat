@@ -78,3 +78,176 @@ def display_score():
 ### `current_time = pygame.time.get_ticks()`
 
 #### This line gets the current time in milliseconds (thousandths of a second) since the game started.
+
+> - - ####  Think of it like a **stopwatch** ⏱️ that has been running since you launched your game.
+
+- - -  **You can use this value to see how much time has passed**, which is **useful for** things like **delays, animations, or when you want** to **do something after a certain amount of time**.
+
+
+
+```python
+def display_score():
+    current_time = pygame.time.get_ticks()
+    text_surf = font.render('text', True, (255,255,255))
+```
+
+<br>
+
+### 🟤 4 Replace the `'text'` with `current_time`
+
+ When you want to display the time (in milliseconds) instead of a simple static text like "text", you need to pass the current time to the `font.render()` function.
+
+```python
+#before
+    text_surf = font.render('text', True, (255,255,255))
+```
+
+<br>
+<br>
+
+ > ### In this case, you're replacing the `'text'` with `(current_time)`.
+
+  This ensures that the surface now shows the actual time in milliseconds, retrieved by `pygame.time.get_ticks()`.
+
+```python
+#after
+    text_surf = font.render(current_time), True, (255,255,255))
+ ```
+
+<br>
+
+### 🟤 5. Convert it with `str()`
+
+#### 🔴 If you tried to test it, you will see you will get an error, to solve this add the `str()`
+
+```python
+    text_surf = font.render(str(current_time), True, (255,255,255))
+```
+
+
+
+#### 🟠 Why use `str()` here?
+
+`pygame.font.render()` expects the text to be displayed as a string.
+
+🟢 However, **`current_time` (the result of `pygame.time.get_ticks()`)** is a number (an integer representing milliseconds).
+
+-  - 🟢 `str(current_time)` **converts the integer value of `current_time` into a string**, so it can be rendered as text on the screen.
+
+
+### Putting it together:
+
+```python
+def display_score():
+    current_time = pygame.time.get_ticks()
+    text_surf = font.render(str(current_time), True, (255,255,255))
+```
+
+<br>
+<br>
+<br>
+<br>
+
+---
+
+## 🟤 6.  Creating a Rectangle for the Text:
+
+- This is just for testing purposes but it has a goal, we will see it later
+
+```python
+
+def display_score():
+    current_time = pygame.time.get_ticks()
+    text_surf = font.render(str(current_time), True, (255,255,255))
+    # text_rect = text_surf.get_frect(midbottom = (x,y))
+    text_rect = text_surf.get_frect(midbottom = (WINDOW_WIDTH / 2, WINDOW_HEIGHT -50))
+    display_surface.blit(text_surf, text_rect)
+```
+
+
+<br>
+
+
+### RECAP & Explanation:
+
+#### `(text_rect = text_surf.get_frect(midbottom = (WINDOW_WIDTH / 2, WINDOW_HEIGHT - 50)))`
+
+> #### This line is responsible for defining where the text will be displayed on the screen. Let's go through it in detail:
+
+
+
+#### `text_surf.get_frect()`:
+
+- - This gets the rectangle (or Rect object) that fits the text surface.
+
+> - - This rectangle will help us position the text on the screen.
+
+<br>
+
+#### `midbottom = (WINDOW_WIDTH / 2, WINDOW_HEIGHT - 50)`:
+
+- - This places the text at the center horizontally (WINDOW_WIDTH / 2) and 50 pixels above the bottom of the screen.
+
+> - - The midbottom property positions the text so that its bottom center is exactly where you want it, which ensures the text is centered horizontally but placed a little above the bottom edge of the window.
+
+---
+
+<br>
+<br>
+
+<br>
+<br>
+
+## 🟤 7.   Update the Game Loop to Display the Score
+
+#### Now that we have set up the function to display the score, it's time to integrate it into the game loop.
+
+
+#### Replace the old text blitting with the following:
+
+-  Previously, you might have used something like this to display text:
+
+```python
+    display_surface.blit(text_surf, (0, 0))  # Blit the text at position (x, y)
+```
+
+>However, instead of directly blitting the text onto the screen, we will now use the display_score() function we created earlier to handle displaying the score.
+
+#### For this
+
+#### call the `display_score()` function to render the score at the proper position on the screen.
+
+```python
+    display_surface.fill("#2a0822")
+    all_sprites.draw(display_surface)
+
+
+    display_score() #🟡
+    pygame.display.update()
+
+pygame.quit()
+```
+
+
+#### If you changed this value
+
+```python
+# before
+   current_time = pygame.time.get_ticks()
+# after
+      current_time = pygame.time.get_ticks() // 100
+```
+
+### 🟠 What Does // 100 Do?
+
+#### The `//` operator is integer division, which divides two numbers and returns the whole number result, discarding any remainder.
+
+- So, when you divide `pygame.time.get_ticks()` by 100, you are effectively converting milliseconds into "hundredths of a second."
+
+- - `pygame.time.get_ticks() // 100` **divides the time in milliseconds by 100**, which reduces the number of units we’re working with.
+
+> #### This converts milliseconds into hundredths of a second (0.01 seconds).
+
+### output
+
+
