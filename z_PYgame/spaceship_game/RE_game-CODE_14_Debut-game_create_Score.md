@@ -45,3 +45,20 @@ def display_score():
 <br>
 
 ### Why a function?
+
+Functions help us organize the code, making it easier to call the same block of code multiple times. This is useful if we need to update the score at different points in the game.
+
+#### What’s inside the function?
+Inside the function, we will use Pygame's font.render() method to create a text surface (the score text) that we can then draw on the game screen.
+
+<br>
+
+### 🟤 2. re position the text within the function score
+
+- When you add the **`text_surf`** inside the function, it will **no longer be accessible within the `while`** loop. (just for now)
+```python
+def display_score():
+    text_surf = font.render('text', True, (255,255,255))
+
+
+```
