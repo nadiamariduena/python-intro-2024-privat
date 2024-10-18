@@ -761,3 +761,20 @@ pygame.quit()
 
 -  - This way, the sound plays at the exact moment the player is hit.
 
+
+<br>
+
+**Current Challenge:**
+
+- 🟤 Right now, when a meteor hits the player, the game window closes automatically.
+
+```python
+   if collision_sprites:
+        print("Player hit!")  # Debugging line
+        damage_sound.play()  # Play the damage sound
+        running = False  # End the game
+```
+
+> #### 🔴 This doesn't give enough time for the sound to play. Even if we add the sound, it won't be audible because of the immediate game closure.
+
+<br>
