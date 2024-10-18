@@ -108,3 +108,40 @@ class AnimateExplosion(pygame.sprite.Sprite):
 ### 🟠 3. Define the Constructor and Frames
 
 🟫 **LIST of Surfaces: the teacher will call them Frames**
+
+#### This is where we will initialize the explosion `frames`, which are crucial for creating the animation effect.
+
+<br>
+
+- -  🟢 **Each `frame`** represents a stage in the explosion sequence, and having them stored in a list allows us to easily cycle through them to create the illusion of movement.
+
+<br>
+
+- - Once the pygame class created, create the constructor init and add the frames, which is a list of surfaces
+
+<br>
+
+- 🔴 Add also the position and the groups: `pos, groups` to the constructor
+
+```python
+class AnimateExplosion(pygame.sprite.Sprite):
+    def __init__(self, frames,pos, groups):
+```
+
+<br>
+
+#### Purpose of Frames
+
+
+- **Visual Fluidity:** By using multiple frames, we can create a fluid animation that mimics a real explosion.
+
+> - - #### Instead of just showing a static image, cycling through several images gives the impression of motion.
+
+
+- **Control Over Animation Speed:** The number of frames and the speed at which they are displayed can be adjusted to create different explosion effects.
+
+>For instance, a faster transition can imply a more intense explosion.
+
+- **Resource Management:**
+
+> #### 🟢 Storing frames in a list makes it easy to manage the resources required for the animation, <u>as we can load them all at once</u>  and refer to them as needed.
