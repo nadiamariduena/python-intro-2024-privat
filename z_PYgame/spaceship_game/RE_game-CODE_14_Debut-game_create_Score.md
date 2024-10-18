@@ -320,6 +320,7 @@ def display_score():
 
 ```
 
+[<img src="../Draw_a_Rect_Around_the_Text__SCORE-final-phase.gif"/>]( )
 
 
 
