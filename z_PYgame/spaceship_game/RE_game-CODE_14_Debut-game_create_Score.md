@@ -902,3 +902,75 @@ def update(self, dt):
 
 <br>
 <br>
+
+### 🟤 Step 4: Begin Rotating the Meteor
+
+
+#### To make the meteor rotate, we need to use `pygame.transform.rotozoom` or `pygame.transform.rotate`.
+
+> - - #### ✋ For better quality, rotozoom is recommended, as it can handle resizing and rotation in one step, ✋ avoiding any quality loss that might happen with simple rotation.
+
+#### 🟢 Where to place this: In the update method after updating the position.
+
+```python
+self.image = pygame.transform.rotozoom(self.original_surf, self.rotation, 1)  # Rotate the meteor image
+
+```
+
+<br>
+<br>
+
+### 🟤 Step 5: Create a Rotation Variable
+
+
+#### We need a variable to store the current rotation angle of the meteor.
+
+> #### <u>This variable will be used to update the rotation continuously over time</u> .
+
+- - We initialize it either in the `__init__` method or just before the update method.
+
+#### Where to place this: Just before the update method or at the bottom of the ``__init__` method.
+
+```python
+self.rotation = 0  # Initialize the rotation angle to 0 degrees
+
+```
+
+<br>
+<br>
+
+### 🟤 Step 6: Increment the Rotation Angle
+
+
+#### In each update cycle, the meteor’s rotation angle should increase based on its speed.
+
+> -  #### This makes the meteor rotate smoothly and continuously as it moves through the game world.
+
+#### Where to place this: Inside the update method, before applying the rotation to the image.
+
+```python
+self.rotation += self.rotation_speed * dt  # Increment the rotation based on speed and delta time
+
+```
+
+<br>
+<br>
+
+### 🟤 Step 7: Apply the Rotation to the Image
+
+
+#### Finally, we need to `apply` the `updated` <u>rotation</u>  `angle` to the meteor's image in each update.
+
+> #### This will make the meteor rotate continuously as it moves, creating a dynamic and visually interesting effect.
+
+#### Where to place this: Inside the update method after updating the rotation angle.
+
+```python
+self.image = pygame.transform.rotozoom(self.original_surf, self.rotation, 1)  # Rotate the meteor image with updated angle
+
+```
+
+### Test it
+
+[<img src="../rotating_metors_0.gif"/>]( )
+
