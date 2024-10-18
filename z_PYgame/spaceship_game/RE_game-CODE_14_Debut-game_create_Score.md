@@ -888,3 +888,17 @@ self.rotation_speed = randint(20, 50)  # Assign a random rotation speed for each
 - -  This is important for the meteor to move while also rotating.
 
 #### 🟢 Where to place this: Inside the update method of the meteor class.
+
+```python
+def update(self, dt):
+    # Move the meteor 🪨
+    self.rect.center += self.direction * self.speed * dt
+
+    # Destroy the meteor after its lifetime
+    if pygame.time.get_ticks() - self.start_time >= self.lifetime:
+        self.kill()
+
+```
+
+<br>
+<br>
