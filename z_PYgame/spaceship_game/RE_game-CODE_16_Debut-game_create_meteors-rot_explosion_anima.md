@@ -171,3 +171,28 @@ class AnimateExplosion(pygame.sprite.Sprite):
 **Calling the Parent Class Constructor:** This line calls the constructor of the parent class `(pygame.sprite.Sprite)` and passes the groups parameter to it.
 
 - - This is important for adding the sprite to the specified groups, which lets Pygame keep track of it. This way, the sprite can be updated and drawn on the screen along with other sprites in the group.
+
+<br>
+
+### `self.image = frames[0]`
+
+#### Setting the Initial Image:
+
+- Here, we set the image attribute of the sprite to the first frame in the frames list. This will be the image displayed when the explosion animation starts.
+
+```python
+try:
+    self.image = frames[0]
+
+```
+<br>
+<br>
+
+### 🟠 5. Importing the images
+
+#### In the images folder, there is a subfolder called explosion that contains 20 images named from 1 to 20, all in PNG format.
+
+<br>
+
+### 🟩 You can create a list of the explosion image paths in two ways. Here’s the first method:
+
