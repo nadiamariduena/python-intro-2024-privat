@@ -2453,3 +2453,29 @@ while running:
 
 pygame.quit()
 ```
+
+
+<br>
+<br>
+
+## 🟡 14. Avoid using Global variables
+
+- 🔴 For this game its is fine, but for the next game(vampire), we will avoid it.
+
+<br>
+
+#### Global `running` Variable:
+
+
+### Using a `global running` variable to manage the main loop's state.
+
+>  - #### This is typically not ideal for many reasons, such as:
+
+> - - - #### 🟫 making it harder to manage the game's flow in larger or more modular projects.
+
+<br>
+
+### 🟤 Makes sense for a small project
+
+#### However, in this context, it makes sense for a small project like this where you just need to exit the loop if the player is hit by a meteor.
+
