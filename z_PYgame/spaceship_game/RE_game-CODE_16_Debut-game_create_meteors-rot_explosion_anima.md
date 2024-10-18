@@ -500,3 +500,15 @@ AnimateExplosion(explosion_frames, laser.rect.midtop, all_sprites)
 <br>
 <br>
 <br>
+
+## 🟠 9. Creating an Animation for the Explosion
+
+### Using Different Frames for Animation
+
+To create an animation, we need to display different images from our collection of frames.
+
+> #### Initially, we might set the image like this: so to create an animation , we should assign a different index from self.frames
+
+```python
+ self.image = frames[0]
+```
