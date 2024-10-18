@@ -241,3 +241,25 @@ print(explosion_frames)
 <br>
 
 **Method 2:** This creates a list of complete **paths to the image files** (like `images/explosion/1.png`).
+
+- - - It combines the folder names and the image numbers into a full path, which is very useful when you want to load the images later.
+
+<br>
+<br>
+
+
+
+## 🟠 6.   <u>Loading Images into Pygame</u>
+
+### 🔴 Path Considerations Based on Project Structure
+
+
+#### 🟦 Teacher’s Structure:
+
+```bash
+Root Directory
+audio
+images
+game
+```
+
