@@ -93,3 +93,21 @@ if recent_keys[pygame.K_SPACE] and self.can_shoot:
     # PLAY SOUND
     laser_sound.play()
 ```
+
+
+### As you can see in the video below, the gun sound is working perfectly, but its too Loud 🔊 🔫.
+
+https://github.com/user-attachments/assets/519b0ade-e21c-4500-aec8-3631d9062349
+
+<br>
+<br>
+
+## 🟡 4. Adjusting the Laser Volume
+
+###  If the laser sound is too loud, you can easily adjust its volume to create a more balanced audio experience.
+
+#### To control the volume, use the following line of code:
+
+```python
+laser_sound.set_volume()
+```
