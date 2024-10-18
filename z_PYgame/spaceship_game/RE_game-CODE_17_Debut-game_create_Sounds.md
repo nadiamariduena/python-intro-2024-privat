@@ -1,5 +1,5 @@
 
-# 🟡 SPRITES 10.
+# 🟡 SPRITES 12.
 
 - Sounds
 
