@@ -730,3 +730,34 @@ pygame.quit()
 
 
 ---
+
+### Adding Sound Effects for Player Damage
+
+🟥 This is not in the tutorial. I felt a bit curious because the teacher decided not to add sounds for several hits or include a health management system..
+
+<br>
+<br>
+
+## 🟡 9. Playing a Sound When the Player Gets Hit
+
+
+
+
+
+### 🟠 Our Objective:
+
+#### When the player is hit, we want to trigger a sound effect to emphasize the impact of that event.
+
+
+
+
+### 🟢Implementation Steps:
+
+<br>
+
+**Integrate Sound Playback:**
+
+- We’ll place the sound playback within the collision detection logic.
+
+-  - This way, the sound plays at the exact moment the player is hit.
+
