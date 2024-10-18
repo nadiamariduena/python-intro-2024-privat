@@ -1288,3 +1288,10 @@ pygame.quit()
 
 <br>
 <br>
+
+## 🟡 Adding a basic health management 💓
+
+To add a simple health system that allows the player to be hit three times before the game ends, we can **introduce a `life counter` 💓 in the `Player` class** and modify the collision logic accordingly.
+
+
+### We'll also implement sound effects for losing lives.
