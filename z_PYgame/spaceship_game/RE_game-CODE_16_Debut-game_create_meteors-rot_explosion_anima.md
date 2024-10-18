@@ -145,3 +145,21 @@ class AnimateExplosion(pygame.sprite.Sprite):
 - **Resource Management:**
 
 > #### 🟢 Storing frames in a list makes it easy to manage the resources required for the animation, <u>as we can load them all at once</u>  and refer to them as needed.
+
+<br>
+<br>
+
+### 🟠 4. Initialize the Sprite and Set the Initial Image
+
+
+#### In this step, we will register the `AnimateExplosion` sprite with the specified groups and set the initial image for the explosion animation by using the first frame from the provided list of frames.
+
+
+- i will add the version without the exception frst
+
+```python
+        super().__init__(groups)
+            self.image = frames[0]
+
+            self.rect = self.image.get_frect(center = pos)
+```
