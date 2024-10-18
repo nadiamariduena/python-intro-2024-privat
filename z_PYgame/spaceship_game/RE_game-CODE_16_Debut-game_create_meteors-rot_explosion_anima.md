@@ -782,3 +782,132 @@ class AnimateExplosion(pygame.sprite.Sprite):
 #### In summary, while the idea of incrementing `self.frame_index` with `5 * dt` is a good start for controlling animation speed, we need to ensure that `self.frame_index` stays an integer.
 
 <br>
+
+
+
+
+## Observing the Behavior
+
+> ### 🔺 Take a look at the image below. When we collide with a meteor, an explosion effect occurs, but shortly after, the game crashes.
+
+[<img src="../collision-meteor-explosion_explosion_conitnous_anima.gif"/>]( )
+
+
+
+
+## 🔴 Identifying the Issue
+
+### The underlying problem is that the list index is out of range.
+
+> #### This means that the code is trying to access a part of the list that doesn’t exist.
+
+<br>
+
+
+<br>
+
+### 🟢 Breaking Down the Code
+
+Specifically, the following **line is causing `frame_index` to increase indefinitely**:
+
+```python
+self.frame_index += 5 * dt
+```
+
+### 🔴 WHY?
+
+####  As `frame_index` continues to grow, it eventually points to a `non-existent index in the list`, ✋which leads to the crash.
+
+<br>
+
+
+## 🟤 Let's see it on the console
+
+- add this line **`print(self.frame_index)`** on the code below:
+
+<br>
+
+```python
+    def update(self, dt):
+        self.frame_index += 5 * dt
+
+
+        # self.image = self.frames[self.frame_index]
+        self.image = self.frames[int(self.frame_index)]
+        print(self.frame_index)
+
+```
+<br>
+
+### 🟣 Console Output Observations
+
+ floating-point numbers are typical in Python due to how it handles decimal values, and while they might seem unusual, they are generally not problematic unless they affect the logic or visuals of your project.
+
+#### This created a stream of numbers in the following format:
+
+```python
+1.1500000000000004
+20.904999999999884
+6.199999999999996
+1.1750000000000003
+20.934999999999885
+6.229999999999996
+1.2050000000000003
+20.979999999999887
+6.274999999999996
+1.2500000000000002
+
+```
+
+### 🔴 b) Game Crash Details
+
+- the real issue
+
+> ####  The game crashed a few seconds later, even when no meteor had hit the player.
+
+
+#### the err :
+
+```python
+Traceback (most recent call last):
+  File "main.py", line 389, in <module>
+    all_sprites.update(dt)
+  File "/0_SPACESHIP-game/game/.venv/lib/python3.6/site-packages/pygame/sprite.py", line 556, in update
+    sprite.update(*args, **kwargs)
+  File "main.py", line 274, in update
+    self.image = self.frames[int(self.frame_index)]
+IndexError: list index out of range
+
+```
+
+
+
+#### 🔴 This error means the program tried to access an index in a list that doesn’t exist.
+
+<br>
+
+
+[<img src="../explosion-anima__problem_is_that_the_list_index_is_out_of_range.gif"/>]( )
+
+
+
+
+
+
+## 🌈 Solution:
+
+<a name="modulo_operator_"></a>
+
+### To resolve the issue, we can use the *modulo* `%` operator in conjunction with the `length` of `self.frames`.
+
+This is how it works:
+
+```python
+        self.image = self.frames[int(self.frame_index) % len(self.frames)]
+```
+
+
+[<img src="../explosion_anima__solved_with_modulo-operator.gif"/>]( )
+
+
+---
