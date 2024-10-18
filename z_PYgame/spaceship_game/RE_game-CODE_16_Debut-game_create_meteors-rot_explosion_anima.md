@@ -911,3 +911,79 @@ This is how it works:
 
 
 ---
+
+<br>
+<br>
+<br>
+
+
+
+### 🟣Why Use the Modulo Operator?
+
+<a name="WHY_use_modulor_operator_"></a>
+
+#### 🌈 [MODULO operator ](../a__about_MODULO-operator.md)
+
+
+
+
+
+### 🟠 1. Preventing Index Out of Range
+
+As `frame_index increases` (like counting up), it can sometimes go beyond the number of frames available in our list.
+
+<br>
+
+> #### For instance, if we have a list of 5 frames, they are indexed from 0 to 4.
+
+**Example:**
+
+- - 🟤  **If `frame_index` becomes 6, that’s an invalid index** <u>because there is no frame</u>  **6**.
+
+- #### Using the `modulo` operator helps us avoid this problem.
+
+
+- #### When we apply the modulo operation like this:
+
+```python
+index = frame_index % len(self.frames)
+```
+
+#### If `frame_index` is 6, and `len(self.frames)` is 5, we calculate:
+
+```python
+
+6 % 5 = 1
+```
+#### 🟢 This means the index wraps around to 1, which is a valid position in the list.
+
+<br>
+
+### 🟠 2. Continuous Animation
+
+#### Using the modulo operator allows the animation to keep going smoothly without crashing.
+
+<br>
+
+> #### Instead of stopping the game when `frame_index` is too high, it loops back to the start of the list.
+
+<br>
+
+**Example:**
+
+- - 🌟 If `self.frames` has 10 frames, they are indexed from 0 to 9.
+
+#### If `frame_index` becomes 10, we calculate:
+
+```python
+10 % 10 = 0
+```
+---
+
+<br>
+<br>
+<br>
+
+## 🟦 Moving Forward:
+
+## 🟠 11. Control the Meteor Explosion Animation:
