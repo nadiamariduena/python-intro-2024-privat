@@ -36,3 +36,12 @@
 ### 🟤 1. Create a Function to Display the Score
 
 > #### To show the score on the screen, we first need to create a function dedicated to displaying the score.
+
+This will allow us to manage and update the score as needed during gameplay.
+
+```python
+def display_score():
+```
+<br>
+
+### Why a function?
