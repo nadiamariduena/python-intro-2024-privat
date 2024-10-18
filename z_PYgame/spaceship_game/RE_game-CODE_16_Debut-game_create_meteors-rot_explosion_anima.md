@@ -263,3 +263,36 @@ images
 game
 ```
 
+
+#### 🟦 My Structure:
+
+```bash
+PROJECTGAME (Root Directory)
+audio
+game
+  |___main.py
+images
+  |___explosion
+     |___0.png
+        # and so on ...
+```
+
+<br>
+
+## 🟫 Teachers structure  🟫 :
+
+> ### In the previous code, you created a list of file paths to your explosion images.
+
+- recap
+
+```python
+# Method 2: Create paths to the explosion images
+explosion_frames = [join('images', 'explosion', f'{i}.png') for i in range(1, 21)]
+
+```
+
+#### output
+
+```python
+['images/explosion/0.png', 'images/explosion/1.png', # and SO ON...
+```
