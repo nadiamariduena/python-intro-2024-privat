@@ -205,3 +205,38 @@ def collisions():
 
 ## 🟡 7. You can also play the explosion sound by moving the line into the `AnimateExplosion` class.
 
+
+```python
+explosion_sound.play() # If a collision occurs, the laser is destroyed, an explosion animation is triggered, and the explosion sound plays.
+```
+### ✋This approach works as well.
+
+ Here’s how to do it:
+
+### 🟢 Reposition the Sound Line:
+
+- - Place the `explosion_sound.play()` line inside the AnimateExplosion class.
+
+#### Here’s the updated code:
+
+```python
+class AnimateExplosion(pygame.sprite.Sprite):
+    def __init__(self, frames,pos, groups):
+        super().__init__(groups)
+        try:
+            self.frames = frames
+            self.frame_index = 0
+            self.image = self.frames[self.frame_index]
+
+
+        except KeyError:
+            print("Star image not found in images dictionary.")
+
+
+        self.rect = self.image.get_frect(center = pos)
+
+
+        explosion_sound.play() # 💥🔉 If a collision occurs, the laser is destroyed, an explosion animation is triggered, and the explosion sound plays.
+```
+
+<br>
