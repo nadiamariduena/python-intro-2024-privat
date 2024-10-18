@@ -870,3 +870,12 @@ self.rotation_speed = randint(20, 50)  # Assign a random rotation speed for each
 #### `self.rotation_speed`, you're giving the object a dynamic rotation speed that varies every time the object is created or the code is executed.
 
 ### 🟧 Purpose of the Two Values:
+
+ **The lower bound (20)** is the minimum rotation speed, meaning the object will rotate slowly.
+
+**The upper bound (50)** is the maximum rotation speed, meaning the object can rotate more quickly.
+
+<br>
+<br>
+
+### 🟤 Step 3: Update the Meteor's Position
