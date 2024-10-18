@@ -778,3 +778,14 @@ pygame.quit()
 > #### 🔴 This doesn't give enough time for the sound to play. Even if we add the sound, it won't be audible because of the immediate game closure.
 
 <br>
+
+## 🟠 Delay
+
+### Introducing a Delay
+
+> #### To allow the sound to be heard, we need to introduce a delay.
+
+By adding a delay of **500 milliseconds** (half a second) after playing the sound, we give the game a brief pause before proceeding to the next action.
+
+### Here’s how to modify the code:
+
