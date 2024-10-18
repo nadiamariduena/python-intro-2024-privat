@@ -240,3 +240,31 @@ class AnimateExplosion(pygame.sprite.Sprite):
 ```
 
 <br>
+<br>
+
+## 🟡 8. Setting Up Game Music
+
+
+
+### The teacher has decided not to include a damage sound, as it not necessary.
+
+> #### 🔴 However, if you’re interested in implementing a sound effect for when the player gets hit, go to <u>step 9</u>  ✋
+
+<br>
+
+### Add the game sound:
+
+- The teacher added the following lines to handle the game's background music:
+
+```python
+# The music you will hear when you are playing
+game_music = pygame.mixer.Sound(join('../audio', 'game_music.wav'))
+game_music.set_volume(0.4)
+game_music.play()
+
+```
+
+### output
+
+https://github.com/user-attachments/assets/b7ce5e32-e5ed-40ec-ac23-477fdc92b269
+
