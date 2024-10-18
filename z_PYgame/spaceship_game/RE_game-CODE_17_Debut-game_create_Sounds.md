@@ -111,3 +111,21 @@ https://github.com/user-attachments/assets/519b0ade-e21c-4500-aec8-3631d9062349
 ```python
 laser_sound.set_volume()
 ```
+### 🟢 This function requires a floating-point value between 0 and 1.
+
+Here’s how it works:
+
+- - `0` means the sound is completely muted.
+
+- - `1` means the sound is at full volume.
+For example, to set the volume to **50%**, you would write:
+
+```python
+laser_sound.set_volume(0.5)
+
+```
+
+> 🟤 This means that the sound will play at half of its maximum volume.
+
+<br>
+
