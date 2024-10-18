@@ -62,3 +62,15 @@ def display_score():
 
 
 ```
+
+<br>
+
+### 🟤 3. Track the Elapsed
+
+### `pygame.time.get_ticks()`
+
+
+
+#### 🟧 To keep track of time within your game or application, it is essential to capture the number of milliseconds since pygame was initialized.
+
+> ####  This is where `pygame.time.get_ticks()` comes in.
