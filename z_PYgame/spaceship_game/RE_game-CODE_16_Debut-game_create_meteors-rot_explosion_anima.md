@@ -163,3 +163,11 @@ class AnimateExplosion(pygame.sprite.Sprite):
 
             self.rect = self.image.get_frect(center = pos)
 ```
+
+### Explanation:
+
+#### `super().__init__(groups)`:
+
+**Calling the Parent Class Constructor:** This line calls the constructor of the parent class `(pygame.sprite.Sprite)` and passes the groups parameter to it.
+
+- - This is important for adding the sprite to the specified groups, which lets Pygame keep track of it. This way, the sprite can be updated and drawn on the screen along with other sprites in the group.
