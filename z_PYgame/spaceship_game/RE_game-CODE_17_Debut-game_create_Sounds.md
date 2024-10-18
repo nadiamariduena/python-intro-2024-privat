@@ -268,3 +268,18 @@ game_music.play()
 
 https://github.com/user-attachments/assets/b7ce5e32-e5ed-40ec-ac23-477fdc92b269
 
+
+<br>
+
+### 🔴 Playing with Loops: This command starts playing the music and loops it 5 times.
+
+```python
+game_music.play(loops=5)
+
+```
+
+- - So, the music will play once, then repeat for an additional four times (a total of five times).
+
+```python
+game_music.play(loops=-1)  # indefinitely
+```
