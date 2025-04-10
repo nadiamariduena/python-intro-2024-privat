@@ -599,7 +599,7 @@ player_rect = player_surf.get_rect(center=(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2))
 <br>
 <br>
 
-## 🌈 Why This Happens:
+## 🌈 🔴 Why This Happens:
 
 
 - `Frect` allows for floating-point values (like `0.25`), which lets you animate the rectangle smoothly.
