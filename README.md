@@ -5,7 +5,7 @@
 <br>
 <br>
 
-## 📝 Resources I Used:
+## 📝  🚀Resources I Used:
 
 I utilized the following videos and text to learn:
 
